@@ -369,7 +369,7 @@ class _GameScreenState extends State<GameScreen> {
                   child: GridView.builder(
                     gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
-                      childAspectRatio: 3.5, // Augmenté pour réduire la hauteur des cases
+                      childAspectRatio: 2.8, // Réduit pour augmenter la hauteur des cases de 20%
                       crossAxisSpacing: 10,
                       mainAxisSpacing: 8,
                     ),
