@@ -1,0 +1,4651 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-07-31T19:54:33.952319",
+  "quiz_count": 91,
+  "themes": [
+    "Performance"
+  ],
+  "data": [
+    {
+      "id": 1,
+      "title": "Top 10 meilleurs buteurs - premier-league (2024-25)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Bryan Mbeumo",
+          "nationality": "cameroon"
+        },
+        {
+          "name": "Chris Wood",
+          "nationality": "nouvelle-zélande"
+        },
+        {
+          "name": "Yoane Wissa",
+          "nationality": "rd congo"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "england"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "england"
+        },
+        {
+          "name": "Matheus Cunha",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Jørgen Strand Larsen",
+          "nationality": "norway"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952353"
+    },
+    {
+      "id": 2,
+      "title": "Top 10 meilleurs buteurs - premier-league (2023-24)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "england"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": ""
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "england"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": ""
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "england"
+        },
+        {
+          "name": "Dominic Solanke",
+          "nationality": ""
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "england"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "england"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "england"
+        },
+        {
+          "name": "Jean-philippe Mateta",
+          "nationality": ""
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952356"
+    },
+    {
+      "id": 3,
+      "title": "Top 10 meilleurs buteurs - premier-league (2022-23)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Ivan Toney",
+          "nationality": "england"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "england"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "england"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norway"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "england"
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "england"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952360"
+    },
+    {
+      "id": 4,
+      "title": "Top 10 meilleurs buteurs - premier-league (2021-22)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "south korea"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Sadio Mane",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Diogo Jota",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england"
+        },
+        {
+          "name": "Wilfried Zaha",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952364"
+    },
+    {
+      "id": 5,
+      "title": "Top 10 meilleurs buteurs - premier-league (2020-21)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "south korea"
+        },
+        {
+          "name": "Patrick Bamford",
+          "nationality": "england"
+        },
+        {
+          "name": "Dominic Calvert-lewin",
+          "nationality": "england"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "england"
+        },
+        {
+          "name": "Ilkay Gundogan",
+          "nationality": "germany"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952367"
+    },
+    {
+      "id": 6,
+      "title": "Top 10 meilleurs buteurs - premier-league (2019-20)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Danny Ings",
+          "nationality": "england"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Sadio Mane",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "england"
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france"
+        },
+        {
+          "name": "Raul Jimenez",
+          "nationality": "mexique"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952370"
+    },
+    {
+      "id": 7,
+      "title": "Top 10 meilleurs buteurs - premier-league (2018-19)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Sadio Mane",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "england"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952372"
+    },
+    {
+      "id": 8,
+      "title": "Top 10 meilleurs buteurs - premier-league (2017-18)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algeria"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952375"
+    },
+    {
+      "id": 9,
+      "title": "Top 10 meilleurs buteurs - premier-league (2016-17)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Alexis Sanchez",
+          "nationality": "chili"
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "spain"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Dele Alli",
+          "nationality": "england"
+        },
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Joshua King",
+          "nationality": "norway"
+        },
+        {
+          "name": "Jermain Defoe",
+          "nationality": "england"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952378"
+    },
+    {
+      "id": 10,
+      "title": "Top 10 meilleurs buteurs - premier-league (2015-16)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algeria"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france"
+        },
+        {
+          "name": "Odion Ighalo",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Jermain Defoe",
+          "nationality": "england"
+        },
+        {
+          "name": "Troy Deeney",
+          "nationality": "england"
+        },
+        {
+          "name": "Alexis Sanchez",
+          "nationality": "chili"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952381"
+    },
+    {
+      "id": 11,
+      "title": "Top 10 meilleurs buteurs - premier-league (2014-15)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "spain"
+        },
+        {
+          "name": "Charlie Austin",
+          "nationality": "england"
+        },
+        {
+          "name": "Alexis Sanchez",
+          "nationality": "chili"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france"
+        },
+        {
+          "name": "Saido Berahino",
+          "nationality": "burundi"
+        },
+        {
+          "name": "Christian Benteke",
+          "nationality": "belgium"
+        },
+        {
+          "name": "David Silva",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952384"
+    },
+    {
+      "id": 12,
+      "title": "Top 10 meilleurs buteurs - premier-league (2013-14)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Daniel Sturridge",
+          "nationality": "england"
+        },
+        {
+          "name": "Yaya Toure",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "england"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Wilfried Bony",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france"
+        },
+        {
+          "name": "Edin Dzeko",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Jay Rodriguez",
+          "nationality": "england"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952387"
+    },
+    {
+      "id": 13,
+      "title": "Top 10 meilleurs buteurs - premier-league (2012-13)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Robin Van Persie",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles"
+        },
+        {
+          "name": "Christian Benteke",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Michu",
+          "nationality": "spain"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Rickie Lambert",
+          "nationality": "england"
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie"
+        },
+        {
+          "name": "Demba Ba",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Frank Lampard",
+          "nationality": "england"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952390"
+    },
+    {
+      "id": 14,
+      "title": "Top 10 meilleurs buteurs - premier-league (2011-12)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Robin Van Persie",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "england"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Emmanuel Adebayor",
+          "nationality": "togo"
+        },
+        {
+          "name": "Clint Dempsey",
+          "nationality": "états-unis"
+        },
+        {
+          "name": "Yakubu Aiyegbeni",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Demba Ba",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Grant Holt",
+          "nationality": "england"
+        },
+        {
+          "name": "Edin Dzeko",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Papiss Demba Cisse",
+          "nationality": "senegal"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952393"
+    },
+    {
+      "id": 15,
+      "title": "Top 10 meilleurs buteurs - premier-league (2010-11)",
+      "theme": "Performance",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 premier-league",
+      "answers": [
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie"
+        },
+        {
+          "name": "Robin Van Persie",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Darren Bent",
+          "nationality": "england"
+        },
+        {
+          "name": "Peter Odemwingie",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Rafael Van Der Vaart",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Dirk Kuyt",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Andy Carroll",
+          "nationality": "england"
+        },
+        {
+          "name": "Florent Malouda",
+          "nationality": "france"
+        },
+        {
+          "name": "Dj Campbell",
+          "nationality": "england"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952396"
+    },
+    {
+      "id": 16,
+      "title": "Top 10 meilleurs buteurs - la-liga (2024-25)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norway"
+        },
+        {
+          "name": "Ayoze Perez",
+          "nationality": "spain"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Julian Alvarez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Oihan Sancet",
+          "nationality": "spain"
+        },
+        {
+          "name": "Kike Garcia",
+          "nationality": "spain"
+        },
+        {
+          "name": "Javi Puado",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952399"
+    },
+    {
+      "id": 17,
+      "title": "Top 10 meilleurs buteurs - la-liga (2023-24)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norway"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "england"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Youssef En-nesyri",
+          "nationality": "morocco"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Alvaro Morata",
+          "nationality": "spain"
+        },
+        {
+          "name": "Borja Mayoral",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952402"
+    },
+    {
+      "id": 18,
+      "title": "Top 10 meilleurs buteurs - la-liga (2022-23)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Joselu",
+          "nationality": "spain"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Vedat Muriqi",
+          "nationality": "kosovo"
+        },
+        {
+          "name": "Borja Iglesias",
+          "nationality": "spain"
+        },
+        {
+          "name": "Enes Unal",
+          "nationality": "turquie"
+        },
+        {
+          "name": "Alvaro Morata",
+          "nationality": "spain"
+        },
+        {
+          "name": "Taty Castellanos",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952405"
+    },
+    {
+      "id": 19,
+      "title": "Top 10 meilleurs buteurs - la-liga (2021-22)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain"
+        },
+        {
+          "name": "Raul De Tomas",
+          "nationality": "spain"
+        },
+        {
+          "name": "Juanmi",
+          "nationality": "spain"
+        },
+        {
+          "name": "Enes Unal",
+          "nationality": "turquie"
+        },
+        {
+          "name": "Joselu",
+          "nationality": "spain"
+        },
+        {
+          "name": "Jose Luis Morales",
+          "nationality": "spain"
+        },
+        {
+          "name": "Angel Correa",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "netherlands"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952407"
+    },
+    {
+      "id": 20,
+      "title": "Top 10 meilleurs buteurs - la-liga (2020-21)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Youssef En-nesyri",
+          "nationality": "morocco"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Jose Luis Morales",
+          "nationality": "spain"
+        },
+        {
+          "name": "Rafa Mir",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952411"
+    },
+    {
+      "id": 21,
+      "title": "Top 10 meilleurs buteurs - la-liga (2019-20)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Raul Garcia",
+          "nationality": "spain"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain"
+        },
+        {
+          "name": "Lucas Ocampos",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Alvaro Morata",
+          "nationality": "spain"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952413"
+    },
+    {
+      "id": 22,
+      "title": "Top 10 meilleurs buteurs - la-liga (2018-19)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Cristhian Stuani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Borja Iglesias",
+          "nationality": "spain"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Jaime Mata",
+          "nationality": "spain"
+        },
+        {
+          "name": "Jorge Molina",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952416"
+    },
+    {
+      "id": 23,
+      "title": "Top 10 meilleurs buteurs - la-liga (2017-18)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain"
+        },
+        {
+          "name": "Cristhian Stuani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Maxi Gomez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Rodrigo",
+          "nationality": "spain"
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952418"
+    },
+    {
+      "id": 24,
+      "title": "Top 10 meilleurs buteurs - la-liga (2016-17)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "spain"
+        },
+        {
+          "name": "Alvaro Morata",
+          "nationality": "spain"
+        },
+        {
+          "name": "Sandro Ramirez",
+          "nationality": "spain"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952434"
+    },
+    {
+      "id": 25,
+      "title": "Top 10 meilleurs buteurs - la-liga (2015-16)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "spain"
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles"
+        },
+        {
+          "name": "Ruben Castro",
+          "nationality": "spain"
+        },
+        {
+          "name": "Borja Baston",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952437"
+    },
+    {
+      "id": 26,
+      "title": "Top 10 meilleurs buteurs - la-liga (2014-15)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Carlos Bacca",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "spain"
+        },
+        {
+          "name": "Alberto Bueno",
+          "nationality": "spain"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Sergio Garcia",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952440"
+    },
+    {
+      "id": 27,
+      "title": "Top 10 meilleurs buteurs - la-liga (2013-14)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "spain"
+        },
+        {
+          "name": "Alexis Sanchez",
+          "nationality": "chili"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Carlos Vela",
+          "nationality": "mexique"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "spain"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles"
+        },
+        {
+          "name": "Pedro",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952443"
+    },
+    {
+      "id": 28,
+      "title": "Top 10 meilleurs buteurs - la-liga (2012-13)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Alvaro Negredo",
+          "nationality": "spain"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "spain"
+        },
+        {
+          "name": "Ruben Castro",
+          "nationality": "spain"
+        },
+        {
+          "name": "Piti",
+          "nationality": "spain"
+        },
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Carlos Vela",
+          "nationality": "mexique"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952446"
+    },
+    {
+      "id": 29,
+      "title": "Top 10 meilleurs buteurs - la-liga (2011-12)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "spain"
+        },
+        {
+          "name": "Fernando Llorente",
+          "nationality": "spain"
+        },
+        {
+          "name": "Ruben Castro",
+          "nationality": "spain"
+        },
+        {
+          "name": "Michu",
+          "nationality": "spain"
+        },
+        {
+          "name": "Arouna Kone",
+          "nationality": "ivory coast"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952449"
+    },
+    {
+      "id": 30,
+      "title": "Top 10 meilleurs buteurs - la-liga (2010-11)",
+      "theme": "Performance",
+      "hint": "🇪🇸 la-liga",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Alvaro Negredo",
+          "nationality": "spain"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "spain"
+        },
+        {
+          "name": "Giuseppe Rossi",
+          "nationality": "italy"
+        },
+        {
+          "name": "Fernando Llorente",
+          "nationality": "spain"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "spain"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Salomon Rondon",
+          "nationality": "venezuela"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952451"
+    },
+    {
+      "id": 31,
+      "title": "Top 10 meilleurs buteurs - serie-a (2024-25)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Mateo Retegui",
+          "nationality": "italy"
+        },
+        {
+          "name": "Moise Kean",
+          "nationality": "italy"
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Riccardo Orsolini",
+          "nationality": "italy"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france"
+        },
+        {
+          "name": "Scott Mctominay",
+          "nationality": "écosse"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine"
+        },
+        {
+          "name": "Lorenzo Lucca",
+          "nationality": "italy"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952455"
+    },
+    {
+      "id": 32,
+      "title": "Top 10 meilleurs buteurs - serie-a (2023-24)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Lautaro Martinez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Dusan Vlahovic",
+          "nationality": "serbie"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Albert Gudmundsson",
+          "nationality": "islande"
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Duvan Zapata",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Hakan Calhanoglu",
+          "nationality": "turquie"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952458"
+    },
+    {
+      "id": 33,
+      "title": "Top 10 meilleurs buteurs - serie-a (2022-23)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Boulaye Dia",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Rafael Leao",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france"
+        },
+        {
+          "name": "Mbala Nzola",
+          "nationality": "angola"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "georgia"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italy"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentina"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952460"
+    },
+    {
+      "id": 34,
+      "title": "Top 10 meilleurs buteurs - serie-a (2021-22)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Dusan Vlahovic",
+          "nationality": "serbie"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Giovanni Simeone",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Tammy Abraham",
+          "nationality": "england"
+        },
+        {
+          "name": "Gianluca Scamacca",
+          "nationality": "italy"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italy"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Marko Arnautovic",
+          "nationality": "autriche"
+        },
+        {
+          "name": "Mario Pasalic",
+          "nationality": "croatia"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952464"
+    },
+    {
+      "id": 35,
+      "title": "Top 10 meilleurs buteurs - serie-a (2020-21)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Dusan Vlahovic",
+          "nationality": "serbie"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Simy",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italy"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italy"
+        },
+        {
+          "name": "Joao Pedro",
+          "nationality": "italy"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952466"
+    },
+    {
+      "id": 36,
+      "title": "Top 10 meilleurs buteurs - serie-a (2019-20)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Francesco Caputo",
+          "nationality": "italy"
+        },
+        {
+          "name": "Duvan Zapata",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Joao Pedro",
+          "nationality": "italy"
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Edin Dzeko",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Andrea Belotti",
+          "nationality": "italy"
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952469"
+    },
+    {
+      "id": 37,
+      "title": "Top 10 meilleurs buteurs - serie-a (2018-19)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Fabio Quagliarella",
+          "nationality": "italy"
+        },
+        {
+          "name": "Duvan Zapata",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Arkadiusz Milik",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Francesco Caputo",
+          "nationality": "italy"
+        },
+        {
+          "name": "Leonardo Pavoletti",
+          "nationality": "italy"
+        },
+        {
+          "name": "Andrea Petagna",
+          "nationality": "italy"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952472"
+    },
+    {
+      "id": 38,
+      "title": "Top 10 meilleurs buteurs - serie-a (2017-18)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Fabio Quagliarella",
+          "nationality": "italy"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Edin Dzeko",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Giovanni Simeone",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Iago Falque",
+          "nationality": "spain"
+        },
+        {
+          "name": "Sergej Milinkovic-savic",
+          "nationality": "serbie"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952477"
+    },
+    {
+      "id": 39,
+      "title": "Top 10 meilleurs buteurs - serie-a (2016-17)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Edin Dzeko",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Andrea Belotti",
+          "nationality": "italy"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italy"
+        },
+        {
+          "name": "Papu Gomez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Keita Balde",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Marco Borriello",
+          "nationality": "italy"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952480"
+    },
+    {
+      "id": 40,
+      "title": "Top 10 meilleurs buteurs - serie-a (2015-16)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Carlos Bacca",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Leonardo Pavoletti",
+          "nationality": "italy"
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie"
+        },
+        {
+          "name": "Massimo Maccarone",
+          "nationality": "italy"
+        },
+        {
+          "name": "Eder",
+          "nationality": "italy"
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italy"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952493"
+    },
+    {
+      "id": 41,
+      "title": "Top 10 meilleurs buteurs - serie-a (2014-15)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Luca Toni",
+          "nationality": "italy"
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Jeremy Menez",
+          "nationality": "france"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italy"
+        },
+        {
+          "name": "Manolo Gabbiadini",
+          "nationality": "italy"
+        },
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italy"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "germany"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952496"
+    },
+    {
+      "id": 42,
+      "title": "Top 10 meilleurs buteurs - serie-a (2013-14)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Luca Toni",
+          "nationality": "italy"
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Rodrigo Palacio",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italy"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italy"
+        },
+        {
+          "name": "Fernando Llorente",
+          "nationality": "spain"
+        },
+        {
+          "name": "Giuseppe Rossi",
+          "nationality": "italy"
+        },
+        {
+          "name": "Jose Callejon",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952499"
+    },
+    {
+      "id": 43,
+      "title": "Top 10 meilleurs buteurs - serie-a (2012-13)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italy"
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italy"
+        },
+        {
+          "name": "Daniel Osvaldo",
+          "nationality": "italy"
+        },
+        {
+          "name": "German Denis",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Erik Lamela",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "germany"
+        },
+        {
+          "name": "Giampaolo Pazzini",
+          "nationality": "italy"
+        },
+        {
+          "name": "Gonzalo Bergessio",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Stevan Jovetic",
+          "nationality": "monténégro"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952502"
+    },
+    {
+      "id": 44,
+      "title": "Top 10 meilleurs buteurs - serie-a (2011-12)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Diego Milito",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italy"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Rodrigo Palacio",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Fabrizio Miccoli",
+          "nationality": "italy"
+        },
+        {
+          "name": "German Denis",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Sebastian Giovinco",
+          "nationality": "italy"
+        },
+        {
+          "name": "Stevan Jovetic",
+          "nationality": "monténégro"
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "germany"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952505"
+    },
+    {
+      "id": 45,
+      "title": "Top 10 meilleurs buteurs - serie-a (2010-11)",
+      "theme": "Performance",
+      "hint": "🇮🇹 serie-a",
+      "answers": [
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italy"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Samuel Etoo",
+          "nationality": "cameroon"
+        },
+        {
+          "name": "Alessandro Matri",
+          "nationality": "italy"
+        },
+        {
+          "name": "Marco Di Vaio",
+          "nationality": "italy"
+        },
+        {
+          "name": "Giampaolo Pazzini",
+          "nationality": "italy"
+        },
+        {
+          "name": "Francesco Totti",
+          "nationality": "italy"
+        },
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Alexandre Pato",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brazil"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952508"
+    },
+    {
+      "id": 46,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2024-25)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie"
+        },
+        {
+          "name": "Jonathan Burkardt",
+          "nationality": "germany"
+        },
+        {
+          "name": "Tim Kleindienst",
+          "nationality": "germany"
+        },
+        {
+          "name": "Omar Marmoush",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Hugo Ekitike",
+          "nationality": "france"
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952511"
+    },
+    {
+      "id": 47,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2023-24)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée"
+        },
+        {
+          "name": "Lois Openda",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Deniz Undav",
+          "nationality": "germany"
+        },
+        {
+          "name": "Maximilian Beier",
+          "nationality": "germany"
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Victor Boniface",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie"
+        },
+        {
+          "name": "Donyell Malen",
+          "nationality": "netherlands"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952513"
+    },
+    {
+      "id": 48,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2022-23)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france"
+        },
+        {
+          "name": "Niclas Fullkrug",
+          "nationality": "germany"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "nationality": "france"
+        },
+        {
+          "name": "Vincenzo Grifo",
+          "nationality": "italy"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "germany"
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france"
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "germany"
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "germany"
+        },
+        {
+          "name": "Marvin Ducksch",
+          "nationality": "germany"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatia"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952516"
+    },
+    {
+      "id": 49,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2021-22)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france"
+        },
+        {
+          "name": "Anthony Modeste",
+          "nationality": "france"
+        },
+        {
+          "name": "Taiwo Awoniyi",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "germany"
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france"
+        },
+        {
+          "name": "Max Kruse",
+          "nationality": "germany"
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "germany"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952519"
+    },
+    {
+      "id": 50,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2020-21)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Andre Silva",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Sasa Kalajdzic",
+          "nationality": "autriche"
+        },
+        {
+          "name": "Lars Stindl",
+          "nationality": "germany"
+        },
+        {
+          "name": "Thomas Muller",
+          "nationality": "germany"
+        },
+        {
+          "name": "Silas",
+          "nationality": "rd congo"
+        },
+        {
+          "name": "Max Kruse",
+          "nationality": "germany"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952521"
+    },
+    {
+      "id": 51,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2019-20)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "germany"
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "england"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Rouwen Hennings",
+          "nationality": "germany"
+        },
+        {
+          "name": "Florian Niederlechner",
+          "nationality": "germany"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Robin Quaison",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Jhon Cordoba",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "germany"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952525"
+    },
+    {
+      "id": 52,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2018-19)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Paco Alcacer",
+          "nationality": "spain"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "germany"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Luka Jovic",
+          "nationality": "serbie"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "germany"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "germany"
+        },
+        {
+          "name": "Ishak Belfodil",
+          "nationality": "algeria"
+        },
+        {
+          "name": "Sebastien Haller",
+          "nationality": "ivory coast"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952527"
+    },
+    {
+      "id": 53,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2017-18)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Nils Petersen",
+          "nationality": "germany"
+        },
+        {
+          "name": "Mark Uth",
+          "nationality": "germany"
+        },
+        {
+          "name": "Niclas Fullkrug",
+          "nationality": "germany"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "germany"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "germany"
+        },
+        {
+          "name": "Michael Gregoritsch",
+          "nationality": "autriche"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Sandro Wagner",
+          "nationality": "germany"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952530"
+    },
+    {
+      "id": 54,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2016-17)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Anthony Modeste",
+          "nationality": "france"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "germany"
+        },
+        {
+          "name": "Mario Gomez",
+          "nationality": "germany"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Max Kruse",
+          "nationality": "germany"
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Vedad Ibisevic",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Sandro Wagner",
+          "nationality": "germany"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952533"
+    },
+    {
+      "id": 55,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2015-16)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Thomas Muller",
+          "nationality": "germany"
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique"
+        },
+        {
+          "name": "Anthony Modeste",
+          "nationality": "france"
+        },
+        {
+          "name": "Sandro Wagner",
+          "nationality": "germany"
+        },
+        {
+          "name": "Claudio Pizarro",
+          "nationality": "pérou"
+        },
+        {
+          "name": "Salomon Kalou",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Raffael",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Daniel Didavi",
+          "nationality": "germany"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952536"
+    },
+    {
+      "id": 56,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2014-15)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Alexander Meier",
+          "nationality": "germany"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Bas Dost",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Thomas Muller",
+          "nationality": "germany"
+        },
+        {
+          "name": "Franco Di Santo",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Karim Bellarabi",
+          "nationality": "germany"
+        },
+        {
+          "name": "Shinji Okazaki",
+          "nationality": "japon"
+        },
+        {
+          "name": "Raffael",
+          "nationality": "brazil"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952539"
+    },
+    {
+      "id": 57,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2013-14)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Mario Mandzukic",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Josip Drmic",
+          "nationality": "suisse"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "germany"
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Adrian Ramos",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Stefan Kießling",
+          "nationality": "germany"
+        },
+        {
+          "name": "Shinji Okazaki",
+          "nationality": "japon"
+        },
+        {
+          "name": "Raffael",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Ivica Olic",
+          "nationality": "croatia"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952541"
+    },
+    {
+      "id": 58,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2012-13)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Stefan Kießling",
+          "nationality": "germany"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Alexander Meier",
+          "nationality": "germany"
+        },
+        {
+          "name": "Vedad Ibisevic",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Mario Mandzukic",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "germany"
+        },
+        {
+          "name": "Thomas Muller",
+          "nationality": "germany"
+        },
+        {
+          "name": "Adam Szalai",
+          "nationality": "hongrie"
+        },
+        {
+          "name": "Mame Diouf",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Artjoms Rudnevs",
+          "nationality": "lettonie"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952544"
+    },
+    {
+      "id": 59,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2011-12)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Klaas-jan Huntelaar",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Mario Gomez",
+          "nationality": "germany"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "germany"
+        },
+        {
+          "name": "Claudio Pizarro",
+          "nationality": "pérou"
+        },
+        {
+          "name": "Lukas Podolski",
+          "nationality": "germany"
+        },
+        {
+          "name": "Martin Harnik",
+          "nationality": "autriche"
+        },
+        {
+          "name": "Stefan Kießling",
+          "nationality": "germany"
+        },
+        {
+          "name": "Raul",
+          "nationality": "spain"
+        },
+        {
+          "name": "Shinji Kagawa",
+          "nationality": "japon"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952547"
+    },
+    {
+      "id": 60,
+      "title": "Top 10 meilleurs buteurs - bundesliga (2010-11)",
+      "theme": "Performance",
+      "hint": "🇩🇪 bundesliga",
+      "answers": [
+        {
+          "name": "Mario Gomez",
+          "nationality": "germany"
+        },
+        {
+          "name": "Papiss Demba Cisse",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Milivoje Novakovic",
+          "nationality": "slovénie"
+        },
+        {
+          "name": "Lucas Barrios",
+          "nationality": "paraguay"
+        },
+        {
+          "name": "Theofanis Gekas",
+          "nationality": "grèce"
+        },
+        {
+          "name": "Srdjan Lakic",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Andre Schurrle",
+          "nationality": "germany"
+        },
+        {
+          "name": "Didier Ya Konan",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Lukas Podolski",
+          "nationality": "germany"
+        },
+        {
+          "name": "Raul",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952550"
+    },
+    {
+      "id": 61,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2024-25)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Ousmane Dembele",
+          "nationality": "france"
+        },
+        {
+          "name": "Mason Greenwood",
+          "nationality": "england"
+        },
+        {
+          "name": "Arnaud Kalimuendo",
+          "nationality": "france"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france"
+        },
+        {
+          "name": "Emanuel Emegha",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Amine Gouiri",
+          "nationality": "algeria"
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "nationality": "france"
+        },
+        {
+          "name": "Mika Biereth",
+          "nationality": "danemark"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952553"
+    },
+    {
+      "id": 62,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2023-24)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "kylian mbappé"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "france"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "france"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Thijs Dallinga",
+          "nationality": ""
+        },
+        {
+          "name": "Georges Mikautadze",
+          "nationality": ""
+        },
+        {
+          "name": "Terem Moffi",
+          "nationality": "france"
+        },
+        {
+          "name": "Goncalo Ramos",
+          "nationality": "gonçalo ramos"
+        },
+        {
+          "name": "Arnaud Kalimuendo",
+          "nationality": ""
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952556"
+    },
+    {
+      "id": 63,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2022-23)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada"
+        },
+        {
+          "name": "Lois Openda",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Folarin Balogun",
+          "nationality": "états-unis"
+        },
+        {
+          "name": "Habib Diallo",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Elye Wahi",
+          "nationality": "france"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Terem Moffi",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952558"
+    },
+    {
+      "id": 64,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2021-22)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Martin Terrier",
+          "nationality": "france"
+        },
+        {
+          "name": "Moussa Dembele",
+          "nationality": "france"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algeria"
+        },
+        {
+          "name": "Gaetan Laborde",
+          "nationality": "france"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada"
+        },
+        {
+          "name": "Mohamed Bayo",
+          "nationality": "guinée"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952561"
+    },
+    {
+      "id": 65,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2020-21)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Gaetan Laborde",
+          "nationality": "france"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "germany"
+        },
+        {
+          "name": "Burak Yılmaz",
+          "nationality": "turquie"
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "nationality": "france"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algeria"
+        },
+        {
+          "name": "Karl Toko Ekambi",
+          "nationality": "cameroon"
+        },
+        {
+          "name": "Terem Moffi",
+          "nationality": "nigeria"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952564"
+    },
+    {
+      "id": 66,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2019-20)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Moussa Dembele",
+          "nationality": "france"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Habib Diallo",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Kasper Dolberg",
+          "nationality": "danemark"
+        },
+        {
+          "name": "Dario Benedetto",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Denis Bouanga",
+          "nationality": "gabon"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952566"
+    },
+    {
+      "id": 67,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2018-19)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Nicolas Pepe",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Moussa Dembele",
+          "nationality": "france"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algeria"
+        },
+        {
+          "name": "Wahbi Khazri",
+          "nationality": "tunisia"
+        },
+        {
+          "name": "Jonathan Bamba",
+          "nationality": "ivory coast"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952569"
+    },
+    {
+      "id": 68,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2017-18)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france"
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Nabil Fekir",
+          "nationality": "france"
+        },
+        {
+          "name": "Mariano Diaz",
+          "nationality": "république dominicaine"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italy"
+        },
+        {
+          "name": "Karl Toko Ekambi",
+          "nationality": "cameroon"
+        },
+        {
+          "name": "Alassane Plea",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952572"
+    },
+    {
+      "id": 69,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2016-17)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Bafetimbi Gomis",
+          "nationality": "france"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france"
+        },
+        {
+          "name": "Ivan Santini",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italy"
+        },
+        {
+          "name": "Steve Mounie",
+          "nationality": "bénin"
+        },
+        {
+          "name": "Nicolas De Preville",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952575"
+    },
+    {
+      "id": 70,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2015-16)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Michy Batshuayi",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Hatem Ben Arfa",
+          "nationality": "france"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Valere Germain",
+          "nationality": "france"
+        },
+        {
+          "name": "Benjamin Moukandjo",
+          "nationality": "cameroon"
+        },
+        {
+          "name": "Ousmane Dembele",
+          "nationality": "france"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algeria"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952577"
+    },
+    {
+      "id": 71,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2014-15)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Andre-pierre Gignac",
+          "nationality": "france"
+        },
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Claudio Beauvue",
+          "nationality": "guadeloupe"
+        },
+        {
+          "name": "Max Gradel",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Diego Rolan",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Nabil Fekir",
+          "nationality": "france"
+        },
+        {
+          "name": "Jordan Ayew",
+          "nationality": "ghana"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952580"
+    },
+    {
+      "id": 72,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2013-14)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Vincent Aboubakar",
+          "nationality": "cameroon"
+        },
+        {
+          "name": "Salomon Kalou",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Andre-pierre Gignac",
+          "nationality": "france"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Remy Cabella",
+          "nationality": "france"
+        },
+        {
+          "name": "Bafetimbi Gomis",
+          "nationality": "france"
+        },
+        {
+          "name": "Mevlut Erdinc",
+          "nationality": "turquie"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952583"
+    },
+    {
+      "id": 73,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2012-13)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Dario Cvitanich",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Bafetimbi Gomis",
+          "nationality": "france"
+        },
+        {
+          "name": "Jeremie Aliadiere",
+          "nationality": "france"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Anthony Modeste",
+          "nationality": "france"
+        },
+        {
+          "name": "Salomon Kalou",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Saber Khalifa",
+          "nationality": "tunisia"
+        },
+        {
+          "name": "Andre-pierre Gignac",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952586"
+    },
+    {
+      "id": 74,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2011-12)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Nene",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Lisandro Lopez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Yoan Gouffran",
+          "nationality": "france"
+        },
+        {
+          "name": "Bafetimbi Gomis",
+          "nationality": "france"
+        },
+        {
+          "name": "Javier Pastore",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Loic Remy",
+          "nationality": "france"
+        },
+        {
+          "name": "Younes Belhanda",
+          "nationality": "morocco"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952589"
+    },
+    {
+      "id": 75,
+      "title": "Top 10 meilleurs buteurs - ligue-1 (2010-11)",
+      "theme": "Performance",
+      "hint": "🇫🇷 ligue-1",
+      "answers": [
+        {
+          "name": "Moussa Sow",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Kevin Gameiro",
+          "nationality": "france"
+        },
+        {
+          "name": "Youssef El Arabi",
+          "nationality": "morocco"
+        },
+        {
+          "name": "Lisandro Lopez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Gregory Pujol",
+          "nationality": "france"
+        },
+        {
+          "name": "Loic Remy",
+          "nationality": "france"
+        },
+        {
+          "name": "Gervinho",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Brown Ideye",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Modibo Maiga",
+          "nationality": "mali"
+        },
+        {
+          "name": "Nene",
+          "nationality": "brazil"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952592"
+    },
+    {
+      "id": 76,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2024)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Mateo Retegui",
+          "nationality": "italy"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatia"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952594"
+    },
+    {
+      "id": 77,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2023)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "england"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "kylian mbappé"
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Lois Openda",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norway"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": ""
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "england"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952597"
+    },
+    {
+      "id": 78,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2022)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Lois Openda",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Folarin Balogun",
+          "nationality": "états-unis"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952601"
+    },
+    {
+      "id": 79,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2021)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france"
+        },
+        {
+          "name": "Dusan Vlahovic",
+          "nationality": "serbie"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "south korea"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952604"
+    },
+    {
+      "id": 80,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2020)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Andre Silva",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952607"
+    },
+    {
+      "id": 81,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2019)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "germany"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Danny Ings",
+          "nationality": "england"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952610"
+    },
+    {
+      "id": 82,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2018)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "nationality": "france"
+        },
+        {
+          "name": "Fabio Quagliarella",
+          "nationality": "italy"
+        },
+        {
+          "name": "Duvan Zapata",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Sadio Mane",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Nicolas Pepe",
+          "nationality": "ivory coast"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952613"
+    },
+    {
+      "id": 83,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2017)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952615"
+    },
+    {
+      "id": 84,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2016)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Edin Dzeko",
+          "nationality": "bosnie-herzégovine"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgium"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Andrea Belotti",
+          "nationality": "italy"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952619"
+    },
+    {
+      "id": 85,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2015)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Pierre-emerick Aubameyang",
+          "nationality": "gabon"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952622"
+    },
+    {
+      "id": 86,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2014)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Luca Toni",
+          "nationality": "italy"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Andre-pierre Gignac",
+          "nationality": "france"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952624"
+    },
+    {
+      "id": 87,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2013)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "spain"
+        },
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Daniel Sturridge",
+          "nationality": "england"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Yaya Toure",
+          "nationality": "ivory coast"
+        },
+        {
+          "name": "Luca Toni",
+          "nationality": "italy"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952627"
+    },
+    {
+      "id": 88,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2012)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Robin Van Persie",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Alvaro Negredo",
+          "nationality": "spain"
+        },
+        {
+          "name": "Stefan Kießling",
+          "nationality": "germany"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "spain"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952630"
+    },
+    {
+      "id": 89,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2011)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Robin Van Persie",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Klaas-jan Huntelaar",
+          "nationality": "netherlands"
+        },
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "england"
+        },
+        {
+          "name": "Mario Gomez",
+          "nationality": "germany"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombia"
+        },
+        {
+          "name": "Diego Milito",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Sergio Aguero",
+          "nationality": "argentina"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952632"
+    },
+    {
+      "id": 90,
+      "title": "Top 10 meilleurs buteurs - Top 5 Ligues Européennes (2010)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italy"
+        },
+        {
+          "name": "Mario Gomez",
+          "nationality": "germany"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Moussa Sow",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Papiss Demba Cisse",
+          "nationality": "senegal"
+        },
+        {
+          "name": "Kevin Gameiro",
+          "nationality": "france"
+        },
+        {
+          "name": "Samuel Etoo",
+          "nationality": "cameroon"
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentina"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952635"
+    },
+    {
+      "id": 91,
+      "title": "Top 10 Golden Boot de l'histoire - Top 5 Ligues (2010 - 2024)",
+      "theme": "Performance",
+      "hint": "⚽ Top 5 Ligues Européennes",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne"
+        },
+        {
+          "name": "Luis Suarez",
+          "nationality": "uruguay"
+        },
+        {
+          "name": "Zlatan Ibrahimovic",
+          "nationality": "sweden"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norway"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy"
+        },
+        {
+          "name": "Gonzalo Higuain",
+          "nationality": "argentina"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay"
+        }
+      ],
+      "category": "Performance",
+      "difficulty": 2,
+      "created_at": "2025-07-31T19:54:33.952638"
+    }
+  ]
+}
