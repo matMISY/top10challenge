@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../models/level.dart';
 import '../models/answer.dart';
 import '../providers/game_provider.dart';
 import '../services/search_service.dart';
+import '../services/game_service.dart';
 import '../widgets/answer_slot.dart';
 import '../widgets/search_input.dart';
 import '../utils/debug_config.dart';
@@ -20,16 +22,25 @@ class GameScreen extends StatefulWidget {
 class _GameScreenState extends State<GameScreen> {
   final TextEditingController _searchController = TextEditingController();
   final SearchService _searchService = SearchService();
+  final GameService _gameService = GameService();
   final List<String> _foundAnswers = [];
   List<String> _availableAnswers = [];
-  int _mistakes = 0;
-  static const int _maxMistakes = 3;
   bool _debugAnswersRevealed = false;
 
   @override
   void initState() {
     super.initState();
     _availableAnswers = List.from(widget.level.answerNames);
+    _loadSavedAnswers();
+  }
+
+  Future<void> _loadSavedAnswers() async {
+    final savedAnswers = await _gameService.getFoundAnswersForLevel(widget.level.id);
+    setState(() {
+      _foundAnswers.clear();
+      _foundAnswers.addAll(savedAnswers);
+      _availableAnswers = widget.level.answerNames.where((answer) => !savedAnswers.contains(answer)).toList();
+    });
   }
 
   @override
@@ -48,17 +59,15 @@ class _GameScreenState extends State<GameScreen> {
         _searchController.clear();
       });
 
+      _gameService.saveFoundAnswersForLevel(widget.level.id, _foundAnswers);
+
       if (_foundAnswers.length == 10) {
         _onLevelCompleted();
       }
     } else {
-      setState(() {
-        _mistakes++;
-      });
-      
       context.read<GameProvider>().loseLife();
       
-      if (_mistakes >= _maxMistakes) {
+      if (context.read<GameProvider>().gameState.lives <= 0) {
         _onGameOver();
       } else {
         _showWrongAnswerFeedback();
@@ -67,6 +76,7 @@ class _GameScreenState extends State<GameScreen> {
   }
 
   void _onLevelCompleted() {
+    _gameService.clearFoundAnswersForLevel(widget.level.id);
     context.read<GameProvider>().completeLevel(widget.level.id);
     
     showDialog(
@@ -80,7 +90,7 @@ class _GameScreenState extends State<GameScreen> {
             children: [
               const Text('Félicitations ! Vous avez trouvé tous les joueurs.'),
               const SizedBox(height: 16),
-              Text('Score: +${100 * widget.level.difficulty}'),
+              Text('Indices gagnés: +${widget.level.difficulty}'),
             ],
           ),
           actions: [
@@ -127,10 +137,10 @@ class _GameScreenState extends State<GameScreen> {
   }
 
   void _resetLevel() {
+    _gameService.clearFoundAnswersForLevel(widget.level.id);
     setState(() {
       _foundAnswers.clear();
       _availableAnswers = List.from(widget.level.answerNames);
-      _mistakes = 0;
       _searchController.clear();
       _debugAnswersRevealed = false;
     });
@@ -181,9 +191,10 @@ class _GameScreenState extends State<GameScreen> {
   }
 
   void _showWrongAnswerFeedback() {
+    final lives = context.read<GameProvider>().gameState.lives;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('Mauvaise réponse ! ${_maxMistakes - _mistakes} essais restants'),
+        content: Text('Mauvaise réponse ! $lives ${lives > 1 ? 'vies restantes' : 'vie restante'}'),
         backgroundColor: Colors.red,
         duration: const Duration(seconds: 2),
       ),
@@ -201,6 +212,8 @@ class _GameScreenState extends State<GameScreen> {
         _availableAnswers.remove(randomAnswer);
       });
 
+      _gameService.saveFoundAnswersForLevel(widget.level.id, _foundAnswers);
+
       if (_foundAnswers.length == 10) {
         _onLevelCompleted();
       }
@@ -211,8 +224,27 @@ class _GameScreenState extends State<GameScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Niveau ${widget.level.id}'),
-        backgroundColor: const Color(0xFF6B73FF),
+        title: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              'TOP10',
+              style: GoogleFonts.bangers(
+                fontSize: 28,
+                color: Colors.white,
+              ),
+            ),
+            const SizedBox(width: 4),
+            Text(
+              'CHALLENGE',
+              style: GoogleFonts.bangers(
+                fontSize: 18,
+                color: Colors.amber.shade300,
+              ),
+            ),
+          ],
+        ),
+        backgroundColor: const Color(0xFF2C5F5D),
         foregroundColor: Colors.white,
         elevation: 0,
         actions: [
@@ -249,13 +281,9 @@ class _GameScreenState extends State<GameScreen> {
       ),
       body: Container(
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Color(0xFF6B73FF),
-              Color(0xFF9B59B6),
-            ],
+          image: DecorationImage(
+            image: AssetImage('assets/images/background.jpg'),
+            fit: BoxFit.cover,
           ),
         ),
         child: SafeArea(
@@ -267,26 +295,30 @@ class _GameScreenState extends State<GameScreen> {
                 Container(
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.2),
-                    borderRadius: BorderRadius.circular(12),
+                    color: Colors.white.withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(
+                      color: Colors.white.withValues(alpha: 0.3),
+                      width: 1,
+                    ),
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         widget.level.title,
-                        style: const TextStyle(
+                        style: GoogleFonts.baloo2(
                           color: Colors.white,
-                          fontSize: 20,
+                          fontSize: 22,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       const SizedBox(height: 8),
                       Text(
                         widget.level.hint,
-                        style: const TextStyle(
+                        style: GoogleFonts.baloo2(
                           color: Colors.white70,
-                          fontSize: 16,
+                          fontSize: 17,
                         ),
                       ),
                     ],
@@ -298,37 +330,37 @@ class _GameScreenState extends State<GameScreen> {
                   children: [
                     Text(
                       'Trouvés: ${_foundAnswers.length}/10',
-                      style: const TextStyle(
+                      style: GoogleFonts.baloo2(
                         color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.w500,
+                        fontSize: 18,
+                        fontWeight: FontWeight.w600,
                       ),
                     ),
-                    Row(
-                      children: [
-                        const Icon(Icons.favorite, color: Colors.red, size: 20),
-                        const SizedBox(width: 4),
-                        Consumer<GameProvider>(
-                          builder: (context, gameProvider, child) {
-                            return Text(
-                              '${gameProvider.gameState.lives}',
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            );
-                          },
-                        ),
-                        const SizedBox(width: 16),
-                        Text(
-                          'Erreurs: $_mistakes/$_maxMistakes',
-                          style: const TextStyle(
-                            color: Colors.white70,
-                            fontSize: 14,
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.2),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(Icons.favorite, color: Colors.red.shade400, size: 18),
+                          const SizedBox(width: 6),
+                          Consumer<GameProvider>(
+                            builder: (context, gameProvider, child) {
+                              return Text(
+                                '${gameProvider.gameState.lives}',
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              );
+                            },
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ],
                 ),
@@ -337,9 +369,9 @@ class _GameScreenState extends State<GameScreen> {
                   child: GridView.builder(
                     gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
-                      childAspectRatio: 2.5, // Réduit pour donner plus de hauteur
+                      childAspectRatio: 3.5, // Augmenté pour réduire la hauteur des cases
                       crossAxisSpacing: 10,
-                      mainAxisSpacing: 10,
+                      mainAxisSpacing: 8,
                     ),
                     itemCount: 10,
                     itemBuilder: (context, index) {

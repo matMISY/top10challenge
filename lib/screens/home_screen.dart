@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../providers/game_provider.dart';
+import '../utils/debug_config.dart';
 import 'level_map_screen.dart';
 import 'daily_challenge_screen.dart';
 
@@ -12,13 +14,9 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Color(0xFF6B73FF),
-              Color(0xFF9B59B6),
-            ],
+          image: DecorationImage(
+            image: AssetImage('assets/images/background.jpg'),
+            fit: BoxFit.cover,
           ),
         ),
         child: SafeArea(
@@ -28,14 +26,13 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Spacer(),
-                const Text(
+                Text(
                   'TOP10',
-                  style: TextStyle(
-                    fontSize: 64,
-                    fontWeight: FontWeight.bold,
+                  style: GoogleFonts.bangers(
+                    fontSize: 72,
                     color: Colors.white,
                     shadows: [
-                      Shadow(
+                      const Shadow(
                         offset: Offset(2, 2),
                         blurRadius: 4,
                         color: Colors.black26,
@@ -43,13 +40,12 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-                const Text(
+                Text(
                   'CHALLENGE',
-                  style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.w300,
-                    color: Colors.white70,
-                    letterSpacing: 4,
+                  style: GoogleFonts.bangers(
+                    fontSize: 28,
+                    color: Colors.amber.shade300,
+                    letterSpacing: 2,
                   ),
                 ),
                 const SizedBox(height: 60),
@@ -65,12 +61,6 @@ class HomeScreen extends StatelessWidget {
                               value: '${gameProvider.gameState.lives}',
                               label: 'Vies',
                               color: Colors.red,
-                            ),
-                            _buildStatCard(
-                              icon: Icons.star,
-                              value: '${gameProvider.gameState.score}',
-                              label: 'Score',
-                              color: Colors.amber,
                             ),
                             _buildStatCard(
                               icon: Icons.lightbulb,
@@ -92,21 +82,23 @@ class HomeScreen extends StatelessWidget {
                             ),
                           ),
                         ),
-                        const SizedBox(height: 20),
-                        _buildSecondaryButton(
-                          context,
-                          'Défi Quotidien',
-                          Icons.calendar_today,
-                          gameProvider.gameState.dailyChallengeCompleted
-                              ? null
-                              : () => Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => const DailyChallengeScreen(),
+                        if (!DebugConfig.hideDailyChallenge) ...[
+                          const SizedBox(height: 20),
+                          _buildSecondaryButton(
+                            context,
+                            'Défi Quotidien',
+                            Icons.calendar_today,
+                            gameProvider.gameState.dailyChallengeCompleted
+                                ? null
+                                : () => Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => const DailyChallengeScreen(),
+                                      ),
                                     ),
-                                  ),
-                          isCompleted: gameProvider.gameState.dailyChallengeCompleted,
-                        ),
+                            isCompleted: gameProvider.gameState.dailyChallengeCompleted,
+                          ),
+                        ],
                       ],
                     );
                   },
@@ -114,7 +106,7 @@ class HomeScreen extends StatelessWidget {
                 const Spacer(),
                 Text(
                   'Niveau ${context.watch<GameProvider>().gameState.currentLevel}',
-                  style: const TextStyle(
+                  style: GoogleFonts.baloo2(
                     color: Colors.white70,
                     fontSize: 16,
                   ),
@@ -145,7 +137,7 @@ class HomeScreen extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             value,
-            style: const TextStyle(
+            style: GoogleFonts.baloo2(
               color: Colors.white,
               fontSize: 20,
               fontWeight: FontWeight.bold,
@@ -153,7 +145,7 @@ class HomeScreen extends StatelessWidget {
           ),
           Text(
             label,
-            style: const TextStyle(
+            style: GoogleFonts.baloo2(
               color: Colors.white70,
               fontSize: 12,
             ),
@@ -176,7 +168,7 @@ class HomeScreen extends StatelessWidget {
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.white,
-          foregroundColor: const Color(0xFF6B73FF),
+          foregroundColor: const Color(0xFF2C5F5D),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30),
           ),
@@ -189,7 +181,7 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(width: 12),
             Text(
               text,
-              style: const TextStyle(
+              style: GoogleFonts.baloo2(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
@@ -232,9 +224,9 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(width: 8),
             Text(
               isCompleted ? 'Déjà complété' : text,
-              style: const TextStyle(
+              style: GoogleFonts.baloo2(
                 fontSize: 16,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.w600,
               ),
             ),
           ],

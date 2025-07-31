@@ -13,14 +13,26 @@ class DataLoaderService {
   static Future<List<Level>> loadAllQuizzes() async {
     List<Level> allLevels = [];
     
-    // Charger tous les fichiers de données
-    final transferLevels = await _loadQuizzesFromFile('data/transfer_quizzes_flutter.json');
-    final scorerLevels = await _loadQuizzesFromFile('data/scorers_quizzes_flutter.json');
-    final assisterLevels = await _loadQuizzesFromFile('data/passeurs_championnats_flutter_quizzes_20250731_205039.json');
+    // Liste des patterns de fichiers JSON à essayer de charger
+    final List<String> possibleFiles = [
+      'data/transfer_quizzes_flutter.json',
+      'data/scorers_quizzes_flutter.json',
+      'data/passeurs_championnats_flutter_quizzes_20250731_205039.json',
+      'data/buteurs_coupes_clubs_flutter_quizzes_20250731_214537.json',
+      'data/buteurs_coupe_internationales_flutter_quizzes_20250731_232018.json',
+      // Ajouter d'autres patterns possibles
+      'data/flutter_quizzes_20250731_214537.json',
+      'data/flutter_quizzes_20250731_232018.json',
+    ];
     
-    allLevels.addAll(transferLevels);
-    allLevels.addAll(scorerLevels);
-    allLevels.addAll(assisterLevels);
+    // Charger tous les fichiers disponibles
+    for (String filePath in possibleFiles) {
+      final levels = await _loadQuizzesFromFile(filePath);
+      if (levels.isNotEmpty) {
+        allLevels.addAll(levels);
+        debugPrint('Chargé ${levels.length} niveaux depuis $filePath');
+      }
+    }
     
     // Mélanger de façon déterministe (toujours le même ordre)
     allLevels = _shuffleDeterministic(allLevels);
@@ -118,7 +130,12 @@ class DataLoaderService {
       
       return levels;
     } catch (e) {
-      debugPrint('Erreur lors du chargement du fichier $filePath: $e');
+      // Ne pas afficher d'erreur pour les fichiers optionnels qui n'existent pas
+      if (e.toString().contains('Unable to load asset')) {
+        debugPrint('Fichier optionnel non trouvé : $filePath');
+      } else {
+        debugPrint('Erreur lors du chargement du fichier $filePath: $e');
+      }
       return [];
     }
   }

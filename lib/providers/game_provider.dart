@@ -98,9 +98,6 @@ class GameProvider with ChangeNotifier {
     return _levels.where((level) => level.isCompleted).length;
   }
 
-  int getTotalScore() {
-    return _gameState.score;
-  }
 
   Future<void> addLives(int count) async {
     _gameState = _gameState.copyWith(
@@ -150,6 +147,7 @@ class GameProvider with ChangeNotifier {
       _gameState = _gameState.copyWith(
         dailyChallengeCompleted: false,
         lives: 5,
+        hints: (_gameState.hints + 2).clamp(0, 99), // +2 indices par jour
         lastPlayedDate: now,
       );
       await _gameService.saveGameState(_gameState);

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'providers/game_provider.dart';
 import 'screens/home_screen.dart';
 
@@ -18,11 +19,11 @@ class Top10ChallengeApp extends StatelessWidget {
         title: 'Top10 Challenge',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color(0xFF6B73FF),
+            seedColor: const Color(0xFF2C5F5D),
             brightness: Brightness.light,
           ),
           useMaterial3: true,
-          fontFamily: 'Roboto',
+          textTheme: GoogleFonts.baloo2TextTheme(),
         ),
         home: Consumer<GameProvider>(
           builder: (context, gameProvider, child) {

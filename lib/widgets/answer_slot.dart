@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../models/answer.dart';
 
 class AnswerSlot extends StatelessWidget {
@@ -24,37 +25,54 @@ class AnswerSlot extends StatelessWidget {
       duration: const Duration(milliseconds: 300),
       decoration: BoxDecoration(
         color: isFound 
-            ? Colors.green.withValues(alpha: 0.8)
+            ? Colors.green.shade600.withValues(alpha: 0.9)
             : debugRevealAnswer && hasAnswer
                 ? Colors.orange.withValues(alpha: 0.6)
-                : Colors.white.withValues(alpha: 0.2),
-        borderRadius: BorderRadius.circular(12),
+                : const Color(0xFF3A6B68).withValues(alpha: 0.4),
+        borderRadius: BorderRadius.circular(16),
         border: Border.all(
           color: isFound 
-              ? Colors.green 
+              ? Colors.green.shade400
               : debugRevealAnswer && hasAnswer
                   ? Colors.orange
-                  : Colors.white30,
-          width: 2,
+                  : Colors.white.withValues(alpha: 0.4),
+          width: 1.5,
         ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.1),
+            blurRadius: 4,
+            offset: const Offset(0, 2),
+          ),
+        ],
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
         child: Row(
           children: [
             Container(
-              width: 24,
-              height: 24,
+              width: 26,
+              height: 26,
               decoration: BoxDecoration(
-                color: isFound ? Colors.white : Colors.white30,
+                color: isFound 
+                    ? Colors.white 
+                    : Colors.white.withValues(alpha: 0.3),
                 shape: BoxShape.circle,
+                border: Border.all(
+                  color: isFound 
+                      ? Colors.green.shade600
+                      : Colors.white.withValues(alpha: 0.5),
+                  width: 1,
+                ),
               ),
               child: Center(
                 child: Text(
                   '$index',
                   style: TextStyle(
-                    color: isFound ? Colors.green : Colors.white70,
-                    fontSize: 12,
+                    color: isFound 
+                        ? Colors.green.shade700
+                        : Colors.white.withValues(alpha: 0.9),
+                    fontSize: 13,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -72,24 +90,23 @@ class AnswerSlot extends StatelessWidget {
                     child: shouldShowAnswer && hasAnswer
                         ? Text(
                             answer!.name,
-                            style: TextStyle(
+                            style: GoogleFonts.baloo2(
                               color: Colors.white,
-                              fontSize: 14,
-                              fontWeight: FontWeight.w500,
-                              height: 1.2, // Hauteur de ligne réduite pour compacité
-                              // Style différent pour le debug
+                              fontSize: 15,
+                              fontWeight: FontWeight.w600,
+                              height: 1.2,
                               fontStyle: debugRevealAnswer && !isFound 
                                   ? FontStyle.italic 
                                   : FontStyle.normal,
                             ),
-                            maxLines: 2, // Permettre 2 lignes maximum
-                            overflow: TextOverflow.ellipsis, // Tronquer après 2 lignes si nécessaire
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
                           )
                         : Container(
-                            height: 2,
+                            height: 3,
                             decoration: BoxDecoration(
-                              color: Colors.white30,
-                              borderRadius: BorderRadius.circular(1),
+                              color: Colors.white.withValues(alpha: 0.4),
+                              borderRadius: BorderRadius.circular(2),
                             ),
                           ),
                   ),

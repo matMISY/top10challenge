@@ -56,10 +56,11 @@ class GameService {
       return level;
     }).toList();
     
+    final levelDifficulty = levels.firstWhere((l) => l.id == levelId).difficulty;
     final updatedGameState = gameState.copyWith(
       completedLevels: [...gameState.completedLevels, levelId],
-      score: gameState.score + (100 * levels.firstWhere((l) => l.id == levelId).difficulty),
       currentLevel: levelId + 1,
+      hints: (gameState.hints + levelDifficulty).clamp(0, 99), // +difficulté indices par niveau complété
     );
     
     await saveLevels(updatedLevels);
@@ -86,6 +87,35 @@ class GameService {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_gameStateKey);
     await prefs.remove(_levelsKey);
+  }
+
+  Future<void> saveFoundAnswersForLevel(int levelId, List<String> foundAnswers) async {
+    final gameState = await getGameState();
+    final updatedFoundAnswers = Map<int, List<String>>.from(gameState.foundAnswersByLevel);
+    updatedFoundAnswers[levelId] = List.from(foundAnswers);
+    
+    final updatedGameState = gameState.copyWith(
+      foundAnswersByLevel: updatedFoundAnswers,
+    );
+    
+    await saveGameState(updatedGameState);
+  }
+
+  Future<List<String>> getFoundAnswersForLevel(int levelId) async {
+    final gameState = await getGameState();
+    return gameState.foundAnswersByLevel[levelId] ?? [];
+  }
+
+  Future<void> clearFoundAnswersForLevel(int levelId) async {
+    final gameState = await getGameState();
+    final updatedFoundAnswers = Map<int, List<String>>.from(gameState.foundAnswersByLevel);
+    updatedFoundAnswers.remove(levelId);
+    
+    final updatedGameState = gameState.copyWith(
+      foundAnswersByLevel: updatedFoundAnswers,
+    );
+    
+    await saveGameState(updatedGameState);
   }
 
   Future<List<Level>> _getDefaultLevels() async {

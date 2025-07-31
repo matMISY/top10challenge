@@ -15,6 +15,9 @@ class DebugConfig {
   /// Flag pour désactiver la validation des erreurs (utile pour les tests)
   static const bool disableErrorValidation = enableDebugFeatures && false;
   
+  /// Flag pour masquer le bouton défi quotidien
+  static const bool hideDailyChallenge = true;
+  
   /// Vérifie si au moins une fonctionnalité de debug est activée
   static bool get hasAnyDebugFeature => 
       enableRevealAnswers || enableSkipLevel || enableDebugLogs;
