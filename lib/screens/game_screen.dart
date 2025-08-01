@@ -86,12 +86,22 @@ class _GameScreenState extends State<GameScreen> {
         _onLevelCompleted();
       }
     } else {
-      context.read<GameProvider>().loseLife();
+      // Vérifier si la réponse correspond à une réponse déjà trouvée
+      final alreadyFoundAnswer = _searchService.getCorrectAnswer(answer, _foundAnswers);
       
-      if (context.read<GameProvider>().gameState.lives <= 0) {
-        _onGameOver();
+      if (alreadyFoundAnswer != null) {
+        // Réponse déjà validée, ne pas enlever de vie
+        _showAlreadyFoundFeedback();
+        _searchController.clear();
       } else {
-        _showWrongAnswerFeedback();
+        // Réponse incorrecte, enlever une vie
+        context.read<GameProvider>().loseLife();
+        
+        if (context.read<GameProvider>().gameState.lives <= 0) {
+          _onGameOver();
+        } else {
+          _showWrongAnswerFeedback();
+        }
       }
     }
   }
@@ -218,6 +228,16 @@ class _GameScreenState extends State<GameScreen> {
         content: Text('Mauvaise réponse ! $lives ${lives > 1 ? 'vies restantes' : 'vie restante'}'),
         backgroundColor: Colors.red,
         duration: const Duration(seconds: 2),
+      ),
+    );
+  }
+
+  void _showAlreadyFoundFeedback() {
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('Cette réponse a déjà été trouvée !'),
+        backgroundColor: Colors.orange,
+        duration: Duration(seconds: 2),
       ),
     );
   }
