@@ -7,6 +7,8 @@ class GameState {
   final bool dailyChallengeCompleted;
   final Map<int, List<String>> foundAnswersByLevel;
   final DateTime? lastLifeLostTime;
+  final int totalPoints;
+  final List<int> unlockedTiers;
 
   static const int maxLives = 5;
   static const Duration lifeRecoveryDuration = Duration(minutes: 30);
@@ -20,6 +22,8 @@ class GameState {
     this.dailyChallengeCompleted = false,
     this.foundAnswersByLevel = const {},
     this.lastLifeLostTime,
+    this.totalPoints = 0,
+    this.unlockedTiers = const [1],
   }) : lastPlayedDate = lastPlayedDate ?? DateTime.now();
 
   GameState copyWith({
@@ -31,6 +35,8 @@ class GameState {
     bool? dailyChallengeCompleted,
     Map<int, List<String>>? foundAnswersByLevel,
     DateTime? lastLifeLostTime,
+    int? totalPoints,
+    List<int>? unlockedTiers,
   }) {
     return GameState(
       currentLevel: currentLevel ?? this.currentLevel,
@@ -41,6 +47,8 @@ class GameState {
       dailyChallengeCompleted: dailyChallengeCompleted ?? this.dailyChallengeCompleted,
       foundAnswersByLevel: foundAnswersByLevel ?? this.foundAnswersByLevel,
       lastLifeLostTime: lastLifeLostTime ?? this.lastLifeLostTime,
+      totalPoints: totalPoints ?? this.totalPoints,
+      unlockedTiers: unlockedTiers ?? this.unlockedTiers,
     );
   }
 
@@ -54,6 +62,8 @@ class GameState {
       'dailyChallengeCompleted': dailyChallengeCompleted,
       'foundAnswersByLevel': foundAnswersByLevel.map((key, value) => MapEntry(key.toString(), value)),
       'lastLifeLostTime': lastLifeLostTime?.toIso8601String(),
+      'totalPoints': totalPoints,
+      'unlockedTiers': unlockedTiers,
     };
   }
 
@@ -76,6 +86,8 @@ class GameState {
       lastLifeLostTime: json['lastLifeLostTime'] != null 
         ? DateTime.parse(json['lastLifeLostTime']) 
         : null,
+      totalPoints: json['totalPoints'] ?? 0,
+      unlockedTiers: List<int>.from(json['unlockedTiers'] ?? [1]),
     );
   }
 

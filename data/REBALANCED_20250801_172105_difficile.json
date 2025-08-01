@@ -1,0 +1,1905 @@
+{
+  "generated_at": "2025-08-01T17:21:05.558658",
+  "difficulty_level": "Difficile",
+  "difficulty_icon": "⭐⭐⭐⭐",
+  "total_quizzes": 24,
+  "rebalanced": true,
+  "quizzes": [
+    {
+      "id": 181,
+      "title": "Top 10 transferts les plus chers - Serie A (2010)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2010-2010",
+          "reference_year": 2010
+        }
+      },
+      "answers": [
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italy",
+          "value": "29,50 mio. €"
+        },
+        {
+          "name": "Aleksandar Kolarov",
+          "nationality": "serbie",
+          "value": "23,86 mio. €"
+        },
+        {
+          "name": "Giampaolo Pazzini",
+          "nationality": "italy",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Diego",
+          "nationality": "brazil",
+          "value": "15,50 mio. €"
+        },
+        {
+          "name": "Leonardo Bonucci",
+          "nationality": "italy",
+          "value": "15,50 mio. €"
+        },
+        {
+          "name": "Klaas-Jan Huntelaar",
+          "nationality": "netherlands",
+          "value": "14,00 mio. €"
+        },
+        {
+          "name": "Andrea Ranocchia",
+          "nationality": "italy",
+          "value": "13,00 mio. €"
+        },
+        {
+          "name": "Simon Kjaer",
+          "nationality": "danemark",
+          "value": "12,50 mio. €"
+        },
+        {
+          "name": "Jorge Martínez",
+          "nationality": "uruguay",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Salvatore Bocchetti",
+          "nationality": "italy",
+          "value": "9,50 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2010,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.305570"
+      }
+    },
+    {
+      "id": 182,
+      "title": "Top 10 transferts les plus chers - Serie A (2011)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2011-2011",
+          "reference_year": 2011
+        }
+      },
+      "answers": [
+        {
+          "name": "Javier Pastore",
+          "nationality": "argentina",
+          "value": "42,00 mio. €"
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "value": "27,00 mio. €"
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "value": "26,00 mio. €"
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italy",
+          "value": "20,30 mio. €"
+        },
+        {
+          "name": "Gökhan Inler",
+          "nationality": "suisse",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Alessandro Matri",
+          "nationality": "italy",
+          "value": "15,50 mio. €"
+        },
+        {
+          "name": "Mirko Vucinić",
+          "nationality": "monténégro",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Domenico Criscito",
+          "nationality": "italy",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Thiago Motta",
+          "nationality": "italy",
+          "value": "11,50 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2011,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.306211"
+      }
+    },
+    {
+      "id": 183,
+      "title": "Top 10 transferts les plus chers - Serie A (2012)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2012-2012",
+          "reference_year": 2012
+        }
+      },
+      "answers": [
+        {
+          "name": "Thiago Silva",
+          "nationality": "brazil",
+          "value": "42,00 mio. €"
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentina",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "value": "21,00 mio. €"
+        },
+        {
+          "name": "Kwadwo Asamoah",
+          "nationality": "ghana",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Gastón Ramírez",
+          "nationality": "uruguay",
+          "value": "15,20 mio. €"
+        },
+        {
+          "name": "Matija Nastasić",
+          "nationality": "serbie",
+          "value": "15,20 mio. €"
+        },
+        {
+          "name": "Alexandre Pato",
+          "nationality": "brazil",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Samir Handanovič",
+          "nationality": "slovénie",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Mauricio Isla",
+          "nationality": "chili",
+          "value": "13,90 mio. €"
+        },
+        {
+          "name": "Fabio Borini",
+          "nationality": "italy",
+          "value": "13,30 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2012,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.306360"
+      }
+    },
+    {
+      "id": 184,
+      "title": "Top 10 transferts les plus chers - Serie A (2013)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2013-2013",
+          "reference_year": 2013
+        }
+      },
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "value": "64,50 mio. €"
+        },
+        {
+          "name": "Marquinhos",
+          "nationality": "brazil",
+          "value": "31,40 mio. €"
+        },
+        {
+          "name": "Erik Lamela",
+          "nationality": "argentina",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "Stevan Jovetić",
+          "nationality": "monténégro",
+          "value": "26,00 mio. €"
+        },
+        {
+          "name": "Juan Cuadrado",
+          "nationality": "colombie",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Hernanes",
+          "nationality": "brazil",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Daniel Osvaldo",
+          "nationality": "italy",
+          "value": "15,10 mio. €"
+        },
+        {
+          "name": "Angelo Ogbonna",
+          "nationality": "italy",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy",
+          "value": "13,50 mio. €"
+        },
+        {
+          "name": "Medhi Benatia",
+          "nationality": "maroc",
+          "value": "13,50 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2013,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.306484"
+      }
+    },
+    {
+      "id": 185,
+      "title": "Top 10 transferts les plus chers - Serie A (2014)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2014-2014",
+          "reference_year": 2014
+        }
+      },
+      "answers": [
+        {
+          "name": "Juan Cuadrado",
+          "nationality": "colombie",
+          "value": "31,00 mio. €"
+        },
+        {
+          "name": "Medhi Benatia",
+          "nationality": "maroc",
+          "value": "28,00 mio. €"
+        },
+        {
+          "name": "Juan Iturbe",
+          "nationality": "paraguay",
+          "value": "24,50 mio. €"
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italy",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy",
+          "value": "18,50 mio. €"
+        },
+        {
+          "name": "Radja Nainggolan",
+          "nationality": "belgium",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Alessio Cerci",
+          "nationality": "italy",
+          "value": "14,00 mio. €"
+        },
+        {
+          "name": "Manolo Gabbiadini",
+          "nationality": "italy",
+          "value": "12,50 mio. €"
+        },
+        {
+          "name": "Abel Hernández",
+          "nationality": "uruguay",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Stefano Sturaro",
+          "nationality": "italy",
+          "value": "10,60 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2014,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.306609"
+      }
+    },
+    {
+      "id": 186,
+      "title": "Top 10 transferts les plus chers - Serie A (2015)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2015-2015",
+          "reference_year": 2015
+        }
+      },
+      "answers": [
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentina",
+          "value": "41,00 mio. €"
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "value": "39,25 mio. €"
+        },
+        {
+          "name": "Mateo Kovacic",
+          "nationality": "croatie",
+          "value": "38,00 mio. €"
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "nationality": "italy",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Andrea Bertolacci",
+          "nationality": "italy",
+          "value": "21,00 mio. €"
+        },
+        {
+          "name": "Simone Zaza",
+          "nationality": "italy",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Matteo Darmian",
+          "nationality": "italy",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Gervinho",
+          "nationality": "côte d'ivoire",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "nationality": "suisse",
+          "value": "17,00 mio. €"
+        },
+        {
+          "name": "Roberto Pereyra",
+          "nationality": "argentina",
+          "value": "15,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2015,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.306728"
+      }
+    },
+    {
+      "id": 187,
+      "title": "Top 10 transferts les plus chers - Serie A (2016)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2016-2016",
+          "reference_year": 2016
+        }
+      },
+      "answers": [
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "value": "105,00 mio. €"
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentina",
+          "value": "90,00 mio. €"
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "value": "32,00 mio. €"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "Marcos Alonso",
+          "nationality": "spain",
+          "value": "23,00 mio. €"
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italy",
+          "value": "22,00 mio. €"
+        },
+        {
+          "name": "Mattia Caldara",
+          "nationality": "italy",
+          "value": "19,00 mio. €"
+        },
+        {
+          "name": "Joaquín Correa",
+          "nationality": "argentina",
+          "value": "18,20 mio. €"
+        },
+        {
+          "name": "Leonardo Pavoletti",
+          "nationality": "italy",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Manolo Gabbiadini",
+          "nationality": "italy",
+          "value": "17,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2016,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.306851"
+      }
+    },
+    {
+      "id": 188,
+      "title": "Top 10 transferts les plus chers - Serie A (2017)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2017-2017",
+          "reference_year": 2017
+        }
+      },
+      "answers": [
+        {
+          "name": "Leonardo Bonucci",
+          "nationality": "italy",
+          "value": "42,00 mio. €"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "42,00 mio. €"
+        },
+        {
+          "name": "Federico Bernardeschi",
+          "nationality": "italy",
+          "value": "40,00 mio. €"
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "nationality": "germany",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "Milan Škriniar",
+          "nationality": "slovaquie",
+          "value": "34,00 mio. €"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "nationality": "italy",
+          "value": "31,10 mio. €"
+        },
+        {
+          "name": "Keita Baldé",
+          "nationality": "sénégal",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "nationality": "italy",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "value": "24,50 mio. €"
+        },
+        {
+          "name": "Andrea Conti",
+          "nationality": "italy",
+          "value": "24,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2017,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.306973"
+      }
+    },
+    {
+      "id": 196,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2010)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2010-2010",
+          "reference_year": 2010
+        }
+      },
+      "answers": [
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "value": "37,00 mio. €"
+        },
+        {
+          "name": "Carlos Eduardo",
+          "nationality": "brazil",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "germany",
+          "value": "18,00 mio. €"
+        },
+        {
+          "name": "Luiz Gustavo",
+          "nationality": "brazil",
+          "value": "17,00 mio. €"
+        },
+        {
+          "name": "Sami Khedira",
+          "nationality": "germany",
+          "value": "14,00 mio. €"
+        },
+        {
+          "name": "Jérôme Boateng",
+          "nationality": "germany",
+          "value": "12,50 mio. €"
+        },
+        {
+          "name": "Obafemi Martins",
+          "nationality": "nigeria",
+          "value": "9,00 mio. €"
+        },
+        {
+          "name": "Zvjezdan Misimovic",
+          "nationality": "bosnie-herzégovine",
+          "value": "8,50 mio. €"
+        },
+        {
+          "name": "Rafinha",
+          "nationality": "brazil",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Heiko Westermann",
+          "nationality": "germany",
+          "value": "7,50 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2010,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.307972"
+      }
+    },
+    {
+      "id": 197,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2011)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2011-2011",
+          "reference_year": 2011
+        }
+      },
+      "answers": [
+        {
+          "name": "Manuel Neuer",
+          "nationality": "germany",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "André Schürrle",
+          "nationality": "germany",
+          "value": "14,00 mio. €"
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "value": "12,50 mio. €"
+        },
+        {
+          "name": "Papiss Demba Cissé",
+          "nationality": "sénégal",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Per Mertesacker",
+          "nationality": "germany",
+          "value": "11,30 mio. €"
+        },
+        {
+          "name": "Nuri Şahin",
+          "nationality": "turquie",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "Eljero Elia",
+          "nationality": "netherlands",
+          "value": "9,00 mio. €"
+        },
+        {
+          "name": "Christian Träsch",
+          "nationality": "germany",
+          "value": "9,00 mio. €"
+        },
+        {
+          "name": "Bernd Leno",
+          "nationality": "germany",
+          "value": "7,80 mio. €"
+        },
+        {
+          "name": "Wesley",
+          "nationality": "brazil",
+          "value": "6,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2011,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.308106"
+      }
+    },
+    {
+      "id": 198,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2012)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2012-2012",
+          "reference_year": 2012
+        }
+      },
+      "answers": [
+        {
+          "name": "Marco Reus",
+          "nationality": "germany",
+          "value": "17,10 mio. €"
+        },
+        {
+          "name": "Shinji Kagawa",
+          "nationality": "japon",
+          "value": "16,00 mio. €"
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "value": "13,00 mio. €"
+        },
+        {
+          "name": "Gylfi Sigurdsson",
+          "nationality": "islande",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "Lucas Barrios",
+          "nationality": "paraguay",
+          "value": "8,50 mio. €"
+        },
+        {
+          "name": "Marko Marin",
+          "nationality": "germany",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Philipp Wollscheid",
+          "nationality": "germany",
+          "value": "7,00 mio. €"
+        },
+        {
+          "name": "Renato Augusto",
+          "nationality": "brazil",
+          "value": "6,70 mio. €"
+        },
+        {
+          "name": "Gökhan Töre",
+          "nationality": "turquie",
+          "value": "6,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2012,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.308232"
+      }
+    },
+    {
+      "id": 199,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2013)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2013-2013",
+          "reference_year": 2013
+        }
+      },
+      "answers": [
+        {
+          "name": "Mario Götze",
+          "nationality": "germany",
+          "value": "37,00 mio. €"
+        },
+        {
+          "name": "André Schürrle",
+          "nationality": "germany",
+          "value": "22,00 mio. €"
+        },
+        {
+          "name": "Luiz Gustavo",
+          "nationality": "brazil",
+          "value": "16,00 mio. €"
+        },
+        {
+          "name": "Mario Gómez",
+          "nationality": "germany",
+          "value": "15,50 mio. €"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "12,50 mio. €"
+        },
+        {
+          "name": "Sokratis Papastathopoulos",
+          "nationality": "grèce",
+          "value": "9,90 mio. €"
+        },
+        {
+          "name": "Ádám Szalai",
+          "nationality": "hongrie",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Daniel Carvajal",
+          "nationality": "spain",
+          "value": "6,50 mio. €"
+        },
+        {
+          "name": "Timm Klose",
+          "nationality": "suisse",
+          "value": "6,00 mio. €"
+        },
+        {
+          "name": "Emre Can",
+          "nationality": "germany",
+          "value": "5,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2013,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.308359"
+      }
+    },
+    {
+      "id": 200,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2014)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2014-2014",
+          "reference_year": 2014
+        }
+      },
+      "answers": [
+        {
+          "name": "Toni Kroos",
+          "nationality": "germany",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "value": "22,00 mio. €"
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "value": "15,25 mio. €"
+        },
+        {
+          "name": "Marc-André ter Stegen",
+          "nationality": "germany",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Emre Can",
+          "nationality": "germany",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Matthias Ginter",
+          "nationality": "germany",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "Adrián Ramos",
+          "nationality": "colombie",
+          "value": "9,70 mio. €"
+        },
+        {
+          "name": "Pierre-Michel Lasogga",
+          "nationality": "germany",
+          "value": "8,50 mio. €"
+        },
+        {
+          "name": "Ádám Szalai",
+          "nationality": "hongrie",
+          "value": "6,00 mio. €"
+        },
+        {
+          "name": "Oliver Baumann",
+          "nationality": "germany",
+          "value": "5,50 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2014,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.308489"
+      }
+    },
+    {
+      "id": 201,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2015)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2015-2015",
+          "reference_year": 2015
+        }
+      },
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgium",
+          "value": "76,00 mio. €"
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "germany",
+          "value": "43,00 mio. €"
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brazil",
+          "value": "41,00 mio. €"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "Abdul Rahman Baba",
+          "nationality": "ghana",
+          "value": "26,00 mio. €"
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "value": "19,00 mio. €"
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "nationality": "suisse",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Max Kruse",
+          "nationality": "germany",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Gonzalo Castro",
+          "nationality": "germany",
+          "value": "11,00 mio. €"
+        },
+        {
+          "name": "Shinji Okazaki",
+          "nationality": "japon",
+          "value": "11,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2015,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.308618"
+      }
+    },
+    {
+      "id": 202,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2016)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2016-2016",
+          "reference_year": 2016
+        }
+      },
+      "answers": [
+        {
+          "name": "Leroy Sané",
+          "nationality": "germany",
+          "value": "52,00 mio. €"
+        },
+        {
+          "name": "Granit Xhaka",
+          "nationality": "suisse",
+          "value": "45,00 mio. €"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "value": "42,00 mio. €"
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "germany",
+          "value": "36,00 mio. €"
+        },
+        {
+          "name": "Mats Hummels",
+          "nationality": "germany",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "André Schürrle",
+          "nationality": "germany",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "germany",
+          "value": "27,00 mio. €"
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "germany",
+          "value": "22,00 mio. €"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "germany",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Christoph Kramer",
+          "nationality": "germany",
+          "value": "15,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2016,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.308743"
+      }
+    },
+    {
+      "id": 203,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2017)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2017-2017",
+          "reference_year": 2017
+        }
+      },
+      "answers": [
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "value": "135,00 mio. €"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": "63,75 mio. €"
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "value": "23,30 mio. €"
+        },
+        {
+          "name": "Niklas Süle",
+          "nationality": "germany",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Kevin Kampl",
+          "nationality": "slovénie",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Maximilian Philipp",
+          "nationality": "germany",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique",
+          "value": "17,80 mio. €"
+        },
+        {
+          "name": "Jhon Córdoba",
+          "nationality": "colombie",
+          "value": "17,00 mio. €"
+        },
+        {
+          "name": "Matthias Ginter",
+          "nationality": "germany",
+          "value": "17,00 mio. €"
+        },
+        {
+          "name": "John Brooks",
+          "nationality": "états-unis",
+          "value": "17,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2017,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.308866"
+      }
+    },
+    {
+      "id": 211,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2010)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2010-2010",
+          "reference_year": 2010
+        }
+      },
+      "answers": [
+        {
+          "name": "Yoann Gourcuff",
+          "nationality": "france",
+          "value": "22,00 mio. €"
+        },
+        {
+          "name": "André-Pierre Gignac",
+          "nationality": "france",
+          "value": "16,00 mio. €"
+        },
+        {
+          "name": "Asamoah Gyan",
+          "nationality": "ghana",
+          "value": "16,00 mio. €"
+        },
+        {
+          "name": "Loïc Rémy",
+          "nationality": "france",
+          "value": "15,50 mio. €"
+        },
+        {
+          "name": "Laurent Koscielny",
+          "nationality": "france",
+          "value": "12,50 mio. €"
+        },
+        {
+          "name": "Mamadou Niang",
+          "nationality": "sénégal",
+          "value": "9,00 mio. €"
+        },
+        {
+          "name": "Ismaël Bangoura",
+          "nationality": "guinée",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Stéphane Sessègnon",
+          "nationality": "bénin",
+          "value": "7,00 mio. €"
+        },
+        {
+          "name": "Víctor Montaño",
+          "nationality": "colombie",
+          "value": "6,50 mio. €"
+        },
+        {
+          "name": "Tino Costa",
+          "nationality": "argentina",
+          "value": "6,50 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2010,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.309891"
+      }
+    },
+    {
+      "id": 212,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2011)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2011-2011",
+          "reference_year": 2011
+        }
+      },
+      "answers": [
+        {
+          "name": "Gervinho",
+          "nationality": "côte d'ivoire",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Jérémy Toulalan",
+          "nationality": "france",
+          "value": "11,00 mio. €"
+        },
+        {
+          "name": "Kévin Gameiro",
+          "nationality": "france",
+          "value": "11,00 mio. €"
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "value": "11,00 mio. €"
+        },
+        {
+          "name": "Moussa Sow",
+          "nationality": "sénégal",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "Brown Ideye",
+          "nationality": "nigeria",
+          "value": "9,00 mio. €"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "value": "9,00 mio. €"
+        },
+        {
+          "name": "Nolan Roux",
+          "nationality": "france",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Blaise Matuidi",
+          "nationality": "france",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Youssef El Arabi",
+          "nationality": "maroc",
+          "value": "7,50 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2011,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.310026"
+      }
+    },
+    {
+      "id": 213,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2012)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2012-2012",
+          "reference_year": 2012
+        }
+      },
+      "answers": [
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgium",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "Hugo Lloris",
+          "nationality": "france",
+          "value": "12,60 mio. €"
+        },
+        {
+          "name": "Yann M'Vila",
+          "nationality": "france",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Loïc Rémy",
+          "nationality": "france",
+          "value": "10,50 mio. €"
+        },
+        {
+          "name": "Marvin Martin",
+          "nationality": "france",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "César Azpilicueta",
+          "nationality": "spain",
+          "value": "8,80 mio. €"
+        },
+        {
+          "name": "Mapou Yanga-Mbiwa",
+          "nationality": "france",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Mathieu Debuchy",
+          "nationality": "france",
+          "value": "6,20 mio. €"
+        },
+        {
+          "name": "Stéphane Mbia",
+          "nationality": "cameroun",
+          "value": "6,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2012,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.310156"
+      }
+    },
+    {
+      "id": 214,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2013)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2013-2013",
+          "reference_year": 2013
+        }
+      },
+      "answers": [
+        {
+          "name": "Mamadou Sakho",
+          "nationality": "france",
+          "value": "19,00 mio. €"
+        },
+        {
+          "name": "Lucas Digne",
+          "nationality": "france",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Kurt Zouma",
+          "nationality": "france",
+          "value": "14,60 mio. €"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": "13,00 mio. €"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Étienne Capoue",
+          "nationality": "france",
+          "value": "11,00 mio. €"
+        },
+        {
+          "name": "Younès Belhanda",
+          "nationality": "maroc",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "Josuha Guilavogui",
+          "nationality": "france",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "Dejan Lovren",
+          "nationality": "croatie",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "value": "8,70 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2013,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.310279"
+      }
+    },
+    {
+      "id": 215,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2014)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2014-2014",
+          "reference_year": 2014
+        }
+      },
+      "answers": [
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "value": "75,00 mio. €"
+        },
+        {
+          "name": "Aymen Abdennour",
+          "nationality": "tunisie",
+          "value": "13,00 mio. €"
+        },
+        {
+          "name": "Divock Origi",
+          "nationality": "belgium",
+          "value": "12,63 mio. €"
+        },
+        {
+          "name": "Vincent Aboubakar",
+          "nationality": "cameroun",
+          "value": "12,30 mio. €"
+        },
+        {
+          "name": "Rémy Cabella",
+          "nationality": "france",
+          "value": "10,00 mio. €"
+        },
+        {
+          "name": "Tiemoué Bakayoko",
+          "nationality": "france",
+          "value": "8,00 mio. €"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "value": "Montant du prêt:7,60 mio. €"
+        },
+        {
+          "name": "Mathieu Valbuena",
+          "nationality": "france",
+          "value": "7,00 mio. €"
+        },
+        {
+          "name": "Emmanuel Rivière",
+          "nationality": "martinique",
+          "value": "6,32 mio. €"
+        },
+        {
+          "name": "Bruno Ecuele Manga",
+          "nationality": "gabon",
+          "value": "6,30 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2014,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.310404"
+      }
+    },
+    {
+      "id": 216,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2015)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2015-2015",
+          "reference_year": 2015
+        }
+      },
+      "answers": [
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "value": "60,00 mio. €"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "nationality": "république centrafricaine",
+          "value": "36,00 mio. €"
+        },
+        {
+          "name": "Layvin Kurzawa",
+          "nationality": "france",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Aymen Abdennour",
+          "nationality": "tunisie",
+          "value": "22,00 mio. €"
+        },
+        {
+          "name": "Giannelli Imbula",
+          "nationality": "rd congo",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france",
+          "value": "18,35 mio. €"
+        },
+        {
+          "name": "Yannick Carrasco",
+          "nationality": "belgium",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Clinton N'Jie",
+          "nationality": "cameroun",
+          "value": "14,10 mio. €"
+        },
+        {
+          "name": "Adama Traoré",
+          "nationality": "mali",
+          "value": "14,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2015,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.310527"
+      }
+    },
+    {
+      "id": 217,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2016)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2016-2016",
+          "reference_year": 2016
+        }
+      },
+      "answers": [
+        {
+          "name": "Michy Batshuayi",
+          "nationality": "belgium",
+          "value": "39,00 mio. €"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "David Luiz",
+          "nationality": "brazil",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "Samuel Umtiti",
+          "nationality": "france",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Didier Ndong",
+          "nationality": "gabon",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Sofiane Boufal",
+          "nationality": "maroc",
+          "value": "18,70 mio. €"
+        },
+        {
+          "name": "Lucas Digne",
+          "nationality": "france",
+          "value": "16,50 mio. €"
+        },
+        {
+          "name": "Nampalys Mendy",
+          "nationality": "sénégal",
+          "value": "15,50 mio. €"
+        },
+        {
+          "name": "Djibril Sidibé",
+          "nationality": "france",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Benjamin Mendy",
+          "nationality": "france",
+          "value": "13,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2016,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.310656"
+      }
+    },
+    {
+      "id": 218,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2017)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 16,
+        "level": "Difficile",
+        "icon": "⭐⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2017-2017",
+          "reference_year": 2017
+        }
+      },
+      "answers": [
+        {
+          "name": "Benjamin Mendy",
+          "nationality": "france",
+          "value": "57,50 mio. €"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "value": "53,00 mio. €"
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "value": "50,00 mio. €"
+        },
+        {
+          "name": "Corentin Tolisso",
+          "nationality": "france",
+          "value": "41,50 mio. €"
+        },
+        {
+          "name": "Tiemoué Bakayoko",
+          "nationality": "france",
+          "value": "40,00 mio. €"
+        },
+        {
+          "name": "Lucas Moura",
+          "nationality": "brazil",
+          "value": "28,40 mio. €"
+        },
+        {
+          "name": "Blaise Matuidi",
+          "nationality": "france",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Serge Aurier",
+          "nationality": "côte d'ivoire",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Guido Carrillo",
+          "nationality": "argentina",
+          "value": "22,00 mio. €"
+        },
+        {
+          "name": "Dalbert",
+          "nationality": "brazil",
+          "value": "21,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2017,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.310780"
+      }
+    }
+  ]
+}

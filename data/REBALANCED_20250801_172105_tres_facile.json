@@ -1,0 +1,3090 @@
+{
+  "generated_at": "2025-08-01T17:21:05.555505",
+  "difficulty_level": "Très facile",
+  "difficulty_icon": "⭐",
+  "total_quizzes": 39,
+  "rebalanced": true,
+  "quizzes": [
+    {
+      "id": 9,
+      "title": "Top 10 meilleurs buteurs - Premier League (2018)",
+      "theme": "Buteurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "22 buts"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": "22 buts"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "value": "22 buts"
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentina",
+          "value": "21 buts"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england",
+          "value": "18 buts"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england",
+          "value": "17 buts"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "17 buts"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgium",
+          "value": "16 buts"
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "england",
+          "value": "14 buts"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "value": "13 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.289313"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Top 10 meilleurs buteurs - Premier League (2019)",
+      "theme": "Buteurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "buteurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england",
+          "value": "23 buts"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": "22 buts"
+        },
+        {
+          "name": "Danny Ings",
+          "nationality": "england",
+          "value": "22 buts"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england",
+          "value": "20 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "19 buts"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "value": "18 buts"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "18 buts"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "england",
+          "value": "17 buts"
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "value": "17 buts"
+        },
+        {
+          "name": "Raúl Jiménez",
+          "nationality": "mexique",
+          "value": "17 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2019,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.289444"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Top 10 meilleurs buteurs - Premier League (2020)",
+      "theme": "Buteurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "buteurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "23 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "22 buts"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "value": "18 buts"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "17 buts"
+        },
+        {
+          "name": "Patrick Bamford",
+          "nationality": "england",
+          "value": "17 buts"
+        },
+        {
+          "name": "Dominic Calvert-Lewin",
+          "nationality": "england",
+          "value": "16 buts"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england",
+          "value": "15 buts"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "england",
+          "value": "14 buts"
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "germany",
+          "value": "13 buts"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "value": "13 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2020,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.289580"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Top 10 meilleurs buteurs - Premier League (2021)",
+      "theme": "Buteurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "23 buts"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "23 buts"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "value": "18 buts"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "17 buts"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "value": "16 buts"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgium",
+          "value": "15 buts"
+        },
+        {
+          "name": "Diogo Jota",
+          "nationality": "portugal",
+          "value": "15 buts"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england",
+          "value": "15 buts"
+        },
+        {
+          "name": "Wilfried Zaha",
+          "nationality": "côte d'ivoire",
+          "value": "14 buts"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england",
+          "value": "13 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.289709"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Top 10 meilleurs buteurs - Premier League (2022)",
+      "theme": "Buteurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "buteurs",
+          "temporal_span": "2022-2022",
+          "reference_year": 2022
+        }
+      },
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": "36 buts"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "30 buts"
+        },
+        {
+          "name": "Ivan Toney",
+          "nationality": "england",
+          "value": "20 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "19 buts"
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "england",
+          "value": "18 buts"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "england",
+          "value": "17 buts"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "value": "15 buts"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "england",
+          "value": "15 buts"
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "nationality": "brazil",
+          "value": "15 buts"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "england",
+          "value": "14 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2022,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.289830"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Top 10 meilleurs buteurs - Premier League (2023)",
+      "theme": "Buteurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "buteurs",
+          "temporal_span": "2023-2023",
+          "reference_year": 2023
+        }
+      },
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "erling haaland",
+          "value": "27 buts"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "cole palmer",
+          "value": "22 buts"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "alexander isak",
+          "value": "21 buts"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "ollie watkins",
+          "value": "19 buts"
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "phil foden",
+          "value": "19 buts"
+        },
+        {
+          "name": "Dominic Solanke",
+          "nationality": "dominic solanke",
+          "value": "19 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "mohamed salah",
+          "value": "18 buts"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "heung-min son",
+          "value": "17 buts"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "bukayo saka",
+          "value": "16 buts"
+        },
+        {
+          "name": "Jean-Philippe Mateta",
+          "nationality": "jean-philippe mateta",
+          "value": "16 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2023,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.289925"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Top 10 meilleurs buteurs - Premier League (2024)",
+      "theme": "Buteurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "buteurs",
+          "temporal_span": "2024-2024",
+          "reference_year": 2024
+        }
+      },
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "29 buts"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "value": "23 buts"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": "22 buts"
+        },
+        {
+          "name": "Bryan Mbeumo",
+          "nationality": "cameroun",
+          "value": "20 buts"
+        },
+        {
+          "name": "Chris Wood",
+          "nationality": "nouvelle-zélande",
+          "value": "20 buts"
+        },
+        {
+          "name": "Yoane Wissa",
+          "nationality": "rd congo",
+          "value": "19 buts"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "england",
+          "value": "16 buts"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "england",
+          "value": "15 buts"
+        },
+        {
+          "name": "Matheus Cunha",
+          "nationality": "brazil",
+          "value": "15 buts"
+        },
+        {
+          "name": "Jørgen Strand Larsen",
+          "nationality": "norvège",
+          "value": "14 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2024,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.290063"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Top 10 meilleurs buteurs - LaLiga (2018)",
+      "theme": "Buteurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "36 buts"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "21 buts"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": "20 buts"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "19 buts"
+        },
+        {
+          "name": "Cristhian Stuani",
+          "nationality": "uruguay",
+          "value": "19 buts"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "value": "18 buts"
+        },
+        {
+          "name": "Borja Iglesias",
+          "nationality": "spain",
+          "value": "17 buts"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "15 buts"
+        },
+        {
+          "name": "Jaime Mata",
+          "nationality": "spain",
+          "value": "14 buts"
+        },
+        {
+          "name": "Jorge Molina",
+          "nationality": "spain",
+          "value": "14 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.290831"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Top 10 meilleurs buteurs - LaLiga (2019)",
+      "theme": "Buteurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "buteurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "25 buts"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "21 buts"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain",
+          "value": "18 buts"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "16 buts"
+        },
+        {
+          "name": "Raúl García",
+          "nationality": "spain",
+          "value": "15 buts"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": "14 buts"
+        },
+        {
+          "name": "Lucas Ocampos",
+          "nationality": "argentina",
+          "value": "14 buts"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "value": "13 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "12 buts"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "spain",
+          "value": "11 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2019,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.290913"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Top 10 meilleurs buteurs - LaLiga (2020)",
+      "theme": "Buteurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "buteurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "30 buts"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "23 buts"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain",
+          "value": "23 buts"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "21 buts"
+        },
+        {
+          "name": "Youssef En-Nesyri",
+          "nationality": "maroc",
+          "value": "18 buts"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "value": "17 buts"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": "14 buts"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "13 buts"
+        },
+        {
+          "name": "José Luis Morales",
+          "nationality": "spain",
+          "value": "13 buts"
+        },
+        {
+          "name": "Rafa Mir",
+          "nationality": "spain",
+          "value": "13 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2020,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.290994"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Top 10 meilleurs buteurs - LaLiga (2021)",
+      "theme": "Buteurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "27 buts"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil",
+          "value": "17 buts"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": "17 buts"
+        },
+        {
+          "name": "Raúl de Tomás",
+          "nationality": "spain",
+          "value": "17 buts"
+        },
+        {
+          "name": "Juanmi",
+          "nationality": "spain",
+          "value": "16 buts"
+        },
+        {
+          "name": "Enes Ünal",
+          "nationality": "turquie",
+          "value": "16 buts"
+        },
+        {
+          "name": "Joselu",
+          "nationality": "spain",
+          "value": "14 buts"
+        },
+        {
+          "name": "José Luis Morales",
+          "nationality": "spain",
+          "value": "13 buts"
+        },
+        {
+          "name": "Ángel Correa",
+          "nationality": "argentina",
+          "value": "12 buts"
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "netherlands",
+          "value": "12 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.291089"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Top 10 meilleurs buteurs - LaLiga (2022)",
+      "theme": "Buteurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "buteurs",
+          "temporal_span": "2022-2022",
+          "reference_year": 2022
+        }
+      },
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "23 buts"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "19 buts"
+        },
+        {
+          "name": "Joselu",
+          "nationality": "spain",
+          "value": "16 buts"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "15 buts"
+        },
+        {
+          "name": "Vedat Muriqi",
+          "nationality": "kosovo",
+          "value": "15 buts"
+        },
+        {
+          "name": "Borja Iglesias",
+          "nationality": "spain",
+          "value": "15 buts"
+        },
+        {
+          "name": "Enes Ünal",
+          "nationality": "turquie",
+          "value": "14 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "13 buts"
+        },
+        {
+          "name": "Taty Castellanos",
+          "nationality": "argentina",
+          "value": "13 buts"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": "12 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2022,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.291171"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Top 10 meilleurs buteurs - LaLiga (2023)",
+      "theme": "Buteurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "buteurs",
+          "temporal_span": "2023-2023",
+          "reference_year": 2023
+        }
+      },
+      "answers": [
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "value": "24 buts"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "value": "23 buts"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "19 buts"
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "england",
+          "value": "19 buts"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "value": "17 buts"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "16 buts"
+        },
+        {
+          "name": "Youssef En-Nesyri",
+          "nationality": "maroc",
+          "value": "16 buts"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil",
+          "value": "15 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "15 buts"
+        },
+        {
+          "name": "Borja Mayoral",
+          "nationality": "spain",
+          "value": "15 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2023,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.291251"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Top 10 meilleurs buteurs - LaLiga (2024)",
+      "theme": "Buteurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "buteurs",
+          "temporal_span": "2024-2024",
+          "reference_year": 2024
+        }
+      },
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "31 buts"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "27 buts"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "value": "21 buts"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "value": "20 buts"
+        },
+        {
+          "name": "Ayoze Pérez",
+          "nationality": "spain",
+          "value": "19 buts"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brazil",
+          "value": "18 buts"
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentina",
+          "value": "17 buts"
+        },
+        {
+          "name": "Oihan Sancet",
+          "nationality": "spain",
+          "value": "15 buts"
+        },
+        {
+          "name": "Kike García",
+          "nationality": "spain",
+          "value": "13 buts"
+        },
+        {
+          "name": "Javi Puado",
+          "nationality": "spain",
+          "value": "12 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2024,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:05.291329"
+      }
+    },
+    {
+      "id": 84,
+      "title": "Top 10 meilleurs passeurs - Premier League (2018)",
+      "theme": "Passeurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "passeurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgium",
+          "value": "15 passes"
+        },
+        {
+          "name": "Ryan Fraser",
+          "nationality": "écosse",
+          "value": "14 passes"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "england",
+          "value": "12 passes"
+        },
+        {
+          "name": "Christian Eriksen",
+          "nationality": "danemark",
+          "value": "12 passes"
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "germany",
+          "value": "11 passes"
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "value": "11 passes"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england",
+          "value": "10 passes"
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "england",
+          "value": "9 passes"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "value": "9 passes"
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "value": "9 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2018,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.295954"
+      }
+    },
+    {
+      "id": 85,
+      "title": "Top 10 meilleurs passeurs - Premier League (2019)",
+      "theme": "Passeurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "passeurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgium",
+          "value": "20 passes"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "england",
+          "value": "13 passes"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "value": "12 passes"
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "value": "12 passes"
+        },
+        {
+          "name": "David Silva",
+          "nationality": "spain",
+          "value": "11 passes"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "11 passes"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "10 passes"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "england",
+          "value": "9 passes"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "value": "9 passes"
+        },
+        {
+          "name": "Adama Traoré",
+          "nationality": "spain",
+          "value": "9 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2019,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.296040"
+      }
+    },
+    {
+      "id": 86,
+      "title": "Top 10 meilleurs passeurs - Premier League (2020)",
+      "theme": "Passeurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "passeurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "14 passes"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "england",
+          "value": "13 passes"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgium",
+          "value": "12 passes"
+        },
+        {
+          "name": "Jack Grealish",
+          "nationality": "england",
+          "value": "12 passes"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "germany",
+          "value": "12 passes"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "11 passes"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "value": "11 passes"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "england",
+          "value": "10 passes"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brazil",
+          "value": "9 passes"
+        },
+        {
+          "name": "Patrick Bamford",
+          "nationality": "england",
+          "value": "9 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2020,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.296121"
+      }
+    },
+    {
+      "id": 87,
+      "title": "Top 10 meilleurs passeurs - Premier League (2021)",
+      "theme": "Passeurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "passeurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "13 passes"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "england",
+          "value": "12 passes"
+        },
+        {
+          "name": "Jarrod Bowen",
+          "nationality": "england",
+          "value": "12 passes"
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "value": "10 passes"
+        },
+        {
+          "name": "Mason Mount",
+          "nationality": "england",
+          "value": "10 passes"
+        },
+        {
+          "name": "Harvey Barnes",
+          "nationality": "england",
+          "value": "10 passes"
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "value": "9 passes"
+        },
+        {
+          "name": "Reece James",
+          "nationality": "england",
+          "value": "9 passes"
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brazil",
+          "value": "9 passes"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "9 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2021,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.296204"
+      }
+    },
+    {
+      "id": 88,
+      "title": "Top 10 meilleurs passeurs - Premier League (2022)",
+      "theme": "Passeurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "passeurs",
+          "temporal_span": "2022-2022",
+          "reference_year": 2022
+        }
+      },
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgium",
+          "value": "18 passes"
+        },
+        {
+          "name": "Leandro Trossard",
+          "nationality": "belgium",
+          "value": "13 passes"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "12 passes"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "england",
+          "value": "12 passes"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "value": "11 passes"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "value": "10 passes"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "england",
+          "value": "10 passes"
+        },
+        {
+          "name": "James Maddison",
+          "nationality": "england",
+          "value": "9 passes"
+        },
+        {
+          "name": "Solly March",
+          "nationality": "england",
+          "value": "9 passes"
+        },
+        {
+          "name": "Christian Eriksen",
+          "nationality": "danemark",
+          "value": "8 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2022,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.296284"
+      }
+    },
+    {
+      "id": 89,
+      "title": "Top 10 meilleurs passeurs - Premier League (2023)",
+      "theme": "Passeurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "passeurs",
+          "temporal_span": "2023-2023",
+          "reference_year": 2023
+        }
+      },
+      "answers": [
+        {
+          "name": "Anthony Gordon",
+          "nationality": "england",
+          "value": "15 passes"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "england",
+          "value": "15 passes"
+        },
+        {
+          "name": "Pedro Neto",
+          "nationality": "portugal",
+          "value": "12 passes"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "england",
+          "value": "12 passes"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "england",
+          "value": "11 passes"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "value": "11 passes"
+        },
+        {
+          "name": "Brennan Johnson",
+          "nationality": "pays de galles",
+          "value": "11 passes"
+        },
+        {
+          "name": "Pascal Groß",
+          "nationality": "germany",
+          "value": "11 passes"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgium",
+          "value": "10 passes"
+        },
+        {
+          "name": "Kieran Trippier",
+          "nationality": "england",
+          "value": "10 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2023,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.296364"
+      }
+    },
+    {
+      "id": 90,
+      "title": "Top 10 meilleurs passeurs - Premier League (2024)",
+      "theme": "Passeurs",
+      "hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "premier-league",
+          "question_type": "passeurs",
+          "temporal_span": "2024-2024",
+          "reference_year": 2024
+        }
+      },
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "18 passes"
+        },
+        {
+          "name": "Jacob Murphy",
+          "nationality": "england",
+          "value": "12 passes"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "england",
+          "value": "11 passes"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "value": "11 passes"
+        },
+        {
+          "name": "Morgan Rogers",
+          "nationality": "england",
+          "value": "11 passes"
+        },
+        {
+          "name": "Mikkel Damsgaard",
+          "nationality": "danemark",
+          "value": "11 passes"
+        },
+        {
+          "name": "Anthony Elanga",
+          "nationality": "suède",
+          "value": "11 passes"
+        },
+        {
+          "name": "Savinho",
+          "nationality": "brazil",
+          "value": "10 passes"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "10 passes"
+        },
+        {
+          "name": "Jarrod Bowen",
+          "nationality": "england",
+          "value": "10 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "premier-league",
+        "year": 2024,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.296442"
+      }
+    },
+    {
+      "id": 99,
+      "title": "Top 10 meilleurs passeurs - LaLiga (2018)",
+      "theme": "Passeurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "passeurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "14 passes"
+        },
+        {
+          "name": "Pablo Sarabia",
+          "nationality": "spain",
+          "value": "13 passes"
+        },
+        {
+          "name": "Jony",
+          "nationality": "spain",
+          "value": "11 passes"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Jordi Alba",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "value": "9 passes"
+        },
+        {
+          "name": "José Campaña",
+          "nationality": "spain",
+          "value": "9 passes"
+        },
+        {
+          "name": "Moi Gómez",
+          "nationality": "spain",
+          "value": "9 passes"
+        },
+        {
+          "name": "Marco Asensio",
+          "nationality": "spain",
+          "value": "8 passes"
+        },
+        {
+          "name": "Brais Méndez",
+          "nationality": "spain",
+          "value": "8 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2018,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.297164"
+      }
+    },
+    {
+      "id": 100,
+      "title": "Top 10 meilleurs passeurs - LaLiga (2019)",
+      "theme": "Passeurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "passeurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "22 passes"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "nationality": "spain",
+          "value": "11 passes"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Rodrigo",
+          "nationality": "spain",
+          "value": "9 passes"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "8 passes"
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "value": "8 passes"
+        },
+        {
+          "name": "Roberto Torres",
+          "nationality": "spain",
+          "value": "8 passes"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "8 passes"
+        },
+        {
+          "name": "Fabián Orellana",
+          "nationality": "chili",
+          "value": "7 passes"
+        },
+        {
+          "name": "Nabil Fekir",
+          "nationality": "france",
+          "value": "7 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2019,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.297253"
+      }
+    },
+    {
+      "id": 101,
+      "title": "Top 10 meilleurs passeurs - LaLiga (2020)",
+      "theme": "Passeurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "passeurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": "13 passes"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "11 passes"
+        },
+        {
+          "name": "Marcos Llorente",
+          "nationality": "spain",
+          "value": "11 passes"
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "germany",
+          "value": "10 passes"
+        },
+        {
+          "name": "Yannick Carrasco",
+          "nationality": "belgium",
+          "value": "10 passes"
+        },
+        {
+          "name": "Jorge de Frutos",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "9 passes"
+        },
+        {
+          "name": "Denis Suárez",
+          "nationality": "spain",
+          "value": "9 passes"
+        },
+        {
+          "name": "Carlos Soler",
+          "nationality": "spain",
+          "value": "8 passes"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "nationality": "spain",
+          "value": "8 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2020,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.297334"
+      }
+    },
+    {
+      "id": 102,
+      "title": "Top 10 meilleurs passeurs - LaLiga (2021)",
+      "theme": "Passeurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "passeurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "value": "13 passes"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "12 passes"
+        },
+        {
+          "name": "Iker Muniain",
+          "nationality": "spain",
+          "value": "11 passes"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil",
+          "value": "11 passes"
+        },
+        {
+          "name": "Jordi Alba",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Dani Parejo",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Sergi Darder",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Oscar Trejo",
+          "nationality": "argentina",
+          "value": "9 passes"
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "value": "8 passes"
+        },
+        {
+          "name": "Sergio Canales",
+          "nationality": "spain",
+          "value": "8 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2021,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.297429"
+      }
+    },
+    {
+      "id": 103,
+      "title": "Top 10 meilleurs passeurs - LaLiga (2022)",
+      "theme": "Passeurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "passeurs",
+          "temporal_span": "2022-2022",
+          "reference_year": 2022
+        }
+      },
+      "answers": [
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "17 passes"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil",
+          "value": "10 passes"
+        },
+        {
+          "name": "Mikel Merino",
+          "nationality": "spain",
+          "value": "9 passes"
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brazil",
+          "value": "9 passes"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "value": "7 passes"
+        },
+        {
+          "name": "Brian Oliván",
+          "nationality": "spain",
+          "value": "7 passes"
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nationality": "argentina",
+          "value": "7 passes"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "7 passes"
+        },
+        {
+          "name": "Gonzalo Plata",
+          "nationality": "équateur",
+          "value": "7 passes"
+        },
+        {
+          "name": "Dani Rodríguez",
+          "nationality": "spain",
+          "value": "7 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2022,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.297513"
+      }
+    },
+    {
+      "id": 104,
+      "title": "Top 10 meilleurs passeurs - LaLiga (2023)",
+      "theme": "Passeurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "passeurs",
+          "temporal_span": "2023-2023",
+          "reference_year": 2023
+        }
+      },
+      "answers": [
+        {
+          "name": "Álex Baena",
+          "nationality": "spain",
+          "value": "14 passes"
+        },
+        {
+          "name": "Nico Williams",
+          "nationality": "spain",
+          "value": "13 passes"
+        },
+        {
+          "name": "Yan Couto",
+          "nationality": "brazil",
+          "value": "10 passes"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Savinho",
+          "nationality": "brazil",
+          "value": "10 passes"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brazil",
+          "value": "9 passes"
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "germany",
+          "value": "9 passes"
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "germany",
+          "value": "8 passes"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "8 passes"
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "value": "8 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2023,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.297599"
+      }
+    },
+    {
+      "id": 105,
+      "title": "Top 10 meilleurs passeurs - LaLiga (2024)",
+      "theme": "Passeurs",
+      "hint": "🇪🇸 LaLiga",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "la-liga",
+          "question_type": "passeurs",
+          "temporal_span": "2024-2024",
+          "reference_year": 2024
+        }
+      },
+      "answers": [
+        {
+          "name": "Lamine Yamal",
+          "nationality": "spain",
+          "value": "15 passes"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brazil",
+          "value": "11 passes"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil",
+          "value": "10 passes"
+        },
+        {
+          "name": "Álex Baena",
+          "nationality": "spain",
+          "value": "10 passes"
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "england",
+          "value": "9 passes"
+        },
+        {
+          "name": "Isco",
+          "nationality": "spain",
+          "value": "8 passes"
+        },
+        {
+          "name": "Yéremy Pino",
+          "nationality": "spain",
+          "value": "8 passes"
+        },
+        {
+          "name": "Iñaki Williams",
+          "nationality": "ghana",
+          "value": "8 passes"
+        },
+        {
+          "name": "Álex Berenguer",
+          "nationality": "spain",
+          "value": "8 passes"
+        },
+        {
+          "name": "Sergi Cardona",
+          "nationality": "spain",
+          "value": "7 passes"
+        }
+      ],
+      "metadata": {
+        "competition": "la-liga",
+        "year": 2024,
+        "data_source": "assisters",
+        "generated_at": "2025-08-01T16:51:05.297676"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Top 10 meilleurs buteurs - Coupe du Monde (2018)",
+      "theme": "Buteurs",
+      "hint": "🌍 Coupe du Monde",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coupe-du-monde",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "6 buts"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "4 buts"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium",
+          "value": "4 buts"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "4 buts"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "value": "4 buts"
+        },
+        {
+          "name": "Denis Cheryshev",
+          "nationality": "russie",
+          "value": "4 buts"
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "value": "3 buts"
+        },
+        {
+          "name": "Artem Dzyuba",
+          "nationality": "russie",
+          "value": "3 buts"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgium",
+          "value": "3 buts"
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "value": "3 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-du-monde",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.927810"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Top 10 meilleurs buteurs - Coupe du Monde (2022)",
+      "theme": "Buteurs",
+      "hint": "🌍 Coupe du Monde",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "coupe-du-monde",
+          "question_type": "buteurs",
+          "temporal_span": "2022-2022",
+          "reference_year": 2022
+        }
+      },
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "8 buts"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "7 buts"
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentina",
+          "value": "4 buts"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "value": "4 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "3 buts"
+        },
+        {
+          "name": "Richarlison",
+          "nationality": "brazil",
+          "value": "3 buts"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "portugal",
+          "value": "3 buts"
+        },
+        {
+          "name": "Enner Valencia",
+          "nationality": "équateur",
+          "value": "3 buts"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "england",
+          "value": "3 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-du-monde",
+        "year": 2022,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.927905"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Top 10 meilleurs buteurs - Euro (2021)",
+      "theme": "Buteurs",
+      "hint": "🇪🇺 Euro",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "euro",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "value": "5 buts"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "république tchèque",
+          "value": "5 buts"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "4 buts"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium",
+          "value": "4 buts"
+        },
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "value": "4 buts"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "4 buts"
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "nationality": "suisse",
+          "value": "3 buts"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "3 buts"
+        },
+        {
+          "name": "Kasper Dolberg",
+          "nationality": "danemark",
+          "value": "3 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "euro",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.928191"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Top 10 meilleurs buteurs - Euro (2024)",
+      "theme": "Buteurs",
+      "hint": "🇪🇺 Euro",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "euro",
+          "question_type": "buteurs",
+          "temporal_span": "2024-2024",
+          "reference_year": 2024
+        }
+      },
+      "answers": [
+        {
+          "name": "Dani Olmo",
+          "nationality": "spain",
+          "value": "3 buts"
+        },
+        {
+          "name": "Georges Mikautadze",
+          "nationality": "géorgie",
+          "value": "3 buts"
+        },
+        {
+          "name": "Cody Gakpo",
+          "nationality": "netherlands",
+          "value": "3 buts"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Ivan Schranz",
+          "nationality": "slovaquie",
+          "value": "3 buts"
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "germany",
+          "value": "3 buts"
+        },
+        {
+          "name": "Fabián Ruiz",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "england",
+          "value": "2 buts"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Nico Williams",
+          "nationality": "spain",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "euro",
+        "year": 2024,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.928283"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Top 10 meilleurs buteurs - Champions League (2018)",
+      "theme": "Buteurs",
+      "hint": "🏆 Champions League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "champions-league",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "3 buts"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": null
+        },
+        {
+          "name": "Dušan Tadić",
+          "nationality": "serbie",
+          "value": "5 buts"
+        },
+        {
+          "name": "Moussa Marega",
+          "nationality": "mali",
+          "value": "3 buts"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "value": "2 buts"
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "value": "3 buts"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil",
+          "value": "2 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "champions-league",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.929937"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Top 10 meilleurs buteurs - Champions League (2019)",
+      "theme": "Buteurs",
+      "hint": "🏆 Champions League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "champions-league",
+          "question_type": "buteurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "6 buts"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": "1 buts"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england",
+          "value": "5 buts"
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brazil",
+          "value": "3 buts"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgium",
+          "value": "2 buts"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "netherlands",
+          "value": null
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "6 buts"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "3 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "champions-league",
+        "year": 2019,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.930033"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Top 10 meilleurs buteurs - Champions League (2020)",
+      "theme": "Buteurs",
+      "hint": "🏆 Champions League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "champions-league",
+          "question_type": "buteurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": "2 buts"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "3 buts"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil",
+          "value": "4 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "1 buts"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Youssef En-Nesyri",
+          "nationality": "maroc",
+          "value": null
+        },
+        {
+          "name": "Alassane Pléa",
+          "nationality": "france",
+          "value": "3 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "champions-league",
+        "year": 2020,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.930120"
+      }
+    },
+    {
+      "id": 28,
+      "title": "Top 10 meilleurs buteurs - Champions League (2021)",
+      "theme": "Buteurs",
+      "hint": "🏆 Champions League",
+      "difficulty": {
+        "score": 3,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "champions-league",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "3 buts"
+        },
+        {
+          "name": "Sébastien Haller",
+          "nationality": "côte d'ivoire",
+          "value": "2 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "2 buts"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "germany",
+          "value": "6 buts"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "6 buts"
+        },
+        {
+          "name": "Arnaut Danjuma",
+          "nationality": "netherlands",
+          "value": "1 buts"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "champions-league",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.930200"
+      }
+    },
+    {
+      "id": 29,
+      "title": "Top 10 meilleurs buteurs - Champions League (2022)",
+      "theme": "Buteurs",
+      "hint": "🏆 Champions League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "champions-league",
+          "question_type": "buteurs",
+          "temporal_span": "2022-2022",
+          "reference_year": 2022
+        }
+      },
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": "1 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": "2 buts"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil",
+          "value": "5 buts"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "3 buts"
+        },
+        {
+          "name": "João Mário",
+          "nationality": "portugal",
+          "value": "2 buts"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Rafa Silva",
+          "nationality": "portugal",
+          "value": "2 buts"
+        },
+        {
+          "name": "Mehdi Taremi",
+          "nationality": "iran",
+          "value": "2 buts"
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brazil",
+          "value": "2 buts"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "champions-league",
+        "year": 2022,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.930283"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Top 10 meilleurs buteurs - Champions League (2023)",
+      "theme": "Buteurs",
+      "hint": "🏆 Champions League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "champions-league",
+          "question_type": "buteurs",
+          "temporal_span": "2023-2023",
+          "reference_year": 2023
+        }
+      },
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "4 buts"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil",
+          "value": "5 buts"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": "1 buts"
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brazil",
+          "value": "3 buts"
+        },
+        {
+          "name": "Galeno",
+          "nationality": "brazil",
+          "value": "3 buts"
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentina",
+          "value": "2 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "champions-league",
+        "year": 2023,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.930366"
+      }
+    },
+    {
+      "id": 31,
+      "title": "Top 10 meilleurs buteurs - Champions League (2024)",
+      "theme": "Buteurs",
+      "hint": "🏆 Champions League",
+      "difficulty": {
+        "score": 2,
+        "level": "Très facile",
+        "icon": "⭐",
+        "p_difficulty": 1,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 2,
+        "details": {
+          "competition": "champions-league",
+          "question_type": "buteurs",
+          "temporal_span": "2024-2024",
+          "reference_year": 2024
+        }
+      },
+      "answers": [
+        {
+          "name": "Raphinha",
+          "nationality": "brazil",
+          "value": "9 buts"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "value": "5 buts"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": "2 buts"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": null
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentina",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "value": "6 buts"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brazil",
+          "value": "3 buts"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": null
+        },
+        {
+          "name": "Vangelis Pavlidis",
+          "nationality": "grèce",
+          "value": "3 buts"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "champions-league",
+        "year": 2024,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:18.930450"
+      }
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "tiers": [
+    {
+      "id": 1,
+      "name": "Palier 1",
+      "description": "Premiers pas",
+      "unlockCost": 0,
+      "difficulties": [1, 1, 1, 2, 2],
+      "pointsRewards": [1, 1, 1, 2, 2]
+    },
+    {
+      "id": 2,
+      "name": "Palier 2",
+      "description": "Apprentissage",
+      "unlockCost": 4,
+      "difficulties": [1, 2, 2, 2, 2],
+      "pointsRewards": [1, 2, 2, 2, 2]
+    },
+    {
+      "id": 3,
+      "name": "Palier 3",
+      "description": "Progression",
+      "unlockCost": 11,
+      "difficulties": [2, 2, 2, 2, 3],
+      "pointsRewards": [2, 2, 2, 2, 3]
+    },
+    {
+      "id": 4,
+      "name": "Palier 4",
+      "description": "Montée en puissance",
+      "unlockCost": 20,
+      "difficulties": [2, 2, 2, 3, 3],
+      "pointsRewards": [2, 2, 2, 3, 3]
+    },
+    {
+      "id": 5,
+      "name": "Palier 5",
+      "description": "Consolidation",
+      "unlockCost": 31,
+      "difficulties": [2, 2, 3, 3, 3],
+      "pointsRewards": [2, 2, 3, 3, 3]
+    },
+    {
+      "id": 6,
+      "name": "Palier 6",
+      "description": "Niveau intermédiaire",
+      "unlockCost": 44,
+      "difficulties": [2, 3, 3, 3, 3],
+      "pointsRewards": [2, 3, 3, 3, 3]
+    },
+    {
+      "id": 7,
+      "name": "Palier 7",
+      "description": "Confirmé",
+      "unlockCost": 59,
+      "difficulties": [3, 3, 3, 3, 3],
+      "pointsRewards": [3, 3, 3, 3, 3]
+    },
+    {
+      "id": 8,
+      "name": "Palier 8",
+      "description": "Défis sérieux",
+      "unlockCost": 75,
+      "difficulties": [3, 3, 3, 3, 4],
+      "pointsRewards": [3, 3, 3, 3, 4]
+    },
+    {
+      "id": 9,
+      "name": "Palier 9",
+      "description": "Expertise croissante",
+      "unlockCost": 93,
+      "difficulties": [3, 3, 3, 4, 4],
+      "pointsRewards": [3, 3, 3, 4, 4]
+    },
+    {
+      "id": 10,
+      "name": "Palier 10",
+      "description": "Spécialiste",
+      "unlockCost": 113,
+      "difficulties": [3, 3, 4, 4, 4],
+      "pointsRewards": [3, 3, 4, 4, 4]
+    },
+    {
+      "id": 11,
+      "name": "Palier 11",
+      "description": "Expert avancé",
+      "unlockCost": 135,
+      "difficulties": [3, 3, 4, 4, 4],
+      "pointsRewards": [3, 3, 4, 4, 4]
+    },
+    {
+      "id": 12,
+      "name": "Palier 12",
+      "description": "Maître niveau 1",
+      "unlockCost": 159,
+      "difficulties": [3, 4, 4, 4, 4],
+      "pointsRewards": [3, 4, 4, 4, 4]
+    },
+    {
+      "id": 13,
+      "name": "Palier 13",
+      "description": "Maître niveau 2",
+      "unlockCost": 184,
+      "difficulties": [3, 3, 3, 4, 4],
+      "pointsRewards": [3, 3, 3, 4, 4]
+    },
+    {
+      "id": 14,
+      "name": "Palier 14",
+      "description": "Maître niveau 3",
+      "unlockCost": 211,
+      "difficulties": [3, 3, 3, 3, 4],
+      "pointsRewards": [3, 3, 3, 3, 4]
+    },
+    {
+      "id": 15,
+      "name": "Palier 15",
+      "description": "Légende naissante",
+      "unlockCost": 240,
+      "difficulties": [3, 3, 3, 3, 3],
+      "pointsRewards": [3, 3, 3, 3, 3]
+    },
+    {
+      "id": 16,
+      "name": "Palier 16",
+      "description": "Légende confirmée",
+      "unlockCost": 270,
+      "difficulties": [3, 3, 3, 3, 4],
+      "pointsRewards": [3, 3, 3, 3, 4]
+    },
+    {
+      "id": 17,
+      "name": "Palier 17",
+      "description": "Retour aux sources",
+      "unlockCost": 302,
+      "difficulties": [3, 3, 3, 4, 4],
+      "pointsRewards": [3, 3, 3, 4, 4]
+    },
+    {
+      "id": 18,
+      "name": "Palier 18",
+      "description": "Équilibre parfait",
+      "unlockCost": 335,
+      "difficulties": [3, 3, 3, 3, 4],
+      "pointsRewards": [3, 3, 3, 3, 4]
+    },
+    {
+      "id": 19,
+      "name": "Palier 19",
+      "description": "Diversité maîtrisée",
+      "unlockCost": 370,
+      "difficulties": [3, 3, 3, 3, 3],
+      "pointsRewards": [3, 3, 3, 3, 3]
+    },
+    {
+      "id": 20,
+      "name": "Palier 20",
+      "description": "Stratège accompli",
+      "unlockCost": 406,
+      "difficulties": [3, 3, 3, 3, 3],
+      "pointsRewards": [3, 3, 3, 3, 3]
+    },
+    {
+      "id": 21,
+      "name": "Palier 21",
+      "description": "Tacticien hors pair",
+      "unlockCost": 444,
+      "difficulties": [3, 3, 3, 3, 3],
+      "pointsRewards": [3, 3, 3, 3, 3]
+    },
+    {
+      "id": 22,
+      "name": "Palier 22",
+      "description": "Connaisseur émérite",
+      "unlockCost": 483,
+      "difficulties": [2, 2, 3, 3, 3],
+      "pointsRewards": [2, 2, 3, 3, 3]
+    },
+    {
+      "id": 23,
+      "name": "Palier 23",
+      "description": "Érudit du ballon",
+      "unlockCost": 524,
+      "difficulties": [2, 2, 2, 3, 3],
+      "pointsRewards": [2, 2, 2, 3, 3]
+    },
+    {
+      "id": 24,
+      "name": "Palier 24",
+      "description": "Historien du sport",
+      "unlockCost": 566,
+      "difficulties": [2, 2, 2, 2, 3],
+      "pointsRewards": [2, 2, 2, 2, 3]
+    },
+    {
+      "id": 25,
+      "name": "Palier 25",
+      "description": "Encyclopédie vivante",
+      "unlockCost": 610,
+      "difficulties": [2, 2, 2, 2, 3],
+      "pointsRewards": [2, 2, 2, 2, 3]
+    },
+    {
+      "id": 26,
+      "name": "Palier 26",
+      "description": "Gardien de la mémoire",
+      "unlockCost": 655,
+      "difficulties": [2, 2, 2, 2, 2],
+      "pointsRewards": [2, 2, 2, 2, 2]
+    },
+    {
+      "id": 27,
+      "name": "Palier 27",
+      "description": "Sage du football",
+      "unlockCost": 702,
+      "difficulties": [2, 2, 2, 2, 2],
+      "pointsRewards": [2, 2, 2, 2, 2]
+    },
+    {
+      "id": 28,
+      "name": "Palier 28",
+      "description": "Oracle des statistiques",
+      "unlockCost": 750,
+      "difficulties": [2, 2, 2, 2, 2],
+      "pointsRewards": [2, 2, 2, 2, 2]
+    },
+    {
+      "id": 29,
+      "name": "Palier 29",
+      "description": "Légende absolue",
+      "unlockCost": 800,
+      "difficulties": [2, 2, 2, 2, 2],
+      "pointsRewards": [2, 2, 2, 2, 2]
+    },
+    {
+      "id": 30,
+      "name": "Palier 30",
+      "description": "Immortel du football",
+      "unlockCost": 851,
+      "difficulties": [2, 2, 2, 2, 2],
+      "pointsRewards": [2, 2, 2, 2, 2]
+    }
+  ]
+}

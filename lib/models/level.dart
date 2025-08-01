@@ -9,6 +9,9 @@ class Level {
   final int difficulty;
   final bool isUnlocked;
   final bool isCompleted;
+  final int tierId;
+  final int positionInTier;
+  final int pointsReward;
 
   Level({
     required this.id,
@@ -19,6 +22,9 @@ class Level {
     required this.difficulty,
     this.isUnlocked = false,
     this.isCompleted = false,
+    required this.tierId,
+    required this.positionInTier,
+    required this.pointsReward,
   });
 
   /// Retourne les noms des réponses sous forme de liste de String
@@ -34,6 +40,9 @@ class Level {
     int? difficulty,
     bool? isUnlocked,
     bool? isCompleted,
+    int? tierId,
+    int? positionInTier,
+    int? pointsReward,
   }) {
     return Level(
       id: id ?? this.id,
@@ -44,6 +53,9 @@ class Level {
       difficulty: difficulty ?? this.difficulty,
       isUnlocked: isUnlocked ?? this.isUnlocked,
       isCompleted: isCompleted ?? this.isCompleted,
+      tierId: tierId ?? this.tierId,
+      positionInTier: positionInTier ?? this.positionInTier,
+      pointsReward: pointsReward ?? this.pointsReward,
     );
   }
 
@@ -57,6 +69,9 @@ class Level {
       'difficulty': difficulty,
       'isUnlocked': isUnlocked,
       'isCompleted': isCompleted,
+      'tierId': tierId,
+      'positionInTier': positionInTier,
+      'pointsReward': pointsReward,
     };
   }
 
@@ -86,6 +101,9 @@ class Level {
       difficulty: json['difficulty'],
       isUnlocked: json['isUnlocked'] ?? false,
       isCompleted: json['isCompleted'] ?? false,
+      tierId: json['tierId'] ?? 1,
+      positionInTier: json['positionInTier'] ?? 1,
+      pointsReward: json['pointsReward'] ?? json['difficulty'] ?? 1,
     );
   }
 }

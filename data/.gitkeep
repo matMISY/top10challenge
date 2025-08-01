@@ -1,0 +1,9 @@
+# Placez vos fichiers de quiz ici
+
+Ce dossier doit contenir vos fichiers JSON organisés par difficulté :
+- Très facile (difficulté 1)
+- Facile (difficulté 2) 
+- Moyen (difficulté 3)
+- Difficile (difficulté 4)
+
+Consultez AJOUT_QUIZ.md pour les instructions détaillées.

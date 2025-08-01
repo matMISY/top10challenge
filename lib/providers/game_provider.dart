@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import '../models/game_state.dart';
 import '../models/level.dart';
+import '../models/tier.dart';
 import '../services/game_service.dart';
 
 class GameProvider with ChangeNotifier {
@@ -9,12 +10,15 @@ class GameProvider with ChangeNotifier {
   
   GameState _gameState = GameState();
   List<Level> _levels = [];
+  List<Tier> _tiers = [];
   bool _isLoading = true;
   Timer? _lifeRecoveryTimer;
 
   GameState get gameState => _gameState;
   List<Level> get levels => _levels;
+  List<Tier> get tiers => _tiers;
   bool get isLoading => _isLoading;
+  GameService get gameService => _gameService;
 
   GameProvider() {
     _initialize();
@@ -28,13 +32,10 @@ class GameProvider with ChangeNotifier {
 
   Future<void> _initialize() async {
     try {
-      _gameState = await _gameService.getGameState();
-      _levels = await _gameService.getLevels();
+      // Initialiser avec migration automatique
+      await _gameService.initializeWithMigration();
       
-      if (_levels.isEmpty) {
-        _levels = await _gameService.getLevels();
-        await _gameService.saveLevels(_levels);
-      }
+      await loadGameData();
       
       // Récupérer les vies automatiquement au démarrage
       await _recoverLivesIfNeeded();
@@ -50,11 +51,26 @@ class GameProvider with ChangeNotifier {
     }
   }
 
+  Future<void> loadGameData() async {
+    _gameState = await _gameService.getGameState();
+    _levels = await _gameService.getLevels();
+    _tiers = await _gameService.getTiers();
+    
+    if (_levels.isEmpty) {
+      _levels = await _gameService.getLevels();
+      await _gameService.saveLevels(_levels);
+    }
+    
+    if (_tiers.isEmpty) {
+      _tiers = await _gameService.getTiers();
+      await _gameService.saveTiers(_tiers);
+    }
+  }
+
   Future<void> completeLevel(int levelId) async {
     try {
       await _gameService.completeLevel(levelId);
-      _gameState = await _gameService.getGameState();
-      _levels = await _gameService.getLevels();
+      await loadGameData();
       notifyListeners();
     } catch (e) {
       debugPrint('Error completing level: $e');

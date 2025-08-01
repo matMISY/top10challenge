@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../providers/game_provider.dart';
 import '../utils/debug_config.dart';
-import 'level_map_screen.dart';
+import 'tier_selection_screen.dart';
 import 'daily_challenge_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -64,6 +64,12 @@ class HomeScreen extends StatelessWidget {
                               gameProvider: gameProvider,
                             ),
                             _buildStatCard(
+                              icon: Icons.star,
+                              value: '${gameProvider.gameState.totalPoints}',
+                              label: 'Points',
+                              color: Colors.amber,
+                            ),
+                            _buildStatCard(
                               icon: Icons.lightbulb,
                               value: '${gameProvider.gameState.hints}',
                               label: 'Indices',
@@ -79,7 +85,7 @@ class HomeScreen extends StatelessWidget {
                           () => Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const LevelMapScreen(),
+                              builder: (context) => const TierSelectionScreen(),
                             ),
                           ),
                         ),
@@ -128,9 +134,9 @@ class HomeScreen extends StatelessWidget {
     GameProvider? gameProvider,
   }) {
     return SizedBox(
-      width: 100, // Largeur fixe pour uniformiser les cartes
+      width: 85, // Largeur réduite pour 3 cartes
       child: Container(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
           color: Colors.white.withValues(alpha: 0.2),
           borderRadius: BorderRadius.circular(12),

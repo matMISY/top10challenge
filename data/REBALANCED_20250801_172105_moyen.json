@@ -1,0 +1,5697 @@
+{
+  "generated_at": "2025-08-01T17:21:05.560634",
+  "difficulty_level": "Moyen",
+  "difficulty_icon": "⭐⭐⭐",
+  "total_quizzes": 72,
+  "rebalanced": true,
+  "quizzes": [
+    {
+      "id": 189,
+      "title": "Top 10 transferts les plus chers - Serie A (2018)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Alisson",
+          "nationality": "brazil",
+          "value": "72,50 mio. €"
+        },
+        {
+          "name": "Jorginho",
+          "nationality": "italy",
+          "value": "57,00 mio. €"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "value": "42,00 mio. €"
+        },
+        {
+          "name": "Radja Nainggolan",
+          "nationality": "belgium",
+          "value": "38,00 mio. €"
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brazil",
+          "value": "38,00 mio. €"
+        },
+        {
+          "name": "Mattia Caldara",
+          "nationality": "italy",
+          "value": "37,74 mio. €"
+        },
+        {
+          "name": "Leonardo Bonucci",
+          "nationality": "italy",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "Lucas Torreira",
+          "nationality": "uruguay",
+          "value": "28,65 mio. €"
+        },
+        {
+          "name": "Kevin Strootman",
+          "nationality": "netherlands",
+          "value": "25,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2018,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.307104"
+      }
+    },
+    {
+      "id": 190,
+      "title": "Top 10 transferts les plus chers - Serie A (2019)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "João Cancelo",
+          "nationality": "portugal",
+          "value": "65,00 mio. €"
+        },
+        {
+          "name": "Dejan Kulusevski",
+          "nationality": "suède",
+          "value": "39,00 mio. €"
+        },
+        {
+          "name": "Konstantinos Manolas",
+          "nationality": "grèce",
+          "value": "36,00 mio. €"
+        },
+        {
+          "name": "Franck Kessié",
+          "nationality": "côte d'ivoire",
+          "value": "32,00 mio. €"
+        },
+        {
+          "name": "Cristian Romero",
+          "nationality": "argentina",
+          "value": "31,50 mio. €"
+        },
+        {
+          "name": "Bryan Cristante",
+          "nationality": "italy",
+          "value": "30,60 mio. €"
+        },
+        {
+          "name": "Leonardo Spinazzola",
+          "nationality": "italy",
+          "value": "29,50 mio. €"
+        },
+        {
+          "name": "Moise Kean",
+          "nationality": "italy",
+          "value": "27,50 mio. €"
+        },
+        {
+          "name": "Alex Meret",
+          "nationality": "italy",
+          "value": "26,00 mio. €"
+        },
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne",
+          "value": "24,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2019,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.307231"
+      }
+    },
+    {
+      "id": 191,
+      "title": "Top 10 transferts les plus chers - Serie A (2020)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "value": "60,00 mio. €"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina",
+          "value": "50,00 mio. €"
+        },
+        {
+          "name": "Nicolò Barella",
+          "nationality": "italy",
+          "value": "32,50 mio. €"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "value": "26,50 mio. €"
+        },
+        {
+          "name": "Nicolò Rovella",
+          "nationality": "italy",
+          "value": "26,00 mio. €"
+        },
+        {
+          "name": "Emre Can",
+          "nationality": "germany",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Stefano Sensi",
+          "nationality": "italy",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Allan",
+          "nationality": "brazil",
+          "value": "24,60 mio. €"
+        },
+        {
+          "name": "Gianluca Mancini",
+          "nationality": "italy",
+          "value": "24,00 mio. €"
+        },
+        {
+          "name": "Lucas Paquetá",
+          "nationality": "brazil",
+          "value": "23,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2020,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.307349"
+      }
+    },
+    {
+      "id": 192,
+      "title": "Top 10 transferts les plus chers - Serie A (2021)",
+      "theme": "Transferts",
+      "hint": "🇮🇹 Serie A",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "serie-a",
+          "question_type": "transferts",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium",
+          "value": "113,00 mio. €"
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "value": "83,50 mio. €"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "value": "68,00 mio. €"
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nationality": "argentina",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "Marash Kumbulla",
+          "nationality": "albanie",
+          "value": "26,50 mio. €"
+        },
+        {
+          "name": "Matteo Politano",
+          "nationality": "italy",
+          "value": "22,10 mio. €"
+        },
+        {
+          "name": "Juan Musso",
+          "nationality": "argentina",
+          "value": "20,50 mio. €"
+        },
+        {
+          "name": "Eldor Shomurodov",
+          "nationality": "ouzbékistan",
+          "value": "19,60 mio. €"
+        },
+        {
+          "name": "Rodrigo Bentancur",
+          "nationality": "uruguay",
+          "value": "19,00 mio. €"
+        },
+        {
+          "name": "Takehiro Tomiyasu",
+          "nationality": "japon",
+          "value": "18,60 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "serie-a",
+        "year": 2021,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.307469"
+      }
+    },
+    {
+      "id": 204,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2018)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "value": "64,00 mio. €"
+        },
+        {
+          "name": "Naby Keïta",
+          "nationality": "guinée",
+          "value": "60,00 mio. €"
+        },
+        {
+          "name": "Douglas Costa",
+          "nationality": "brazil",
+          "value": "40,00 mio. €"
+        },
+        {
+          "name": "Thilo Kehrer",
+          "nationality": "germany",
+          "value": "37,00 mio. €"
+        },
+        {
+          "name": "Abdou Diallo",
+          "nationality": "sénégal",
+          "value": "28,00 mio. €"
+        },
+        {
+          "name": "Bernd Leno",
+          "nationality": "germany",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Jannik Vestergaard",
+          "nationality": "danemark",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Çağlar Söyüncü",
+          "nationality": "turquie",
+          "value": "21,10 mio. €"
+        },
+        {
+          "name": "Andriy Yarmolenko",
+          "nationality": "ukraine",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Thomas Delaney",
+          "nationality": "danemark",
+          "value": "20,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2018,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.308990"
+      }
+    },
+    {
+      "id": 205,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2019)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Luka Jović",
+          "nationality": "serbie",
+          "value": "63,00 mio. €"
+        },
+        {
+          "name": "Sébastien Haller",
+          "nationality": "côte d'ivoire",
+          "value": "50,00 mio. €"
+        },
+        {
+          "name": "Joelinton",
+          "nationality": "brazil",
+          "value": "43,50 mio. €"
+        },
+        {
+          "name": "Abdou Diallo",
+          "nationality": "sénégal",
+          "value": "32,00 mio. €"
+        },
+        {
+          "name": "Kerem Demirbay",
+          "nationality": "germany",
+          "value": "32,00 mio. €"
+        },
+        {
+          "name": "Mats Hummels",
+          "nationality": "germany",
+          "value": "30,50 mio. €"
+        },
+        {
+          "name": "Thorgan Hazard",
+          "nationality": "belgium",
+          "value": "25,50 mio. €"
+        },
+        {
+          "name": "Nico Schulz",
+          "nationality": "germany",
+          "value": "25,50 mio. €"
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "germany",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Jean-Philippe Gbamin",
+          "nationality": "côte d'ivoire",
+          "value": "25,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2019,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.309130"
+      }
+    },
+    {
+      "id": 206,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2020)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Kai Havertz",
+          "nationality": "germany",
+          "value": "80,00 mio. €"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "germany",
+          "value": "53,00 mio. €"
+        },
+        {
+          "name": "Thiago Alcántara",
+          "nationality": "spain",
+          "value": "22,00 mio. €"
+        },
+        {
+          "name": "Jean-Kévin Augustin",
+          "nationality": "france",
+          "value": "21,00 mio. €"
+        },
+        {
+          "name": "Luca Waldschmidt",
+          "nationality": "germany",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Jhon Córdoba",
+          "nationality": "colombie",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Robin Koch",
+          "nationality": "germany",
+          "value": "13,00 mio. €"
+        },
+        {
+          "name": "Davy Klaassen",
+          "nationality": "netherlands",
+          "value": "11,70 mio. €"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "germany",
+          "value": "11,00 mio. €"
+        },
+        {
+          "name": "Philipp Max",
+          "nationality": "germany",
+          "value": "10,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2020,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.309250"
+      }
+    },
+    {
+      "id": 207,
+      "title": "Top 10 transferts les plus chers - Bundesliga (2021)",
+      "theme": "Transferts",
+      "hint": "🇩🇪 Bundesliga",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "bundesliga",
+          "question_type": "transferts",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Jadon Sancho",
+          "nationality": "england",
+          "value": "85,00 mio. €"
+        },
+        {
+          "name": "Dayot Upamecano",
+          "nationality": "france",
+          "value": "42,50 mio. €"
+        },
+        {
+          "name": "Ibrahima Konaté",
+          "nationality": "france",
+          "value": "40,00 mio. €"
+        },
+        {
+          "name": "Matheus Cunha",
+          "nationality": "brazil",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "Leon Bailey",
+          "nationality": "jamaïque",
+          "value": "32,00 mio. €"
+        },
+        {
+          "name": "Nico González",
+          "nationality": "argentina",
+          "value": "27,37 mio. €"
+        },
+        {
+          "name": "André Silva",
+          "nationality": "portugal",
+          "value": "23,00 mio. €"
+        },
+        {
+          "name": "Jhon Córdoba",
+          "nationality": "colombie",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "netherlands",
+          "value": "17,50 mio. €"
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "nationality": "autriche",
+          "value": "15,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "bundesliga",
+        "year": 2021,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.309376"
+      }
+    },
+    {
+      "id": 219,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2018)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "180,00 mio. €"
+        },
+        {
+          "name": "Thomas Lemar",
+          "nationality": "france",
+          "value": "72,00 mio. €"
+        },
+        {
+          "name": "Fabinho",
+          "nationality": "brazil",
+          "value": "45,00 mio. €"
+        },
+        {
+          "name": "Malcom",
+          "nationality": "brazil",
+          "value": "41,00 mio. €"
+        },
+        {
+          "name": "Gonçalo Guedes",
+          "nationality": "portugal",
+          "value": "40,00 mio. €"
+        },
+        {
+          "name": "Jean Michaël Seri",
+          "nationality": "côte d'ivoire",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "Issa Diop",
+          "nationality": "france",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Frank Anguissa",
+          "nationality": "cameroun",
+          "value": "24,85 mio. €"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "nationality": "spain",
+          "value": "24,75 mio. €"
+        },
+        {
+          "name": "Javier Pastore",
+          "nationality": "argentina",
+          "value": "24,70 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2018,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.310904"
+      }
+    },
+    {
+      "id": 220,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2019)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Nicolas Pépé",
+          "nationality": "côte d'ivoire",
+          "value": "80,00 mio. €"
+        },
+        {
+          "name": "Tanguy Ndombélé",
+          "nationality": "france",
+          "value": "62,00 mio. €"
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "value": "49,50 mio. €"
+        },
+        {
+          "name": "Ferland Mendy",
+          "nationality": "france",
+          "value": "48,00 mio. €"
+        },
+        {
+          "name": "Youri Tielemans",
+          "nationality": "belgium",
+          "value": "45,00 mio. €"
+        },
+        {
+          "name": "Jules Koundé",
+          "nationality": "france",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "William Saliba",
+          "nationality": "france",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "Ismaïla Sarr",
+          "nationality": "sénégal",
+          "value": "30,00 mio. €"
+        },
+        {
+          "name": "Rony Lopes",
+          "nationality": "portugal",
+          "value": "25,00 mio. €"
+        },
+        {
+          "name": "Jeff Reine-Adélaïde",
+          "nationality": "france",
+          "value": "25,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2019,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.311043"
+      }
+    },
+    {
+      "id": 221,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2020)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "value": "78,90 mio. €"
+        },
+        {
+          "name": "Wesley Fofana",
+          "nationality": "france",
+          "value": "35,00 mio. €"
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "nationality": "brazil",
+          "value": "26,00 mio. €"
+        },
+        {
+          "name": "Edouard Mendy",
+          "nationality": "sénégal",
+          "value": "24,00 mio. €"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brazil",
+          "value": "18,60 mio. €"
+        },
+        {
+          "name": "Bertrand Traoré",
+          "nationality": "burkina faso",
+          "value": "18,40 mio. €"
+        },
+        {
+          "name": "Morgan Sanson",
+          "nationality": "france",
+          "value": "15,80 mio. €"
+        },
+        {
+          "name": "Axel Disasi",
+          "nationality": "france",
+          "value": "13,00 mio. €"
+        },
+        {
+          "name": "Ibrahima Diallo",
+          "nationality": "france",
+          "value": "12,00 mio. €"
+        },
+        {
+          "name": "Martin Terrier",
+          "nationality": "france",
+          "value": "12,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2020,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.311168"
+      }
+    },
+    {
+      "id": 222,
+      "title": "Top 10 transferts les plus chers - Ligue 1 (2021)",
+      "theme": "Transferts",
+      "hint": "🇫🇷 Ligue 1",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 2,
+        "pi_difficulty": 2,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "ligue-1",
+          "question_type": "transferts",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Bruno Guimarães",
+          "nationality": "brazil",
+          "value": "42,10 mio. €"
+        },
+        {
+          "name": "Eduardo Camavinga",
+          "nationality": "france",
+          "value": "31,00 mio. €"
+        },
+        {
+          "name": "Boubakary Soumaré",
+          "nationality": "france",
+          "value": "20,00 mio. €"
+        },
+        {
+          "name": "Joachim Andersen",
+          "nationality": "danemark",
+          "value": "17,50 mio. €"
+        },
+        {
+          "name": "Loïc Badé",
+          "nationality": "france",
+          "value": "17,00 mio. €"
+        },
+        {
+          "name": "Pape Matar Sarr",
+          "nationality": "sénégal",
+          "value": "16,90 mio. €"
+        },
+        {
+          "name": "Mike Maignan",
+          "nationality": "france",
+          "value": "16,40 mio. €"
+        },
+        {
+          "name": "Jonathan Ikoné",
+          "nationality": "france",
+          "value": "15,40 mio. €"
+        },
+        {
+          "name": "Mohamed Simakan",
+          "nationality": "france",
+          "value": "15,00 mio. €"
+        },
+        {
+          "name": "Romain Faivre",
+          "nationality": "france",
+          "value": "15,00 mio. €"
+        }
+      ],
+      "metadata": {
+        "competition": "ligue-1",
+        "year": 2021,
+        "data_source": "transfers",
+        "generated_at": "2025-08-01T16:51:05.311289"
+      }
+    },
+    {
+      "id": 1,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2010)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2010-2010",
+          "reference_year": 2010
+        }
+      },
+      "answers": [
+        {
+          "name": "Mathieu Manset",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Scott McGleish",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Clinton Morrison",
+          "nationality": "irlande",
+          "value": "2 buts"
+        },
+        {
+          "name": "Jonathan Walters",
+          "nationality": "irlande",
+          "value": "1 buts"
+        },
+        {
+          "name": "Gary Madine",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Stuart Fleetwood",
+          "nationality": "pays de galles",
+          "value": "4 buts"
+        },
+        {
+          "name": "Nicklas Bendtner",
+          "nationality": "danemark",
+          "value": "3 buts"
+        },
+        {
+          "name": "Jonathan Téhoué",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Antony Sweeney",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Frank Lampard",
+          "nationality": "england",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2010,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.568473"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2011)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2011-2011",
+          "reference_year": 2011
+        }
+      },
+      "answers": [
+        {
+          "name": "Jermaine Beckford",
+          "nationality": "jamaïque",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ched Evans",
+          "nationality": "pays de galles",
+          "value": "1 buts"
+        },
+        {
+          "name": "Matt Tubbs",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "spain",
+          "value": "4 buts"
+        },
+        {
+          "name": "Andy Carroll",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Darius Henderson",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Ramires",
+          "nationality": "brazil",
+          "value": "1 buts"
+        },
+        {
+          "name": "Matt Phillips",
+          "nationality": "écosse",
+          "value": "1 buts"
+        },
+        {
+          "name": "Dean Bowditch",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Jermain Defoe",
+          "nationality": "england",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2011,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.568575"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2012)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2012-2012",
+          "reference_year": 2012
+        }
+      },
+      "answers": [
+        {
+          "name": "Danny Hylton",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentina",
+          "value": "3 buts"
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique",
+          "value": "2 buts"
+        },
+        {
+          "name": "David Mooney",
+          "nationality": "irlande",
+          "value": "2 buts"
+        },
+        {
+          "name": "Dean Cox",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Demba Ba",
+          "nationality": "sénégal",
+          "value": "1 buts"
+        },
+        {
+          "name": "Barry Corr",
+          "nationality": "irlande",
+          "value": null
+        },
+        {
+          "name": "Clayton Donaldson",
+          "nationality": "jamaïque",
+          "value": null
+        },
+        {
+          "name": "Scott Rendell",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Matt Smith",
+          "nationality": "england",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2012,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.568665"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2013)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2013-2013",
+          "reference_year": 2013
+        }
+      },
+      "answers": [
+        {
+          "name": "Sam Clucas",
+          "nationality": "england",
+          "value": "2 buts"
+        },
+        {
+          "name": "Joe Garner",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Britt Assombalonga",
+          "nationality": "rd congo",
+          "value": null
+        },
+        {
+          "name": "Reuben Reid",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "François Zoko",
+          "nationality": "côte d'ivoire",
+          "value": "1 buts"
+        },
+        {
+          "name": "Jamie Paterson",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Matty Fryatt",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentina",
+          "value": null
+        },
+        {
+          "name": "Jay Emmanuel-Thomas",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Chris Porter",
+          "nationality": "england",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2013,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.568749"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2014)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2014-2014",
+          "reference_year": 2014
+        }
+      },
+      "answers": [
+        {
+          "name": "Saido Berahino",
+          "nationality": "burundi",
+          "value": "5 buts"
+        },
+        {
+          "name": "Jon Stead",
+          "nationality": "england",
+          "value": "4 buts"
+        },
+        {
+          "name": "Paul Gallagher",
+          "nationality": "écosse",
+          "value": "1 buts"
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "value": "3 buts"
+        },
+        {
+          "name": "Robbie Dale",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Filipe Morais",
+          "nationality": "portugal",
+          "value": "2 buts"
+        },
+        {
+          "name": "Eoin Doyle",
+          "nationality": "irlande",
+          "value": "2 buts"
+        },
+        {
+          "name": "Andy Bishop",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Stephen Ireland",
+          "nationality": "irlande",
+          "value": "1 buts"
+        },
+        {
+          "name": "Hal Robson-Kanu",
+          "nationality": "pays de galles",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2014,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.568833"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2015)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2015-2015",
+          "reference_year": 2015
+        }
+      },
+      "answers": [
+        {
+          "name": "Matej Vydra",
+          "nationality": "tchéquie",
+          "value": null
+        },
+        {
+          "name": "Kelechi Iheanacho",
+          "nationality": "nigeria",
+          "value": "1 buts"
+        },
+        {
+          "name": "Ben Marshall",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Conor Washington",
+          "nationality": "irlande du nord",
+          "value": null
+        },
+        {
+          "name": "Macauley Bonne",
+          "nationality": "zimbabwe",
+          "value": null
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Nacer Chadli",
+          "nationality": "belgium",
+          "value": "1 buts"
+        },
+        {
+          "name": "Antony Sweeney",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Oscar",
+          "nationality": "brazil",
+          "value": "1 buts"
+        },
+        {
+          "name": "Kemar Roofe",
+          "nationality": "jamaïque",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2015,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.568913"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2016)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2016-2016",
+          "reference_year": 2016
+        }
+      },
+      "answers": [
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "value": "1 buts"
+        },
+        {
+          "name": "Adam Morgan",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Mikael Mandron",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Theo Robinson",
+          "nationality": "jamaïque",
+          "value": "1 buts"
+        },
+        {
+          "name": "Theo Walcott",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Kane Hemmings",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Willian",
+          "nationality": "brazil",
+          "value": "3 buts"
+        },
+        {
+          "name": "Roarie Deacon",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Pedro",
+          "nationality": "spain",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2016,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.568998"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2017)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2017-2017",
+          "reference_year": 2017
+        }
+      },
+      "answers": [
+        {
+          "name": "Will Grigg",
+          "nationality": "irlande du nord",
+          "value": null
+        },
+        {
+          "name": "Ian Henderson",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium",
+          "value": "2 buts"
+        },
+        {
+          "name": "Jack Marriott",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Matty Godden",
+          "nationality": "england",
+          "value": "2 buts"
+        },
+        {
+          "name": "Jack Midson",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Christian Doidge",
+          "nationality": "pays de galles",
+          "value": "1 buts"
+        },
+        {
+          "name": "Jon Stead",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Tommy Rowe",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2017,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569085"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2018)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brazil",
+          "value": "3 buts"
+        },
+        {
+          "name": "Padraig Amond",
+          "nationality": "irlande",
+          "value": "1 buts"
+        },
+        {
+          "name": "Matt Doherty",
+          "nationality": "irlande",
+          "value": "3 buts"
+        },
+        {
+          "name": "Paddy Madden",
+          "nationality": "irlande",
+          "value": "1 buts"
+        },
+        {
+          "name": "Ivan Toney",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Raúl Jiménez",
+          "nationality": "mexique",
+          "value": null
+        },
+        {
+          "name": "Connor Jennings",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Alfie May",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Fejiri Okenabirhie",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "england",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569169"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2019)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Harry McKirdy",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Nathan Delfouneso",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Maxime Biamou",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Tom Pope",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": null
+        },
+        {
+          "name": "Miguel Almirón",
+          "nationality": "paraguay",
+          "value": null
+        },
+        {
+          "name": "Morgan Ferrier",
+          "nationality": "guyana",
+          "value": null
+        },
+        {
+          "name": "James Ball",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Nathan Thomas",
+          "nationality": "england",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ross Barkley",
+          "nationality": "england",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2019,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569249"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2020)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Tom Nichols",
+          "nationality": "england",
+          "value": "3 buts"
+        },
+        {
+          "name": "Kelechi Iheanacho",
+          "nationality": "nigeria",
+          "value": "1 buts"
+        },
+        {
+          "name": "Gary Madine",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Tammy Abraham",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Alfie May",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Joshua King",
+          "nationality": "norvège",
+          "value": "2 buts"
+        },
+        {
+          "name": "Youri Tielemans",
+          "nationality": "belgium",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ben Whiteman",
+          "nationality": "england",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ashley Nadesan",
+          "nationality": "england",
+          "value": "2 buts"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "egypt",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2020,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569331"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Top 10 meilleurs buteurs - Fa-Cup (2021)",
+      "theme": "Buteurs",
+      "hint": "⚽ Fa-Cup",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "fa-cup",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Jayden Stockley",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Ollie Palmer",
+          "nationality": "england",
+          "value": "1 buts"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgium",
+          "value": null
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Ryan Bowman",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Takumi Minamino",
+          "nationality": "japon",
+          "value": null
+        },
+        {
+          "name": "James Wilson",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Scott Quigley",
+          "nationality": "england",
+          "value": null
+        },
+        {
+          "name": "Emiliano Marcondes",
+          "nationality": "danemark",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "fa-cup",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569412"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2010)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2010-2010",
+          "reference_year": 2010
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "2 buts"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "value": "1 buts"
+        },
+        {
+          "name": "Leonardo Ulloa",
+          "nationality": "argentina",
+          "value": "2 buts"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Álvaro Negredo",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Rubén Castro",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Pedro",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Fernando Cavenaghi",
+          "nationality": "argentina",
+          "value": null
+        },
+        {
+          "name": "Adrián López",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Jorge Molina",
+          "nationality": "spain",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2010,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569741"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2011)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2011-2011",
+          "reference_year": 2011
+        }
+      },
+      "answers": [
+        {
+          "name": "Pablo Infante",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Fernando Llorente",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Álvaro Vázquez",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Jonas",
+          "nationality": "brazil",
+          "value": "1 buts"
+        },
+        {
+          "name": "Nauzet Alemán",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Cristhian Stuani",
+          "nationality": "uruguay",
+          "value": null
+        },
+        {
+          "name": "Pedro",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Lassad Nouioui",
+          "nationality": "tunisie",
+          "value": null
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "spain",
+          "value": "7 buts"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "4 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2011,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569831"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2012)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2012-2012",
+          "reference_year": 2012
+        }
+      },
+      "answers": [
+        {
+          "name": "Diego Costa",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "value": "1 buts"
+        },
+        {
+          "name": "Álvaro Negredo",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "David Villa",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "3 buts"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Ivan Rakitic",
+          "nationality": "croatie",
+          "value": "4 buts"
+        },
+        {
+          "name": "Mikel Arruabarrena",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Roque Santa Cruz",
+          "nationality": "paraguay",
+          "value": null
+        },
+        {
+          "name": "Gastón Sangoy",
+          "nationality": "argentina",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2012,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569910"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2013)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2013-2013",
+          "reference_year": 2013
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "3 buts"
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentina",
+          "value": "2 buts"
+        },
+        {
+          "name": "Raúl García",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Mamadou Koné",
+          "nationality": "côte d'ivoire",
+          "value": null
+        },
+        {
+          "name": "Pedro",
+          "nationality": "spain",
+          "value": "3 buts"
+        },
+        {
+          "name": "Cristian Tello",
+          "nationality": "spain",
+          "value": "3 buts"
+        },
+        {
+          "name": "Jesé",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "value": "1 buts"
+        },
+        {
+          "name": "Javi Soria",
+          "nationality": "spain",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2013,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.569991"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2014)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2014-2014",
+          "reference_year": 2014
+        }
+      },
+      "answers": [
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil",
+          "value": "1 buts"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "4 buts"
+        },
+        {
+          "name": "Kévin Gameiro",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Pedro",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Paco Alcácer",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "spain",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2014,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.570083"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2015)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2015-2015",
+          "reference_year": 2015
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "6 buts"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "1 buts"
+        },
+        {
+          "name": "Álvaro Negredo",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "John Guidetti",
+          "nationality": "suède",
+          "value": null
+        },
+        {
+          "name": "Munir El Haddadi",
+          "nationality": "maroc",
+          "value": null
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brazil",
+          "value": "2 buts"
+        },
+        {
+          "name": "Abdón Prats",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Alain Arroyo",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Michael Krohn-Dehli",
+          "nationality": "danemark",
+          "value": "5 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2015,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.570171"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2016)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2016-2016",
+          "reference_year": 2016
+        }
+      },
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "4 buts"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Ángel Correa",
+          "nationality": "argentina",
+          "value": "3 buts"
+        },
+        {
+          "name": "Arda Turan",
+          "nationality": "turquie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "1 buts"
+        },
+        {
+          "name": "Mariano Díaz",
+          "nationality": "république dominicaine",
+          "value": "1 buts"
+        },
+        {
+          "name": "Federico Piovaccari",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Juanmi",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Edgar Méndez",
+          "nationality": "spain",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2016,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.570286"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2017)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2017-2017",
+          "reference_year": 2017
+        }
+      },
+      "answers": [
+        {
+          "name": "Víctor Curto",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "2 buts"
+        },
+        {
+          "name": "Joaquín Correa",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "4 buts"
+        },
+        {
+          "name": "Munir El Haddadi",
+          "nationality": "maroc",
+          "value": "1 buts"
+        },
+        {
+          "name": "Lucas Vázquez",
+          "nationality": "spain",
+          "value": "3 buts"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Santi Mina",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "spain",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2017,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.570364"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2018)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Ángel Rodríguez",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Rodrigo",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Karl Toko Ekambi",
+          "nationality": "cameroun",
+          "value": null
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Santi Mina",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Daniele Verde",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Kévin Gameiro",
+          "nationality": "france",
+          "value": "4 buts"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "3 buts"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.570447"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2019)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "value": "2 buts"
+        },
+        {
+          "name": "Matheus Aiás",
+          "nationality": "brazil",
+          "value": null
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Iñaki Williams",
+          "nationality": "ghana",
+          "value": "2 buts"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Adnan Januzaj",
+          "nationality": "belgium",
+          "value": "1 buts"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "value": "3 buts"
+        },
+        {
+          "name": "Pablo de Blasis",
+          "nationality": "argentina",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ander Barrenetxea",
+          "nationality": "spain",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2019,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.570531"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2020)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Sergio León",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Jorge Molina",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Kike Barja",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "value": "4 buts"
+        },
+        {
+          "name": "Frenkie de Jong",
+          "nationality": "netherlands",
+          "value": "2 buts"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Óscar Plano",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Toni Villa",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Fer Niño",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Raúl García",
+          "nationality": "spain",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2020,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.570612"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Top 10 meilleurs buteurs - Copa-Del-Rey (2021)",
+      "theme": "Buteurs",
+      "hint": "⚽ Copa-Del-Rey",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "copa-del-rey",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Borja Iglesias",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Ángel Rodríguez",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Alfredo Ortuño",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Dani Gómez",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Álvaro Negredo",
+          "nationality": "spain",
+          "value": "3 buts"
+        },
+        {
+          "name": "Paco Alcácer",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Mourad El Ghezouani",
+          "nationality": "maroc",
+          "value": "2 buts"
+        },
+        {
+          "name": "Loren Morón",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Hugo Duro",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "spain",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "copa-del-rey",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.570687"
+      }
+    },
+    {
+      "id": 31,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2010)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2010-2010",
+          "reference_year": 2010
+        }
+      },
+      "answers": [
+        {
+          "name": "Srdjan Lakic",
+          "nationality": "croatie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Stefan Maierhofer",
+          "nationality": "autriche",
+          "value": "2 buts"
+        },
+        {
+          "name": "Nando Rafael",
+          "nationality": "angola",
+          "value": null
+        },
+        {
+          "name": "Jefferson Farfán",
+          "nationality": "pérou",
+          "value": "4 buts"
+        },
+        {
+          "name": "Nils Petersen",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Ruud van Nistelrooy",
+          "nationality": "netherlands",
+          "value": "1 buts"
+        },
+        {
+          "name": "Mario Gómez",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Martin Harnik",
+          "nationality": "autriche",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2010,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571025"
+      }
+    },
+    {
+      "id": 32,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2011)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2011-2011",
+          "reference_year": 2011
+        }
+      },
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": null
+        },
+        {
+          "name": "Klaas-Jan Huntelaar",
+          "nationality": "netherlands",
+          "value": "1 buts"
+        },
+        {
+          "name": "Adrián Ramos",
+          "nationality": "colombie",
+          "value": "3 buts"
+        },
+        {
+          "name": "Sercan Sararer",
+          "nationality": "turquie",
+          "value": null
+        },
+        {
+          "name": "Matthew Taylor",
+          "nationality": "états-unis",
+          "value": "2 buts"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Shinji Kagawa",
+          "nationality": "japon",
+          "value": "2 buts"
+        },
+        {
+          "name": "Sascha Rösler",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Cacau",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Markus Feulner",
+          "nationality": "germany",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2011,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571111"
+      }
+    },
+    {
+      "id": 33,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2012)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2012-2012",
+          "reference_year": 2012
+        }
+      },
+      "answers": [
+        {
+          "name": "Mario Gómez",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Martin Harnik",
+          "nationality": "autriche",
+          "value": null
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "netherlands",
+          "value": "3 buts"
+        },
+        {
+          "name": "Ivica Olic",
+          "nationality": "croatie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Vedad Ibisevic",
+          "nationality": "bosnie-herzégovine",
+          "value": "1 buts"
+        },
+        {
+          "name": "Bas Dost",
+          "nationality": "netherlands",
+          "value": "1 buts"
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "nationality": "suisse",
+          "value": "5 buts"
+        },
+        {
+          "name": "Ciprian Marica",
+          "nationality": "roumanie",
+          "value": "4 buts"
+        },
+        {
+          "name": "Moritz Stoppelkamp",
+          "nationality": "germany",
+          "value": "3 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2012,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571195"
+      }
+    },
+    {
+      "id": 34,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2013)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2013-2013",
+          "reference_year": 2013
+        }
+      },
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brazil",
+          "value": "4 buts"
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "netherlands",
+          "value": "5 buts"
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Joselu",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Sven Schipplock",
+          "nationality": "germany",
+          "value": "3 buts"
+        },
+        {
+          "name": "Mohamadou Idrissou",
+          "nationality": "cameroun",
+          "value": "2 buts"
+        },
+        {
+          "name": "Kai Herdling",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Sidney Sam",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Marcel Gaus",
+          "nationality": "germany",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2013,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571285"
+      }
+    },
+    {
+      "id": 35,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2014)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2014-2014",
+          "reference_year": 2014
+        }
+      },
+      "answers": [
+        {
+          "name": "Sven Schipplock",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Stefan Kießling",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": "1 buts"
+        },
+        {
+          "name": "Luiz Gustavo",
+          "nationality": "brazil",
+          "value": null
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brazil",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Rubin Okotie",
+          "nationality": "autriche",
+          "value": null
+        },
+        {
+          "name": "Simon Terodde",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Manuel Junglas",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Justin Eilers",
+          "nationality": "germany",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2014,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571368"
+      }
+    },
+    {
+      "id": 36,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2015)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2015-2015",
+          "reference_year": 2015
+        }
+      },
+      "answers": [
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "germany",
+          "value": "3 buts"
+        },
+        {
+          "name": "Lars Stindl",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique",
+          "value": "1 buts"
+        },
+        {
+          "name": "Nils Petersen",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Stefan Kießling",
+          "nationality": "germany",
+          "value": "3 buts"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": "3 buts"
+        },
+        {
+          "name": "Gonzalo Castro",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Markus Einsiedler",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Giuseppe Ricciardi",
+          "nationality": "italy",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2015,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571449"
+      }
+    },
+    {
+      "id": 37,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2016)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2016-2016",
+          "reference_year": 2016
+        }
+      },
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "2 buts"
+        },
+        {
+          "name": "Martin Harnik",
+          "nationality": "autriche",
+          "value": "2 buts"
+        },
+        {
+          "name": "Bobby Wood",
+          "nationality": "états-unis",
+          "value": null
+        },
+        {
+          "name": "Felix Klaus",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Vincenzo Grifo",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "value": null
+        },
+        {
+          "name": "Yevgen Konoplyanka",
+          "nationality": "ukraine",
+          "value": null
+        },
+        {
+          "name": "Antonio Colak",
+          "nationality": "croatie",
+          "value": null
+        },
+        {
+          "name": "Richard Sukuta-Pasu",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2016,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571532"
+      }
+    },
+    {
+      "id": 38,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2017)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2017-2017",
+          "reference_year": 2017
+        }
+      },
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "1 buts"
+        },
+        {
+          "name": "Sébastien Haller",
+          "nationality": "côte d'ivoire",
+          "value": "3 buts"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Robert Glatzel",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Nils Petersen",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "value": null
+        },
+        {
+          "name": "Lukas Hinterseer",
+          "nationality": "autriche",
+          "value": null
+        },
+        {
+          "name": "Ante Rebić",
+          "nationality": "croatie",
+          "value": null
+        },
+        {
+          "name": "Mijat Gacinovic",
+          "nationality": "serbie",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2017,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571617"
+      }
+    },
+    {
+      "id": 39,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2018)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": "3 buts"
+        },
+        {
+          "name": "Pierre-Michel Lasogga",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Robert Glatzel",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Dodi Lukébakio",
+          "nationality": "belgium",
+          "value": "1 buts"
+        },
+        {
+          "name": "Simon Terodde",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Thorgan Hazard",
+          "nationality": "belgium",
+          "value": "1 buts"
+        },
+        {
+          "name": "Milot Rashica",
+          "nationality": "kosovo",
+          "value": "1 buts"
+        },
+        {
+          "name": "Joelinton",
+          "nationality": "brazil",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571696"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2019)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "value": null
+        },
+        {
+          "name": "Rouwen Hennings",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Filip Kostić",
+          "nationality": "serbie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Robert Andrich",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Milot Rashica",
+          "nationality": "kosovo",
+          "value": "1 buts"
+        },
+        {
+          "name": "Serdar Dursun",
+          "nationality": "turquie",
+          "value": null
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "nationality": "autriche",
+          "value": null
+        },
+        {
+          "name": "Benito Raman",
+          "nationality": "belgium",
+          "value": null
+        },
+        {
+          "name": "Ante Rebić",
+          "nationality": "croatie",
+          "value": null
+        },
+        {
+          "name": "Lucas Alario",
+          "nationality": "argentina",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2019,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571781"
+      }
+    },
+    {
+      "id": 41,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2020)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Jadon Sancho",
+          "nationality": "england",
+          "value": "5 buts"
+        },
+        {
+          "name": "Yussuf Poulsen",
+          "nationality": "danemark",
+          "value": "1 buts"
+        },
+        {
+          "name": "Dennis Srbeny",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Patrick Herrmann",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Hee-chan Hwang",
+          "nationality": "corée du sud",
+          "value": "2 buts"
+        },
+        {
+          "name": "Victor Sá",
+          "nationality": "brazil",
+          "value": "2 buts"
+        },
+        {
+          "name": "Janni Serra",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": "1 buts"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "value": null
+        },
+        {
+          "name": "Martin Kobylanski",
+          "nationality": "germany",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2020,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571864"
+      }
+    },
+    {
+      "id": 42,
+      "title": "Top 10 meilleurs buteurs - Dfb-Pokal (2021)",
+      "theme": "Buteurs",
+      "hint": "⚽ Dfb-Pokal",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "dfb-pokal",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Robert Glatzel",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Eric-Maxim Choupo-Moting",
+          "nationality": "cameroun",
+          "value": "3 buts"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "value": "3 buts"
+        },
+        {
+          "name": "Maximilian Beier",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Vincenzo Grifo",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Milos Pantovic",
+          "nationality": "serbie",
+          "value": null
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "value": null
+        },
+        {
+          "name": "Jonathan Burkardt",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Anthony Modeste",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Guido Burgstaller",
+          "nationality": "autriche",
+          "value": "2 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "dfb-pokal",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.571948"
+      }
+    },
+    {
+      "id": 46,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2010)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2010-2010",
+          "reference_year": 2010
+        }
+      },
+      "answers": [
+        {
+          "name": "Guillaume Hoarau",
+          "nationality": "france",
+          "value": "3 buts"
+        },
+        {
+          "name": "Nicolas Raynier",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Grégory Bettiol",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Filip Djordjevic",
+          "nationality": "serbie",
+          "value": null
+        },
+        {
+          "name": "Mohamed Camara",
+          "nationality": "guinée",
+          "value": null
+        },
+        {
+          "name": "Romain Amalfitano",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Péguy Luyindula",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Sébastien Renouard",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Alexander Tettey",
+          "nationality": "norvège",
+          "value": null
+        },
+        {
+          "name": "Éric Mouloungui",
+          "nationality": "gabon",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2010,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572293"
+      }
+    },
+    {
+      "id": 47,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2011)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2011-2011",
+          "reference_year": 2011
+        }
+      },
+      "answers": [
+        {
+          "name": "Lisandro López",
+          "nationality": "argentina",
+          "value": null
+        },
+        {
+          "name": "Mickaël Collorédo",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Nassim Akrour",
+          "nationality": "algérie",
+          "value": null
+        },
+        {
+          "name": "David Suarez",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Jean-Jacques Mandrichi",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Maxime Bourgeois",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Toifilou Maoulida",
+          "nationality": "france",
+          "value": "3 buts"
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brazil",
+          "value": "2 buts"
+        },
+        {
+          "name": "Bafétimbi Gomis",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Simon Hébras",
+          "nationality": "france",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2011,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572377"
+      }
+    },
+    {
+      "id": 48,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2012)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2012-2012",
+          "reference_year": 2012
+        }
+      },
+      "answers": [
+        {
+          "name": "Cheick Diabaté",
+          "nationality": "mali",
+          "value": "1 buts"
+        },
+        {
+          "name": "Fabien Camus",
+          "nationality": "tunisie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Jérémie Aliadière",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Nassim Akrour",
+          "nationality": "algérie",
+          "value": null
+        },
+        {
+          "name": "Kévin Bérigaud",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Kévin Lefaix",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Seydou Koné",
+          "nationality": "côte d'ivoire",
+          "value": null
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Yohann Rivière",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Filip Djordjevic",
+          "nationality": "serbie",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2012,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572456"
+      }
+    },
+    {
+      "id": 49,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2013)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2013-2013",
+          "reference_year": 2013
+        }
+      },
+      "answers": [
+        {
+          "name": "Mustapha Yatabaré",
+          "nationality": "mali",
+          "value": null
+        },
+        {
+          "name": "Sébastien da Silva",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Brian Babit",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "André-Pierre Gignac",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Mohamed Yattara",
+          "nationality": "guinée",
+          "value": null
+        },
+        {
+          "name": "Steven Papin",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Frédéric Sammaritano",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "value": "1 buts"
+        },
+        {
+          "name": "Emmanuel Rivière",
+          "nationality": "martinique",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2013,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572565"
+      }
+    },
+    {
+      "id": 50,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2014)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2014-2014",
+          "reference_year": 2014
+        }
+      },
+      "answers": [
+        {
+          "name": "Florent Mollet",
+          "nationality": "france",
+          "value": "3 buts"
+        },
+        {
+          "name": "Xavier Mercier",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Jean-Pierre Nsame",
+          "nationality": "cameroun",
+          "value": null
+        },
+        {
+          "name": "Henry Gbizié",
+          "nationality": "côte d'ivoire",
+          "value": "2 buts"
+        },
+        {
+          "name": "Vincent Créhin",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Adama Sarr",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Julien Begue",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "David Fernandes",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Claudio Beauvue",
+          "nationality": "guadeloupe",
+          "value": "1 buts"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2014,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572648"
+      }
+    },
+    {
+      "id": 51,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2015)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2015-2015",
+          "reference_year": 2015
+        }
+      },
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "value": "2 buts"
+        },
+        {
+          "name": "Youssoufou Niakaté",
+          "nationality": "mali",
+          "value": null
+        },
+        {
+          "name": "Grégory Thil",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Benjamin Jeannot",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Lacina Traoré",
+          "nationality": "côte d'ivoire",
+          "value": null
+        },
+        {
+          "name": "Farid Beziouen",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Wilfried Louisy-Daniel",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Nicolas Belvito",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Lakdar Boussaha",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Tony Théault",
+          "nationality": "france",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2015,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572731"
+      }
+    },
+    {
+      "id": 52,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2016)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2016-2016",
+          "reference_year": 2016
+        }
+      },
+      "answers": [
+        {
+          "name": "Medhy Guezoui",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Gaëtan Courtet",
+          "nationality": "france",
+          "value": "3 buts"
+        },
+        {
+          "name": "Vincent Créhin",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Christopher Mayulu",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Kévin Schur",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Rémy Cabella",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "germany",
+          "value": null
+        },
+        {
+          "name": "Clément Depres",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Jordan",
+          "nationality": "états-unis",
+          "value": null
+        },
+        {
+          "name": "Romain Basque",
+          "nationality": "france",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2016,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572817"
+      }
+    },
+    {
+      "id": 53,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2017)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2017-2017",
+          "reference_year": 2017
+        }
+      },
+      "answers": [
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentina",
+          "value": "3 buts"
+        },
+        {
+          "name": "Romain Montiel",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Louis Bongongui",
+          "nationality": "cameroun",
+          "value": "2 buts"
+        },
+        {
+          "name": "Edwin Maanane",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Cristian López",
+          "nationality": "spain",
+          "value": null
+        },
+        {
+          "name": "Said Id Azza",
+          "nationality": "maroc",
+          "value": null
+        },
+        {
+          "name": "Maki Tall",
+          "nationality": "états-unis",
+          "value": null
+        },
+        {
+          "name": "Florian Sotoca",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Christophe Mandanne",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Thomas Poussevin",
+          "nationality": "france",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2017,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572899"
+      }
+    },
+    {
+      "id": 54,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2018)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Franck Julienne",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Jonathan Rivas",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Oumar Pouye",
+          "nationality": "sénégal",
+          "value": null
+        },
+        {
+          "name": "Yankuba Jarju",
+          "nationality": "gambie",
+          "value": null
+        },
+        {
+          "name": "Naïm Sliti",
+          "nationality": "tunisie",
+          "value": "4 buts"
+        },
+        {
+          "name": "Gaëtan Perrin",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Maxime Barthelmé",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Arnold Garita",
+          "nationality": "cameroun",
+          "value": null
+        },
+        {
+          "name": "Jamal Thiaré",
+          "nationality": "sénégal",
+          "value": null
+        },
+        {
+          "name": "Benjamin Santelli",
+          "nationality": "france",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.572982"
+      }
+    },
+    {
+      "id": 55,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2019)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Pablo Sarabia",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Carnejy Antoine",
+          "nationality": "haïti",
+          "value": null
+        },
+        {
+          "name": "Jean-Philippe Krasso",
+          "nationality": "côte d'ivoire",
+          "value": "2 buts"
+        },
+        {
+          "name": "Mohamed Bayo",
+          "nationality": "guinée",
+          "value": null
+        },
+        {
+          "name": "Johanne Akassou",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Moussa Dembélé",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "2 buts"
+        },
+        {
+          "name": "Oumar Pouye",
+          "nationality": "sénégal",
+          "value": "1 buts"
+        },
+        {
+          "name": "Dorian Caddy",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Thomas Régnier",
+          "nationality": "france",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2019,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.573072"
+      }
+    },
+    {
+      "id": 56,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2020)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Mohamed Guilavogui",
+          "nationality": "mali",
+          "value": "1 buts"
+        },
+        {
+          "name": "Wail Bouhoutt",
+          "nationality": "maroc",
+          "value": "1 buts"
+        },
+        {
+          "name": "Rahmane Barry",
+          "nationality": "sénégal",
+          "value": null
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina",
+          "value": null
+        },
+        {
+          "name": "Alexandre Ramalingom",
+          "nationality": "madagascar",
+          "value": null
+        },
+        {
+          "name": "Oussama El Bakkal",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Mathéo Remars",
+          "nationality": "france",
+          "value": "4 buts"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algérie",
+          "value": null
+        },
+        {
+          "name": "Samuel Essende",
+          "nationality": "rd congo",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2020,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.573155"
+      }
+    },
+    {
+      "id": 57,
+      "title": "Top 10 meilleurs buteurs - Coupe-De-France (2021)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coupe-De-France",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coupe-de-france",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Christopher Ibayi",
+          "nationality": "congo",
+          "value": null
+        },
+        {
+          "name": "Valentin Fuss",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "value": "1 buts"
+        },
+        {
+          "name": "Arkadiusz Milik",
+          "nationality": "pologne",
+          "value": null
+        },
+        {
+          "name": "Ludovic Blas",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Idrissa Ba",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Mohamed Guilavogui",
+          "nationality": "mali",
+          "value": null
+        },
+        {
+          "name": "Nikola Petković",
+          "nationality": "serbie",
+          "value": null
+        },
+        {
+          "name": "Mohamed Ben Fredj",
+          "nationality": "tunisie",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-de-france",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.573244"
+      }
+    },
+    {
+      "id": 61,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2010)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2010-2010",
+          "reference_year": 2010
+        }
+      },
+      "answers": [
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "value": null
+        },
+        {
+          "name": "Felice Evacuo",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Luca Toni",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Marco Martini",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "value": "1 buts"
+        },
+        {
+          "name": "Gastón Ramírez",
+          "nationality": "uruguay",
+          "value": "1 buts"
+        },
+        {
+          "name": "Bernardo Corradi",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Daniele Cacia",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Mirco Antenucci",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Antonio Floro Flores",
+          "nationality": "italy",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2010,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.573580"
+      }
+    },
+    {
+      "id": 62,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2011)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2011-2011",
+          "reference_year": 2011
+        }
+      },
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "value": null
+        },
+        {
+          "name": "Giuseppe Greco",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Francesco Tavano",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Alessio Cerci",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Reginaldo",
+          "nationality": "brazil",
+          "value": null
+        },
+        {
+          "name": "Maxi López",
+          "nationality": "argentina",
+          "value": null
+        },
+        {
+          "name": "Riccardo Meggiorini",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Joaquín Larrivey",
+          "nationality": "argentina",
+          "value": null
+        },
+        {
+          "name": "Simone Guerra",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2011,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.573658"
+      }
+    },
+    {
+      "id": 63,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2012)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2012-2012",
+          "reference_year": 2012
+        }
+      },
+      "answers": [
+        {
+          "name": "Mattia Destro",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Thiago Ribeiro",
+          "nationality": "brazil",
+          "value": "1 buts"
+        },
+        {
+          "name": "Alberto Filippini",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Giampiero Clemente",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Federico Dionisi",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Fredy Guarín",
+          "nationality": "colombie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Tomas Danilevičius",
+          "nationality": "lituanie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Rolando Bianchi",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Giuseppe Le Noci",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Juanito Gómez",
+          "nationality": "argentina",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2012,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.573749"
+      }
+    },
+    {
+      "id": 64,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2013)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2013-2013",
+          "reference_year": 2013
+        }
+      },
+      "answers": [
+        {
+          "name": "José Callejón",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Marco Sansovini",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Felice Evacuo",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Gervinho",
+          "nationality": "côte d'ivoire",
+          "value": null
+        },
+        {
+          "name": "Giuseppe De Luca",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Osarimen Ebagua",
+          "nationality": "nigeria",
+          "value": null
+        },
+        {
+          "name": "Gianmarco Zigoni",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Amauri",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentina",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2013,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.573831"
+      }
+    },
+    {
+      "id": 65,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2014)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2014-2014",
+          "reference_year": 2014
+        }
+      },
+      "answers": [
+        {
+          "name": "Mario Gómez",
+          "nationality": "germany",
+          "value": "1 buts"
+        },
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "germany",
+          "value": "2 buts"
+        },
+        {
+          "name": "Keita Baldé",
+          "nationality": "sénégal",
+          "value": "2 buts"
+        },
+        {
+          "name": "Giuseppe Le Noci",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Cyril Théréau",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Éder",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Nicola Sansone",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Manolo Gabbiadini",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Radoslav Kirilov",
+          "nationality": "bulgarie",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2014,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.573917"
+      }
+    },
+    {
+      "id": 66,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2015)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2015-2015",
+          "reference_year": 2015
+        }
+      },
+      "answers": [
+        {
+          "name": "Giulio Bizzotto",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "2 buts"
+        },
+        {
+          "name": "Marcelo Brozović",
+          "nationality": "croatie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Massimo Loviso",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Pablo Granoche",
+          "nationality": "uruguay",
+          "value": null
+        },
+        {
+          "name": "Ryder Matos",
+          "nationality": "brazil",
+          "value": null
+        },
+        {
+          "name": "Riccardo Bocalon",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Simone Guerra",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "M'Baye Niang",
+          "nationality": "sénégal",
+          "value": null
+        },
+        {
+          "name": "Roberto Floriano",
+          "nationality": "italy",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2015,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.574001"
+      }
+    },
+    {
+      "id": 67,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2016)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2016-2016",
+          "reference_year": 2016
+        }
+      },
+      "answers": [
+        {
+          "name": "Marco Borriello",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Goran Pandev",
+          "nationality": "macédoine du nord",
+          "value": "1 buts"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Rolando Bianchi",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Stefano Del Sante",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentina",
+          "value": null
+        },
+        {
+          "name": "Luca Cognigni",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italy",
+          "value": "3 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2016,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.574092"
+      }
+    },
+    {
+      "id": 68,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2017)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 12,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 4,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2017-2017",
+          "reference_year": 2017
+        }
+      },
+      "answers": [
+        {
+          "name": "Alberto Cerri",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Maxi López",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Matteo Di Piazza",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Salvatore Burrai",
+          "nationality": "italy",
+          "value": "4 buts"
+        },
+        {
+          "name": "Andrea Belotti",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Dawid Kownacki",
+          "nationality": "pologne",
+          "value": "1 buts"
+        },
+        {
+          "name": "Umberto Eusepi",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Aleksandar Trajkovski",
+          "nationality": "macédoine du nord",
+          "value": null
+        },
+        {
+          "name": "Jacopo Murano",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Andrea Favilli",
+          "nationality": "italy",
+          "value": null
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2017,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.574177"
+      }
+    },
+    {
+      "id": 69,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2018)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2018-2018",
+          "reference_year": 2018
+        }
+      },
+      "answers": [
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne",
+          "value": null
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Mattia Rossetti",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Francesco Lodi",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentina",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2018,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.574261"
+      }
+    },
+    {
+      "id": 70,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2019)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2019-2019",
+          "reference_year": 2019
+        }
+      },
+      "answers": [
+        {
+          "name": "Gianluca Scamacca",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Michele Vano",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Marcello Trotta",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Tommaso Morosini",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Rolando Mandragora",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Kevin Lasagna",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Daniele Donnarumma",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Mattia Finotto",
+          "nationality": "italy",
+          "value": "2 buts"
+        },
+        {
+          "name": "Camillo Ciano",
+          "nationality": "italy",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2019,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.574342"
+      }
+    },
+    {
+      "id": 71,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2020)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2020-2020",
+          "reference_year": 2020
+        }
+      },
+      "answers": [
+        {
+          "name": "Gianluca Scamacca",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Dejan Kulusevski",
+          "nationality": "suède",
+          "value": "3 buts"
+        },
+        {
+          "name": "Leonardo Mancuso",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Hirving Lozano",
+          "nationality": "mexique",
+          "value": "1 buts"
+        },
+        {
+          "name": "Dennis Johnsen",
+          "nationality": "norvège",
+          "value": "1 buts"
+        },
+        {
+          "name": "Nedim Bajrami",
+          "nationality": "albanie",
+          "value": "2 buts"
+        },
+        {
+          "name": "Riccardo Saponara",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "spain",
+          "value": "1 buts"
+        },
+        {
+          "name": "Simone Verdi",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Daniele Verde",
+          "nationality": "italy",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2020,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.574420"
+      }
+    },
+    {
+      "id": 72,
+      "title": "Top 10 meilleurs buteurs - Coppa-Italia (2021)",
+      "theme": "Buteurs",
+      "hint": "⚽ Coppa-Italia",
+      "difficulty": {
+        "score": 9,
+        "level": "Moyen",
+        "icon": "⭐⭐⭐",
+        "p_difficulty": 3,
+        "pi_difficulty": 1,
+        "t_difficulty": 1,
+        "y_difficulty": 3,
+        "details": {
+          "competition": "coppa-italia",
+          "question_type": "buteurs",
+          "temporal_span": "2021-2021",
+          "reference_year": 2021
+        }
+      },
+      "answers": [
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "value": null
+        },
+        {
+          "name": "Leonardo Mancuso",
+          "nationality": "italy",
+          "value": null
+        },
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne",
+          "value": null
+        },
+        {
+          "name": "Nedim Bajrami",
+          "nationality": "albanie",
+          "value": null
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "value": "1 buts"
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "value": "1 buts"
+        },
+        {
+          "name": "Roberto Pereyra",
+          "nationality": "argentina",
+          "value": "1 buts"
+        },
+        {
+          "name": "Lorenzo Venuti",
+          "nationality": "italy",
+          "value": "1 buts"
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "value": "1 buts"
+        }
+      ],
+      "metadata": {
+        "competition": "coppa-italia",
+        "year": 2021,
+        "data_source": "scorers",
+        "generated_at": "2025-08-01T16:51:38.574507"
+      }
+    }
+  ]
+}
