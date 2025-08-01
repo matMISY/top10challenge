@@ -52,16 +52,19 @@ class LevelMapScreen extends StatelessWidget {
   Widget _buildLevelCard(BuildContext context, Level level, GameProvider gameProvider) {
     final isUnlocked = level.isUnlocked;
     final isCompleted = level.isCompleted;
+    final canPlay = gameProvider.gameState.canPlay();
     
     return GestureDetector(
-      onTap: isUnlocked 
+      onTap: isUnlocked && canPlay
           ? () => Navigator.push(
                 context,
                 MaterialPageRoute(
                   builder: (context) => GameScreen(level: level),
                 ),
               )
-          : null,
+          : isUnlocked && !canPlay
+              ? () => _showNoLivesDialog(context, gameProvider)
+              : null,
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
@@ -83,8 +86,10 @@ class LevelMapScreen extends StatelessWidget {
                   end: Alignment.bottomRight,
                   colors: isCompleted
                       ? [Colors.green.shade400, Colors.green.shade600]
-                      : isUnlocked
+                      : isUnlocked && canPlay
                           ? [Colors.blue.shade400, Colors.blue.shade600]
+                      : isUnlocked && !canPlay
+                          ? [Colors.red.shade400, Colors.red.shade600]
                           : [Colors.grey.shade400, Colors.grey.shade600],
                 ),
               ),
@@ -95,8 +100,10 @@ class LevelMapScreen extends StatelessWidget {
                     Icon(
                       isCompleted
                           ? Icons.star
-                          : isUnlocked
+                          : isUnlocked && canPlay
                               ? Icons.play_arrow
+                          : isUnlocked && !canPlay
+                              ? Icons.favorite_border
                               : Icons.lock,
                       size: 32,
                       color: Colors.white,
@@ -164,6 +171,68 @@ class LevelMapScreen extends StatelessWidget {
         return 'Difficile';
       default:
         return 'Expert';
+    }
+  }
+
+  void _showNoLivesDialog(BuildContext context, GameProvider gameProvider) {
+    final timeUntilNext = gameProvider.gameState.getTimeUntilNextLife();
+    
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Row(
+            children: [
+              Icon(Icons.favorite, color: Colors.red),
+              SizedBox(width: 8),
+              Text('Plus de vies !'),
+            ],
+          ),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text('Vous n\'avez plus de vies pour jouer.'),
+              const SizedBox(height: 16),
+              if (timeUntilNext != null) ...[
+                const Text('Prochaine vie dans :'),
+                const SizedBox(height: 8),
+                Text(
+                  _formatDuration(timeUntilNext),
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue,
+                  ),
+                ),
+              ] else ...[
+                const Text('Les vies se récupèrent automatiquement !'),
+                const Text('1 vie toutes les 30 minutes.'),
+              ],
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('OK'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  String _formatDuration(Duration duration) {
+    final hours = duration.inHours;
+    final minutes = duration.inMinutes % 60;
+    final seconds = duration.inSeconds % 60;
+    
+    if (hours > 0) {
+      return '${hours}h ${minutes}m ${seconds}s';
+    } else if (minutes > 0) {
+      return '${minutes}m ${seconds}s';
+    } else {
+      return '${seconds}s';
     }
   }
 }

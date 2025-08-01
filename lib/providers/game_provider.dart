@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import '../models/game_state.dart';
 import '../models/level.dart';
@@ -9,6 +10,7 @@ class GameProvider with ChangeNotifier {
   GameState _gameState = GameState();
   List<Level> _levels = [];
   bool _isLoading = true;
+  Timer? _lifeRecoveryTimer;
 
   GameState get gameState => _gameState;
   List<Level> get levels => _levels;
@@ -16,6 +18,12 @@ class GameProvider with ChangeNotifier {
 
   GameProvider() {
     _initialize();
+  }
+
+  @override
+  void dispose() {
+    _lifeRecoveryTimer?.cancel();
+    super.dispose();
   }
 
   Future<void> _initialize() async {
@@ -27,6 +35,12 @@ class GameProvider with ChangeNotifier {
         _levels = await _gameService.getLevels();
         await _gameService.saveLevels(_levels);
       }
+      
+      // Récupérer les vies automatiquement au démarrage
+      await _recoverLivesIfNeeded();
+      
+      // Démarrer le timer de récupération des vies
+      _startLifeRecoveryTimer();
       
       _isLoading = false;
       notifyListeners();
@@ -153,5 +167,31 @@ class GameProvider with ChangeNotifier {
       await _gameService.saveGameState(_gameState);
       notifyListeners();
     }
+  }
+
+  /// Démarre le timer de récupération des vies (vérifie toutes les minutes)
+  void _startLifeRecoveryTimer() {
+    _lifeRecoveryTimer?.cancel();
+    _lifeRecoveryTimer = Timer.periodic(const Duration(minutes: 1), (timer) {
+      _recoverLivesIfNeeded();
+    });
+  }
+
+  /// Récupère les vies automatiquement si possible
+  Future<void> _recoverLivesIfNeeded() async {
+    try {
+      final updatedGameState = await _gameService.recoverLives();
+      if (updatedGameState.lives != _gameState.lives) {
+        _gameState = updatedGameState;
+        notifyListeners();
+      }
+    } catch (e) {
+      debugPrint('Error recovering lives: $e');
+    }
+  }
+
+  /// Force la récupération des vies (utile pour les tests ou boutons manuels)
+  Future<void> forceRecoverLives() async {
+    await _recoverLivesIfNeeded();
   }
 }

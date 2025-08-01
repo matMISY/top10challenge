@@ -61,6 +61,7 @@ class HomeScreen extends StatelessWidget {
                               value: '${gameProvider.gameState.lives}',
                               label: 'Vies',
                               color: Colors.red,
+                              gameProvider: gameProvider,
                             ),
                             _buildStatCard(
                               icon: Icons.lightbulb,
@@ -124,6 +125,7 @@ class HomeScreen extends StatelessWidget {
     required String value,
     required String label,
     required Color color,
+    GameProvider? gameProvider,
   }) {
     return SizedBox(
       width: 100, // Largeur fixe pour uniformiser les cartes
@@ -152,6 +154,10 @@ class HomeScreen extends StatelessWidget {
                 fontSize: 12,
               ),
             ),
+            if (gameProvider != null && gameProvider.gameState.lives == 0) ...[
+              const SizedBox(height: 4),
+              _buildNextLifeCountdown(gameProvider),
+            ],
           ],
         ),
       ),
@@ -236,5 +242,40 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  Widget _buildNextLifeCountdown(GameProvider gameProvider) {
+    final timeUntilNext = gameProvider.gameState.getTimeUntilNextLife();
+    
+    if (timeUntilNext == null) {
+      return Text(
+        'Bientôt !',
+        style: GoogleFonts.baloo2(
+          color: Colors.amber,
+          fontSize: 10,
+          fontWeight: FontWeight.w600,
+        ),
+      );
+    }
+    
+    return Text(
+      _formatTimeShort(timeUntilNext),
+      style: GoogleFonts.baloo2(
+        color: Colors.amber,
+        fontSize: 10,
+        fontWeight: FontWeight.w600,
+      ),
+    );
+  }
+
+  String _formatTimeShort(Duration duration) {
+    final minutes = duration.inMinutes;
+    final seconds = duration.inSeconds % 60;
+    
+    if (minutes > 0) {
+      return '${minutes}m ${seconds}s';
+    } else {
+      return '${seconds}s';
+    }
   }
 }

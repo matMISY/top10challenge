@@ -30,8 +30,29 @@ class _GameScreenState extends State<GameScreen> {
   @override
   void initState() {
     super.initState();
+    _checkCanPlay();
     _availableAnswers = List.from(widget.level.answerNames);
     _loadSavedAnswers();
+  }
+
+  void _checkCanPlay() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final gameProvider = context.read<GameProvider>();
+      if (!gameProvider.gameState.canPlay()) {
+        Navigator.of(context).pop();
+        _showNoLivesMessage();
+      }
+    });
+  }
+
+  void _showNoLivesMessage() {
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('Vous n\'avez plus de vies ! Attendez qu\'elles se récupèrent.'),
+        backgroundColor: Colors.red,
+        duration: Duration(seconds: 3),
+      ),
+    );
   }
 
   Future<void> _loadSavedAnswers() async {

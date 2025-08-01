@@ -6,6 +6,10 @@ class GameState {
   final DateTime lastPlayedDate;
   final bool dailyChallengeCompleted;
   final Map<int, List<String>> foundAnswersByLevel;
+  final DateTime? lastLifeLostTime;
+
+  static const int maxLives = 5;
+  static const Duration lifeRecoveryDuration = Duration(minutes: 30);
 
   GameState({
     this.currentLevel = 1,
@@ -15,6 +19,7 @@ class GameState {
     DateTime? lastPlayedDate,
     this.dailyChallengeCompleted = false,
     this.foundAnswersByLevel = const {},
+    this.lastLifeLostTime,
   }) : lastPlayedDate = lastPlayedDate ?? DateTime.now();
 
   GameState copyWith({
@@ -25,6 +30,7 @@ class GameState {
     DateTime? lastPlayedDate,
     bool? dailyChallengeCompleted,
     Map<int, List<String>>? foundAnswersByLevel,
+    DateTime? lastLifeLostTime,
   }) {
     return GameState(
       currentLevel: currentLevel ?? this.currentLevel,
@@ -34,6 +40,7 @@ class GameState {
       lastPlayedDate: lastPlayedDate ?? this.lastPlayedDate,
       dailyChallengeCompleted: dailyChallengeCompleted ?? this.dailyChallengeCompleted,
       foundAnswersByLevel: foundAnswersByLevel ?? this.foundAnswersByLevel,
+      lastLifeLostTime: lastLifeLostTime ?? this.lastLifeLostTime,
     );
   }
 
@@ -46,6 +53,7 @@ class GameState {
       'lastPlayedDate': lastPlayedDate.toIso8601String(),
       'dailyChallengeCompleted': dailyChallengeCompleted,
       'foundAnswersByLevel': foundAnswersByLevel.map((key, value) => MapEntry(key.toString(), value)),
+      'lastLifeLostTime': lastLifeLostTime?.toIso8601String(),
     };
   }
 
@@ -65,6 +73,41 @@ class GameState {
       lastPlayedDate: DateTime.parse(json['lastPlayedDate'] ?? DateTime.now().toIso8601String()),
       dailyChallengeCompleted: json['dailyChallengeCompleted'] ?? false,
       foundAnswersByLevel: foundAnswersByLevel,
+      lastLifeLostTime: json['lastLifeLostTime'] != null 
+        ? DateTime.parse(json['lastLifeLostTime']) 
+        : null,
     );
+  }
+
+  /// Calcule le nombre de vies récupérables basé sur le temps écoulé
+  int getRecoverableLives() {
+    if (lastLifeLostTime == null || lives >= maxLives) return 0;
+    
+    final now = DateTime.now();
+    final timeSinceLastLoss = now.difference(lastLifeLostTime!);
+    final recoveryPeriods = timeSinceLastLoss.inMinutes ~/ lifeRecoveryDuration.inMinutes;
+    
+    // Nombre maximum de vies récupérables = maxLives - vies actuelles
+    final maxRecoverable = maxLives - lives;
+    return recoveryPeriods.clamp(0, maxRecoverable);
+  }
+
+  /// Retourne le temps restant avant la prochaine récupération de vie
+  Duration? getTimeUntilNextLife() {
+    if (lastLifeLostTime == null || lives >= maxLives) return null;
+    
+    final now = DateTime.now();
+    final timeSinceLastLoss = now.difference(lastLifeLostTime!);
+    final nextRecoveryTime = lastLifeLostTime!.add(
+      Duration(minutes: ((timeSinceLastLoss.inMinutes ~/ lifeRecoveryDuration.inMinutes) + 1) * lifeRecoveryDuration.inMinutes)
+    );
+    
+    final timeUntilNext = nextRecoveryTime.difference(now);
+    return timeUntilNext.isNegative ? null : timeUntilNext;
+  }
+
+  /// Retourne true si le joueur peut jouer (a au moins 1 vie ou peut récupérer des vies)
+  bool canPlay() {
+    return lives > 0 || getRecoverableLives() > 0;
   }
 }

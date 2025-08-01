@@ -69,8 +69,10 @@ class GameService {
 
   Future<void> loseLife() async {
     final gameState = await getGameState();
+    final now = DateTime.now();
     final updatedGameState = gameState.copyWith(
       lives: (gameState.lives - 1).clamp(0, 5),
+      lastLifeLostTime: now,
     );
     await saveGameState(updatedGameState);
   }
@@ -116,6 +118,22 @@ class GameService {
     );
     
     await saveGameState(updatedGameState);
+  }
+
+  /// Récupère automatiquement les vies basé sur le temps écoulé
+  Future<GameState> recoverLives() async {
+    final gameState = await getGameState();
+    final recoverableLives = gameState.getRecoverableLives();
+    
+    if (recoverableLives > 0) {
+      final updatedGameState = gameState.copyWith(
+        lives: (gameState.lives + recoverableLives).clamp(0, GameState.maxLives),
+      );
+      await saveGameState(updatedGameState);
+      return updatedGameState;
+    }
+    
+    return gameState;
   }
 
   Future<List<Level>> _getDefaultLevels() async {
