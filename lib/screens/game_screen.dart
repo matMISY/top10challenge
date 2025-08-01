@@ -311,109 +311,119 @@ class _GameScreenState extends State<GameScreen> {
           child: Padding(
             padding: const EdgeInsets.all(20),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.15),
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(
-                      color: Colors.white.withValues(alpha: 0.3),
-                      width: 1,
-                    ),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        widget.level.title,
-                        style: GoogleFonts.baloo2(
-                          color: Colors.white,
-                          fontSize: 22,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        widget.level.hint,
-                        style: GoogleFonts.baloo2(
-                          color: Colors.white70,
-                          fontSize: 17,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: 20),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      'Trouvés: ${_foundAnswers.length}/10',
-                      style: GoogleFonts.baloo2(
-                        color: Colors.white,
-                        fontSize: 18,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                      decoration: BoxDecoration(
-                        color: Colors.white.withValues(alpha: 0.2),
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Icon(Icons.favorite, color: Colors.red.shade400, size: 18),
-                          const SizedBox(width: 6),
-                          Consumer<GameProvider>(
-                            builder: (context, gameProvider, child) {
-                              return Text(
-                                '${gameProvider.gameState.lives}',
-                                style: const TextStyle(
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(16),
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: 0.15),
+                            borderRadius: BorderRadius.circular(16),
+                            border: Border.all(
+                              color: Colors.white.withValues(alpha: 0.3),
+                              width: 1,
+                            ),
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                widget.level.title,
+                                style: GoogleFonts.baloo2(
                                   color: Colors.white,
-                                  fontSize: 16,
+                                  fontSize: 22,
                                   fontWeight: FontWeight.bold,
                                 ),
+                              ),
+                              const SizedBox(height: 8),
+                              Text(
+                                widget.level.hint,
+                                style: GoogleFonts.baloo2(
+                                  color: Colors.white70,
+                                  fontSize: 17,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(height: 20),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              'Trouvés: ${_foundAnswers.length}/10',
+                              style: GoogleFonts.baloo2(
+                                color: Colors.white,
+                                fontSize: 18,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                              decoration: BoxDecoration(
+                                color: Colors.white.withValues(alpha: 0.2),
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Icon(Icons.favorite, color: Colors.red.shade400, size: 18),
+                                  const SizedBox(width: 6),
+                                  Consumer<GameProvider>(
+                                    builder: (context, gameProvider, child) {
+                                      return Text(
+                                        '${gameProvider.gameState.lives}',
+                                        style: const TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 16,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      );
+                                    },
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 20),
+                        SizedBox(
+                          height: MediaQuery.of(context).size.height * 0.5,
+                          child: GridView.builder(
+                            physics: const NeverScrollableScrollPhysics(),
+                            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 2,
+                              childAspectRatio: 2.8,
+                              crossAxisSpacing: 10,
+                              mainAxisSpacing: 8,
+                            ),
+                            itemCount: 10,
+                            itemBuilder: (context, index) {
+                              Answer? answerForPosition;
+                              bool isFound = false;
+                              
+                              if (index < widget.level.answers.length) {
+                                answerForPosition = widget.level.answers[index];
+                                isFound = _foundAnswers.contains(answerForPosition.name);
+                              }
+                              
+                              return AnswerSlot(
+                                index: index + 1,
+                                answer: answerForPosition,
+                                isFound: isFound,
+                                debugRevealAnswer: _debugAnswersRevealed,
                               );
                             },
                           ),
-                        ],
-                      ),
+                        ),
+                        const SizedBox(height: 20),
+                      ],
                     ),
-                  ],
-                ),
-                const SizedBox(height: 20),
-                Expanded(
-                  child: GridView.builder(
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 2,
-                      childAspectRatio: 2.8, // Réduit pour augmenter la hauteur des cases de 20%
-                      crossAxisSpacing: 10,
-                      mainAxisSpacing: 8,
-                    ),
-                    itemCount: 10,
-                    itemBuilder: (context, index) {
-                      Answer? answerForPosition;
-                      bool isFound = false;
-                      
-                      if (index < widget.level.answers.length) {
-                        answerForPosition = widget.level.answers[index];
-                        isFound = _foundAnswers.contains(answerForPosition.name);
-                      }
-                      
-                      return AnswerSlot(
-                        index: index + 1,
-                        answer: answerForPosition,
-                        isFound: isFound,
-                        debugRevealAnswer: _debugAnswersRevealed,
-                      );
-                    },
                   ),
                 ),
-                const SizedBox(height: 20),
                 SearchInput(
                   controller: _searchController,
                   availableAnswers: _availableAnswers,
