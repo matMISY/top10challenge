@@ -13,6 +13,7 @@ class GameProvider with ChangeNotifier {
   List<Tier> _tiers = [];
   bool _isLoading = true;
   Timer? _lifeRecoveryTimer;
+  Timer? _uiUpdateTimer;
 
   GameState get gameState => _gameState;
   List<Level> get levels => _levels;
@@ -27,6 +28,7 @@ class GameProvider with ChangeNotifier {
   @override
   void dispose() {
     _lifeRecoveryTimer?.cancel();
+    _uiUpdateTimer?.cancel();
     super.dispose();
   }
 
@@ -42,6 +44,9 @@ class GameProvider with ChangeNotifier {
       
       // Démarrer le timer de récupération des vies
       _startLifeRecoveryTimer();
+      
+      // Démarrer le timer de mise à jour de l'interface
+      _startUIUpdateTimer();
       
       _isLoading = false;
       notifyListeners();
@@ -209,5 +214,38 @@ class GameProvider with ChangeNotifier {
   /// Force la récupération des vies (utile pour les tests ou boutons manuels)
   Future<void> forceRecoverLives() async {
     await _recoverLivesIfNeeded();
+  }
+
+  /// Démarre le timer de mise à jour de l'interface (met à jour toutes les secondes)
+  void _startUIUpdateTimer() {
+    _uiUpdateTimer?.cancel();
+    _uiUpdateTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      // Notifier les listeners pour mettre à jour le countdown uniquement
+      // si le joueur a moins de vies max et peut récupérer des vies
+      if (_gameState.lives < GameState.maxLives && _gameState.getTimeUntilNextLife() != null) {
+        notifyListeners();
+      }
+    });
+  }
+
+  /// Retourne le temps formaté jusqu'à la prochaine vie
+  String? getFormattedTimeUntilNextLife() {
+    final timeUntilNext = _gameState.getTimeUntilNextLife();
+    if (timeUntilNext == null) return null;
+    
+    final minutes = timeUntilNext.inMinutes;
+    final seconds = timeUntilNext.inSeconds % 60;
+    
+    if (minutes > 0) {
+      return '${minutes}m ${seconds}s';
+    } else {
+      return '${seconds}s';
+    }
+  }
+
+  /// Retourne true si le timer de vie suivante doit être affiché
+  bool shouldShowLifeTimer() {
+    return _gameState.lives < GameState.maxLives && 
+           _gameState.getTimeUntilNextLife() != null;
   }
 }

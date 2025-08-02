@@ -394,13 +394,28 @@ class _GameScreenState extends State<GameScreen> {
                                   const SizedBox(width: 6),
                                   Consumer<GameProvider>(
                                     builder: (context, gameProvider, child) {
-                                      return Text(
-                                        '${gameProvider.gameState.lives}',
-                                        style: const TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 16,
-                                          fontWeight: FontWeight.bold,
-                                        ),
+                                      return Column(
+                                        mainAxisSize: MainAxisSize.min,
+                                        children: [
+                                          Text(
+                                            '${gameProvider.gameState.lives}',
+                                            style: const TextStyle(
+                                              color: Colors.white,
+                                              fontSize: 16,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          if (gameProvider.shouldShowLifeTimer()) ...[
+                                            Text(
+                                              gameProvider.getFormattedTimeUntilNextLife() ?? '',
+                                              style: const TextStyle(
+                                                color: Colors.amber,
+                                                fontSize: 10,
+                                                fontWeight: FontWeight.w600,
+                                              ),
+                                            ),
+                                          ],
+                                        ],
                                       );
                                     },
                                   ),

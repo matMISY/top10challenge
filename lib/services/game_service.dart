@@ -134,8 +134,13 @@ class GameService {
     final recoverableLives = gameState.getRecoverableLives();
     
     if (recoverableLives > 0) {
+      final now = DateTime.now();
+      final newLives = (gameState.lives + recoverableLives).clamp(0, GameState.maxLives);
+      
       final updatedGameState = gameState.copyWith(
-        lives: (gameState.lives + recoverableLives).clamp(0, GameState.maxLives),
+        lives: newLives,
+        // Mettre à jour lastLifeLostTime pour éviter la récupération multiple
+        lastLifeLostTime: newLives >= GameState.maxLives ? null : now,
       );
       await saveGameState(updatedGameState);
       return updatedGameState;

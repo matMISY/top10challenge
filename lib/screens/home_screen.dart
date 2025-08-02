@@ -160,7 +160,7 @@ class HomeScreen extends StatelessWidget {
                 fontSize: 12,
               ),
             ),
-            if (gameProvider != null && gameProvider.gameState.lives == 0) ...[
+            if (gameProvider != null && gameProvider.shouldShowLifeTimer()) ...[
               const SizedBox(height: 4),
               _buildNextLifeCountdown(gameProvider),
             ],
@@ -251,9 +251,9 @@ class HomeScreen extends StatelessWidget {
   }
 
   Widget _buildNextLifeCountdown(GameProvider gameProvider) {
-    final timeUntilNext = gameProvider.gameState.getTimeUntilNextLife();
+    final formattedTime = gameProvider.getFormattedTimeUntilNextLife();
     
-    if (timeUntilNext == null) {
+    if (formattedTime == null) {
       return Text(
         'Bientôt !',
         style: GoogleFonts.baloo2(
@@ -265,23 +265,12 @@ class HomeScreen extends StatelessWidget {
     }
     
     return Text(
-      _formatTimeShort(timeUntilNext),
+      formattedTime,
       style: GoogleFonts.baloo2(
         color: Colors.amber,
         fontSize: 10,
         fontWeight: FontWeight.w600,
       ),
     );
-  }
-
-  String _formatTimeShort(Duration duration) {
-    final minutes = duration.inMinutes;
-    final seconds = duration.inSeconds % 60;
-    
-    if (minutes > 0) {
-      return '${minutes}m ${seconds}s';
-    } else {
-      return '${seconds}s';
-    }
   }
 }
