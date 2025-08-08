@@ -13,7 +13,7 @@ class GameState {
 
   static const int maxLives = 5;
   static const Duration lifeRecoveryDuration = Duration(minutes: 30);
-  static const Duration adCooldownDuration = Duration(minutes: 30);
+  static const Duration adCooldownDuration = Duration(minutes: 2);
 
   GameState({
     this.currentLevel = 1,
