@@ -77,6 +77,12 @@ class HomeScreen extends StatelessWidget {
                             ),
                           ],
                         ),
+                        
+                        // Bouton publicité pour vies si nécessaire
+                        if (gameProvider.gameState.lives < GameState.maxLives) ...[
+                          const SizedBox(height: 16),
+                          _buildAdButton(context, gameProvider),
+                        ],
                         const SizedBox(height: 40),
                         _buildMainButton(
                           context,
@@ -272,5 +278,117 @@ class HomeScreen extends StatelessWidget {
         fontWeight: FontWeight.w600,
       ),
     );
+  }
+
+  Widget _buildAdButton(BuildContext context, GameProvider gameProvider) {
+    final canWatchAd = gameProvider.canWatchAdForLife();
+    final isWatching = gameProvider.isWatchingAd;
+    final adCooldownTime = gameProvider.getFormattedTimeUntilNextAd();
+    
+    String buttonText;
+    IconData buttonIcon;
+    bool isEnabled;
+    
+    if (isWatching) {
+      buttonText = 'Chargement...';
+      buttonIcon = Icons.hourglass_empty;
+      isEnabled = false;
+    } else if (canWatchAd) {
+      buttonText = 'Regarder une pub';
+      buttonIcon = Icons.play_circle_filled;
+      isEnabled = true;
+    } else if (adCooldownTime != null) {
+      buttonText = 'Pub dans $adCooldownTime';
+      buttonIcon = Icons.timer;
+      isEnabled = false;
+    } else {
+      buttonText = 'Pub indisponible';
+      buttonIcon = Icons.tv_off;
+      isEnabled = false;
+    }
+
+    return SizedBox(
+      width: double.infinity,
+      height: 45,
+      child: ElevatedButton(
+        onPressed: isEnabled ? () => _watchAdForLife(context, gameProvider) : null,
+        style: ElevatedButton.styleFrom(
+          backgroundColor: isEnabled 
+              ? Colors.purple.withValues(alpha: 0.8)
+              : Colors.grey.withValues(alpha: 0.3),
+          foregroundColor: Colors.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(22),
+          ),
+          elevation: isEnabled ? 4 : 1,
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            if (isWatching) ...[
+              const SizedBox(
+                width: 16,
+                height: 16,
+                child: CircularProgressIndicator(
+                  strokeWidth: 2,
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                ),
+              ),
+            ] else ...[
+              Icon(buttonIcon, size: 18),
+            ],
+            const SizedBox(width: 8),
+            Text(
+              buttonText,
+              style: GoogleFonts.baloo2(
+                fontSize: 14,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+            const SizedBox(width: 4),
+            const Icon(Icons.favorite, size: 16, color: Colors.red),
+            const Text('+5', style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Future<void> _watchAdForLife(BuildContext context, GameProvider gameProvider) async {
+    try {
+      final success = await gameProvider.watchAdForLife();
+      
+      if (success) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: const Row(
+              children: [
+                Icon(Icons.favorite, color: Colors.red),
+                SizedBox(width: 8),
+                Text('Vous avez gagné 1 vie !'),
+              ],
+            ),
+            backgroundColor: Colors.green,
+            duration: const Duration(seconds: 3),
+          ),
+        );
+      } else {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Publicité non disponible. Réessayez plus tard.'),
+            backgroundColor: Colors.orange,
+            duration: Duration(seconds: 3),
+          ),
+        );
+      }
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Erreur lors du chargement de la publicité.'),
+          backgroundColor: Colors.red,
+          duration: Duration(seconds: 3),
+        ),
+      );
+    }
   }
 }

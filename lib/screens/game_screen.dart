@@ -143,9 +143,32 @@ class _GameScreenState extends State<GameScreen> {
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) {
+        final gameProvider = context.read<GameProvider>();
+        final canWatchAd = gameProvider.canWatchAdForLife();
+        
         return AlertDialog(
           title: const Text('💔 Game Over'),
-          content: const Text('Vous avez fait trop d\'erreurs. Réessayez !'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Text('Vous avez fait trop d\'erreurs.'),
+              if (canWatchAd) ...[
+                const SizedBox(height: 16),
+                const Row(
+                  children: [
+                    Icon(Icons.play_circle_filled, color: Colors.purple),
+                    SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        'Regardez une pub pour gagner une vie et continuer !',
+                        style: TextStyle(fontSize: 14),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ],
+          ),
           actions: [
             TextButton(
               onPressed: () {
@@ -154,6 +177,22 @@ class _GameScreenState extends State<GameScreen> {
               },
               child: const Text('Retour'),
             ),
+            if (canWatchAd) ...[
+              TextButton(
+                onPressed: () => _watchAdAndContinue(context, gameProvider),
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.purple.withValues(alpha: 0.1),
+                ),
+                child: const Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.play_circle_filled, size: 16, color: Colors.purple),
+                    SizedBox(width: 4),
+                    Text('Pub + 1 vie', style: TextStyle(color: Colors.purple)),
+                  ],
+                ),
+              ),
+            ],
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
@@ -240,6 +279,95 @@ class _GameScreenState extends State<GameScreen> {
         duration: Duration(seconds: 2),
       ),
     );
+  }
+
+  Future<void> _watchAdAndContinue(BuildContext context, GameProvider gameProvider) async {
+    try {
+      // Fermer le dialog de game over
+      Navigator.of(context).pop();
+      
+      // Montrer un indicateur de chargement
+      showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (BuildContext context) {
+          return const AlertDialog(
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(height: 16),
+                Text('Chargement de la publicité...'),
+              ],
+            ),
+          );
+        },
+      );
+
+      final success = await gameProvider.watchAdForLife();
+      
+      // Fermer le dialog de chargement
+      Navigator.of(context).pop();
+      
+      if (success) {
+        // Afficher le succès et continuer le jeu
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Row(
+              children: [
+                Icon(Icons.favorite, color: Colors.red),
+                SizedBox(width: 8),
+                Text('Vous avez gagné 1 vie ! Continuez à jouer !'),
+              ],
+            ),
+            backgroundColor: Colors.green,
+            duration: Duration(seconds: 3),
+          ),
+        );
+      } else {
+        // Échec de la pub, proposer les autres options
+        showDialog(
+          context: context,
+          barrierDismissible: false,
+          builder: (BuildContext context) {
+            return AlertDialog(
+              title: const Text('❌ Publicité indisponible'),
+              content: const Text('Impossible de charger la publicité. Que voulez-vous faire ?'),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                    Navigator.of(context).pop();
+                  },
+                  child: const Text('Retour'),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                    _resetLevel();
+                  },
+                  child: const Text('Recommencer'),
+                ),
+              ],
+            );
+          },
+        );
+      }
+    } catch (e) {
+      // Fermer le dialog de chargement si ouvert
+      Navigator.of(context).pop();
+      
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Erreur lors du chargement de la publicité.'),
+          backgroundColor: Colors.red,
+          duration: Duration(seconds: 3),
+        ),
+      );
+      
+      // Revenir au dialog de game over
+      _onGameOver();
+    }
   }
 
   void _useHint() {

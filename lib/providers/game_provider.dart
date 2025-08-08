@@ -4,14 +4,17 @@ import '../models/game_state.dart';
 import '../models/level.dart';
 import '../models/tier.dart';
 import '../services/game_service.dart';
+import '../services/ads_service.dart';
 
 class GameProvider with ChangeNotifier {
   final GameService _gameService = GameService();
+  final AdsService _adsService = AdsService();
   
   GameState _gameState = GameState();
   List<Level> _levels = [];
   List<Tier> _tiers = [];
   bool _isLoading = true;
+  bool _isWatchingAd = false;
   Timer? _lifeRecoveryTimer;
   Timer? _uiUpdateTimer;
 
@@ -19,6 +22,7 @@ class GameProvider with ChangeNotifier {
   List<Level> get levels => _levels;
   List<Tier> get tiers => _tiers;
   bool get isLoading => _isLoading;
+  bool get isWatchingAd => _isWatchingAd;
   GameService get gameService => _gameService;
 
   GameProvider() {
@@ -29,6 +33,7 @@ class GameProvider with ChangeNotifier {
   void dispose() {
     _lifeRecoveryTimer?.cancel();
     _uiUpdateTimer?.cancel();
+    _adsService.dispose();
     super.dispose();
   }
 
@@ -36,6 +41,9 @@ class GameProvider with ChangeNotifier {
     try {
       // Initialiser avec migration automatique
       await _gameService.initializeWithMigration();
+      
+      // Initialiser le service de publicités
+      await _adsService.initialize();
       
       await loadGameData();
       
@@ -51,6 +59,7 @@ class GameProvider with ChangeNotifier {
       _isLoading = false;
       notifyListeners();
     } catch (e) {
+      debugPrint('Error initializing GameProvider: $e');
       _isLoading = false;
       notifyListeners();
     }
@@ -247,5 +256,78 @@ class GameProvider with ChangeNotifier {
   bool shouldShowLifeTimer() {
     return _gameState.lives < GameState.maxLives && 
            _gameState.getTimeUntilNextLife() != null;
+  }
+
+  /// Regarde une publicité pour gagner une vie
+  Future<bool> watchAdForLife() async {
+    if (!_gameState.canWatchAdForLife() || _isWatchingAd) {
+      debugPrint('Cannot watch ad: cooldown not ready or already watching');
+      return false;
+    }
+
+    _isWatchingAd = true;
+    notifyListeners();
+
+    try {
+      // Vérifier si une pub est disponible
+      if (!_adsService.isRewardedAdReady) {
+        debugPrint('No rewarded ad ready, trying to preload...');
+        await _adsService.preloadRewardedAd();
+        
+        // Attendre un peu pour le chargement
+        await Future.delayed(const Duration(seconds: 2));
+        
+        if (!_adsService.isRewardedAdReady) {
+          debugPrint('Failed to load rewarded ad');
+          return false;
+        }
+      }
+
+      // Afficher la pub
+      final bool rewardEarned = await _adsService.showRewardedAd();
+      
+      if (rewardEarned) {
+        // Récompenser le joueur
+        final now = DateTime.now();
+        _gameState = _gameState.copyWith(
+          lives: (_gameState.lives + 5).clamp(0, GameState.maxLives),
+          lastAdWatchTime: now,
+        );
+        
+        await _gameService.saveGameState(_gameState);
+        debugPrint('✅ Player rewarded with 5 lifes from ad');
+        
+        return true;
+      } else {
+        debugPrint('❌ No reward earned from ad');
+        return false;
+      }
+    } catch (e) {
+      debugPrint('❌ Error watching ad: $e');
+      return false;
+    } finally {
+      _isWatchingAd = false;
+      notifyListeners();
+    }
+  }
+
+  /// Vérifie si une pub peut être regardée pour gagner une vie
+  bool canWatchAdForLife() {
+    return _gameState.canWatchAdForLife() && !_isWatchingAd && _adsService.isRewardedAdReady;
+  }
+
+  /// Retourne le temps formaté jusqu'à la prochaine pub
+  String? getFormattedTimeUntilNextAd() {
+    final timeUntilNext = _gameState.getTimeUntilNextAd();
+    if (timeUntilNext == null) return null;
+    
+    final minutes = timeUntilNext.inMinutes;
+    final seconds = timeUntilNext.inSeconds % 60;
+    
+    if (minutes > 0) {
+      return '${minutes}m ${seconds}s';
+    } else {
+      return '${seconds}s';
+    }
   }
 }

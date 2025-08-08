@@ -9,9 +9,11 @@ class GameState {
   final DateTime? lastLifeLostTime;
   final int totalPoints;
   final List<int> unlockedTiers;
+  final DateTime? lastAdWatchTime;
 
   static const int maxLives = 5;
   static const Duration lifeRecoveryDuration = Duration(minutes: 30);
+  static const Duration adCooldownDuration = Duration(minutes: 30);
 
   GameState({
     this.currentLevel = 1,
@@ -24,6 +26,7 @@ class GameState {
     this.lastLifeLostTime,
     this.totalPoints = 0,
     this.unlockedTiers = const [1],
+    this.lastAdWatchTime,
   }) : lastPlayedDate = lastPlayedDate ?? DateTime.now();
 
   GameState copyWith({
@@ -37,6 +40,7 @@ class GameState {
     DateTime? lastLifeLostTime,
     int? totalPoints,
     List<int>? unlockedTiers,
+    DateTime? lastAdWatchTime,
   }) {
     return GameState(
       currentLevel: currentLevel ?? this.currentLevel,
@@ -49,6 +53,7 @@ class GameState {
       lastLifeLostTime: lastLifeLostTime ?? this.lastLifeLostTime,
       totalPoints: totalPoints ?? this.totalPoints,
       unlockedTiers: unlockedTiers ?? this.unlockedTiers,
+      lastAdWatchTime: lastAdWatchTime ?? this.lastAdWatchTime,
     );
   }
 
@@ -64,6 +69,7 @@ class GameState {
       'lastLifeLostTime': lastLifeLostTime?.toIso8601String(),
       'totalPoints': totalPoints,
       'unlockedTiers': unlockedTiers,
+      'lastAdWatchTime': lastAdWatchTime?.toIso8601String(),
     };
   }
 
@@ -88,6 +94,9 @@ class GameState {
         : null,
       totalPoints: json['totalPoints'] ?? 0,
       unlockedTiers: List<int>.from(json['unlockedTiers'] ?? [1]),
+      lastAdWatchTime: json['lastAdWatchTime'] != null 
+        ? DateTime.parse(json['lastAdWatchTime']) 
+        : null,
     );
   }
 
@@ -121,5 +130,26 @@ class GameState {
   /// Retourne true si le joueur peut jouer (a au moins 1 vie ou peut récupérer des vies)
   bool canPlay() {
     return lives > 0 || getRecoverableLives() > 0;
+  }
+
+  /// Vérifie si le joueur peut regarder une pub pour gagner une vie
+  bool canWatchAdForLife() {
+    if (lives >= maxLives) return false;
+    if (lastAdWatchTime == null) return true;
+    
+    final now = DateTime.now();
+    final timeSinceLastAd = now.difference(lastAdWatchTime!);
+    return timeSinceLastAd >= adCooldownDuration;
+  }
+
+  /// Retourne le temps restant avant de pouvoir regarder une nouvelle pub
+  Duration? getTimeUntilNextAd() {
+    if (lives >= maxLives || lastAdWatchTime == null) return null;
+    
+    final now = DateTime.now();
+    final nextAdTime = lastAdWatchTime!.add(adCooldownDuration);
+    final timeUntilNext = nextAdTime.difference(now);
+    
+    return timeUntilNext.isNegative ? null : timeUntilNext;
   }
 }
