@@ -1,0 +1,1326 @@
+{
+  "generated_at": "2025-08-08T20:00:45.076715",
+  "total_quizzes": 20,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Premier League entre 2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "hint": "A.I."
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        },
+        {
+          "name": "Chris Wood",
+          "nationality": "nouvelle-zélande",
+          "hint": "C.W."
+        },
+        {
+          "name": "Yoane Wissa",
+          "nationality": "rd congo",
+          "hint": "Y.W."
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "O.W."
+        },
+        {
+          "name": "Bryan Mbeumo",
+          "nationality": "cameroun",
+          "hint": "B.M."
+        },
+        {
+          "name": "Matheus Cunha",
+          "nationality": "brésil",
+          "hint": "M.C."
+        },
+        {
+          "name": "Luis Díaz",
+          "nationality": "colombie",
+          "hint": "L.D."
+        },
+        {
+          "name": "Jørgen Strand Larsen",
+          "nationality": "norvège",
+          "hint": "J.L."
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.068340"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Premier League entre 2023",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "",
+          "hint": "E.H."
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "",
+          "hint": "A.I."
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "",
+          "hint": "C.P."
+        },
+        {
+          "name": "Chris Wood",
+          "nationality": "",
+          "hint": "C.W."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "",
+          "hint": "M.S."
+        },
+        {
+          "name": "Jean-Philippe Mateta",
+          "nationality": "",
+          "hint": "J.M."
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "",
+          "hint": "P.F."
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "",
+          "hint": "O.W."
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "",
+          "hint": "H.S."
+        },
+        {
+          "name": "Dominic Solanke",
+          "nationality": "",
+          "hint": "D.S."
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.068545"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Premier League entre 2020-2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "G.B."
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "R.F."
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "hint": "A.I."
+        },
+        {
+          "name": "Kelechi Iheanacho",
+          "nationality": "nigeria",
+          "hint": "K.I."
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "angleterre",
+          "hint": "C.W."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "R.M."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.069493"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Premier League entre 2015-2020",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "G.B."
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Kelechi Iheanacho",
+          "nationality": "nigeria",
+          "hint": "K.I."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Mason Greenwood",
+          "nationality": "angleterre",
+          "hint": "M.G."
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brésil",
+          "hint": "G.J."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.070649"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Liga entre 2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "A.S."
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Ayoze Pérez",
+          "nationality": "espagne",
+          "hint": "A.P."
+        },
+        {
+          "name": "Oihan Sancet",
+          "nationality": "espagne",
+          "hint": "O.S."
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "hint": "A.B."
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "J.A."
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Kike García",
+          "nationality": "espagne",
+          "hint": "K.G."
+        },
+        {
+          "name": "Javi Puado",
+          "nationality": "espagne",
+          "hint": "J.P."
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.070793"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Liga entre 2023",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "A.D."
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "A.S."
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "J.B."
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "V.J."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "hint": "A.B."
+        },
+        {
+          "name": "Borja Mayoral",
+          "nationality": "espagne",
+          "hint": "B.M."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Youssef En-Nesyri",
+          "nationality": "maroc",
+          "hint": "Y.E."
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.070919"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Liga entre 2020-2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "A.S."
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Ayoze Pérez",
+          "nationality": "espagne",
+          "hint": "A.P."
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "A.D."
+        },
+        {
+          "name": "Oihan Sancet",
+          "nationality": "espagne",
+          "hint": "O.S."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": "G.M."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.071416"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Liga entre 2015-2020",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "G.B."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Youssef En-Nesyri",
+          "nationality": "maroc",
+          "hint": "Y.E."
+        },
+        {
+          "name": "Cristhian Stuani",
+          "nationality": "uruguay",
+          "hint": "C.S."
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "hint": "A.I."
+        },
+        {
+          "name": "Borja Bastón",
+          "nationality": "espagne",
+          "hint": "B.B."
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.072019"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A entre 2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mateo Retegui",
+          "nationality": "italie",
+          "hint": "M.R."
+        },
+        {
+          "name": "Riccardo Orsolini",
+          "nationality": "italie",
+          "hint": "R.O."
+        },
+        {
+          "name": "Moise Kean",
+          "nationality": "italie",
+          "hint": "M.K."
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "A.L."
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "M.T."
+        },
+        {
+          "name": "Lorenzo Lucca",
+          "nationality": "italie",
+          "hint": "L.L."
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "A.D."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Scott McTominay",
+          "nationality": "écosse",
+          "hint": "S.M."
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.072153"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A entre 2023",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "V.O."
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": "D.V."
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "P.D."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "M.T."
+        },
+        {
+          "name": "Albert Gudmundsson",
+          "nationality": "islande",
+          "hint": "A.G."
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "D.Z."
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.072287"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A entre 2020-2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "hint": "L.M."
+        },
+        {
+          "name": "Mateo Retegui",
+          "nationality": "italie",
+          "hint": "M.R."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "C.I."
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "V.O."
+        },
+        {
+          "name": "Riccardo Orsolini",
+          "nationality": "italie",
+          "hint": "R.O."
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": "D.V."
+        },
+        {
+          "name": "Gianluca Scamacca",
+          "nationality": "italie",
+          "hint": "G.S."
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "A.L."
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.073151"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A entre 2015-2020",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "hint": "L.M."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "P.D."
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "C.I."
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "D.Z."
+        },
+        {
+          "name": "Keita Baldé",
+          "nationality": "sénégal",
+          "hint": "K.B."
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "M.I."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "D.M."
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.073771"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga entre 2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": "P.S."
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Omar Marmoush",
+          "nationality": "égypte",
+          "hint": "O.M."
+        },
+        {
+          "name": "Jonathan Burkardt",
+          "nationality": "allemagne",
+          "hint": "J.B."
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "E.D."
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "hint": "S.G."
+        },
+        {
+          "name": "Hugo Ekitiké",
+          "nationality": "france",
+          "hint": "H.E."
+        },
+        {
+          "name": "Tim Kleindienst",
+          "nationality": "allemagne",
+          "hint": "T.K."
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie",
+          "hint": "B.S."
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "M.O."
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.073912"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga entre 2023",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "hint": "S.G."
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie",
+          "hint": "B.S."
+        },
+        {
+          "name": "Victor Boniface",
+          "nationality": "nigeria",
+          "hint": "V.B."
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": "L.O."
+        },
+        {
+          "name": "Deniz Undav",
+          "nationality": "allemagne",
+          "hint": "D.U."
+        },
+        {
+          "name": "Donyell Malen",
+          "nationality": "pays-bas",
+          "hint": "D.M."
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "A.K."
+        },
+        {
+          "name": "Maximilian Beier",
+          "nationality": "allemagne",
+          "hint": "M.B."
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "E.D."
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.074036"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga entre 2020-2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": "P.S."
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        },
+        {
+          "name": "Omar Marmoush",
+          "nationality": "égypte",
+          "hint": "O.M."
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "hint": "S.G."
+        },
+        {
+          "name": "André Silva",
+          "nationality": "portugal",
+          "hint": "A.S."
+        },
+        {
+          "name": "Victor Boniface",
+          "nationality": "nigeria",
+          "hint": "V.B."
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": "L.O."
+        },
+        {
+          "name": "Deniz Undav",
+          "nationality": "allemagne",
+          "hint": "D.U."
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.074552"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga entre 2015-2020",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Paco Alcácer",
+          "nationality": "espagne",
+          "hint": "P.A."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "P.A."
+        },
+        {
+          "name": "André Silva",
+          "nationality": "portugal",
+          "hint": "A.S."
+        },
+        {
+          "name": "Ishak Belfodil",
+          "nationality": "algérie",
+          "hint": "I.B."
+        },
+        {
+          "name": "Claudio Pizarro",
+          "nationality": "pérou",
+          "hint": "C.P."
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique",
+          "hint": "C."
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "T.W."
+        },
+        {
+          "name": "Luka Jović",
+          "nationality": "serbie",
+          "hint": "L.J."
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.075148"
+      }
+    },
+    {
+      "id": 17,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 entre 2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Mika Biereth",
+          "nationality": "danemark",
+          "hint": "M.B."
+        },
+        {
+          "name": "Mason Greenwood",
+          "nationality": "angleterre",
+          "hint": "M.G."
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "A.L."
+        },
+        {
+          "name": "Arnaud Kalimuendo",
+          "nationality": "france",
+          "hint": "A.K."
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "B.B."
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada",
+          "hint": "J.D."
+        },
+        {
+          "name": "Amine Gouiri",
+          "nationality": "algérie",
+          "hint": "A.G."
+        },
+        {
+          "name": "Emanuel Emegha",
+          "nationality": "pays-bas",
+          "hint": "E.E."
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "nationality": "france",
+          "hint": "L.A."
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.075289"
+      }
+    },
+    {
+      "id": 18,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 entre 2023",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "",
+          "hint": "K.M."
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "",
+          "hint": "A.L."
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "",
+          "hint": "G.R."
+        },
+        {
+          "name": "Georges Mikautadze",
+          "nationality": "",
+          "hint": "G.M."
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "",
+          "hint": "J.D."
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "",
+          "hint": "W.Y."
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "",
+          "hint": "P.A."
+        },
+        {
+          "name": "Terem Moffi",
+          "nationality": "",
+          "hint": "T.M."
+        },
+        {
+          "name": "Thijs Dallinga",
+          "nationality": "",
+          "hint": "T.D."
+        },
+        {
+          "name": "Elye Wahi",
+          "nationality": "",
+          "hint": "E.W."
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.075441"
+      }
+    },
+    {
+      "id": 19,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 entre 2020-2024",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Mika Biereth",
+          "nationality": "danemark",
+          "hint": "M.B."
+        },
+        {
+          "name": "Moussa Dembélé",
+          "nationality": "france",
+          "hint": "M.D."
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "A.L."
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "W.Y."
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": "L.O."
+        },
+        {
+          "name": "Burak Yılmaz",
+          "nationality": "turquie",
+          "hint": "B.Y."
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "",
+          "hint": "G.R."
+        },
+        {
+          "name": "Martin Terrier",
+          "nationality": "france",
+          "hint": "M.T."
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.076079"
+      }
+    },
+    {
+      "id": 20,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 entre 2015-2020",
+      "theme": "Ratio buts/minutes",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "M.I."
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "A.L."
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "R.F."
+        },
+        {
+          "name": "Burak Yılmaz",
+          "nationality": "turquie",
+          "hint": "B.Y."
+        },
+        {
+          "name": "Bafétimbi Gomis",
+          "nationality": "france",
+          "hint": "B.G."
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-08T20:00:45.076703"
+      }
+    }
+  ]
+}

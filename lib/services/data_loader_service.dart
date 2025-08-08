@@ -58,7 +58,7 @@ class DataLoaderService {
         final level = Level(
           id: quiz['id'] as int? ?? (i + 1), // Utiliser l'ID existant ou générer
           title: quiz['title'] as String,
-          hint: quiz['hint'] as String,
+          hint: quiz['hint'] as String? ?? '', // Champ hint optionnel
           category: (quiz['theme'] ?? quiz['category']) as String,
           answers: answers,
           difficulty: difficulty,
@@ -201,16 +201,16 @@ class DataLoaderService {
     // Fichiers organisés par difficulté (dans l'ordre croissant)
     final difficultyFilePatterns = [
       // Très facile (difficulté 1)
-      ['REBALANCED_20250801_172105_tres_facile.json'],
+      ['REBALANCED_20250808_202200_tres_facile.json'],
       
       // Facile (difficulté 2) 
-      ['REBALANCED_20250801_172105_facile.json'],
+      ['REBALANCED_20250808_202200_facile.json'],
       
       // Moyen (difficulté 3)
-      ['REBALANCED_20250801_172105_moyen.json'],
+      ['REBALANCED_20250808_202200_moyen.json'],
       
       // Difficile (difficulté 4)
-      ['REBALANCED_20250801_172105_difficile.json'],
+      ['REBALANCED_20250808_202200_difficile.json'],
     ];
     
     // Essayer de charger aussi les nouveaux fichiers avec patterns automatiques

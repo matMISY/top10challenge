@@ -1,0 +1,270 @@
+{
+  "generated_at": "2025-08-08T20:01:16.059000",
+  "total_quizzes": 4,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des joueurs france les plus prolifiques (buts+passes) entre 2020-2024",
+      "theme": "Joueurs prolifiques par nationalité",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son club principal",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Kingsley Coman",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "Inter"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "Man Utd"
+        }
+      ],
+      "metadata": {
+        "nationality": "france",
+        "period": "2020-2024",
+        "difficulty_label": "très facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T20:01:15.071561"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des joueurs france les plus prolifiques (buts+passes) entre 2015-2020",
+      "theme": "Joueurs prolifiques par nationalité",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son club principal",
+      "answers": [
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "Man Utd"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Kingsley Coman",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "Man Utd"
+        },
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "Barcelona"
+        }
+      ],
+      "metadata": {
+        "nationality": "france",
+        "period": "2015-2020",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T20:01:15.126627"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des joueurs portugal les plus prolifiques (buts+passes) entre 2020-2024",
+      "theme": "Joueurs prolifiques par nationalité",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son club principal",
+      "answers": [
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "Man Utd"
+        },
+        {
+          "name": "Diogo Jota",
+          "nationality": "portugal",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "Man City"
+        },
+        {
+          "name": "João Cancelo",
+          "nationality": "portugal",
+          "hint": "Man City"
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Vitinha",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Man Utd"
+        },
+        {
+          "name": "João Félix",
+          "nationality": "portugal",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Nuno Mendes",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Diogo Dalot",
+          "nationality": "portugal",
+          "hint": "Man Utd"
+        }
+      ],
+      "metadata": {
+        "nationality": "portugal",
+        "period": "2020-2024",
+        "difficulty_label": "très facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T20:01:15.740877"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des joueurs portugal les plus prolifiques (buts+passes) entre 2015-2020",
+      "theme": "Joueurs prolifiques par nationalité",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son club principal",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "Man City"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "Man Utd"
+        },
+        {
+          "name": "João Mário",
+          "nationality": "portugal",
+          "hint": "Inter"
+        },
+        {
+          "name": "João Cancelo",
+          "nationality": "portugal",
+          "hint": "Man City"
+        },
+        {
+          "name": "Diogo Jota",
+          "nationality": "portugal",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Nélson Semedo",
+          "nationality": "portugal",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "André Gomes",
+          "nationality": "portugal",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Cédric Soares",
+          "nationality": "portugal",
+          "hint": "Inter"
+        },
+        {
+          "name": "Francisco Trincão",
+          "nationality": "portugal",
+          "hint": "Barcelona"
+        }
+      ],
+      "metadata": {
+        "nationality": "portugal",
+        "period": "2015-2020",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T20:01:15.787589"
+      }
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../providers/game_provider.dart';
+import '../models/game_state.dart';
 import '../utils/debug_config.dart';
 import 'tier_selection_screen.dart';
 import 'daily_challenge_screen.dart';
@@ -358,6 +359,9 @@ class HomeScreen extends StatelessWidget {
     try {
       final success = await gameProvider.watchAdForLife();
       
+      // Vérifier si le widget est toujours monté avant d'utiliser context
+      if (!context.mounted) return;
+      
       if (success) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -382,6 +386,9 @@ class HomeScreen extends StatelessWidget {
         );
       }
     } catch (e) {
+      // Vérifier si le widget est toujours monté avant d'utiliser context
+      if (!context.mounted) return;
+      
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text('Erreur lors du chargement de la publicité.'),

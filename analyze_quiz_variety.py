@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Script pour analyser la variété des quiz disponibles dans le projet Top10Challenge.
-Analyse les thèmes, compétitions, types de questions et distribution temporelle.
+Script pour analyser la variété des quiz dans le dossier v3 et créer des fichiers organisés par difficulté
 """
 
 import json
 import os
-from collections import Counter, defaultdict
+from collections import defaultdict, Counter
+from datetime import datetime
 from pathlib import Path
 
 def load_quiz_files():
@@ -212,35 +212,148 @@ def generate_summary_report(quiz_files, all_quizzes):
     else:
         print("   🟢 Bonne variété")
 
+def analyze_v3_structure():
+    """Analyse la structure des fichiers v3"""
+    v3_path = "data/v3"
+    
+    if not os.path.exists(v3_path):
+        print("❌ Dossier data/v3 introuvable")
+        return
+        
+    files = [f for f in os.listdir(v3_path) if f.endswith('.json')]
+    print(f"📁 {len(files)} fichiers JSON trouvés dans v3/")
+    
+    total_quizzes = 0
+    difficulty_distribution = Counter()
+    theme_distribution = Counter()
+    
+    for filename in files:
+        filepath = os.path.join(v3_path, filename)
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                
+            file_quizzes = len(data.get('quizzes', []))
+            total_quizzes += file_quizzes
+            
+            print(f"\n📄 {filename}:")
+            print(f"   Quizzes: {file_quizzes}")
+            
+            # Analyse des difficultés et thèmes
+            for quiz in data.get('quizzes', []):
+                difficulty = quiz.get('difficulty', 0)
+                theme = quiz.get('theme', 'Unknown')
+                difficulty_distribution[difficulty] += 1
+                theme_distribution[theme] += 1
+                
+        except Exception as e:
+            print(f"❌ Erreur lors de la lecture de {filename}: {e}")
+    
+    print(f"\n📊 RÉSUMÉ:")
+    print(f"Total quizzes: {total_quizzes}")
+    print(f"\nDistribution par difficulté:")
+    for diff in sorted(difficulty_distribution.keys()):
+        print(f"  Niveau {diff}: {difficulty_distribution[diff]} quizzes")
+    
+    print(f"\nDistribution par thème:")
+    for theme, count in theme_distribution.most_common():
+        print(f"  {theme}: {count} quizzes")
+
+def convert_difficulty_to_level_name(difficulty_num):
+    """Convertit un niveau de difficulté numérique vers le nom de niveau pour l'organisation des fichiers"""
+    
+    difficulty_mapping = {
+        1: "tres_facile",
+        2: "facile", 
+        3: "facile",
+        4: "moyen",
+        5: "difficile",
+        6: "tres_difficile"
+    }
+    
+    return difficulty_mapping.get(difficulty_num, "moyen")
+
+def transform_quizzes():
+    """Transforme les quiz v3 au format attendu par l'app"""
+    v3_path = "data/v3"
+    
+    if not os.path.exists(v3_path):
+        print("❌ Dossier data/v3 introuvable")
+        return
+    
+    # Grouper par difficulté
+    quizzes_by_difficulty = defaultdict(list)
+    
+    files = [f for f in os.listdir(v3_path) if f.endswith('.json')]
+    
+    for filename in files:
+        filepath = os.path.join(v3_path, filename)
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            for quiz in data.get('quizzes', []):
+                difficulty_num = quiz.get('difficulty', 3)
+                difficulty_level_name = convert_difficulty_to_level_name(difficulty_num)
+                
+                # Transformer le quiz au nouveau format simplifié
+                transformed_quiz = {
+                    "id": quiz.get('id'),
+                    "title": quiz.get('title'),
+                    "theme": quiz.get('theme'),
+                    "difficulty": difficulty_num,  # Difficulté simple de 1 à 6
+                    "answers": []
+                }
+                
+                # Transformer les réponses avec le nouveau champ hint
+                for answer in quiz.get('answers', []):
+                    transformed_answer = {
+                        "name": answer.get('name'),
+                        "nationality": answer.get('nationality'),
+                        "hint": answer.get('hint', '')  # Nouveau champ hint pour les indices
+                    }
+                    transformed_quiz["answers"].append(transformed_answer)
+                
+                quizzes_by_difficulty[difficulty_level_name].append(transformed_quiz)
+                
+        except Exception as e:
+            print(f"❌ Erreur lors de la transformation de {filename}: {e}")
+    
+    # Créer les fichiers finaux
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    for difficulty_level_name, quizzes in quizzes_by_difficulty.items():
+        # Réassigner les IDs de manière séquentielle
+        for i, quiz in enumerate(quizzes, 1):
+            quiz["id"] = i
+        
+        # Format de sortie simplifié
+        output_data = {
+            "generated_at": datetime.now().isoformat(),
+            "total_quizzes": len(quizzes),
+            "quizzes": quizzes
+        }
+        
+        filename = f"CONVERTED_V3_{timestamp}_{difficulty_level_name}.json"
+        filepath = os.path.join("data", filename)
+        
+        try:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, indent=2, ensure_ascii=False)
+            print(f"✅ Créé: {filepath} ({len(quizzes)} quizzes)")
+        except Exception as e:
+            print(f"❌ Erreur lors de l'écriture de {filepath}: {e}")
+
 def main():
     """Fonction principale."""
-    print("🔍 ANALYSE DE LA VARIÉTÉ DES QUIZ")
-    print("=" * 60)
+    print("🔍 Analyse de la structure v3...")
+    analyze_v3_structure()
     
-    # Chargement des fichiers
-    quiz_files = load_quiz_files()
-    if not quiz_files:
-        return
+    print(f"\n{'='*50}")
+    print("🔄 Transformation des quiz...")
+    transform_quizzes()
     
-    # Extraction de tous les quiz
-    all_quizzes = []
-    for data in quiz_files.values():
-        all_quizzes.extend(data.get('quizzes', []))
-    
-    if not all_quizzes:
-        print("❌ Aucun quiz trouvé")
-        return
-    
-    # Analyses
-    analyze_themes(all_quizzes)
-    analyze_competitions(all_quizzes)
-    analyze_question_types(all_quizzes)
-    analyze_temporal_distribution(all_quizzes)
-    analyze_difficulty_distribution(all_quizzes)
-    analyze_answer_variety(all_quizzes)
-    
-    # Rapport final
-    generate_summary_report(quiz_files, all_quizzes)
+    print(f"\n✅ Transformation terminée!")
 
 if __name__ == "__main__":
     main()

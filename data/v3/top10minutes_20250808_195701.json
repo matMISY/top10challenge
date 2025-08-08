@@ -1,0 +1,5814 @@
+{
+  "generated_at": "2025-08-08T19:57:01.934099",
+  "total_quizzes": 88,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "David Raya",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "William Saliba",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Declan Rice",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Thomas Partey",
+          "nationality": "ghana",
+          "hint": ""
+        },
+        {
+          "name": "Jurrien Timber",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Leandro Trossard",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.565722"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "William Saliba",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Declan Rice",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Ben White",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "David Raya",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Leandro Trossard",
+          "nationality": "belgique",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.569608"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Gabriel Magalhães",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Ben White",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "William Saliba",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Thomas Partey",
+          "nationality": "ghana",
+          "hint": ""
+        },
+        {
+          "name": "Granit Xhaka",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "David Raya",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Declan Rice",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.575943"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Granit Xhaka",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Héctor Bellerín",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Nacho Monreal",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Shkodran Mustafi",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Laurent Koscielny",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Petr Cech",
+          "nationality": "tchéquie",
+          "hint": ""
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": ""
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Bernd Leno",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.581074"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Pedri",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Lamine Yamal",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jules Koundé",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Pau Cubarsí",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Iñigo Martínez",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Alejandro Balde",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Wojciech Szczesny",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Frenkie de Jong",
+          "nationality": "pays-bas",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.584866"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Jules Koundé",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "João Cancelo",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Marc-André ter Stegen",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Ronald Araujo",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Lamine Yamal",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Andreas Christensen",
+          "nationality": "danemark",
+          "hint": ""
+        },
+        {
+          "name": "Frenkie de Jong",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "João Félix",
+          "nationality": "portugal",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.588535"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Marc-André ter Stegen",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Frenkie de Jong",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Pedri",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Ronald Araujo",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Jules Koundé",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Sergio Busquets",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jordi Alba",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Gavi",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.593185"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Sergio Busquets",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Marc-André ter Stegen",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Gerard Piqué",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jordi Alba",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Ivan Rakitic",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Sergi Roberto",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Clément Lenglet",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Samuel Umtiti",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.597839"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Min-jae Kim",
+          "nationality": "corée du sud",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Neuer",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Dayot Upamecano",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Konrad Laimer",
+          "nationality": "autriche",
+          "hint": ""
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Raphaël Guerreiro",
+          "nationality": "portugal",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.601587"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Leon Goretzka",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Alphonso Davies",
+          "nationality": "canada",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Neuer",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Min-jae Kim",
+          "nationality": "corée du sud",
+          "hint": ""
+        },
+        {
+          "name": "Konrad Laimer",
+          "nationality": "autriche",
+          "hint": ""
+        },
+        {
+          "name": "Dayot Upamecano",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.605410"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Neuer",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Alphonso Davies",
+          "nationality": "canada",
+          "hint": ""
+        },
+        {
+          "name": "Leon Goretzka",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Dayot Upamecano",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Kingsley Coman",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.610058"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "David Alaba",
+          "nationality": "autriche",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Neuer",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Thiago Alcántara",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jérôme Boateng",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Kingsley Coman",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Javi Martínez",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Niklas Süle",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.614918"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Marc Cucurella",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Moisés Caicedo",
+          "nationality": "équateur",
+          "hint": ""
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Enzo Fernández",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Levi Colwill",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Robert Sánchez",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Pedro Neto",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Tosin Adarabioyo",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Malo Gusto",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Noni Madueke",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.618957"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Conor Gallagher",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Moisés Caicedo",
+          "nationality": "équateur",
+          "hint": ""
+        },
+        {
+          "name": "Axel Disasi",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Nicolas Jackson",
+          "nationality": "sénégal",
+          "hint": ""
+        },
+        {
+          "name": "Enzo Fernández",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Thiago Silva",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Djordje Petrovic",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Malo Gusto",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.622741"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Thiago Silva",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Reece James",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Mason Mount",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Edouard Mendy",
+          "nationality": "sénégal",
+          "hint": ""
+        },
+        {
+          "name": "César Azpilicueta",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Enzo Fernández",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Marc Cucurella",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jorginho",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Moisés Caicedo",
+          "nationality": "équateur",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.627476"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "César Azpilicueta",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "N'Golo Kanté",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Willian",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Marcos Alonso",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jorginho",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Gary Cahill",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.632524"
+      }
+    },
+    {
+      "id": 17,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Yann Sommer",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Nicolò Barella",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": ""
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Denzel Dumfries",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Federico Dimarco",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": ""
+        },
+        {
+          "name": "Stefan de Vrij",
+          "nationality": "pays-bas",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.636385"
+      }
+    },
+    {
+      "id": 18,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Yann Sommer",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": ""
+        },
+        {
+          "name": "Nicolò Barella",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": ""
+        },
+        {
+          "name": "Matteo Darmian",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Francesco Acerbi",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Federico Dimarco",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.640004"
+      }
+    },
+    {
+      "id": 19,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Nicolò Barella",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Stefan de Vrij",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": ""
+        },
+        {
+          "name": "Matteo Darmian",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Denzel Dumfries",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Federico Dimarco",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": ""
+        },
+        {
+          "name": "Milan Škriniar",
+          "nationality": "slovaquie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.644743"
+      }
+    },
+    {
+      "id": 20,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Samir Handanovič",
+          "nationality": "slovénie",
+          "hint": ""
+        },
+        {
+          "name": "Marcelo Brozović",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Danilo D'Ambrosio",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Milan Škriniar",
+          "nationality": "slovaquie",
+          "hint": ""
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Stefan de Vrij",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Miranda",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Roberto Gagliardini",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.649924"
+      }
+    },
+    {
+      "id": 21,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": ""
+        },
+        {
+          "name": "Virgil van Dijk",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "nationality": "hongrie",
+          "hint": ""
+        },
+        {
+          "name": "Ibrahima Konaté",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Luis Díaz",
+          "nationality": "colombie",
+          "hint": ""
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Alisson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.653750"
+      }
+    },
+    {
+      "id": 22,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Virgil van Dijk",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Luis Díaz",
+          "nationality": "colombie",
+          "hint": ""
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Joe Gomez",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": ""
+        },
+        {
+          "name": "Darwin Núñez",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Cody Gakpo",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Alisson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Harvey Elliott",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Wataru Endo",
+          "nationality": "japon",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.657540"
+      }
+    },
+    {
+      "id": 23,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": ""
+        },
+        {
+          "name": "Alisson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Virgil van Dijk",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Fabinho",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Ibrahima Konaté",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Diogo Jota",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Luis Díaz",
+          "nationality": "colombie",
+          "hint": ""
+        },
+        {
+          "name": "Curtis Jones",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.662195"
+      }
+    },
+    {
+      "id": 24,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Georginio Wijnaldum",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": ""
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": ""
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Jordan Henderson",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Dejan Lovren",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Alisson",
+          "nationality": "brésil",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.667160"
+      }
+    },
+    {
+      "id": 25,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Josko Gvardiol",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Ederson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Rúben Dias",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Rico Lewis",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Akanji",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Savinho",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.671242"
+      }
+    },
+    {
+      "id": 26,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Rodri",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Kyle Walker",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Akanji",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Rúben Dias",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Ederson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Josko Gvardiol",
+          "nationality": "croatie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.674820"
+      }
+    },
+    {
+      "id": 27,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Ederson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Rúben Dias",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Rodri",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Kyle Walker",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Akanji",
+          "nationality": "suisse",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.679384"
+      }
+    },
+    {
+      "id": 28,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Fernandinho",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Nicolás Otamendi",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Ederson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Kyle Walker",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.684265"
+      }
+    },
+    {
+      "id": 29,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "André Onana",
+          "nationality": "cameroun",
+          "hint": ""
+        },
+        {
+          "name": "Noussair Mazraoui",
+          "nationality": "maroc",
+          "hint": ""
+        },
+        {
+          "name": "Diogo Dalot",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Alejandro Garnacho",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Rasmus Højlund",
+          "nationality": "danemark",
+          "hint": ""
+        },
+        {
+          "name": "Matthijs de Ligt",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Ugarte",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Harry Maguire",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.688389"
+      }
+    },
+    {
+      "id": 30,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "André Onana",
+          "nationality": "cameroun",
+          "hint": ""
+        },
+        {
+          "name": "Diogo Dalot",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Alejandro Garnacho",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Rasmus Højlund",
+          "nationality": "danemark",
+          "hint": ""
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Scott McTominay",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "nationality": "rd congo",
+          "hint": ""
+        },
+        {
+          "name": "Kobbie Mainoo",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.692004"
+      }
+    },
+    {
+      "id": 31,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Harry Maguire",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Diogo Dalot",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Victor Lindelöf",
+          "nationality": "suède",
+          "hint": ""
+        },
+        {
+          "name": "David de Gea",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "nationality": "rd congo",
+          "hint": ""
+        },
+        {
+          "name": "Luke Shaw",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Scott McTominay",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.696754"
+      }
+    },
+    {
+      "id": 32,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "David de Gea",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Chris Smalling",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Victor Lindelöf",
+          "nationality": "suède",
+          "hint": ""
+        },
+        {
+          "name": "Luke Shaw",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Nemanja Matic",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Jesse Lingard",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.701584"
+      }
+    },
+    {
+      "id": 33,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": ""
+        },
+        {
+          "name": "Willian Pacho",
+          "nationality": "équateur",
+          "hint": ""
+        },
+        {
+          "name": "Vitinha",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "João Neves",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Gianluigi Donnarumma",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Nuno Mendes",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Marquinhos",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Fabián Ruiz",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Désiré Doué",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.705619"
+      }
+    },
+    {
+      "id": 34,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Gianluigi Donnarumma",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Vitinha",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Warren Zaïre-Emery",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": ""
+        },
+        {
+          "name": "Lucas Hernández",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Marquinhos",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Ugarte",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Danilo Pereira",
+          "nationality": "portugal",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.709323"
+      }
+    },
+    {
+      "id": 35,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Marquinhos",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Gianluigi Donnarumma",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": ""
+        },
+        {
+          "name": "Vitinha",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Danilo Pereira",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Nuno Mendes",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Fabián Ruiz",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Presnel Kimpembe",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Marco Verratti",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.714321"
+      }
+    },
+    {
+      "id": 36,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Marquinhos",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Thiago Silva",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Marco Verratti",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Presnel Kimpembe",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Layvin Kurzawa",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Adrien Rabiot",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.719122"
+      }
+    },
+    {
+      "id": 37,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Federico Valverde",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Thibaut Courtois",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Fran García",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Lucas Vázquez",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.723208"
+      }
+    },
+    {
+      "id": 38,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Federico Valverde",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Daniel Carvajal",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Nacho Fernández",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Andriy Lunin",
+          "nationality": "ukraine",
+          "hint": ""
+        },
+        {
+          "name": "Ferland Mendy",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.726728"
+      }
+    },
+    {
+      "id": 39,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Thibaut Courtois",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Federico Valverde",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Ferland Mendy",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Antonio Rüdiger",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Éder Militão",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Lucas Vázquez",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.731232"
+      }
+    },
+    {
+      "id": 40,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Raphaël Varane",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Sergio Ramos",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Daniel Carvajal",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Marcelo",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Nacho Fernández",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Keylor Navas",
+          "nationality": "costa rica",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.735868"
+      }
+    },
+    {
+      "id": 41,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Aston Villa entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Emiliano Martínez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Youri Tielemans",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Morgan Rogers",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Ezri Konsa",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Lucas Digne",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "John McGinn",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Boubacar Kamara",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Matty Cash",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Pau Torres",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.739879"
+      }
+    },
+    {
+      "id": 42,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Aston Villa entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Ezri Konsa",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Douglas Luiz",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "John McGinn",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Emiliano Martínez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Lucas Digne",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Matty Cash",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Pau Torres",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Leon Bailey",
+          "nationality": "jamaïque",
+          "hint": ""
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.743356"
+      }
+    },
+    {
+      "id": 43,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Aston Villa entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Emiliano Martínez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Ezri Konsa",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "John McGinn",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Matty Cash",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Douglas Luiz",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Tyrone Mings",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Lucas Digne",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Jacob Ramsey",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Leon Bailey",
+          "nationality": "jamaïque",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.748059"
+      }
+    },
+    {
+      "id": 44,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Aston Villa entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Jack Grealish",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "James Chester",
+          "nationality": "pays de galles",
+          "hint": ""
+        },
+        {
+          "name": "Alan Hutton",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Conor Hourihane",
+          "nationality": "irlande",
+          "hint": ""
+        },
+        {
+          "name": "John McGinn",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Ahmed El Mohamady",
+          "nationality": "égypte",
+          "hint": ""
+        },
+        {
+          "name": "Neil Taylor",
+          "nationality": "pays de galles",
+          "hint": ""
+        },
+        {
+          "name": "Albert Adomah",
+          "nationality": "ghana",
+          "hint": ""
+        },
+        {
+          "name": "Tyrone Mings",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Anwar El Ghazi",
+          "nationality": "pays-bas",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.752963"
+      }
+    },
+    {
+      "id": 45,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atalanta entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Marten de Roon",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Marco Carnesecchi",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Éderson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Berat Djimsiti",
+          "nationality": "albanie",
+          "hint": ""
+        },
+        {
+          "name": "Isak Hien",
+          "nationality": "suède",
+          "hint": ""
+        },
+        {
+          "name": "Mateo Retegui",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Davide Zappacosta",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Raoul Bellanova",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.756959"
+      }
+    },
+    {
+      "id": 46,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atalanta entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Berat Djimsiti",
+          "nationality": "albanie",
+          "hint": ""
+        },
+        {
+          "name": "Éderson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Marten de Roon",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Matteo Ruggeri",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Giorgio Scalvini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Sead Kolasinac",
+          "nationality": "bosnie-herzégovine",
+          "hint": ""
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Marco Carnesecchi",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Davide Zappacosta",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.760394"
+      }
+    },
+    {
+      "id": 47,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atalanta entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Marten de Roon",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Berat Djimsiti",
+          "nationality": "albanie",
+          "hint": ""
+        },
+        {
+          "name": "Mario Pasalić",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Davide Zappacosta",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Rafael Tolói",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Éderson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Juan Musso",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": ""
+        },
+        {
+          "name": "Hans Hateboer",
+          "nationality": "pays-bas",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.764951"
+      }
+    },
+    {
+      "id": 48,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atalanta entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Marten de Roon",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Remo Freuler",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Rafael Tolói",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Andrea Masiello",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Hans Hateboer",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "José Luis Palomino",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Robin Gosens",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Pierluigi Gollini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Berat Djimsiti",
+          "nationality": "albanie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.769925"
+      }
+    },
+    {
+      "id": 49,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atletico Madrid entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Jan Oblak",
+          "nationality": "slovénie",
+          "hint": ""
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Marcos Llorente",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Pablo Barrios",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Giuliano Simeone",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "José María Giménez",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Clément Lenglet",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Robin Le Normand",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.773933"
+      }
+    },
+    {
+      "id": 50,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atletico Madrid entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Jan Oblak",
+          "nationality": "slovénie",
+          "hint": ""
+        },
+        {
+          "name": "Axel Witsel",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Mario Hermoso",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Marcos Llorente",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Nahuel Molina",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Samuel Lino",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.777372"
+      }
+    },
+    {
+      "id": 51,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atletico Madrid entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Jan Oblak",
+          "nationality": "slovénie",
+          "hint": ""
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Marcos Llorente",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "José María Giménez",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Mario Hermoso",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Stefan Savic",
+          "nationality": "monténégro",
+          "hint": ""
+        },
+        {
+          "name": "Ángel Correa",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Nahuel Molina",
+          "nationality": "argentine",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.781927"
+      }
+    },
+    {
+      "id": 52,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atletico Madrid entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Jan Oblak",
+          "nationality": "slovénie",
+          "hint": ""
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Saúl Ñíguez",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Stefan Savic",
+          "nationality": "monténégro",
+          "hint": ""
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Diego Godín",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Ángel Correa",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "José María Giménez",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Filipe Luís",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Juanfran Torres",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.786540"
+      }
+    },
+    {
+      "id": 53,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Dortmund entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Gregor Kobel",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "hint": ""
+        },
+        {
+          "name": "Pascal Groß",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Julian Ryerson",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Ramy Bensebaini",
+          "nationality": "algérie",
+          "hint": ""
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Emre Can",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Waldemar Anton",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Jamie Gittens",
+          "nationality": "angleterre",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.790436"
+      }
+    },
+    {
+      "id": 54,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Dortmund entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Nico Schlotterbeck",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Gregor Kobel",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Niclas Füllkrug",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Emre Can",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "nationality": "autriche",
+          "hint": ""
+        },
+        {
+          "name": "Julian Ryerson",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Mats Hummels",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Donyell Malen",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.793787"
+      }
+    },
+    {
+      "id": 55,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Dortmund entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Gregor Kobel",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Emre Can",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Mats Hummels",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Raphaël Guerreiro",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Julian Ryerson",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Donyell Malen",
+          "nationality": "pays-bas",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.798172"
+      }
+    },
+    {
+      "id": 56,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Dortmund entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Roman Bürki",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Lukasz Piszczek",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Julian Weigl",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Mats Hummels",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Raphaël Guerreiro",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Sokratis Papastathopoulos",
+          "nationality": "grèce",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Akanji",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": ""
+        },
+        {
+          "name": "Marcel Schmelzer",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.802780"
+      }
+    },
+    {
+      "id": 57,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Juventus entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Michele Di Gregorio",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Locatelli",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Pierre Kalulu",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Kenan Yıldız",
+          "nationality": "turquie",
+          "hint": ""
+        },
+        {
+          "name": "Weston McKennie",
+          "nationality": "états-unis",
+          "hint": ""
+        },
+        {
+          "name": "Khéphren Thuram",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Federico Gatti",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.806526"
+      }
+    },
+    {
+      "id": 58,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Juventus entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Bremer",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Locatelli",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Wojciech Szczesny",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Adrien Rabiot",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Federico Gatti",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Weston McKennie",
+          "nationality": "états-unis",
+          "hint": ""
+        },
+        {
+          "name": "Danilo",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.809973"
+      }
+    },
+    {
+      "id": 59,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Juventus entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Danilo",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Locatelli",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Adrien Rabiot",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Wojciech Szczesny",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Weston McKennie",
+          "nationality": "états-unis",
+          "hint": ""
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Juan Cuadrado",
+          "nationality": "colombie",
+          "hint": ""
+        },
+        {
+          "name": "Alex Sandro",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Federico Gatti",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.814636"
+      }
+    },
+    {
+      "id": 60,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Juventus entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Leonardo Bonucci",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Alex Sandro",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Juan Cuadrado",
+          "nationality": "colombie",
+          "hint": ""
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": ""
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Giorgio Chiellini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": ""
+        },
+        {
+          "name": "Wojciech Szczesny",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.819527"
+      }
+    },
+    {
+      "id": 61,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Lazio entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Mattéo Guendouzi",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Nicolò Rovella",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Mattia Zaccagni",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Adam Marusic",
+          "nationality": "monténégro",
+          "hint": ""
+        },
+        {
+          "name": "Mario Gila",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Taty Castellanos",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Ivan Provedel",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Gustav Isaksen",
+          "nationality": "danemark",
+          "hint": ""
+        },
+        {
+          "name": "Boulaye Dia",
+          "nationality": "sénégal",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.823372"
+      }
+    },
+    {
+      "id": 62,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Lazio entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Adam Marusic",
+          "nationality": "monténégro",
+          "hint": ""
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Ivan Provedel",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Mattéo Guendouzi",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Mattia Zaccagni",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Mario Gila",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Lazzari",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.826777"
+      }
+    },
+    {
+      "id": 63,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Lazio entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Adam Marusic",
+          "nationality": "monténégro",
+          "hint": ""
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Mattia Zaccagni",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Manuel Lazzari",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Ivan Provedel",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Patric",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.831155"
+      }
+    },
+    {
+      "id": 64,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Lazio entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Marco Parolo",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Ștefan Radu",
+          "nationality": "roumanie",
+          "hint": ""
+        },
+        {
+          "name": "Thomas Strakosha",
+          "nationality": "albanie",
+          "hint": ""
+        },
+        {
+          "name": "Senad Lulic",
+          "nationality": "bosnie-herzégovine",
+          "hint": ""
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Francesco Acerbi",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Lucas Leiva",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Adam Marusic",
+          "nationality": "monténégro",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.836052"
+      }
+    },
+    {
+      "id": 65,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leipzig entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Willi Orbán",
+          "nationality": "hongrie",
+          "hint": ""
+        },
+        {
+          "name": "Péter Gulácsi",
+          "nationality": "hongrie",
+          "hint": ""
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie",
+          "hint": ""
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Nicolas Seiwald",
+          "nationality": "autriche",
+          "hint": ""
+        },
+        {
+          "name": "Lutsharel Geertruida",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "David Raum",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Christoph Baumgartner",
+          "nationality": "autriche",
+          "hint": ""
+        },
+        {
+          "name": "Arthur Vermeeren",
+          "nationality": "belgique",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.839747"
+      }
+    },
+    {
+      "id": 66,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leipzig entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "David Raum",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Xaver Schlager",
+          "nationality": "autriche",
+          "hint": ""
+        },
+        {
+          "name": "Benjamin Henrichs",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Castello Lukeba",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Mohamed Simakan",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Janis Blaswich",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie",
+          "hint": ""
+        },
+        {
+          "name": "Lukas Klostermann",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.843044"
+      }
+    },
+    {
+      "id": 67,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leipzig entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Willi Orbán",
+          "nationality": "hongrie",
+          "hint": ""
+        },
+        {
+          "name": "Péter Gulácsi",
+          "nationality": "hongrie",
+          "hint": ""
+        },
+        {
+          "name": "Kevin Kampl",
+          "nationality": "slovénie",
+          "hint": ""
+        },
+        {
+          "name": "Benjamin Henrichs",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Amadou Haidara",
+          "nationality": "mali",
+          "hint": ""
+        },
+        {
+          "name": "Lukas Klostermann",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Mohamed Simakan",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "David Raum",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Dani Olmo",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.847242"
+      }
+    },
+    {
+      "id": 68,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leipzig entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Péter Gulácsi",
+          "nationality": "hongrie",
+          "hint": ""
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "nationality": "autriche",
+          "hint": ""
+        },
+        {
+          "name": "Willi Orbán",
+          "nationality": "hongrie",
+          "hint": ""
+        },
+        {
+          "name": "Marcel Halstenberg",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Lukas Klostermann",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Yussuf Poulsen",
+          "nationality": "danemark",
+          "hint": ""
+        },
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "hint": ""
+        },
+        {
+          "name": "Diego Demme",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Dayot Upamecano",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.851683"
+      }
+    },
+    {
+      "id": 69,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leverkusen entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Jonathan Tah",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Granit Xhaka",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Piero Hincapié",
+          "nationality": "équateur",
+          "hint": ""
+        },
+        {
+          "name": "Edmond Tapsoba",
+          "nationality": "burkina faso",
+          "hint": ""
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Lukas Hradecky",
+          "nationality": "finlande",
+          "hint": ""
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": ""
+        },
+        {
+          "name": "Robert Andrich",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.855374"
+      }
+    },
+    {
+      "id": 70,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leverkusen entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Granit Xhaka",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jonathan Tah",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Edmond Tapsoba",
+          "nationality": "burkina faso",
+          "hint": ""
+        },
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Lukas Hradecky",
+          "nationality": "finlande",
+          "hint": ""
+        },
+        {
+          "name": "Robert Andrich",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Exequiel Palacios",
+          "nationality": "argentine",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.858759"
+      }
+    },
+    {
+      "id": 71,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leverkusen entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Jonathan Tah",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Lukas Hradecky",
+          "nationality": "finlande",
+          "hint": ""
+        },
+        {
+          "name": "Edmond Tapsoba",
+          "nationality": "burkina faso",
+          "hint": ""
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Piero Hincapié",
+          "nationality": "équateur",
+          "hint": ""
+        },
+        {
+          "name": "Robert Andrich",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": ""
+        },
+        {
+          "name": "Exequiel Palacios",
+          "nationality": "argentine",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.863039"
+      }
+    },
+    {
+      "id": 72,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leverkusen entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Jonathan Tah",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Wendell",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Charles Aránguiz",
+          "nationality": "chili",
+          "hint": ""
+        },
+        {
+          "name": "Bernd Leno",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Karim Bellarabi",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Lukas Hradecky",
+          "nationality": "finlande",
+          "hint": ""
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": ""
+        },
+        {
+          "name": "Sven Bender",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.867531"
+      }
+    },
+    {
+      "id": 73,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Milan entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Mike Maignan",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Tijjani Reijnders",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Theo Hernández",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Youssouf Fofana",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": ""
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Matteo Gabbia",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Strahinja Pavlović",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Fikayo Tomori",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Malick Thiaw",
+          "nationality": "allemagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.871587"
+      }
+    },
+    {
+      "id": 74,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Milan entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Theo Hernández",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Tijjani Reijnders",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Mike Maignan",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": ""
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Davide Calabria",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Ruben Loftus-Cheek",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Fikayo Tomori",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Yunus Musah",
+          "nationality": "états-unis",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.875010"
+      }
+    },
+    {
+      "id": 75,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Milan entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Theo Hernández",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Fikayo Tomori",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Mike Maignan",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Davide Calabria",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Sandro Tonali",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Ismaël Bennacer",
+          "nationality": "algérie",
+          "hint": ""
+        },
+        {
+          "name": "Tijjani Reijnders",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Pierre Kalulu",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.879478"
+      }
+    },
+    {
+      "id": 76,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Milan entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Gianluigi Donnarumma",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Franck Kessié",
+          "nationality": "côte d'ivoire",
+          "hint": ""
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": ""
+        },
+        {
+          "name": "Suso",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Davide Calabria",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Giacomo Bonaventura",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Ricardo Rodríguez",
+          "nationality": "suisse",
+          "hint": ""
+        },
+        {
+          "name": "Ignazio Abate",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Theo Hernández",
+          "nationality": "france",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.884285"
+      }
+    },
+    {
+      "id": 77,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Napoli entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Amir Rrahmani",
+          "nationality": "kosovo",
+          "hint": ""
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Alex Meret",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Frank Anguissa",
+          "nationality": "cameroun",
+          "hint": ""
+        },
+        {
+          "name": "Scott McTominay",
+          "nationality": "écosse",
+          "hint": ""
+        },
+        {
+          "name": "Matteo Politano",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Stanislav Lobotka",
+          "nationality": "slovaquie",
+          "hint": ""
+        },
+        {
+          "name": "Mathías Olivera",
+          "nationality": "uruguay",
+          "hint": ""
+        },
+        {
+          "name": "Alessandro Buongiorno",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.888074"
+      }
+    },
+    {
+      "id": 78,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Napoli entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Stanislav Lobotka",
+          "nationality": "slovaquie",
+          "hint": ""
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": ""
+        },
+        {
+          "name": "Alex Meret",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Frank Anguissa",
+          "nationality": "cameroun",
+          "hint": ""
+        },
+        {
+          "name": "Amir Rrahmani",
+          "nationality": "kosovo",
+          "hint": ""
+        },
+        {
+          "name": "Matteo Politano",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Juan Jesus",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": ""
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.891457"
+      }
+    },
+    {
+      "id": 79,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Napoli entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Giovanni Di Lorenzo",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Amir Rrahmani",
+          "nationality": "kosovo",
+          "hint": ""
+        },
+        {
+          "name": "Alex Meret",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Stanislav Lobotka",
+          "nationality": "slovaquie",
+          "hint": ""
+        },
+        {
+          "name": "Frank Anguissa",
+          "nationality": "cameroun",
+          "hint": ""
+        },
+        {
+          "name": "Matteo Politano",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": ""
+        },
+        {
+          "name": "Mário Rui",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.895769"
+      }
+    },
+    {
+      "id": 80,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Napoli entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Kalidou Koulibaly",
+          "nationality": "sénégal",
+          "hint": ""
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "José Callejón",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Elseid Hysaj",
+          "nationality": "albanie",
+          "hint": ""
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": ""
+        },
+        {
+          "name": "Allan",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Pepe Reina",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Marek Hamsik",
+          "nationality": "slovaquie",
+          "hint": ""
+        },
+        {
+          "name": "Raúl Albiol",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.900403"
+      }
+    },
+    {
+      "id": 81,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Roma entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Mile Svilar",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Evan Ndicka",
+          "nationality": "côte d'ivoire",
+          "hint": ""
+        },
+        {
+          "name": "Angeliño",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Gianluca Mancini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Manu Koné",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": ""
+        },
+        {
+          "name": "Zeki Çelik",
+          "nationality": "turquie",
+          "hint": ""
+        },
+        {
+          "name": "Bryan Cristante",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Matías Soulé",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.904162"
+      }
+    },
+    {
+      "id": 82,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Roma entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Bryan Cristante",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Gianluca Mancini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Leandro Paredes",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Diego Llorente",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Evan Ndicka",
+          "nationality": "côte d'ivoire",
+          "hint": ""
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Mile Svilar",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.907576"
+      }
+    },
+    {
+      "id": 83,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Roma entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Gianluca Mancini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Bryan Cristante",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Rui Patrício",
+          "nationality": "portugal",
+          "hint": ""
+        },
+        {
+          "name": "Roger Ibañez",
+          "nationality": "brésil",
+          "hint": ""
+        },
+        {
+          "name": "Rick Karsdorp",
+          "nationality": "pays-bas",
+          "hint": ""
+        },
+        {
+          "name": "Chris Smalling",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Tammy Abraham",
+          "nationality": "angleterre",
+          "hint": ""
+        },
+        {
+          "name": "Mile Svilar",
+          "nationality": "serbie",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.912779"
+      }
+    },
+    {
+      "id": 84,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Roma entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": ""
+        },
+        {
+          "name": "Konstantinos Manolas",
+          "nationality": "grèce",
+          "hint": ""
+        },
+        {
+          "name": "Federico Fazio",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Alessandro Florenzi",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Aleksandar Kolarov",
+          "nationality": "serbie",
+          "hint": ""
+        },
+        {
+          "name": "Radja Nainggolan",
+          "nationality": "belgique",
+          "hint": ""
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Daniele De Rossi",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": ""
+        },
+        {
+          "name": "Bruno Peres",
+          "nationality": "brésil",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.917811"
+      }
+    },
+    {
+      "id": 85,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Villarreal entre 2024",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Sergi Cardona",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Logan Costa",
+          "nationality": "cap-vert",
+          "hint": ""
+        },
+        {
+          "name": "Álex Baena",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Santi Comesaña",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Thierno Barry",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Dani Parejo",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Pape Gueye",
+          "nationality": "sénégal",
+          "hint": ""
+        },
+        {
+          "name": "Kiko Femenía",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Ayoze Pérez",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Yéremy Pino",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.921589"
+      }
+    },
+    {
+      "id": 86,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Villarreal entre 2023",
+      "theme": "Minutes jouées",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Filip Jørgensen",
+          "nationality": "danemark",
+          "hint": ""
+        },
+        {
+          "name": "Dani Parejo",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Álex Baena",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": ""
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jorge Cuenca",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Santi Comesaña",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Raúl Albiol",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Ilias Akhomach",
+          "nationality": "maroc",
+          "hint": ""
+        },
+        {
+          "name": "Kiko Femenía",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2023",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.925009"
+      }
+    },
+    {
+      "id": 87,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Villarreal entre 2020-2024",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Dani Parejo",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Raúl Albiol",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Pau Torres",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Juan Foyth",
+          "nationality": "argentine",
+          "hint": ""
+        },
+        {
+          "name": "Étienne Capoue",
+          "nationality": "france",
+          "hint": ""
+        },
+        {
+          "name": "Álex Baena",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Alfonso Pedraza",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Yéremy Pino",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Manu Trigueros",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2020-2024",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.929518"
+      }
+    },
+    {
+      "id": 88,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Villarreal entre 2015-2020",
+      "theme": "Minutes jouées",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son poste principal",
+      "answers": [
+        {
+          "name": "Mario Gaspar",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Manu Trigueros",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Sergio Asenjo",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Víctor Ruiz",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Jaume Costa",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Álvaro González",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Samu Castillejo",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Bruno Soriano",
+          "nationality": "espagne",
+          "hint": ""
+        },
+        {
+          "name": "Raúl Albiol",
+          "nationality": "espagne",
+          "hint": ""
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:57:01.934078"
+      }
+    }
+  ]
+}

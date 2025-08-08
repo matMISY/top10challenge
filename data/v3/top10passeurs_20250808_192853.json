@@ -1,0 +1,5814 @@
+{
+  "generated_at": "2025-08-08T19:28:53.358435",
+  "total_quizzes": 88,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des passeurs de Arsenal entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "B.S."
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "hint": "M.Ø."
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "nationality": "brésil",
+          "hint": "G.M."
+        },
+        {
+          "name": "Leandro Trossard",
+          "nationality": "belgique",
+          "hint": "L.T."
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brésil",
+          "hint": "G.J."
+        },
+        {
+          "name": "Declan Rice",
+          "nationality": "angleterre",
+          "hint": "D.R."
+        },
+        {
+          "name": "Emile Smith Rowe",
+          "nationality": "angleterre",
+          "hint": "E.R."
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "K.H."
+        },
+        {
+          "name": "Ben White",
+          "nationality": "angleterre",
+          "hint": "B.W."
+        },
+        {
+          "name": "Granit Xhaka",
+          "nationality": "suisse",
+          "hint": "G.X."
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.879681"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des passeurs de Arsenal entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "M.Ö."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Héctor Bellerín",
+          "nationality": "espagne",
+          "hint": "H.B."
+        },
+        {
+          "name": "Aaron Ramsey",
+          "nationality": "pays de galles",
+          "hint": "A.R."
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "A.L."
+        },
+        {
+          "name": "Alex Iwobi",
+          "nationality": "nigeria",
+          "hint": "A.I."
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "B.S."
+        },
+        {
+          "name": "Granit Xhaka",
+          "nationality": "suisse",
+          "hint": "G.X."
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "P.A."
+        },
+        {
+          "name": "Nacho Monreal",
+          "nationality": "espagne",
+          "hint": "N.M."
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.886460"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des passeurs de Arsenal entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Theo Walcott",
+          "nationality": "angleterre",
+          "hint": "T.W."
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "M.Ö."
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Aaron Ramsey",
+          "nationality": "pays de galles",
+          "hint": "A.R."
+        },
+        {
+          "name": "Andrey Arshavin",
+          "nationality": "russie",
+          "hint": "A.A."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Jack Wilshere",
+          "nationality": "angleterre",
+          "hint": "J.W."
+        },
+        {
+          "name": "Alex Song",
+          "nationality": "cameroun",
+          "hint": "A.S."
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "R.P."
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.892576"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des passeurs de Arsenal entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "R.P."
+        },
+        {
+          "name": "Andrey Arshavin",
+          "nationality": "russie",
+          "hint": "A.A."
+        },
+        {
+          "name": "Theo Walcott",
+          "nationality": "angleterre",
+          "hint": "T.W."
+        },
+        {
+          "name": "Nicklas Bendtner",
+          "nationality": "danemark",
+          "hint": "N.B."
+        },
+        {
+          "name": "Emmanuel Eboué",
+          "nationality": "côte d'ivoire",
+          "hint": "E.E."
+        },
+        {
+          "name": "Aleksandr Hleb",
+          "nationality": "biélorussie",
+          "hint": "A.H."
+        },
+        {
+          "name": "Emmanuel Adebayor",
+          "nationality": "togo",
+          "hint": "E.A."
+        },
+        {
+          "name": "Eduardo",
+          "nationality": "croatie",
+          "hint": "E."
+        },
+        {
+          "name": "Bacary Sagna",
+          "nationality": "france",
+          "hint": "B.S."
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.898441"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des passeurs de Barcelona entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Lamine Yamal",
+          "nationality": "espagne",
+          "hint": "L.Y."
+        },
+        {
+          "name": "Jordi Alba",
+          "nationality": "espagne",
+          "hint": "J.A."
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Pedri",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Ferran Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Frenkie de Jong",
+          "nationality": "pays-bas",
+          "hint": "F.J."
+        },
+        {
+          "name": "Jules Koundé",
+          "nationality": "france",
+          "hint": "J.K."
+        },
+        {
+          "name": "Alejandro Balde",
+          "nationality": "espagne",
+          "hint": "A.B."
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.904319"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des passeurs de Barcelona entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Jordi Alba",
+          "nationality": "espagne",
+          "hint": "J.A."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Sergi Roberto",
+          "nationality": "espagne",
+          "hint": "S.R."
+        },
+        {
+          "name": "Ivan Rakitic",
+          "nationality": "croatie",
+          "hint": "I.R."
+        },
+        {
+          "name": "Sergio Busquets",
+          "nationality": "espagne",
+          "hint": "S.B."
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.909594"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des passeurs de Barcelona entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "espagne",
+          "hint": "A.I."
+        },
+        {
+          "name": "Dani Alves",
+          "nationality": "brésil",
+          "hint": "D.A."
+        },
+        {
+          "name": "Xavi",
+          "nationality": "espagne",
+          "hint": "X."
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "D.V."
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.914333"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des passeurs de Barcelona entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Xavi",
+          "nationality": "espagne",
+          "hint": "X."
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "espagne",
+          "hint": "A.I."
+        },
+        {
+          "name": "Dani Alves",
+          "nationality": "brésil",
+          "hint": "D.A."
+        },
+        {
+          "name": "Ronaldinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Deco",
+          "nationality": "portugal",
+          "hint": "D."
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "S.E."
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "T.H."
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Bojan Krkic",
+          "nationality": "espagne",
+          "hint": "B.K."
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.919834"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des passeurs de Bayern Munich entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "J.K."
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "L.S."
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "S.G."
+        },
+        {
+          "name": "Kingsley Coman",
+          "nationality": "france",
+          "hint": "K.C."
+        },
+        {
+          "name": "Leon Goretzka",
+          "nationality": "allemagne",
+          "hint": "L.G."
+        },
+        {
+          "name": "Alphonso Davies",
+          "nationality": "canada",
+          "hint": "A.D."
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "M.O."
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.925513"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des passeurs de Bayern Munich entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "J.K."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Kingsley Coman",
+          "nationality": "france",
+          "hint": "K.C."
+        },
+        {
+          "name": "David Alaba",
+          "nationality": "autriche",
+          "hint": "D.A."
+        },
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "F.R."
+        },
+        {
+          "name": "Thiago Alcántara",
+          "nationality": "espagne",
+          "hint": "T.A."
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "pays-bas",
+          "hint": "A.R."
+        },
+        {
+          "name": "Douglas Costa",
+          "nationality": "brésil",
+          "hint": "D.C."
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "S.G."
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.930736"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 des passeurs de Bayern Munich entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "F.R."
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "pays-bas",
+          "hint": "A.R."
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "T.K."
+        },
+        {
+          "name": "Philipp Lahm",
+          "nationality": "allemagne",
+          "hint": "P.L."
+        },
+        {
+          "name": "Bastian Schweinsteiger",
+          "nationality": "allemagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "David Alaba",
+          "nationality": "autriche",
+          "hint": "D.A."
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Rafinha",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.935701"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 des passeurs de Bayern Munich entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "F.R."
+        },
+        {
+          "name": "Bastian Schweinsteiger",
+          "nationality": "allemagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Philipp Lahm",
+          "nationality": "allemagne",
+          "hint": "P.L."
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "allemagne",
+          "hint": "M.K."
+        },
+        {
+          "name": "Luca Toni",
+          "nationality": "italie",
+          "hint": "L.T."
+        },
+        {
+          "name": "Zé Roberto",
+          "nationality": "brésil",
+          "hint": "Z.R."
+        },
+        {
+          "name": "Willy Sagnol",
+          "nationality": "france",
+          "hint": "W.S."
+        },
+        {
+          "name": "Mark van Bommel",
+          "nationality": "pays-bas",
+          "hint": "M.B."
+        },
+        {
+          "name": "Lukas Podolski",
+          "nationality": "allemagne",
+          "hint": "L.P."
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.940170"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 des passeurs de Chelsea entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mason Mount",
+          "nationality": "angleterre",
+          "hint": "M.M."
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "angleterre",
+          "hint": "C.P."
+        },
+        {
+          "name": "Enzo Fernández",
+          "nationality": "argentine",
+          "hint": "E.F."
+        },
+        {
+          "name": "Reece James",
+          "nationality": "angleterre",
+          "hint": "R.J."
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "T.W."
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "K.H."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "Ben Chilwell",
+          "nationality": "angleterre",
+          "hint": "B.C."
+        },
+        {
+          "name": "Hakim Ziyech",
+          "nationality": "maroc",
+          "hint": "H.Z."
+        },
+        {
+          "name": "Malo Gusto",
+          "nationality": "france",
+          "hint": "M.G."
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.946873"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 des passeurs de Chelsea entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Willian",
+          "nationality": "brésil",
+          "hint": "W."
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "E.H."
+        },
+        {
+          "name": "César Azpilicueta",
+          "nationality": "espagne",
+          "hint": "C.A."
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "D.C."
+        },
+        {
+          "name": "Callum Hudson-Odoi",
+          "nationality": "angleterre",
+          "hint": "C.H."
+        },
+        {
+          "name": "Marcos Alonso",
+          "nationality": "espagne",
+          "hint": "M.A."
+        },
+        {
+          "name": "Mason Mount",
+          "nationality": "angleterre",
+          "hint": "M.M."
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "T.W."
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.953777"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 des passeurs de Chelsea entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "E.H."
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Oscar",
+          "nationality": "brésil",
+          "hint": "O."
+        },
+        {
+          "name": "Frank Lampard",
+          "nationality": "angleterre",
+          "hint": "F.L."
+        },
+        {
+          "name": "Branislav Ivanovic",
+          "nationality": "serbie",
+          "hint": "B.I."
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte d'ivoire",
+          "hint": "D.D."
+        },
+        {
+          "name": "Ashley Cole",
+          "nationality": "angleterre",
+          "hint": "A.C."
+        },
+        {
+          "name": "Ramires",
+          "nationality": "brésil",
+          "hint": "R."
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.959573"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 des passeurs de Chelsea entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Frank Lampard",
+          "nationality": "angleterre",
+          "hint": "F.L."
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte d'ivoire",
+          "hint": "D.D."
+        },
+        {
+          "name": "Salomon Kalou",
+          "nationality": "côte d'ivoire",
+          "hint": "S.K."
+        },
+        {
+          "name": "Joe Cole",
+          "nationality": "angleterre",
+          "hint": "J.C."
+        },
+        {
+          "name": "Florent Malouda",
+          "nationality": "france",
+          "hint": "F.M."
+        },
+        {
+          "name": "Nicolas Anelka",
+          "nationality": "france",
+          "hint": "N.A."
+        },
+        {
+          "name": "Michael Ballack",
+          "nationality": "allemagne",
+          "hint": "M.B."
+        },
+        {
+          "name": "Michael Essien",
+          "nationality": "ghana",
+          "hint": "M.E."
+        },
+        {
+          "name": "Ashley Cole",
+          "nationality": "angleterre",
+          "hint": "A.C."
+        },
+        {
+          "name": "Branislav Ivanovic",
+          "nationality": "serbie",
+          "hint": "B.I."
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.964855"
+      }
+    },
+    {
+      "id": 17,
+      "title": "TOP 10 des passeurs de Inter Milan entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Nicolò Barella",
+          "nationality": "italie",
+          "hint": "N.B."
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Federico Dimarco",
+          "nationality": "italie",
+          "hint": "F.D."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        },
+        {
+          "name": "Denzel Dumfries",
+          "nationality": "pays-bas",
+          "hint": "D.D."
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "nationality": "italie",
+          "hint": "A.B."
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "M.T."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Marcelo Brozović",
+          "nationality": "croatie",
+          "hint": "M.B."
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.970558"
+      }
+    },
+    {
+      "id": 18,
+      "title": "TOP 10 des passeurs de Inter Milan entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "hint": "I.P."
+        },
+        {
+          "name": "Marcelo Brozović",
+          "nationality": "croatie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": "A.C."
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Nicolò Barella",
+          "nationality": "italie",
+          "hint": "N.B."
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "M.I."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Danilo D'Ambrosio",
+          "nationality": "italie",
+          "hint": "D.D."
+        },
+        {
+          "name": "João Mário",
+          "nationality": "portugal",
+          "hint": "J.M."
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.976458"
+      }
+    },
+    {
+      "id": 19,
+      "title": "TOP 10 des passeurs de Inter Milan entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Fredy Guarín",
+          "nationality": "colombie",
+          "hint": "F.G."
+        },
+        {
+          "name": "Rodrigo Palacio",
+          "nationality": "argentine",
+          "hint": "R.P."
+        },
+        {
+          "name": "Wesley Sneijder",
+          "nationality": "pays-bas",
+          "hint": "W.S."
+        },
+        {
+          "name": "Diego Milito",
+          "nationality": "argentine",
+          "hint": "D.M."
+        },
+        {
+          "name": "Yuto Nagatomo",
+          "nationality": "japon",
+          "hint": "Y.N."
+        },
+        {
+          "name": "Ricardo Álvarez",
+          "nationality": "argentine",
+          "hint": "R.Á."
+        },
+        {
+          "name": "Esteban Cambiasso",
+          "nationality": "argentine",
+          "hint": "E.C."
+        },
+        {
+          "name": "Maicon",
+          "nationality": "brésil",
+          "hint": "M."
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "S.E."
+        },
+        {
+          "name": "Antonio Cassano",
+          "nationality": "italie",
+          "hint": "A.C."
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.982608"
+      }
+    },
+    {
+      "id": 20,
+      "title": "TOP 10 des passeurs de Inter Milan entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Maicon",
+          "nationality": "brésil",
+          "hint": "M."
+        },
+        {
+          "name": "Dejan Stanković",
+          "nationality": "serbie",
+          "hint": "D.S."
+        },
+        {
+          "name": "Luís Figo",
+          "nationality": "portugal",
+          "hint": "L.F."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Wesley Sneijder",
+          "nationality": "pays-bas",
+          "hint": "W.S."
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "S.E."
+        },
+        {
+          "name": "Adriano",
+          "nationality": "brésil",
+          "hint": "A."
+        },
+        {
+          "name": "Esteban Cambiasso",
+          "nationality": "argentine",
+          "hint": "E.C."
+        },
+        {
+          "name": "Diego Milito",
+          "nationality": "argentine",
+          "hint": "D.M."
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italie",
+          "hint": "M.B."
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.988813"
+      }
+    },
+    {
+      "id": 21,
+      "title": "TOP 10 des passeurs de Liverpool entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": "T.A."
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "hint": "A.R."
+        },
+        {
+          "name": "Diogo Jota",
+          "nationality": "portugal",
+          "hint": "D.J."
+        },
+        {
+          "name": "Darwin Núñez",
+          "nationality": "uruguay",
+          "hint": "D.N."
+        },
+        {
+          "name": "Luis Díaz",
+          "nationality": "colombie",
+          "hint": "L.D."
+        },
+        {
+          "name": "Curtis Jones",
+          "nationality": "angleterre",
+          "hint": "C.J."
+        },
+        {
+          "name": "Harvey Elliott",
+          "nationality": "angleterre",
+          "hint": "H.E."
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "R.F."
+        },
+        {
+          "name": "Konstantinos Tsimikas",
+          "nationality": "grèce",
+          "hint": "K.T."
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:52.994797"
+      }
+    },
+    {
+      "id": 22,
+      "title": "TOP 10 des passeurs de Liverpool entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "R.F."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": "T.A."
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": "J.M."
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "S.M."
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "hint": "A.R."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        },
+        {
+          "name": "Jordan Henderson",
+          "nationality": "angleterre",
+          "hint": "J.H."
+        },
+        {
+          "name": "Adam Lallana",
+          "nationality": "angleterre",
+          "hint": "A.L."
+        },
+        {
+          "name": "Georginio Wijnaldum",
+          "nationality": "pays-bas",
+          "hint": "G.W."
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.000399"
+      }
+    },
+    {
+      "id": 23,
+      "title": "TOP 10 des passeurs de Liverpool entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Steven Gerrard",
+          "nationality": "angleterre",
+          "hint": "S.G."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Jordan Henderson",
+          "nationality": "angleterre",
+          "hint": "J.H."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": "J.M."
+        },
+        {
+          "name": "Daniel Sturridge",
+          "nationality": "angleterre",
+          "hint": "D.S."
+        },
+        {
+          "name": "Adam Lallana",
+          "nationality": "angleterre",
+          "hint": "A.L."
+        },
+        {
+          "name": "Glen Johnson",
+          "nationality": "angleterre",
+          "hint": "G.J."
+        },
+        {
+          "name": "Stewart Downing",
+          "nationality": "angleterre",
+          "hint": "S.D."
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.005692"
+      }
+    },
+    {
+      "id": 24,
+      "title": "TOP 10 des passeurs de Liverpool entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Steven Gerrard",
+          "nationality": "angleterre",
+          "hint": "S.G."
+        },
+        {
+          "name": "Dirk Kuyt",
+          "nationality": "pays-bas",
+          "hint": "D.K."
+        },
+        {
+          "name": "Peter Crouch",
+          "nationality": "angleterre",
+          "hint": "P.C."
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Jermaine Pennant",
+          "nationality": "angleterre",
+          "hint": "J.P."
+        },
+        {
+          "name": "Yossi Benayoun",
+          "nationality": "israël",
+          "hint": "Y.B."
+        },
+        {
+          "name": "Ryan Babel",
+          "nationality": "pays-bas",
+          "hint": "R.B."
+        },
+        {
+          "name": "Steve Finnan",
+          "nationality": "irlande",
+          "hint": "S.F."
+        },
+        {
+          "name": "Fábio Aurélio",
+          "nationality": "brésil",
+          "hint": "F.A."
+        },
+        {
+          "name": "Xabi Alonso",
+          "nationality": "espagne",
+          "hint": "X.A."
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.010773"
+      }
+    },
+    {
+      "id": 25,
+      "title": "TOP 10 des passeurs de Man City entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "K.B."
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "angleterre",
+          "hint": "P.F."
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "B.S."
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "R.M."
+        },
+        {
+          "name": "Rodri",
+          "nationality": "espagne",
+          "hint": "R."
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": "İ.G."
+        },
+        {
+          "name": "Jack Grealish",
+          "nationality": "angleterre",
+          "hint": "J.G."
+        },
+        {
+          "name": "João Cancelo",
+          "nationality": "portugal",
+          "hint": "J.C."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.016349"
+      }
+    },
+    {
+      "id": 26,
+      "title": "TOP 10 des passeurs de Man City entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "K.B."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "L.S."
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "B.S."
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "R.M."
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brésil",
+          "hint": "G.J."
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": "İ.G."
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "angleterre",
+          "hint": "P.F."
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.022256"
+      }
+    },
+    {
+      "id": 27,
+      "title": "TOP 10 des passeurs de Man City entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Yaya Touré",
+          "nationality": "côte d'ivoire",
+          "hint": "Y.T."
+        },
+        {
+          "name": "Samir Nasri",
+          "nationality": "france",
+          "hint": "S.N."
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": "J.M."
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Aleksandar Kolarov",
+          "nationality": "serbie",
+          "hint": "A.K."
+        },
+        {
+          "name": "Jesús Navas",
+          "nationality": "espagne",
+          "hint": "J.N."
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "E.D."
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "C.T."
+        },
+        {
+          "name": "Pablo Zabaleta",
+          "nationality": "argentine",
+          "hint": "P.Z."
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.027377"
+      }
+    },
+    {
+      "id": 28,
+      "title": "TOP 10 des passeurs de Man City entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Stephen Ireland",
+          "nationality": "irlande",
+          "hint": "S.I."
+        },
+        {
+          "name": "Martin Petrov",
+          "nationality": "bulgarie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Shaun Wright-Phillips",
+          "nationality": "angleterre",
+          "hint": "S.W."
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "C.T."
+        },
+        {
+          "name": "Craig Bellamy",
+          "nationality": "pays de galles",
+          "hint": "C.B."
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Adam Johnson",
+          "nationality": "angleterre",
+          "hint": "A.J."
+        },
+        {
+          "name": "Darius Vassell",
+          "nationality": "angleterre",
+          "hint": "D.V."
+        },
+        {
+          "name": "Elano",
+          "nationality": "brésil",
+          "hint": "E."
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.032339"
+      }
+    },
+    {
+      "id": 29,
+      "title": "TOP 10 des passeurs de Man Utd entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "B.F."
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": "M.R."
+        },
+        {
+          "name": "Alejandro Garnacho",
+          "nationality": "argentine",
+          "hint": "A.G."
+        },
+        {
+          "name": "Luke Shaw",
+          "nationality": "angleterre",
+          "hint": "L.S."
+        },
+        {
+          "name": "Christian Eriksen",
+          "nationality": "danemark",
+          "hint": "C.E."
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "P.P."
+        },
+        {
+          "name": "Fred",
+          "nationality": "brésil",
+          "hint": "F."
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "A.M."
+        },
+        {
+          "name": "Diogo Dalot",
+          "nationality": "portugal",
+          "hint": "D.D."
+        },
+        {
+          "name": "Amad Diallo",
+          "nationality": "côte d'ivoire",
+          "hint": "A.D."
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.038039"
+      }
+    },
+    {
+      "id": 30,
+      "title": "TOP 10 des passeurs de Man Utd entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": "M.R."
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "A.M."
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "P.P."
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "B.F."
+        },
+        {
+          "name": "Ander Herrera",
+          "nationality": "espagne",
+          "hint": "A.H."
+        },
+        {
+          "name": "Jesse Lingard",
+          "nationality": "angleterre",
+          "hint": "J.L."
+        },
+        {
+          "name": "Luke Shaw",
+          "nationality": "angleterre",
+          "hint": "L.S."
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "W.R."
+        },
+        {
+          "name": "Ashley Young",
+          "nationality": "angleterre",
+          "hint": "A.Y."
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.043290"
+      }
+    },
+    {
+      "id": 31,
+      "title": "TOP 10 des passeurs de Man Utd entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "W.R."
+        },
+        {
+          "name": "Antonio Valencia",
+          "nationality": "équateur",
+          "hint": "A.V."
+        },
+        {
+          "name": "Nani",
+          "nationality": "portugal",
+          "hint": "N."
+        },
+        {
+          "name": "Ryan Giggs",
+          "nationality": "pays de galles",
+          "hint": "R.G."
+        },
+        {
+          "name": "Ashley Young",
+          "nationality": "angleterre",
+          "hint": "A.Y."
+        },
+        {
+          "name": "Patrice Evra",
+          "nationality": "france",
+          "hint": "P.E."
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique",
+          "hint": "C."
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "R.P."
+        },
+        {
+          "name": "Michael Carrick",
+          "nationality": "angleterre",
+          "hint": "M.C."
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.048850"
+      }
+    },
+    {
+      "id": 32,
+      "title": "TOP 10 des passeurs de Man Utd entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ryan Giggs",
+          "nationality": "pays de galles",
+          "hint": "R.G."
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "W.R."
+        },
+        {
+          "name": "Nani",
+          "nationality": "portugal",
+          "hint": "N."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "hint": "D.B."
+        },
+        {
+          "name": "Ji-sung Park",
+          "nationality": "corée du sud",
+          "hint": "J.P."
+        },
+        {
+          "name": "Paul Scholes",
+          "nationality": "angleterre",
+          "hint": "P.S."
+        },
+        {
+          "name": "Darren Fletcher",
+          "nationality": "écosse",
+          "hint": "D.F."
+        },
+        {
+          "name": "Michael Carrick",
+          "nationality": "angleterre",
+          "hint": "M.C."
+        },
+        {
+          "name": "Antonio Valencia",
+          "nationality": "équateur",
+          "hint": "A.V."
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.054411"
+      }
+    },
+    {
+      "id": 33,
+      "title": "TOP 10 des passeurs de PSG entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": "A.H."
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "B.B."
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Fabián Ruiz",
+          "nationality": "espagne",
+          "hint": "F.R."
+        },
+        {
+          "name": "Nuno Mendes",
+          "nationality": "portugal",
+          "hint": "N.M."
+        },
+        {
+          "name": "Désiré Doué",
+          "nationality": "france",
+          "hint": "D.D."
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.059902"
+      }
+    },
+    {
+      "id": 34,
+      "title": "TOP 10 des passeurs de PSG entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "allemagne",
+          "hint": "J.D."
+        },
+        {
+          "name": "Marco Verratti",
+          "nationality": "italie",
+          "hint": "M.V."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Layvin Kurzawa",
+          "nationality": "france",
+          "hint": "L.K."
+        },
+        {
+          "name": "Thomas Meunier",
+          "nationality": "belgique",
+          "hint": "T.M."
+        },
+        {
+          "name": "Javier Pastore",
+          "nationality": "argentine",
+          "hint": "J.P."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.065236"
+      }
+    },
+    {
+      "id": 35,
+      "title": "TOP 10 des passeurs de PSG entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Javier Pastore",
+          "nationality": "argentine",
+          "hint": "J.P."
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Lucas Moura",
+          "nationality": "brésil",
+          "hint": "L.M."
+        },
+        {
+          "name": "Jérémy Ménez",
+          "nationality": "france",
+          "hint": "J.M."
+        },
+        {
+          "name": "Marco Verratti",
+          "nationality": "italie",
+          "hint": "M.V."
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Blaise Matuidi",
+          "nationality": "france",
+          "hint": "B.M."
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "E.L."
+        },
+        {
+          "name": "Gregory van der Wiel",
+          "nationality": "pays-bas",
+          "hint": "G.W."
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.070221"
+      }
+    },
+    {
+      "id": 36,
+      "title": "TOP 10 des passeurs de PSG entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Jérôme Rothen",
+          "nationality": "france",
+          "hint": "J.R."
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Guillaume Hoarau",
+          "nationality": "france",
+          "hint": "G.H."
+        },
+        {
+          "name": "Stéphane Sessègnon",
+          "nationality": "bénin",
+          "hint": "S.S."
+        },
+        {
+          "name": "Ludovic Giuly",
+          "nationality": "france",
+          "hint": "L.G."
+        },
+        {
+          "name": "Péguy Luyindula",
+          "nationality": "france",
+          "hint": "P.L."
+        },
+        {
+          "name": "Christophe Jallet",
+          "nationality": "france",
+          "hint": "C.J."
+        },
+        {
+          "name": "Sylvain Armand",
+          "nationality": "france",
+          "hint": "S.A."
+        },
+        {
+          "name": "Bonaventure Kalou",
+          "nationality": "côte d'ivoire",
+          "hint": "B.K."
+        },
+        {
+          "name": "Pauleta",
+          "nationality": "portugal",
+          "hint": "P."
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.074764"
+      }
+    },
+    {
+      "id": 37,
+      "title": "TOP 10 des passeurs de Real Madrid entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "V.J."
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "L.M."
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "T.K."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "J.B."
+        },
+        {
+          "name": "Lucas Vázquez",
+          "nationality": "espagne",
+          "hint": "L.V."
+        },
+        {
+          "name": "Federico Valverde",
+          "nationality": "uruguay",
+          "hint": "F.V."
+        },
+        {
+          "name": "Daniel Carvajal",
+          "nationality": "espagne",
+          "hint": "D.C."
+        },
+        {
+          "name": "Brahim Díaz",
+          "nationality": "maroc",
+          "hint": "B.D."
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.079893"
+      }
+    },
+    {
+      "id": 38,
+      "title": "TOP 10 des passeurs de Real Madrid entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "T.K."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Lucas Vázquez",
+          "nationality": "espagne",
+          "hint": "L.V."
+        },
+        {
+          "name": "Marcelo",
+          "nationality": "brésil",
+          "hint": "M."
+        },
+        {
+          "name": "Daniel Carvajal",
+          "nationality": "espagne",
+          "hint": "D.C."
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "L.M."
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "G.B."
+        },
+        {
+          "name": "Isco",
+          "nationality": "espagne",
+          "hint": "I."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "J.R."
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.084935"
+      }
+    },
+    {
+      "id": 39,
+      "title": "TOP 10 des passeurs de Real Madrid entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "M.Ö."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "G.B."
+        },
+        {
+          "name": "Marcelo",
+          "nationality": "brésil",
+          "hint": "M."
+        },
+        {
+          "name": "Isco",
+          "nationality": "espagne",
+          "hint": "I."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "J.R."
+        },
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "K."
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.090019"
+      }
+    },
+    {
+      "id": 40,
+      "title": "TOP 10 des passeurs de Real Madrid entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Guti",
+          "nationality": "espagne",
+          "hint": "G."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Raúl",
+          "nationality": "espagne",
+          "hint": "R."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "M.Ö."
+        },
+        {
+          "name": "Marcelo",
+          "nationality": "brésil",
+          "hint": "M."
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Á.M."
+        },
+        {
+          "name": "David Beckham",
+          "nationality": "angleterre",
+          "hint": "D.B."
+        },
+        {
+          "name": "Sergio Ramos",
+          "nationality": "espagne",
+          "hint": "S.R."
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.095031"
+      }
+    },
+    {
+      "id": 41,
+      "title": "TOP 10 des passeurs de Aston Villa entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "O.W."
+        },
+        {
+          "name": "John McGinn",
+          "nationality": "écosse",
+          "hint": "J.M."
+        },
+        {
+          "name": "Leon Bailey",
+          "nationality": "jamaïque",
+          "hint": "L.B."
+        },
+        {
+          "name": "Douglas Luiz",
+          "nationality": "brésil",
+          "hint": "D.L."
+        },
+        {
+          "name": "Jacob Ramsey",
+          "nationality": "angleterre",
+          "hint": "J.R."
+        },
+        {
+          "name": "Youri Tielemans",
+          "nationality": "belgique",
+          "hint": "Y.T."
+        },
+        {
+          "name": "Lucas Digne",
+          "nationality": "france",
+          "hint": "L.D."
+        },
+        {
+          "name": "Morgan Rogers",
+          "nationality": "angleterre",
+          "hint": "M.R."
+        },
+        {
+          "name": "Matty Cash",
+          "nationality": "pologne",
+          "hint": "M.C."
+        },
+        {
+          "name": "Jack Grealish",
+          "nationality": "angleterre",
+          "hint": "J.G."
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.101930"
+      }
+    },
+    {
+      "id": 42,
+      "title": "TOP 10 des passeurs de Aston Villa entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Jack Grealish",
+          "nationality": "angleterre",
+          "hint": "J.G."
+        },
+        {
+          "name": "Conor Hourihane",
+          "nationality": "irlande",
+          "hint": "C.H."
+        },
+        {
+          "name": "Albert Adomah",
+          "nationality": "ghana",
+          "hint": "A.A."
+        },
+        {
+          "name": "John McGinn",
+          "nationality": "écosse",
+          "hint": "J.M."
+        },
+        {
+          "name": "Ahmed El Mohamady",
+          "nationality": "égypte",
+          "hint": "A.M."
+        },
+        {
+          "name": "Robert Snodgrass",
+          "nationality": "écosse",
+          "hint": "R.S."
+        },
+        {
+          "name": "Anwar El Ghazi",
+          "nationality": "pays-bas",
+          "hint": "A.G."
+        },
+        {
+          "name": "Henri Lansbury",
+          "nationality": "angleterre",
+          "hint": "H.L."
+        },
+        {
+          "name": "Jonathan Kodjia",
+          "nationality": "côte d'ivoire",
+          "hint": "J.K."
+        },
+        {
+          "name": "Bertrand Traoré",
+          "nationality": "burkina faso",
+          "hint": "B.T."
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.107849"
+      }
+    },
+    {
+      "id": 43,
+      "title": "TOP 10 des passeurs de Aston Villa entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Gabriel Agbonlahor",
+          "nationality": "angleterre",
+          "hint": "G.A."
+        },
+        {
+          "name": "Marc Albrighton",
+          "nationality": "angleterre",
+          "hint": "M.A."
+        },
+        {
+          "name": "Ashley Young",
+          "nationality": "angleterre",
+          "hint": "A.Y."
+        },
+        {
+          "name": "Charles N'Zogbia",
+          "nationality": "france",
+          "hint": "C.N."
+        },
+        {
+          "name": "Andreas Weimann",
+          "nationality": "autriche",
+          "hint": "A.W."
+        },
+        {
+          "name": "Ashley Westwood",
+          "nationality": "angleterre",
+          "hint": "A.W."
+        },
+        {
+          "name": "Christian Benteke",
+          "nationality": "belgique",
+          "hint": "C.B."
+        },
+        {
+          "name": "Stewart Downing",
+          "nationality": "angleterre",
+          "hint": "S.D."
+        },
+        {
+          "name": "Stephen Ireland",
+          "nationality": "irlande",
+          "hint": "S.I."
+        },
+        {
+          "name": "Leandro Bacuna",
+          "nationality": "curaçao",
+          "hint": "L.B."
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.113234"
+      }
+    },
+    {
+      "id": 44,
+      "title": "TOP 10 des passeurs de Aston Villa entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ashley Young",
+          "nationality": "angleterre",
+          "hint": "A.Y."
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": "J.M."
+        },
+        {
+          "name": "Gareth Barry",
+          "nationality": "angleterre",
+          "hint": "G.B."
+        },
+        {
+          "name": "Gabriel Agbonlahor",
+          "nationality": "angleterre",
+          "hint": "G.A."
+        },
+        {
+          "name": "John Carew",
+          "nationality": "norvège",
+          "hint": "J.C."
+        },
+        {
+          "name": "Stewart Downing",
+          "nationality": "angleterre",
+          "hint": "S.D."
+        },
+        {
+          "name": "Marc Albrighton",
+          "nationality": "angleterre",
+          "hint": "M.A."
+        },
+        {
+          "name": "Stiliyan Petrov",
+          "nationality": "bulgarie",
+          "hint": "S.P."
+        },
+        {
+          "name": "Emile Heskey",
+          "nationality": "angleterre",
+          "hint": "E.H."
+        },
+        {
+          "name": "Stephen Warnock",
+          "nationality": "angleterre",
+          "hint": "S.W."
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.118122"
+      }
+    },
+    {
+      "id": 45,
+      "title": "TOP 10 des passeurs de Atalanta entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mario Pasalić",
+          "nationality": "croatie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "hint": "L.M."
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "D.Z."
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "A.L."
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": "C.K."
+        },
+        {
+          "name": "Davide Zappacosta",
+          "nationality": "italie",
+          "hint": "D.Z."
+        },
+        {
+          "name": "Ruslan Malinovskyi",
+          "nationality": "ukraine",
+          "hint": "R.M."
+        },
+        {
+          "name": "Aleksey Miranchuk",
+          "nationality": "russie",
+          "hint": "A.M."
+        },
+        {
+          "name": "Marten de Roon",
+          "nationality": "pays-bas",
+          "hint": "M.R."
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "hint": "J.I."
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.124101"
+      }
+    },
+    {
+      "id": 46,
+      "title": "TOP 10 des passeurs de Atalanta entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": "P.G."
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "hint": "J.I."
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "D.Z."
+        },
+        {
+          "name": "Robin Gosens",
+          "nationality": "allemagne",
+          "hint": "R.G."
+        },
+        {
+          "name": "Hans Hateboer",
+          "nationality": "pays-bas",
+          "hint": "H.H."
+        },
+        {
+          "name": "Ruslan Malinovskyi",
+          "nationality": "ukraine",
+          "hint": "R.M."
+        },
+        {
+          "name": "Remo Freuler",
+          "nationality": "suisse",
+          "hint": "R.F."
+        },
+        {
+          "name": "Andrea Petagna",
+          "nationality": "italie",
+          "hint": "A.P."
+        },
+        {
+          "name": "Mario Pasalić",
+          "nationality": "croatie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Rafael Tolói",
+          "nationality": "italie",
+          "hint": "R.T."
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.129937"
+      }
+    },
+    {
+      "id": 47,
+      "title": "TOP 10 des passeurs de Atalanta entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Maxi Moralez",
+          "nationality": "argentine",
+          "hint": "M.M."
+        },
+        {
+          "name": "Luca Cigarini",
+          "nationality": "italie",
+          "hint": "L.C."
+        },
+        {
+          "name": "Giacomo Bonaventura",
+          "nationality": "italie",
+          "hint": "G.B."
+        },
+        {
+          "name": "Germán Denis",
+          "nationality": "argentine",
+          "hint": "G.D."
+        },
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": "P.G."
+        },
+        {
+          "name": "Cristian Raimondi",
+          "nationality": "italie",
+          "hint": "C.R."
+        },
+        {
+          "name": "Ezequiel Schelotto",
+          "nationality": "italie",
+          "hint": "E.S."
+        },
+        {
+          "name": "Édgar Barreto",
+          "nationality": "paraguay",
+          "hint": "É.B."
+        },
+        {
+          "name": "Francesco Ruopolo",
+          "nationality": "italie",
+          "hint": "F.R."
+        },
+        {
+          "name": "Federico Peluso",
+          "nationality": "italie",
+          "hint": "F.P."
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.136168"
+      }
+    },
+    {
+      "id": 48,
+      "title": "TOP 10 des passeurs de Atalanta entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Tiberio Guarente",
+          "nationality": "italie",
+          "hint": "T.G."
+        },
+        {
+          "name": "Cristiano Doni",
+          "nationality": "italie",
+          "hint": "C.D."
+        },
+        {
+          "name": "Ferreira Pinto",
+          "nationality": "brésil",
+          "hint": "F.P."
+        },
+        {
+          "name": "Sergio Floccari",
+          "nationality": "italie",
+          "hint": "S.F."
+        },
+        {
+          "name": "Fernando Tissone",
+          "nationality": "argentine",
+          "hint": "F.T."
+        },
+        {
+          "name": "Simone Tiribocchi",
+          "nationality": "italie",
+          "hint": "S.T."
+        },
+        {
+          "name": "Édgar Barreto",
+          "nationality": "paraguay",
+          "hint": "É.B."
+        },
+        {
+          "name": "Francesco Ruopolo",
+          "nationality": "italie",
+          "hint": "F.R."
+        },
+        {
+          "name": "Jaime Valdés",
+          "nationality": "chili",
+          "hint": "J.V."
+        },
+        {
+          "name": "Davide Bombardini",
+          "nationality": "italie",
+          "hint": "D.B."
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.141967"
+      }
+    },
+    {
+      "id": 49,
+      "title": "TOP 10 des passeurs de Atletico Madrid entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Marcos Llorente",
+          "nationality": "espagne",
+          "hint": "M.L."
+        },
+        {
+          "name": "Ángel Correa",
+          "nationality": "argentine",
+          "hint": "Á.C."
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nationality": "argentine",
+          "hint": "R.P."
+        },
+        {
+          "name": "Yannick Carrasco",
+          "nationality": "belgique",
+          "hint": "Y.C."
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": "K."
+        },
+        {
+          "name": "Samuel Lino",
+          "nationality": "brésil",
+          "hint": "S.L."
+        },
+        {
+          "name": "João Félix",
+          "nationality": "portugal",
+          "hint": "J.F."
+        },
+        {
+          "name": "Thomas Lemar",
+          "nationality": "france",
+          "hint": "T.L."
+        },
+        {
+          "name": "Nahuel Molina",
+          "nationality": "argentine",
+          "hint": "N.M."
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.147690"
+      }
+    },
+    {
+      "id": 50,
+      "title": "TOP 10 des passeurs de Atletico Madrid entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": "K."
+        },
+        {
+          "name": "Ángel Correa",
+          "nationality": "argentine",
+          "hint": "Á.C."
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Yannick Carrasco",
+          "nationality": "belgique",
+          "hint": "Y.C."
+        },
+        {
+          "name": "Filipe Luís",
+          "nationality": "brésil",
+          "hint": "F.L."
+        },
+        {
+          "name": "Saúl Ñíguez",
+          "nationality": "espagne",
+          "hint": "S.Ñ."
+        },
+        {
+          "name": "Marcos Llorente",
+          "nationality": "espagne",
+          "hint": "M.L."
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "D.C."
+        },
+        {
+          "name": "Juanfran Torres",
+          "nationality": "espagne",
+          "hint": "J.T."
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.152877"
+      }
+    },
+    {
+      "id": 51,
+      "title": "TOP 10 des passeurs de Atletico Madrid entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": "K."
+        },
+        {
+          "name": "Gabi",
+          "nationality": "espagne",
+          "hint": "G."
+        },
+        {
+          "name": "Juanfran Torres",
+          "nationality": "espagne",
+          "hint": "J.T."
+        },
+        {
+          "name": "Arda Turan",
+          "nationality": "turquie",
+          "hint": "A.T."
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "D.C."
+        },
+        {
+          "name": "Raúl García",
+          "nationality": "espagne",
+          "hint": "R.G."
+        },
+        {
+          "name": "Adrián López",
+          "nationality": "espagne",
+          "hint": "A.L."
+        },
+        {
+          "name": "Filipe Luís",
+          "nationality": "brésil",
+          "hint": "F.L."
+        },
+        {
+          "name": "Diego",
+          "nationality": "brésil",
+          "hint": "D."
+        },
+        {
+          "name": "José Antonio Reyes",
+          "nationality": "espagne",
+          "hint": "J.R."
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.157889"
+      }
+    },
+    {
+      "id": 52,
+      "title": "TOP 10 des passeurs de Atletico Madrid entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Simão",
+          "nationality": "portugal",
+          "hint": "S."
+        },
+        {
+          "name": "Diego Forlán",
+          "nationality": "uruguay",
+          "hint": "D.F."
+        },
+        {
+          "name": "José Antonio Reyes",
+          "nationality": "espagne",
+          "hint": "J.R."
+        },
+        {
+          "name": "Maxi Rodríguez",
+          "nationality": "argentine",
+          "hint": "M.R."
+        },
+        {
+          "name": "Luis García",
+          "nationality": "espagne",
+          "hint": "L.G."
+        },
+        {
+          "name": "José Manuel Jurado",
+          "nationality": "espagne",
+          "hint": "J.J."
+        },
+        {
+          "name": "Antonio López",
+          "nationality": "espagne",
+          "hint": "A.L."
+        },
+        {
+          "name": "Raúl García",
+          "nationality": "espagne",
+          "hint": "R.G."
+        },
+        {
+          "name": "Mariano Pernía",
+          "nationality": "espagne",
+          "hint": "M.P."
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.162680"
+      }
+    },
+    {
+      "id": 53,
+      "title": "TOP 10 des passeurs de Dortmund entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "J.B."
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "M.R."
+        },
+        {
+          "name": "Raphaël Guerreiro",
+          "nationality": "portugal",
+          "hint": "R.G."
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "J.B."
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "J.S."
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        },
+        {
+          "name": "Donyell Malen",
+          "nationality": "pays-bas",
+          "hint": "D.M."
+        },
+        {
+          "name": "Karim Adeyemi",
+          "nationality": "allemagne",
+          "hint": "K.A."
+        },
+        {
+          "name": "Giovanni Reyna",
+          "nationality": "états-unis",
+          "hint": "G.R."
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "nationality": "allemagne",
+          "hint": "N.S."
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.169324"
+      }
+    },
+    {
+      "id": 54,
+      "title": "TOP 10 des passeurs de Dortmund entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "J.S."
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "M.R."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Raphaël Guerreiro",
+          "nationality": "portugal",
+          "hint": "R.G."
+        },
+        {
+          "name": "Shinji Kagawa",
+          "nationality": "japon",
+          "hint": "S.K."
+        },
+        {
+          "name": "Lukasz Piszczek",
+          "nationality": "pologne",
+          "hint": "L.P."
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": "C.P."
+        },
+        {
+          "name": "Gonzalo Castro",
+          "nationality": "allemagne",
+          "hint": "G.C."
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "P.A."
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.174623"
+      }
+    },
+    {
+      "id": 55,
+      "title": "TOP 10 des passeurs de Dortmund entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "M.R."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Lukasz Piszczek",
+          "nationality": "pologne",
+          "hint": "L.P."
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Shinji Kagawa",
+          "nationality": "japon",
+          "hint": "S.K."
+        },
+        {
+          "name": "Jakub Blaszczykowski",
+          "nationality": "pologne",
+          "hint": "J.B."
+        },
+        {
+          "name": "Kevin Großkreutz",
+          "nationality": "allemagne",
+          "hint": "K.G."
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "P.A."
+        },
+        {
+          "name": "Marcel Schmelzer",
+          "nationality": "allemagne",
+          "hint": "M.S."
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.179366"
+      }
+    },
+    {
+      "id": 56,
+      "title": "TOP 10 des passeurs de Dortmund entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Nuri Şahin",
+          "nationality": "turquie",
+          "hint": "N.Ş."
+        },
+        {
+          "name": "Dedê",
+          "nationality": "brésil",
+          "hint": "D."
+        },
+        {
+          "name": "Nelson Valdez",
+          "nationality": "paraguay",
+          "hint": "N.V."
+        },
+        {
+          "name": "Alex Frei",
+          "nationality": "suisse",
+          "hint": "A.F."
+        },
+        {
+          "name": "Jakub Blaszczykowski",
+          "nationality": "pologne",
+          "hint": "J.B."
+        },
+        {
+          "name": "Tamás Hajnal",
+          "nationality": "hongrie",
+          "hint": "T.H."
+        },
+        {
+          "name": "Lucas Barrios",
+          "nationality": "paraguay",
+          "hint": "L.B."
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Tinga",
+          "nationality": "brésil",
+          "hint": "T."
+        },
+        {
+          "name": "Ebi Smolarek",
+          "nationality": "pologne",
+          "hint": "E.S."
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.184941"
+      }
+    },
+    {
+      "id": 57,
+      "title": "TOP 10 des passeurs de Juventus entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Juan Cuadrado",
+          "nationality": "colombie",
+          "hint": "J.C."
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italie",
+          "hint": "F.C."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Weston McKennie",
+          "nationality": "états-unis",
+          "hint": "W.M."
+        },
+        {
+          "name": "Manuel Locatelli",
+          "nationality": "italie",
+          "hint": "M.L."
+        },
+        {
+          "name": "Filip Kostić",
+          "nationality": "serbie",
+          "hint": "F.K."
+        },
+        {
+          "name": "Danilo",
+          "nationality": "brésil",
+          "hint": "D."
+        },
+        {
+          "name": "Adrien Rabiot",
+          "nationality": "france",
+          "hint": "A.R."
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": "D.V."
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "nationality": "italie",
+          "hint": "A.C."
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.190750"
+      }
+    },
+    {
+      "id": 58,
+      "title": "TOP 10 des passeurs de Juventus entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Juan Cuadrado",
+          "nationality": "colombie",
+          "hint": "J.C."
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "P.D."
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "M.P."
+        },
+        {
+          "name": "Alex Sandro",
+          "nationality": "brésil",
+          "hint": "A.S."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Douglas Costa",
+          "nationality": "brésil",
+          "hint": "D.C."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": "M.M."
+        },
+        {
+          "name": "Federico Bernardeschi",
+          "nationality": "italie",
+          "hint": "F.B."
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.196407"
+      }
+    },
+    {
+      "id": 59,
+      "title": "TOP 10 des passeurs de Juventus entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Andrea Pirlo",
+          "nationality": "italie",
+          "hint": "A.P."
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "P.P."
+        },
+        {
+          "name": "Claudio Marchisio",
+          "nationality": "italie",
+          "hint": "C.M."
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "A.V."
+        },
+        {
+          "name": "Stephan Lichtsteiner",
+          "nationality": "suisse",
+          "hint": "S.L."
+        },
+        {
+          "name": "Mirko Vucinić",
+          "nationality": "monténégro",
+          "hint": "M.V."
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "C.T."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Kwadwo Asamoah",
+          "nationality": "ghana",
+          "hint": "K.A."
+        },
+        {
+          "name": "Sebastian Giovinco",
+          "nationality": "italie",
+          "hint": "S.G."
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.202054"
+      }
+    },
+    {
+      "id": 60,
+      "title": "TOP 10 des passeurs de Juventus entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Alessandro Del Piero",
+          "nationality": "italie",
+          "hint": "A.P."
+        },
+        {
+          "name": "Mauro Camoranesi",
+          "nationality": "italie",
+          "hint": "M.C."
+        },
+        {
+          "name": "Pavel Nedved",
+          "nationality": "tchéquie",
+          "hint": "P.N."
+        },
+        {
+          "name": "David Trezeguet",
+          "nationality": "france",
+          "hint": "D.T."
+        },
+        {
+          "name": "Diego",
+          "nationality": "brésil",
+          "hint": "D."
+        },
+        {
+          "name": "Vincenzo Iaquinta",
+          "nationality": "italie",
+          "hint": "V.I."
+        },
+        {
+          "name": "Giorgio Chiellini",
+          "nationality": "italie",
+          "hint": "G.C."
+        },
+        {
+          "name": "Federico Balzaretti",
+          "nationality": "italie",
+          "hint": "F.B."
+        },
+        {
+          "name": "Cristiano Zanetti",
+          "nationality": "italie",
+          "hint": "C.Z."
+        },
+        {
+          "name": "Claudio Marchisio",
+          "nationality": "italie",
+          "hint": "C.M."
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.207585"
+      }
+    },
+    {
+      "id": 61,
+      "title": "TOP 10 des passeurs de Lazio entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "L.A."
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": "S.M."
+        },
+        {
+          "name": "Mattia Zaccagni",
+          "nationality": "italie",
+          "hint": "M.Z."
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brésil",
+          "hint": "F.A."
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "C.I."
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Manuel Lazzari",
+          "nationality": "italie",
+          "hint": "M.L."
+        },
+        {
+          "name": "Taty Castellanos",
+          "nationality": "argentine",
+          "hint": "T.C."
+        },
+        {
+          "name": "Gustav Isaksen",
+          "nationality": "danemark",
+          "hint": "G.I."
+        },
+        {
+          "name": "Mattéo Guendouzi",
+          "nationality": "france",
+          "hint": "M.G."
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.213415"
+      }
+    },
+    {
+      "id": 62,
+      "title": "TOP 10 des passeurs de Lazio entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "L.A."
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "C.I."
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": "S.M."
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brésil",
+          "hint": "F.A."
+        },
+        {
+          "name": "Senad Lulic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "S.L."
+        },
+        {
+          "name": "Joaquín Correa",
+          "nationality": "argentine",
+          "hint": "J.C."
+        },
+        {
+          "name": "Marco Parolo",
+          "nationality": "italie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Felipe Caicedo",
+          "nationality": "équateur",
+          "hint": "F.C."
+        },
+        {
+          "name": "Adam Marusic",
+          "nationality": "monténégro",
+          "hint": "A.M."
+        },
+        {
+          "name": "Lucas Leiva",
+          "nationality": "brésil",
+          "hint": "L.L."
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.219476"
+      }
+    },
+    {
+      "id": 63,
+      "title": "TOP 10 des passeurs de Lazio entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": "A.C."
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "allemagne",
+          "hint": "M.K."
+        },
+        {
+          "name": "Senad Lulic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "S.L."
+        },
+        {
+          "name": "Cristian Ledesma",
+          "nationality": "italie",
+          "hint": "C.L."
+        },
+        {
+          "name": "Stefano Mauri",
+          "nationality": "italie",
+          "hint": "S.M."
+        },
+        {
+          "name": "Hernanes",
+          "nationality": "brésil",
+          "hint": "H."
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brésil",
+          "hint": "F.A."
+        },
+        {
+          "name": "Keita Baldé",
+          "nationality": "sénégal",
+          "hint": "K.B."
+        },
+        {
+          "name": "Ștefan Radu",
+          "nationality": "roumanie",
+          "hint": "Ș.R."
+        },
+        {
+          "name": "Lucas Biglia",
+          "nationality": "argentine",
+          "hint": "L.B."
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.225398"
+      }
+    },
+    {
+      "id": 64,
+      "title": "TOP 10 des passeurs de Lazio entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Tommaso Rocchi",
+          "nationality": "italie",
+          "hint": "T.R."
+        },
+        {
+          "name": "Stefano Mauri",
+          "nationality": "italie",
+          "hint": "S.M."
+        },
+        {
+          "name": "Cristian Ledesma",
+          "nationality": "italie",
+          "hint": "C.L."
+        },
+        {
+          "name": "Mauro Zárate",
+          "nationality": "argentine",
+          "hint": "M.Z."
+        },
+        {
+          "name": "Goran Pandev",
+          "nationality": "macédoine du nord",
+          "hint": "G.P."
+        },
+        {
+          "name": "Massimo Oddo",
+          "nationality": "italie",
+          "hint": "M.O."
+        },
+        {
+          "name": "Pasquale Foggia",
+          "nationality": "italie",
+          "hint": "P.F."
+        },
+        {
+          "name": "Aleksandar Kolarov",
+          "nationality": "serbie",
+          "hint": "A.K."
+        },
+        {
+          "name": "Gaby Mudingayi",
+          "nationality": "belgique",
+          "hint": "G.M."
+        },
+        {
+          "name": "Luciano Zauri",
+          "nationality": "italie",
+          "hint": "L.Z."
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.231289"
+      }
+    },
+    {
+      "id": 65,
+      "title": "TOP 10 des passeurs de Leipzig entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "C.N."
+        },
+        {
+          "name": "Dani Olmo",
+          "nationality": "espagne",
+          "hint": "D.O."
+        },
+        {
+          "name": "Angeliño",
+          "nationality": "espagne",
+          "hint": "A."
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": "X.S."
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "nationality": "hongrie",
+          "hint": "D.S."
+        },
+        {
+          "name": "David Raum",
+          "nationality": "allemagne",
+          "hint": "D.R."
+        },
+        {
+          "name": "André Silva",
+          "nationality": "portugal",
+          "hint": "A.S."
+        },
+        {
+          "name": "Benjamin Henrichs",
+          "nationality": "allemagne",
+          "hint": "B.H."
+        },
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "hint": "E.F."
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": "L.O."
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.237065"
+      }
+    },
+    {
+      "id": 66,
+      "title": "TOP 10 des passeurs de Leipzig entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "hint": "E.F."
+        },
+        {
+          "name": "Yussuf Poulsen",
+          "nationality": "danemark",
+          "hint": "Y.P."
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "nationality": "autriche",
+          "hint": "M.S."
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "T.W."
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "C.N."
+        },
+        {
+          "name": "Marcel Halstenberg",
+          "nationality": "allemagne",
+          "hint": "M.H."
+        },
+        {
+          "name": "Kevin Kampl",
+          "nationality": "slovénie",
+          "hint": "K.K."
+        },
+        {
+          "name": "Angeliño",
+          "nationality": "espagne",
+          "hint": "A."
+        },
+        {
+          "name": "Naby Keïta",
+          "nationality": "guinée",
+          "hint": "N.K."
+        },
+        {
+          "name": "Diego Demme",
+          "nationality": "allemagne",
+          "hint": "D.D."
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.242164"
+      }
+    },
+    {
+      "id": 67,
+      "title": "TOP 10 des passeurs de Leipzig entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Dominik Kaiser",
+          "nationality": "allemagne",
+          "hint": "D.K."
+        },
+        {
+          "name": "Daniel Frahn",
+          "nationality": "allemagne",
+          "hint": "D.F."
+        },
+        {
+          "name": "Thiago Rockenbach",
+          "nationality": "brésil",
+          "hint": "T.R."
+        },
+        {
+          "name": "Stefan Kutschke",
+          "nationality": "allemagne",
+          "hint": "S.K."
+        },
+        {
+          "name": "Yussuf Poulsen",
+          "nationality": "danemark",
+          "hint": "Y.P."
+        },
+        {
+          "name": "Timo Röttger",
+          "nationality": "allemagne",
+          "hint": "T.R."
+        },
+        {
+          "name": "Carsten Kammlott",
+          "nationality": "allemagne",
+          "hint": "C.K."
+        },
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "hint": "E.F."
+        },
+        {
+          "name": "Matthias Morys",
+          "nationality": "allemagne",
+          "hint": "M.M."
+        },
+        {
+          "name": "Clemens Fandrich",
+          "nationality": "allemagne",
+          "hint": "C.F."
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.246859"
+      }
+    },
+    {
+      "id": 68,
+      "title": "TOP 10 des passeurs de Leipzig entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Daniel Frahn",
+          "nationality": "allemagne",
+          "hint": "D.F."
+        },
+        {
+          "name": "Lars Müller",
+          "nationality": "allemagne",
+          "hint": "L.M."
+        },
+        {
+          "name": "Thiago Rockenbach",
+          "nationality": "brésil",
+          "hint": "T.R."
+        },
+        {
+          "name": "Paul Schinke",
+          "nationality": "allemagne",
+          "hint": "P.S."
+        },
+        {
+          "name": "Alexander Laas",
+          "nationality": "allemagne",
+          "hint": "A.L."
+        },
+        {
+          "name": "Stefan Kutschke",
+          "nationality": "allemagne",
+          "hint": "S.K."
+        },
+        {
+          "name": "Daniel Rosin",
+          "nationality": "allemagne",
+          "hint": "D.R."
+        },
+        {
+          "name": "Christian Reimann",
+          "nationality": "allemagne",
+          "hint": "C.R."
+        },
+        {
+          "name": "Thomas Kläsener",
+          "nationality": "allemagne",
+          "hint": "T.K."
+        },
+        {
+          "name": "Carsten Kammlott",
+          "nationality": "allemagne",
+          "hint": "C.K."
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.250472"
+      }
+    },
+    {
+      "id": 69,
+      "title": "TOP 10 des passeurs de Leverkusen entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": "F.W."
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "nationality": "pays-bas",
+          "hint": "J.F."
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "M.D."
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "nationality": "espagne",
+          "hint": "A.G."
+        },
+        {
+          "name": "Amine Adli",
+          "nationality": "maroc",
+          "hint": "A.A."
+        },
+        {
+          "name": "Kerem Demirbay",
+          "nationality": "allemagne",
+          "hint": "K.D."
+        },
+        {
+          "name": "Exequiel Palacios",
+          "nationality": "argentine",
+          "hint": "E.P."
+        },
+        {
+          "name": "Nadiem Amiri",
+          "nationality": "allemagne",
+          "hint": "N.A."
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "allemagne",
+          "hint": "J.H."
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": "P.S."
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.255558"
+      }
+    },
+    {
+      "id": 70,
+      "title": "TOP 10 des passeurs de Leverkusen entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "J.B."
+        },
+        {
+          "name": "Karim Bellarabi",
+          "nationality": "allemagne",
+          "hint": "K.B."
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": "K.V."
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "K.H."
+        },
+        {
+          "name": "Leon Bailey",
+          "nationality": "jamaïque",
+          "hint": "L.B."
+        },
+        {
+          "name": "Charles Aránguiz",
+          "nationality": "chili",
+          "hint": "C.A."
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "M.D."
+        },
+        {
+          "name": "Kerem Demirbay",
+          "nationality": "allemagne",
+          "hint": "K.D."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        },
+        {
+          "name": "Wendell",
+          "nationality": "brésil",
+          "hint": "W."
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.260174"
+      }
+    },
+    {
+      "id": 71,
+      "title": "TOP 10 des passeurs de Leverkusen entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Gonzalo Castro",
+          "nationality": "allemagne",
+          "hint": "G.C."
+        },
+        {
+          "name": "Stefan Kießling",
+          "nationality": "allemagne",
+          "hint": "S.K."
+        },
+        {
+          "name": "Karim Bellarabi",
+          "nationality": "allemagne",
+          "hint": "K.B."
+        },
+        {
+          "name": "Sidney Sam",
+          "nationality": "allemagne",
+          "hint": "S.S."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        },
+        {
+          "name": "Lars Bender",
+          "nationality": "allemagne",
+          "hint": "L.B."
+        },
+        {
+          "name": "Simon Rolfes",
+          "nationality": "allemagne",
+          "hint": "S.R."
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "J.B."
+        },
+        {
+          "name": "André Schürrle",
+          "nationality": "allemagne",
+          "hint": "A.S."
+        },
+        {
+          "name": "Renato Augusto",
+          "nationality": "brésil",
+          "hint": "R.A."
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.264898"
+      }
+    },
+    {
+      "id": 72,
+      "title": "TOP 10 des passeurs de Leverkusen entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Tranquillo Barnetta",
+          "nationality": "suisse",
+          "hint": "T.B."
+        },
+        {
+          "name": "Stefan Kießling",
+          "nationality": "allemagne",
+          "hint": "S.K."
+        },
+        {
+          "name": "Bernd Schneider",
+          "nationality": "allemagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "Gonzalo Castro",
+          "nationality": "allemagne",
+          "hint": "G.C."
+        },
+        {
+          "name": "Renato Augusto",
+          "nationality": "brésil",
+          "hint": "R.A."
+        },
+        {
+          "name": "Simon Rolfes",
+          "nationality": "allemagne",
+          "hint": "S.R."
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "A.V."
+        },
+        {
+          "name": "Paul Freier",
+          "nationality": "allemagne",
+          "hint": "P.F."
+        },
+        {
+          "name": "Andriy Voronin",
+          "nationality": "ukraine",
+          "hint": "A.V."
+        },
+        {
+          "name": "Sergej Barbarez",
+          "nationality": "bosnie-herzégovine",
+          "hint": "S.B."
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.269510"
+      }
+    },
+    {
+      "id": 73,
+      "title": "TOP 10 des passeurs de Milan entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "R.L."
+        },
+        {
+          "name": "Theo Hernández",
+          "nationality": "france",
+          "hint": "T.H."
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": "C.P."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Brahim Díaz",
+          "nationality": "maroc",
+          "hint": "B.D."
+        },
+        {
+          "name": "Davide Calabria",
+          "nationality": "italie",
+          "hint": "D.C."
+        },
+        {
+          "name": "Alexis Saelemaekers",
+          "nationality": "belgique",
+          "hint": "A.S."
+        },
+        {
+          "name": "Ante Rebić",
+          "nationality": "croatie",
+          "hint": "A.R."
+        },
+        {
+          "name": "Sandro Tonali",
+          "nationality": "italie",
+          "hint": "S.T."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.274742"
+      }
+    },
+    {
+      "id": 74,
+      "title": "TOP 10 des passeurs de Milan entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        },
+        {
+          "name": "Suso",
+          "nationality": "espagne",
+          "hint": "S."
+        },
+        {
+          "name": "Giacomo Bonaventura",
+          "nationality": "italie",
+          "hint": "G.B."
+        },
+        {
+          "name": "Franck Kessié",
+          "nationality": "côte d'ivoire",
+          "hint": "F.K."
+        },
+        {
+          "name": "Samu Castillejo",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Theo Hernández",
+          "nationality": "france",
+          "hint": "T.H."
+        },
+        {
+          "name": "Ante Rebić",
+          "nationality": "croatie",
+          "hint": "A.R."
+        },
+        {
+          "name": "Davide Calabria",
+          "nationality": "italie",
+          "hint": "D.C."
+        },
+        {
+          "name": "Keisuke Honda",
+          "nationality": "japon",
+          "hint": "K.H."
+        },
+        {
+          "name": "Carlos Bacca",
+          "nationality": "colombie",
+          "hint": "C.B."
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.280273"
+      }
+    },
+    {
+      "id": 75,
+      "title": "TOP 10 des passeurs de Milan entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Antonio Cassano",
+          "nationality": "italie",
+          "hint": "A.C."
+        },
+        {
+          "name": "Ignazio Abate",
+          "nationality": "italie",
+          "hint": "I.A."
+        },
+        {
+          "name": "Kevin-Prince Boateng",
+          "nationality": "ghana",
+          "hint": "K.B."
+        },
+        {
+          "name": "Urby Emanuelson",
+          "nationality": "pays-bas",
+          "hint": "U.E."
+        },
+        {
+          "name": "Keisuke Honda",
+          "nationality": "japon",
+          "hint": "K.H."
+        },
+        {
+          "name": "Giacomo Bonaventura",
+          "nationality": "italie",
+          "hint": "G.B."
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": "S.S."
+        },
+        {
+          "name": "Riccardo Montolivo",
+          "nationality": "italie",
+          "hint": "R.M."
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.286242"
+      }
+    },
+    {
+      "id": 76,
+      "title": "TOP 10 des passeurs de Milan entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "K."
+        },
+        {
+          "name": "Clarence Seedorf",
+          "nationality": "pays-bas",
+          "hint": "C.S."
+        },
+        {
+          "name": "Andrea Pirlo",
+          "nationality": "italie",
+          "hint": "A.P."
+        },
+        {
+          "name": "Ronaldinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Massimo Ambrosini",
+          "nationality": "italie",
+          "hint": "M.A."
+        },
+        {
+          "name": "Serginho",
+          "nationality": "brésil",
+          "hint": "S."
+        },
+        {
+          "name": "Alberto Gilardino",
+          "nationality": "italie",
+          "hint": "A.G."
+        },
+        {
+          "name": "Andriy Shevchenko",
+          "nationality": "ukraine",
+          "hint": "A.S."
+        },
+        {
+          "name": "Marek Jankulovski",
+          "nationality": "tchéquie",
+          "hint": "M.J."
+        },
+        {
+          "name": "Alexandre Pato",
+          "nationality": "brésil",
+          "hint": "A.P."
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.291901"
+      }
+    },
+    {
+      "id": 77,
+      "title": "TOP 10 des passeurs de Napoli entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Giovanni Di Lorenzo",
+          "nationality": "italie",
+          "hint": "G.L."
+        },
+        {
+          "name": "Matteo Politano",
+          "nationality": "italie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": "P.Z."
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "K.K."
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "L.I."
+        },
+        {
+          "name": "Mário Rui",
+          "nationality": "portugal",
+          "hint": "M.R."
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "V.O."
+        },
+        {
+          "name": "Frank Anguissa",
+          "nationality": "cameroun",
+          "hint": "F.A."
+        },
+        {
+          "name": "Hirving Lozano",
+          "nationality": "mexique",
+          "hint": "H.L."
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "D.M."
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.296892"
+      }
+    },
+    {
+      "id": 78,
+      "title": "TOP 10 des passeurs de Napoli entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "D.M."
+        },
+        {
+          "name": "José Callejón",
+          "nationality": "espagne",
+          "hint": "J.C."
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "L.I."
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": "P.Z."
+        },
+        {
+          "name": "Marek Hamsik",
+          "nationality": "slovaquie",
+          "hint": "M.H."
+        },
+        {
+          "name": "Faouzi Ghoulam",
+          "nationality": "algérie",
+          "hint": "F.G."
+        },
+        {
+          "name": "Allan",
+          "nationality": "brésil",
+          "hint": "A."
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "nationality": "italie",
+          "hint": "G.L."
+        },
+        {
+          "name": "Jorginho",
+          "nationality": "italie",
+          "hint": "J."
+        },
+        {
+          "name": "Elseid Hysaj",
+          "nationality": "albanie",
+          "hint": "E.H."
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.302424"
+      }
+    },
+    {
+      "id": 79,
+      "title": "TOP 10 des passeurs de Napoli entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Marek Hamsik",
+          "nationality": "slovaquie",
+          "hint": "M.H."
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "L.I."
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "E.L."
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "D.M."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "José Callejón",
+          "nationality": "espagne",
+          "hint": "J.C."
+        },
+        {
+          "name": "Goran Pandev",
+          "nationality": "macédoine du nord",
+          "hint": "G.P."
+        },
+        {
+          "name": "Christian Maggio",
+          "nationality": "italie",
+          "hint": "C.M."
+        },
+        {
+          "name": "Camilo Zúñiga",
+          "nationality": "colombie",
+          "hint": "C.Z."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.307259"
+      }
+    },
+    {
+      "id": 80,
+      "title": "TOP 10 des passeurs de Napoli entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "E.L."
+        },
+        {
+          "name": "Marek Hamsik",
+          "nationality": "slovaquie",
+          "hint": "M.H."
+        },
+        {
+          "name": "Christian Maggio",
+          "nationality": "italie",
+          "hint": "C.M."
+        },
+        {
+          "name": "Walter Gargano",
+          "nationality": "uruguay",
+          "hint": "W.G."
+        },
+        {
+          "name": "Germán Denis",
+          "nationality": "argentine",
+          "hint": "G.D."
+        },
+        {
+          "name": "Mariano Bogliacino",
+          "nationality": "uruguay",
+          "hint": "M.B."
+        },
+        {
+          "name": "Roberto Sosa",
+          "nationality": "argentine",
+          "hint": "R.S."
+        },
+        {
+          "name": "Camilo Zúñiga",
+          "nationality": "colombie",
+          "hint": "C.Z."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Marcelo Zalayeta",
+          "nationality": "uruguay",
+          "hint": "M.Z."
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.311847"
+      }
+    },
+    {
+      "id": 81,
+      "title": "TOP 10 des passeurs de Roma entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": "L.P."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": "S.S."
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "P.D."
+        },
+        {
+          "name": "Leonardo Spinazzola",
+          "nationality": "italie",
+          "hint": "L.S."
+        },
+        {
+          "name": "Rick Karsdorp",
+          "nationality": "pays-bas",
+          "hint": "R.K."
+        },
+        {
+          "name": "Bryan Cristante",
+          "nationality": "italie",
+          "hint": "B.C."
+        },
+        {
+          "name": "Jordan Veretout",
+          "nationality": "france",
+          "hint": "J.V."
+        },
+        {
+          "name": "Tammy Abraham",
+          "nationality": "angleterre",
+          "hint": "T.A."
+        },
+        {
+          "name": "Nicolò Zaniolo",
+          "nationality": "italie",
+          "hint": "N.Z."
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.317407"
+      }
+    },
+    {
+      "id": 82,
+      "title": "TOP 10 des passeurs de Roma entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "E.D."
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": "L.P."
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": "S.S."
+        },
+        {
+          "name": "Diego Perotti",
+          "nationality": "argentine",
+          "hint": "D.P."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Aleksandar Kolarov",
+          "nationality": "serbie",
+          "hint": "A.K."
+        },
+        {
+          "name": "Radja Nainggolan",
+          "nationality": "belgique",
+          "hint": "R.N."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Alessandro Florenzi",
+          "nationality": "italie",
+          "hint": "A.F."
+        },
+        {
+          "name": "Bruno Peres",
+          "nationality": "brésil",
+          "hint": "B.P."
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.323068"
+      }
+    },
+    {
+      "id": 83,
+      "title": "TOP 10 des passeurs de Roma entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "F.T."
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "M.P."
+        },
+        {
+          "name": "Alessandro Florenzi",
+          "nationality": "italie",
+          "hint": "A.F."
+        },
+        {
+          "name": "Daniele De Rossi",
+          "nationality": "italie",
+          "hint": "D.R."
+        },
+        {
+          "name": "Gervinho",
+          "nationality": "côte d'ivoire",
+          "hint": "G."
+        },
+        {
+          "name": "Erik Lamela",
+          "nationality": "argentine",
+          "hint": "E.L."
+        },
+        {
+          "name": "Radja Nainggolan",
+          "nationality": "belgique",
+          "hint": "R.N."
+        },
+        {
+          "name": "John Arne Riise",
+          "nationality": "norvège",
+          "hint": "J.R."
+        },
+        {
+          "name": "Kevin Strootman",
+          "nationality": "pays-bas",
+          "hint": "K.S."
+        },
+        {
+          "name": "Marco Borriello",
+          "nationality": "italie",
+          "hint": "M.B."
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.328907"
+      }
+    },
+    {
+      "id": 84,
+      "title": "TOP 10 des passeurs de Roma entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "F.T."
+        },
+        {
+          "name": "David Pizarro",
+          "nationality": "chili",
+          "hint": "D.P."
+        },
+        {
+          "name": "Rodrigo Taddei",
+          "nationality": "brésil",
+          "hint": "R.T."
+        },
+        {
+          "name": "Daniele De Rossi",
+          "nationality": "italie",
+          "hint": "D.R."
+        },
+        {
+          "name": "Mirko Vucinić",
+          "nationality": "monténégro",
+          "hint": "M.V."
+        },
+        {
+          "name": "Simone Perrotta",
+          "nationality": "italie",
+          "hint": "S.P."
+        },
+        {
+          "name": "Mancini",
+          "nationality": "brésil",
+          "hint": "M."
+        },
+        {
+          "name": "Jérémy Ménez",
+          "nationality": "france",
+          "hint": "J.M."
+        },
+        {
+          "name": "John Arne Riise",
+          "nationality": "norvège",
+          "hint": "J.R."
+        },
+        {
+          "name": "Max Tonetto",
+          "nationality": "italie",
+          "hint": "M.T."
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.334960"
+      }
+    },
+    {
+      "id": 85,
+      "title": "TOP 10 des passeurs de Villarreal entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Álex Baena",
+          "nationality": "espagne",
+          "hint": "Á.B."
+        },
+        {
+          "name": "Dani Parejo",
+          "nationality": "espagne",
+          "hint": "D.P."
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": "G.M."
+        },
+        {
+          "name": "Yéremy Pino",
+          "nationality": "espagne",
+          "hint": "Y.P."
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "nationality": "nigeria",
+          "hint": "S.C."
+        },
+        {
+          "name": "Alfonso Pedraza",
+          "nationality": "espagne",
+          "hint": "A.P."
+        },
+        {
+          "name": "Manu Trigueros",
+          "nationality": "espagne",
+          "hint": "M.T."
+        },
+        {
+          "name": "Paco Alcácer",
+          "nationality": "espagne",
+          "hint": "P.A."
+        },
+        {
+          "name": "Alberto Moreno",
+          "nationality": "espagne",
+          "hint": "A.M."
+        },
+        {
+          "name": "Étienne Capoue",
+          "nationality": "france",
+          "hint": "É.C."
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.340623"
+      }
+    },
+    {
+      "id": 86,
+      "title": "TOP 10 des passeurs de Villarreal entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Manu Trigueros",
+          "nationality": "espagne",
+          "hint": "M.T."
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": "G.M."
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "espagne",
+          "hint": "R.S."
+        },
+        {
+          "name": "Pablo Fornals",
+          "nationality": "espagne",
+          "hint": "P.F."
+        },
+        {
+          "name": "Mario Gaspar",
+          "nationality": "espagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Carlos Bacca",
+          "nationality": "colombie",
+          "hint": "C.B."
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "nationality": "nigeria",
+          "hint": "S.C."
+        },
+        {
+          "name": "Samu Castillejo",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Denis Suárez",
+          "nationality": "espagne",
+          "hint": "D.S."
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.345510"
+      }
+    },
+    {
+      "id": 87,
+      "title": "TOP 10 des passeurs de Villarreal entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cani",
+          "nationality": "espagne",
+          "hint": "C."
+        },
+        {
+          "name": "Bruno Soriano",
+          "nationality": "espagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "Borja Valero",
+          "nationality": "espagne",
+          "hint": "B.V."
+        },
+        {
+          "name": "Giovani dos Santos",
+          "nationality": "mexique",
+          "hint": "G.S."
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "espagne",
+          "hint": "R.S."
+        },
+        {
+          "name": "Manu Trigueros",
+          "nationality": "espagne",
+          "hint": "M.T."
+        },
+        {
+          "name": "Mario Gaspar",
+          "nationality": "espagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Jaume Costa",
+          "nationality": "espagne",
+          "hint": "J.C."
+        },
+        {
+          "name": "Marco Ruben",
+          "nationality": "argentine",
+          "hint": "M.R."
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.353002"
+      }
+    },
+    {
+      "id": 88,
+      "title": "TOP 10 des passeurs de Villarreal entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Giuseppe Rossi",
+          "nationality": "italie",
+          "hint": "G.R."
+        },
+        {
+          "name": "Cani",
+          "nationality": "espagne",
+          "hint": "C."
+        },
+        {
+          "name": "Matías Fernández",
+          "nationality": "chili",
+          "hint": "M.F."
+        },
+        {
+          "name": "Marcos Senna",
+          "nationality": "espagne",
+          "hint": "M.S."
+        },
+        {
+          "name": "Joan Capdevila",
+          "nationality": "espagne",
+          "hint": "J.C."
+        },
+        {
+          "name": "Robert Pirès",
+          "nationality": "france",
+          "hint": "R.P."
+        },
+        {
+          "name": "Ariel Ibagaza",
+          "nationality": "argentine",
+          "hint": "A.I."
+        },
+        {
+          "name": "Nilmar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Borja Valero",
+          "nationality": "espagne",
+          "hint": "B.V."
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-08T19:28:53.358400"
+      }
+    }
+  ]
+}

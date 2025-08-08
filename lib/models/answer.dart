@@ -4,10 +4,12 @@ import '../utils/country_flags.dart';
 class Answer {
   final String name;
   final String nationality;
+  final String hint;
 
   Answer({
     required this.name,
     required this.nationality,
+    this.hint = '',
   });
 
   /// Retourne le widget drapeau correspondant à la nationalité
@@ -17,6 +19,7 @@ class Answer {
     return {
       'name': name,
       'nationality': nationality,
+      'hint': hint,
     };
   }
 
@@ -24,6 +27,7 @@ class Answer {
     return Answer(
       name: json['name'],
       nationality: json['nationality'],
+      hint: json['hint'] ?? '',
     );
   }
 
@@ -33,6 +37,7 @@ class Answer {
     return Answer(
       name: name,
       nationality: '', // Pas de nationalité pour les anciens niveaux
+      hint: '', // Pas d'indice pour les anciens niveaux
     );
   }
 

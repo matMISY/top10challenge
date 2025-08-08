@@ -306,6 +306,9 @@ class _GameScreenState extends State<GameScreen> {
 
       final success = await gameProvider.watchAdForLife();
       
+      // Vérifier si le widget est toujours monté avant d'utiliser context
+      if (!context.mounted) return;
+      
       // Fermer le dialog de chargement
       Navigator.of(context).pop();
       
@@ -354,6 +357,9 @@ class _GameScreenState extends State<GameScreen> {
         );
       }
     } catch (e) {
+      // Vérifier si le widget est toujours monté avant d'utiliser context
+      if (!context.mounted) return;
+      
       // Fermer le dialog de chargement si ouvert
       Navigator.of(context).pop();
       

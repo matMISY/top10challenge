@@ -1,0 +1,666 @@
+{
+  "generated_at": "2025-08-08T20:00:30.215733",
+  "total_quizzes": 10,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League entre 2020-2024",
+      "theme": "Milieux passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "Man United"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "angleterre",
+          "hint": "Inconnu"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Pascal Groß",
+          "nationality": "allemagne",
+          "hint": "Brighton & Hove Albion"
+        },
+        {
+          "name": "Morgan Rogers",
+          "nationality": "angleterre",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Mikkel Damsgaard",
+          "nationality": "danemark",
+          "hint": "FC Brentford"
+        },
+        {
+          "name": "Mason Mount",
+          "nationality": "angleterre",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "James Maddison",
+          "nationality": "angleterre",
+          "hint": "Leicester City"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.209669"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League entre 2015-2020",
+      "theme": "Milieux passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Christian Eriksen",
+          "nationality": "danemark",
+          "hint": "Tottenham Hotspur"
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Dele Alli",
+          "nationality": "angleterre",
+          "hint": "Tottenham Hotspur"
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Gylfi Sigurdsson",
+          "nationality": "islande",
+          "hint": "Swansea City"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "hint": "West Ham"
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.210583"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga entre 2020-2024",
+      "theme": "Milieux passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Iker Muniain",
+          "nationality": "espagne",
+          "hint": "Athletic Bilbao"
+        },
+        {
+          "name": "Dani Parejo",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Sergi Darder",
+          "nationality": "espagne",
+          "hint": "Espanyol Barcelona"
+        },
+        {
+          "name": "Denis Suárez",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        },
+        {
+          "name": "Oscar Trejo",
+          "nationality": "argentine",
+          "hint": "Rayo Vallecano"
+        },
+        {
+          "name": "Mikel Merino",
+          "nationality": "espagne",
+          "hint": "Real Sociedad"
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": "FC Barcelone"
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "Real"
+        },
+        {
+          "name": "Carlos Soler",
+          "nationality": "espagne",
+          "hint": "FC Valencia"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.211320"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga entre 2015-2020",
+      "theme": "Milieux passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "FC Barcelone"
+        },
+        {
+          "name": "Marco Asensio",
+          "nationality": "espagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Pablo Fornals",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Pablo Piatti",
+          "nationality": "argentine",
+          "hint": "Espanyol Barcelona"
+        },
+        {
+          "name": "Dani Parejo",
+          "nationality": "espagne",
+          "hint": "FC Valencia"
+        },
+        {
+          "name": "Daniel Wass",
+          "nationality": "danemark",
+          "hint": "Celta Vigo"
+        },
+        {
+          "name": "José Campaña",
+          "nationality": "espagne",
+          "hint": "UD Levante"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.211890"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A entre 2020-2024",
+      "theme": "Milieux passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Nicolò Barella",
+          "nationality": "italie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Ruslan Malinovskyi",
+          "nationality": "ukraine",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": "UC Sampdoria"
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "hint": "Atalanta BC"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.212629"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A entre 2015-2020",
+      "theme": "Milieux passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Ruslan Malinovskyi",
+          "nationality": "ukraine",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Giacomo Bonaventura",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": "SSC Napoli"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.213211"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga entre 2020-2024",
+      "theme": "Milieux passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "allemagne",
+          "hint": "Borussia Mönchengladbach"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Daichi Kamada",
+          "nationality": "japon",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Florian Kainz",
+          "nationality": "autriche",
+          "hint": "1.FC Köln"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.213896"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga entre 2015-2020",
+      "theme": "Milieux passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Zlatko Junuzovic",
+          "nationality": "autriche",
+          "hint": "SV Werder Bremen"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Daichi Kamada",
+          "nationality": "japon",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Lars Stindl",
+          "nationality": "allemagne",
+          "hint": "Borussia Mönchengladbach"
+        },
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "allemagne",
+          "hint": "Borussia Mönchengladbach"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.214455"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 entre 2020-2024",
+      "theme": "Milieux passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Benjamin Bourigeaud",
+          "nationality": "france",
+          "hint": "Stade Rennais FC"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "nationality": "russie",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Rémy Cabella",
+          "nationality": "france",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Jean-Ricner Bellegarde",
+          "nationality": "france",
+          "hint": "RC Strasbourg Alsace"
+        },
+        {
+          "name": "Farid Boulaya",
+          "nationality": "algérie",
+          "hint": "FC Metz"
+        },
+        {
+          "name": "Branco van den Boomen",
+          "nationality": "pays-bas",
+          "hint": "Toulouse FC"
+        },
+        {
+          "name": "Adrien Thomasson",
+          "nationality": "france",
+          "hint": "Inconnu"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2020-2024",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.215128"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 entre 2015-2020",
+      "theme": "Milieux passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
+      "answers": [
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Thomas Lemar",
+          "nationality": "france",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Ryad Boudebouz",
+          "nationality": "algérie",
+          "hint": "Montpellier Hérault SC"
+        },
+        {
+          "name": "Morgan Sanson",
+          "nationality": "france",
+          "hint": "Inconnu"
+        },
+        {
+          "name": "Téji Savanier",
+          "nationality": "france",
+          "hint": "Nîmes Olympique"
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Jean Michaël Seri",
+          "nationality": "côte d'ivoire",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Thomas Mangani",
+          "nationality": "france",
+          "hint": "Angers SCO"
+        },
+        {
+          "name": "Flavien Tait",
+          "nationality": "france",
+          "hint": "Angers SCO"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2015-2020",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T20:00:30.215722"
+      }
+    }
+  ]
+}

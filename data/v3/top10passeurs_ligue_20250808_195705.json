@@ -1,0 +1,2976 @@
+{
+  "generated_at": "2025-08-08T19:57:05.557371",
+  "total_quizzes": 45,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des passeurs de Premier League entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "Man United"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Jarrod Bowen",
+          "nationality": "angleterre",
+          "hint": "West Ham"
+        },
+        {
+          "name": "Anthony Gordon",
+          "nationality": "angleterre",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.543767"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des passeurs de Premier League entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Christian Eriksen",
+          "nationality": "danemark",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "hint": "Tottenham"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.544406"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des passeurs de Premier League entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Nani",
+          "nationality": "portugal",
+          "hint": "Man United"
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Christian Eriksen",
+          "nationality": "danemark",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "Man United"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.545026"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des passeurs de Premier League entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Nani",
+          "nationality": "portugal",
+          "hint": "Man United"
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte d'ivoire",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Andrey Arshavin",
+          "nationality": "russie",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Peter Crouch",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Chris Brunt",
+          "nationality": "irlande du nord",
+          "hint": "West Bromwich Albion"
+        },
+        {
+          "name": "Leighton Baines",
+          "nationality": "angleterre",
+          "hint": "Everton"
+        },
+        {
+          "name": "Rafael van der Vaart",
+          "nationality": "pays-bas",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Joey Barton",
+          "nationality": "angleterre",
+          "hint": "Newcastle"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.545292"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des passeurs de Premier League entre 2024",
+      "theme": "Passeurs",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Jacob Murphy",
+          "nationality": "angleterre",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "Man United"
+        },
+        {
+          "name": "Morgan Rogers",
+          "nationality": "angleterre",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Mikkel Damsgaard",
+          "nationality": "danemark",
+          "hint": "Brentford"
+        },
+        {
+          "name": "Anthony Elanga",
+          "nationality": "suède",
+          "hint": "Nottingham"
+        },
+        {
+          "name": "Savinho",
+          "nationality": "brésil",
+          "hint": "Man City"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Jarrod Bowen",
+          "nationality": "angleterre",
+          "hint": "West Ham"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2024",
+        "difficulty_label": "très facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.545445"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des passeurs de Premier League entre 2023",
+      "theme": "Passeurs",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Anthony Gordon",
+          "nationality": "angleterre",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Pedro Neto",
+          "nationality": "portugal",
+          "hint": "Wolverhampton Wanderers"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "angleterre",
+          "hint": "Inconnu"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Brennan Johnson",
+          "nationality": "pays de galles",
+          "hint": "Inconnu"
+        },
+        {
+          "name": "Pascal Groß",
+          "nationality": "allemagne",
+          "hint": "Brighton"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Kieran Trippier",
+          "nationality": "angleterre",
+          "hint": "Newcastle"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2023",
+        "difficulty_label": "très facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.545607"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des passeurs de Premier League entre 2022",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Leandro Trossard",
+          "nationality": "belgique",
+          "hint": "Inconnu"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "Crystal Palace"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "James Maddison",
+          "nationality": "angleterre",
+          "hint": "Leicester City"
+        },
+        {
+          "name": "Solly March",
+          "nationality": "angleterre",
+          "hint": "Brighton"
+        },
+        {
+          "name": "Christian Eriksen",
+          "nationality": "danemark",
+          "hint": "Man United"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2022",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.545748"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des passeurs de Premier League entre 2019",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Adama Traoré",
+          "nationality": "espagne",
+          "hint": "Wolverhampton Wanderers"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2019",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.545896"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des passeurs de Premier League entre 2018",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Ryan Fraser",
+          "nationality": "écosse",
+          "hint": "AFC Bournemouth"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Christian Eriksen",
+          "nationality": "danemark",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Andrew Robertson",
+          "nationality": "écosse",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "angleterre",
+          "hint": "AFC Bournemouth"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "Man United"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2018",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.546039"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des passeurs de Liga entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "Real"
+        },
+        {
+          "name": "Álex Baena",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Lamine Yamal",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.546595"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 des passeurs de Liga entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Pablo Sarabia",
+          "nationality": "espagne",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "Marco Asensio",
+          "nationality": "espagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "nationality": "espagne",
+          "hint": "Sociedad"
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": "Atletico"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.547182"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 des passeurs de Liga entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Real"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "Real"
+        },
+        {
+          "name": "Dani Alves",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.547770"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 des passeurs de Liga entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Real"
+        },
+        {
+          "name": "Dani Alves",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Xabi Prieto",
+          "nationality": "espagne",
+          "hint": "Sociedad"
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "Valencia"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "José Callejón",
+          "nationality": "espagne",
+          "hint": "Espanyol Barcelona"
+        },
+        {
+          "name": "Diego Perotti",
+          "nationality": "argentine",
+          "hint": "Séville FC"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.548007"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 des passeurs de Liga entre 2024",
+      "theme": "Passeurs",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lamine Yamal",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "Real"
+        },
+        {
+          "name": "Álex Baena",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "Real"
+        },
+        {
+          "name": "Isco",
+          "nationality": "espagne",
+          "hint": "Betis Balompié"
+        },
+        {
+          "name": "Yéremy Pino",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Iñaki Williams",
+          "nationality": "ghana",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Álex Berenguer",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Sergi Cardona",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2024",
+        "difficulty_label": "très facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.548150"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 des passeurs de Liga entre 2023",
+      "theme": "Passeurs",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Álex Baena",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Nico Williams",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Yan Couto",
+          "nationality": "brésil",
+          "hint": "Girona FC"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        },
+        {
+          "name": "Savinho",
+          "nationality": "brésil",
+          "hint": "Girona FC"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "Girona FC"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2023",
+        "difficulty_label": "très facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.548297"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 des passeurs de Liga entre 2022",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "Real"
+        },
+        {
+          "name": "Mikel Merino",
+          "nationality": "espagne",
+          "hint": "Sociedad"
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brésil",
+          "hint": "Real"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Brian Oliván",
+          "nationality": "espagne",
+          "hint": "Espanyol Barcelona"
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nationality": "argentine",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Gonzalo Plata",
+          "nationality": "équateur",
+          "hint": "Valladolid"
+        },
+        {
+          "name": "Dani Rodríguez",
+          "nationality": "espagne",
+          "hint": "RCD Mallorca"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2022",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.548446"
+      }
+    },
+    {
+      "id": 17,
+      "title": "TOP 10 des passeurs de Liga entre 2019",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "nationality": "espagne",
+          "hint": "Sociedad"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Rodrigo",
+          "nationality": "espagne",
+          "hint": "Valencia"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "Real"
+        },
+        {
+          "name": "Roberto Torres",
+          "nationality": "espagne",
+          "hint": "CA Osasuna"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Fabián Orellana",
+          "nationality": "chili",
+          "hint": "SD Eibar"
+        },
+        {
+          "name": "Nabil Fekir",
+          "nationality": "france",
+          "hint": "Betis Balompié"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2019",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.548621"
+      }
+    },
+    {
+      "id": 18,
+      "title": "TOP 10 des passeurs de Liga entre 2018",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Pablo Sarabia",
+          "nationality": "espagne",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "Jony",
+          "nationality": "espagne",
+          "hint": "Deportivo Alavés"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Jordi Alba",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "José Campaña",
+          "nationality": "espagne",
+          "hint": "UD Levante"
+        },
+        {
+          "name": "Moi Gómez",
+          "nationality": "espagne",
+          "hint": "SD Huesca"
+        },
+        {
+          "name": "Marco Asensio",
+          "nationality": "espagne",
+          "hint": "Real"
+        },
+        {
+          "name": "Brais Méndez",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2018",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.548786"
+      }
+    },
+    {
+      "id": 19,
+      "title": "TOP 10 des passeurs de Serie A entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "Milan"
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": "Milan"
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italie",
+          "hint": "Sassuolo"
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "Atalanta BC"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.549320"
+      }
+    },
+    {
+      "id": 20,
+      "title": "TOP 10 des passeurs de Serie A entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "José Callejón",
+          "nationality": "espagne",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italie",
+          "hint": "Sassuolo"
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Suso",
+          "nationality": "espagne",
+          "hint": "Milan"
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.549954"
+      }
+    },
+    {
+      "id": 21,
+      "title": "TOP 10 des passeurs de Serie A entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Marek Hamsik",
+          "nationality": "slovaquie",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Antonio Cassano",
+          "nationality": "italie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Alessio Cerci",
+          "nationality": "italie",
+          "hint": "Torino FC"
+        },
+        {
+          "name": "Fabrizio Miccoli",
+          "nationality": "italie",
+          "hint": "Palermo"
+        },
+        {
+          "name": "Borja Valero",
+          "nationality": "espagne",
+          "hint": "ACF Fiorentina"
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Andrea Cossu",
+          "nationality": "italie",
+          "hint": "Cagliari Calcio"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.550586"
+      }
+    },
+    {
+      "id": 22,
+      "title": "TOP 10 des passeurs de Serie A entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Rodrigo Palacio",
+          "nationality": "argentine",
+          "hint": "Genoa CFC"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Milan"
+        },
+        {
+          "name": "Andrea Cossu",
+          "nationality": "italie",
+          "hint": "Cagliari Calcio"
+        },
+        {
+          "name": "Antonio Cassano",
+          "nationality": "italie",
+          "hint": "Inconnu"
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "Udinese Calcio"
+        },
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Stefano Mauri",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Cristian Ledesma",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "Inter"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.550858"
+      }
+    },
+    {
+      "id": 23,
+      "title": "TOP 10 des passeurs de Serie A entre 2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": "Milan"
+        },
+        {
+          "name": "Raoul Bellanova",
+          "nationality": "italie",
+          "hint": "Inconnu"
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "Milan"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Federico Dimarco",
+          "nationality": "italie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Nico Paz",
+          "nationality": "argentine",
+          "hint": "Como 1907"
+        },
+        {
+          "name": "Nuno Tavares",
+          "nationality": "portugal",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Aarón Martín",
+          "nationality": "espagne",
+          "hint": "Genoa CFC"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Mateo Retegui",
+          "nationality": "italie",
+          "hint": "Atalanta BC"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.551008"
+      }
+    },
+    {
+      "id": 24,
+      "title": "TOP 10 des passeurs de Serie A entre 2023",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "Inter"
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "Milan"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": "Milan"
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "Milan"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": "Atalanta BC"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.551154"
+      }
+    },
+    {
+      "id": 25,
+      "title": "TOP 10 des passeurs de Serie A entre 2022",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "Milan"
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Musa Barrow",
+          "nationality": "gambie",
+          "hint": "Bologna"
+        },
+        {
+          "name": "Roberto Pereyra",
+          "nationality": "argentine",
+          "hint": "Udinese Calcio"
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Filip Kostić",
+          "nationality": "serbie",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Mário Rui",
+          "nationality": "portugal",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "Roma"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2022",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.551302"
+      }
+    },
+    {
+      "id": 26,
+      "title": "TOP 10 des passeurs de Serie A entre 2019",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italie",
+          "hint": "Sassuolo"
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "Inter"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Mattia Zaccagni",
+          "nationality": "italie",
+          "hint": "Hellas Verona"
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italie",
+          "hint": "ACF Fiorentina"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2019",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.551457"
+      }
+    },
+    {
+      "id": 27,
+      "title": "TOP 10 des passeurs de Serie A entre 2018",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "José Callejón",
+          "nationality": "espagne",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Suso",
+          "nationality": "espagne",
+          "hint": "Milan"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Manuel Lazzari",
+          "nationality": "italie",
+          "hint": "SPAL"
+        },
+        {
+          "name": "Cengiz Ünder",
+          "nationality": "turquie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Pol Lirola",
+          "nationality": "espagne",
+          "hint": "Sassuolo"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2018",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.551634"
+      }
+    },
+    {
+      "id": 28,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Raphaël Guerreiro",
+          "nationality": "portugal",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "David Raum",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "allemagne",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Franck Honorat",
+          "nationality": "france",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.552288"
+      }
+    },
+    {
+      "id": 29,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Filip Kostić",
+          "nationality": "serbie",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Thorgan Hazard",
+          "nationality": "belgique",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Zlatko Junuzovic",
+          "nationality": "autriche",
+          "hint": "Werder Bremen"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "Dortmund"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.552936"
+      }
+    },
+    {
+      "id": 30,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Zlatko Junuzovic",
+          "nationality": "autriche",
+          "hint": "Werder Bremen"
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Jakub Blaszczykowski",
+          "nationality": "pologne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Shinji Kagawa",
+          "nationality": "japon",
+          "hint": "Dortmund"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.553544"
+      }
+    },
+    {
+      "id": 31,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Christian Tiffert",
+          "nationality": "allemagne",
+          "hint": "1.FC Kaiserslautern"
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Marko Marin",
+          "nationality": "allemagne",
+          "hint": "Werder Bremen"
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "pays-bas",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Jefferson Farfán",
+          "nationality": "pérou",
+          "hint": "Schalke 04"
+        },
+        {
+          "name": "Lewis Holtby",
+          "nationality": "allemagne",
+          "hint": "1.FSV Mainz 05"
+        },
+        {
+          "name": "Julian Schieber",
+          "nationality": "allemagne",
+          "hint": "1.FC Nürnberg"
+        },
+        {
+          "name": "Diego",
+          "nationality": "brésil",
+          "hint": "VfL Wolfsburg"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.553798"
+      }
+    },
+    {
+      "id": 32,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Mohamed Amoura",
+          "nationality": "algérie",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Vincenzo Grifo",
+          "nationality": "italie",
+          "hint": "Fribourg"
+        },
+        {
+          "name": "Omar Marmoush",
+          "nationality": "égypte",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Pascal Groß",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Franck Honorat",
+          "nationality": "france",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Tim Kleindienst",
+          "nationality": "allemagne",
+          "hint": "Mönchengladbach"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.553948"
+      }
+    },
+    {
+      "id": 33,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2023",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Alejandro Grimaldo",
+          "nationality": "espagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Niklas Beste",
+          "nationality": "allemagne",
+          "hint": "1.FC Heidenheim 1846"
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Franck Honorat",
+          "nationality": "france",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Deniz Undav",
+          "nationality": "allemagne",
+          "hint": "VfB Stuttgart"
+        },
+        {
+          "name": "David Raum",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.554094"
+      }
+    },
+    {
+      "id": 34,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2022",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Randal Kolo Muani",
+          "nationality": "france",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Raphaël Guerreiro",
+          "nationality": "portugal",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Mitchell Weiser",
+          "nationality": "allemagne",
+          "hint": "Werder Bremen"
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "allemagne",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Florian Kainz",
+          "nationality": "autriche",
+          "hint": "1.FC Köln"
+        },
+        {
+          "name": "Angeliño",
+          "nationality": "espagne",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Philipp Förster",
+          "nationality": "allemagne",
+          "hint": "VfL Bochum"
+        },
+        {
+          "name": "Alassane Pléa",
+          "nationality": "france",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "Leverkusen"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2022",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.554238"
+      }
+    },
+    {
+      "id": 35,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2019",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Thorgan Hazard",
+          "nationality": "belgique",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Filip Kostić",
+          "nationality": "serbie",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Christopher Trimmel",
+          "nationality": "autriche",
+          "hint": "1.FC Union Berlin"
+        },
+        {
+          "name": "Alassane Pléa",
+          "nationality": "france",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Christian Günter",
+          "nationality": "allemagne",
+          "hint": "Fribourg"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2019",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.554394"
+      }
+    },
+    {
+      "id": 36,
+      "title": "TOP 10 des passeurs de Bundesliga entre 2018",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Thorgan Hazard",
+          "nationality": "belgique",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Filip Kostić",
+          "nationality": "serbie",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Max Kruse",
+          "nationality": "allemagne",
+          "hint": "Werder Bremen"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2018",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.554554"
+      }
+    },
+    {
+      "id": 37,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2020-2024",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "nationality": "france",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Benjamin Bourigeaud",
+          "nationality": "france",
+          "hint": "Stade Rennais FC"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "nationality": "russie",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Caio Henrique",
+          "nationality": "brésil",
+          "hint": "Monaco"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.555107"
+      }
+    },
+    {
+      "id": 38,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2015-2020",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "pays-bas",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Thomas Lemar",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Ryad Boudebouz",
+          "nationality": "algérie",
+          "hint": "Montpellier Hérault SC"
+        },
+        {
+          "name": "Jonathan Bamba",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Jonathan Ikoné",
+          "nationality": "france",
+          "hint": "LOSC Lille"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.555727"
+      }
+    },
+    {
+      "id": 39,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2010-2015",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "PSG"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Marvin Martin",
+          "nationality": "france",
+          "hint": "Sochaux-Montbéliard"
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Mathieu Valbuena",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Julien Féret",
+          "nationality": "france",
+          "hint": "SM Caen"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Saint-Étienne"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Jérémy Ménez",
+          "nationality": "france",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.556327"
+      }
+    },
+    {
+      "id": 40,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2005-2010",
+      "theme": "Passeurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Marvin Martin",
+          "nationality": "france",
+          "hint": "Sochaux-Montbéliard"
+        },
+        {
+          "name": "Morgan Amalfitano",
+          "nationality": "france",
+          "hint": "Lorient"
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Jaroslav Plasil",
+          "nationality": "tchéquie",
+          "hint": "Girondins de Bordeaux"
+        },
+        {
+          "name": "Anthony Mounier",
+          "nationality": "france",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Gervinho",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Emmanuel Rivière",
+          "nationality": "martinique",
+          "hint": "Saint-Étienne"
+        },
+        {
+          "name": "Yohan Cabaye",
+          "nationality": "france",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Jérôme Leroy",
+          "nationality": "france",
+          "hint": "Stade Rennais FC"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.556595"
+      }
+    },
+    {
+      "id": 41,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2024",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Rayan Cherki",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Gaëtan Perrin",
+          "nationality": "france",
+          "hint": "AJ Auxerre"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "nationality": "france",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Moses Simon",
+          "nationality": "nigeria",
+          "hint": "Nantes"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Ludovic Blas",
+          "nationality": "france",
+          "hint": "Stade Rennais FC"
+        },
+        {
+          "name": "Dilane Bakwa",
+          "nationality": "france",
+          "hint": "Strasbourg Alsace"
+        },
+        {
+          "name": "Evann Guessand",
+          "nationality": "côte d'ivoire",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Lassine Sinayoko",
+          "nationality": "mali",
+          "hint": "AJ Auxerre"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.556746"
+      }
+    },
+    {
+      "id": 42,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2023",
+      "theme": "Passeurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Angel Gomes",
+          "nationality": "angleterre",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Romain Del Castillo",
+          "nationality": "france",
+          "hint": "Stade Brestois 29"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "Inconnu"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Junya Ito",
+          "nationality": "japon",
+          "hint": "Stade de Reims"
+        },
+        {
+          "name": "Téji Savanier",
+          "nationality": "france",
+          "hint": "Montpellier Hérault SC"
+        },
+        {
+          "name": "Moses Simon",
+          "nationality": "nigeria",
+          "hint": "Nantes"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "nationality": "russie",
+          "hint": "Monaco"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.556890"
+      }
+    },
+    {
+      "id": 43,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2022",
+      "theme": "Passeurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Rémy Cabella",
+          "nationality": "france",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Benjamin Bourigeaud",
+          "nationality": "france",
+          "hint": "Stade Rennais FC"
+        },
+        {
+          "name": "Florian Sotoca",
+          "nationality": "france",
+          "hint": "Lens"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Jean-Ricner Bellegarde",
+          "nationality": "france",
+          "hint": "Strasbourg Alsace"
+        },
+        {
+          "name": "Caio Henrique",
+          "nationality": "brésil",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Branco van den Boomen",
+          "nationality": "pays-bas",
+          "hint": "Toulouse FC"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2022",
+        "difficulty_label": "moyen",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.557062"
+      }
+    },
+    {
+      "id": 44,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2019",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Islam Slimani",
+          "nationality": "algérie",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Yoann Court",
+          "nationality": "france",
+          "hint": "Stade Brestois 29"
+        },
+        {
+          "name": "Thiago Mendes",
+          "nationality": "brésil",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Pierre Lees-Melou",
+          "nationality": "france",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Jonathan Ikoné",
+          "nationality": "france",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "allemagne",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2019",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.557207"
+      }
+    },
+    {
+      "id": 45,
+      "title": "TOP 10 des passeurs de Ligue 1 entre 2018",
+      "theme": "Passeurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Téji Savanier",
+          "nationality": "france",
+          "hint": "Nîmes Olympique"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Nicolas Pépé",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "pays-bas",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Jonathan Ikoné",
+          "nationality": "france",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Kenny Lala",
+          "nationality": "france",
+          "hint": "Strasbourg Alsace"
+        },
+        {
+          "name": "Flavien Tait",
+          "nationality": "france",
+          "hint": "Angers SCO"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france",
+          "hint": "Marseille"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2018",
+        "difficulty_label": "difficile",
+        "data_source": "assists",
+        "generated_at": "2025-08-08T19:57:05.557363"
+      }
+    }
+  ]
+}

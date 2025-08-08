@@ -1,0 +1,2976 @@
+{
+  "generated_at": "2025-08-05T00:29:23.211091",
+  "total_quizzes": 45,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des buteurs de Premier League entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Man City"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Chris Wood",
+          "nationality": "nouvelle-zélande",
+          "hint": "Nottingham"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Jarrod Bowen",
+          "nationality": "angleterre",
+          "hint": "West Ham"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "angleterre",
+          "hint": "Chelsea"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.201134"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des buteurs de Premier League entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "angleterre",
+          "hint": "Leicester City"
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Man United"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Arsenal"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.201932"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des buteurs de Premier League entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "Man United"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Everton"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Christian Benteke",
+          "nationality": "belgique",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "hint": "Manchester United"
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.202428"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des buteurs de Premier League entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "hint": "Man United"
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Darren Bent",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Peter Odemwingie",
+          "nationality": "nigeria",
+          "hint": "West Bromwich Albion"
+        },
+        {
+          "name": "Rafael van der Vaart",
+          "nationality": "pays-bas",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Dirk Kuyt",
+          "nationality": "pays-bas",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Andy Carroll",
+          "nationality": "angleterre",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Florent Malouda",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "DJ Campbell",
+          "nationality": "angleterre",
+          "hint": "Blackpool FC"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.202580"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des buteurs de Premier League en 2024",
+      "theme": "Buteurs",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Man City"
+        },
+        {
+          "name": "Bryan Mbeumo",
+          "nationality": "cameroun",
+          "hint": "Brentford"
+        },
+        {
+          "name": "Chris Wood",
+          "nationality": "nouvelle-zélande",
+          "hint": "Nottingham"
+        },
+        {
+          "name": "Yoane Wissa",
+          "nationality": "rd congo",
+          "hint": "Brentford"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "angleterre",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Matheus Cunha",
+          "nationality": "brésil",
+          "hint": "Wolverhampton Wanderers"
+        },
+        {
+          "name": "Jørgen Strand Larsen",
+          "nationality": "norvège",
+          "hint": "Wolverhampton Wanderers"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2024",
+        "difficulty_label": "très facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.202736"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des buteurs de Premier League en 2023",
+      "theme": "Buteurs",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "",
+          "hint": "Man City"
+        },
+        {
+          "name": "Cole Palmer",
+          "nationality": "",
+          "hint": "Man City
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "",
+          "hint": "Man City"
+        },
+        {
+          "name": "Dominic Solanke",
+          "nationality": "",
+          "hint": "AFC Bournemouth"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Jean-Philippe Mateta",
+          "nationality": "",
+          "hint": "Crystal Palace"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2023",
+        "difficulty_label": "très facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.202866"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des buteurs de Premier League en 2022",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Man City"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Ivan Toney",
+          "nationality": "angleterre",
+          "hint": "Brentford"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "angleterre",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "nationality": "brésil",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2022",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.203020"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des buteurs de Premier League en 2019",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Jamie Vardy",
+          "nationality": "angleterre",
+          "hint": "Leicester City"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Danny Ings",
+          "nationality": "angleterre",
+          "hint": "Southampton"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Raúl Jiménez",
+          "nationality": "mexique",
+          "hint": "Wolverhampton Wanderers"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2019",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.203177"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des buteurs de Premier League en 2018",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "angleterre",
+          "hint": "Leicester City"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Callum Wilson",
+          "nationality": "angleterre",
+          "hint": "AFC Bournemouth"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Arsenal"
+        }
+      ],
+      "metadata": {
+        "league": "Premier League",
+        "period": "2018",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.203337"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des buteurs de Liga entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "hint": "CA Osasuna"
+        },
+        {
+          "name": "Youssef En-Nesyri",
+          "nationality": "maroc",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "Real"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.203701"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 des buteurs de Liga entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Cristhian Stuani",
+          "nationality": "uruguay",
+          "hint": "Girona FC"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.204105"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 des buteurs de Liga entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "espagne",
+          "hint": "Valencia"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Rubén Castro",
+          "nationality": "espagne",
+          "hint": "Betis Balompié"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.204507"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 des buteurs de Liga entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Álvaro Negredo",
+          "nationality": "espagne",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "Atletico"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Giuseppe Rossi",
+          "nationality": "italie",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Fernando Llorente",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "espagne",
+          "hint": "Valencia"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Salomón Rondón",
+          "nationality": "venezuela",
+          "hint": "Málaga CF"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.204653"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 des buteurs de Liga en 2024",
+      "theme": "Buteurs",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "hint": "CA Osasuna"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Ayoze Pérez",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Oihan Sancet",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Kike García",
+          "nationality": "espagne",
+          "hint": "Deportivo Alavés"
+        },
+        {
+          "name": "Javi Puado",
+          "nationality": "espagne",
+          "hint": "Espanyol Barcelona"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2024",
+        "difficulty_label": "très facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.204752"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 des buteurs de Liga en 2023",
+      "theme": "Buteurs",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "Girona FC"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "Real"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "hint": "CA Osasuna"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Youssef En-Nesyri",
+          "nationality": "maroc",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "Real"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Borja Mayoral",
+          "nationality": "espagne",
+          "hint": "Getafe"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2023",
+        "difficulty_label": "très facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.204849"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 des buteurs de Liga en 2022",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Joselu",
+          "nationality": "espagne",
+          "hint": "Espanyol Barcelona"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Vedat Muriqi",
+          "nationality": "kosovo",
+          "hint": "RCD Mallorca"
+        },
+        {
+          "name": "Borja Iglesias",
+          "nationality": "espagne",
+          "hint": "Betis Balompié"
+        },
+        {
+          "name": "Enes Ünal",
+          "nationality": "turquie",
+          "hint": "Getafe"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Taty Castellanos",
+          "nationality": "argentine",
+          "hint": "Girona FC"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2022",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.204977"
+      }
+    },
+    {
+      "id": 17,
+      "title": "TOP 10 des buteurs de Liga en 2019",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Raúl García",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        },
+        {
+          "name": "Lucas Ocampos",
+          "nationality": "argentine",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "Ante Budimir",
+          "nationality": "croatie",
+          "hint": "RCD Mallorca"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "Villarreal CF"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2019",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.205079"
+      }
+    },
+    {
+      "id": 18,
+      "title": "TOP 10 des buteurs de Liga en 2018",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Iago Aspas",
+          "nationality": "espagne",
+          "hint": "Celta Vigo"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Cristhian Stuani",
+          "nationality": "uruguay",
+          "hint": "Girona FC"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "Borja Iglesias",
+          "nationality": "espagne",
+          "hint": "Espanyol Barcelona"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Jaime Mata",
+          "nationality": "espagne",
+          "hint": "Getafe"
+        },
+        {
+          "name": "Jorge Molina",
+          "nationality": "espagne",
+          "hint": "Getafe"
+        }
+      ],
+      "metadata": {
+        "league": "Liga",
+        "period": "2018",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.205187"
+      }
+    },
+    {
+      "id": 19,
+      "title": "TOP 10 des buteurs de Serie A entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italie",
+          "hint": "Sassuolo"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "Milan"
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "Inter"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.205572"
+      }
+    },
+    {
+      "id": 20,
+      "title": "TOP 10 des buteurs de Serie A entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Inter"
+        },
+        {
+          "name": "Fabio Quagliarella",
+          "nationality": "italie",
+          "hint": "UC Sampdoria"
+        },
+        {
+          "name": "Andrea Belotti",
+          "nationality": "italie",
+          "hint": "Torino FC"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.206013"
+      }
+    },
+    {
+      "id": 21,
+      "title": "TOP 10 des buteurs de Serie A entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italie",
+          "hint": "Udinese Calcio"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Milan"
+        },
+        {
+          "name": "Luca Toni",
+          "nationality": "italie",
+          "hint": "Hellas Verona"
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "allemagne",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Rodrigo Palacio",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Giampaolo Pazzini",
+          "nationality": "italie",
+          "hint": "Milan"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.206432"
+      }
+    },
+    {
+      "id": 22,
+      "title": "TOP 10 des buteurs de Serie A entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Antonio Di Natale",
+          "nationality": "italie",
+          "hint": "Udinese Calcio"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "Inter"
+        },
+        {
+          "name": "Alessandro Matri",
+          "nationality": "italie",
+          "hint": "Cagliari"
+        },
+        {
+          "name": "Marco Di Vaio",
+          "nationality": "italie",
+          "hint": "Bologna"
+        },
+        {
+          "name": "Giampaolo Pazzini",
+          "nationality": "italie",
+          "hint": "Fiorentina"
+        },
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Milan"
+        },
+        {
+          "name": "Alexandre Pato",
+          "nationality": "brésil",
+          "hint": "Milan"
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "Milan"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.206579"
+      }
+    },
+    {
+      "id": 23,
+      "title": "TOP 10 des buteurs de Serie A en 2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Mateo Retegui",
+          "nationality": "italie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Moise Kean",
+          "nationality": "italie",
+          "hint": "ACF Fiorentina"
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Riccardo Orsolini",
+          "nationality": "italie",
+          "hint": "Bologna"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "Inter"
+        },
+        {
+          "name": "Scott McTominay",
+          "nationality": "écosse",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Lorenzo Lucca",
+          "nationality": "italie",
+          "hint": "Udinese Calcio"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.206687"
+      }
+    },
+    {
+      "id": 24,
+      "title": "TOP 10 des buteurs de Serie A en 2023",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "Milan"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Albert Gudmundsson",
+          "nationality": "islande",
+          "hint": "Genoa CFC"
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "Inter"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "Atalanta"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Roma"
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "Inter"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.206796"
+      }
+    },
+    {
+      "id": 25,
+      "title": "TOP 10 des buteurs de Serie A en 2022",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Boulaye Dia",
+          "nationality": "sénégal",
+          "hint": "Salernitana 1919"
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "Milan"
+        },
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "Milan"
+        },
+        {
+          "name": "M'Bala Nzola",
+          "nationality": "angola",
+          "hint": "Spezia Calcio"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Domenico Berardi",
+          "nationality": "italie",
+          "hint": "Sassuolo"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "Roma"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2022",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.206894"
+      }
+    },
+    {
+      "id": 26,
+      "title": "TOP 10 des buteurs de Serie A en 2019",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Inter"
+        },
+        {
+          "name": "Francesco Caputo",
+          "nationality": "italie",
+          "hint": "Sassuolo"
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "João Pedro",
+          "nationality": "italie",
+          "hint": "Cagliari Calcio"
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Andrea Belotti",
+          "nationality": "italie",
+          "hint": "Torino FC"
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "hint": "Atalanta BC"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2019",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.207055"
+      }
+    },
+    {
+      "id": 27,
+      "title": "TOP 10 des buteurs de Serie A en 2018",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Fabio Quagliarella",
+          "nationality": "italie",
+          "hint": "UC Sampdoria"
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne",
+          "hint": "Genoa"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Arkadiusz Milik",
+          "nationality": "pologne",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Francesco Caputo",
+          "nationality": "italie",
+          "hint": "Empoli"
+        },
+        {
+          "name": "Leonardo Pavoletti",
+          "nationality": "italie",
+          "hint": "Cagliari Calcio"
+        },
+        {
+          "name": "Andrea Petagna",
+          "nationality": "italie",
+          "hint": "SPAL"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        }
+      ],
+      "metadata": {
+        "league": "Serie A",
+        "period": "2018",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.207171"
+      }
+    },
+    {
+      "id": 28,
+      "title": "TOP 10 des buteurs de Bundesliga entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "VfB Stuttgart"
+        },
+        {
+          "name": "André Silva",
+          "nationality": "portugal",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.207557"
+      }
+    },
+    {
+      "id": 29,
+      "title": "TOP 10 des buteurs de Bundesliga entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "pays-bas",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Anthony Modeste",
+          "nationality": "france",
+          "hint": "1.FC Köln"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Sandro Wagner",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "André Silva",
+          "nationality": "portugal",
+          "hint": "Eintracht Francfort"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.207991"
+      }
+    },
+    {
+      "id": 30,
+      "title": "TOP 10 des buteurs de Bundesliga entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Stefan Kießling",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Mario Gómez",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Raffael",
+          "nationality": "brésil",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Alexander Meier",
+          "nationality": "allemagne",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Claudio Pizarro",
+          "nationality": "pérou",
+          "hint": "Werder Bremen"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.208417"
+      }
+    },
+    {
+      "id": 31,
+      "title": "TOP 10 des buteurs de Bundesliga entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Mario Gómez",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Papiss Demba Cissé",
+          "nationality": "sénégal",
+          "hint": "Fribourg"
+        },
+        {
+          "name": "Milivoje Novakovic",
+          "nationality": "slovénie",
+          "hint": "1.FC Köln"
+        },
+        {
+          "name": "Lucas Barrios",
+          "nationality": "paraguay",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Theofanis Gekas",
+          "nationality": "grèce",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Srdjan Lakic",
+          "nationality": "croatie",
+          "hint": "1.FC Kaiserslautern"
+        },
+        {
+          "name": "André Schürrle",
+          "nationality": "allemagne",
+          "hint": "1.FSV Mainz 05"
+        },
+        {
+          "name": "Didier Ya Konan",
+          "nationality": "côte d'ivoire",
+          "hint": "Hannover 96"
+        },
+        {
+          "name": "Lukas Podolski",
+          "nationality": "allemagne",
+          "hint": "1.FC Köln"
+        },
+        {
+          "name": "Raúl",
+          "nationality": "espagne",
+          "hint": "Schalke 04"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.208566"
+      }
+    },
+    {
+      "id": 32,
+      "title": "TOP 10 des buteurs de Bundesliga en 2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Jonathan Burkardt",
+          "nationality": "allemagne",
+          "hint": "1.FSV Mainz 05"
+        },
+        {
+          "name": "Tim Kleindienst",
+          "nationality": "allemagne",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Omar Marmoush",
+          "nationality": "égypte",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Hugo Ekitiké",
+          "nationality": "france",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "VfB Stuttgart"
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.208675"
+      }
+    },
+    {
+      "id": 33,
+      "title": "TOP 10 des buteurs de Bundesliga en 2023",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "hint": "VfB Stuttgart"
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Deniz Undav",
+          "nationality": "allemagne",
+          "hint": "VfB Stuttgart"
+        },
+        {
+          "name": "Maximilian Beier",
+          "nationality": "allemagne",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Ermedin Demirovic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Augsburg"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Victor Boniface",
+          "nationality": "nigeria",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Donyell Malen",
+          "nationality": "pays-bas",
+          "hint": "Dortmund"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.208775"
+      }
+    },
+    {
+      "id": 34,
+      "title": "TOP 10 des buteurs de Bundesliga en 2022",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Niclas Füllkrug",
+          "nationality": "allemagne",
+          "hint": "Werder Bremen"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "nationality": "france",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Vincenzo Grifo",
+          "nationality": "italie",
+          "hint": "Fribourg"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Jonas Hofmann",
+          "nationality": "allemagne",
+          "hint": "Mönchengladbach"
+        },
+        {
+          "name": "Marvin Ducksch",
+          "nationality": "allemagne",
+          "hint": "Werder Bremen"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "TSG 1899 Hoffenheim"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2022",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.208874"
+      }
+    },
+    {
+      "id": 35,
+      "title": "TOP 10 des buteurs de Bundesliga en 2019",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "pays-bas",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Rouwen Hennings",
+          "nationality": "allemagne",
+          "hint": "Fortuna Düsseldorf"
+        },
+        {
+          "name": "Florian Niederlechner",
+          "nationality": "allemagne",
+          "hint": "Augsburg"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Robin Quaison",
+          "nationality": "suède",
+          "hint": "1.FSV Mainz 05"
+        },
+        {
+          "name": "Jhon Córdoba",
+          "nationality": "colombie",
+          "hint": "1.FC Köln"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2019",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.208991"
+      }
+    },
+    {
+      "id": 36,
+      "title": "TOP 10 des buteurs de Bundesliga en 2018",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Paco Alcácer",
+          "nationality": "espagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "pays-bas",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Luka Jović",
+          "nationality": "serbie",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Ishak Belfodil",
+          "nationality": "algérie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Sébastien Haller",
+          "nationality": "côte d'ivoire",
+          "hint": "Eintracht Francfort"
+        }
+      ],
+      "metadata": {
+        "league": "Bundesliga",
+        "period": "2018",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.209103"
+      }
+    },
+    {
+      "id": 37,
+      "title": "TOP 10 des buteurs de Ligue 1 entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Terem Moffi",
+          "nationality": "nigeria",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algérie",
+          "hint": "Montpellier"
+        },
+        {
+          "name": "Gaëtan Laborde",
+          "nationality": "france",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "nationality": "france",
+          "hint": "Stade Brestois 29"
+        },
+        {
+          "name": "Elye Wahi",
+          "nationality": "france",
+          "hint": "RC Lens"
+        },
+        {
+          "name": "Arnaud Kalimuendo",
+          "nationality": "france",
+          "hint": "Stade Rennais FC"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.209491"
+      }
+    },
+    {
+      "id": 38,
+      "title": "TOP 10 des buteurs de Ligue 1 entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "PSG"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algérie",
+          "hint": "Montpellier Hérault SC"
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "pays-bas",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.209941"
+      }
+    },
+    {
+      "id": 39,
+      "title": "TOP 10 des buteurs de Ligue 1 entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "PSG"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Toulouse FC"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "PSG"
+        },
+        {
+          "name": "André-Pierre Gignac",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Bafétimbi Gomis",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Saint-Étienne"
+        },
+        {
+          "name": "Lisandro López",
+          "nationality": "argentine",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Salomon Kalou",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.210386"
+      }
+    },
+    {
+      "id": 40,
+      "title": "TOP 10 des buteurs de Ligue 1 entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Moussa Sow",
+          "nationality": "sénégal",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Kévin Gameiro",
+          "nationality": "france",
+          "hint": "Lorient"
+        },
+        {
+          "name": "Youssef El Arabi",
+          "nationality": "maroc",
+          "hint": "SM Caen"
+        },
+        {
+          "name": "Lisandro López",
+          "nationality": "argentine",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Grégory Pujol",
+          "nationality": "france",
+          "hint": "Valenciennes FC"
+        },
+        {
+          "name": "Loïc Rémy",
+          "nationality": "france",
+          "hint": "Olympique de Marseille"
+        },
+        {
+          "name": "Gervinho",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Brown Ideye",
+          "nationality": "nigeria",
+          "hint": "Sochaux-Montbéliard"
+        },
+        {
+          "name": "Modibo Maïga",
+          "nationality": "mali",
+          "hint": "Sochaux-Montbéliard"
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brésil",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.210531"
+      }
+    },
+    {
+      "id": 41,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Mason Greenwood",
+          "nationality": "angleterre",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Arnaud Kalimuendo",
+          "nationality": "france",
+          "hint": "Stade Rennais FC"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Emanuel Emegha",
+          "nationality": "pays-bas",
+          "hint": "Strasbourg Alsace"
+        },
+        {
+          "name": "Amine Gouiri",
+          "nationality": "algérie",
+          "hint": "Stade Rennais"
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "nationality": "france",
+          "hint": "Stade Brestois 29"
+        },
+        {
+          "name": "Mika Biereth",
+          "nationality": "danemark",
+          "hint": "Monaco"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2024",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.210640"
+      }
+    },
+    {
+      "id": 42,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2023",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "",
+          "hint": "PSG"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Thijs Dallinga",
+          "nationality": "",
+          "hint": "Toulouse FC"
+        },
+        {
+          "name": "Georges Mikautadze",
+          "nationality": "",
+          "hint": "Metz"
+        },
+        {
+          "name": "Terem Moffi",
+          "nationality": "",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "",
+          "hint": "PSG"
+        },
+        {
+          "name": "Arnaud Kalimuendo",
+          "nationality": "",
+          "hint": "Stade Rennais FC"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2023",
+        "difficulty_label": "facile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.210761"
+      }
+    },
+    {
+      "id": 43,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2022",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": "Lens"
+        },
+        {
+          "name": "Folarin Balogun",
+          "nationality": "états-unis",
+          "hint": "Stade de Reims"
+        },
+        {
+          "name": "Habib Diallo",
+          "nationality": "sénégal",
+          "hint": "Strasbourg Alsace"
+        },
+        {
+          "name": "Elye Wahi",
+          "nationality": "france",
+          "hint": "Montpellier Hérault SC"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Terem Moffi",
+          "nationality": "nigeria",
+          "hint": "FC Lorient"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2022",
+        "difficulty_label": "moyen",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.210870"
+      }
+    },
+    {
+      "id": 44,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2019",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Moussa Dembélé",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Habib Diallo",
+          "nationality": "sénégal",
+          "hint": "Metz"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Kasper Dolberg",
+          "nationality": "danemark",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Darío Benedetto",
+          "nationality": "argentine",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Denis Bouanga",
+          "nationality": "gabon",
+          "hint": "Saint-Étienne"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2019",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.210978"
+      }
+    },
+    {
+      "id": 45,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2018",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Nicolas Pépé",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "PSG"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Moussa Dembélé",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algérie",
+          "hint": "Montpellier Hérault SC"
+        },
+        {
+          "name": "Wahbi Khazri",
+          "nationality": "tunisie",
+          "hint": "Saint-Étienne"
+        },
+        {
+          "name": "Jonathan Bamba",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
+        }
+      ],
+      "metadata": {
+        "league": "Ligue 1",
+        "period": "2018",
+        "difficulty_label": "difficile",
+        "data_source": "scorers",
+        "generated_at": "2025-08-05T00:29:23.211085"
+      }
+    }
+  ]
+}

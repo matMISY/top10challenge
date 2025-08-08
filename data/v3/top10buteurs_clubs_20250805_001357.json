@@ -1,0 +1,5814 @@
+{
+  "generated_at": "2025-08-05T00:13:57.860227",
+  "total_quizzes": 88,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des buteurs de Arsenal entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "B.S."
+        },
+        {
+          "name": "Martin Ødegaard",
+          "nationality": "norvège",
+          "hint": "M.Ø."
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "nationality": "brésil",
+          "hint": "G.M."
+        },
+        {
+          "name": "Eddie Nketiah",
+          "nationality": "angleterre",
+          "hint": "E.N."
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "K.H."
+        },
+        {
+          "name": "Leandro Trossard",
+          "nationality": "belgique",
+          "hint": "L.T."
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brésil",
+          "hint": "G.J."
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "A.L."
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "P.A."
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "nationality": "brésil",
+          "hint": "G.M."
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.500289"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des buteurs de Arsenal entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "P.A."
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "A.L."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "M.Ö."
+        },
+        {
+          "name": "Theo Walcott",
+          "nationality": "angleterre",
+          "hint": "T.W."
+        },
+        {
+          "name": "Aaron Ramsey",
+          "nationality": "pays de galles",
+          "hint": "A.R."
+        },
+        {
+          "name": "Danny Welbeck",
+          "nationality": "angleterre",
+          "hint": "D.W."
+        },
+        {
+          "name": "Nicolas Pépé",
+          "nationality": "côte d'ivoire",
+          "hint": "N.P."
+        },
+        {
+          "name": "Alex Iwobi",
+          "nationality": "nigeria",
+          "hint": "A.I."
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.504764"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des buteurs de Arsenal entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Theo Walcott",
+          "nationality": "angleterre",
+          "hint": "T.W."
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "R.P."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Aaron Ramsey",
+          "nationality": "pays de galles",
+          "hint": "A.R."
+        },
+        {
+          "name": "Lukas Podolski",
+          "nationality": "allemagne",
+          "hint": "L.P."
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Laurent Koscielny",
+          "nationality": "france",
+          "hint": "L.K."
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "M.Ö."
+        },
+        {
+          "name": "Mikel Arteta",
+          "nationality": "espagne",
+          "hint": "M.A."
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.509271"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des buteurs de Arsenal entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "R.P."
+        },
+        {
+          "name": "Emmanuel Adebayor",
+          "nationality": "togo",
+          "hint": "E.A."
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "T.H."
+        },
+        {
+          "name": "Nicklas Bendtner",
+          "nationality": "danemark",
+          "hint": "N.B."
+        },
+        {
+          "name": "Theo Walcott",
+          "nationality": "angleterre",
+          "hint": "T.W."
+        },
+        {
+          "name": "Andrey Arshavin",
+          "nationality": "russie",
+          "hint": "A.A."
+        },
+        {
+          "name": "Samir Nasri",
+          "nationality": "france",
+          "hint": "S.N."
+        },
+        {
+          "name": "Eduardo",
+          "nationality": "croatie",
+          "hint": "E."
+        },
+        {
+          "name": "Abou Diaby",
+          "nationality": "france",
+          "hint": "A.D."
+        }
+      ],
+      "metadata": {
+        "club": "Arsenal",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.514743"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des buteurs de Barcelona entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Ferran Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Pedri",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Lamine Yamal",
+          "nationality": "espagne",
+          "hint": "L.Y."
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Ansu Fati",
+          "nationality": "espagne",
+          "hint": "A.F."
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Fermín López",
+          "nationality": "espagne",
+          "hint": "F.L."
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.519139"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des buteurs de Barcelona entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Ivan Rakitic",
+          "nationality": "croatie",
+          "hint": "I.R."
+        },
+        {
+          "name": "Gerard Piqué",
+          "nationality": "espagne",
+          "hint": "G.P."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        },
+        {
+          "name": "Jordi Alba",
+          "nationality": "espagne",
+          "hint": "J.A."
+        },
+        {
+          "name": "Arda Turan",
+          "nationality": "turquie",
+          "hint": "A.T."
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.523365"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des buteurs de Barcelona entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "D.V."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        },
+        {
+          "name": "Xavi",
+          "nationality": "espagne",
+          "hint": "X."
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "espagne",
+          "hint": "A.I."
+        },
+        {
+          "name": "Gerard Piqué",
+          "nationality": "espagne",
+          "hint": "G.P."
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.527367"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des buteurs de Barcelona entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "S.E."
+        },
+        {
+          "name": "Ronaldinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "T.H."
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Bojan Krkic",
+          "nationality": "espagne",
+          "hint": "B.K."
+        },
+        {
+          "name": "Xavi",
+          "nationality": "espagne",
+          "hint": "X."
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "espagne",
+          "hint": "A.I."
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "D.V."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        }
+      ],
+      "metadata": {
+        "club": "Barcelona",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.531561"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des buteurs de Bayern Munich entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "L.S."
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "S.G."
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Kingsley Coman",
+          "nationality": "france",
+          "hint": "K.C."
+        },
+        {
+          "name": "Eric-Maxim Choupo-Moting",
+          "nationality": "cameroun",
+          "hint": "E.C."
+        },
+        {
+          "name": "Leon Goretzka",
+          "nationality": "allemagne",
+          "hint": "L.G."
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "J.K."
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.536257"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des buteurs de Bayern Munich entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "S.G."
+        },
+        {
+          "name": "Kingsley Coman",
+          "nationality": "france",
+          "hint": "K.C."
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "pays-bas",
+          "hint": "A.R."
+        },
+        {
+          "name": "Joshua Kimmich",
+          "nationality": "allemagne",
+          "hint": "J.K."
+        },
+        {
+          "name": "Thiago Alcántara",
+          "nationality": "espagne",
+          "hint": "T.A."
+        },
+        {
+          "name": "Leon Goretzka",
+          "nationality": "allemagne",
+          "hint": "L.G."
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "A.V."
+        },
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "F.R."
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.541527"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 des buteurs de Bayern Munich entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Mario Gómez",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "pays-bas",
+          "hint": "A.R."
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "F.R."
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": "M.M."
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Bastian Schweinsteiger",
+          "nationality": "allemagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "Claudio Pizarro",
+          "nationality": "pérou",
+          "hint": "C.P."
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "T.K."
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.545650"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 des buteurs de Bayern Munich entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Luca Toni",
+          "nationality": "italie",
+          "hint": "L.T."
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "allemagne",
+          "hint": "M.K."
+        },
+        {
+          "name": "Mario Gómez",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Franck Ribéry",
+          "nationality": "france",
+          "hint": "F.R."
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Roy Makaay",
+          "nationality": "pays-bas",
+          "hint": "R.M."
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "pays-bas",
+          "hint": "A.R."
+        },
+        {
+          "name": "Bastian Schweinsteiger",
+          "nationality": "allemagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "Claudio Pizarro",
+          "nationality": "pérou",
+          "hint": "C.P."
+        },
+        {
+          "name": "Lukas Podolski",
+          "nationality": "allemagne",
+          "hint": "L.P."
+        }
+      ],
+      "metadata": {
+        "club": "Bayern Munich",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.549497"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 des buteurs de Chelsea entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cole Palmer",
+          "nationality": "angleterre",
+          "hint": "C.P."
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "K.H."
+        },
+        {
+          "name": "Nicolas Jackson",
+          "nationality": "sénégal",
+          "hint": "N.J."
+        },
+        {
+          "name": "Mason Mount",
+          "nationality": "angleterre",
+          "hint": "M.M."
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "T.W."
+        },
+        {
+          "name": "Jorginho",
+          "nationality": "italie",
+          "hint": "J."
+        },
+        {
+          "name": "Noni Madueke",
+          "nationality": "angleterre",
+          "hint": "N.M."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "C.N."
+        },
+        {
+          "name": "Enzo Fernández",
+          "nationality": "argentine",
+          "hint": "E.F."
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.553854"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 des buteurs de Chelsea entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "E.H."
+        },
+        {
+          "name": "Willian",
+          "nationality": "brésil",
+          "hint": "W."
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "D.C."
+        },
+        {
+          "name": "Tammy Abraham",
+          "nationality": "angleterre",
+          "hint": "T.A."
+        },
+        {
+          "name": "Michy Batshuayi",
+          "nationality": "belgique",
+          "hint": "M.B."
+        },
+        {
+          "name": "Marcos Alonso",
+          "nationality": "espagne",
+          "hint": "M.A."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.559416"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 des buteurs de Chelsea entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "E.H."
+        },
+        {
+          "name": "Frank Lampard",
+          "nationality": "angleterre",
+          "hint": "F.L."
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Oscar",
+          "nationality": "brésil",
+          "hint": "O."
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "D.C."
+        },
+        {
+          "name": "Ramires",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte d'ivoire",
+          "hint": "D.D."
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Branislav Ivanovic",
+          "nationality": "serbie",
+          "hint": "B.I."
+        },
+        {
+          "name": "John Terry",
+          "nationality": "angleterre",
+          "hint": "J.T."
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.563671"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 des buteurs de Chelsea entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte d'ivoire",
+          "hint": "D.D."
+        },
+        {
+          "name": "Frank Lampard",
+          "nationality": "angleterre",
+          "hint": "F.L."
+        },
+        {
+          "name": "Nicolas Anelka",
+          "nationality": "france",
+          "hint": "N.A."
+        },
+        {
+          "name": "Salomon Kalou",
+          "nationality": "côte d'ivoire",
+          "hint": "S.K."
+        },
+        {
+          "name": "Florent Malouda",
+          "nationality": "france",
+          "hint": "F.M."
+        },
+        {
+          "name": "Joe Cole",
+          "nationality": "angleterre",
+          "hint": "J.C."
+        },
+        {
+          "name": "Michael Ballack",
+          "nationality": "allemagne",
+          "hint": "M.B."
+        },
+        {
+          "name": "Michael Essien",
+          "nationality": "ghana",
+          "hint": "M.E."
+        },
+        {
+          "name": "Andriy Shevchenko",
+          "nationality": "ukraine",
+          "hint": "A.S."
+        },
+        {
+          "name": "John Terry",
+          "nationality": "angleterre",
+          "hint": "J.T."
+        }
+      ],
+      "metadata": {
+        "club": "Chelsea",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.568155"
+      }
+    },
+    {
+      "id": 17,
+      "title": "TOP 10 des buteurs de Inter Milan entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        },
+        {
+          "name": "Marcus Thuram",
+          "nationality": "france",
+          "hint": "M.T."
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "E.D."
+        },
+        {
+          "name": "Denzel Dumfries",
+          "nationality": "pays-bas",
+          "hint": "D.D."
+        },
+        {
+          "name": "Nicolò Barella",
+          "nationality": "italie",
+          "hint": "N.B."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Federico Dimarco",
+          "nationality": "italie",
+          "hint": "F.D."
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "hint": "I.P."
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.573621"
+      }
+    },
+    {
+      "id": 18,
+      "title": "TOP 10 des buteurs de Inter Milan entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "M.I."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "hint": "I.P."
+        },
+        {
+          "name": "Marcelo Brozović",
+          "nationality": "croatie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": "A.C."
+        },
+        {
+          "name": "Danilo D'Ambrosio",
+          "nationality": "italie",
+          "hint": "D.D."
+        },
+        {
+          "name": "Éder",
+          "nationality": "italie",
+          "hint": "É."
+        },
+        {
+          "name": "Roberto Gagliardini",
+          "nationality": "italie",
+          "hint": "R.G."
+        },
+        {
+          "name": "Matías Vecino",
+          "nationality": "uruguay",
+          "hint": "M.V."
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.578106"
+      }
+    },
+    {
+      "id": 19,
+      "title": "TOP 10 des buteurs de Inter Milan entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Rodrigo Palacio",
+          "nationality": "argentine",
+          "hint": "R.P."
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "M.I."
+        },
+        {
+          "name": "Diego Milito",
+          "nationality": "argentine",
+          "hint": "D.M."
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "S.E."
+        },
+        {
+          "name": "Fredy Guarín",
+          "nationality": "colombie",
+          "hint": "F.G."
+        },
+        {
+          "name": "Esteban Cambiasso",
+          "nationality": "argentine",
+          "hint": "E.C."
+        },
+        {
+          "name": "Giampaolo Pazzini",
+          "nationality": "italie",
+          "hint": "G.P."
+        },
+        {
+          "name": "Wesley Sneijder",
+          "nationality": "pays-bas",
+          "hint": "W.S."
+        },
+        {
+          "name": "Ricardo Álvarez",
+          "nationality": "argentine",
+          "hint": "R.Á."
+        },
+        {
+          "name": "Yuto Nagatomo",
+          "nationality": "japon",
+          "hint": "Y.N."
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.582425"
+      }
+    },
+    {
+      "id": 20,
+      "title": "TOP 10 des buteurs de Inter Milan entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Julio Cruz",
+          "nationality": "argentine",
+          "hint": "J.C."
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "S.E."
+        },
+        {
+          "name": "Diego Milito",
+          "nationality": "argentine",
+          "hint": "D.M."
+        },
+        {
+          "name": "Esteban Cambiasso",
+          "nationality": "argentine",
+          "hint": "E.C."
+        },
+        {
+          "name": "Adriano",
+          "nationality": "brésil",
+          "hint": "A."
+        },
+        {
+          "name": "Dejan Stanković",
+          "nationality": "serbie",
+          "hint": "D.S."
+        },
+        {
+          "name": "Hernán Crespo",
+          "nationality": "argentine",
+          "hint": "H.C."
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Maicon",
+          "nationality": "brésil",
+          "hint": "M."
+        }
+      ],
+      "metadata": {
+        "club": "Inter Milan",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.586820"
+      }
+    },
+    {
+      "id": 21,
+      "title": "TOP 10 des buteurs de Liverpool entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Diogo Jota",
+          "nationality": "portugal",
+          "hint": "D.J."
+        },
+        {
+          "name": "Luis Díaz",
+          "nationality": "colombie",
+          "hint": "L.D."
+        },
+        {
+          "name": "Cody Gakpo",
+          "nationality": "pays-bas",
+          "hint": "C.G."
+        },
+        {
+          "name": "Darwin Núñez",
+          "nationality": "uruguay",
+          "hint": "D.N."
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "S.M."
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "R.F."
+        },
+        {
+          "name": "Virgil van Dijk",
+          "nationality": "pays-bas",
+          "hint": "V.D."
+        },
+        {
+          "name": "Curtis Jones",
+          "nationality": "angleterre",
+          "hint": "C.J."
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "nationality": "angleterre",
+          "hint": "T.A."
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.591118"
+      }
+    },
+    {
+      "id": 22,
+      "title": "TOP 10 des buteurs de Liverpool entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "S.M."
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "R.F."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        },
+        {
+          "name": "Divock Origi",
+          "nationality": "belgique",
+          "hint": "D.O."
+        },
+        {
+          "name": "Daniel Sturridge",
+          "nationality": "angleterre",
+          "hint": "D.S."
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": "J.M."
+        },
+        {
+          "name": "Georginio Wijnaldum",
+          "nationality": "pays-bas",
+          "hint": "G.W."
+        },
+        {
+          "name": "Adam Lallana",
+          "nationality": "angleterre",
+          "hint": "A.L."
+        },
+        {
+          "name": "Alex Oxlade-Chamberlain",
+          "nationality": "angleterre",
+          "hint": "A.O."
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.595136"
+      }
+    },
+    {
+      "id": 23,
+      "title": "TOP 10 des buteurs de Liverpool entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Steven Gerrard",
+          "nationality": "angleterre",
+          "hint": "S.G."
+        },
+        {
+          "name": "Daniel Sturridge",
+          "nationality": "angleterre",
+          "hint": "D.S."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "Jordan Henderson",
+          "nationality": "angleterre",
+          "hint": "J.H."
+        },
+        {
+          "name": "Dirk Kuyt",
+          "nationality": "pays-bas",
+          "hint": "D.K."
+        },
+        {
+          "name": "Martin Skrtel",
+          "nationality": "slovaquie",
+          "hint": "M.S."
+        },
+        {
+          "name": "Maxi Rodríguez",
+          "nationality": "argentine",
+          "hint": "M.R."
+        },
+        {
+          "name": "Adam Lallana",
+          "nationality": "angleterre",
+          "hint": "A.L."
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.599071"
+      }
+    },
+    {
+      "id": 24,
+      "title": "TOP 10 des buteurs de Liverpool entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Steven Gerrard",
+          "nationality": "angleterre",
+          "hint": "S.G."
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Dirk Kuyt",
+          "nationality": "pays-bas",
+          "hint": "D.K."
+        },
+        {
+          "name": "Peter Crouch",
+          "nationality": "angleterre",
+          "hint": "P.C."
+        },
+        {
+          "name": "Yossi Benayoun",
+          "nationality": "israël",
+          "hint": "Y.B."
+        },
+        {
+          "name": "Ryan Babel",
+          "nationality": "pays-bas",
+          "hint": "R.B."
+        },
+        {
+          "name": "Djibril Cissé",
+          "nationality": "france",
+          "hint": "D.C."
+        },
+        {
+          "name": "David N'Gog",
+          "nationality": "france",
+          "hint": "D.N."
+        },
+        {
+          "name": "Luis García",
+          "nationality": "espagne",
+          "hint": "L.G."
+        },
+        {
+          "name": "Xabi Alonso",
+          "nationality": "espagne",
+          "hint": "X.A."
+        }
+      ],
+      "metadata": {
+        "club": "Liverpool",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.602867"
+      }
+    },
+    {
+      "id": 25,
+      "title": "TOP 10 des buteurs de Man City entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "angleterre",
+          "hint": "P.F."
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "R.M."
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "K.B."
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": "İ.G."
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "B.S."
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "J.A."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brésil",
+          "hint": "G.J."
+        },
+        {
+          "name": "Rodri",
+          "nationality": "espagne",
+          "hint": "R."
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.607217"
+      }
+    },
+    {
+      "id": 26,
+      "title": "TOP 10 des buteurs de Man City entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brésil",
+          "hint": "G.J."
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "K.B."
+        },
+        {
+          "name": "İlkay Gündoğan",
+          "nationality": "allemagne",
+          "hint": "İ.G."
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "L.S."
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "R.M."
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "B.S."
+        },
+        {
+          "name": "Phil Foden",
+          "nationality": "angleterre",
+          "hint": "P.F."
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.611315"
+      }
+    },
+    {
+      "id": 27,
+      "title": "TOP 10 des buteurs de Man City entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Yaya Touré",
+          "nationality": "côte d'ivoire",
+          "hint": "Y.T."
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "E.D."
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "C.T."
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Samir Nasri",
+          "nationality": "france",
+          "hint": "S.N."
+        },
+        {
+          "name": "Álvaro Negredo",
+          "nationality": "espagne",
+          "hint": "Á.N."
+        },
+        {
+          "name": "Aleksandar Kolarov",
+          "nationality": "serbie",
+          "hint": "A.K."
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": "J.M."
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.615386"
+      }
+    },
+    {
+      "id": 28,
+      "title": "TOP 10 des buteurs de Man City entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "C.T."
+        },
+        {
+          "name": "Stephen Ireland",
+          "nationality": "irlande",
+          "hint": "S.I."
+        },
+        {
+          "name": "Darius Vassell",
+          "nationality": "angleterre",
+          "hint": "D.V."
+        },
+        {
+          "name": "Emmanuel Adebayor",
+          "nationality": "togo",
+          "hint": "E.A."
+        },
+        {
+          "name": "Elano",
+          "nationality": "brésil",
+          "hint": "E."
+        },
+        {
+          "name": "Shaun Wright-Phillips",
+          "nationality": "angleterre",
+          "hint": "S.W."
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Craig Bellamy",
+          "nationality": "pays de galles",
+          "hint": "C.B."
+        },
+        {
+          "name": "Joey Barton",
+          "nationality": "angleterre",
+          "hint": "J.B."
+        },
+        {
+          "name": "Georgios Samaras",
+          "nationality": "grèce",
+          "hint": "G.S."
+        }
+      ],
+      "metadata": {
+        "club": "Man City",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.619428"
+      }
+    },
+    {
+      "id": 29,
+      "title": "TOP 10 des buteurs de Man Utd entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "B.F."
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": "M.R."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Alejandro Garnacho",
+          "nationality": "argentine",
+          "hint": "A.G."
+        },
+        {
+          "name": "Rasmus Højlund",
+          "nationality": "danemark",
+          "hint": "R.H."
+        },
+        {
+          "name": "Scott McTominay",
+          "nationality": "écosse",
+          "hint": "S.M."
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "A.M."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Mason Greenwood",
+          "nationality": "angleterre",
+          "hint": "M.G."
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": "C."
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.623684"
+      }
+    },
+    {
+      "id": 30,
+      "title": "TOP 10 des buteurs de Man Utd entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": "M.R."
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "A.M."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Bruno Fernandes",
+          "nationality": "portugal",
+          "hint": "B.F."
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "P.P."
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Jesse Lingard",
+          "nationality": "angleterre",
+          "hint": "J.L."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Mason Greenwood",
+          "nationality": "angleterre",
+          "hint": "M.G."
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "W.R."
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.627889"
+      }
+    },
+    {
+      "id": 31,
+      "title": "TOP 10 des buteurs de Man Utd entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "W.R."
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique",
+          "hint": "C."
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "R.P."
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "hint": "D.B."
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Nani",
+          "nationality": "portugal",
+          "hint": "N."
+        },
+        {
+          "name": "Danny Welbeck",
+          "nationality": "angleterre",
+          "hint": "D.W."
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "A.M."
+        },
+        {
+          "name": "Antonio Valencia",
+          "nationality": "équateur",
+          "hint": "A.V."
+        },
+        {
+          "name": "Ashley Young",
+          "nationality": "angleterre",
+          "hint": "A.Y."
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.631986"
+      }
+    },
+    {
+      "id": 32,
+      "title": "TOP 10 des buteurs de Man Utd entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "W.R."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "hint": "D.B."
+        },
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "C.T."
+        },
+        {
+          "name": "Louis Saha",
+          "nationality": "france",
+          "hint": "L.S."
+        },
+        {
+          "name": "Ryan Giggs",
+          "nationality": "pays de galles",
+          "hint": "R.G."
+        },
+        {
+          "name": "Nani",
+          "nationality": "portugal",
+          "hint": "N."
+        },
+        {
+          "name": "Ji-sung Park",
+          "nationality": "corée du sud",
+          "hint": "J.P."
+        },
+        {
+          "name": "Ruud van Nistelrooy",
+          "nationality": "pays-bas",
+          "hint": "R.N."
+        },
+        {
+          "name": "Paul Scholes",
+          "nationality": "angleterre",
+          "hint": "P.S."
+        }
+      ],
+      "metadata": {
+        "club": "Man Utd",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.635868"
+      }
+    },
+    {
+      "id": 33,
+      "title": "TOP 10 des buteurs de PSG entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "O.D."
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "portugal",
+          "hint": "G.R."
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "B.B."
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": "A.H."
+        },
+        {
+          "name": "Vitinha",
+          "nationality": "portugal",
+          "hint": "V."
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "M.I."
+        },
+        {
+          "name": "Moise Kean",
+          "nationality": "italie",
+          "hint": "M.K."
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.640006"
+      }
+    },
+    {
+      "id": 34,
+      "title": "TOP 10 des buteurs de PSG entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Lucas Moura",
+          "nationality": "brésil",
+          "hint": "L.M."
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "M.I."
+        },
+        {
+          "name": "Marquinhos",
+          "nationality": "brésil",
+          "hint": "M."
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "allemagne",
+          "hint": "J.D."
+        },
+        {
+          "name": "Pablo Sarabia",
+          "nationality": "espagne",
+          "hint": "P.S."
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.644059"
+      }
+    },
+    {
+      "id": 35,
+      "title": "TOP 10 des buteurs de PSG entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Javier Pastore",
+          "nationality": "argentine",
+          "hint": "J.P."
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "E.L."
+        },
+        {
+          "name": "Guillaume Hoarau",
+          "nationality": "france",
+          "hint": "G.H."
+        },
+        {
+          "name": "Blaise Matuidi",
+          "nationality": "france",
+          "hint": "B.M."
+        },
+        {
+          "name": "Lucas Moura",
+          "nationality": "brésil",
+          "hint": "L.M."
+        },
+        {
+          "name": "Kévin Gameiro",
+          "nationality": "france",
+          "hint": "K.G."
+        },
+        {
+          "name": "Jérémy Ménez",
+          "nationality": "france",
+          "hint": "J.M."
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.647837"
+      }
+    },
+    {
+      "id": 36,
+      "title": "TOP 10 des buteurs de PSG entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Pauleta",
+          "nationality": "portugal",
+          "hint": "P."
+        },
+        {
+          "name": "Guillaume Hoarau",
+          "nationality": "france",
+          "hint": "G.H."
+        },
+        {
+          "name": "Péguy Luyindula",
+          "nationality": "france",
+          "hint": "P.L."
+        },
+        {
+          "name": "Mevlüt Erdinç",
+          "nationality": "turquie",
+          "hint": "M.E."
+        },
+        {
+          "name": "Amara Diané",
+          "nationality": "côte d'ivoire",
+          "hint": "A.D."
+        },
+        {
+          "name": "Nenê",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Ludovic Giuly",
+          "nationality": "france",
+          "hint": "L.G."
+        },
+        {
+          "name": "Bonaventure Kalou",
+          "nationality": "côte d'ivoire",
+          "hint": "B.K."
+        },
+        {
+          "name": "Jérôme Rothen",
+          "nationality": "france",
+          "hint": "J.R."
+        },
+        {
+          "name": "Stéphane Sessègnon",
+          "nationality": "bénin",
+          "hint": "S.S."
+        }
+      ],
+      "metadata": {
+        "club": "PSG",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.651392"
+      }
+    },
+    {
+      "id": 37,
+      "title": "TOP 10 des buteurs de Real Madrid entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "V.J."
+        },
+        {
+          "name": "Rodrygo",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "J.B."
+        },
+        {
+          "name": "Marco Asensio",
+          "nationality": "espagne",
+          "hint": "M.A."
+        },
+        {
+          "name": "Federico Valverde",
+          "nationality": "uruguay",
+          "hint": "F.V."
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "L.M."
+        },
+        {
+          "name": "Brahim Díaz",
+          "nationality": "maroc",
+          "hint": "B.D."
+        },
+        {
+          "name": "Joselu",
+          "nationality": "espagne",
+          "hint": "J."
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2020-2024",
+        "difficulty_label": "facile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.655174"
+      }
+    },
+    {
+      "id": 38,
+      "title": "TOP 10 des buteurs de Real Madrid entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "G.B."
+        },
+        {
+          "name": "Sergio Ramos",
+          "nationality": "espagne",
+          "hint": "S.R."
+        },
+        {
+          "name": "Marco Asensio",
+          "nationality": "espagne",
+          "hint": "M.A."
+        },
+        {
+          "name": "Isco",
+          "nationality": "espagne",
+          "hint": "I."
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": "C."
+        },
+        {
+          "name": "Lucas Vázquez",
+          "nationality": "espagne",
+          "hint": "L.V."
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "L.M."
+        },
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "J.R."
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2015-2020",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.660017"
+      }
+    },
+    {
+      "id": 39,
+      "title": "TOP 10 des buteurs de Real Madrid entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "G.B."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Sergio Ramos",
+          "nationality": "espagne",
+          "hint": "S.R."
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "M.Ö."
+        },
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "J.R."
+        },
+        {
+          "name": "Isco",
+          "nationality": "espagne",
+          "hint": "I."
+        },
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "K."
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2010-2015",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.664347"
+      }
+    },
+    {
+      "id": 40,
+      "title": "TOP 10 des buteurs de Real Madrid entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Raúl",
+          "nationality": "espagne",
+          "hint": "R."
+        },
+        {
+          "name": "Ruud van Nistelrooy",
+          "nationality": "pays-bas",
+          "hint": "R.N."
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Sergio Ramos",
+          "nationality": "espagne",
+          "hint": "S.R."
+        },
+        {
+          "name": "Ronaldo",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Guti",
+          "nationality": "espagne",
+          "hint": "G."
+        },
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "K."
+        }
+      ],
+      "metadata": {
+        "club": "Real Madrid",
+        "period": "2005-2010",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.668185"
+      }
+    },
+    {
+      "id": 41,
+      "title": "TOP 10 des buteurs de Aston Villa entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "O.W."
+        },
+        {
+          "name": "Leon Bailey",
+          "nationality": "jamaïque",
+          "hint": "L.B."
+        },
+        {
+          "name": "John McGinn",
+          "nationality": "écosse",
+          "hint": "J.M."
+        },
+        {
+          "name": "Jhon Durán",
+          "nationality": "colombie",
+          "hint": "J.D."
+        },
+        {
+          "name": "Douglas Luiz",
+          "nationality": "brésil",
+          "hint": "D.L."
+        },
+        {
+          "name": "Jacob Ramsey",
+          "nationality": "angleterre",
+          "hint": "J.R."
+        },
+        {
+          "name": "Morgan Rogers",
+          "nationality": "angleterre",
+          "hint": "M.R."
+        },
+        {
+          "name": "Anwar El Ghazi",
+          "nationality": "pays-bas",
+          "hint": "A.G."
+        },
+        {
+          "name": "Danny Ings",
+          "nationality": "angleterre",
+          "hint": "D.I."
+        },
+        {
+          "name": "Bertrand Traoré",
+          "nationality": "burkina faso",
+          "hint": "B.T."
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.672356"
+      }
+    },
+    {
+      "id": 42,
+      "title": "TOP 10 des buteurs de Aston Villa entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Jack Grealish",
+          "nationality": "angleterre",
+          "hint": "J.G."
+        },
+        {
+          "name": "Jonathan Kodjia",
+          "nationality": "côte d'ivoire",
+          "hint": "J.K."
+        },
+        {
+          "name": "Conor Hourihane",
+          "nationality": "irlande",
+          "hint": "C.H."
+        },
+        {
+          "name": "Tammy Abraham",
+          "nationality": "angleterre",
+          "hint": "T.A."
+        },
+        {
+          "name": "Anwar El Ghazi",
+          "nationality": "pays-bas",
+          "hint": "A.G."
+        },
+        {
+          "name": "Albert Adomah",
+          "nationality": "ghana",
+          "hint": "A.A."
+        },
+        {
+          "name": "Ollie Watkins",
+          "nationality": "angleterre",
+          "hint": "O.W."
+        },
+        {
+          "name": "John McGinn",
+          "nationality": "écosse",
+          "hint": "J.M."
+        },
+        {
+          "name": "James Chester",
+          "nationality": "pays de galles",
+          "hint": "J.C."
+        },
+        {
+          "name": "Jordan Ayew",
+          "nationality": "ghana",
+          "hint": "J.A."
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.676645"
+      }
+    },
+    {
+      "id": 43,
+      "title": "TOP 10 des buteurs de Aston Villa entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Christian Benteke",
+          "nationality": "belgique",
+          "hint": "C.B."
+        },
+        {
+          "name": "Gabriel Agbonlahor",
+          "nationality": "angleterre",
+          "hint": "G.A."
+        },
+        {
+          "name": "Darren Bent",
+          "nationality": "angleterre",
+          "hint": "D.B."
+        },
+        {
+          "name": "Andreas Weimann",
+          "nationality": "autriche",
+          "hint": "A.W."
+        },
+        {
+          "name": "Ciaran Clark",
+          "nationality": "irlande",
+          "hint": "C.C."
+        },
+        {
+          "name": "Ashley Young",
+          "nationality": "angleterre",
+          "hint": "A.Y."
+        },
+        {
+          "name": "Marc Albrighton",
+          "nationality": "angleterre",
+          "hint": "M.A."
+        },
+        {
+          "name": "Scott Sinclair",
+          "nationality": "angleterre",
+          "hint": "S.S."
+        },
+        {
+          "name": "Stewart Downing",
+          "nationality": "angleterre",
+          "hint": "S.D."
+        },
+        {
+          "name": "Emile Heskey",
+          "nationality": "angleterre",
+          "hint": "E.H."
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.680464"
+      }
+    },
+    {
+      "id": 44,
+      "title": "TOP 10 des buteurs de Aston Villa entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Gabriel Agbonlahor",
+          "nationality": "angleterre",
+          "hint": "G.A."
+        },
+        {
+          "name": "John Carew",
+          "nationality": "norvège",
+          "hint": "J.C."
+        },
+        {
+          "name": "Ashley Young",
+          "nationality": "angleterre",
+          "hint": "A.Y."
+        },
+        {
+          "name": "Gareth Barry",
+          "nationality": "angleterre",
+          "hint": "G.B."
+        },
+        {
+          "name": "James Milner",
+          "nationality": "angleterre",
+          "hint": "J.M."
+        },
+        {
+          "name": "Milan Baros",
+          "nationality": "tchéquie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Luke Moore",
+          "nationality": "angleterre",
+          "hint": "L.M."
+        },
+        {
+          "name": "Emile Heskey",
+          "nationality": "angleterre",
+          "hint": "E.H."
+        },
+        {
+          "name": "Stewart Downing",
+          "nationality": "angleterre",
+          "hint": "S.D."
+        },
+        {
+          "name": "Juan Pablo Ángel",
+          "nationality": "colombie",
+          "hint": "J.Á."
+        }
+      ],
+      "metadata": {
+        "club": "Aston Villa",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.684450"
+      }
+    },
+    {
+      "id": 45,
+      "title": "TOP 10 des buteurs de Atalanta entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ademola Lookman",
+          "nationality": "nigeria",
+          "hint": "A.L."
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "hint": "L.M."
+        },
+        {
+          "name": "Mario Pasalić",
+          "nationality": "croatie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "D.Z."
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "nationality": "pays-bas",
+          "hint": "T.K."
+        },
+        {
+          "name": "Mateo Retegui",
+          "nationality": "italie",
+          "hint": "M.R."
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": "C.K."
+        },
+        {
+          "name": "Ruslan Malinovskyi",
+          "nationality": "ukraine",
+          "hint": "R.M."
+        },
+        {
+          "name": "Gianluca Scamacca",
+          "nationality": "italie",
+          "hint": "G.S."
+        },
+        {
+          "name": "Robin Gosens",
+          "nationality": "allemagne",
+          "hint": "R.G."
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.688872"
+      }
+    },
+    {
+      "id": 46,
+      "title": "TOP 10 des buteurs de Atalanta entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "D.Z."
+        },
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": "P.G."
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "hint": "J.I."
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "hint": "L.M."
+        },
+        {
+          "name": "Robin Gosens",
+          "nationality": "allemagne",
+          "hint": "R.G."
+        },
+        {
+          "name": "Mario Pasalić",
+          "nationality": "croatie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Remo Freuler",
+          "nationality": "suisse",
+          "hint": "R.F."
+        },
+        {
+          "name": "Ruslan Malinovskyi",
+          "nationality": "ukraine",
+          "hint": "R.M."
+        },
+        {
+          "name": "Bryan Cristante",
+          "nationality": "italie",
+          "hint": "B.C."
+        },
+        {
+          "name": "Rafael Tolói",
+          "nationality": "italie",
+          "hint": "R.T."
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.693234"
+      }
+    },
+    {
+      "id": 47,
+      "title": "TOP 10 des buteurs de Atalanta entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Germán Denis",
+          "nationality": "argentine",
+          "hint": "G.D."
+        },
+        {
+          "name": "Giacomo Bonaventura",
+          "nationality": "italie",
+          "hint": "G.B."
+        },
+        {
+          "name": "Maxi Moralez",
+          "nationality": "argentine",
+          "hint": "M.M."
+        },
+        {
+          "name": "Simone Tiribocchi",
+          "nationality": "italie",
+          "hint": "S.T."
+        },
+        {
+          "name": "Cristiano Doni",
+          "nationality": "italie",
+          "hint": "C.D."
+        },
+        {
+          "name": "Mauricio Pinilla",
+          "nationality": "chili",
+          "hint": "M.P."
+        },
+        {
+          "name": "Giuseppe De Luca",
+          "nationality": "italie",
+          "hint": "G.L."
+        },
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": "P.G."
+        },
+        {
+          "name": "Francesco Ruopolo",
+          "nationality": "italie",
+          "hint": "F.R."
+        },
+        {
+          "name": "Luca Cigarini",
+          "nationality": "italie",
+          "hint": "L.C."
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.697531"
+      }
+    },
+    {
+      "id": 48,
+      "title": "TOP 10 des buteurs de Atalanta entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cristiano Doni",
+          "nationality": "italie",
+          "hint": "C.D."
+        },
+        {
+          "name": "Simone Tiribocchi",
+          "nationality": "italie",
+          "hint": "S.T."
+        },
+        {
+          "name": "Nicola Ventola",
+          "nationality": "italie",
+          "hint": "N.V."
+        },
+        {
+          "name": "Riccardo Zampagna",
+          "nationality": "italie",
+          "hint": "R.Z."
+        },
+        {
+          "name": "Sergio Floccari",
+          "nationality": "italie",
+          "hint": "S.F."
+        },
+        {
+          "name": "Ferreira Pinto",
+          "nationality": "brésil",
+          "hint": "F.P."
+        },
+        {
+          "name": "Simone Loria",
+          "nationality": "italie",
+          "hint": "S.L."
+        },
+        {
+          "name": "Andrea Soncin",
+          "nationality": "italie",
+          "hint": "A.S."
+        },
+        {
+          "name": "Simone Padoin",
+          "nationality": "italie",
+          "hint": "S.P."
+        },
+        {
+          "name": "Jaime Valdés",
+          "nationality": "chili",
+          "hint": "J.V."
+        }
+      ],
+      "metadata": {
+        "club": "Atalanta",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.701512"
+      }
+    },
+    {
+      "id": 49,
+      "title": "TOP 10 des buteurs de Atletico Madrid entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Ángel Correa",
+          "nationality": "argentine",
+          "hint": "Á.C."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "J.A."
+        },
+        {
+          "name": "Marcos Llorente",
+          "nationality": "espagne",
+          "hint": "M.L."
+        },
+        {
+          "name": "João Félix",
+          "nationality": "portugal",
+          "hint": "J.F."
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "A.S."
+        },
+        {
+          "name": "Yannick Carrasco",
+          "nationality": "belgique",
+          "hint": "Y.C."
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "nationality": "argentine",
+          "hint": "R.P."
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.705358"
+      }
+    },
+    {
+      "id": 50,
+      "title": "TOP 10 des buteurs de Atletico Madrid entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Ángel Correa",
+          "nationality": "argentine",
+          "hint": "Á.C."
+        },
+        {
+          "name": "Saúl Ñíguez",
+          "nationality": "espagne",
+          "hint": "S.Ñ."
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Yannick Carrasco",
+          "nationality": "belgique",
+          "hint": "Y.C."
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": "K."
+        },
+        {
+          "name": "Kévin Gameiro",
+          "nationality": "france",
+          "hint": "K.G."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "D.C."
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.709031"
+      }
+    },
+    {
+      "id": 51,
+      "title": "TOP 10 des buteurs de Atletico Madrid entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "R.F."
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "D.C."
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Raúl García",
+          "nationality": "espagne",
+          "hint": "R.G."
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Adrián López",
+          "nationality": "espagne",
+          "hint": "A.L."
+        },
+        {
+          "name": "Koke",
+          "nationality": "espagne",
+          "hint": "K."
+        },
+        {
+          "name": "Arda Turan",
+          "nationality": "turquie",
+          "hint": "A.T."
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": "M.M."
+        },
+        {
+          "name": "Diego Godín",
+          "nationality": "uruguay",
+          "hint": "D.G."
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.712851"
+      }
+    },
+    {
+      "id": 52,
+      "title": "TOP 10 des buteurs de Atletico Madrid entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Diego Forlán",
+          "nationality": "uruguay",
+          "hint": "D.F."
+        },
+        {
+          "name": "Maxi Rodríguez",
+          "nationality": "argentine",
+          "hint": "M.R."
+        },
+        {
+          "name": "Simão",
+          "nationality": "portugal",
+          "hint": "S."
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "José Manuel Jurado",
+          "nationality": "espagne",
+          "hint": "J.J."
+        },
+        {
+          "name": "José Antonio Reyes",
+          "nationality": "espagne",
+          "hint": "J.R."
+        },
+        {
+          "name": "Antonio López",
+          "nationality": "espagne",
+          "hint": "A.L."
+        },
+        {
+          "name": "Mateja Kežman",
+          "nationality": "serbie",
+          "hint": "M.K."
+        },
+        {
+          "name": "Raúl García",
+          "nationality": "espagne",
+          "hint": "R.G."
+        }
+      ],
+      "metadata": {
+        "club": "Atletico Madrid",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.716647"
+      }
+    },
+    {
+      "id": 53,
+      "title": "TOP 10 des buteurs de Dortmund entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "M.R."
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "J.B."
+        },
+        {
+          "name": "Donyell Malen",
+          "nationality": "pays-bas",
+          "hint": "D.M."
+        },
+        {
+          "name": "Serhou Guirassy",
+          "nationality": "guinée",
+          "hint": "S.G."
+        },
+        {
+          "name": "Karim Adeyemi",
+          "nationality": "allemagne",
+          "hint": "K.A."
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "J.B."
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "J.S."
+        },
+        {
+          "name": "Emre Can",
+          "nationality": "allemagne",
+          "hint": "E.C."
+        },
+        {
+          "name": "Giovanni Reyna",
+          "nationality": "états-unis",
+          "hint": "G.R."
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.721540"
+      }
+    },
+    {
+      "id": 54,
+      "title": "TOP 10 des buteurs de Dortmund entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "P.A."
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "M.R."
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "E.H."
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "J.S."
+        },
+        {
+          "name": "Raphaël Guerreiro",
+          "nationality": "portugal",
+          "hint": "R.G."
+        },
+        {
+          "name": "Paco Alcácer",
+          "nationality": "espagne",
+          "hint": "P.A."
+        },
+        {
+          "name": "Shinji Kagawa",
+          "nationality": "japon",
+          "hint": "S.K."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": "C.P."
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.725473"
+      }
+    },
+    {
+      "id": 55,
+      "title": "TOP 10 des buteurs de Dortmund entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "R.L."
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "P.A."
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "M.R."
+        },
+        {
+          "name": "Shinji Kagawa",
+          "nationality": "japon",
+          "hint": "S.K."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Jakub Blaszczykowski",
+          "nationality": "pologne",
+          "hint": "J.B."
+        },
+        {
+          "name": "Lucas Barrios",
+          "nationality": "paraguay",
+          "hint": "L.B."
+        },
+        {
+          "name": "Kevin Großkreutz",
+          "nationality": "allemagne",
+          "hint": "K.G."
+        },
+        {
+          "name": "Mats Hummels",
+          "nationality": "allemagne",
+          "hint": "M.H."
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.729214"
+      }
+    },
+    {
+      "id": 56,
+      "title": "TOP 10 des buteurs de Dortmund entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lucas Barrios",
+          "nationality": "paraguay",
+          "hint": "L.B."
+        },
+        {
+          "name": "Alex Frei",
+          "nationality": "suisse",
+          "hint": "A.F."
+        },
+        {
+          "name": "Ebi Smolarek",
+          "nationality": "pologne",
+          "hint": "E.S."
+        },
+        {
+          "name": "Florian Kringe",
+          "nationality": "allemagne",
+          "hint": "F.K."
+        },
+        {
+          "name": "Nelson Valdez",
+          "nationality": "paraguay",
+          "hint": "N.V."
+        },
+        {
+          "name": "Mladen Petric",
+          "nationality": "croatie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Nuri Şahin",
+          "nationality": "turquie",
+          "hint": "N.Ş."
+        },
+        {
+          "name": "Mohamed Zidan",
+          "nationality": "égypte",
+          "hint": "M.Z."
+        },
+        {
+          "name": "Kevin Großkreutz",
+          "nationality": "allemagne",
+          "hint": "K.G."
+        },
+        {
+          "name": "Tinga",
+          "nationality": "brésil",
+          "hint": "T."
+        }
+      ],
+      "metadata": {
+        "club": "Dortmund",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.733094"
+      }
+    },
+    {
+      "id": 57,
+      "title": "TOP 10 des buteurs de Juventus entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": "D.V."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italie",
+          "hint": "F.C."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Adrien Rabiot",
+          "nationality": "france",
+          "hint": "A.R."
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "P.D."
+        },
+        {
+          "name": "Weston McKennie",
+          "nationality": "états-unis",
+          "hint": "W.M."
+        },
+        {
+          "name": "Arkadiusz Milik",
+          "nationality": "pologne",
+          "hint": "A.M."
+        },
+        {
+          "name": "Kenan Yıldız",
+          "nationality": "turquie",
+          "hint": "K.Y."
+        },
+        {
+          "name": "Moise Kean",
+          "nationality": "italie",
+          "hint": "M.K."
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.737249"
+      }
+    },
+    {
+      "id": 58,
+      "title": "TOP 10 des buteurs de Juventus entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "P.D."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": "M.M."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "M.P."
+        },
+        {
+          "name": "Sami Khedira",
+          "nationality": "allemagne",
+          "hint": "S.K."
+        },
+        {
+          "name": "Juan Cuadrado",
+          "nationality": "colombie",
+          "hint": "J.C."
+        },
+        {
+          "name": "Leonardo Bonucci",
+          "nationality": "italie",
+          "hint": "L.B."
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italie",
+          "hint": "F.C."
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.741171"
+      }
+    },
+    {
+      "id": 59,
+      "title": "TOP 10 des buteurs de Juventus entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "C.T."
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "A.V."
+        },
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "P.P."
+        },
+        {
+          "name": "Alessandro Matri",
+          "nationality": "italie",
+          "hint": "A.M."
+        },
+        {
+          "name": "Fabio Quagliarella",
+          "nationality": "italie",
+          "hint": "F.Q."
+        },
+        {
+          "name": "Claudio Marchisio",
+          "nationality": "italie",
+          "hint": "C.M."
+        },
+        {
+          "name": "Fernando Llorente",
+          "nationality": "espagne",
+          "hint": "F.L."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Mirko Vucinić",
+          "nationality": "monténégro",
+          "hint": "M.V."
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "P.D."
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.745180"
+      }
+    },
+    {
+      "id": 60,
+      "title": "TOP 10 des buteurs de Juventus entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Alessandro Del Piero",
+          "nationality": "italie",
+          "hint": "A.P."
+        },
+        {
+          "name": "David Trezeguet",
+          "nationality": "france",
+          "hint": "D.T."
+        },
+        {
+          "name": "Vincenzo Iaquinta",
+          "nationality": "italie",
+          "hint": "V.I."
+        },
+        {
+          "name": "Pavel Nedved",
+          "nationality": "tchéquie",
+          "hint": "P.N."
+        },
+        {
+          "name": "Amauri",
+          "nationality": "italie",
+          "hint": "A."
+        },
+        {
+          "name": "Giorgio Chiellini",
+          "nationality": "italie",
+          "hint": "G.C."
+        },
+        {
+          "name": "Mauro Camoranesi",
+          "nationality": "italie",
+          "hint": "M.C."
+        },
+        {
+          "name": "Adrian Mutu",
+          "nationality": "roumanie",
+          "hint": "A.M."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Raffaele Palladino",
+          "nationality": "italie",
+          "hint": "R.P."
+        }
+      ],
+      "metadata": {
+        "club": "Juventus",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.749150"
+      }
+    },
+    {
+      "id": 61,
+      "title": "TOP 10 des buteurs de Lazio entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "C.I."
+        },
+        {
+          "name": "Pedro",
+          "nationality": "espagne",
+          "hint": "P."
+        },
+        {
+          "name": "Mattia Zaccagni",
+          "nationality": "italie",
+          "hint": "M.Z."
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": "S.M."
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "L.A."
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brésil",
+          "hint": "F.A."
+        },
+        {
+          "name": "Taty Castellanos",
+          "nationality": "argentine",
+          "hint": "T.C."
+        },
+        {
+          "name": "Matías Vecino",
+          "nationality": "uruguay",
+          "hint": "M.V."
+        },
+        {
+          "name": "Boulaye Dia",
+          "nationality": "sénégal",
+          "hint": "B.D."
+        },
+        {
+          "name": "Joaquín Correa",
+          "nationality": "argentine",
+          "hint": "J.C."
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.753363"
+      }
+    },
+    {
+      "id": 62,
+      "title": "TOP 10 des buteurs de Lazio entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "C.I."
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": "S.M."
+        },
+        {
+          "name": "Luis Alberto",
+          "nationality": "espagne",
+          "hint": "L.A."
+        },
+        {
+          "name": "Felipe Caicedo",
+          "nationality": "équateur",
+          "hint": "F.C."
+        },
+        {
+          "name": "Joaquín Correa",
+          "nationality": "argentine",
+          "hint": "J.C."
+        },
+        {
+          "name": "Marco Parolo",
+          "nationality": "italie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brésil",
+          "hint": "F.A."
+        },
+        {
+          "name": "Keita Baldé",
+          "nationality": "sénégal",
+          "hint": "K.B."
+        },
+        {
+          "name": "Senad Lulic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "S.L."
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": "A.C."
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.757754"
+      }
+    },
+    {
+      "id": 63,
+      "title": "TOP 10 des buteurs de Lazio entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Miroslav Klose",
+          "nationality": "allemagne",
+          "hint": "M.K."
+        },
+        {
+          "name": "Antonio Candreva",
+          "nationality": "italie",
+          "hint": "A.C."
+        },
+        {
+          "name": "Hernanes",
+          "nationality": "brésil",
+          "hint": "H."
+        },
+        {
+          "name": "Stefano Mauri",
+          "nationality": "italie",
+          "hint": "S.M."
+        },
+        {
+          "name": "Libor Kozák",
+          "nationality": "tchéquie",
+          "hint": "L.K."
+        },
+        {
+          "name": "Sergio Floccari",
+          "nationality": "italie",
+          "hint": "S.F."
+        },
+        {
+          "name": "Senad Lulic",
+          "nationality": "bosnie-herzégovine",
+          "hint": "S.L."
+        },
+        {
+          "name": "Felipe Anderson",
+          "nationality": "brésil",
+          "hint": "F.A."
+        },
+        {
+          "name": "Marco Parolo",
+          "nationality": "italie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Keita Baldé",
+          "nationality": "sénégal",
+          "hint": "K.B."
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.761920"
+      }
+    },
+    {
+      "id": 64,
+      "title": "TOP 10 des buteurs de Lazio entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Tommaso Rocchi",
+          "nationality": "italie",
+          "hint": "T.R."
+        },
+        {
+          "name": "Goran Pandev",
+          "nationality": "macédoine du nord",
+          "hint": "G.P."
+        },
+        {
+          "name": "Mauro Zárate",
+          "nationality": "argentine",
+          "hint": "M.Z."
+        },
+        {
+          "name": "Stefano Mauri",
+          "nationality": "italie",
+          "hint": "S.M."
+        },
+        {
+          "name": "Sergio Floccari",
+          "nationality": "italie",
+          "hint": "S.F."
+        },
+        {
+          "name": "Massimo Oddo",
+          "nationality": "italie",
+          "hint": "M.O."
+        },
+        {
+          "name": "Hernanes",
+          "nationality": "brésil",
+          "hint": "H."
+        },
+        {
+          "name": "Aleksandar Kolarov",
+          "nationality": "serbie",
+          "hint": "A.K."
+        },
+        {
+          "name": "Cristian Ledesma",
+          "nationality": "italie",
+          "hint": "C.L."
+        },
+        {
+          "name": "Sebastiano Siviglia",
+          "nationality": "italie",
+          "hint": "S.S."
+        }
+      ],
+      "metadata": {
+        "club": "Lazio",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.765975"
+      }
+    },
+    {
+      "id": 65,
+      "title": "TOP 10 des buteurs de Leipzig entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "C.N."
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": "L.O."
+        },
+        {
+          "name": "Benjamin Sesko",
+          "nationality": "slovénie",
+          "hint": "B.S."
+        },
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "hint": "E.F."
+        },
+        {
+          "name": "Yussuf Poulsen",
+          "nationality": "danemark",
+          "hint": "Y.P."
+        },
+        {
+          "name": "André Silva",
+          "nationality": "portugal",
+          "hint": "A.S."
+        },
+        {
+          "name": "Dani Olmo",
+          "nationality": "espagne",
+          "hint": "D.O."
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": "X.S."
+        },
+        {
+          "name": "Willi Orbán",
+          "nationality": "hongrie",
+          "hint": "W.O."
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "nationality": "hongrie",
+          "hint": "D.S."
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.769659"
+      }
+    },
+    {
+      "id": 66,
+      "title": "TOP 10 des buteurs de Leipzig entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "T.W."
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "nationality": "autriche",
+          "hint": "M.S."
+        },
+        {
+          "name": "Yussuf Poulsen",
+          "nationality": "danemark",
+          "hint": "Y.P."
+        },
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "hint": "E.F."
+        },
+        {
+          "name": "Jean-Kévin Augustin",
+          "nationality": "france",
+          "hint": "J.A."
+        },
+        {
+          "name": "Willi Orbán",
+          "nationality": "hongrie",
+          "hint": "W.O."
+        },
+        {
+          "name": "Naby Keïta",
+          "nationality": "guinée",
+          "hint": "N.K."
+        },
+        {
+          "name": "Davie Selke",
+          "nationality": "allemagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Marcel Halstenberg",
+          "nationality": "allemagne",
+          "hint": "M.H."
+        },
+        {
+          "name": "Lukas Klostermann",
+          "nationality": "allemagne",
+          "hint": "L.K."
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.773345"
+      }
+    },
+    {
+      "id": 67,
+      "title": "TOP 10 des buteurs de Leipzig entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Daniel Frahn",
+          "nationality": "allemagne",
+          "hint": "D.F."
+        },
+        {
+          "name": "Dominik Kaiser",
+          "nationality": "allemagne",
+          "hint": "D.K."
+        },
+        {
+          "name": "Yussuf Poulsen",
+          "nationality": "danemark",
+          "hint": "Y.P."
+        },
+        {
+          "name": "Stefan Kutschke",
+          "nationality": "allemagne",
+          "hint": "S.K."
+        },
+        {
+          "name": "Thiago Rockenbach",
+          "nationality": "brésil",
+          "hint": "T.R."
+        },
+        {
+          "name": "Bastian Schulz",
+          "nationality": "allemagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "Carsten Kammlott",
+          "nationality": "allemagne",
+          "hint": "C.K."
+        },
+        {
+          "name": "Timo Röttger",
+          "nationality": "allemagne",
+          "hint": "T.R."
+        },
+        {
+          "name": "Davie Selke",
+          "nationality": "allemagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Sebastian Heidinger",
+          "nationality": "allemagne",
+          "hint": "S.H."
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.777137"
+      }
+    },
+    {
+      "id": 68,
+      "title": "TOP 10 des buteurs de Leipzig entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Nico Frommer",
+          "nationality": "allemagne",
+          "hint": "N.F."
+        },
+        {
+          "name": "Daniel Frahn",
+          "nationality": "allemagne",
+          "hint": "D.F."
+        },
+        {
+          "name": "Jochen Höfler",
+          "nationality": "allemagne",
+          "hint": "J.H."
+        },
+        {
+          "name": "Lars Müller",
+          "nationality": "allemagne",
+          "hint": "L.M."
+        },
+        {
+          "name": "Christian Reimann",
+          "nationality": "allemagne",
+          "hint": "C.R."
+        },
+        {
+          "name": "Daniel Rosin",
+          "nationality": "allemagne",
+          "hint": "D.R."
+        },
+        {
+          "name": "Thomas Kläsener",
+          "nationality": "allemagne",
+          "hint": "T.K."
+        },
+        {
+          "name": "Timo Rost",
+          "nationality": "allemagne",
+          "hint": "T.R."
+        },
+        {
+          "name": "Patrick Bick",
+          "nationality": "allemagne",
+          "hint": "P.B."
+        },
+        {
+          "name": "Carsten Kammlott",
+          "nationality": "allemagne",
+          "hint": "C.K."
+        }
+      ],
+      "metadata": {
+        "club": "Leipzig",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.779715"
+      }
+    },
+    {
+      "id": 69,
+      "title": "TOP 10 des buteurs de Leverkusen entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": "P.S."
+        },
+        {
+          "name": "Florian Wirtz",
+          "nationality": "allemagne",
+          "hint": "F.W."
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "M.D."
+        },
+        {
+          "name": "Victor Boniface",
+          "nationality": "nigeria",
+          "hint": "V.B."
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "nationality": "pays-bas",
+          "hint": "J.F."
+        },
+        {
+          "name": "Amine Adli",
+          "nationality": "maroc",
+          "hint": "A.A."
+        },
+        {
+          "name": "Lucas Alario",
+          "nationality": "argentine",
+          "hint": "L.A."
+        },
+        {
+          "name": "Robert Andrich",
+          "nationality": "allemagne",
+          "hint": "R.A."
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "nationality": "espagne",
+          "hint": "A.G."
+        },
+        {
+          "name": "Leon Bailey",
+          "nationality": "jamaïque",
+          "hint": "L.B."
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.783538"
+      }
+    },
+    {
+      "id": 70,
+      "title": "TOP 10 des buteurs de Leverkusen entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lucas Alario",
+          "nationality": "argentine",
+          "hint": "L.A."
+        },
+        {
+          "name": "Kevin Volland",
+          "nationality": "allemagne",
+          "hint": "K.V."
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "K.H."
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique",
+          "hint": "C."
+        },
+        {
+          "name": "Leon Bailey",
+          "nationality": "jamaïque",
+          "hint": "L.B."
+        },
+        {
+          "name": "Julian Brandt",
+          "nationality": "allemagne",
+          "hint": "J.B."
+        },
+        {
+          "name": "Karim Bellarabi",
+          "nationality": "allemagne",
+          "hint": "K.B."
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "M.D."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        },
+        {
+          "name": "Charles Aránguiz",
+          "nationality": "chili",
+          "hint": "C.A."
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.787163"
+      }
+    },
+    {
+      "id": 71,
+      "title": "TOP 10 des buteurs de Leverkusen entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Stefan Kießling",
+          "nationality": "allemagne",
+          "hint": "S.K."
+        },
+        {
+          "name": "Sidney Sam",
+          "nationality": "allemagne",
+          "hint": "S.S."
+        },
+        {
+          "name": "Karim Bellarabi",
+          "nationality": "allemagne",
+          "hint": "K.B."
+        },
+        {
+          "name": "Heung-min Son",
+          "nationality": "corée du sud",
+          "hint": "H.S."
+        },
+        {
+          "name": "Chicharito",
+          "nationality": "mexique",
+          "hint": "C."
+        },
+        {
+          "name": "Gonzalo Castro",
+          "nationality": "allemagne",
+          "hint": "G.C."
+        },
+        {
+          "name": "André Schürrle",
+          "nationality": "allemagne",
+          "hint": "A.S."
+        },
+        {
+          "name": "Eren Derdiyok",
+          "nationality": "suisse",
+          "hint": "E.D."
+        },
+        {
+          "name": "Simon Rolfes",
+          "nationality": "allemagne",
+          "hint": "S.R."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.792215"
+      }
+    },
+    {
+      "id": 72,
+      "title": "TOP 10 des buteurs de Leverkusen entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Stefan Kießling",
+          "nationality": "allemagne",
+          "hint": "S.K."
+        },
+        {
+          "name": "Patrick Helmes",
+          "nationality": "allemagne",
+          "hint": "P.H."
+        },
+        {
+          "name": "Simon Rolfes",
+          "nationality": "allemagne",
+          "hint": "S.R."
+        },
+        {
+          "name": "Tranquillo Barnetta",
+          "nationality": "suisse",
+          "hint": "T.B."
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "hint": "D.B."
+        },
+        {
+          "name": "Eren Derdiyok",
+          "nationality": "suisse",
+          "hint": "E.D."
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "A.V."
+        },
+        {
+          "name": "Andriy Voronin",
+          "nationality": "ukraine",
+          "hint": "A.V."
+        },
+        {
+          "name": "Bernd Schneider",
+          "nationality": "allemagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "Sergej Barbarez",
+          "nationality": "bosnie-herzégovine",
+          "hint": "S.B."
+        }
+      ],
+      "metadata": {
+        "club": "Leverkusen",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.795945"
+      }
+    },
+    {
+      "id": 73,
+      "title": "TOP 10 des buteurs de Milan entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "R.L."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": "C.P."
+        },
+        {
+          "name": "Theo Hernández",
+          "nationality": "france",
+          "hint": "T.H."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Franck Kessié",
+          "nationality": "côte d'ivoire",
+          "hint": "F.K."
+        },
+        {
+          "name": "Tijjani Reijnders",
+          "nationality": "pays-bas",
+          "hint": "T.R."
+        },
+        {
+          "name": "Brahim Díaz",
+          "nationality": "maroc",
+          "hint": "B.D."
+        },
+        {
+          "name": "Ante Rebić",
+          "nationality": "croatie",
+          "hint": "A.R."
+        },
+        {
+          "name": "Luka Jović",
+          "nationality": "serbie",
+          "hint": "L.J."
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.799881"
+      }
+    },
+    {
+      "id": 74,
+      "title": "TOP 10 des buteurs de Milan entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Carlos Bacca",
+          "nationality": "colombie",
+          "hint": "C.B."
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "nationality": "turquie",
+          "hint": "H.Ç."
+        },
+        {
+          "name": "Franck Kessié",
+          "nationality": "côte d'ivoire",
+          "hint": "F.K."
+        },
+        {
+          "name": "Giacomo Bonaventura",
+          "nationality": "italie",
+          "hint": "G.B."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Patrick Cutrone",
+          "nationality": "italie",
+          "hint": "P.C."
+        },
+        {
+          "name": "Suso",
+          "nationality": "espagne",
+          "hint": "S."
+        },
+        {
+          "name": "Ante Rebić",
+          "nationality": "croatie",
+          "hint": "A.R."
+        },
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne",
+          "hint": "K.P."
+        },
+        {
+          "name": "Theo Hernández",
+          "nationality": "france",
+          "hint": "T.H."
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.804150"
+      }
+    },
+    {
+      "id": 75,
+      "title": "TOP 10 des buteurs de Milan entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": "S.S."
+        },
+        {
+          "name": "Giampaolo Pazzini",
+          "nationality": "italie",
+          "hint": "G.P."
+        },
+        {
+          "name": "Alexandre Pato",
+          "nationality": "brésil",
+          "hint": "A.P."
+        },
+        {
+          "name": "Jérémy Ménez",
+          "nationality": "france",
+          "hint": "J.M."
+        },
+        {
+          "name": "Carlos Bacca",
+          "nationality": "colombie",
+          "hint": "C.B."
+        },
+        {
+          "name": "Kevin-Prince Boateng",
+          "nationality": "ghana",
+          "hint": "K.B."
+        },
+        {
+          "name": "Giacomo Bonaventura",
+          "nationality": "italie",
+          "hint": "G.B."
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.808227"
+      }
+    },
+    {
+      "id": 76,
+      "title": "TOP 10 des buteurs de Milan entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "K."
+        },
+        {
+          "name": "Filippo Inzaghi",
+          "nationality": "italie",
+          "hint": "F.I."
+        },
+        {
+          "name": "Alexandre Pato",
+          "nationality": "brésil",
+          "hint": "A.P."
+        },
+        {
+          "name": "Alberto Gilardino",
+          "nationality": "italie",
+          "hint": "A.G."
+        },
+        {
+          "name": "Clarence Seedorf",
+          "nationality": "pays-bas",
+          "hint": "C.S."
+        },
+        {
+          "name": "Andriy Shevchenko",
+          "nationality": "ukraine",
+          "hint": "A.S."
+        },
+        {
+          "name": "Ronaldinho",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Z.I."
+        },
+        {
+          "name": "Marco Borriello",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Andrea Pirlo",
+          "nationality": "italie",
+          "hint": "A.P."
+        }
+      ],
+      "metadata": {
+        "club": "Milan",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.812033"
+      }
+    },
+    {
+      "id": 77,
+      "title": "TOP 10 des buteurs de Napoli entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "V.O."
+        },
+        {
+          "name": "Matteo Politano",
+          "nationality": "italie",
+          "hint": "M.P."
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "L.I."
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "K.K."
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": "P.Z."
+        },
+        {
+          "name": "Hirving Lozano",
+          "nationality": "mexique",
+          "hint": "H.L."
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "D.M."
+        },
+        {
+          "name": "Eljif Elmas",
+          "nationality": "macédoine du nord",
+          "hint": "E.E."
+        },
+        {
+          "name": "Giacomo Raspadori",
+          "nationality": "italie",
+          "hint": "G.R."
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "nationality": "italie",
+          "hint": "G.L."
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.815964"
+      }
+    },
+    {
+      "id": 78,
+      "title": "TOP 10 des buteurs de Napoli entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "D.M."
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "L.I."
+        },
+        {
+          "name": "José Callejón",
+          "nationality": "espagne",
+          "hint": "J.C."
+        },
+        {
+          "name": "Arkadiusz Milik",
+          "nationality": "pologne",
+          "hint": "A.M."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Piotr Zieliński",
+          "nationality": "pologne",
+          "hint": "P.Z."
+        },
+        {
+          "name": "Marek Hamsik",
+          "nationality": "slovaquie",
+          "hint": "M.H."
+        },
+        {
+          "name": "Hirving Lozano",
+          "nationality": "mexique",
+          "hint": "H.L."
+        },
+        {
+          "name": "Fabián Ruiz",
+          "nationality": "espagne",
+          "hint": "F.R."
+        },
+        {
+          "name": "Manolo Gabbiadini",
+          "nationality": "italie",
+          "hint": "M.G."
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.819817"
+      }
+    },
+    {
+      "id": 79,
+      "title": "TOP 10 des buteurs de Napoli entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Marek Hamsik",
+          "nationality": "slovaquie",
+          "hint": "M.H."
+        },
+        {
+          "name": "José Callejón",
+          "nationality": "espagne",
+          "hint": "J.C."
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "D.M."
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "L.I."
+        },
+        {
+          "name": "Goran Pandev",
+          "nationality": "macédoine du nord",
+          "hint": "G.P."
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "E.L."
+        },
+        {
+          "name": "Manolo Gabbiadini",
+          "nationality": "italie",
+          "hint": "M.G."
+        },
+        {
+          "name": "Blerim Dzemaili",
+          "nationality": "suisse",
+          "hint": "B.D."
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.823596"
+      }
+    },
+    {
+      "id": 80,
+      "title": "TOP 10 des buteurs de Napoli entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Marek Hamsik",
+          "nationality": "slovaquie",
+          "hint": "M.H."
+        },
+        {
+          "name": "Emanuele Calaiò",
+          "nationality": "italie",
+          "hint": "E.C."
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "E.L."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Mariano Bogliacino",
+          "nationality": "uruguay",
+          "hint": "M.B."
+        },
+        {
+          "name": "Roberto Sosa",
+          "nationality": "argentine",
+          "hint": "R.S."
+        },
+        {
+          "name": "Piá",
+          "nationality": "brésil",
+          "hint": "P."
+        },
+        {
+          "name": "Christian Maggio",
+          "nationality": "italie",
+          "hint": "C.M."
+        },
+        {
+          "name": "Germán Denis",
+          "nationality": "argentine",
+          "hint": "G.D."
+        },
+        {
+          "name": "Maurizio Domizzi",
+          "nationality": "italie",
+          "hint": "M.D."
+        }
+      ],
+      "metadata": {
+        "club": "Napoli",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.827195"
+      }
+    },
+    {
+      "id": 81,
+      "title": "TOP 10 des buteurs de Roma entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": "L.P."
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "P.D."
+        },
+        {
+          "name": "Tammy Abraham",
+          "nationality": "angleterre",
+          "hint": "T.A."
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": "S.S."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Borja Mayoral",
+          "nationality": "espagne",
+          "hint": "B.M."
+        },
+        {
+          "name": "Gianluca Mancini",
+          "nationality": "italie",
+          "hint": "G.M."
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "A.D."
+        },
+        {
+          "name": "Jordan Veretout",
+          "nationality": "france",
+          "hint": "J.V."
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.831244"
+      }
+    },
+    {
+      "id": 82,
+      "title": "TOP 10 des buteurs de Roma entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "E.D."
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": "S.S."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Diego Perotti",
+          "nationality": "argentine",
+          "hint": "D.P."
+        },
+        {
+          "name": "Radja Nainggolan",
+          "nationality": "belgique",
+          "hint": "R.N."
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "H.M."
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "nationality": "italie",
+          "hint": "L.P."
+        },
+        {
+          "name": "Aleksandar Kolarov",
+          "nationality": "serbie",
+          "hint": "A.K."
+        },
+        {
+          "name": "Jordan Veretout",
+          "nationality": "france",
+          "hint": "J.V."
+        },
+        {
+          "name": "Cengiz Ünder",
+          "nationality": "turquie",
+          "hint": "C.Ü."
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.836330"
+      }
+    },
+    {
+      "id": 83,
+      "title": "TOP 10 des buteurs de Roma entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "F.T."
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "M.P."
+        },
+        {
+          "name": "Mattia Destro",
+          "nationality": "italie",
+          "hint": "M.D."
+        },
+        {
+          "name": "Daniel Osvaldo",
+          "nationality": "italie",
+          "hint": "D.O."
+        },
+        {
+          "name": "Gervinho",
+          "nationality": "côte d'ivoire",
+          "hint": "G."
+        },
+        {
+          "name": "Alessandro Florenzi",
+          "nationality": "italie",
+          "hint": "A.F."
+        },
+        {
+          "name": "Erik Lamela",
+          "nationality": "argentine",
+          "hint": "E.L."
+        },
+        {
+          "name": "Marco Borriello",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Adem Ljajic",
+          "nationality": "serbie",
+          "hint": "A.L."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.840616"
+      }
+    },
+    {
+      "id": 84,
+      "title": "TOP 10 des buteurs de Roma entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "F.T."
+        },
+        {
+          "name": "Mirko Vucinić",
+          "nationality": "monténégro",
+          "hint": "M.V."
+        },
+        {
+          "name": "Mancini",
+          "nationality": "brésil",
+          "hint": "M."
+        },
+        {
+          "name": "Simone Perrotta",
+          "nationality": "italie",
+          "hint": "S.P."
+        },
+        {
+          "name": "Daniele De Rossi",
+          "nationality": "italie",
+          "hint": "D.R."
+        },
+        {
+          "name": "Rodrigo Taddei",
+          "nationality": "brésil",
+          "hint": "R.T."
+        },
+        {
+          "name": "Christian Panucci",
+          "nationality": "italie",
+          "hint": "C.P."
+        },
+        {
+          "name": "Marco Borriello",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Alberto Aquilani",
+          "nationality": "italie",
+          "hint": "A.A."
+        },
+        {
+          "name": "David Pizarro",
+          "nationality": "chili",
+          "hint": "D.P."
+        }
+      ],
+      "metadata": {
+        "club": "Roma",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.844765"
+      }
+    },
+    {
+      "id": 85,
+      "title": "TOP 10 des buteurs de Villarreal entre 2020-2024",
+      "theme": "Buteurs",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": "G.M."
+        },
+        {
+          "name": "Álex Baena",
+          "nationality": "espagne",
+          "hint": "Á.B."
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "A.S."
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "nationality": "nigeria",
+          "hint": "S.C."
+        },
+        {
+          "name": "José Luis Morales",
+          "nationality": "espagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Arnaut Danjuma",
+          "nationality": "pays-bas",
+          "hint": "A.D."
+        },
+        {
+          "name": "Yéremy Pino",
+          "nationality": "espagne",
+          "hint": "Y.P."
+        },
+        {
+          "name": "Ayoze Pérez",
+          "nationality": "espagne",
+          "hint": "A.P."
+        },
+        {
+          "name": "Paco Alcácer",
+          "nationality": "espagne",
+          "hint": "P.A."
+        },
+        {
+          "name": "Dani Parejo",
+          "nationality": "espagne",
+          "hint": "D.P."
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2020-2024",
+        "difficulty_label": "moyen",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.848757"
+      }
+    },
+    {
+      "id": 86,
+      "title": "TOP 10 des buteurs de Villarreal entre 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": "G.M."
+        },
+        {
+          "name": "Cédric Bakambu",
+          "nationality": "rd congo",
+          "hint": "C.B."
+        },
+        {
+          "name": "Carlos Bacca",
+          "nationality": "colombie",
+          "hint": "C.B."
+        },
+        {
+          "name": "Karl Toko Ekambi",
+          "nationality": "cameroun",
+          "hint": "K.E."
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Manu Trigueros",
+          "nationality": "espagne",
+          "hint": "M.T."
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "nationality": "nigeria",
+          "hint": "S.C."
+        },
+        {
+          "name": "Nicola Sansone",
+          "nationality": "italie",
+          "hint": "N.S."
+        },
+        {
+          "name": "Paco Alcácer",
+          "nationality": "espagne",
+          "hint": "P.A."
+        },
+        {
+          "name": "Bruno Soriano",
+          "nationality": "espagne",
+          "hint": "B.S."
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2015-2020",
+        "difficulty_label": "difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.853048"
+      }
+    },
+    {
+      "id": 87,
+      "title": "TOP 10 des buteurs de Villarreal entre 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Giuseppe Rossi",
+          "nationality": "italie",
+          "hint": "G.R."
+        },
+        {
+          "name": "Ikechukwu Uche",
+          "nationality": "nigeria",
+          "hint": "I.U."
+        },
+        {
+          "name": "Bruno Soriano",
+          "nationality": "espagne",
+          "hint": "B.S."
+        },
+        {
+          "name": "Nilmar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Jérémy Perbet",
+          "nationality": "france",
+          "hint": "J.P."
+        },
+        {
+          "name": "Cédric Bakambu",
+          "nationality": "rd congo",
+          "hint": "C.B."
+        },
+        {
+          "name": "Marco Ruben",
+          "nationality": "argentine",
+          "hint": "M.R."
+        },
+        {
+          "name": "Luciano Vietto",
+          "nationality": "argentine",
+          "hint": "L.V."
+        },
+        {
+          "name": "Cani",
+          "nationality": "espagne",
+          "hint": "C."
+        },
+        {
+          "name": "Gerard Moreno",
+          "nationality": "espagne",
+          "hint": "G.M."
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2010-2015",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.856707"
+      }
+    },
+    {
+      "id": 88,
+      "title": "TOP 10 des buteurs de Villarreal entre 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Giuseppe Rossi",
+          "nationality": "italie",
+          "hint": "G.R."
+        },
+        {
+          "name": "Diego Forlán",
+          "nationality": "uruguay",
+          "hint": "D.F."
+        },
+        {
+          "name": "Nilmar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Joseba Llorente",
+          "nationality": "espagne",
+          "hint": "J.L."
+        },
+        {
+          "name": "Santi Cazorla",
+          "nationality": "espagne",
+          "hint": "S.C."
+        },
+        {
+          "name": "Nihat Kahveci",
+          "nationality": "turquie",
+          "hint": "N.K."
+        },
+        {
+          "name": "Cani",
+          "nationality": "espagne",
+          "hint": "C."
+        },
+        {
+          "name": "Guillermo Franco",
+          "nationality": "mexique",
+          "hint": "G.F."
+        },
+        {
+          "name": "Marcos Senna",
+          "nationality": "espagne",
+          "hint": "M.S."
+        },
+        {
+          "name": "Joan Capdevila",
+          "nationality": "espagne",
+          "hint": "J.C."
+        }
+      ],
+      "metadata": {
+        "club": "Villarreal",
+        "period": "2005-2010",
+        "difficulty_label": "très difficile",
+        "data_source": "club_performances",
+        "generated_at": "2025-08-05T00:13:57.860213"
+      }
+    }
+  ]
+}
