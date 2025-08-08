@@ -134,7 +134,7 @@ class GameState {
 
   /// Vérifie si le joueur peut regarder une pub pour gagner une vie
   bool canWatchAdForLife() {
-    if (lives >= maxLives) return false;
+    if (lives >= 10) return false; // Maximum absolu de 10 vies avec pubs
     if (lastAdWatchTime == null) return true;
     
     final now = DateTime.now();
@@ -144,7 +144,7 @@ class GameState {
 
   /// Retourne le temps restant avant de pouvoir regarder une nouvelle pub
   Duration? getTimeUntilNextAd() {
-    if (lives >= maxLives || lastAdWatchTime == null) return null;
+    if (lives >= 10 || lastAdWatchTime == null) return null;
     
     final now = DateTime.now();
     final nextAdTime = lastAdWatchTime!.add(adCooldownDuration);

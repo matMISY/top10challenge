@@ -39,29 +39,51 @@ class GameProvider with ChangeNotifier {
 
   Future<void> _initialize() async {
     try {
+      debugPrint('🚀 Starting GameProvider initialization...');
+      
       // Initialiser avec migration automatique
+      debugPrint('📂 Initializing game service...');
       await _gameService.initializeWithMigration();
+      debugPrint('✅ Game service initialized');
       
-      // Initialiser le service de publicités
-      await _adsService.initialize();
+      // Initialiser le service de publicités avec gestion d'erreur
+      try {
+        debugPrint('📺 Initializing ads service...');
+        await _adsService.initialize();
+        debugPrint('✅ Ads service initialized');
+      } catch (adsError) {
+        debugPrint('❌ Ads service failed to initialize: $adsError');
+        // Continue without ads
+      }
       
+      debugPrint('📊 Loading game data...');
       await loadGameData();
+      debugPrint('✅ Game data loaded');
       
       // Récupérer les vies automatiquement au démarrage
+      debugPrint('❤️ Recovering lives...');
       await _recoverLivesIfNeeded();
+      debugPrint('✅ Lives recovered');
       
       // Démarrer le timer de récupération des vies
+      debugPrint('⏰ Starting life recovery timer...');
       _startLifeRecoveryTimer();
+      debugPrint('✅ Life recovery timer started');
       
       // Démarrer le timer de mise à jour de l'interface
+      debugPrint('🔄 Starting UI update timer...');
       _startUIUpdateTimer();
+      debugPrint('✅ UI update timer started');
       
       _isLoading = false;
       notifyListeners();
+      debugPrint('🎉 GameProvider initialization complete!');
     } catch (e) {
-      debugPrint('Error initializing GameProvider: $e');
+      debugPrint('❌ Error initializing GameProvider: $e');
+      debugPrint('📋 Stack trace: ${StackTrace.current}');
       _isLoading = false;
       notifyListeners();
+      rethrow; // Re-throw to see the error in Flutter
     }
   }
 
@@ -225,17 +247,43 @@ class GameProvider with ChangeNotifier {
     await _recoverLivesIfNeeded();
   }
 
-  /// Démarre le timer de mise à jour de l'interface (met à jour toutes les secondes)
+  /// Démarre le timer de mise à jour de l'interface (optimisé pour éviter le clignotement)
   void _startUIUpdateTimer() {
     _uiUpdateTimer?.cancel();
     _uiUpdateTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
-      // Notifier les listeners pour mettre à jour le countdown uniquement
-      // si le joueur a moins de vies max et peut récupérer des vies
-      if (_gameState.lives < GameState.maxLives && _gameState.getTimeUntilNextLife() != null) {
-        notifyListeners();
+      // Ne mettre à jour que si nécessaire pour les timers (vies et pubs)
+      if (_shouldUpdateTimers()) {
+        // Throttle les mises à jour pour éviter le clignotement
+        final now = DateTime.now();
+        if (_lastUIUpdate == null || 
+            now.difference(_lastUIUpdate!) >= const Duration(seconds: 1)) {
+          _lastUIUpdate = now;
+          // Cette notification sera utilisée principalement pour les écrans
+          // qui affichent les timers (écran principal)
+          notifyListeners();
+        }
       }
     });
   }
+  
+  /// Détermine si on doit mettre à jour les timers
+  bool _shouldUpdateTimers() {
+    // Mise à jour si on a besoin du timer des vies
+    if (_gameState.lives < GameState.maxLives && _gameState.getTimeUntilNextLife() != null) {
+      return true;
+    }
+    
+    // Mise à jour si on a besoin du timer des pubs
+    if (_gameState.lives < GameState.maxLives && 
+        !canWatchAdForLife() && 
+        getFormattedTimeUntilNextAd() != null) {
+      return true;
+    }
+    
+    return false;
+  }
+  
+  DateTime? _lastUIUpdate;
 
   /// Retourne le temps formaté jusqu'à la prochaine vie
   String? getFormattedTimeUntilNextLife() {
@@ -290,7 +338,7 @@ class GameProvider with ChangeNotifier {
         // Récompenser le joueur
         final now = DateTime.now();
         _gameState = _gameState.copyWith(
-          lives: (_gameState.lives + 5).clamp(0, GameState.maxLives),
+          lives: (_gameState.lives + 5).clamp(0, 10), // Permet de dépasser le max avec les pubs
           lastAdWatchTime: now,
         );
         

@@ -103,6 +103,38 @@ class AdsService {
     final Completer<bool> rewardCompleter = Completer<bool>();
     bool rewardEarned = false;
 
+    // Configurer temporairement les callbacks pour cette pub spécifique
+    _rewardedAd?.fullScreenContentCallback = FullScreenContentCallback(
+      onAdShowedFullScreenContent: (RewardedAd ad) {
+        debugPrint('🎯 Rewarded ad showed full screen content');
+      },
+      onAdDismissedFullScreenContent: (RewardedAd ad) {
+        debugPrint('🎯 Rewarded ad dismissed');
+        // Compléter avec le résultat de la récompense
+        if (!rewardCompleter.isCompleted) {
+          debugPrint('Completing with reward status: $rewardEarned');
+          rewardCompleter.complete(rewardEarned);
+        }
+        
+        ad.dispose();
+        _isRewardedAdReady = false;
+        _rewardedAd = null;
+        // Précharger la suivante
+        _loadRewardedAd();
+      },
+      onAdFailedToShowFullScreenContent: (RewardedAd ad, AdError error) {
+        debugPrint('❌ Rewarded ad failed to show: $error');
+        if (!rewardCompleter.isCompleted) {
+          rewardCompleter.complete(false);
+        }
+        ad.dispose();
+        _isRewardedAdReady = false;
+        _rewardedAd = null;
+        // Précharger la suivante
+        _loadRewardedAd();
+      },
+    );
+
     try {
       await _rewardedAd?.show(
         onUserEarnedReward: (AdWithoutView ad, RewardItem reward) {
@@ -110,13 +142,11 @@ class AdsService {
           rewardEarned = true;
         },
       );
-
-      // Attendre un peu pour que les callbacks se terminent
-      await Future.delayed(const Duration(milliseconds: 500));
-      rewardCompleter.complete(rewardEarned);
     } catch (e) {
       debugPrint('❌ Error showing rewarded ad: $e');
-      rewardCompleter.complete(false);
+      if (!rewardCompleter.isCompleted) {
+        rewardCompleter.complete(false);
+      }
     }
 
     return await rewardCompleter.future;

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/game_provider.dart';
 import '../models/tier.dart';
+import '../models/game_state.dart';
 import 'tier_levels_screen.dart';
 
 class TierSelectionScreen extends StatelessWidget {
@@ -27,8 +28,14 @@ class TierSelectionScreen extends StatelessWidget {
             ],
           ),
         ),
-        child: Consumer<GameProvider>(
-          builder: (context, gameProvider, child) {
+        child: Selector<GameProvider, ({int totalPoints, List<int> unlockedTiers, List<int> completedLevels})>(
+          selector: (context, gameProvider) => (
+            totalPoints: gameProvider.gameState.totalPoints,
+            unlockedTiers: gameProvider.gameState.unlockedTiers,
+            completedLevels: gameProvider.gameState.completedLevels,
+          ),
+          builder: (context, gameState, child) {
+            final gameProvider = context.read<GameProvider>();
             return FutureBuilder<List<Tier>>(
               future: gameProvider.gameService.getTiers(),
               builder: (context, snapshot) {
@@ -46,14 +53,14 @@ class TierSelectionScreen extends StatelessWidget {
                 
                 return Column(
                   children: [
-                    _buildPointsHeader(gameProvider),
+                    _buildPointsHeader(gameState.totalPoints),
                     Expanded(
                       child: ListView.builder(
                         padding: const EdgeInsets.all(16),
                         itemCount: tiers.length,
                         itemBuilder: (context, index) {
                           final tier = tiers[index];
-                          return _buildTierCard(context, tier, gameProvider);
+                          return _buildTierCard(context, tier, gameState, gameProvider);
                         },
                       ),
                     ),
@@ -67,7 +74,7 @@ class TierSelectionScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildPointsHeader(GameProvider gameProvider) {
+  Widget _buildPointsHeader(int totalPoints) {
     return Container(
       padding: const EdgeInsets.all(16),
       margin: const EdgeInsets.all(16),
@@ -92,7 +99,7 @@ class TierSelectionScreen extends StatelessWidget {
           ),
           const SizedBox(width: 8),
           Text(
-            '${gameProvider.gameState.totalPoints} Points',
+            '$totalPoints Points',
             style: const TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
@@ -104,10 +111,10 @@ class TierSelectionScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildTierCard(BuildContext context, Tier tier, GameProvider gameProvider) {
-    final isUnlocked = gameProvider.gameState.unlockedTiers.contains(tier.id);
-    final canUnlock = gameProvider.gameState.totalPoints >= tier.unlockCost;
-    final completedLevels = tier.getCompletedLevelsCount(gameProvider.gameState.completedLevels);
+  Widget _buildTierCard(BuildContext context, Tier tier, ({int totalPoints, List<int> unlockedTiers, List<int> completedLevels}) gameState, GameProvider gameProvider) {
+    final isUnlocked = gameState.unlockedTiers.contains(tier.id);
+    final canUnlock = gameState.totalPoints >= tier.unlockCost;
+    final completedLevels = tier.getCompletedLevelsCount(gameState.completedLevels);
     final totalLevels = tier.levelIds.length;
     final progress = totalLevels > 0 ? completedLevels / totalLevels : 0.0;
     
@@ -122,7 +129,7 @@ class TierSelectionScreen extends StatelessWidget {
                   ),
                 )
             : canUnlock
-                ? () => _showUnlockDialog(context, tier, gameProvider)
+                ? () => _showUnlockDialog(context, tier, gameState.totalPoints, gameProvider)
                 : null,
         child: Container(
           padding: const EdgeInsets.all(20),
@@ -258,7 +265,7 @@ class TierSelectionScreen extends StatelessWidget {
     );
   }
 
-  void _showUnlockDialog(BuildContext context, Tier tier, GameProvider gameProvider) {
+  void _showUnlockDialog(BuildContext context, Tier tier, int totalPoints, GameProvider gameProvider) {
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -292,7 +299,7 @@ class TierSelectionScreen extends StatelessWidget {
                   const Icon(Icons.account_balance_wallet, color: Colors.green),
                   const SizedBox(width: 8),
                   Text(
-                    'Vos points: ${gameProvider.gameState.totalPoints}',
+                    'Vos points: $totalPoints',
                     style: const TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ],
