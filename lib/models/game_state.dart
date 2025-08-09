@@ -6,6 +6,7 @@ class GameState {
   final DateTime lastPlayedDate;
   final bool dailyChallengeCompleted;
   final Map<int, List<String>> foundAnswersByLevel;
+  final Map<int, Map<int, String>> revealedHintsByLevel;
   final DateTime? lastLifeLostTime;
   final int totalPoints;
   final List<int> unlockedTiers;
@@ -23,6 +24,7 @@ class GameState {
     DateTime? lastPlayedDate,
     this.dailyChallengeCompleted = false,
     this.foundAnswersByLevel = const {},
+    this.revealedHintsByLevel = const {},
     this.lastLifeLostTime,
     this.totalPoints = 0,
     this.unlockedTiers = const [1],
@@ -37,6 +39,7 @@ class GameState {
     DateTime? lastPlayedDate,
     bool? dailyChallengeCompleted,
     Map<int, List<String>>? foundAnswersByLevel,
+    Map<int, Map<int, String>>? revealedHintsByLevel,
     DateTime? lastLifeLostTime,
     int? totalPoints,
     List<int>? unlockedTiers,
@@ -50,6 +53,7 @@ class GameState {
       lastPlayedDate: lastPlayedDate ?? this.lastPlayedDate,
       dailyChallengeCompleted: dailyChallengeCompleted ?? this.dailyChallengeCompleted,
       foundAnswersByLevel: foundAnswersByLevel ?? this.foundAnswersByLevel,
+      revealedHintsByLevel: revealedHintsByLevel ?? this.revealedHintsByLevel,
       lastLifeLostTime: lastLifeLostTime ?? this.lastLifeLostTime,
       totalPoints: totalPoints ?? this.totalPoints,
       unlockedTiers: unlockedTiers ?? this.unlockedTiers,
@@ -66,6 +70,8 @@ class GameState {
       'lastPlayedDate': lastPlayedDate.toIso8601String(),
       'dailyChallengeCompleted': dailyChallengeCompleted,
       'foundAnswersByLevel': foundAnswersByLevel.map((key, value) => MapEntry(key.toString(), value)),
+      'revealedHintsByLevel': revealedHintsByLevel.map((levelKey, hintMap) => 
+        MapEntry(levelKey.toString(), hintMap.map((indexKey, hint) => MapEntry(indexKey.toString(), hint)))),
       'lastLifeLostTime': lastLifeLostTime?.toIso8601String(),
       'totalPoints': totalPoints,
       'unlockedTiers': unlockedTiers,
@@ -81,6 +87,18 @@ class GameState {
         MapEntry(int.parse(key), List<String>.from(value ?? [])));
     }
     
+    Map<int, Map<int, String>> revealedHintsByLevel = {};
+    if (json['revealedHintsByLevel'] != null) {
+      final Map<String, dynamic> revealedHintsMap = json['revealedHintsByLevel'];
+      revealedHintsByLevel = revealedHintsMap.map((levelKey, hintMapData) {
+        final Map<String, dynamic> hintMap = hintMapData as Map<String, dynamic>;
+        return MapEntry(
+          int.parse(levelKey), 
+          hintMap.map((indexKey, hint) => MapEntry(int.parse(indexKey), hint.toString()))
+        );
+      });
+    }
+    
     return GameState(
       currentLevel: json['currentLevel'] ?? 1,
       lives: json['lives'] ?? 5,
@@ -89,6 +107,7 @@ class GameState {
       lastPlayedDate: DateTime.parse(json['lastPlayedDate'] ?? DateTime.now().toIso8601String()),
       dailyChallengeCompleted: json['dailyChallengeCompleted'] ?? false,
       foundAnswersByLevel: foundAnswersByLevel,
+      revealedHintsByLevel: revealedHintsByLevel,
       lastLifeLostTime: json['lastLifeLostTime'] != null 
         ? DateTime.parse(json['lastLifeLostTime']) 
         : null,

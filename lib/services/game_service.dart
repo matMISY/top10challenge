@@ -128,6 +128,35 @@ class GameService {
     await saveGameState(updatedGameState);
   }
 
+  Future<void> saveRevealedHintsForLevel(int levelId, Map<int, String> hints) async {
+    final gameState = await getGameState();
+    final updatedRevealedHints = Map<int, Map<int, String>>.from(gameState.revealedHintsByLevel);
+    updatedRevealedHints[levelId] = Map.from(hints);
+    
+    final updatedGameState = gameState.copyWith(
+      revealedHintsByLevel: updatedRevealedHints,
+    );
+    
+    await saveGameState(updatedGameState);
+  }
+
+  Future<Map<int, String>> getRevealedHintsForLevel(int levelId) async {
+    final gameState = await getGameState();
+    return Map<int, String>.from(gameState.revealedHintsByLevel[levelId] ?? {});
+  }
+
+  Future<void> clearRevealedHintsForLevel(int levelId) async {
+    final gameState = await getGameState();
+    final updatedRevealedHints = Map<int, Map<int, String>>.from(gameState.revealedHintsByLevel);
+    updatedRevealedHints.remove(levelId);
+    
+    final updatedGameState = gameState.copyWith(
+      revealedHintsByLevel: updatedRevealedHints,
+    );
+    
+    await saveGameState(updatedGameState);
+  }
+
   /// Récupère automatiquement les vies basé sur le temps écoulé
   Future<GameState> recoverLives() async {
     final gameState = await getGameState();

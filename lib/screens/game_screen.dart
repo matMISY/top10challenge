@@ -26,6 +26,7 @@ class _GameScreenState extends State<GameScreen> {
   final List<String> _foundAnswers = [];
   List<String> _availableAnswers = [];
   bool _debugAnswersRevealed = false;
+  Map<int, String> _revealedHints = {};
 
   @override
   void initState() {
@@ -57,10 +58,12 @@ class _GameScreenState extends State<GameScreen> {
 
   Future<void> _loadSavedAnswers() async {
     final savedAnswers = await _gameService.getFoundAnswersForLevel(widget.level.id);
+    final savedHints = await _gameService.getRevealedHintsForLevel(widget.level.id);
     setState(() {
       _foundAnswers.clear();
       _foundAnswers.addAll(savedAnswers);
       _availableAnswers = widget.level.answerNames.where((answer) => !savedAnswers.contains(answer)).toList();
+      _revealedHints = Map.from(savedHints);
     });
   }
 
@@ -108,6 +111,7 @@ class _GameScreenState extends State<GameScreen> {
 
   void _onLevelCompleted() {
     _gameService.clearFoundAnswersForLevel(widget.level.id);
+    _gameService.clearRevealedHintsForLevel(widget.level.id);
     context.read<GameProvider>().completeLevel(widget.level.id);
     
     showDialog(
@@ -208,11 +212,13 @@ class _GameScreenState extends State<GameScreen> {
 
   void _resetLevel() {
     _gameService.clearFoundAnswersForLevel(widget.level.id);
+    _gameService.clearRevealedHintsForLevel(widget.level.id);
     setState(() {
       _foundAnswers.clear();
       _availableAnswers = List.from(widget.level.answerNames);
       _searchController.clear();
       _debugAnswersRevealed = false;
+      _revealedHints.clear();
     });
   }
 
@@ -376,22 +382,34 @@ class _GameScreenState extends State<GameScreen> {
     }
   }
 
-  void _useHint() {
+  void _onHintRequested(int index) async {
     final gameProvider = context.read<GameProvider>();
-    if (gameProvider.gameState.hints > 0) {
-      gameProvider.useHint();
+    print('DEBUG: _onHintRequested called with index: $index');
+    print('DEBUG: hints available: ${gameProvider.gameState.hints}');
+    print('DEBUG: answers length: ${widget.level.answers.length}');
+    if (index < widget.level.answers.length) {
+      print('DEBUG: hint for index $index: "${widget.level.answers[index].hint}"');
+    }
+    
+    if (gameProvider.gameState.hints > 0 && 
+        index < widget.level.answers.length && 
+        widget.level.answers[index].hint.isNotEmpty) {
       
-      final randomAnswer = _availableAnswers.first;
+      print('DEBUG: Conditions met, using hint...');
+      // Consommer l'indice
+      await gameProvider.useHint();
+      
+      print('DEBUG: Hint used, new count: ${gameProvider.gameState.hints}');
+      
+      // Révéler l'indice pour cette position
       setState(() {
-        _foundAnswers.add(randomAnswer);
-        _availableAnswers.remove(randomAnswer);
+        _revealedHints[index] = widget.level.answers[index].hint;
       });
 
-      _gameService.saveFoundAnswersForLevel(widget.level.id, _foundAnswers);
-
-      if (_foundAnswers.length == 10) {
-        _onLevelCompleted();
-      }
+      // Sauvegarder les indices révélés
+      await _gameService.saveRevealedHintsForLevel(widget.level.id, _revealedHints);
+    } else {
+      print('DEBUG: Conditions not met for hint usage');
     }
   }
 
@@ -425,11 +443,27 @@ class _GameScreenState extends State<GameScreen> {
         actions: [
           Consumer<GameProvider>(
             builder: (context, gameProvider, child) {
-              return IconButton(
-                onPressed: gameProvider.gameState.hints > 0 ? _useHint : null,
-                icon: Badge(
-                  label: Text('${gameProvider.gameState.hints}'),
-                  child: const Icon(Icons.lightbulb),
+              return Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                margin: const EdgeInsets.only(right: 8),
+                decoration: BoxDecoration(
+                  color: Colors.amber.shade700.withValues(alpha: 0.8),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.lightbulb, color: Colors.white, size: 18),
+                    const SizedBox(width: 4),
+                    Text(
+                      '${gameProvider.gameState.hints}',
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
               );
             },
@@ -579,11 +613,18 @@ class _GameScreenState extends State<GameScreen> {
                                 isFound = _foundAnswers.contains(answerForPosition.name);
                               }
                               
-                              return AnswerSlot(
-                                index: index + 1,
-                                answer: answerForPosition,
-                                isFound: isFound,
-                                debugRevealAnswer: _debugAnswersRevealed,
+                              return Consumer<GameProvider>(
+                                builder: (context, gameProvider, child) {
+                                  return AnswerSlot(
+                                    index: index + 1,
+                                    answer: answerForPosition,
+                                    isFound: isFound,
+                                    debugRevealAnswer: _debugAnswersRevealed,
+                                    revealedHint: _revealedHints[index],
+                                    onHintRequested: () => _onHintRequested(index),
+                                    canUseHint: gameProvider.gameState.hints > 0,
+                                  );
+                                },
                               );
                             },
                           ),
