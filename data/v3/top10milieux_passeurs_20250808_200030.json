@@ -4,7 +4,7 @@
   "quizzes": [
     {
       "id": 1,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League entre 2020-2024",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League en 2020-2024",
       "theme": "Milieux passeurs",
       "difficulty": 4,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -70,7 +70,7 @@
     },
     {
       "id": 2,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League entre 2015-2020",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League en 2015-2020",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -136,7 +136,7 @@
     },
     {
       "id": 3,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga entre 2020-2024",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga en 2020-2024",
       "theme": "Milieux passeurs",
       "difficulty": 4,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -202,7 +202,7 @@
     },
     {
       "id": 4,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga entre 2015-2020",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga en 2015-2020",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -268,7 +268,7 @@
     },
     {
       "id": 5,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A entre 2020-2024",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A en 2020-2024",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -334,7 +334,7 @@
     },
     {
       "id": 6,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A entre 2015-2020",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A en 2015-2020",
       "theme": "Milieux passeurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -400,7 +400,7 @@
     },
     {
       "id": 7,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga entre 2020-2024",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga en 2020-2024",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -466,7 +466,7 @@
     },
     {
       "id": 8,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga entre 2015-2020",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga en 2015-2020",
       "theme": "Milieux passeurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -532,7 +532,7 @@
     },
     {
       "id": 9,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 entre 2020-2024",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 en 2020-2024",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",
@@ -598,7 +598,7 @@
     },
     {
       "id": 10,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 entre 2015-2020",
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 en 2015-2020",
       "theme": "Milieux passeurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son club principal dans le championnat",

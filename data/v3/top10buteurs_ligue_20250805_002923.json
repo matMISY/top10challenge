@@ -4,7 +4,7 @@
   "quizzes": [
     {
       "id": 1,
-      "title": "TOP 10 des buteurs de Premier League entre 2020-2024",
+      "title": "TOP 10 des buteurs de Premier League en 2020-2024",
       "theme": "Buteurs",
       "difficulty": 3,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -70,7 +70,7 @@
     },
     {
       "id": 2,
-      "title": "TOP 10 des buteurs de Premier League entre 2015-2020",
+      "title": "TOP 10 des buteurs de Premier League en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 4,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -136,7 +136,7 @@
     },
     {
       "id": 3,
-      "title": "TOP 10 des buteurs de Premier League entre 2010-2015",
+      "title": "TOP 10 des buteurs de Premier League en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -202,7 +202,7 @@
     },
     {
       "id": 4,
-      "title": "TOP 10 des buteurs de Premier League entre 2005-2010",
+      "title": "TOP 10 des buteurs de Premier League en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -347,7 +347,7 @@
         {
           "name": "Cole Palmer",
           "nationality": "",
-          "hint": "Man City
+          "hint": "Man City"
         },
         {
           "name": "Alexander Isak",
@@ -598,7 +598,7 @@
     },
     {
       "id": 10,
-      "title": "TOP 10 des buteurs de Liga entre 2020-2024",
+      "title": "TOP 10 des buteurs de Liga en 2020-2024",
       "theme": "Buteurs",
       "difficulty": 3,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -664,7 +664,7 @@
     },
     {
       "id": 11,
-      "title": "TOP 10 des buteurs de Liga entre 2015-2020",
+      "title": "TOP 10 des buteurs de Liga en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 4,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -730,7 +730,7 @@
     },
     {
       "id": 12,
-      "title": "TOP 10 des buteurs de Liga entre 2010-2015",
+      "title": "TOP 10 des buteurs de Liga en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -796,7 +796,7 @@
     },
     {
       "id": 13,
-      "title": "TOP 10 des buteurs de Liga entre 2005-2010",
+      "title": "TOP 10 des buteurs de Liga en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -1192,7 +1192,7 @@
     },
     {
       "id": 19,
-      "title": "TOP 10 des buteurs de Serie A entre 2020-2024",
+      "title": "TOP 10 des buteurs de Serie A en 2020-2024",
       "theme": "Buteurs",
       "difficulty": 4,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -1258,7 +1258,7 @@
     },
     {
       "id": 20,
-      "title": "TOP 10 des buteurs de Serie A entre 2015-2020",
+      "title": "TOP 10 des buteurs de Serie A en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -1324,7 +1324,7 @@
     },
     {
       "id": 21,
-      "title": "TOP 10 des buteurs de Serie A entre 2010-2015",
+      "title": "TOP 10 des buteurs de Serie A en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -1390,7 +1390,7 @@
     },
     {
       "id": 22,
-      "title": "TOP 10 des buteurs de Serie A entre 2005-2010",
+      "title": "TOP 10 des buteurs de Serie A en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -1786,7 +1786,7 @@
     },
     {
       "id": 28,
-      "title": "TOP 10 des buteurs de Bundesliga entre 2020-2024",
+      "title": "TOP 10 des buteurs de Bundesliga en 2020-2024",
       "theme": "Buteurs",
       "difficulty": 4,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -1852,7 +1852,7 @@
     },
     {
       "id": 29,
-      "title": "TOP 10 des buteurs de Bundesliga entre 2015-2020",
+      "title": "TOP 10 des buteurs de Bundesliga en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -1918,7 +1918,7 @@
     },
     {
       "id": 30,
-      "title": "TOP 10 des buteurs de Bundesliga entre 2010-2015",
+      "title": "TOP 10 des buteurs de Bundesliga en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -1984,7 +1984,7 @@
     },
     {
       "id": 31,
-      "title": "TOP 10 des buteurs de Bundesliga entre 2005-2010",
+      "title": "TOP 10 des buteurs de Bundesliga en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -2380,7 +2380,7 @@
     },
     {
       "id": 37,
-      "title": "TOP 10 des buteurs de Ligue 1 entre 2020-2024",
+      "title": "TOP 10 des buteurs de Ligue 1 en 2020-2024",
       "theme": "Buteurs",
       "difficulty": 4,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -2446,7 +2446,7 @@
     },
     {
       "id": 38,
-      "title": "TOP 10 des buteurs de Ligue 1 entre 2015-2020",
+      "title": "TOP 10 des buteurs de Ligue 1 en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -2512,7 +2512,7 @@
     },
     {
       "id": 39,
-      "title": "TOP 10 des buteurs de Ligue 1 entre 2010-2015",
+      "title": "TOP 10 des buteurs de Ligue 1 en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",
@@ -2578,7 +2578,7 @@
     },
     {
       "id": 40,
-      "title": "TOP 10 des buteurs de Ligue 1 entre 2005-2010",
+      "title": "TOP 10 des buteurs de Ligue 1 en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 6,
       "hint": "Pour chaque joueur, renseigner son dernier club dans le championnat (ex : Kylian Mbappé => PSG)",

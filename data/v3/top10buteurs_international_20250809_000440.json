@@ -1,0 +1,1110 @@
+{
+  "generated_at": "2025-08-09T00:04:40.748199",
+  "total_quizzes": 16,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2022",
+      "theme": "Buteurs Coupe du Monde",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "J.A."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Richarlison",
+          "nationality": "brésil",
+          "hint": "R."
+        },
+        {
+          "name": "Bukayo Saka",
+          "nationality": "angleterre",
+          "hint": "B.S."
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "portugal",
+          "hint": "G.R."
+        },
+        {
+          "name": "Enner Valencia",
+          "nationality": "équateur",
+          "hint": "E.V."
+        },
+        {
+          "name": "Marcus Rashford",
+          "nationality": "angleterre",
+          "hint": "M.R."
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-du-monde",
+        "competition_name": "Coupe du Monde",
+        "year": 2022,
+        "base_difficulty": 1,
+        "kannee": 1,
+        "difficulty_label": "très facile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.743029"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2018",
+      "theme": "Buteurs Coupe du Monde",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "K.M."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Denis Cheryshev",
+          "nationality": "russie",
+          "hint": "D.C."
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": "M.M."
+        },
+        {
+          "name": "Artem Dzyuba",
+          "nationality": "russie",
+          "hint": "A.D."
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "E.H."
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "hint": "I.P."
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-du-monde",
+        "competition_name": "Coupe du Monde",
+        "year": 2018,
+        "base_difficulty": 1,
+        "kannee": 2,
+        "difficulty_label": "facile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.743199"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2014",
+      "theme": "Buteurs Coupe du Monde",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "J.R."
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "R.P."
+        },
+        {
+          "name": "Arjen Robben",
+          "nationality": "pays-bas",
+          "hint": "A.R."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "André Schürrle",
+          "nationality": "allemagne",
+          "hint": "A.S."
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "nationality": "suisse",
+          "hint": "X.S."
+        },
+        {
+          "name": "Enner Valencia",
+          "nationality": "équateur",
+          "hint": "E.V."
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-du-monde",
+        "competition_name": "Coupe du Monde",
+        "year": 2014,
+        "base_difficulty": 1,
+        "kannee": 3,
+        "difficulty_label": "moyen",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.743582"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2010",
+      "theme": "Buteurs Coupe du Monde",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Wesley Sneijder",
+          "nationality": "pays-bas",
+          "hint": "W.S."
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "D.V."
+        },
+        {
+          "name": "Diego Forlán",
+          "nationality": "uruguay",
+          "hint": "D.F."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Róbert Vittek",
+          "nationality": "slovaquie",
+          "hint": "R.V."
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "allemagne",
+          "hint": "M.K."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Asamoah Gyan",
+          "nationality": "ghana",
+          "hint": "A.G."
+        },
+        {
+          "name": "Landon Donovan",
+          "nationality": "états-unis",
+          "hint": "L.D."
+        }
+      ],
+      "metadata": {
+        "competition": "coupe-du-monde",
+        "competition_name": "Coupe du Monde",
+        "year": 2010,
+        "base_difficulty": 1,
+        "kannee": 4,
+        "difficulty_label": "difficile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.743953"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des buteurs de la Euro 2024",
+      "theme": "Buteurs Euro",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Dani Olmo",
+          "nationality": "espagne",
+          "hint": "D.O."
+        },
+        {
+          "name": "Georges Mikautadze",
+          "nationality": "géorgie",
+          "hint": "G.M."
+        },
+        {
+          "name": "Cody Gakpo",
+          "nationality": "pays-bas",
+          "hint": "C.G."
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Ivan Schranz",
+          "nationality": "slovaquie",
+          "hint": "I.S."
+        },
+        {
+          "name": "Jamal Musiala",
+          "nationality": "allemagne",
+          "hint": "J.M."
+        },
+        {
+          "name": "Fabián Ruiz",
+          "nationality": "espagne",
+          "hint": "F.R."
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "J.B."
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "K.H."
+        },
+        {
+          "name": "Nico Williams",
+          "nationality": "espagne",
+          "hint": "N.W."
+        }
+      ],
+      "metadata": {
+        "competition": "euro",
+        "competition_name": "Euro",
+        "year": 2024,
+        "base_difficulty": 1,
+        "kannee": 1,
+        "difficulty_label": "très facile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.744307"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des buteurs de la Euro 2021",
+      "theme": "Buteurs Euro",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "république tchèque",
+          "hint": "P.S."
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "K.B."
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "R.L."
+        },
+        {
+          "name": "Emil Forsberg",
+          "nationality": "suède",
+          "hint": "E.F."
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "H.K."
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "nationality": "suisse",
+          "hint": "X.S."
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "R.S."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Kasper Dolberg",
+          "nationality": "danemark",
+          "hint": "K.D."
+        }
+      ],
+      "metadata": {
+        "competition": "euro",
+        "competition_name": "Euro",
+        "year": 2021,
+        "base_difficulty": 1,
+        "kannee": 2,
+        "difficulty_label": "facile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.744589"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des buteurs de la Euro 2016",
+      "theme": "Buteurs Euro",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "A.G."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "O.G."
+        },
+        {
+          "name": "Dimitri Payet",
+          "nationality": "france",
+          "hint": "D.P."
+        },
+        {
+          "name": "Nani",
+          "nationality": "portugal",
+          "hint": "N."
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "G.B."
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Á.M."
+        },
+        {
+          "name": "Radja Nainggolan",
+          "nationality": "belgique",
+          "hint": "R.N."
+        },
+        {
+          "name": "Ivan Perišić",
+          "nationality": "croatie",
+          "hint": "I.P."
+        },
+        {
+          "name": "Jakub Blaszczykowski",
+          "nationality": "pologne",
+          "hint": "J.B."
+        }
+      ],
+      "metadata": {
+        "competition": "euro",
+        "competition_name": "Euro",
+        "year": 2016,
+        "base_difficulty": 1,
+        "kannee": 3,
+        "difficulty_label": "moyen",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.744997"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des buteurs de la Euro 2012",
+      "theme": "Buteurs Euro",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Mario Gómez",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": "M.M."
+        },
+        {
+          "name": "Alan Dzagoev",
+          "nationality": "russie",
+          "hint": "A.D."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Michael Krohn-Dehli",
+          "nationality": "danemark",
+          "hint": "M.K."
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        },
+        {
+          "name": "Dimitrios Salpingidis",
+          "nationality": "grèce",
+          "hint": "D.S."
+        }
+      ],
+      "metadata": {
+        "competition": "euro",
+        "competition_name": "Euro",
+        "year": 2012,
+        "base_difficulty": 1,
+        "kannee": 4,
+        "difficulty_label": "difficile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.745391"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des buteurs de la Copa América 2024",
+      "theme": "Buteurs Copa América",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Salomón Rondón",
+          "nationality": "venezuela",
+          "hint": "S.R."
+        },
+        {
+          "name": "Jhon Córdoba",
+          "nationality": "colombie",
+          "hint": "J.C."
+        },
+        {
+          "name": "Daniel Muñoz",
+          "nationality": "colombie",
+          "hint": "D.M."
+        },
+        {
+          "name": "Maxi Araújo",
+          "nationality": "uruguay",
+          "hint": "M.A."
+        },
+        {
+          "name": "Vinicius Junior",
+          "nationality": "brésil",
+          "hint": "V.J."
+        },
+        {
+          "name": "Darwin Núñez",
+          "nationality": "uruguay",
+          "hint": "D.N."
+        },
+        {
+          "name": "Jonathan David",
+          "nationality": "canada",
+          "hint": "J.D."
+        },
+        {
+          "name": "Folarin Balogun",
+          "nationality": "états-unis",
+          "hint": "F.B."
+        },
+        {
+          "name": "José Fajardo",
+          "nationality": "panama",
+          "hint": "J.F."
+        }
+      ],
+      "metadata": {
+        "competition": "copa-america",
+        "competition_name": "Copa América",
+        "year": 2024,
+        "base_difficulty": 2,
+        "kannee": 1,
+        "difficulty_label": "facile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.745527"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des buteurs de la Copa América 2021",
+      "theme": "Buteurs Copa América",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Gianluca Lapadula",
+          "nationality": "pérou",
+          "hint": "G.L."
+        },
+        {
+          "name": "Luis Díaz",
+          "nationality": "colombie",
+          "hint": "L.D."
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "N."
+        },
+        {
+          "name": "André Carrillo",
+          "nationality": "pérou",
+          "hint": "A.C."
+        },
+        {
+          "name": "Papu Gómez",
+          "nationality": "argentine",
+          "hint": "P.G."
+        },
+        {
+          "name": "Eduardo Vargas",
+          "nationality": "chili",
+          "hint": "E.V."
+        },
+        {
+          "name": "Yoshimar Yotún",
+          "nationality": "pérou",
+          "hint": "Y.Y."
+        },
+        {
+          "name": "Ángel Romero",
+          "nationality": "paraguay",
+          "hint": "Á.R."
+        }
+      ],
+      "metadata": {
+        "competition": "copa-america",
+        "competition_name": "Copa América",
+        "year": 2021,
+        "base_difficulty": 2,
+        "kannee": 2,
+        "difficulty_label": "moyen",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.745978"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 des buteurs de la Copa América 2019",
+      "theme": "Buteurs Copa América",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Everton",
+          "nationality": "brésil",
+          "hint": "E."
+        },
+        {
+          "name": "Paolo Guerrero",
+          "nationality": "pérou",
+          "hint": "P.G."
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "R.F."
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brésil",
+          "hint": "G.J."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        }
+      ],
+      "metadata": {
+        "competition": "copa-america",
+        "competition_name": "Copa América",
+        "year": 2019,
+        "base_difficulty": 2,
+        "kannee": 3,
+        "difficulty_label": "difficile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.746313"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 des buteurs de la Copa América 2016",
+      "theme": "Buteurs Copa América",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Eduardo Vargas",
+          "nationality": "chili",
+          "hint": "E.V."
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "L.M."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Clint Dempsey",
+          "nationality": "états-unis",
+          "hint": "C.D."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        },
+        {
+          "name": "Enner Valencia",
+          "nationality": "équateur",
+          "hint": "E.V."
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "A.V."
+        },
+        {
+          "name": "José Pedro Fuenzalida",
+          "nationality": "chili",
+          "hint": "J.F."
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "E.L."
+        }
+      ],
+      "metadata": {
+        "competition": "copa-america",
+        "competition_name": "Copa América",
+        "year": 2016,
+        "base_difficulty": 2,
+        "kannee": 4,
+        "difficulty_label": "très difficile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.746724"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 des buteurs de la CAN 2023",
+      "theme": "Buteurs CAN",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "S.E."
+        },
+        {
+          "name": "Laurent Pokou",
+          "nationality": "côte d'ivoire",
+          "hint": "L.P."
+        },
+        {
+          "name": "Rashidi Yekini",
+          "nationality": "nigéria",
+          "hint": "R.Y."
+        },
+        {
+          "name": "Hassan El-Shazly",
+          "nationality": "égypte",
+          "hint": "H.E."
+        },
+        {
+          "name": "Badawi Abdelfattah",
+          "nationality": "égypte",
+          "hint": "B.A."
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte d'ivoire",
+          "hint": "D.D."
+        },
+        {
+          "name": "Hossam Hassan",
+          "nationality": "égypte",
+          "hint": "H.H."
+        },
+        {
+          "name": "Patrick Mboma",
+          "nationality": "cameroun",
+          "hint": "P.M."
+        },
+        {
+          "name": "Kalusha Bwalya",
+          "nationality": "zambie",
+          "hint": "K.B."
+        },
+        {
+          "name": "Santos",
+          "nationality": "tunisie",
+          "hint": "S."
+        }
+      ],
+      "metadata": {
+        "competition": "can",
+        "competition_name": "CAN",
+        "year": 2023,
+        "base_difficulty": 2,
+        "kannee": 1,
+        "difficulty_label": "facile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.746885"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 des buteurs de la CAN 2021",
+      "theme": "Buteurs CAN",
+      "difficulty": 4,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Vincent Aboubakar",
+          "nationality": "cameroun",
+          "hint": "V.A."
+        },
+        {
+          "name": "Karl Toko Ekambi",
+          "nationality": "cameroun",
+          "hint": "K.E."
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "S.M."
+        },
+        {
+          "name": "Ibrahima Koné",
+          "nationality": "mali",
+          "hint": "I.K."
+        },
+        {
+          "name": "Gabadinho Mhango",
+          "nationality": "malawi",
+          "hint": "G.M."
+        },
+        {
+          "name": "Sofiane Boufal",
+          "nationality": "maroc",
+          "hint": "S.B."
+        },
+        {
+          "name": "Musa Barrow",
+          "nationality": "gambie",
+          "hint": "M.B."
+        },
+        {
+          "name": "Wahbi Khazri",
+          "nationality": "tunisie",
+          "hint": "W.K."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Nicolas Pépé",
+          "nationality": "côte d'ivoire",
+          "hint": "N.P."
+        }
+      ],
+      "metadata": {
+        "competition": "can",
+        "competition_name": "CAN",
+        "year": 2021,
+        "base_difficulty": 2,
+        "kannee": 2,
+        "difficulty_label": "moyen",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.747300"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 des buteurs de la CAN 2019",
+      "theme": "Buteurs CAN",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Odion Ighalo",
+          "nationality": "nigéria",
+          "hint": "O.I."
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "S.M."
+        },
+        {
+          "name": "Adam Ounas",
+          "nationality": "algérie",
+          "hint": "A.O."
+        },
+        {
+          "name": "Cédric Bakambu",
+          "nationality": "république démocratique du congo",
+          "hint": "C.B."
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "R.M."
+        },
+        {
+          "name": "Baghdad Bounedjah",
+          "nationality": "algérie",
+          "hint": "B.B."
+        },
+        {
+          "name": "Andria",
+          "nationality": "madagascar",
+          "hint": "A."
+        },
+        {
+          "name": "Youssef Msakni",
+          "nationality": "tunisie",
+          "hint": "Y.M."
+        },
+        {
+          "name": "Stéphane Bahoken",
+          "nationality": "cameroun",
+          "hint": "S.B."
+        },
+        {
+          "name": "Jonathan Kodjia",
+          "nationality": "côte d'ivoire",
+          "hint": "J.K."
+        }
+      ],
+      "metadata": {
+        "competition": "can",
+        "competition_name": "CAN",
+        "year": 2019,
+        "base_difficulty": 2,
+        "kannee": 3,
+        "difficulty_label": "difficile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.747809"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 des buteurs de la CAN 2017",
+      "theme": "Buteurs CAN",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner les initiales (ex : K.M.)",
+      "answers": [
+        {
+          "name": "Junior Kabananga",
+          "nationality": "république démocratique du congo",
+          "hint": "J.K."
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "M.S."
+        },
+        {
+          "name": "Naïm Sliti",
+          "nationality": "tunisie",
+          "hint": "N.S."
+        },
+        {
+          "name": "Islam Slimani",
+          "nationality": "algérie",
+          "hint": "I.S."
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "R.M."
+        },
+        {
+          "name": "Préjuce Nakoulma",
+          "nationality": "burkina faso",
+          "hint": "P.N."
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "S.M."
+        },
+        {
+          "name": "Aristide Bancé",
+          "nationality": "burkina faso",
+          "hint": "A.B."
+        },
+        {
+          "name": "André Ayew",
+          "nationality": "ghana",
+          "hint": "A.A."
+        },
+        {
+          "name": "Michael Ngadeu",
+          "nationality": "cameroun",
+          "hint": "M.N."
+        }
+      ],
+      "metadata": {
+        "competition": "can",
+        "competition_name": "CAN",
+        "year": 2017,
+        "base_difficulty": 2,
+        "kannee": 4,
+        "difficulty_label": "très difficile",
+        "data_source": "international_scorers",
+        "generated_at": "2025-08-09T00:04:40.748184"
+      }
+    }
+  ]
+}

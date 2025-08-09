@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-08-08T20:19:29.905118",
-  "total_quizzes": 108,
+  "generated_at": "2025-08-09T00:41:39.144652",
+  "total_quizzes": 126,
   "quizzes": [
     {
       "id": 1,
-      "title": "TOP 10 des passeurs de Arsenal entre 2010-2015",
+      "title": "TOP 10 des passeurs de Arsenal en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -62,7 +62,7 @@
     },
     {
       "id": 2,
-      "title": "TOP 10 des passeurs de Arsenal entre 2005-2010",
+      "title": "TOP 10 des passeurs de Arsenal en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -120,7 +120,7 @@
     },
     {
       "id": 3,
-      "title": "TOP 10 des passeurs de Barcelona entre 2010-2015",
+      "title": "TOP 10 des passeurs de Barcelona en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -178,7 +178,7 @@
     },
     {
       "id": 4,
-      "title": "TOP 10 des passeurs de Barcelona entre 2005-2010",
+      "title": "TOP 10 des passeurs de Barcelona en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -236,7 +236,7 @@
     },
     {
       "id": 5,
-      "title": "TOP 10 des passeurs de Bayern Munich entre 2010-2015",
+      "title": "TOP 10 des passeurs de Bayern Munich en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -294,7 +294,7 @@
     },
     {
       "id": 6,
-      "title": "TOP 10 des passeurs de Bayern Munich entre 2005-2010",
+      "title": "TOP 10 des passeurs de Bayern Munich en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -352,7 +352,7 @@
     },
     {
       "id": 7,
-      "title": "TOP 10 des passeurs de Chelsea entre 2010-2015",
+      "title": "TOP 10 des passeurs de Chelsea en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -410,7 +410,7 @@
     },
     {
       "id": 8,
-      "title": "TOP 10 des passeurs de Chelsea entre 2005-2010",
+      "title": "TOP 10 des passeurs de Chelsea en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -468,7 +468,7 @@
     },
     {
       "id": 9,
-      "title": "TOP 10 des passeurs de Inter Milan entre 2010-2015",
+      "title": "TOP 10 des passeurs de Inter Milan en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -526,7 +526,7 @@
     },
     {
       "id": 10,
-      "title": "TOP 10 des passeurs de Inter Milan entre 2005-2010",
+      "title": "TOP 10 des passeurs de Inter Milan en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -584,7 +584,7 @@
     },
     {
       "id": 11,
-      "title": "TOP 10 des passeurs de Liverpool entre 2010-2015",
+      "title": "TOP 10 des passeurs de Liverpool en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -642,7 +642,7 @@
     },
     {
       "id": 12,
-      "title": "TOP 10 des passeurs de Liverpool entre 2005-2010",
+      "title": "TOP 10 des passeurs de Liverpool en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -700,7 +700,7 @@
     },
     {
       "id": 13,
-      "title": "TOP 10 des passeurs de Man City entre 2010-2015",
+      "title": "TOP 10 des passeurs de Man City en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -758,7 +758,7 @@
     },
     {
       "id": 14,
-      "title": "TOP 10 des passeurs de Man City entre 2005-2010",
+      "title": "TOP 10 des passeurs de Man City en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -816,7 +816,7 @@
     },
     {
       "id": 15,
-      "title": "TOP 10 des passeurs de Man Utd entre 2010-2015",
+      "title": "TOP 10 des passeurs de Man Utd en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -874,7 +874,7 @@
     },
     {
       "id": 16,
-      "title": "TOP 10 des passeurs de Man Utd entre 2005-2010",
+      "title": "TOP 10 des passeurs de Man Utd en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -932,7 +932,7 @@
     },
     {
       "id": 17,
-      "title": "TOP 10 des passeurs de PSG entre 2010-2015",
+      "title": "TOP 10 des passeurs de PSG en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -990,7 +990,7 @@
     },
     {
       "id": 18,
-      "title": "TOP 10 des passeurs de PSG entre 2005-2010",
+      "title": "TOP 10 des passeurs de PSG en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1048,7 +1048,7 @@
     },
     {
       "id": 19,
-      "title": "TOP 10 des passeurs de Real Madrid entre 2010-2015",
+      "title": "TOP 10 des passeurs de Real Madrid en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1106,7 +1106,7 @@
     },
     {
       "id": 20,
-      "title": "TOP 10 des passeurs de Real Madrid entre 2005-2010",
+      "title": "TOP 10 des passeurs de Real Madrid en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1164,7 +1164,7 @@
     },
     {
       "id": 21,
-      "title": "TOP 10 des passeurs de Aston Villa entre 2015-2020",
+      "title": "TOP 10 des passeurs de Aston Villa en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1222,7 +1222,7 @@
     },
     {
       "id": 22,
-      "title": "TOP 10 des passeurs de Atalanta entre 2015-2020",
+      "title": "TOP 10 des passeurs de Atalanta en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1280,7 +1280,7 @@
     },
     {
       "id": 23,
-      "title": "TOP 10 des passeurs de Atletico Madrid entre 2015-2020",
+      "title": "TOP 10 des passeurs de Atletico Madrid en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1338,7 +1338,7 @@
     },
     {
       "id": 24,
-      "title": "TOP 10 des passeurs de Dortmund entre 2015-2020",
+      "title": "TOP 10 des passeurs de Dortmund en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1396,7 +1396,7 @@
     },
     {
       "id": 25,
-      "title": "TOP 10 des passeurs de Juventus entre 2015-2020",
+      "title": "TOP 10 des passeurs de Juventus en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1454,7 +1454,7 @@
     },
     {
       "id": 26,
-      "title": "TOP 10 des passeurs de Lazio entre 2015-2020",
+      "title": "TOP 10 des passeurs de Lazio en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1512,7 +1512,7 @@
     },
     {
       "id": 27,
-      "title": "TOP 10 des passeurs de Leipzig entre 2015-2020",
+      "title": "TOP 10 des passeurs de Leipzig en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1570,7 +1570,7 @@
     },
     {
       "id": 28,
-      "title": "TOP 10 des passeurs de Leverkusen entre 2015-2020",
+      "title": "TOP 10 des passeurs de Leverkusen en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1628,7 +1628,7 @@
     },
     {
       "id": 29,
-      "title": "TOP 10 des passeurs de Milan entre 2015-2020",
+      "title": "TOP 10 des passeurs de Milan en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1686,7 +1686,7 @@
     },
     {
       "id": 30,
-      "title": "TOP 10 des passeurs de Napoli entre 2015-2020",
+      "title": "TOP 10 des passeurs de Napoli en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1744,7 +1744,7 @@
     },
     {
       "id": 31,
-      "title": "TOP 10 des passeurs de Roma entre 2015-2020",
+      "title": "TOP 10 des passeurs de Roma en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1802,7 +1802,7 @@
     },
     {
       "id": 32,
-      "title": "TOP 10 des passeurs de Villarreal entre 2015-2020",
+      "title": "TOP 10 des passeurs de Villarreal en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1860,7 +1860,7 @@
     },
     {
       "id": 33,
-      "title": "TOP 10 des passeurs de Premier League entre 2010-2015",
+      "title": "TOP 10 des passeurs de Premier League en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1918,7 +1918,7 @@
     },
     {
       "id": 34,
-      "title": "TOP 10 des passeurs de Premier League entre 2005-2010",
+      "title": "TOP 10 des passeurs de Premier League en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -1976,7 +1976,7 @@
     },
     {
       "id": 35,
-      "title": "TOP 10 des passeurs de Liga entre 2010-2015",
+      "title": "TOP 10 des passeurs de Liga en 2010-2015",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2034,7 +2034,7 @@
     },
     {
       "id": 36,
-      "title": "TOP 10 des passeurs de Liga entre 2005-2010",
+      "title": "TOP 10 des passeurs de Liga en 2005-2010",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2092,7 +2092,7 @@
     },
     {
       "id": 37,
-      "title": "TOP 10 des passeurs de Serie A entre 2015-2020",
+      "title": "TOP 10 des passeurs de Serie A en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2150,7 +2150,7 @@
     },
     {
       "id": 38,
-      "title": "TOP 10 des passeurs de Serie A entre 2019",
+      "title": "TOP 10 des passeurs de Serie A en 2019",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2208,7 +2208,7 @@
     },
     {
       "id": 39,
-      "title": "TOP 10 des passeurs de Serie A entre 2018",
+      "title": "TOP 10 des passeurs de Serie A en 2018",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2266,7 +2266,7 @@
     },
     {
       "id": 40,
-      "title": "TOP 10 des passeurs de Bundesliga entre 2015-2020",
+      "title": "TOP 10 des passeurs de Bundesliga en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2324,7 +2324,7 @@
     },
     {
       "id": 41,
-      "title": "TOP 10 des passeurs de Bundesliga entre 2019",
+      "title": "TOP 10 des passeurs de Bundesliga en 2019",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2382,7 +2382,7 @@
     },
     {
       "id": 42,
-      "title": "TOP 10 des passeurs de Bundesliga entre 2018",
+      "title": "TOP 10 des passeurs de Bundesliga en 2018",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2440,7 +2440,7 @@
     },
     {
       "id": 43,
-      "title": "TOP 10 des passeurs de Ligue 1 entre 2015-2020",
+      "title": "TOP 10 des passeurs de Ligue 1 en 2015-2020",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2498,7 +2498,7 @@
     },
     {
       "id": 44,
-      "title": "TOP 10 des passeurs de Ligue 1 entre 2019",
+      "title": "TOP 10 des passeurs de Ligue 1 en 2019",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2556,7 +2556,7 @@
     },
     {
       "id": 45,
-      "title": "TOP 10 des passeurs de Ligue 1 entre 2018",
+      "title": "TOP 10 des passeurs de Ligue 1 en 2018",
       "theme": "Passeurs",
       "difficulty": 5,
       "answers": [
@@ -2614,7 +2614,239 @@
     },
     {
       "id": 46,
-      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A entre 2020-2024",
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2010",
+      "theme": "Buteurs Coupe du Monde",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "T.M."
+        },
+        {
+          "name": "Wesley Sneijder",
+          "nationality": "pays-bas",
+          "hint": "W.S."
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "D.V."
+        },
+        {
+          "name": "Diego Forlán",
+          "nationality": "uruguay",
+          "hint": "D.F."
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "G.H."
+        },
+        {
+          "name": "Róbert Vittek",
+          "nationality": "slovaquie",
+          "hint": "R.V."
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "allemagne",
+          "hint": "M.K."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Asamoah Gyan",
+          "nationality": "ghana",
+          "hint": "A.G."
+        },
+        {
+          "name": "Landon Donovan",
+          "nationality": "états-unis",
+          "hint": "L.D."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "TOP 10 des buteurs de la Euro 2012",
+      "theme": "Buteurs Euro",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "F.T."
+        },
+        {
+          "name": "Mario Gómez",
+          "nationality": "allemagne",
+          "hint": "M.G."
+        },
+        {
+          "name": "Mario Mandžukić",
+          "nationality": "croatie",
+          "hint": "M.M."
+        },
+        {
+          "name": "Alan Dzagoev",
+          "nationality": "russie",
+          "hint": "A.D."
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "C.R."
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italie",
+          "hint": "M.B."
+        },
+        {
+          "name": "David Silva",
+          "nationality": "espagne",
+          "hint": "D.S."
+        },
+        {
+          "name": "Michael Krohn-Dehli",
+          "nationality": "danemark",
+          "hint": "M.K."
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "C.F."
+        },
+        {
+          "name": "Dimitrios Salpingidis",
+          "nationality": "grèce",
+          "hint": "D.S."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "TOP 10 des buteurs de la Copa América 2019",
+      "theme": "Buteurs Copa América",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Everton",
+          "nationality": "brésil",
+          "hint": "E."
+        },
+        {
+          "name": "Paolo Guerrero",
+          "nationality": "pérou",
+          "hint": "P.G."
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "R.F."
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "S.A."
+        },
+        {
+          "name": "Gabriel Jesus",
+          "nationality": "brésil",
+          "hint": "G.J."
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "A.S."
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "L.S."
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "E.C."
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "P.C."
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "L.M."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "TOP 10 des buteurs de la CAN 2019",
+      "theme": "Buteurs CAN",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Odion Ighalo",
+          "nationality": "nigéria",
+          "hint": "O.I."
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "S.M."
+        },
+        {
+          "name": "Adam Ounas",
+          "nationality": "algérie",
+          "hint": "A.O."
+        },
+        {
+          "name": "Cédric Bakambu",
+          "nationality": "république démocratique du congo",
+          "hint": "C.B."
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "R.M."
+        },
+        {
+          "name": "Baghdad Bounedjah",
+          "nationality": "algérie",
+          "hint": "B.B."
+        },
+        {
+          "name": "Andria",
+          "nationality": "madagascar",
+          "hint": "A."
+        },
+        {
+          "name": "Youssef Msakni",
+          "nationality": "tunisie",
+          "hint": "Y.M."
+        },
+        {
+          "name": "Stéphane Bahoken",
+          "nationality": "cameroun",
+          "hint": "S.B."
+        },
+        {
+          "name": "Jonathan Kodjia",
+          "nationality": "côte d'ivoire",
+          "hint": "J.K."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A en 2020-2024",
       "theme": "Ratio buts/minutes",
       "difficulty": 5,
       "answers": [
@@ -2671,8 +2903,8 @@
       ]
     },
     {
-      "id": 47,
-      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A entre 2015-2020",
+      "id": 51,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A en 2015-2020",
       "theme": "Ratio buts/minutes",
       "difficulty": 5,
       "answers": [
@@ -2729,8 +2961,8 @@
       ]
     },
     {
-      "id": 48,
-      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga entre 2020-2024",
+      "id": 52,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga en 2020-2024",
       "theme": "Ratio buts/minutes",
       "difficulty": 5,
       "answers": [
@@ -2787,8 +3019,8 @@
       ]
     },
     {
-      "id": 49,
-      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga entre 2015-2020",
+      "id": 53,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga en 2015-2020",
       "theme": "Ratio buts/minutes",
       "difficulty": 5,
       "answers": [
@@ -2845,8 +3077,8 @@
       ]
     },
     {
-      "id": 50,
-      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 entre 2020-2024",
+      "id": 54,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 en 2020-2024",
       "theme": "Ratio buts/minutes",
       "difficulty": 5,
       "answers": [
@@ -2903,8 +3135,8 @@
       ]
     },
     {
-      "id": 51,
-      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 entre 2015-2020",
+      "id": 55,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 en 2015-2020",
       "theme": "Ratio buts/minutes",
       "difficulty": 5,
       "answers": [
@@ -2961,8 +3193,8 @@
       ]
     },
     {
-      "id": 52,
-      "title": "TOP 10 des buteurs de Arsenal entre 2010-2015",
+      "id": 56,
+      "title": "TOP 10 des buteurs de Arsenal en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3019,8 +3251,8 @@
       ]
     },
     {
-      "id": 53,
-      "title": "TOP 10 des buteurs de Arsenal entre 2005-2010",
+      "id": 57,
+      "title": "TOP 10 des buteurs de Arsenal en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3077,8 +3309,8 @@
       ]
     },
     {
-      "id": 54,
-      "title": "TOP 10 des buteurs de Barcelona entre 2010-2015",
+      "id": 58,
+      "title": "TOP 10 des buteurs de Barcelona en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3135,8 +3367,8 @@
       ]
     },
     {
-      "id": 55,
-      "title": "TOP 10 des buteurs de Barcelona entre 2005-2010",
+      "id": 59,
+      "title": "TOP 10 des buteurs de Barcelona en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3193,8 +3425,8 @@
       ]
     },
     {
-      "id": 56,
-      "title": "TOP 10 des buteurs de Bayern Munich entre 2010-2015",
+      "id": 60,
+      "title": "TOP 10 des buteurs de Bayern Munich en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3251,8 +3483,8 @@
       ]
     },
     {
-      "id": 57,
-      "title": "TOP 10 des buteurs de Bayern Munich entre 2005-2010",
+      "id": 61,
+      "title": "TOP 10 des buteurs de Bayern Munich en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3309,8 +3541,8 @@
       ]
     },
     {
-      "id": 58,
-      "title": "TOP 10 des buteurs de Chelsea entre 2010-2015",
+      "id": 62,
+      "title": "TOP 10 des buteurs de Chelsea en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3367,8 +3599,8 @@
       ]
     },
     {
-      "id": 59,
-      "title": "TOP 10 des buteurs de Chelsea entre 2005-2010",
+      "id": 63,
+      "title": "TOP 10 des buteurs de Chelsea en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3425,8 +3657,8 @@
       ]
     },
     {
-      "id": 60,
-      "title": "TOP 10 des buteurs de Inter Milan entre 2010-2015",
+      "id": 64,
+      "title": "TOP 10 des buteurs de Inter Milan en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3483,8 +3715,8 @@
       ]
     },
     {
-      "id": 61,
-      "title": "TOP 10 des buteurs de Inter Milan entre 2005-2010",
+      "id": 65,
+      "title": "TOP 10 des buteurs de Inter Milan en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3541,8 +3773,8 @@
       ]
     },
     {
-      "id": 62,
-      "title": "TOP 10 des buteurs de Liverpool entre 2010-2015",
+      "id": 66,
+      "title": "TOP 10 des buteurs de Liverpool en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3599,8 +3831,8 @@
       ]
     },
     {
-      "id": 63,
-      "title": "TOP 10 des buteurs de Liverpool entre 2005-2010",
+      "id": 67,
+      "title": "TOP 10 des buteurs de Liverpool en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3657,8 +3889,8 @@
       ]
     },
     {
-      "id": 64,
-      "title": "TOP 10 des buteurs de Man City entre 2010-2015",
+      "id": 68,
+      "title": "TOP 10 des buteurs de Man City en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3715,8 +3947,8 @@
       ]
     },
     {
-      "id": 65,
-      "title": "TOP 10 des buteurs de Man City entre 2005-2010",
+      "id": 69,
+      "title": "TOP 10 des buteurs de Man City en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3773,8 +4005,8 @@
       ]
     },
     {
-      "id": 66,
-      "title": "TOP 10 des buteurs de Man Utd entre 2010-2015",
+      "id": 70,
+      "title": "TOP 10 des buteurs de Man Utd en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3831,8 +4063,8 @@
       ]
     },
     {
-      "id": 67,
-      "title": "TOP 10 des buteurs de Man Utd entre 2005-2010",
+      "id": 71,
+      "title": "TOP 10 des buteurs de Man Utd en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3889,8 +4121,8 @@
       ]
     },
     {
-      "id": 68,
-      "title": "TOP 10 des buteurs de PSG entre 2010-2015",
+      "id": 72,
+      "title": "TOP 10 des buteurs de PSG en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -3947,8 +4179,8 @@
       ]
     },
     {
-      "id": 69,
-      "title": "TOP 10 des buteurs de PSG entre 2005-2010",
+      "id": 73,
+      "title": "TOP 10 des buteurs de PSG en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4005,8 +4237,8 @@
       ]
     },
     {
-      "id": 70,
-      "title": "TOP 10 des buteurs de Real Madrid entre 2010-2015",
+      "id": 74,
+      "title": "TOP 10 des buteurs de Real Madrid en 2010-2015",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4063,8 +4295,8 @@
       ]
     },
     {
-      "id": 71,
-      "title": "TOP 10 des buteurs de Real Madrid entre 2005-2010",
+      "id": 75,
+      "title": "TOP 10 des buteurs de Real Madrid en 2005-2010",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4121,8 +4353,8 @@
       ]
     },
     {
-      "id": 72,
-      "title": "TOP 10 des buteurs de Aston Villa entre 2015-2020",
+      "id": 76,
+      "title": "TOP 10 des buteurs de Aston Villa en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4179,8 +4411,8 @@
       ]
     },
     {
-      "id": 73,
-      "title": "TOP 10 des buteurs de Atalanta entre 2015-2020",
+      "id": 77,
+      "title": "TOP 10 des buteurs de Atalanta en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4237,8 +4469,8 @@
       ]
     },
     {
-      "id": 74,
-      "title": "TOP 10 des buteurs de Atletico Madrid entre 2015-2020",
+      "id": 78,
+      "title": "TOP 10 des buteurs de Atletico Madrid en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4295,8 +4527,8 @@
       ]
     },
     {
-      "id": 75,
-      "title": "TOP 10 des buteurs de Dortmund entre 2015-2020",
+      "id": 79,
+      "title": "TOP 10 des buteurs de Dortmund en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4353,8 +4585,8 @@
       ]
     },
     {
-      "id": 76,
-      "title": "TOP 10 des buteurs de Juventus entre 2015-2020",
+      "id": 80,
+      "title": "TOP 10 des buteurs de Juventus en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4411,8 +4643,8 @@
       ]
     },
     {
-      "id": 77,
-      "title": "TOP 10 des buteurs de Lazio entre 2015-2020",
+      "id": 81,
+      "title": "TOP 10 des buteurs de Lazio en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4469,8 +4701,8 @@
       ]
     },
     {
-      "id": 78,
-      "title": "TOP 10 des buteurs de Leipzig entre 2015-2020",
+      "id": 82,
+      "title": "TOP 10 des buteurs de Leipzig en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4527,8 +4759,8 @@
       ]
     },
     {
-      "id": 79,
-      "title": "TOP 10 des buteurs de Leverkusen entre 2015-2020",
+      "id": 83,
+      "title": "TOP 10 des buteurs de Leverkusen en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4585,8 +4817,8 @@
       ]
     },
     {
-      "id": 80,
-      "title": "TOP 10 des buteurs de Milan entre 2015-2020",
+      "id": 84,
+      "title": "TOP 10 des buteurs de Milan en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4643,8 +4875,8 @@
       ]
     },
     {
-      "id": 81,
-      "title": "TOP 10 des buteurs de Napoli entre 2015-2020",
+      "id": 85,
+      "title": "TOP 10 des buteurs de Napoli en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4701,8 +4933,8 @@
       ]
     },
     {
-      "id": 82,
-      "title": "TOP 10 des buteurs de Roma entre 2015-2020",
+      "id": 86,
+      "title": "TOP 10 des buteurs de Roma en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4759,8 +4991,8 @@
       ]
     },
     {
-      "id": 83,
-      "title": "TOP 10 des buteurs de Villarreal entre 2015-2020",
+      "id": 87,
+      "title": "TOP 10 des buteurs de Villarreal en 2015-2020",
       "theme": "Buteurs",
       "difficulty": 5,
       "answers": [
@@ -4817,8 +5049,8 @@
       ]
     },
     {
-      "id": 84,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal entre 2020-2024",
+      "id": 88,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -4875,8 +5107,8 @@
       ]
     },
     {
-      "id": 85,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal entre 2015-2020",
+      "id": 89,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -4933,8 +5165,8 @@
       ]
     },
     {
-      "id": 86,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona entre 2020-2024",
+      "id": 90,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -4991,8 +5223,8 @@
       ]
     },
     {
-      "id": 87,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona entre 2015-2020",
+      "id": 91,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5049,8 +5281,8 @@
       ]
     },
     {
-      "id": 88,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich entre 2020-2024",
+      "id": 92,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5107,8 +5339,8 @@
       ]
     },
     {
-      "id": 89,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich entre 2015-2020",
+      "id": 93,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5165,8 +5397,8 @@
       ]
     },
     {
-      "id": 90,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea entre 2020-2024",
+      "id": 94,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5223,8 +5455,8 @@
       ]
     },
     {
-      "id": 91,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea entre 2015-2020",
+      "id": 95,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5281,8 +5513,8 @@
       ]
     },
     {
-      "id": 92,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan entre 2020-2024",
+      "id": 96,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5339,8 +5571,8 @@
       ]
     },
     {
-      "id": 93,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan entre 2015-2020",
+      "id": 97,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5397,8 +5629,8 @@
       ]
     },
     {
-      "id": 94,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool entre 2020-2024",
+      "id": 98,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5455,8 +5687,8 @@
       ]
     },
     {
-      "id": 95,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool entre 2015-2020",
+      "id": 99,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5513,8 +5745,8 @@
       ]
     },
     {
-      "id": 96,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Man City entre 2020-2024",
+      "id": 100,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5571,8 +5803,8 @@
       ]
     },
     {
-      "id": 97,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Man City entre 2015-2020",
+      "id": 101,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5629,8 +5861,8 @@
       ]
     },
     {
-      "id": 98,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd entre 2020-2024",
+      "id": 102,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5687,8 +5919,8 @@
       ]
     },
     {
-      "id": 99,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd entre 2015-2020",
+      "id": 103,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5745,8 +5977,8 @@
       ]
     },
     {
-      "id": 100,
-      "title": "TOP 10 des joueurs avec le plus de minutes de PSG entre 2020-2024",
+      "id": 104,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5803,8 +6035,8 @@
       ]
     },
     {
-      "id": 101,
-      "title": "TOP 10 des joueurs avec le plus de minutes de PSG entre 2015-2020",
+      "id": 105,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5861,8 +6093,8 @@
       ]
     },
     {
-      "id": 102,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid entre 2020-2024",
+      "id": 106,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid en 2020-2024",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5919,8 +6151,8 @@
       ]
     },
     {
-      "id": 103,
-      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid entre 2015-2020",
+      "id": 107,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid en 2015-2020",
       "theme": "Minutes jouées",
       "difficulty": 5,
       "answers": [
@@ -5977,8 +6209,66 @@
       ]
     },
     {
-      "id": 104,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League entre 2015-2020",
+      "id": 108,
+      "title": "TOP 10 du Ballon d'Or 2010",
+      "theme": "Ballon d'Or",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Xavi",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Wesley Sneijder",
+          "nationality": "pays-bas",
+          "hint": "Inter"
+        },
+        {
+          "name": "Diego Forlán",
+          "nationality": "uruguay",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Iker Casillas",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "Valence CF"
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Xabi Alonso",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League en 2015-2020",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "answers": [
@@ -6035,8 +6325,8 @@
       ]
     },
     {
-      "id": 105,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga entre 2015-2020",
+      "id": 110,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga en 2015-2020",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "answers": [
@@ -6093,8 +6383,8 @@
       ]
     },
     {
-      "id": 106,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A entre 2020-2024",
+      "id": 111,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A en 2020-2024",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "answers": [
@@ -6151,8 +6441,8 @@
       ]
     },
     {
-      "id": 107,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga entre 2020-2024",
+      "id": 112,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga en 2020-2024",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "answers": [
@@ -6209,8 +6499,8 @@
       ]
     },
     {
-      "id": 108,
-      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 entre 2020-2024",
+      "id": 113,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 en 2020-2024",
       "theme": "Milieux passeurs",
       "difficulty": 5,
       "answers": [
@@ -6263,6 +6553,760 @@
           "name": "Adrien Thomasson",
           "nationality": "france",
           "hint": "Inconnu"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "title": "TOP 10 des buteurs de Premier League en 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "Man United"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Everton"
+        },
+        {
+          "name": "Olivier Giroud",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Christian Benteke",
+          "nationality": "belgique",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "hint": "Manchester United"
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "title": "TOP 10 des buteurs de Premier League en 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Carlos Tevez",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Dimitar Berbatov",
+          "nationality": "bulgarie",
+          "hint": "Man United"
+        },
+        {
+          "name": "Robin van Persie",
+          "nationality": "pays-bas",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Darren Bent",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Peter Odemwingie",
+          "nationality": "nigeria",
+          "hint": "West Bromwich Albion"
+        },
+        {
+          "name": "Rafael van der Vaart",
+          "nationality": "pays-bas",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Dirk Kuyt",
+          "nationality": "pays-bas",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Andy Carroll",
+          "nationality": "angleterre",
+          "hint": "Newcastle"
+        },
+        {
+          "name": "Florent Malouda",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "DJ Campbell",
+          "nationality": "angleterre",
+          "hint": "Blackpool FC"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "title": "TOP 10 des buteurs de Liga en 2010-2015",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Aritz Aduriz",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "espagne",
+          "hint": "Valencia"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Rubén Castro",
+          "nationality": "espagne",
+          "hint": "Betis Balompié"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "Atletico"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "title": "TOP 10 des buteurs de Liga en 2005-2010",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Álvaro Negredo",
+          "nationality": "espagne",
+          "hint": "Séville FC"
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "Atletico"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Giuseppe Rossi",
+          "nationality": "italie",
+          "hint": "Villarreal CF"
+        },
+        {
+          "name": "Fernando Llorente",
+          "nationality": "espagne",
+          "hint": "Bilbao"
+        },
+        {
+          "name": "Roberto Soldado",
+          "nationality": "espagne",
+          "hint": "Valencia"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real"
+        },
+        {
+          "name": "Salomón Rondón",
+          "nationality": "venezuela",
+          "hint": "Málaga CF"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "title": "TOP 10 des buteurs de Serie A en 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "nationality": "italie",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Inter"
+        },
+        {
+          "name": "Fabio Quagliarella",
+          "nationality": "italie",
+          "hint": "UC Sampdoria"
+        },
+        {
+          "name": "Andrea Belotti",
+          "nationality": "italie",
+          "hint": "Torino FC"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "title": "TOP 10 des buteurs de Serie A en 2019",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Inter"
+        },
+        {
+          "name": "Francesco Caputo",
+          "nationality": "italie",
+          "hint": "Sassuolo"
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "João Pedro",
+          "nationality": "italie",
+          "hint": "Cagliari Calcio"
+        },
+        {
+          "name": "Luis Muriel",
+          "nationality": "colombie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Andrea Belotti",
+          "nationality": "italie",
+          "hint": "Torino FC"
+        },
+        {
+          "name": "Josip Ilicic",
+          "nationality": "slovénie",
+          "hint": "Atalanta BC"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "title": "TOP 10 des buteurs de Serie A en 2018",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Fabio Quagliarella",
+          "nationality": "italie",
+          "hint": "UC Sampdoria"
+        },
+        {
+          "name": "Duván Zapata",
+          "nationality": "colombie",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Krzysztof Piatek",
+          "nationality": "pologne",
+          "hint": "Genoa"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus Turin"
+        },
+        {
+          "name": "Arkadiusz Milik",
+          "nationality": "pologne",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Dries Mertens",
+          "nationality": "belgique",
+          "hint": "SSC Napoli"
+        },
+        {
+          "name": "Francesco Caputo",
+          "nationality": "italie",
+          "hint": "Empoli"
+        },
+        {
+          "name": "Leonardo Pavoletti",
+          "nationality": "italie",
+          "hint": "Cagliari Calcio"
+        },
+        {
+          "name": "Andrea Petagna",
+          "nationality": "italie",
+          "hint": "SPAL"
+        },
+        {
+          "name": "Ciro Immobile",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "title": "TOP 10 des buteurs de Bundesliga en 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "pays-bas",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Anthony Modeste",
+          "nationality": "france",
+          "hint": "1.FC Köln"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Sandro Wagner",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Thomas Müller",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "André Silva",
+          "nationality": "portugal",
+          "hint": "Eintracht Francfort"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "title": "TOP 10 des buteurs de Bundesliga en 2019",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "pays-bas",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Rouwen Hennings",
+          "nationality": "allemagne",
+          "hint": "Fortuna Düsseldorf"
+        },
+        {
+          "name": "Florian Niederlechner",
+          "nationality": "allemagne",
+          "hint": "Augsburg"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Robin Quaison",
+          "nationality": "suède",
+          "hint": "1.FSV Mainz 05"
+        },
+        {
+          "name": "Jhon Córdoba",
+          "nationality": "colombie",
+          "hint": "1.FC Köln"
+        },
+        {
+          "name": "Serge Gnabry",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "title": "TOP 10 des buteurs de Bundesliga en 2018",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Paco Alcácer",
+          "nationality": "espagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Marco Reus",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Wout Weghorst",
+          "nationality": "pays-bas",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Luka Jović",
+          "nationality": "serbie",
+          "hint": "Eintracht Francfort"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "Leverkusen"
+        },
+        {
+          "name": "Andrej Kramaric",
+          "nationality": "croatie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Ishak Belfodil",
+          "nationality": "algérie",
+          "hint": "TSG 1899 Hoffenheim"
+        },
+        {
+          "name": "Sébastien Haller",
+          "nationality": "côte d'ivoire",
+          "hint": "Eintracht Francfort"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2015-2020",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "PSG"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algérie",
+          "hint": "Montpellier Hérault SC"
+        },
+        {
+          "name": "Memphis Depay",
+          "nationality": "pays-bas",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "PSG"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2019",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Moussa Dembélé",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Habib Diallo",
+          "nationality": "sénégal",
+          "hint": "Metz"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Kasper Dolberg",
+          "nationality": "danemark",
+          "hint": "OGC Nice"
+        },
+        {
+          "name": "Darío Benedetto",
+          "nationality": "argentine",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Denis Bouanga",
+          "nationality": "gabon",
+          "hint": "Saint-Étienne"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2018",
+      "theme": "Buteurs",
+      "difficulty": 5,
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Nicolas Pépé",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
+        },
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "PSG"
+        },
+        {
+          "name": "Florian Thauvin",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Moussa Dembélé",
+          "nationality": "france",
+          "hint": "Lyon"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "Monaco"
+        },
+        {
+          "name": "Andy Delort",
+          "nationality": "algérie",
+          "hint": "Montpellier Hérault SC"
+        },
+        {
+          "name": "Wahbi Khazri",
+          "nationality": "tunisie",
+          "hint": "Saint-Étienne"
+        },
+        {
+          "name": "Jonathan Bamba",
+          "nationality": "côte d'ivoire",
+          "hint": "LOSC Lille"
         }
       ]
     }

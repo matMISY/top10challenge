@@ -4,7 +4,7 @@
   "quizzes": [
     {
       "id": 1,
-      "title": "TOP 10 des joueurs france les plus prolifiques (buts+passes) entre 2020-2024",
+      "title": "TOP 10 des joueurs france les plus prolifiques (buts+passes) en 2020-2024",
       "theme": "Joueurs prolifiques par nationalité",
       "difficulty": 2,
       "hint": "Pour chaque joueur, renseigner son club principal",
@@ -70,7 +70,7 @@
     },
     {
       "id": 2,
-      "title": "TOP 10 des joueurs france les plus prolifiques (buts+passes) entre 2015-2020",
+      "title": "TOP 10 des joueurs france les plus prolifiques (buts+passes) en 2015-2020",
       "theme": "Joueurs prolifiques par nationalité",
       "difficulty": 3,
       "hint": "Pour chaque joueur, renseigner son club principal",
@@ -136,7 +136,7 @@
     },
     {
       "id": 3,
-      "title": "TOP 10 des joueurs portugal les plus prolifiques (buts+passes) entre 2020-2024",
+      "title": "TOP 10 des joueurs portugal les plus prolifiques (buts+passes) en 2020-2024",
       "theme": "Joueurs prolifiques par nationalité",
       "difficulty": 2,
       "hint": "Pour chaque joueur, renseigner son club principal",
@@ -202,7 +202,7 @@
     },
     {
       "id": 4,
-      "title": "TOP 10 des joueurs portugal les plus prolifiques (buts+passes) entre 2015-2020",
+      "title": "TOP 10 des joueurs portugal les plus prolifiques (buts+passes) en 2015-2020",
       "theme": "Joueurs prolifiques par nationalité",
       "difficulty": 3,
       "hint": "Pour chaque joueur, renseigner son club principal",

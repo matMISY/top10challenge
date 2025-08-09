@@ -200,17 +200,17 @@ class DataLoaderService {
     
     // Fichiers organisés par difficulté (dans l'ordre croissant)
     final difficultyFilePatterns = [
-      // Très facile (difficulté 1)
-      ['REBALANCED_20250808_202200_tres_facile.json'],
-      
-      // Facile (difficulté 2) 
-      ['REBALANCED_20250808_202200_facile.json'],
+      // Facile (difficulté 1-2) 
+      ['quiz_facile.json'],
       
       // Moyen (difficulté 3)
-      ['REBALANCED_20250808_202200_moyen.json'],
+      ['quiz_moyen.json'],
       
       // Difficile (difficulté 4)
-      ['REBALANCED_20250808_202200_difficile.json'],
+      ['quiz_difficile.json'],
+      
+      // Très difficile (difficulté 5)
+      ['quiz_tres_difficile.json'],
     ];
     
     // Essayer de charger aussi les nouveaux fichiers avec patterns automatiques

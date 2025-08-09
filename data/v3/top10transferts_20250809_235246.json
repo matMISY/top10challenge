@@ -1,0 +1,3066 @@
+{
+  "generated_at": "2025-08-09T23:52:46.573084",
+  "total_quizzes": 45,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Jhon Durán",
+          "nationality": "colombie",
+          "hint": "Al-Nassr"
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Omar Marmoush",
+          "nationality": "égypte",
+          "hint": "Man City"
+        },
+        {
+          "name": "Dominic Solanke",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Leny Yoro",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "Al-Ittihad"
+        },
+        {
+          "name": "Pedro Neto",
+          "nationality": "portugal",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Nico González",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Amadou Onana",
+          "nationality": "belgique",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2024",
+        "transfer_type": "annual",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.540364"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Declan Rice",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Moisés Caicedo",
+          "nationality": "équateur",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Josko Gvardiol",
+          "nationality": "croatie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Rasmus Højlund",
+          "nationality": "danemark",
+          "hint": "Man United"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "nationality": "hongrie",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Mason Mount",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Roméo Lavia",
+          "nationality": "belgique",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Matheus Nunes",
+          "nationality": "portugal",
+          "hint": "Man City"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2023",
+        "transfer_type": "annual",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.540753"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Enzo Fernández",
+          "nationality": "argentine",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Antony",
+          "nationality": "brésil",
+          "hint": "Man United"
+        },
+        {
+          "name": "Darwin Núñez",
+          "nationality": "uruguay",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Wesley Fofana",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": "Man United"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "hint": "Newcastle Utd."
+        },
+        {
+          "name": "Mykhaylo Mudryk",
+          "nationality": "ukraine",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Marc Cucurella",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Man City"
+        },
+        {
+          "name": "Richarlison",
+          "nationality": "brésil",
+          "hint": "Tottenham"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2022",
+        "transfer_type": "annual",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.541145"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2020-2024 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Jack Grealish",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Declan Rice",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Moisés Caicedo",
+          "nationality": "équateur",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Wesley Fofana",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Jhon Durán",
+          "nationality": "colombie",
+          "hint": "Al-Nassr"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Mason Mount",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Marc Cucurella",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2020-2024_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.542154"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2015-2020 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Harry Maguire",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Man United"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "nationality": "pays-bas",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Oscar",
+          "nationality": "brésil",
+          "hint": "SH SIPG"
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "Atletico Madrid"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2015-2020_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.543918"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2010-2015 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "David Luiz",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Christian Benteke",
+          "nationality": "belgique",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Juan Mata",
+          "nationality": "espagne",
+          "hint": "Man United"
+        },
+        {
+          "name": "Andy Carroll",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Luke Shaw",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2010-2015_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.545521"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2020-2024 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Enzo Fernández",
+          "nationality": "argentine",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Jack Grealish",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Declan Rice",
+          "nationality": "angleterre",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Moisés Caicedo",
+          "nationality": "équateur",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Antony",
+          "nationality": "brésil",
+          "hint": "Man United"
+        },
+        {
+          "name": "Josko Gvardiol",
+          "nationality": "croatie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Darwin Núñez",
+          "nationality": "uruguay",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Wesley Fofana",
+          "nationality": "france",
+          "hint": "Chelsea"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2020-2024_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.546045"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2015-2020 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Harry Maguire",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Man United"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "nationality": "pays-bas",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Kepa Arrizabalaga",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Nicolas Pépé",
+          "nationality": "côte d'ivoire",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Alisson",
+          "nationality": "brésil",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Rúben Dias",
+          "nationality": "portugal",
+          "hint": "Man City"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2015-2020_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.546625"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2010-2015 (Premier League)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Man United"
+        },
+        {
+          "name": "Raheem Sterling",
+          "nationality": "angleterre",
+          "hint": "Man City"
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Christian Benteke",
+          "nationality": "belgique",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Eliaquim Mangala",
+          "nationality": "france",
+          "hint": "Man City"
+        },
+        {
+          "name": "Nicolás Otamendi",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "Arsenal"
+        }
+      ],
+      "metadata": {
+        "league": "premier-league",
+        "league_name": "Premier League",
+        "period": "2010-2015_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.547229"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Dani Olmo",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "João Félix",
+          "nationality": "portugal",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Endrick",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Conor Gallagher",
+          "nationality": "angleterre",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Robin Le Normand",
+          "nationality": "espagne",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Mikel Merino",
+          "nationality": "espagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Samu Aghehowa",
+          "nationality": "espagne",
+          "hint": "Porto"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "nationality": "norvège",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "Roma"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2024",
+        "transfer_type": "annual",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.547484"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Matheus Cunha",
+          "nationality": "brésil",
+          "hint": "Wolverhampton"
+        },
+        {
+          "name": "Nicolas Jackson",
+          "nationality": "sénégal",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Pau Torres",
+          "nationality": "espagne",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "El Bilal Touré",
+          "nationality": "mali",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Gabri Veiga",
+          "nationality": "espagne",
+          "hint": "Al-Ahli"
+        },
+        {
+          "name": "Vitor Roque",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Arda Güler",
+          "nationality": "turquie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico Madrid"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2023",
+        "transfer_type": "annual",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.547760"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Aurélien Tchouaméni",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": "Man United"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "hint": "Newcastle Utd."
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Jules Koundé",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Gonçalo Guedes",
+          "nationality": "portugal",
+          "hint": "Wolverhampton"
+        },
+        {
+          "name": "Diego Carlos",
+          "nationality": "brésil",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Umar Sadiq",
+          "nationality": "nigeria",
+          "hint": "Real Sociedad"
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "Aston Villa"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2022",
+        "transfer_type": "annual",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.548056"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2020-2024 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Arthur Melo",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Casemiro",
+          "nationality": "brésil",
+          "hint": "Man United"
+        },
+        {
+          "name": "Alexander Isak",
+          "nationality": "suède",
+          "hint": "Newcastle Utd."
+        },
+        {
+          "name": "João Félix",
+          "nationality": "portugal",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Thomas Partey",
+          "nationality": "ghana",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Jules Koundé",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Matheus Cunha",
+          "nationality": "brésil",
+          "hint": "Wolverhampton"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": "Inter"
+        },
+        {
+          "name": "Raphaël Varane",
+          "nationality": "france",
+          "hint": "Man United"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2020-2024_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.548995"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2015-2020 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Arthur Melo",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Kepa Arrizabalaga",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Lucas Hernández",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Rodri",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Álvaro Morata",
+          "nationality": "espagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Aymeric Laporte",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Thomas Partey",
+          "nationality": "ghana",
+          "hint": "Arsenal"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2015-2020_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.550530"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2010-2015 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "Man United"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Nicolás Otamendi",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Alexis Sánchez",
+          "nationality": "chili",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Jackson Martínez",
+          "nationality": "colombie",
+          "hint": "GZ Evergrande"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Sergio Agüero",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Javi Martínez",
+          "nationality": "espagne",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2010-2015_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.551947"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2020-2024 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Julián Alvarez",
+          "nationality": "argentine",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Raphinha",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Ferran Torres",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Dani Olmo",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Jules Koundé",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Endrick",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2020-2024_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.552449"
+      }
+    },
+    {
+      "id": 17,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2015-2020 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Philippe Coutinho",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "João Félix",
+          "nationality": "portugal",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Frenkie de Jong",
+          "nationality": "pays-bas",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Thomas Lemar",
+          "nationality": "france",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Luka Jović",
+          "nationality": "serbie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Diego Costa",
+          "nationality": "espagne",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Barcelone"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2015-2020_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.553039"
+      }
+    },
+    {
+      "id": 18,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2010-2015 (Liga)",
+      "theme": "Transferts",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays de galles",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Mateo Kovacic",
+          "nationality": "croatie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Jackson Martínez",
+          "nationality": "colombie",
+          "hint": "Atletico Madrid"
+        }
+      ],
+      "metadata": {
+        "league": "la-liga",
+        "league_name": "Liga",
+        "period": "2010-2015_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "très facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.553613"
+      }
+    },
+    {
+      "id": 19,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "PSG"
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "nationality": "pays-bas",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Douglas Luiz",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Riccardo Calafiori",
+          "nationality": "italie",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Joshua Zirkzee",
+          "nationality": "pays-bas",
+          "hint": "Man United"
+        },
+        {
+          "name": "Alessandro Buongiorno",
+          "nationality": "italie",
+          "hint": "Napoli"
+        },
+        {
+          "name": "Santiago Gimenez",
+          "nationality": "mexique",
+          "hint": "Milan"
+        },
+        {
+          "name": "Davide Frattesi",
+          "nationality": "italie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Artem Dovbyk",
+          "nationality": "ukraine",
+          "hint": "Roma"
+        },
+        {
+          "name": "Scott McTominay",
+          "nationality": "écosse",
+          "hint": "Napoli"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2024",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.553918"
+      }
+    },
+    {
+      "id": 20,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Rasmus Højlund",
+          "nationality": "danemark",
+          "hint": "Man United"
+        },
+        {
+          "name": "Sandro Tonali",
+          "nationality": "italie",
+          "hint": "Newcastle Utd."
+        },
+        {
+          "name": "André Onana",
+          "nationality": "cameroun",
+          "hint": "Man United"
+        },
+        {
+          "name": "Min-jae Kim",
+          "nationality": "corée du sud",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Sergej Milinković-Savić",
+          "nationality": "serbie",
+          "hint": "Al-Hilal"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Benjamin Pavard",
+          "nationality": "france",
+          "hint": "Inter"
+        },
+        {
+          "name": "El Bilal Touré",
+          "nationality": "mali",
+          "hint": "Atalanta BC"
+        },
+        {
+          "name": "Dejan Kulusevski",
+          "nationality": "suède",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Moise Kean",
+          "nationality": "italie",
+          "hint": "Juventus"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2023",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.554194"
+      }
+    },
+    {
+      "id": 21,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Matthijs de Ligt",
+          "nationality": "pays-bas",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Cristian Romero",
+          "nationality": "argentine",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Bremer",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Kalidou Koulibaly",
+          "nationality": "sénégal",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Gianluca Scamacca",
+          "nationality": "italie",
+          "hint": "West Ham"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": "Milan"
+        },
+        {
+          "name": "Joshua Zirkzee",
+          "nationality": "pays-bas",
+          "hint": "FC Bologna"
+        },
+        {
+          "name": "Robin Gosens",
+          "nationality": "allemagne",
+          "hint": "Inter"
+        },
+        {
+          "name": "Joaquín Correa",
+          "nationality": "argentine",
+          "hint": "Inter"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2022",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.554515"
+      }
+    },
+    {
+      "id": 22,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2020-2024 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Rasmus Højlund",
+          "nationality": "danemark",
+          "hint": "Man United"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "PSG"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": "PSG"
+        },
+        {
+          "name": "Matthijs de Ligt",
+          "nationality": "pays-bas",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Miralem Pjanić",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Sandro Tonali",
+          "nationality": "italie",
+          "hint": "Newcastle Utd."
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "nationality": "pays-bas",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Cristian Romero",
+          "nationality": "argentine",
+          "hint": "Tottenham"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2020-2024_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.555338"
+      }
+    },
+    {
+      "id": 23,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2015-2020 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Paul Pogba",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Alisson",
+          "nationality": "brésil",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "João Cancelo",
+          "nationality": "portugal",
+          "hint": "Man City"
+        },
+        {
+          "name": "Jorginho",
+          "nationality": "italie",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Leonardo Bonucci",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Patrik Schick",
+          "nationality": "tchéquie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "Juventus"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2015-2020_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.556638"
+      }
+    },
+    {
+      "id": 24,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2010-2015 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Javier Pastore",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Thiago Silva",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Paulo Dybala",
+          "nationality": "argentine",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Mateo Kovacic",
+          "nationality": "croatie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Marquinhos",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Erik Lamela",
+          "nationality": "argentine",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Mario Balotelli",
+          "nationality": "italie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "Anzhi"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2010-2015_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.557988"
+      }
+    },
+    {
+      "id": 25,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2020-2024 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Dušan Vlahović",
+          "nationality": "serbie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Arthur Melo",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "Napoli"
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "nationality": "pays-bas",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Douglas Luiz",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Bremer",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Federico Chiesa",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": "Inter"
+        },
+        {
+          "name": "Tammy Abraham",
+          "nationality": "angleterre",
+          "hint": "Roma"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "nationality": "belgique",
+          "hint": "Milan"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2020-2024_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.558526"
+      }
+    },
+    {
+      "id": 26,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2015-2020 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Matthijs de Ligt",
+          "nationality": "pays-bas",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Arthur Melo",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "Napoli"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "nationality": "belgique",
+          "hint": "Inter"
+        },
+        {
+          "name": "Hirving Lozano",
+          "nationality": "mexique",
+          "hint": "Napoli"
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "Milan"
+        },
+        {
+          "name": "João Mário",
+          "nationality": "portugal",
+          "hint": "Inter"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": "Inter"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2015-2020_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.559193"
+      }
+    },
+    {
+      "id": 27,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2010-2015 (Serie A)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Gonzalo Higuaín",
+          "nationality": "argentine",
+          "hint": "Napoli"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "nationality": "république centrafricaine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Carlos Bacca",
+          "nationality": "colombie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Alex Sandro",
+          "nationality": "brésil",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Juan Iturbe",
+          "nationality": "paraguay",
+          "hint": "Roma"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Milan"
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "Milan"
+        },
+        {
+          "name": "Andrea Bertolacci",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "nationality": "italie",
+          "hint": "Milan"
+        }
+      ],
+      "metadata": {
+        "league": "serie-a",
+        "league_name": "Serie A",
+        "period": "2010-2015_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.559979"
+      }
+    },
+    {
+      "id": 28,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Omar Marmoush",
+          "nationality": "égypte",
+          "hint": "Man City"
+        },
+        {
+          "name": "Dani Olmo",
+          "nationality": "espagne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "João Palhinha",
+          "nationality": "portugal",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Matthijs de Ligt",
+          "nationality": "pays-bas",
+          "hint": "Man United"
+        },
+        {
+          "name": "Willian Pacho",
+          "nationality": "équateur",
+          "hint": "PSG"
+        },
+        {
+          "name": "Mohamed Simakan",
+          "nationality": "france",
+          "hint": "Al-Nassr"
+        },
+        {
+          "name": "Brajan Gruda",
+          "nationality": "allemagne",
+          "hint": "Brighton"
+        },
+        {
+          "name": "Hugo Ekitiké",
+          "nationality": "france",
+          "hint": "Eintracht Frankfurt"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2024",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.560392"
+      }
+    },
+    {
+      "id": 29,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Josko Gvardiol",
+          "nationality": "croatie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "nationality": "hongrie",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "Aston Villa"
+        },
+        {
+          "name": "Min-jae Kim",
+          "nationality": "corée du sud",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Lucas Hernández",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "nationality": "pays-bas",
+          "hint": "Liverpool"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2023",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.560659"
+      }
+    },
+    {
+      "id": 30,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Matthijs de Ligt",
+          "nationality": "pays-bas",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Man City"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Georginio Rutter",
+          "nationality": "france",
+          "hint": "Leeds United"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Sébastien Haller",
+          "nationality": "côte d'ivoire",
+          "hint": "Bor. Dortmund"
+        },
+        {
+          "name": "Karim Adeyemi",
+          "nationality": "allemagne",
+          "hint": "Bor. Dortmund"
+        },
+        {
+          "name": "Joshua Zirkzee",
+          "nationality": "pays-bas",
+          "hint": "FC Bologna"
+        },
+        {
+          "name": "David Raum",
+          "nationality": "allemagne",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Taiwo Awoniyi",
+          "nationality": "nigeria",
+          "hint": "Nott'm Forest"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2022",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.561028"
+      }
+    },
+    {
+      "id": 31,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2020-2024 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Josko Gvardiol",
+          "nationality": "croatie",
+          "hint": "Man City"
+        },
+        {
+          "name": "Jadon Sancho",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Omar Marmoush",
+          "nationality": "égypte",
+          "hint": "Man City"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "nationality": "hongrie",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Man City"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Moussa Diaby",
+          "nationality": "france",
+          "hint": "Aston Villa"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2020-2024_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.561894"
+      }
+    },
+    {
+      "id": 32,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2015-2020 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "Barcelone"
+        },
+        {
+          "name": "Kai Havertz",
+          "nationality": "allemagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Christian Pulisic",
+          "nationality": "états-unis",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "nationality": "gabon",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Luka Jović",
+          "nationality": "serbie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Naby Keïta",
+          "nationality": "guinée",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Timo Werner",
+          "nationality": "allemagne",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Sébastien Haller",
+          "nationality": "côte d'ivoire",
+          "hint": "West Ham"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2015-2020_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.563358"
+      }
+    },
+    {
+      "id": 33,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2010-2015 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "allemagne",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Roberto Firmino",
+          "nationality": "brésil",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Edin Džeko",
+          "nationality": "bosnie-herzégovine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Manuel Neuer",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Abdul Rahman Baba",
+          "nationality": "ghana",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Carlos Eduardo",
+          "nationality": "brésil",
+          "hint": "Rubin Kazan"
+        },
+        {
+          "name": "Mesut Özil",
+          "nationality": "allemagne",
+          "hint": "Real Madrid"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2010-2015_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.564863"
+      }
+    },
+    {
+      "id": 34,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2020-2024 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Matthijs de Ligt",
+          "nationality": "pays-bas",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Michael Olise",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "João Palhinha",
+          "nationality": "portugal",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Min-jae Kim",
+          "nationality": "corée du sud",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Dayot Upamecano",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Loïs Openda",
+          "nationality": "belgique",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Josko Gvardiol",
+          "nationality": "croatie",
+          "hint": "Leipzig"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2020-2024_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.565395"
+      }
+    },
+    {
+      "id": 35,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2015-2020 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Lucas Hernández",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Leroy Sané",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "allemagne",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Corentin Tolisso",
+          "nationality": "france",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "nationality": "hongrie",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Mats Hummels",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Renato Sanches",
+          "nationality": "portugal",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "Bor. Dortmund"
+        },
+        {
+          "name": "Benjamin Pavard",
+          "nationality": "france",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2015-2020_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.566174"
+      }
+    },
+    {
+      "id": 36,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2010-2015 (Bundesliga)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Julian Draxler",
+          "nationality": "allemagne",
+          "hint": "VfL Wolfsburg"
+        },
+        {
+          "name": "Javi Martínez",
+          "nationality": "espagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Arturo Vidal",
+          "nationality": "chili",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Mario Götze",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Manuel Neuer",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Douglas Costa",
+          "nationality": "brésil",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Medhi Benatia",
+          "nationality": "maroc",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "nationality": "arménie",
+          "hint": "Bor. Dortmund"
+        },
+        {
+          "name": "Thiago Alcántara",
+          "nationality": "espagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "VfL Wolfsburg"
+        }
+      ],
+      "metadata": {
+        "league": "bundesliga",
+        "league_name": "Bundesliga",
+        "period": "2010-2015_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.566774"
+      }
+    },
+    {
+      "id": 37,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "PSG"
+        },
+        {
+          "name": "Leny Yoro",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "João Neves",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Désiré Doué",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Manuel Ugarte",
+          "nationality": "uruguay",
+          "hint": "Man United"
+        },
+        {
+          "name": "Abdukodir Khusanov",
+          "nationality": "ouzbékistan",
+          "hint": "Man City"
+        },
+        {
+          "name": "Willian Pacho",
+          "nationality": "équateur",
+          "hint": "PSG"
+        },
+        {
+          "name": "Moussa Niakhaté",
+          "nationality": "sénégal",
+          "hint": "Ol. Lyonnais"
+        },
+        {
+          "name": "Hugo Ekitiké",
+          "nationality": "france",
+          "hint": "Eintracht Frankfurt"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2024",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.567183"
+      }
+    },
+    {
+      "id": 38,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Randal Kolo Muani",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Al-Hilal"
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Jérémy Doku",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Manuel Ugarte",
+          "nationality": "uruguay",
+          "hint": "PSG"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Axel Disasi",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Marco Verratti",
+          "nationality": "italie",
+          "hint": "Al-Arabi SC"
+        },
+        {
+          "name": "Lucas Hernández",
+          "nationality": "france",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2023",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.567435"
+      }
+    },
+    {
+      "id": 39,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Aurélien Tchouaméni",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Lucas Paquetá",
+          "nationality": "brésil",
+          "hint": "West Ham"
+        },
+        {
+          "name": "Vitinha",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Amadou Onana",
+          "nationality": "belgique",
+          "hint": "FC Everton"
+        },
+        {
+          "name": "Benoît Badiashile",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Nuno Mendes",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Sven Botman",
+          "nationality": "pays-bas",
+          "hint": "Newcastle Utd."
+        },
+        {
+          "name": "Nayef Aguerd",
+          "nationality": "maroc",
+          "hint": "West Ham"
+        },
+        {
+          "name": "Malo Gusto",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Amine Gouiri",
+          "nationality": "algérie",
+          "hint": "Stade Rennais"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2022",
+        "transfer_type": "annual",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.567773"
+      }
+    },
+    {
+      "id": 40,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2020-2024 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Al-Hilal"
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "Napoli"
+        },
+        {
+          "name": "Leny Yoro",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Jérémy Doku",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Xavi Simons",
+          "nationality": "pays-bas",
+          "hint": "Leipzig"
+        },
+        {
+          "name": "Désiré Doué",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Manuel Ugarte",
+          "nationality": "uruguay",
+          "hint": "Man United"
+        },
+        {
+          "name": "Bradley Barcola",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Marco Verratti",
+          "nationality": "italie",
+          "hint": "Al-Arabi SC"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2020-2024_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.568650"
+      }
+    },
+    {
+      "id": 41,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2015-2020 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Nicolas Pépé",
+          "nationality": "côte d'ivoire",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "Napoli"
+        },
+        {
+          "name": "Thomas Lemar",
+          "nationality": "france",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Tanguy Ndombélé",
+          "nationality": "france",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "Man City"
+        },
+        {
+          "name": "Rafael Leão",
+          "nationality": "portugal",
+          "hint": "Milan"
+        },
+        {
+          "name": "Ferland Mendy",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2015-2020_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.570183"
+      }
+    },
+    {
+      "id": 42,
+      "title": "TOP 10 des transferts les plus coûteux sortants entre 2010-2015 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Anthony Martial",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "nationality": "république centrafricaine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Layvin Kurzawa",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Yoann Gourcuff",
+          "nationality": "france",
+          "hint": "Ol. Lyonnais"
+        },
+        {
+          "name": "Giannelli Imbula",
+          "nationality": "rd congo",
+          "hint": "Porto"
+        },
+        {
+          "name": "Mamadou Sakho",
+          "nationality": "france",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "André-Pierre Gignac",
+          "nationality": "france",
+          "hint": "Marseille"
+        },
+        {
+          "name": "Asamoah Gyan",
+          "nationality": "ghana",
+          "hint": "AFC Sunderland"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2010-2015_sortants",
+        "transfer_type": "outgoing",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.571438"
+      }
+    },
+    {
+      "id": 43,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2020-2024 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Randal Kolo Muani",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "nationality": "géorgie",
+          "hint": "PSG"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "nationality": "maroc",
+          "hint": "PSG"
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Manuel Ugarte",
+          "nationality": "uruguay",
+          "hint": "PSG"
+        },
+        {
+          "name": "João Neves",
+          "nationality": "portugal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Désiré Doué",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Lucas Hernández",
+          "nationality": "france",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2020-2024_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.571932"
+      }
+    },
+    {
+      "id": 44,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2015-2020 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Mauro Icardi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Leandro Paredes",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "nationality": "france",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Thilo Kehrer",
+          "nationality": "allemagne",
+          "hint": "PSG"
+        },
+        {
+          "name": "Julian Draxler",
+          "nationality": "allemagne",
+          "hint": "PSG"
+        },
+        {
+          "name": "Abdou Diallo",
+          "nationality": "sénégal",
+          "hint": "PSG"
+        },
+        {
+          "name": "Gonçalo Guedes",
+          "nationality": "portugal",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2015-2020_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.572499"
+      }
+    },
+    {
+      "id": 45,
+      "title": "TOP 10 des transferts les plus coûteux entrants entre 2010-2015 (Ligue 1)",
+      "theme": "Transferts",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner le club acheteur",
+      "answers": [
+        {
+          "name": "Edinson Cavani",
+          "nationality": "uruguay",
+          "hint": "PSG"
+        },
+        {
+          "name": "Ángel Di María",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "David Luiz",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "James Rodríguez",
+          "nationality": "colombie",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Radamel Falcao",
+          "nationality": "colombie",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Javier Pastore",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Thiago Silva",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Lucas Moura",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Marquinhos",
+          "nationality": "brésil",
+          "hint": "PSG"
+        },
+        {
+          "name": "Ezequiel Lavezzi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        }
+      ],
+      "metadata": {
+        "league": "ligue-1",
+        "league_name": "Ligue 1",
+        "period": "2010-2015_entrants",
+        "transfer_type": "incoming",
+        "difficulty_label": "facile",
+        "data_source": "transfers",
+        "generated_at": "2025-08-09T23:52:46.573074"
+      }
+    }
+  ]
+}

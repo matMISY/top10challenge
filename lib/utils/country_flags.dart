@@ -6,20 +6,31 @@ class CountryFlags {
     // Europe (English + French names)
     'france': 'FR',
     'spain': 'ES',
+    'espagne': 'ES',
     'portugal': 'PT',
     'italy': 'IT',
+    'italie': 'IT',
     'germany': 'DE',
+    'allemagne': 'DE',
     'england': 'GB',
+    'angleterre': 'GB',
     'netherlands': 'NL',
+    'pays-bas': 'NL',
     'belgium': 'BE',
+    'belgique': 'BE',
     'croatia': 'HR',
+    'croatie': 'HR',
     'sweden': 'SE',
+    'suède': 'SE',
     'norway': 'NO',
+    'norvège': 'NO',
     'denmark': 'DK',
+    'danemark': 'DK',
     'poland': 'PL',
     'pologne': 'PL',
     'czech republic': 'CZ',
     'tchéquie': 'CZ',
+    'république tchèque': 'CZ',
     'austria': 'AT',
     'autriche': 'AT',
     'switzerland': 'CH',
@@ -34,12 +45,15 @@ class CountryFlags {
     'slovenia': 'SI',
     'slovénie': 'SI',
     'slovakia': 'SK',
+    'slovaquie': 'SK',
     'greece': 'GR',
     'grèce': 'GR',
     'turkey': 'TR',
     'turquie': 'TR',
     'russia': 'RU',
+    'russie': 'RU',
     'georgia': 'GE',
+    'géorgie': 'GE',
     'wales': 'GB',
     'pays de galles': 'GB',
     'scotland': 'GB',
@@ -47,6 +61,7 @@ class CountryFlags {
     'ireland': 'IE',
     'irlande': 'IE',
     'northern ireland': 'GB',
+    'irlande du nord': 'GB',
     'albania': 'AL',
     'albanie': 'AL',
     'armenia': 'AM',
@@ -58,17 +73,29 @@ class CountryFlags {
     'kosovo': 'XK',
     'north macedonia': 'MK',
     'macédoine du nord': 'MK',
-    'danemark': 'DK',
+    'finland': 'FI',
+    'finlande': 'FI',
+    'romania': 'RO',
+    'roumanie': 'RO',
+    'bulgaria': 'BG',
+    'bulgarie': 'BG',
+    'belarus': 'BY',
+    'biélorussie': 'BY',
     
     // Amérique du Sud
     'brazil': 'BR',
+    'brésil': 'BR',
     'argentina': 'AR',
+    'argentine': 'AR',
     'uruguay': 'UY',
     'colombia': 'CO',
+    'colombie': 'CO',
     'chile': 'CL',
     'chili': 'CL',
     'peru': 'PE',
+    'pérou': 'PE',
     'ecuador': 'EC',
+    'équateur': 'EC',
     'venezuela': 'VE',
     'paraguay': 'PY',
     'bolivia': 'BO',
@@ -83,18 +110,27 @@ class CountryFlags {
     
     // Afrique
     'morocco': 'MA',
+    'maroc': 'MA',
     'algeria': 'DZ',
+    'algérie': 'DZ',
     'tunisia': 'TN',
+    'tunisie': 'TN',
     'egypt': 'EG',
+    'égypte': 'EG',
     'senegal': 'SN',
+    'sénégal': 'SN',
     'nigeria': 'NG',
+    'nigéria': 'NG',
     'cameroon': 'CM',
+    'cameroun': 'CM',
     'ivory coast': 'CI',
+    'côte d\'ivoire': 'CI',
     'ghana': 'GH',
     'south africa': 'ZA',
     'mali': 'ML',
     'burkina faso': 'BF',
     'democratic republic of congo': 'CD',
+    'république démocratique du congo': 'CD',
     'rd congo': 'CD',
     'congo': 'CG',
     'angola': 'AO',
@@ -110,11 +146,20 @@ class CountryFlags {
     'cap-vert': 'CV',
     'central african republic': 'CF',
     'république centrafricaine': 'CF',
+    'liberia': 'LR',
+    'libéria': 'LR',
+    'gambia': 'GM',
+    'gambie': 'GM',
+    'madagascar': 'MG',
+    'malawi': 'MW',
+    'zambia': 'ZM',
+    'zambie': 'ZM',
     
     // Asie
     'japan': 'JP',
     'japon': 'JP',
     'south korea': 'KR',
+    'corée du sud': 'KR',
     'china': 'CN',
     'iran': 'IR',
     'saudi arabia': 'SA',
@@ -131,9 +176,11 @@ class CountryFlags {
     'malaysia': 'MY',
     'singapore': 'SG',
     'uzbekistan': 'UZ',
+    'ouzbékistan': 'UZ',
     
     // Amérique Centrale et Caraïbes
     'israel': 'IL',
+    'israël': 'IL',
     'lebanon': 'LB',
     'jamaica': 'JM',
     'jamaïque': 'JM',
@@ -148,12 +195,40 @@ class CountryFlags {
     'trinidad and tobago': 'TT',
     'trinité-et-tobago': 'TT',
     'martinique': 'MQ',
+    'curaçao': 'CW',
+    
+    // Anciennes dénominations et pays historiques
+    'yougoslavie': 'RS', // Utilise la Serbie comme représentation
+    'république fédérative socialiste de yougoslavie': 'RS',
   };
 
   /// Retourne un widget drapeau pour un pays donné
   /// Exemple: 'france' → Widget avec drapeau français
   static Widget getFlagWidget(String country, {double size = 20}) {
     final normalizedCountry = country.toLowerCase().trim();
+    
+    // Si le pays est vide ou est un nom de club (non reconnu), retourner un drapeau gris
+    if (normalizedCountry.isEmpty || 
+        normalizedCountry == 'fc' || 
+        normalizedCountry == 'juventus' || 
+        normalizedCountry == 'milan' || 
+        normalizedCountry == 'manchester' || 
+        normalizedCountry == 'real' || 
+        normalizedCountry == 'république' || 
+        normalizedCountry == 'pays' || 
+        normalizedCountry == 'rf' ||
+        normalizedCountry == 'côte' ||
+        normalizedCountry == 's pays-bas') {
+      return Container(
+        width: size,
+        height: size * 0.67, // Ratio standard des drapeaux
+        decoration: BoxDecoration(
+          color: Colors.grey[300],
+          borderRadius: BorderRadius.circular(2),
+        ),
+        child: const Icon(Icons.flag, size: 12, color: Colors.grey),
+      );
+    }
     
     // Cas spéciaux pour les nations du Royaume-Uni avec drapeaux personnalisés
     if (normalizedCountry == 'england') {

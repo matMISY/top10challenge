@@ -1,0 +1,1891 @@
+{
+  "generated_at": "2025-08-08T23:58:18.681722",
+  "total_quizzes": 29,
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TOP 10 du Ballon d'Or 2024",
+      "theme": "Ballon d'Or",
+      "difficulty": 1,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Rodri",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Vinicius Jr.",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Jude Bellingham",
+          "nationality": "angleterre",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Dani Carvajal",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Man City"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Lautaro Martínez",
+          "nationality": "argentine",
+          "hint": "Inter"
+        },
+        {
+          "name": "Lamine Yamal",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Toni Kroos",
+          "nationality": "allemagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "year": "2024",
+        "difficulty_label": "très facile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.680854"
+      }
+    },
+    {
+      "id": 2,
+      "title": "TOP 10 du Ballon d'Or 2023",
+      "theme": "Ballon d'Or",
+      "difficulty": 1,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "PSG"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Man City"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Rodri",
+          "nationality": "espagne",
+          "hint": "Man City"
+        },
+        {
+          "name": "Vinícius Júnior",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Julián Álvarez",
+          "nationality": "argentine",
+          "hint": "Man City"
+        },
+        {
+          "name": "Victor Osimhen",
+          "nationality": "nigeria",
+          "hint": "Naples"
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "Man City"
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "Real Madrid"
+        }
+      ],
+      "metadata": {
+        "year": "2023",
+        "difficulty_label": "très facile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.680916"
+      }
+    },
+    {
+      "id": 3,
+      "title": "TOP 10 du Ballon d'Or 2022",
+      "theme": "Ballon d'Or",
+      "difficulty": 1,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "nationality": "belgique",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Vinícius Júnior",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Erling Haaland",
+          "nationality": "norvège",
+          "hint": "Dortmund"
+        }
+      ],
+      "metadata": {
+        "year": "2022",
+        "difficulty_label": "très facile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.680942"
+      }
+    },
+    {
+      "id": 4,
+      "title": "TOP 10 du Ballon d'Or 2021",
+      "theme": "Ballon d'Or",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Jorginho",
+          "nationality": "italie",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Karim Benzema",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "N'Golo Kanté",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Gianluigi Donnarumma",
+          "nationality": "italie",
+          "hint": "Milan"
+        }
+      ],
+      "metadata": {
+        "year": "2021",
+        "difficulty_label": "facile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.680968"
+      }
+    },
+    {
+      "id": 5,
+      "title": "TOP 10 du Ballon d'Or 2019",
+      "theme": "Ballon d'Or",
+      "difficulty": 2,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "nationality": "pays-bas",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Sadio Mané",
+          "nationality": "sénégal",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Alisson",
+          "nationality": "brésil",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Bernardo Silva",
+          "nationality": "portugal",
+          "hint": "Man City"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "Man City"
+        }
+      ],
+      "metadata": {
+        "year": "2019",
+        "difficulty_label": "facile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.680993"
+      }
+    },
+    {
+      "id": 6,
+      "title": "TOP 10 du Ballon d'Or 2018",
+      "theme": "Ballon d'Or",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Mohamed Salah",
+          "nationality": "égypte",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Raphaël Varane",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Eden Hazard",
+          "nationality": "belgique",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "nationality": "belgique",
+          "hint": "Man City"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        }
+      ],
+      "metadata": {
+        "year": "2018",
+        "difficulty_label": "moyen",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681025"
+      }
+    },
+    {
+      "id": 7,
+      "title": "TOP 10 du Ballon d'Or 2017",
+      "theme": "Ballon d'Or",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Luka Modrić",
+          "nationality": "croatie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Sergio Ramos",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "nationality": "france",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "N'Golo Kanté",
+          "nationality": "france",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Robert Lewandowski",
+          "nationality": "pologne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Harry Kane",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        }
+      ],
+      "metadata": {
+        "year": "2017",
+        "difficulty_label": "moyen",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681053"
+      }
+    },
+    {
+      "id": 8,
+      "title": "TOP 10 du Ballon d'Or 2016",
+      "theme": "Ballon d'Or",
+      "difficulty": 3,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "nationality": "france",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Luis Suárez",
+          "nationality": "uruguay",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Neymar",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Gareth Bale",
+          "nationality": "pays",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Riyad Mahrez",
+          "nationality": "algérie",
+          "hint": "Leicester City"
+        },
+        {
+          "name": "Jamie Vardy",
+          "nationality": "angleterre",
+          "hint": "Leicester City"
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Pepe",
+          "nationality": "real",
+          "hint": "Portugal"
+        }
+      ],
+      "metadata": {
+        "year": "2016",
+        "difficulty_label": "moyen",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681088"
+      }
+    },
+    {
+      "id": 9,
+      "title": "TOP 10 du Ballon d'Or 2010",
+      "theme": "Ballon d'Or",
+      "difficulty": 5,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Xavi",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Wesley Sneijder",
+          "nationality": "pays-bas",
+          "hint": "Inter"
+        },
+        {
+          "name": "Diego Forlán",
+          "nationality": "uruguay",
+          "hint": "Atletico Madrid"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Iker Casillas",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "Valence CF"
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Xabi Alonso",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        }
+      ],
+      "metadata": {
+        "year": "2010",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681130"
+      }
+    },
+    {
+      "id": 10,
+      "title": "TOP 10 du Ballon d'Or 2009",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Man United"
+        },
+        {
+          "name": "Xavi",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Andrés Iniesta",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "Milan"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Inter"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Steven Gerrard",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        }
+      ],
+      "metadata": {
+        "year": "2009",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681163"
+      }
+    },
+    {
+      "id": 11,
+      "title": "TOP 10 du Ballon d'Or 2008",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Man United"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Fernando Torres",
+          "nationality": "espagne",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Iker Casillas",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Xavi",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Andreï Archavine",
+          "nationality": "russie",
+          "hint": "Zénith Saint-Petersbourg"
+        },
+        {
+          "name": "David Villa",
+          "nationality": "espagne",
+          "hint": "Valence CF"
+        },
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "Milan"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Inter"
+        },
+        {
+          "name": "Steven Gerrard",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        }
+      ],
+      "metadata": {
+        "year": "2008",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681187"
+      }
+    },
+    {
+      "id": 12,
+      "title": "TOP 10 du Ballon d'Or 2007",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "Milan"
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "nationality": "portugal",
+          "hint": "Man United"
+        },
+        {
+          "name": "Lionel Messi",
+          "nationality": "argentine",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte d'ivoire",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Andrea Pirlo",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Ruud van Nistelrooy",
+          "nationality": "s pays-bas",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Inter"
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "nationality": "espagne",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Robinho",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "Roma"
+        }
+      ],
+      "metadata": {
+        "year": "2007",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681217"
+      }
+    },
+    {
+      "id": 13,
+      "title": "TOP 10 du Ballon d'Or 2006",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Fabio Cannavaro",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Ronaldinho",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Zinédine Zidane",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Miroslav Klose",
+          "nationality": "allemagne",
+          "hint": "Werder Bremen"
+        },
+        {
+          "name": "Didier Drogba",
+          "nationality": "côte d'ivoire",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Andrea Pirlo",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Jens Lehmann",
+          "nationality": "allemagne",
+          "hint": "Arsenal"
+        }
+      ],
+      "metadata": {
+        "year": "2006",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681245"
+      }
+    },
+    {
+      "id": 14,
+      "title": "TOP 10 du Ballon d'Or 2005",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Ronaldinho",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Frank Lampard",
+          "nationality": "angleterre",
+          "hint": "Chelsea"
+        },
+        {
+          "name": "Steven Gerrard",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Andriy Chevtchenko",
+          "nationality": "ukraine",
+          "hint": "Milan"
+        },
+        {
+          "name": "Paolo Maldini",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Adriano",
+          "nationality": "brésil",
+          "hint": "Inter"
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "nationality": "suède",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Kaká",
+          "nationality": "brésil",
+          "hint": "Milan"
+        },
+        {
+          "name": "Samuel Eto'o",
+          "nationality": "cameroun",
+          "hint": "Barcelona"
+        }
+      ],
+      "metadata": {
+        "year": "2005",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681272"
+      }
+    },
+    {
+      "id": 15,
+      "title": "TOP 10 du Ballon d'Or 2004",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Andriy Chevtchenko",
+          "nationality": "ukraine",
+          "hint": "Milan"
+        },
+        {
+          "name": "Deco",
+          "nationality": "portugal",
+          "hint": "Porto"
+        },
+        {
+          "name": "Ronaldinho",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Theodoros Zagorakis",
+          "nationality": "grèce",
+          "hint": "AEK Athènes"
+        },
+        {
+          "name": "Adriano",
+          "nationality": "brésil",
+          "hint": "Parme"
+        },
+        {
+          "name": "Pavel Nedvěd",
+          "nationality": "tchéquie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Wayne Rooney",
+          "nationality": "angleterre",
+          "hint": "Everton FC"
+        },
+        {
+          "name": "Ricardo Carvalho",
+          "nationality": "portugal",
+          "hint": "Porto"
+        },
+        {
+          "name": "Ruud van Nistelrooy",
+          "nationality": "manchester",
+          "hint": "18"
+        }
+      ],
+      "metadata": {
+        "year": "2004",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681297"
+      }
+    },
+    {
+      "id": 16,
+      "title": "TOP 10 du Ballon d'Or 2003",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Pavel Nedvěd",
+          "nationality": "tchéquie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Paolo Maldini",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Andriy Chevtchenko",
+          "nationality": "ukraine",
+          "hint": "Milan"
+        },
+        {
+          "name": "Zinédine Zidane",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Ruud van Nistelrooy",
+          "nationality": "pays-bas",
+          "hint": "Man United"
+        },
+        {
+          "name": "Raúl",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Roberto Carlos",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "David Beckham",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        }
+      ],
+      "metadata": {
+        "year": "2003",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681329"
+      }
+    },
+    {
+      "id": 17,
+      "title": "TOP 10 du Ballon d'Or 2002",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Ronaldo",
+          "nationality": "brésil",
+          "hint": "Inter"
+        },
+        {
+          "name": "Roberto Carlos",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Oliver Kahn",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Zinédine Zidane",
+          "nationality": "france",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Michael Ballack",
+          "nationality": "allemagne",
+          "hint": "Bayer Leverkusen"
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Raúl",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Rivaldo",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Yıldıray Baştürk",
+          "nationality": "turquie",
+          "hint": "Bayer Leverkusen"
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "nationality": "italie",
+          "hint": "Juventus"
+        }
+      ],
+      "metadata": {
+        "year": "2002",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681357"
+      }
+    },
+    {
+      "id": 18,
+      "title": "TOP 10 du Ballon d'Or 2001",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Michael Owen",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Raúl González",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Oliver Kahn",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "David Beckham",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Francesco Totti",
+          "nationality": "italie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Luís Figo",
+          "nationality": "portugal",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Rivaldo",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Andriy Chevtchenko",
+          "nationality": "ukraine",
+          "hint": "Milan"
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Zinédine Zidane",
+          "nationality": "juventus",
+          "hint": "France"
+        }
+      ],
+      "metadata": {
+        "year": "2001",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681382"
+      }
+    },
+    {
+      "id": 19,
+      "title": "TOP 10 du Ballon d'Or 2000",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Luís Figo",
+          "nationality": "portugal",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Zinédine Zidane",
+          "nationality": "france",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Andriy Shevchenko",
+          "nationality": "ukraine",
+          "hint": "Milan"
+        },
+        {
+          "name": "Thierry Henry",
+          "nationality": "france",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Alessandro Nesta",
+          "nationality": "italie",
+          "hint": "Lazio Rome"
+        },
+        {
+          "name": "Rivaldo",
+          "nationality": "fc",
+          "hint": "Brésil"
+        },
+        {
+          "name": "Gabriel Batistuta",
+          "nationality": "argentine",
+          "hint": "Fiorentina AC"
+        },
+        {
+          "name": "Gaizka Mendieta",
+          "nationality": "espagne",
+          "hint": "Valence CF"
+        },
+        {
+          "name": "Raúl González",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "David Beckham",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        }
+      ],
+      "metadata": {
+        "year": "2000",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681415"
+      }
+    },
+    {
+      "id": 20,
+      "title": "TOP 10 du Ballon d'Or 1999",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Rivaldo",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "David Beckham",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Andriy Chevtchenko",
+          "nationality": "ukraine",
+          "hint": "Dynamo Kiev"
+        },
+        {
+          "name": "Gabriel Batistuta",
+          "nationality": "argentine",
+          "hint": "AC Fiorentina"
+        },
+        {
+          "name": "Luís Figo",
+          "nationality": "portugal",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Roy Keane",
+          "nationality": "république",
+          "hint": "Man United"
+        },
+        {
+          "name": "Christian Vieri",
+          "nationality": "italie",
+          "hint": "Lazio"
+        },
+        {
+          "name": "Juan Sebastián Verón",
+          "nationality": "argentine",
+          "hint": "Parme FC"
+        },
+        {
+          "name": "Raúl",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Lothar Matthäus",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        }
+      ],
+      "metadata": {
+        "year": "1999",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681440"
+      }
+    },
+    {
+      "id": 21,
+      "title": "TOP 10 du Ballon d'Or 1998",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Zinédine Zidane",
+          "nationality": "france",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Davor Šuker",
+          "nationality": "croatie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Ronaldo",
+          "nationality": "brésil",
+          "hint": "Inter"
+        },
+        {
+          "name": "Michael Owen",
+          "nationality": "angleterre",
+          "hint": "Liverpool"
+        },
+        {
+          "name": "Rivaldo",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Gabriel Batistuta",
+          "nationality": "argentine",
+          "hint": "Fiorentina AC"
+        },
+        {
+          "name": "Lilian Thuram",
+          "nationality": "france",
+          "hint": "Parme FC"
+        },
+        {
+          "name": "Dennis Bergkamp",
+          "nationality": "pays-bas",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Edgar Davids",
+          "nationality": "milan",
+          "hint": "Pays-Bas"
+        },
+        {
+          "name": "Marcel Desailly",
+          "nationality": "france",
+          "hint": "Milan"
+        }
+      ],
+      "metadata": {
+        "year": "1998",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681469"
+      }
+    },
+    {
+      "id": 22,
+      "title": "TOP 10 du Ballon d'Or 1997",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Ronaldo",
+          "nationality": "brésil",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Predrag Mijatović",
+          "nationality": "république fédérative socialiste de yougoslavie",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Zinédine Zidane",
+          "nationality": "france",
+          "hint": "Juventus de Turin"
+        },
+        {
+          "name": "Dennis Bergkamp",
+          "nationality": "s pays-bas",
+          "hint": "Arsenal"
+        },
+        {
+          "name": "Roberto Carlos",
+          "nationality": "brésil",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Andreas Möller",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Raúl",
+          "nationality": "espagne",
+          "hint": "Real Madrid"
+        },
+        {
+          "name": "Peter Schmeichel",
+          "nationality": "danemark",
+          "hint": "Man United"
+        },
+        {
+          "name": "Matthias Sammer",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Christian Vieri",
+          "nationality": "italie",
+          "hint": "Juventus de Turin"
+        }
+      ],
+      "metadata": {
+        "year": "1997",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681511"
+      }
+    },
+    {
+      "id": 23,
+      "title": "TOP 10 du Ballon d'Or 1996",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Matthias Sammer",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Ronaldo",
+          "nationality": "brésil",
+          "hint": "PSV Eindhoven"
+        },
+        {
+          "name": "Alan Shearer",
+          "nationality": "angleterre",
+          "hint": "Blackburn Rovers"
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Jürgen Klinsmann",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Davor Šuker",
+          "nationality": "croatie",
+          "hint": "FC Séville"
+        },
+        {
+          "name": "Éric Cantona",
+          "nationality": "france",
+          "hint": "Man United"
+        },
+        {
+          "name": "Marcel Desailly",
+          "nationality": "france",
+          "hint": "Milan"
+        },
+        {
+          "name": "Youri Djorkaeff",
+          "nationality": "france",
+          "hint": "PSG"
+        },
+        {
+          "name": "Karel Poborský",
+          "nationality": "tchéquie",
+          "hint": "Slavia Prague"
+        }
+      ],
+      "metadata": {
+        "year": "1996",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681543"
+      }
+    },
+    {
+      "id": 24,
+      "title": "TOP 10 du Ballon d'Or 1995",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "George Weah",
+          "nationality": "libéria",
+          "hint": "PSG"
+        },
+        {
+          "name": "Jürgen Klinsmann",
+          "nationality": "allemagne",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Jari Litmanen",
+          "nationality": "finlande",
+          "hint": "Ajax Amsterdam"
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Patrick Kluivert",
+          "nationality": "s pays-bas",
+          "hint": "Ajax Amsterdam"
+        },
+        {
+          "name": "Gianfranco Zola",
+          "nationality": "italie",
+          "hint": "Parme AC"
+        },
+        {
+          "name": "Paolo Maldini",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Marc Overmars",
+          "nationality": "s pays-bas",
+          "hint": "Ajax Amsterdam"
+        },
+        {
+          "name": "Matthias Sammer",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Michael Laudrup",
+          "nationality": "danemark",
+          "hint": "Real Madrid"
+        }
+      ],
+      "metadata": {
+        "year": "1995",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681567"
+      }
+    },
+    {
+      "id": 25,
+      "title": "TOP 10 du Ballon d'Or 1994",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Hristo Stoitchkov",
+          "nationality": "bulgarie",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Roberto Baggio",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Paolo Maldini",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Gheorghe Hagi",
+          "nationality": "roumanie",
+          "hint": "Brescia"
+        },
+        {
+          "name": "Tomas Brolin",
+          "nationality": "suède",
+          "hint": "68"
+        },
+        {
+          "name": "Jürgen Klinsmann",
+          "nationality": "allemagne",
+          "hint": "AS Monaco"
+        },
+        {
+          "name": "Thomas Ravelli",
+          "nationality": "suède",
+          "hint": "IFK Göteborg"
+        },
+        {
+          "name": "Jari Litmanen",
+          "nationality": "finlande",
+          "hint": "Ajax Amsterdam"
+        },
+        {
+          "name": "Marcel Desailly",
+          "nationality": "france",
+          "hint": "Milan"
+        },
+        {
+          "name": "Dejan Savićević",
+          "nationality": "rf",
+          "hint": "8"
+        }
+      ],
+      "metadata": {
+        "year": "1994",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681600"
+      }
+    },
+    {
+      "id": 26,
+      "title": "TOP 10 du Ballon d'Or 1993",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Roberto Baggio",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Dennis Bergkamp",
+          "nationality": "s pays-bas",
+          "hint": "Ajax Amsterdam"
+        },
+        {
+          "name": "Éric Cantona",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Alen Bokšić",
+          "nationality": "france",
+          "hint": "Olympique de Marseille"
+        },
+        {
+          "name": "Michael Laudrup",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Franco Baresi",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Paolo Maldini",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Emil Kostadinov",
+          "nationality": "portugal",
+          "hint": "FC Porto"
+        },
+        {
+          "name": "Stéphane Chapuisat",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Ryan Giggs",
+          "nationality": "angleterre",
+          "hint": "Pays de Galles"
+        }
+      ],
+      "metadata": {
+        "year": "1993",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681629"
+      }
+    },
+    {
+      "id": 27,
+      "title": "TOP 10 du Ballon d'Or 1992",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Marco van Basten",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Hristo Stoitchkov",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Dennis Bergkamp",
+          "nationality": "s pays-bas",
+          "hint": "Ajax Amsterdam"
+        },
+        {
+          "name": "Thomas Häßler",
+          "nationality": "italie",
+          "hint": "Roma"
+        },
+        {
+          "name": "Peter Schmeichel",
+          "nationality": "angleterre",
+          "hint": "Man United"
+        },
+        {
+          "name": "Brian Laudrup",
+          "nationality": "allemagne",
+          "hint": "Bayern"
+        },
+        {
+          "name": "Michael Laudrup",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Ronald Koeman",
+          "nationality": "espagne",
+          "hint": "Barcelona"
+        },
+        {
+          "name": "Stéphane Chapuisat",
+          "nationality": "allemagne",
+          "hint": "Dortmund"
+        },
+        {
+          "name": "Frank Rijkaard",
+          "nationality": "italie",
+          "hint": "Milan"
+        }
+      ],
+      "metadata": {
+        "year": "1992",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681660"
+      }
+    },
+    {
+      "id": 28,
+      "title": "TOP 10 du Ballon d'Or 1991",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Jean-Pierre Papin",
+          "nationality": "france",
+          "hint": "Olympique de Marseille"
+        },
+        {
+          "name": "Dejan Savićević",
+          "nationality": "yougoslavie",
+          "hint": "Étoile rouge de Belgrade"
+        },
+        {
+          "name": "Darko Pančev",
+          "nationality": "yougoslavie",
+          "hint": "Étoile rouge de Belgrade"
+        },
+        {
+          "name": "Lothar Matthäus",
+          "nationality": "allemagne",
+          "hint": "Inter"
+        },
+        {
+          "name": "Robert Prosinecki",
+          "nationality": "yougoslavie",
+          "hint": "Étoile rouge de Belgrade"
+        },
+        {
+          "name": "Gary Lineker",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Gianluca Vialli",
+          "nationality": "italie",
+          "hint": "Sampdoria de Gênes"
+        },
+        {
+          "name": "Miodrag Belodedici",
+          "nationality": "roumanie",
+          "hint": "Étoile rouge de Belgrade"
+        },
+        {
+          "name": "Mark Hughes",
+          "nationality": "pays",
+          "hint": "Man United"
+        },
+        {
+          "name": "Chris Waddle",
+          "nationality": "angleterre",
+          "hint": "Olympique de Marseille"
+        }
+      ],
+      "metadata": {
+        "year": "1991",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681688"
+      }
+    },
+    {
+      "id": 29,
+      "title": "TOP 10 du Ballon d'Or 1990",
+      "theme": "Ballon d'Or",
+      "difficulty": 6,
+      "hint": "Pour chaque joueur, renseigner son club",
+      "answers": [
+        {
+          "name": "Lothar Matthäus",
+          "nationality": "italie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Salvatore Schillaci",
+          "nationality": "italie",
+          "hint": "Juventus"
+        },
+        {
+          "name": "Andreas Brehme",
+          "nationality": "italie",
+          "hint": "Inter"
+        },
+        {
+          "name": "Paul Gascoigne",
+          "nationality": "angleterre",
+          "hint": "Tottenham"
+        },
+        {
+          "name": "Franco Baresi",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Enzo Scifo",
+          "nationality": "france",
+          "hint": "Auxerre"
+        },
+        {
+          "name": "Jürgen Klinsmann",
+          "nationality": "italie",
+          "hint": "Allemagne"
+        },
+        {
+          "name": "Roberto Baggio",
+          "nationality": "italie",
+          "hint": "ACF Fiorentina"
+        },
+        {
+          "name": "Frank Rijkaard",
+          "nationality": "italie",
+          "hint": "Milan"
+        },
+        {
+          "name": "Guido Buchwald",
+          "nationality": "allemagne",
+          "hint": "VfB Stuttgart"
+        }
+      ],
+      "metadata": {
+        "year": "1990",
+        "difficulty_label": "très difficile",
+        "data_source": "ballon_dor_rankings",
+        "generated_at": "2025-08-08T23:58:18.681716"
+      }
+    }
+  ]
+}

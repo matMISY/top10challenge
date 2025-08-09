@@ -30,40 +30,84 @@ class TierLevelsScreen extends StatelessWidget {
             ],
           ),
         ),
-        child: Consumer<GameProvider>(
-          builder: (context, gameProvider, child) {
-            final tierLevels = gameProvider.levels
-                .where((level) => tier.levelIds.contains(level.id))
-                .toList()
-              ..sort((a, b) => a.positionInTier.compareTo(b.positionInTier));
-
-            return Column(
-              children: [
-                _buildTierHeader(gameProvider, tierLevels),
-                Expanded(
-                  child: GridView.builder(
-                    padding: const EdgeInsets.all(20),
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 2,
-                      childAspectRatio: 0.8,
-                      crossAxisSpacing: 15,
-                      mainAxisSpacing: 15,
-                    ),
-                    itemCount: tierLevels.length,
-                    itemBuilder: (context, index) {
-                      final level = tierLevels[index];
-                      return _buildLevelCard(context, level, gameProvider, index == 4);
-                    },
-                  ),
-                ),
-              ],
-            );
-          },
-        ),
+        child: _TierLevelsContent(tier: tier),
       ),
     );
   }
 
+}
+
+class _TierLevelsContent extends StatefulWidget {
+  final Tier tier;
+  
+  const _TierLevelsContent({required this.tier});
+  
+  @override
+  State<_TierLevelsContent> createState() => _TierLevelsContentState();
+}
+
+class _TierLevelsContentState extends State<_TierLevelsContent> {
+  List<Level> _cachedTierLevels = [];
+  GameProvider? _gameProvider;
+  int _lastLivesCount = -1;
+  
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final gameProvider = Provider.of<GameProvider>(context, listen: false);
+    if (_gameProvider != gameProvider || _cachedTierLevels.isEmpty) {
+      _gameProvider = gameProvider;
+      _updateTierLevels();
+    }
+  }
+  
+  void _updateTierLevels() {
+    if (_gameProvider != null) {
+      _cachedTierLevels = _gameProvider!.levels
+          .where((level) => widget.tier.levelIds.contains(level.id))
+          .toList()
+        ..sort((a, b) => a.positionInTier.compareTo(b.positionInTier));
+    }
+  }
+  
+  @override
+  Widget build(BuildContext context) {
+    return Selector<GameProvider, int>(
+      selector: (context, gameProvider) => gameProvider.gameState.lives,
+      shouldRebuild: (previous, next) => previous != next,
+      builder: (context, currentLives, child) {
+        final gameProvider = Provider.of<GameProvider>(context, listen: false);
+        
+        return Column(
+          children: [
+            _buildTierHeader(gameProvider, _cachedTierLevels),
+            Expanded(
+              child: GridView.builder(
+                padding: const EdgeInsets.all(20),
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  childAspectRatio: 0.8,
+                  crossAxisSpacing: 15,
+                  mainAxisSpacing: 15,
+                ),
+                itemCount: _cachedTierLevels.length,
+                itemBuilder: (context, index) {
+                  final level = _cachedTierLevels[index];
+                  return _LevelCard(
+                    key: ValueKey('level_${level.id}_${currentLives}'),
+                    level: level,
+                    gameProvider: gameProvider,
+                    isBoss: index == 4,
+                  );
+                },
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+  
   Widget _buildTierHeader(GameProvider gameProvider, List<Level> tierLevels) {
     final completedCount = tierLevels.where((level) => level.isCompleted).length;
     final totalCount = tierLevels.length;
@@ -86,7 +130,7 @@ class TierLevelsScreen extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            tier.description,
+            widget.tier.description,
             style: const TextStyle(
               fontSize: 16,
               color: Color(0xFF6B73FF),
@@ -119,7 +163,7 @@ class TierLevelsScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 16),
-              if (tier.isCompleted)
+              if (widget.tier.isCompleted)
                 Container(
                   padding: const EdgeInsets.all(8),
                   decoration: const BoxDecoration(
@@ -138,8 +182,22 @@ class TierLevelsScreen extends StatelessWidget {
       ),
     );
   }
+}
 
-  Widget _buildLevelCard(BuildContext context, Level level, GameProvider gameProvider, bool isBoss) {
+class _LevelCard extends StatelessWidget {
+  final Level level;
+  final GameProvider gameProvider;
+  final bool isBoss;
+
+  const _LevelCard({
+    super.key,
+    required this.level,
+    required this.gameProvider,
+    required this.isBoss,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     final isUnlocked = level.isUnlocked;
     final isCompleted = level.isCompleted;
     final canPlay = gameProvider.gameState.canPlay();
