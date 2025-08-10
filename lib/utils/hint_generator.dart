@@ -31,14 +31,14 @@ class HintGenerator {
     }
   }
   
-  /// Génère la structure du nom (underscores avec espaces)
+  /// Génère la structure du nom (underscores, plus compact)
   static String _generateNameStructure(String name) {
     return name.split('').map((char) {
       if (char == ' ' || char == '-' || char == '\'') {
         return char;
       }
       return '_';
-    }).join(' ');
+    }).join(''); // Plus d'espace entre les caractères pour plus de compacité
   }
   
   /// Génère les lettres partielles (1 sur 3, première toujours visible)
@@ -67,10 +67,8 @@ class HintGenerator {
         result.write('_');
       }
       
-      // Ajouter un espace entre les caractères pour la lisibilité
-      if (i < name.length - 1 && char != ' ') {
-        result.write(' ');
-      }
+      // Pas d'espacement supplémentaire pour plus de compacité
+      // Les espaces naturels du nom sont conservés
     }
     
     return result.toString();

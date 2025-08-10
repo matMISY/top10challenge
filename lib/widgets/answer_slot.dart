@@ -312,12 +312,12 @@ class _AnswerSlotState extends State<AnswerSlot>
             widget.hintData!.hint!,
             style: GoogleFonts.baloo2(
               color: Colors.amber.shade100,
-              fontSize: 12,
+              fontSize: 11,
               fontWeight: FontWeight.w500,
               height: 1.1,
               fontStyle: FontStyle.italic,
             ),
-            maxLines: 1,
+            maxLines: 2,
             overflow: TextOverflow.ellipsis,
           ),
         // Afficher la structure si disponible
@@ -326,12 +326,12 @@ class _AnswerSlotState extends State<AnswerSlot>
             widget.hintData!.structure!,
             style: GoogleFonts.baloo2(
               color: Colors.white,
-              fontSize: 13,
+              fontSize: 12,
               fontWeight: FontWeight.w600,
               height: 1.1,
-              letterSpacing: 1.5,
+              letterSpacing: widget.hintData!.level == 2 ? 1.0 : 0.5, // Espacement optimisé selon le niveau
             ),
-            maxLines: 1,
+            maxLines: 2,
             overflow: TextOverflow.ellipsis,
           ),
       ],
