@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../models/game_state.dart';
 import '../models/level.dart';
@@ -8,6 +9,7 @@ import '../services/game_service.dart';
 import '../services/ads_service.dart';
 import '../services/money_time_service.dart';
 import '../services/feedback_service.dart';
+import '../widgets/money_time_end_animation.dart';
 
 class GameProvider with ChangeNotifier {
   final GameService _gameService = GameService();
@@ -21,6 +23,7 @@ class GameProvider with ChangeNotifier {
   bool _isWatchingAd = false;
   Timer? _lifeRecoveryTimer;
   Timer? _uiUpdateTimer;
+  Timer? _autoSaveTimer;
   BuildContext? _context; // Pour les feedbacks
 
   GameState get gameState => _gameState;
@@ -43,6 +46,7 @@ class GameProvider with ChangeNotifier {
   void dispose() {
     _lifeRecoveryTimer?.cancel();
     _uiUpdateTimer?.cancel();
+    _autoSaveTimer?.cancel();
     _moneyTimeService.dispose();
     _adsService.dispose();
     super.dispose();
@@ -86,10 +90,20 @@ class GameProvider with ChangeNotifier {
       _startUIUpdateTimer();
       debugPrint('✅ UI update timer started');
       
+      // Démarrer le timer d'auto-sauvegarde
+      debugPrint('💾 Starting auto-save timer...');
+      _startAutoSaveTimer();
+      debugPrint('✅ Auto-save timer started');
+      
       // Initialiser MoneyTimeService state
       debugPrint('💰 Initializing MoneyTimeService state...');
       _moneyTimeService.initializeFromState();
       debugPrint('✅ MoneyTimeService state initialized');
+      
+      // Vérifier la santé du Money Time
+      debugPrint('🏥 Checking Money Time health...');
+      await checkMoneyTimeHealth();
+      debugPrint('✅ Money Time health check completed');
       
       _isLoading = false;
       notifyListeners();
@@ -131,24 +145,42 @@ class GameProvider with ChangeNotifier {
 
   Future<void> loseLife() async {
     try {
+      debugPrint('💔 GameProvider: Attempting to lose life');
+      
       // Check if Money Time is active
       if (_gameState.isMoneyTimeActive()) {
+        final remaining = _gameState.getMoneyTimeRemaining();
+        debugPrint('💰 GameProvider: Money Time is active, preventing life loss. Remaining: $remaining');
+        
         // Don't lose life, just show feedback
         if (_context != null) {
-          FeedbackService.showInfo(
-            _context!,
-            'Money Time actif -\nPas de vie perdue! 💰',
-          );
+          FeedbackService.showMoneyTimeProtection(_context!);
         }
+        
+        // Double-check Money Time health after preventing life loss
+        await checkMoneyTimeHealth();
         return;
       }
+      
+      debugPrint('💔 GameProvider: Money Time not active, proceeding with life loss');
       
       // Original life loss logic
       await _gameService.loseLife();
       _gameState = await _gameService.getGameState();
+      
+      debugPrint('💔 GameProvider: Life lost successfully. Lives remaining: ${_gameState.lives}');
       notifyListeners();
     } catch (e) {
-      debugPrint('Error losing life: $e');
+      debugPrint('❌ GameProvider: Error losing life: $e');
+      debugPrint('📋 Stack trace: ${StackTrace.current}');
+      
+      // Try to recover game state in case of error
+      try {
+        _gameState = await _gameService.getGameState();
+        notifyListeners();
+      } catch (recoveryError) {
+        debugPrint('❌ GameProvider: Failed to recover game state: $recoveryError');
+      }
     }
   }
 
@@ -509,6 +541,87 @@ class GameProvider with ChangeNotifier {
   }
 
   // ========================================
+  // PERSISTENCE AND AUTO-SAVE METHODS
+  // ========================================
+
+  /// Start auto-save timer for critical state preservation
+  void _startAutoSaveTimer() {
+    _autoSaveTimer = Timer.periodic(Duration(minutes: 1), (timer) async {
+      try {
+        await _performAutoSave();
+      } catch (error) {
+        debugPrint('❌ GameProvider: Auto-save failed: $error');
+      }
+    });
+  }
+
+  /// Perform automatic save if needed
+  Future<void> _performAutoSave() async {
+    // Only auto-save if Money Time is active or in activation progress
+    if (_gameState.isMoneyTimeActive() || _moneyTimeService.isActivationInProgress) {
+      debugPrint('💾 GameProvider: Auto-saving state (Money Time active)');
+      await _emergencySaveState();
+      
+      // Also perform periodic health check
+      _moneyTimeService.checkTimerHealth();
+    }
+  }
+
+  /// Emergency save state with error handling
+  Future<void> _emergencySaveState() async {
+    try {
+      await _gameService.saveGameState(_gameState);
+      debugPrint('✅ GameProvider: Emergency save completed');
+    } catch (error) {
+      debugPrint('❌ GameProvider: Emergency save failed: $error');
+      // Try again after a delay
+      Future.delayed(Duration(seconds: 5), () async {
+        try {
+          await _gameService.saveGameState(_gameState);
+          debugPrint('✅ GameProvider: Emergency save retry succeeded');
+        } catch (retryError) {
+          debugPrint('❌ GameProvider: Emergency save retry failed: $retryError');
+        }
+      });
+    }
+  }
+
+  /// Robust save state with fallback mechanisms
+  Future<bool> _robustSaveState() async {
+    int retries = 3;
+    Duration delay = Duration(milliseconds: 500);
+
+    for (int attempt = 0; attempt < retries; attempt++) {
+      try {
+        await _gameService.saveGameState(_gameState);
+        debugPrint('✅ GameProvider: Robust save succeeded on attempt ${attempt + 1}');
+        return true;
+      } catch (error) {
+        debugPrint('❌ GameProvider: Save attempt ${attempt + 1} failed: $error');
+        
+        if (attempt < retries - 1) {
+          await Future.delayed(delay);
+          delay *= 2; // Exponential backoff
+        }
+      }
+    }
+    
+    debugPrint('❌ GameProvider: All save attempts failed');
+    return false;
+  }
+
+  /// Force save critical Money Time state
+  Future<void> forceSaveMoneyTimeState() async {
+    debugPrint('🚨 GameProvider: Force saving Money Time state');
+    final success = await _robustSaveState();
+    
+    if (!success) {
+      debugPrint('🚨 GameProvider: Critical - Money Time state could not be saved!');
+      // In a real app, you might want to show a critical error dialog here
+    }
+  }
+
+  // ========================================
   // MONEY TIME METHODS
   // ========================================
 
@@ -523,7 +636,9 @@ class GameProvider with ChangeNotifier {
       moneyTimeAdsWatched: adsWatched,
       selectedMoneyTimeDuration: duration,
     );
-    await _gameService.saveGameState(_gameState);
+    
+    // Use robust save for critical Money Time progress
+    await _robustSaveState();
     notifyListeners();
   }
 
@@ -535,26 +650,21 @@ class GameProvider with ChangeNotifier {
       moneyTimeAdsWatched: 0,
     );
     
+    // Critical save - Money Time activation is a key state change
+    await forceSaveMoneyTimeState();
+    
     // Show feedback if context is available
     if (_context != null) {
-      final durationText = _gameState.selectedMoneyTimeDuration;
-      FeedbackService.showSuccess(
-        _context!,
-        'Money Time activé\npour $durationText minutes! 💰',
-      );
+      FeedbackService.showMoneyTimeActivated(_context!, _gameState.selectedMoneyTimeDuration);
     }
     
-    await _gameService.saveGameState(_gameState);
     notifyListeners();
   }
 
   /// Show Money Time warning (1 minute before end)
   void showMoneyTimeWarning() {
     if (_context != null) {
-      FeedbackService.showWarning(
-        _context!,
-        'Money Time termine\ndans 1 minute!',
-      );
+      FeedbackService.showMoneyTimeWarning(_context!);
     }
   }
 
@@ -564,16 +674,36 @@ class GameProvider with ChangeNotifier {
       moneyTimeEndTime: null,
     );
     
-    // Show feedback if context is available
+    // Critical save - Money Time ending is important for cooldown
+    await forceSaveMoneyTimeState();
+    
+    // Show end animation if context is available
     if (_context != null) {
-      FeedbackService.showInfo(
-        _context!,
-        'Money Time terminé.\nProchain disponible\ndans 4h',
-      );
+      _showMoneyTimeEndAnimation();
     }
     
-    await _gameService.saveGameState(_gameState);
     notifyListeners();
+  }
+
+  /// Show Money Time end animation
+  void _showMoneyTimeEndAnimation() {
+    if (_context == null) return;
+    
+    // Create overlay for the animation
+    final overlay = Overlay.of(_context!);
+    late OverlayEntry overlayEntry;
+    
+    overlayEntry = OverlayEntry(
+      builder: (context) => MoneyTimeEndAnimation(
+        onComplete: () {
+          overlayEntry.remove();
+          // Show standard feedback after animation
+          FeedbackService.showMoneyTimeEnded(_context!);
+        },
+      ),
+    );
+    
+    overlay.insert(overlayEntry);
   }
 
   /// Reset Money Time progress during activation
@@ -584,4 +714,259 @@ class GameProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  /// Start Money Time activation process (convenience method)
+  /// Returns true if successfully activated, false otherwise
+  Future<bool> startMoneyTimeActivation(int durationMinutes) async {
+    try {
+      debugPrint('🎯 GameProvider: Starting Money Time activation for $durationMinutes minutes');
+      
+      if (!_gameState.canActivateMoneyTime()) {
+        final timeUntilAvailable = _gameState.getTimeUntilMoneyTimeAvailable();
+        if (_context != null && timeUntilAvailable != null) {
+          FeedbackService.showError(
+            _context!,
+            'Money Time disponible dans\n${_formatCooldownTime(timeUntilAvailable)}',
+          );
+        }
+        return false;
+      }
+
+      final success = await _moneyTimeService.startActivationProcess(durationMinutes);
+      
+      if (!success && _context != null) {
+        FeedbackService.showError(
+          _context!,
+          'Impossible de démarrer\nMoney Time.\nVérifiez votre connexion.',
+        );
+      }
+      
+      return success;
+    } catch (error) {
+      debugPrint('❌ GameProvider: Error starting Money Time activation: $error');
+      if (_context != null) {
+        FeedbackService.showError(
+          _context!,
+          'Erreur lors de l\'activation\nMoney Time',
+        );
+      }
+      return false;
+    }
+  }
+
+  /// Cancel Money Time activation if in progress
+  void cancelMoneyTimeActivation() {
+    try {
+      debugPrint('❌ GameProvider: Cancelling Money Time activation');
+      _moneyTimeService.cancelActivation();
+      
+      if (_context != null) {
+        FeedbackService.showInfo(
+          _context!,
+          'Activation Money Time\nannulée',
+        );
+      }
+    } catch (error) {
+      debugPrint('❌ GameProvider: Error cancelling Money Time activation: $error');
+    }
+  }
+
+  /// Check Money Time health and restore if needed
+  Future<void> checkMoneyTimeHealth() async {
+    try {
+      final isActive = _gameState.isMoneyTimeActive();
+      final remaining = _gameState.getMoneyTimeRemaining();
+      
+      debugPrint('🏥 GameProvider: Money Time health check - Active: $isActive, Remaining: $remaining');
+      
+      // Validate state consistency first
+      if (!_moneyTimeService.validateState()) {
+        debugPrint('⚠️ GameProvider: Invalid Money Time state detected, attempting recovery');
+        await _recoverFromInvalidState();
+        return;
+      }
+      
+      if (isActive && remaining != null) {
+        // Money Time should be active but service might not have timers
+        if (remaining.isNegative) {
+          debugPrint('⚠️ GameProvider: Money Time expired, ending it');
+          await endMoneyTime();
+        } else {
+          // Ensure service is properly initialized
+          debugPrint('🔄 GameProvider: Reinitializing Money Time service');
+          _moneyTimeService.initializeFromState();
+        }
+      } else if (isActive && remaining == null) {
+        // Inconsistent state - Money Time marked as active but no end time
+        debugPrint('⚠️ GameProvider: Inconsistent Money Time state, cleaning up');
+        await endMoneyTime();
+      }
+      
+      // Check for edge case: activation stuck
+      if (_moneyTimeService.isActivationInProgress) {
+        final info = getMoneyTimeActivationInfo();
+        if (info['currentAdsWatched'] >= info['targetAds']) {
+          debugPrint('⚠️ GameProvider: Activation appears stuck, cleaning up');
+          _moneyTimeService.cancelActivation();
+        }
+      }
+    } catch (error) {
+      debugPrint('❌ GameProvider: Error during Money Time health check: $error');
+      await _handleHealthCheckError(error);
+    }
+  }
+
+  /// Recover from invalid Money Time state
+  Future<void> _recoverFromInvalidState() async {
+    try {
+      debugPrint('🔄 GameProvider: Attempting to recover from invalid state');
+      
+      // Cancel any ongoing activation
+      _moneyTimeService.cancelActivation();
+      
+      // If Money Time claims to be active but has invalid data, clean it up
+      if (_gameState.isMoneyTimeActive()) {
+        final remaining = _gameState.getMoneyTimeRemaining();
+        
+        if (remaining == null || remaining.isNegative || _gameState.selectedMoneyTimeDuration <= 0) {
+          debugPrint('🧹 GameProvider: Cleaning up invalid active Money Time');
+          await endMoneyTime();
+        } else {
+          debugPrint('🔄 GameProvider: Reinitializing valid Money Time');
+          _moneyTimeService.initializeFromState();
+        }
+      }
+      
+      // Reset any invalid progress
+      if (_gameState.moneyTimeAdsWatched < 0 || _gameState.selectedMoneyTimeDuration <= 0) {
+        debugPrint('🧹 GameProvider: Resetting invalid Money Time progress');
+        resetMoneyTimeProgress();
+      }
+      
+      debugPrint('✅ GameProvider: Recovery from invalid state completed');
+    } catch (error) {
+      debugPrint('❌ GameProvider: Error during state recovery: $error');
+      // Last resort - force reset all Money Time data
+      await _forceResetMoneyTime();
+    }
+  }
+
+  /// Handle health check errors
+  Future<void> _handleHealthCheckError(dynamic error) async {
+    debugPrint('🚨 GameProvider: Handling health check error: $error');
+    
+    try {
+      // Save current state before attempting recovery
+      await _emergencySaveState();
+      
+      // Try to clean up Money Time state
+      if (_gameState.isMoneyTimeActive()) {
+        debugPrint('🧹 GameProvider: Ending Money Time due to health check error');
+        await endMoneyTime();
+      }
+      
+      // Reset service state
+      _moneyTimeService.cancelActivation();
+      
+    } catch (recoveryError) {
+      debugPrint('❌ GameProvider: Error during health check recovery: $recoveryError');
+      await _forceResetMoneyTime();
+    }
+  }
+
+  /// Force reset all Money Time state as last resort
+  Future<void> _forceResetMoneyTime() async {
+    debugPrint('🚨 GameProvider: Force resetting Money Time state');
+    
+    try {
+      _gameState = _gameState.copyWith(
+        moneyTimeEndTime: null,
+        moneyTimeAdsWatched: 0,
+        selectedMoneyTimeDuration: 30, // Reset to default
+      );
+      
+      await _robustSaveState();
+      notifyListeners();
+      
+      debugPrint('✅ GameProvider: Force reset completed');
+    } catch (error) {
+      debugPrint('❌ GameProvider: Error during force reset: $error');
+    }
+  }
+
+  /// Handle app lifecycle changes for Money Time
+  Future<void> handleAppLifecycleChange(AppLifecycleState state) async {
+    try {
+      debugPrint('🔄 GameProvider: App lifecycle changed to: $state');
+      
+      // Let MoneyTimeService handle its own lifecycle
+      _moneyTimeService.handleAppLifecycleChange(state);
+      
+      switch (state) {
+        case AppLifecycleState.resumed:
+          // App came back to foreground
+          debugPrint('▶️ GameProvider: App resumed, checking Money Time health');
+          await checkMoneyTimeHealth();
+          
+          // Perform health check on timers
+          _moneyTimeService.checkTimerHealth();
+          break;
+        case AppLifecycleState.paused:
+          // App going to background - save state robustly
+          debugPrint('⏸️ GameProvider: App paused, saving state');
+          await forceSaveMoneyTimeState();
+          break;
+        case AppLifecycleState.inactive:
+          // App briefly inactive (e.g., during ad display)
+          debugPrint('⏸️ GameProvider: App inactive');
+          break;
+        case AppLifecycleState.detached:
+          // App being terminated - final save
+          debugPrint('⏹️ GameProvider: App detached, performing final save');
+          await forceSaveMoneyTimeState();
+          break;
+        case AppLifecycleState.hidden:
+          // App hidden
+          debugPrint('🫥 GameProvider: App hidden');
+          break;
+      }
+    } catch (error) {
+      debugPrint('❌ GameProvider: Error handling app lifecycle change: $error');
+    }
+  }
+
+  /// Helper method to format cooldown time
+  String _formatCooldownTime(Duration duration) {
+    final hours = duration.inHours;
+    final minutes = duration.inMinutes % 60;
+    
+    if (hours > 0) {
+      if (minutes > 0) {
+        return '${hours}h ${minutes}min';
+      } else {
+        return '${hours}h';
+      }
+    } else {
+      return '${minutes}min';
+    }
+  }
+
+  /// Get Money Time activation progress info
+  Map<String, dynamic> getMoneyTimeActivationInfo() {
+    return {
+      'isInProgress': _moneyTimeService.isActivationInProgress,
+      'currentAdsWatched': _moneyTimeService.currentAdsWatched,
+      'targetAds': _moneyTimeService.targetAds,
+      'selectedDuration': _moneyTimeService.selectedDuration,
+      'progressPercentage': _moneyTimeService.targetAds > 0 
+          ? (_moneyTimeService.currentAdsWatched / _moneyTimeService.targetAds * 100).round() 
+          : 0,
+    };
+  }
+
+  /// Test method to update game state directly (only for testing)
+  @visibleForTesting
+  void updateGameStateForTest(GameState newGameState) {
+    _gameState = newGameState;
+    notifyListeners();
+  }
 }

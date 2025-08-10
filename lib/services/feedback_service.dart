@@ -117,4 +117,37 @@ class FeedbackService {
   static void showAdError(BuildContext context) {
     showError(context, 'Erreur lors du\nchargement de\nla publicité');
   }
+
+  // Money Time specific feedback methods
+  static void showMoneyTimeActivated(BuildContext context, int durationMinutes) {
+    showSuccess(
+      context, 
+      '🛡️ MONEY TIME ACTIVÉ!\n$durationMinutes minutes\nsans perdre de vies!',
+      duration: FeedbackConfig.longDuration
+    );
+  }
+
+  static void showMoneyTimeWarning(BuildContext context) {
+    showWarning(
+      context, 
+      '⏰ MONEY TIME\ntermine dans\n1 minute!',
+      duration: Duration(milliseconds: 2500)
+    );
+  }
+
+  static void showMoneyTimeEnded(BuildContext context) {
+    showInfo(
+      context, 
+      '⏱️ Money Time terminé\nProchain disponible\ndans 4h',
+      duration: FeedbackConfig.longDuration
+    );
+  }
+
+  static void showMoneyTimeProtection(BuildContext context) {
+    showInfo(
+      context, 
+      '🛡️ Money Time actif\nPas de vie perdue!',
+      duration: FeedbackConfig.shortDuration
+    );
+  }
 }

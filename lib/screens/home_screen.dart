@@ -5,6 +5,7 @@ import '../providers/game_provider.dart';
 import '../models/game_state.dart';
 import '../utils/debug_config.dart';
 import '../services/feedback_service.dart';
+import '../widgets/money_time_button.dart';
 import 'tier_selection_screen.dart';
 import 'daily_challenge_screen.dart';
 
@@ -88,6 +89,10 @@ class HomeScreen extends StatelessWidget {
                         // Bouton publicité pour indices
                         const SizedBox(height: 12),
                         _buildHintAdButton(context, gameProvider),
+                        
+                        // Bouton Money Time
+                        const SizedBox(height: 16),
+                        const MoneyTimeButton(),
                         const SizedBox(height: 40),
                         _buildMainButton(
                           context,

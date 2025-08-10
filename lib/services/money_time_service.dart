@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/scheduler.dart';
 import '../config/money_time_config.dart';
 import '../services/ads_service.dart';
 import '../providers/game_provider.dart';
@@ -272,6 +273,220 @@ class MoneyTimeService {
     }
   }
   
+  /// Pause timers (e.g., when app goes to background)
+  void pauseTimers() {
+    debugPrint('⏸️ MoneyTimeService: Pausing timers');
+    _cancelTimers();
+  }
+
+  /// Resume timers (e.g., when app comes to foreground)
+  void resumeTimers() {
+    debugPrint('▶️ MoneyTimeService: Resuming timers');
+    if (_gameProvider.gameState.isMoneyTimeActive()) {
+      debugPrint('🔄 MoneyTimeService: Re-initializing timers after resume');
+      initializeFromState();
+    }
+  }
+
+  /// Handle app lifecycle changes
+  void handleAppLifecycleChange(AppLifecycleState state) {
+    switch (state) {
+      case AppLifecycleState.paused:
+      case AppLifecycleState.inactive:
+        // Don't pause timers - let them continue in background
+        // This ensures Money Time ends at the correct time even if app is backgrounded
+        debugPrint('⏸️ MoneyTimeService: App backgrounded but timers continue');
+        break;
+      case AppLifecycleState.resumed:
+        // Check for drift and re-sync timers
+        _handleAppResumed();
+        break;
+      case AppLifecycleState.detached:
+      case AppLifecycleState.hidden:
+        // App might be closing - ensure state is saved
+        debugPrint('🔚 MoneyTimeService: App lifecycle ending');
+        break;
+    }
+  }
+
+  /// Handle app resuming from background
+  void _handleAppResumed() {
+    debugPrint('▶️ MoneyTimeService: Handling app resume');
+    
+    if (_gameProvider.gameState.isMoneyTimeActive()) {
+      final remaining = _gameProvider.gameState.getMoneyTimeRemaining();
+      
+      if (remaining == null || remaining.isNegative) {
+        // Money Time expired while app was in background
+        debugPrint('⏰ MoneyTimeService: Money Time expired while in background');
+        _endMoneyTime();
+      } else {
+        // Money Time still active - check if timers are still running
+        debugPrint('⏰ MoneyTimeService: Money Time still active, remaining: $remaining');
+        
+        // Re-sync timers in case there was any drift
+        _cancelTimers();
+        
+        // Recalculate and reschedule timers
+        _selectedDuration = _gameProvider.gameState.selectedMoneyTimeDuration;
+        
+        // Schedule warning if more than 1 minute remaining
+        if (remaining.inMinutes > 0) {
+          final warningIn = remaining - MoneyTimeConfig.warningBeforeEnd;
+          if (!warningIn.isNegative && warningIn.inSeconds > 0) {
+            _warningTimer = Timer(warningIn, () {
+              _gameProvider.showMoneyTimeWarning();
+            });
+            debugPrint('⚠️ MoneyTimeService: Warning scheduled in ${warningIn.inSeconds}s');
+          }
+        }
+        
+        // Schedule end
+        _endTimer = Timer(remaining, () {
+          _endMoneyTime();
+        });
+        debugPrint('⏰ MoneyTimeService: End scheduled in ${remaining.inSeconds}s');
+        
+        // Start countdown timer
+        _startCountdownTimer();
+      }
+    }
+  }
+
+  /// Check for timer health and consistency
+  void checkTimerHealth() {
+    try {
+      if (_gameProvider.gameState.isMoneyTimeActive()) {
+        final remaining = _gameProvider.gameState.getMoneyTimeRemaining();
+        
+        if (remaining == null || remaining.isNegative) {
+          debugPrint('🚨 MoneyTimeService: Timer health check failed - expired state');
+          _endMoneyTime();
+          return;
+        }
+        
+        // Check if timers are still active
+        final hasEndTimer = _endTimer?.isActive ?? false;
+        final hasCountdownTimer = _countdownTimer?.isActive ?? false;
+        
+        if (!hasEndTimer || !hasCountdownTimer) {
+          debugPrint('⚠️ MoneyTimeService: Timer health check - missing timers, reinitializing');
+          initializeFromState();
+        }
+      }
+    } catch (error) {
+      debugPrint('❌ MoneyTimeService: Error during timer health check: $error');
+      _handleCriticalError(error);
+    }
+  }
+
+  /// Handle critical errors that could break Money Time
+  void _handleCriticalError(dynamic error) {
+    debugPrint('🚨 MoneyTimeService: Handling critical error: $error');
+    
+    try {
+      // Cancel all timers to prevent weird states
+      _cancelTimers();
+      
+      // If Money Time is active, try to preserve it
+      if (_gameProvider.gameState.isMoneyTimeActive()) {
+        final remaining = _gameProvider.gameState.getMoneyTimeRemaining();
+        
+        if (remaining != null && !remaining.isNegative) {
+          debugPrint('🔄 MoneyTimeService: Attempting recovery of active Money Time');
+          // Wait a bit and try to reinitialize
+          Future.delayed(Duration(seconds: 2), () {
+            try {
+              initializeFromState();
+              debugPrint('✅ MoneyTimeService: Recovery successful');
+            } catch (recoveryError) {
+              debugPrint('❌ MoneyTimeService: Recovery failed: $recoveryError');
+              _emergencyEndMoneyTime();
+            }
+          });
+        } else {
+          // Money Time is expired/invalid, clean it up
+          debugPrint('🧹 MoneyTimeService: Ending invalid Money Time state');
+          _emergencyEndMoneyTime();
+        }
+      }
+      
+      // Reset activation state in case it's stuck
+      if (_isActivationInProgress) {
+        debugPrint('🧹 MoneyTimeService: Cleaning up stuck activation');
+        _resetActivation();
+      }
+    } catch (handlingError) {
+      debugPrint('❌ MoneyTimeService: Error while handling critical error: $handlingError');
+      // Last resort - force clean state
+      _forceCleanState();
+    }
+  }
+
+  /// Emergency end Money Time without normal cleanup
+  void _emergencyEndMoneyTime() {
+    debugPrint('🚨 MoneyTimeService: Emergency end Money Time');
+    try {
+      _cancelTimers();
+      _gameProvider.endMoneyTime();
+    } catch (error) {
+      debugPrint('❌ MoneyTimeService: Error during emergency end: $error');
+    }
+  }
+
+  /// Force clean state as last resort
+  void _forceCleanState() {
+    debugPrint('🚨 MoneyTimeService: Force cleaning state');
+    try {
+      _cancelTimers();
+      _isActivationInProgress = false;
+      _currentAdsWatched = 0;
+      _targetAds = 0;
+      _activationCompleter = null;
+    } catch (error) {
+      debugPrint('❌ MoneyTimeService: Error during force clean: $error');
+    }
+  }
+
+  /// Validate Money Time state consistency
+  bool validateState() {
+    try {
+      final gameState = _gameProvider.gameState;
+      
+      // Check for impossible states
+      if (gameState.isMoneyTimeActive()) {
+        final remaining = gameState.getMoneyTimeRemaining();
+        if (remaining == null) {
+          debugPrint('⚠️ MoneyTimeService: Invalid state - active but no remaining time');
+          return false;
+        }
+        
+        if (remaining.isNegative) {
+          debugPrint('⚠️ MoneyTimeService: Invalid state - negative remaining time');
+          return false;
+        }
+        
+        if (gameState.selectedMoneyTimeDuration <= 0) {
+          debugPrint('⚠️ MoneyTimeService: Invalid state - invalid duration');
+          return false;
+        }
+      }
+      
+      // Check activation state consistency
+      if (_isActivationInProgress) {
+        if (_targetAds <= 0 || _currentAdsWatched < 0 || _currentAdsWatched > _targetAds) {
+          debugPrint('⚠️ MoneyTimeService: Invalid activation state');
+          return false;
+        }
+      }
+      
+      return true;
+    } catch (error) {
+      debugPrint('❌ MoneyTimeService: Error during state validation: $error');
+      return false;
+    }
+  }
+
   /// Dispose of the service and clean up resources
   void dispose() {
     debugPrint('🧹 MoneyTimeService: Disposing');

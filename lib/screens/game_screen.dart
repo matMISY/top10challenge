@@ -14,6 +14,8 @@ import '../config/hint_config.dart';
 import '../utils/hint_generator.dart';
 import '../services/feedback_service.dart';
 import '../config/feedback_config.dart';
+import '../widgets/money_time_indicator.dart';
+import '../widgets/money_time_shield_effect.dart';
 
 class GameScreen extends StatefulWidget {
   final Level level;
@@ -558,6 +560,20 @@ class _GameScreenState extends State<GameScreen> {
                           ),
                         ),
                         const SizedBox(height: 20),
+                        // Money Time Indicator (only visible when active)
+                        Consumer<GameProvider>(
+                          builder: (context, gameProvider, child) {
+                            if (!gameProvider.gameState.isMoneyTimeActive()) {
+                              return const SizedBox.shrink();
+                            }
+                            return Padding(
+                              padding: const EdgeInsets.only(bottom: 16),
+                              child: Center(
+                                child: MoneyTimeIndicator(),
+                              ),
+                            );
+                          },
+                        ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
@@ -569,45 +585,48 @@ class _GameScreenState extends State<GameScreen> {
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
-                            Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                              decoration: BoxDecoration(
-                                color: Colors.white.withValues(alpha: 0.2),
-                                borderRadius: BorderRadius.circular(20),
-                              ),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.min,
-                                children: [
-                                  Icon(Icons.favorite, color: Colors.red.shade400, size: 18),
-                                  const SizedBox(width: 6),
-                                  Consumer<GameProvider>(
-                                    builder: (context, gameProvider, child) {
-                                      return Column(
-                                        mainAxisSize: MainAxisSize.min,
-                                        children: [
-                                          Text(
-                                            '${gameProvider.gameState.lives}',
-                                            style: const TextStyle(
-                                              color: Colors.white,
-                                              fontSize: 16,
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                          ),
-                                          if (gameProvider.shouldShowLifeTimer()) ...[
+                            // Lives counter with Money Time shield effect
+                            MoneyTimeShieldEffect(
+                              child: Container(
+                                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                                decoration: BoxDecoration(
+                                  color: Colors.white.withValues(alpha: 0.2),
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    Icon(Icons.favorite, color: Colors.red.shade400, size: 18),
+                                    const SizedBox(width: 6),
+                                    Consumer<GameProvider>(
+                                      builder: (context, gameProvider, child) {
+                                        return Column(
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: [
                                             Text(
-                                              gameProvider.getFormattedTimeUntilNextLife() ?? '',
+                                              '${gameProvider.gameState.lives}',
                                               style: const TextStyle(
-                                                color: Colors.amber,
-                                                fontSize: 10,
-                                                fontWeight: FontWeight.w600,
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
                                               ),
                                             ),
+                                            if (gameProvider.shouldShowLifeTimer()) ...[
+                                              Text(
+                                                gameProvider.getFormattedTimeUntilNextLife() ?? '',
+                                                style: const TextStyle(
+                                                  color: Colors.amber,
+                                                  fontSize: 10,
+                                                  fontWeight: FontWeight.w600,
+                                                ),
+                                              ),
+                                            ],
                                           ],
-                                        ],
-                                      );
-                                    },
-                                  ),
-                                ],
+                                        );
+                                      },
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           ],
