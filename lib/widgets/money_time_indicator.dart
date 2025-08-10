@@ -1,8 +1,10 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../providers/game_provider.dart';
 import '../utils/my_colors.dart';
+import '../config/money_time_config.dart';
 
 /// Compact timer indicator for Money Time displayed during gameplay
 /// Shows remaining time with golden styling and subtle pulsation
@@ -19,6 +21,7 @@ class _MoneyTimeIndicatorState extends State<MoneyTimeIndicator>
   late AnimationController _shimmerController;
   late Animation<double> _pulseAnimation;
   late Animation<double> _shimmerAnimation;
+  Timer? _updateTimer;
 
   @override
   void initState() {
@@ -54,6 +57,19 @@ class _MoneyTimeIndicatorState extends State<MoneyTimeIndicator>
 
     // Start the pulse cycle
     _startPulseCycle();
+    
+    // Start timer to update UI every second for real-time countdown
+    _startUpdateTimer();
+  }
+
+  void _startUpdateTimer() {
+    _updateTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (mounted) {
+        setState(() {
+          // Force UI rebuild every second to update timers
+        });
+      }
+    });
   }
 
   void _startPulseCycle() {
@@ -73,16 +89,12 @@ class _MoneyTimeIndicatorState extends State<MoneyTimeIndicator>
 
   @override
   void dispose() {
+    _updateTimer?.cancel();
     _pulseController.dispose();
     _shimmerController.dispose();
     super.dispose();
   }
 
-  String _formatTime(Duration duration) {
-    final minutes = duration.inMinutes;
-    final seconds = duration.inSeconds % 60;
-    return '${minutes.toString().padLeft(2, '0')}:${seconds.toString().padLeft(2, '0')}';
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -179,7 +191,7 @@ class _MoneyTimeIndicatorState extends State<MoneyTimeIndicator>
                                 ),
                               ),
                               Text(
-                                _formatTime(remaining),
+                                MoneyTimeConfig.formatRemainingTime(remaining),
                                 style: GoogleFonts.poppins(
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,

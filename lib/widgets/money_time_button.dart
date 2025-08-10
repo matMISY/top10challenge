@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -19,6 +20,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
   late AnimationController _animationController;
   late Animation<double> _pulseAnimation;
   late Animation<double> _scaleAnimation;
+  Timer? _updateTimer;
 
   @override
   void initState() {
@@ -45,10 +47,24 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
     ));
 
     _animationController.repeat(reverse: true);
+    
+    // Start timer to update UI every second for real-time countdown
+    _startUpdateTimer();
+  }
+
+  void _startUpdateTimer() {
+    _updateTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (mounted) {
+        setState(() {
+          // Force UI rebuild every second to update timers
+        });
+      }
+    });
   }
 
   @override
   void dispose() {
+    _updateTimer?.cancel();
     _animationController.dispose();
     super.dispose();
   }

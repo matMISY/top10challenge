@@ -45,10 +45,17 @@ class MoneyTimeConfig {
   }
   
   /// Get formatted time string for remaining duration
+  /// Shows "X min" when more than 1 minute remains
+  /// Shows "XX:XX" (MM:SS format) when less than 1 minute remains
   static String formatRemainingTime(Duration remaining) {
-    final minutes = remaining.inMinutes;
+    final totalMinutes = remaining.inMinutes;
     final seconds = remaining.inSeconds % 60;
-    return '${minutes.toString().padLeft(2, '0')}:${seconds.toString().padLeft(2, '0')}';
+    
+    if (totalMinutes >= 1) {
+      return '$totalMinutes min';
+    } else {
+      return '00:${seconds.toString().padLeft(2, '0')}';
+    }
   }
   
   /// Get formatted cooldown time string
