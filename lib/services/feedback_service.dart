@@ -86,8 +86,8 @@ class FeedbackService {
     showError(context, 'Plus de vies !\nAttendez qu\'elles\nse récupèrent.');
   }
 
-  static void showLifeGained(BuildContext context) {
-    showLives(context, 'Vous avez gagné\n1 vie !\nContinuez à jouer !');
+  static void showLifeGained(BuildContext context, {int lives = 5}) {
+    showLives(context, 'Vous avez gagné\n$lives vies !\nContinuez à jouer !');
   }
 
   static void showPointsGained(BuildContext context, int points) {

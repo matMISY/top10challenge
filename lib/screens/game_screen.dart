@@ -332,7 +332,7 @@ class _GameScreenState extends State<GameScreen> {
       
       if (success) {
         // Afficher le succès et continuer le jeu
-        FeedbackService.showLifeGained(context);
+        FeedbackService.showLifeGained(context, lives: 5);
       } else {
         // Échec de la pub, proposer les autres options
         showDialog(

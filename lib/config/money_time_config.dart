@@ -2,9 +2,9 @@
 class MoneyTimeConfig {
   /// Mapping from duration in minutes to number of ads required
   static const Map<int, int> durationToAds = {
-    15: 2,  // 15 minutes = 2 ads
-    30: 3,  // 30 minutes = 3 ads (default)
-    60: 5,  // 60 minutes = 5 ads
+    15: 4,  // 15 minutes = 2 ads
+    30: 6,  // 30 minutes = 3 ads (default)
+    60: 8,  // 60 minutes = 5 ads
   };
   
   /// List of available durations in minutes

@@ -227,7 +227,12 @@ class GameService {
     
     if (recoverableLives > 0) {
       final now = DateTime.now();
-      final newLives = (gameState.lives + recoverableLives).clamp(0, GameState.maxLives);
+      // Ne pas récupérer au-delà de maxLives naturel (5), 
+      // mais préserver les vies gagnées via publicités (jusqu'à 10)
+      final maxRecoverable = gameState.lives > GameState.maxLives 
+          ? gameState.lives  // Préserver les vies de publicité
+          : GameState.maxLives;  // Récupération normale jusqu'à 5
+      final newLives = (gameState.lives + recoverableLives).clamp(0, maxRecoverable);
       
       final updatedGameState = gameState.copyWith(
         lives: newLives,

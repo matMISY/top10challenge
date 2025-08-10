@@ -1,3 +1,5 @@
+import '../utils/string_utils.dart';
+
 class Player {
   final String name;
   final String? nationality;
@@ -34,16 +36,11 @@ class Player {
   }
 
   bool matches(String input) {
-    final normalizedInput = input.toLowerCase().trim();
-    final normalizedName = name.toLowerCase();
-    
-    if (normalizedName.contains(normalizedInput) || normalizedInput.contains(normalizedName)) {
+    // Utiliser la normalisation qui supprime les accents
+    if (StringUtils.matchesIgnoringAccents(name, input)) {
       return true;
     }
     
-    return aliases.any((alias) => 
-      alias.toLowerCase().contains(normalizedInput) || 
-      normalizedInput.contains(alias.toLowerCase())
-    );
+    return aliases.any((alias) => StringUtils.matchesIgnoringAccents(alias, input));
   }
 }

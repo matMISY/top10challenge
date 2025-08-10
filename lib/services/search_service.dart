@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import '../data/players_database.dart';
+import '../utils/string_utils.dart';
 
 class SearchService {
   static final SearchService _instance = SearchService._internal();
@@ -35,9 +36,9 @@ class SearchService {
     final normalizedQuery = query.toLowerCase().trim();
     final suggestions = <String>[];
 
-    // Chercher dans toute la liste des joueurs
+    // Chercher dans toute la liste des joueurs en ignorant les accents
     for (final playerName in _allPlayerNames) {
-      if (playerName.toLowerCase().contains(normalizedQuery)) {
+      if (StringUtils.matchesIgnoringAccents(playerName, query)) {
         suggestions.add(playerName);
       }
     }
@@ -46,18 +47,18 @@ class SearchService {
     if (suggestions.isEmpty) {
       for (final answer in availableAnswers) {
         final player = _database.getPlayer(answer);
-        if (player != null && player.matches(normalizedQuery)) {
+        if (player != null && player.matches(query)) {
           suggestions.add(answer);
-        } else if (answer.toLowerCase().contains(normalizedQuery)) {
+        } else if (StringUtils.matchesIgnoringAccents(answer, query)) {
           suggestions.add(answer);
         }
       }
     }
 
-    // Trier les suggestions par pertinence
+    // Trier les suggestions par pertinence (en ignorant les accents)
     suggestions.sort((a, b) {
-      final aStartsWith = a.toLowerCase().startsWith(normalizedQuery);
-      final bStartsWith = b.toLowerCase().startsWith(normalizedQuery);
+      final aStartsWith = StringUtils.startsWithIgnoringAccents(a, query);
+      final bStartsWith = StringUtils.startsWithIgnoringAccents(b, query);
       
       if (aStartsWith && !bStartsWith) return -1;
       if (!aStartsWith && bStartsWith) return 1;
@@ -70,14 +71,12 @@ class SearchService {
   }
 
   bool isValidAnswer(String input, List<String> availableAnswers) {
-    final normalizedInput = input.toLowerCase().trim();
-    
     for (final answer in availableAnswers) {
       final player = _database.getPlayer(answer);
-      if (player != null && player.matches(normalizedInput)) {
+      if (player != null && player.matches(input)) {
         return true;
       }
-      if (answer.toLowerCase() == normalizedInput) {
+      if (StringUtils.matchesIgnoringAccents(answer, input)) {
         return true;
       }
     }
@@ -86,14 +85,12 @@ class SearchService {
   }
 
   String? getCorrectAnswer(String input, List<String> availableAnswers) {
-    final normalizedInput = input.toLowerCase().trim();
-    
     for (final answer in availableAnswers) {
       final player = _database.getPlayer(answer);
-      if (player != null && player.matches(normalizedInput)) {
+      if (player != null && player.matches(input)) {
         return answer;
       }
-      if (answer.toLowerCase() == normalizedInput) {
+      if (StringUtils.matchesIgnoringAccents(answer, input)) {
         return answer;
       }
     }
