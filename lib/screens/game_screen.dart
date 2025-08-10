@@ -664,18 +664,9 @@ class _GameScreenState extends State<GameScreen> {
                           ],
                         ),
                         const SizedBox(height: 20),
-                        SizedBox(
-                          height: MediaQuery.of(context).size.height * 0.5,
-                          child: GridView.builder(
-                            physics: const NeverScrollableScrollPhysics(),
-                            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 2,
-                              childAspectRatio: 2.8,
-                              crossAxisSpacing: 10,
-                              mainAxisSpacing: 8,
-                            ),
-                            itemCount: 10,
-                            itemBuilder: (context, index) {
+                        // Layout vertical : une seule colonne pour plus d'espace
+                        Column(
+                          children: List.generate(10, (index) {
                               Answer? answerForPosition;
                               bool isFound = false;
                               
@@ -684,7 +675,9 @@ class _GameScreenState extends State<GameScreen> {
                                 isFound = _foundAnswers.contains(answerForPosition.name);
                               }
                               
-                              return Consumer<GameProvider>(
+                            return Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Consumer<GameProvider>(
                                 builder: (context, gameProvider, child) {
                                   final hintLevel = _hintLevels[index] ?? 0;
                                   final hintData = hintLevel > 0 && answerForPosition != null
@@ -702,9 +695,9 @@ class _GameScreenState extends State<GameScreen> {
                                     canUseHint: HintGenerator.canUseHint(hintLevel, gameProvider.gameState.hintPoints),
                                   );
                                 },
-                              );
-                            },
-                          ),
+                              ),
+                            );
+                          }),
                         ),
                         const SizedBox(height: 20),
                       ],

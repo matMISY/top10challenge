@@ -174,7 +174,7 @@ class _AnswerSlotState extends State<AnswerSlot>
         builder: (context, child) {
           return AnimatedContainer(
             duration: const Duration(milliseconds: 300),
-            height: 60,
+            height: 70,
             decoration: BoxDecoration(
               color: _getBackgroundColor(),
               borderRadius: BorderRadius.circular(16),
