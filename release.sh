@@ -34,13 +34,18 @@ echo -e "${YELLOW}📋 Version actuelle: $CURRENT_VERSION${NC}"
 VERSION_NAME=$(echo $CURRENT_VERSION | cut -d'+' -f1)
 BUILD_NUMBER=$(echo $CURRENT_VERSION | cut -d'+' -f2)
 
-# Demander le type d'incrémentation
-echo -e "${YELLOW}🔢 Quel type d'incrémentation souhaitez-vous?${NC}"
-echo "1) Patch (ex: 1.0.1 -> 1.0.2)"
-echo "2) Minor (ex: 1.0.1 -> 1.1.0)"
-echo "3) Major (ex: 1.0.1 -> 2.0.0)"
-echo "4) Build number seulement (ex: 1.0.1+2 -> 1.0.1+3)"
-read -p "Votre choix (1-4): " CHOICE
+# Utiliser le premier argument ou demander le type d'incrémentation
+if [ -n "$1" ]; then
+    CHOICE="$1"
+    echo -e "${YELLOW}🔢 Type d'incrémentation: $CHOICE${NC}"
+else
+    echo -e "${YELLOW}🔢 Quel type d'incrémentation souhaitez-vous?${NC}"
+    echo "1) Patch (ex: 1.0.1 -> 1.0.2)"
+    echo "2) Minor (ex: 1.0.1 -> 1.1.0)"
+    echo "3) Major (ex: 1.0.1 -> 2.0.0)"
+    echo "4) Build number seulement (ex: 1.0.1+2 -> 1.0.1+3)"
+    read -p "Votre choix (1-4): " CHOICE
+fi
 
 # Incrémenter selon le choix
 IFS='.' read -ra VERSION_PARTS <<< "$VERSION_NAME"
@@ -78,11 +83,15 @@ NEW_VERSION="$NEW_VERSION_NAME+$BUILD_NUMBER"
 
 echo -e "${GREEN}✅ Nouvelle version: $NEW_VERSION${NC}"
 
-# Confirmation
-read -p "Voulez-vous continuer avec cette version? (y/N): " CONFIRM
-if [[ $CONFIRM != "y" && $CONFIRM != "Y" ]]; then
-    echo -e "${YELLOW}⏹️  Release annulée${NC}"
-    exit 0
+# Confirmation (automatique si argument fourni)
+if [ -z "$1" ]; then
+    read -p "Voulez-vous continuer avec cette version? (y/N): " CONFIRM
+    if [[ $CONFIRM != "y" && $CONFIRM != "Y" ]]; then
+        echo -e "${YELLOW}⏹️  Release annulée${NC}"
+        exit 0
+    fi
+else
+    echo -e "${GREEN}🤖 Mode automatique: continuation avec la nouvelle version${NC}"
 fi
 
 # Mettre à jour pubspec.yaml
