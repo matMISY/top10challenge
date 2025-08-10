@@ -64,18 +64,74 @@ Ajouter dans le dictionnaire :
 
 ## 🔧 Paramètres actuels configurés
 
-- **Cooldown** : 30 minutes entre chaque pub pour vie
-- **Limite** : +1 vie par pub (max 5 vies)
-- **Interface** : Boutons adaptatifs selon disponibilité
+### Publicités pour les vies
+- **Cooldown** : 2 minutes entre chaque pub
+- **Récompense** : +5 vies par pub
+- **Limite** : Maximum 10 vies (avec pubs), 5 vies naturelles
+- **Affichage** : Bouton visible uniquement si vies < 5
+
+### Publicités pour les indices  
+- **Cooldown** : 5 minutes entre chaque pub
+- **Récompense** : +12 points d'indices par pub
+- **Limite** : Maximum 999 points d'indices
+- **Affichage** : Bouton toujours visible
+
+### Interface commune
+- **États adaptatifs** : Loading, cooldown timer, erreurs
 - **Fallbacks** : Gestion des erreurs réseau/indisponibilité
 
 ## 📱 Fonctionnalités implémentées
 
-✅ **HomeScreen** : Bouton "Regarder une pub" si vies < 5  
+✅ **HomeScreen** : 
+  - Bouton pub pour vies (visible si vies < 5)
+  - Bouton pub pour indices (toujours visible)
 ✅ **GameScreen** : Option pub après Game Over  
 ✅ **États UI** : Loading, cooldown timer, erreurs  
-✅ **Persistance** : Sauvegarde du cooldown entre sessions  
-✅ **UX** : Messages de feedback utilisateur clairs  
+✅ **Persistance** : Sauvegarde des cooldowns entre sessions  
+✅ **UX** : Messages de feedback utilisateur clairs
+
+## 🎮 Logique d'affichage des boutons publicitaires
+
+### Bouton publicité pour les vies
+
+**Condition d'affichage :**
+- Visible uniquement si `lives < 5` (GameState.maxLives)
+
+**États du bouton :**
+- **Activé** si :
+  - Moins de 10 vies (limite absolue)
+  - Cooldown respecté (2 minutes depuis dernière pub)
+  - Service publicitaire prêt
+  - Aucune pub en cours
+
+- **Désactivé** si :
+  - En cooldown (affiche temps restant)
+  - Service publicitaire non prêt
+  - Publicité en cours de chargement
+
+### Bouton publicité pour les indices
+
+**Condition d'affichage :**
+- Toujours visible sur l'écran principal
+
+**États du bouton :**
+- **Activé** si :
+  - Cooldown respecté (5 minutes depuis dernière pub)
+  - Service publicitaire prêt
+  - Aucune pub en cours
+
+- **Désactivé** si :
+  - En cooldown (affiche temps restant)
+  - Service publicitaire non prêt
+  - Publicité en cours de chargement
+
+### Implémentation technique
+
+**Fichiers impliqués :**
+- `lib/screens/home_screen.dart:82-89` : Logique d'affichage
+- `lib/providers/game_provider.dart:387,464` : Méthodes de validation
+- `lib/models/game_state.dart:186,207` : Conditions cooldown
+- `lib/services/ads_service.dart` : Service publicitaire  
 
 ## 🚀 Prêt pour production
 
@@ -87,6 +143,10 @@ L'implémentation est **complète et prête pour la production** après :
 ## ⚙️ Personnalisations possibles
 
 Si vous souhaitez ajuster :
-- **Cooldown** : Modifier `adCooldownDuration` dans `GameState` (ligne 16)
-- **Couleur boutons** : Modifier `Colors.purple` dans `home_screen.dart`
+- **Cooldown vies** : Modifier `adCooldownDuration` dans `GameState` (ligne 19)
+- **Cooldown indices** : Modifier `hintAdCooldownDuration` dans `GameState` (ligne 20)  
+- **Récompenses** : Modifier `HintConfig.pointsPerAd` pour les indices
+- **Couleurs boutons** : 
+  - Vies : `Colors.purple` dans `home_screen.dart:321`
+  - Indices : `Colors.amber` dans `home_screen.dart:439`
 - **Messages** : Personnaliser les textes dans les SnackBar
