@@ -6,10 +6,13 @@ import '../models/tier.dart';
 import '../config/hint_config.dart';
 import '../services/game_service.dart';
 import '../services/ads_service.dart';
+import '../services/money_time_service.dart';
+import '../services/feedback_service.dart';
 
 class GameProvider with ChangeNotifier {
   final GameService _gameService = GameService();
   final AdsService _adsService = AdsService();
+  late final MoneyTimeService _moneyTimeService;
   
   GameState _gameState = GameState();
   List<Level> _levels = [];
@@ -18,6 +21,7 @@ class GameProvider with ChangeNotifier {
   bool _isWatchingAd = false;
   Timer? _lifeRecoveryTimer;
   Timer? _uiUpdateTimer;
+  BuildContext? _context; // Pour les feedbacks
 
   GameState get gameState => _gameState;
   List<Level> get levels => _levels;
@@ -25,8 +29,13 @@ class GameProvider with ChangeNotifier {
   bool get isLoading => _isLoading;
   bool get isWatchingAd => _isWatchingAd;
   GameService get gameService => _gameService;
+  MoneyTimeService get moneyTimeService => _moneyTimeService;
 
   GameProvider() {
+    _moneyTimeService = MoneyTimeService(
+      adsService: _adsService,
+      gameProvider: this,
+    );
     _initialize();
   }
 
@@ -34,6 +43,7 @@ class GameProvider with ChangeNotifier {
   void dispose() {
     _lifeRecoveryTimer?.cancel();
     _uiUpdateTimer?.cancel();
+    _moneyTimeService.dispose();
     _adsService.dispose();
     super.dispose();
   }
@@ -76,6 +86,11 @@ class GameProvider with ChangeNotifier {
       _startUIUpdateTimer();
       debugPrint('✅ UI update timer started');
       
+      // Initialiser MoneyTimeService state
+      debugPrint('💰 Initializing MoneyTimeService state...');
+      _moneyTimeService.initializeFromState();
+      debugPrint('✅ MoneyTimeService state initialized');
+      
       _isLoading = false;
       notifyListeners();
       debugPrint('🎉 GameProvider initialization complete!');
@@ -116,6 +131,19 @@ class GameProvider with ChangeNotifier {
 
   Future<void> loseLife() async {
     try {
+      // Check if Money Time is active
+      if (_gameState.isMoneyTimeActive()) {
+        // Don't lose life, just show feedback
+        if (_context != null) {
+          FeedbackService.showInfo(
+            _context!,
+            'Money Time actif -\nPas de vie perdue! 💰',
+          );
+        }
+        return;
+      }
+      
+      // Original life loss logic
       await _gameService.loseLife();
       _gameState = await _gameService.getGameState();
       notifyListeners();
@@ -479,4 +507,81 @@ class GameProvider with ChangeNotifier {
       return '${seconds}s';
     }
   }
+
+  // ========================================
+  // MONEY TIME METHODS
+  // ========================================
+
+  /// Set context for feedback messages (should be called from UI)
+  void setContext(BuildContext? context) {
+    _context = context;
+  }
+
+  /// Update Money Time progress during activation
+  Future<void> updateMoneyTimeProgress(int adsWatched, int duration) async {
+    _gameState = _gameState.copyWith(
+      moneyTimeAdsWatched: adsWatched,
+      selectedMoneyTimeDuration: duration,
+    );
+    await _gameService.saveGameState(_gameState);
+    notifyListeners();
+  }
+
+  /// Activate Money Time with given end time
+  Future<void> activateMoneyTime(DateTime endTime) async {
+    _gameState = _gameState.copyWith(
+      moneyTimeEndTime: endTime,
+      lastMoneyTimeActivation: DateTime.now(),
+      moneyTimeAdsWatched: 0,
+    );
+    
+    // Show feedback if context is available
+    if (_context != null) {
+      final durationText = _gameState.selectedMoneyTimeDuration;
+      FeedbackService.showSuccess(
+        _context!,
+        'Money Time activé\npour $durationText minutes! 💰',
+      );
+    }
+    
+    await _gameService.saveGameState(_gameState);
+    notifyListeners();
+  }
+
+  /// Show Money Time warning (1 minute before end)
+  void showMoneyTimeWarning() {
+    if (_context != null) {
+      FeedbackService.showWarning(
+        _context!,
+        'Money Time termine\ndans 1 minute!',
+      );
+    }
+  }
+
+  /// End Money Time
+  Future<void> endMoneyTime() async {
+    _gameState = _gameState.copyWith(
+      moneyTimeEndTime: null,
+    );
+    
+    // Show feedback if context is available
+    if (_context != null) {
+      FeedbackService.showInfo(
+        _context!,
+        'Money Time terminé.\nProchain disponible\ndans 4h',
+      );
+    }
+    
+    await _gameService.saveGameState(_gameState);
+    notifyListeners();
+  }
+
+  /// Reset Money Time progress during activation
+  void resetMoneyTimeProgress() {
+    _gameState = _gameState.copyWith(
+      moneyTimeAdsWatched: 0,
+    );
+    notifyListeners();
+  }
+
 }

@@ -13,11 +13,18 @@ class GameState {
   final List<int> unlockedTiers;
   final DateTime? lastAdWatchTime;
   final DateTime? lastHintAdWatchTime;  // Nouveau: cooldown séparé pour les pubs d'indices
+  
+  // Money Time fields
+  final DateTime? moneyTimeEndTime;
+  final DateTime? lastMoneyTimeActivation;
+  final int moneyTimeAdsWatched;  // Compteur temporaire (0-5)
+  final int selectedMoneyTimeDuration;  // 15, 30 ou 60 minutes
 
   static const int maxLives = 5;
   static const Duration lifeRecoveryDuration = Duration(minutes: 5);
   static const Duration adCooldownDuration = Duration(minutes: 2);
   static const Duration hintAdCooldownDuration = Duration(minutes: 5);
+  static const Duration moneyTimeCooldownDuration = Duration(hours: 4);
 
   GameState({
     this.currentLevel = 1,
@@ -34,6 +41,10 @@ class GameState {
     this.unlockedTiers = const [1],
     this.lastAdWatchTime,
     this.lastHintAdWatchTime,
+    this.moneyTimeEndTime,
+    this.lastMoneyTimeActivation,
+    this.moneyTimeAdsWatched = 0,
+    this.selectedMoneyTimeDuration = 30,
   }) : lastPlayedDate = lastPlayedDate ?? DateTime.now();
 
   GameState copyWith({
@@ -51,6 +62,10 @@ class GameState {
     List<int>? unlockedTiers,
     DateTime? lastAdWatchTime,
     DateTime? lastHintAdWatchTime,
+    DateTime? moneyTimeEndTime,
+    DateTime? lastMoneyTimeActivation,
+    int? moneyTimeAdsWatched,
+    int? selectedMoneyTimeDuration,
   }) {
     return GameState(
       currentLevel: currentLevel ?? this.currentLevel,
@@ -67,6 +82,10 @@ class GameState {
       unlockedTiers: unlockedTiers ?? this.unlockedTiers,
       lastAdWatchTime: lastAdWatchTime ?? this.lastAdWatchTime,
       lastHintAdWatchTime: lastHintAdWatchTime ?? this.lastHintAdWatchTime,
+      moneyTimeEndTime: moneyTimeEndTime ?? this.moneyTimeEndTime,
+      lastMoneyTimeActivation: lastMoneyTimeActivation ?? this.lastMoneyTimeActivation,
+      moneyTimeAdsWatched: moneyTimeAdsWatched ?? this.moneyTimeAdsWatched,
+      selectedMoneyTimeDuration: selectedMoneyTimeDuration ?? this.selectedMoneyTimeDuration,
     );
   }
 
@@ -88,6 +107,10 @@ class GameState {
       'unlockedTiers': unlockedTiers,
       'lastAdWatchTime': lastAdWatchTime?.toIso8601String(),
       'lastHintAdWatchTime': lastHintAdWatchTime?.toIso8601String(),
+      'moneyTimeEndTime': moneyTimeEndTime?.toIso8601String(),
+      'lastMoneyTimeActivation': lastMoneyTimeActivation?.toIso8601String(),
+      'moneyTimeAdsWatched': moneyTimeAdsWatched,
+      'selectedMoneyTimeDuration': selectedMoneyTimeDuration,
     };
   }
 
@@ -147,6 +170,14 @@ class GameState {
       lastHintAdWatchTime: json['lastHintAdWatchTime'] != null 
         ? DateTime.parse(json['lastHintAdWatchTime']) 
         : null,
+      moneyTimeEndTime: json['moneyTimeEndTime'] != null 
+        ? DateTime.parse(json['moneyTimeEndTime']) 
+        : null,
+      lastMoneyTimeActivation: json['lastMoneyTimeActivation'] != null 
+        ? DateTime.parse(json['lastMoneyTimeActivation']) 
+        : null,
+      moneyTimeAdsWatched: json['moneyTimeAdsWatched'] ?? 0,
+      selectedMoneyTimeDuration: json['selectedMoneyTimeDuration'] ?? 30,
     );
   }
 
@@ -221,5 +252,31 @@ class GameState {
     final timeUntilNext = nextAdTime.difference(now);
     
     return timeUntilNext.isNegative ? null : timeUntilNext;
+  }
+  
+  /// Vérifie si le Money Time est actuellement actif
+  bool isMoneyTimeActive() {
+    if (moneyTimeEndTime == null) return false;
+    return DateTime.now().isBefore(moneyTimeEndTime!);
+  }
+  
+  /// Retourne la durée restante du Money Time
+  Duration? getMoneyTimeRemaining() {
+    if (!isMoneyTimeActive()) return null;
+    return moneyTimeEndTime!.difference(DateTime.now());
+  }
+  
+  /// Vérifie si le joueur peut activer le Money Time
+  bool canActivateMoneyTime() {
+    if (lastMoneyTimeActivation == null) return true;
+    final cooldown = DateTime.now().difference(lastMoneyTimeActivation!);
+    return cooldown >= moneyTimeCooldownDuration;
+  }
+  
+  /// Retourne le temps restant avant de pouvoir réactiver le Money Time
+  Duration? getTimeUntilMoneyTimeAvailable() {
+    if (canActivateMoneyTime()) return null;
+    final nextAvailable = lastMoneyTimeActivation!.add(moneyTimeCooldownDuration);
+    return nextAvailable.difference(DateTime.now());
   }
 }
