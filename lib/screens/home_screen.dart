@@ -313,7 +313,7 @@ class HomeScreen extends StatelessWidget {
       buttonIcon = Icons.hourglass_empty;
       isEnabled = false;
     } else if (canWatchAd) {
-      buttonText = 'Pub pour +5 vies';
+      buttonText = 'Pub pour +${GameState.livesPerAd} vies';
       buttonIcon = Icons.play_circle_filled;
       isEnabled = true;
     } else if (adCooldownTime != null) {
@@ -381,7 +381,7 @@ class HomeScreen extends StatelessWidget {
       if (!context.mounted) return;
       
       if (success) {
-        FeedbackService.showLives(context, 'Vous avez gagné\n1 vie !');
+        FeedbackService.showLives(context, 'Vous avez gagné\n${GameState.livesPerAd} vies !');
       } else {
         FeedbackService.showWarning(context, 'Publicité non\ndisponible.\nRéessayez plus tard.');
       }

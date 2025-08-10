@@ -21,6 +21,8 @@ class GameState {
   final int selectedMoneyTimeDuration;  // 15, 30 ou 60 minutes
 
   static const int maxLives = 5;
+  static const int maxLivesWithAds = 10;  // Maximum absolu de vies avec publicités
+  static const int livesPerAd = 5;  // Nombre de vies gagnées par publicité
   static const Duration lifeRecoveryDuration = Duration(minutes: 5);
   static const Duration adCooldownDuration = Duration(minutes: 2);
   static const Duration hintAdCooldownDuration = Duration(minutes: 5);
@@ -215,7 +217,7 @@ class GameState {
 
   /// Vérifie si le joueur peut regarder une pub pour gagner une vie
   bool canWatchAdForLife() {
-    if (lives >= 10) return false; // Maximum absolu de 10 vies avec pubs
+    if (lives >= maxLivesWithAds) return false; // Maximum absolu de vies avec publicités
     if (lastAdWatchTime == null) return true;
     
     final now = DateTime.now();
@@ -225,7 +227,7 @@ class GameState {
 
   /// Retourne le temps restant avant de pouvoir regarder une nouvelle pub
   Duration? getTimeUntilNextAd() {
-    if (lives >= 10 || lastAdWatchTime == null) return null;
+    if (lives >= maxLivesWithAds || lastAdWatchTime == null) return null;
     
     final now = DateTime.now();
     final nextAdTime = lastAdWatchTime!.add(adCooldownDuration);

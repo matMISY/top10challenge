@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/overlay_feedback.dart';
 import '../config/feedback_config.dart';
+import '../models/game_state.dart';
 
 class FeedbackService {
   static OverlayEntry? _currentOverlay;
@@ -86,7 +87,7 @@ class FeedbackService {
     showError(context, 'Plus de vies !\nAttendez qu\'elles\nse récupèrent.');
   }
 
-  static void showLifeGained(BuildContext context, {int lives = 5}) {
+  static void showLifeGained(BuildContext context, {int lives = GameState.livesPerAd}) {
     showLives(context, 'Vous avez gagné\n$lives vies !\nContinuez à jouer !');
   }
 

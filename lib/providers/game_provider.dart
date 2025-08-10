@@ -251,7 +251,7 @@ class GameProvider with ChangeNotifier {
 
   Future<void> addLives(int count) async {
     _gameState = _gameState.copyWith(
-      lives: (_gameState.lives + count).clamp(0, 10),
+      lives: (_gameState.lives + count).clamp(0, GameState.maxLivesWithAds),
     );
     await _gameService.saveGameState(_gameState);
     notifyListeners();
@@ -422,7 +422,7 @@ class GameProvider with ChangeNotifier {
         // Récompenser le joueur
         final now = DateTime.now();
         _gameState = _gameState.copyWith(
-          lives: (_gameState.lives + 5).clamp(0, 10), // Permet de dépasser le max avec les pubs
+          lives: (_gameState.lives + GameState.livesPerAd).clamp(0, GameState.maxLivesWithAds), // Permet de dépasser le max avec les pubs
           lastAdWatchTime: now,
         );
         
