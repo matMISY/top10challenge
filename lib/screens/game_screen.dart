@@ -623,7 +623,7 @@ class _GameScreenState extends State<GameScreen> {
                                     hintData: hintData,
                                     hintLevel: hintLevel,
                                     onHintRequested: () => _onHintRequested(index),
-                                    canUseHint: HintGenerator.canUseHint(hintLevel, gameProvider.gameState.hintPoints),
+                                    canUseHint: HintGenerator.canUseHint(hintLevel, gameProvider.gameState.hintPoints, isLevelCompleted: widget.level.isCompleted),
                                   );
                                 },
                               ),

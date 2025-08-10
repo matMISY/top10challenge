@@ -88,7 +88,7 @@ class _TierLevelsContentState extends State<_TierLevelsContent> {
                 padding: const EdgeInsets.all(20),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  childAspectRatio: 0.8,
+                  childAspectRatio: 1.0,
                   crossAxisSpacing: 15,
                   mainAxisSpacing: 15,
                 ),
@@ -253,23 +253,6 @@ class _LevelCard extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    if (isBoss)
-                      Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                        decoration: BoxDecoration(
-                          color: Colors.amber,
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: const Text(
-                          'BOSS',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 10,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    if (isBoss) const SizedBox(height: 8),
                     Icon(
                       isCompleted
                           ? Icons.star
@@ -326,7 +309,7 @@ class _LevelCard extends StatelessWidget {
                           ),
                           const SizedBox(width: 4),
                           Text(
-                            '${level.pointsReward}',
+                            '${level.pointsReward + (isBoss ? 1 : 0)}',
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 12,

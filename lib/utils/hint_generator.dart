@@ -75,24 +75,42 @@ class HintGenerator {
   }
   
   /// Retourne le texte du bouton selon le niveau actuel
-  static String getButtonText(int currentLevel, int hintPoints) {
-    switch (currentLevel) {
-      case 0:
-        return '💡 Indice (3 pts)';
-      case 1:
-        return '💡 Plus d\'aide (4 pts)';
-      case 2:
-        return '💡 Encore plus (5 pts)';
-      case 3:
-        return 'Tous les indices utilisés';
-      default:
-        return '💡 Indice';
+  static String getButtonText(int currentLevel, int hintPoints, {bool isLevelCompleted = false}) {
+    if (isLevelCompleted) {
+      switch (currentLevel) {
+        case 0:
+          return '💡 Indice (gratuit)';
+        case 1:
+          return '💡 Plus d\'aide (gratuit)';
+        case 2:
+          return '💡 Encore plus (gratuit)';
+        case 3:
+          return 'Tous les indices utilisés';
+        default:
+          return '💡 Indice (gratuit)';
+      }
+    } else {
+      switch (currentLevel) {
+        case 0:
+          return '💡 Indice (3 pts)';
+        case 1:
+          return '💡 Plus d\'aide (4 pts)';
+        case 2:
+          return '💡 Encore plus (5 pts)';
+        case 3:
+          return 'Tous les indices utilisés';
+        default:
+          return '💡 Indice';
+      }
     }
   }
   
   /// Vérifie si le bouton d'indice doit être activé
-  static bool canUseHint(int currentLevel, int hintPoints) {
+  static bool canUseHint(int currentLevel, int hintPoints, {bool isLevelCompleted = false}) {
     if (currentLevel >= 3) return false;
+    
+    // Si le niveau est complété, les indices sont gratuits
+    if (isLevelCompleted) return true;
     
     final costs = [3, 4, 5];
     final nextCost = costs[currentLevel];

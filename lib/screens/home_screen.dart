@@ -146,6 +146,7 @@ class HomeScreen extends StatelessWidget {
   }) {
     return SizedBox(
       width: 85, // Largeur réduite pour 3 cartes
+      height: 110, // Hauteur fixe pour toutes les cases
       child: Container(
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
@@ -153,28 +154,36 @@ class HomeScreen extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
         ),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Icon(icon, color: color, size: 24),
-            const SizedBox(height: 8),
-            Text(
-              value,
-              style: GoogleFonts.baloo2(
-                color: Colors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
+            Column(
+              children: [
+                Icon(icon, color: color, size: 24),
+                const SizedBox(height: 8),
+                Text(
+                  value,
+                  style: GoogleFonts.baloo2(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  label,
+                  style: GoogleFonts.baloo2(
+                    color: Colors.white70,
+                    fontSize: 12,
+                  ),
+                ),
+              ],
             ),
-            Text(
-              label,
-              style: GoogleFonts.baloo2(
-                color: Colors.white70,
-                fontSize: 12,
-              ),
+            // Zone réservée pour le timer (vide pour les autres cases)
+            SizedBox(
+              height: 16, // Hauteur fixe réservée au timer
+              child: gameProvider != null && gameProvider.shouldShowLifeTimer()
+                  ? _buildNextLifeCountdown(gameProvider)
+                  : null, // Zone vide mais même hauteur pour les autres cases
             ),
-            if (gameProvider != null && gameProvider.shouldShowLifeTimer()) ...[
-              const SizedBox(height: 4),
-              _buildNextLifeCountdown(gameProvider),
-            ],
           ],
         ),
       ),
@@ -299,15 +308,15 @@ class HomeScreen extends StatelessWidget {
       buttonIcon = Icons.hourglass_empty;
       isEnabled = false;
     } else if (canWatchAd) {
-      buttonText = 'Regarder une pub';
+      buttonText = 'Pub pour +5 vies';
       buttonIcon = Icons.play_circle_filled;
       isEnabled = true;
     } else if (adCooldownTime != null) {
-      buttonText = 'Pub dans $adCooldownTime';
+      buttonText = 'Prochaine pub dans $adCooldownTime';
       buttonIcon = Icons.timer;
       isEnabled = false;
     } else {
-      buttonText = 'Pub indisponible';
+      buttonText = 'Pub non disponible';
       buttonIcon = Icons.tv_off;
       isEnabled = false;
     }

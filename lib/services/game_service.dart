@@ -52,6 +52,9 @@ class GameService {
     
     final level = levels.firstWhere((l) => l.id == levelId);
     
+    // Vérifier si le niveau n'est pas déjà complété
+    final wasAlreadyCompleted = level.isCompleted;
+    
     final updatedLevels = levels.map((l) {
       if (l.id == levelId) {
         return l.copyWith(isCompleted: true);
@@ -59,24 +62,40 @@ class GameService {
       return l;
     }).toList();
     
-    // Calculer les points d'indices gagnés selon la difficulté
-    final hintPointsGained = HintConfig.getPointsForDifficulty(level.difficulty);
+    // Ne donner des récompenses que si le niveau n'était pas déjà complété
+    int hintPointsGained = 0;
+    int bonusPoints = 0;
+    int bonusHints = 0;
+    
+    if (!wasAlreadyCompleted) {
+      // Calculer les points d'indices gagnés selon la difficulté
+      hintPointsGained = HintConfig.getPointsForDifficulty(level.difficulty);
+      
+      // Vérifier si c'est un niveau boss (5ème niveau du palier)
+      final isBossLevel = level.positionInTier == 5;
+      
+      // Bonus pour les niveaux boss
+      bonusPoints = isBossLevel ? 1 : 0;
+      bonusHints = isBossLevel ? 5 : 0;
+    }
     
     final updatedGameState = gameState.copyWith(
-      completedLevels: [...gameState.completedLevels, levelId],
+      completedLevels: wasAlreadyCompleted ? gameState.completedLevels : [...gameState.completedLevels, levelId],
       currentLevel: levelId + 1,
-      hintPoints: (gameState.hintPoints + hintPointsGained).clamp(0, 999),
-      totalPoints: gameState.totalPoints + level.pointsReward,
+      hintPoints: (gameState.hintPoints + hintPointsGained + bonusHints).clamp(0, 999),
+      totalPoints: gameState.totalPoints + (wasAlreadyCompleted ? 0 : level.pointsReward) + bonusPoints,
     );
     
     await saveLevels(updatedLevels);
     await saveGameState(updatedGameState);
     
-    // Ajouter les points et vérifier les déblocages de paliers
-    await _checkAndUnlockNewTiers();
-    
-    // Vérifier si le palier est complété
-    await _checkTierCompletion(level.tierId);
+    // Ajouter les points et vérifier les déblocages de paliers seulement si c'était la première complétion
+    if (!wasAlreadyCompleted) {
+      await _checkAndUnlockNewTiers();
+      
+      // Vérifier si le palier est complété
+      await _checkTierCompletion(level.tierId);
+    }
   }
 
   Future<void> loseLife() async {
@@ -91,10 +110,15 @@ class GameService {
 
   Future<bool> useHintPoints(int levelId, int questionIndex, int hintLevel) async {
     final gameState = await getGameState();
+    final levels = await getLevels();
     final cost = HintConfig.getHintCost(hintLevel);
     
-    // Vérifier si le joueur a assez de points
-    if (gameState.hintPoints < cost) {
+    // Vérifier si le niveau est déjà complété
+    final level = levels.firstWhere((l) => l.id == levelId, orElse: () => levels.first);
+    final isLevelCompleted = level.isCompleted;
+    
+    // Si le niveau n'est pas complété, vérifier si le joueur a assez de points
+    if (!isLevelCompleted && gameState.hintPoints < cost) {
       return false;
     }
     
@@ -105,8 +129,9 @@ class GameService {
     }
     updatedHintLevels[levelId]![questionIndex] = hintLevel;
     
+    // Décrémenter les points seulement si le niveau n'est pas complété
     final updatedGameState = gameState.copyWith(
-      hintPoints: gameState.hintPoints - cost,
+      hintPoints: isLevelCompleted ? gameState.hintPoints : gameState.hintPoints - cost,
       hintLevelsByLevel: updatedHintLevels,
     );
     
