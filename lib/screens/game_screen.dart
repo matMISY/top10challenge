@@ -12,6 +12,8 @@ import '../widgets/search_input.dart';
 import '../utils/debug_config.dart';
 import '../config/hint_config.dart';
 import '../utils/hint_generator.dart';
+import '../services/feedback_service.dart';
+import '../config/feedback_config.dart';
 
 class GameScreen extends StatefulWidget {
   final Level level;
@@ -50,13 +52,7 @@ class _GameScreenState extends State<GameScreen> {
   }
 
   void _showNoLivesMessage() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('Vous n\'avez plus de vies ! Attendez qu\'elles se récupèrent.'),
-        backgroundColor: Colors.red,
-        duration: Duration(seconds: 3),
-      ),
-    );
+    FeedbackService.showNoLives(context);
   }
 
   Future<void> _loadSavedAnswers() async {
@@ -97,6 +93,9 @@ class _GameScreenState extends State<GameScreen> {
 
       _gameService.saveFoundAnswersForLevel(widget.level.id, _foundAnswers);
 
+      // Afficher feedback de bonne réponse
+      FeedbackService.showSuccess(context, 'Bonne réponse !\n$correctAnswer');
+
       if (_foundAnswers.length == 10) {
         _onLevelCompleted();
       }
@@ -106,7 +105,7 @@ class _GameScreenState extends State<GameScreen> {
       
       if (alreadyFoundAnswer != null) {
         // Réponse déjà validée, ne pas enlever de vie
-        _showAlreadyFoundFeedback();
+        FeedbackService.showAlreadyFound(context);
         _searchController.clear();
       } else {
         // Réponse incorrecte, enlever une vie
@@ -115,7 +114,8 @@ class _GameScreenState extends State<GameScreen> {
         if (context.read<GameProvider>().gameState.lives <= 0) {
           _onGameOver();
         } else {
-          _showWrongAnswerFeedback();
+          final lives = context.read<GameProvider>().gameState.lives;
+          FeedbackService.showWrongAnswer(context, lives);
         }
       }
     }
@@ -244,16 +244,12 @@ class _GameScreenState extends State<GameScreen> {
       _debugAnswersRevealed = !_debugAnswersRevealed;
     });
     
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(
-          _debugAnswersRevealed 
-            ? '🐛 DEBUG: Réponses révélées' 
-            : '🐛 DEBUG: Réponses cachées'
-        ),
-        backgroundColor: Colors.orange,
-        duration: const Duration(seconds: 2),
-      ),
+    FeedbackService.showWarning(
+      context,
+      _debugAnswersRevealed 
+        ? '🐛 DEBUG: Réponses\nrévélées' 
+        : '🐛 DEBUG: Réponses\ncachées',
+      duration: FeedbackConfig.debugDuration,
     );
   }
 
@@ -267,13 +263,7 @@ class _GameScreenState extends State<GameScreen> {
       _availableAnswers.clear();
     });
     
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('🐛 DEBUG: Niveau complété automatiquement'),
-        backgroundColor: Colors.green,
-        duration: Duration(seconds: 2),
-      ),
-    );
+    FeedbackService.showSuccess(context, '🐛 DEBUG: Niveau\ncomplété automatiquement', duration: FeedbackConfig.debugDuration);
     
     // Déclencher la completion du niveau après un petit délai
     Future.delayed(const Duration(milliseconds: 500), () {
@@ -281,26 +271,6 @@ class _GameScreenState extends State<GameScreen> {
     });
   }
 
-  void _showWrongAnswerFeedback() {
-    final lives = context.read<GameProvider>().gameState.lives;
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text('Mauvaise réponse ! $lives ${lives > 1 ? 'vies restantes' : 'vie restante'}'),
-        backgroundColor: Colors.red,
-        duration: const Duration(seconds: 2),
-      ),
-    );
-  }
-
-  void _showAlreadyFoundFeedback() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('Cette réponse a déjà été trouvée !'),
-        backgroundColor: Colors.orange,
-        duration: Duration(seconds: 2),
-      ),
-    );
-  }
 
   Future<void> _watchAdAndContinue(BuildContext context, GameProvider gameProvider) async {
     try {
@@ -335,19 +305,7 @@ class _GameScreenState extends State<GameScreen> {
       
       if (success) {
         // Afficher le succès et continuer le jeu
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Row(
-              children: [
-                Icon(Icons.favorite, color: Colors.red),
-                SizedBox(width: 8),
-                Text('Vous avez gagné 1 vie ! Continuez à jouer !'),
-              ],
-            ),
-            backgroundColor: Colors.green,
-            duration: Duration(seconds: 3),
-          ),
-        );
+        FeedbackService.showLifeGained(context);
       } else {
         // Échec de la pub, proposer les autres options
         showDialog(
@@ -384,13 +342,7 @@ class _GameScreenState extends State<GameScreen> {
       // Fermer le dialog de chargement si ouvert
       Navigator.of(context).pop();
       
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Erreur lors du chargement de la publicité.'),
-          backgroundColor: Colors.red,
-          duration: Duration(seconds: 3),
-        ),
-      );
+      FeedbackService.showAdError(context);
       
       // Revenir au dialog de game over
       _onGameOver();
@@ -416,16 +368,7 @@ class _GameScreenState extends State<GameScreen> {
     // Vérifier que le joueur a assez de points
     if (gameProvider.gameState.hintPoints < cost) {
       print('DEBUG: Not enough hint points. Has ${gameProvider.gameState.hintPoints}, needs $cost');
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('Points insuffisants (besoin de $cost points)'),
-          duration: const Duration(seconds: 2),
-          action: SnackBarAction(
-            label: 'Voir une pub',
-            onPressed: () => _watchAdForHints(),
-          ),
-        ),
-      );
+      FeedbackService.showInsufficientPoints(context, cost, () => _watchAdForHints());
       return;
     }
     
@@ -452,35 +395,16 @@ class _GameScreenState extends State<GameScreen> {
     
     if (!gameProvider.canWatchAdForHints()) {
       final timeUntil = gameProvider.getFormattedTimeUntilNextHintAd();
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(timeUntil != null 
-            ? 'Prochaine pub disponible dans $timeUntil'
-            : 'Publicité non disponible pour le moment'),
-          duration: const Duration(seconds: 2),
-        ),
-      );
+      FeedbackService.showAdNotAvailable(context, timeUntil);
       return;
     }
     
     final success = await gameProvider.watchAdForHints();
     
     if (success) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('✨ +${HintConfig.pointsPerAd} points d\'indices gagnés !'),
-          backgroundColor: Colors.green,
-          duration: const Duration(seconds: 2),
-        ),
-      );
+      FeedbackService.showPointsGained(context, HintConfig.pointsPerAd);
     } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Erreur lors de la visualisation de la publicité'),
-          backgroundColor: Colors.red,
-          duration: const Duration(seconds: 2),
-        ),
-      );
+      FeedbackService.showError(context, 'Erreur lors de la\nvisualisation de\nla publicité');
     }
   }
 

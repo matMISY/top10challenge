@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../providers/game_provider.dart';
 import '../models/game_state.dart';
 import '../utils/debug_config.dart';
+import '../services/feedback_service.dart';
 import 'tier_selection_screen.dart';
 import 'daily_challenge_screen.dart';
 
@@ -366,39 +367,15 @@ class HomeScreen extends StatelessWidget {
       if (!context.mounted) return;
       
       if (success) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: const Row(
-              children: [
-                Icon(Icons.favorite, color: Colors.red),
-                SizedBox(width: 8),
-                Text('Vous avez gagné 1 vie !'),
-              ],
-            ),
-            backgroundColor: Colors.green,
-            duration: const Duration(seconds: 3),
-          ),
-        );
+        FeedbackService.showLives(context, 'Vous avez gagné\n1 vie !');
       } else {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Publicité non disponible. Réessayez plus tard.'),
-            backgroundColor: Colors.orange,
-            duration: Duration(seconds: 3),
-          ),
-        );
+        FeedbackService.showWarning(context, 'Publicité non\ndisponible.\nRéessayez plus tard.');
       }
     } catch (e) {
       // Vérifier si le widget est toujours monté avant d'utiliser context
       if (!context.mounted) return;
       
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Erreur lors du chargement de la publicité.'),
-          backgroundColor: Colors.red,
-          duration: Duration(seconds: 3),
-        ),
-      );
+      FeedbackService.showAdError(context);
     }
   }
   
@@ -485,39 +462,15 @@ class HomeScreen extends StatelessWidget {
       if (!context.mounted) return;
       
       if (success) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Row(
-              children: [
-                Icon(Icons.lightbulb, color: Colors.amber),
-                SizedBox(width: 8),
-                Text('Vous avez gagné 12 points d\'indices !'),
-              ],
-            ),
-            backgroundColor: Colors.green,
-            duration: Duration(seconds: 2),
-          ),
-        );
+        FeedbackService.showPointsGained(context, 12);
       } else {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Erreur lors de la visualisation de la publicité'),
-            backgroundColor: Colors.red,
-            duration: Duration(seconds: 2),
-          ),
-        );
+        FeedbackService.showError(context, 'Erreur lors de la\nvisualisation de\nla publicité');
       }
     } catch (e) {
       debugPrint('Error watching hint ad: $e');
       if (!context.mounted) return;
       
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Erreur lors du chargement de la publicité d\'indices.'),
-          backgroundColor: Colors.red,
-          duration: Duration(seconds: 3),
-        ),
-      );
+      FeedbackService.showError(context, 'Erreur lors du\nchargement de la\npublicité d\'indices.');
     }
   }
 }
