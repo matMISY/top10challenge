@@ -35,6 +35,7 @@ class _AnswerSlotState extends State<AnswerSlot>
   late AnimationController _animationController;
   late Animation<double> _progressAnimation;
   bool _isLongPressing = false;
+  bool _showError = false;
   static const Duration _longPressDuration = Duration(milliseconds: 1500);
 
   @override
@@ -77,11 +78,17 @@ class _AnswerSlotState extends State<AnswerSlot>
   }
 
   void _onLongPressStart() {
-    if (_canShowHint()) {
-      setState(() {
-        _isLongPressing = true;
-      });
-      _animationController.forward();
+    if (_canInteract()) {
+      if (_canShowHint()) {
+        setState(() {
+          _isLongPressing = true;
+          _showError = false;
+        });
+        _animationController.forward();
+      } else {
+        // Pas assez de points : feedback d'erreur
+        _showErrorFeedback();
+      }
     }
   }
 
@@ -91,15 +98,43 @@ class _AnswerSlotState extends State<AnswerSlot>
     }
   }
 
-  bool _canShowHint() {
-    return widget.canUseHint && 
-           widget.onHintRequested != null && 
+  bool _canInteract() {
+    return widget.onHintRequested != null && 
            !widget.isFound && 
-           widget.hintLevel < 3;  // Peut encore débloquer des indices
+           widget.hintLevel < 3;  // Peut encore essayer de débloquer des indices
+  }
+  
+  bool _canShowHint() {
+    return _canInteract() && widget.canUseHint; // A assez de points
+  }
+  
+  void _showErrorFeedback() {
+    setState(() {
+      _showError = true;
+    });
+    
+    // Vibration d'erreur
+    HapticFeedback.lightImpact();
+    
+    // Appeler le callback d'indice pour déclencher le message d'erreur dans GameScreen
+    if (widget.onHintRequested != null) {
+      widget.onHintRequested!();
+    }
+    
+    // Réinitialiser l'erreur après un court délai
+    Future.delayed(const Duration(milliseconds: 800), () {
+      if (mounted) {
+        setState(() {
+          _showError = false;
+        });
+      }
+    });
   }
 
   Color _getBackgroundColor() {
-    if (widget.isFound) {
+    if (_showError) {
+      return Colors.red.shade600.withValues(alpha: 0.8);
+    } else if (widget.isFound) {
       return Colors.green.shade600.withValues(alpha: 0.9);
     } else if (widget.debugRevealAnswer && widget.answer != null) {
       return Colors.orange.withValues(alpha: 0.6);
@@ -111,7 +146,9 @@ class _AnswerSlotState extends State<AnswerSlot>
   }
 
   Color _getBorderColor() {
-    if (widget.isFound) {
+    if (_showError) {
+      return Colors.red.shade400;
+    } else if (widget.isFound) {
       return Colors.green.shade400;
     } else if (widget.debugRevealAnswer && widget.answer != null) {
       return Colors.orange;
@@ -268,6 +305,12 @@ class _AnswerSlotState extends State<AnswerSlot>
                           color: Colors.orange,
                           size: 16,
                         )
+                      else if (_showError)
+                        Icon(
+                          Icons.error_outline,
+                          color: Colors.red.shade200,
+                          size: 16,
+                        )
                       else if (hasRevealedHint)
                         Row(
                           children: [
@@ -286,6 +329,12 @@ class _AnswerSlotState extends State<AnswerSlot>
                               ),
                             ),
                           ],
+                        )
+                      else if (_canInteract() && !widget.canUseHint)
+                        Icon(
+                          Icons.help_outline,
+                          color: Colors.grey.shade400,
+                          size: 14,
                         ),
                     ],
                   ),
