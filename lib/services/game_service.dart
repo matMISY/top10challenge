@@ -3,6 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/game_state.dart';
 import '../models/level.dart';
 import '../models/tier.dart';
+import '../config/hint_config.dart';
 import 'data_loader_service.dart';
 import 'migration_service.dart';
 
@@ -58,10 +59,13 @@ class GameService {
       return l;
     }).toList();
     
+    // Calculer les points d'indices gagnés selon la difficulté
+    final hintPointsGained = HintConfig.getPointsForDifficulty(level.difficulty);
+    
     final updatedGameState = gameState.copyWith(
       completedLevels: [...gameState.completedLevels, levelId],
       currentLevel: levelId + 1,
-      hints: (gameState.hints + level.difficulty).clamp(0, 99),
+      hintPoints: (gameState.hintPoints + hintPointsGained).clamp(0, 999),
       totalPoints: gameState.totalPoints + level.pointsReward,
     );
     
@@ -85,11 +89,45 @@ class GameService {
     await saveGameState(updatedGameState);
   }
 
-  Future<void> useHint() async {
+  Future<bool> useHintPoints(int levelId, int questionIndex, int hintLevel) async {
     final gameState = await getGameState();
+    final cost = HintConfig.getHintCost(hintLevel);
+    
+    // Vérifier si le joueur a assez de points
+    if (gameState.hintPoints < cost) {
+      return false;
+    }
+    
+    // Mettre à jour les niveaux d'indices pour cette question
+    final updatedHintLevels = Map<int, Map<int, int>>.from(gameState.hintLevelsByLevel);
+    if (!updatedHintLevels.containsKey(levelId)) {
+      updatedHintLevels[levelId] = {};
+    }
+    updatedHintLevels[levelId]![questionIndex] = hintLevel;
+    
     final updatedGameState = gameState.copyWith(
-      hints: (gameState.hints - 1).clamp(0, 99),
+      hintPoints: gameState.hintPoints - cost,
+      hintLevelsByLevel: updatedHintLevels,
     );
+    
+    await saveGameState(updatedGameState);
+    return true;
+  }
+  
+  Future<int> getHintLevelForQuestion(int levelId, int questionIndex) async {
+    final gameState = await getGameState();
+    return gameState.hintLevelsByLevel[levelId]?[questionIndex] ?? 0;
+  }
+  
+  Future<void> clearHintLevelsForLevel(int levelId) async {
+    final gameState = await getGameState();
+    final updatedHintLevels = Map<int, Map<int, int>>.from(gameState.hintLevelsByLevel);
+    updatedHintLevels.remove(levelId);
+    
+    final updatedGameState = gameState.copyWith(
+      hintLevelsByLevel: updatedHintLevels,
+    );
+    
     await saveGameState(updatedGameState);
   }
 

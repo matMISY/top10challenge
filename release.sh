@@ -148,8 +148,7 @@ fi
 gh release create "v$NEW_VERSION_NAME" \
     "release/$NEW_APK_NAME" \
     --title "Top10Challenge v$NEW_VERSION_NAME" \
-    --notes "$RELEASE_NOTES" \
-    --latest
+    --notes "$RELEASE_NOTES"
 
 echo -e "${GREEN}🎉 Release v$NEW_VERSION_NAME créée avec succès!${NC}"
 echo -e "${GREEN}📱 APK disponible: release/$NEW_APK_NAME${NC}"

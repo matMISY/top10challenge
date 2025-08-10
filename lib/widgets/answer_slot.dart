@@ -2,15 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../models/answer.dart';
+import '../utils/hint_generator.dart';
 
 class AnswerSlot extends StatefulWidget {
   final int index;
   final Answer? answer;
   final bool isFound;
   final bool debugRevealAnswer;
-  final String? revealedHint;
+  final HintData? hintData;  // Remplace revealedHint
   final VoidCallback? onHintRequested;
   final bool canUseHint;
+  final int hintLevel;  // Niveau d'indice actuel pour cette question
 
   const AnswerSlot({
     super.key,
@@ -18,9 +20,10 @@ class AnswerSlot extends StatefulWidget {
     this.answer,
     this.isFound = false,
     this.debugRevealAnswer = false,
-    this.revealedHint,
+    this.hintData,
     this.onHintRequested,
     this.canUseHint = false,
+    this.hintLevel = 0,
   });
 
   @override
@@ -92,7 +95,7 @@ class _AnswerSlotState extends State<AnswerSlot>
     return widget.canUseHint && 
            widget.onHintRequested != null && 
            !widget.isFound && 
-           widget.revealedHint == null;
+           widget.hintLevel < 3;  // Peut encore débloquer des indices
   }
 
   Color _getBackgroundColor() {
@@ -100,7 +103,7 @@ class _AnswerSlotState extends State<AnswerSlot>
       return Colors.green.shade600.withValues(alpha: 0.9);
     } else if (widget.debugRevealAnswer && widget.answer != null) {
       return Colors.orange.withValues(alpha: 0.6);
-    } else if (widget.revealedHint != null) {
+    } else if (widget.hintData != null) {
       return Colors.amber.shade700.withValues(alpha: 0.8);
     } else {
       return const Color(0xFF3A6B68).withValues(alpha: 0.4);
@@ -112,7 +115,7 @@ class _AnswerSlotState extends State<AnswerSlot>
       return Colors.green.shade400;
     } else if (widget.debugRevealAnswer && widget.answer != null) {
       return Colors.orange;
-    } else if (widget.revealedHint != null) {
+    } else if (widget.hintData != null) {
       return Colors.amber.shade400;
     } else {
       return Colors.white.withValues(alpha: 0.4);
@@ -123,7 +126,7 @@ class _AnswerSlotState extends State<AnswerSlot>
   Widget build(BuildContext context) {
     final hasAnswer = widget.answer != null;
     final shouldShowAnswer = widget.isFound || widget.debugRevealAnswer;
-    final hasRevealedHint = widget.revealedHint != null;
+    final hasRevealedHint = widget.hintData != null;
     
     return GestureDetector(
       onLongPressStart: (_) => _onLongPressStart(),
@@ -241,18 +244,7 @@ class _AnswerSlotState extends State<AnswerSlot>
                                       overflow: TextOverflow.ellipsis,
                                     )
                                   : hasRevealedHint
-                                      ? Text(
-                                          widget.revealedHint!,
-                                          style: GoogleFonts.baloo2(
-                                            color: Colors.amber.shade100,
-                                            fontSize: 14,
-                                            fontWeight: FontWeight.w500,
-                                            height: 1.2,
-                                            fontStyle: FontStyle.italic,
-                                          ),
-                                          maxLines: 2,
-                                          overflow: TextOverflow.ellipsis,
-                                        )
+                                      ? _buildHintDisplay()
                                       : Container(
                                           height: 3,
                                           decoration: BoxDecoration(
@@ -277,10 +269,23 @@ class _AnswerSlotState extends State<AnswerSlot>
                           size: 16,
                         )
                       else if (hasRevealedHint)
-                        Icon(
-                          Icons.lightbulb,
-                          color: Colors.amber.shade200,
-                          size: 16,
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.lightbulb,
+                              color: Colors.amber.shade200,
+                              size: 14,
+                            ),
+                            const SizedBox(width: 2),
+                            Text(
+                              '${widget.hintLevel}',
+                              style: TextStyle(
+                                color: Colors.amber.shade200,
+                                fontSize: 11,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                     ],
                   ),
@@ -291,6 +296,45 @@ class _AnswerSlotState extends State<AnswerSlot>
           );
         },
       ),
+    );
+  }
+  
+  Widget _buildHintDisplay() {
+    if (widget.hintData == null) return Container();
+    
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // Toujours afficher le hint s'il existe
+        if (widget.hintData!.hint != null && widget.hintData!.hint!.isNotEmpty)
+          Text(
+            widget.hintData!.hint!,
+            style: GoogleFonts.baloo2(
+              color: Colors.amber.shade100,
+              fontSize: 12,
+              fontWeight: FontWeight.w500,
+              height: 1.1,
+              fontStyle: FontStyle.italic,
+            ),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+          ),
+        // Afficher la structure si disponible
+        if (widget.hintData!.structure != null)
+          Text(
+            widget.hintData!.structure!,
+            style: GoogleFonts.baloo2(
+              color: Colors.white,
+              fontSize: 13,
+              fontWeight: FontWeight.w600,
+              height: 1.1,
+              letterSpacing: 1.5,
+            ),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+          ),
+      ],
     );
   }
 }

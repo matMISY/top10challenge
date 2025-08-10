@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../models/level.dart';
@@ -9,6 +10,8 @@ import '../services/game_service.dart';
 import '../widgets/answer_slot.dart';
 import '../widgets/search_input.dart';
 import '../utils/debug_config.dart';
+import '../config/hint_config.dart';
+import '../utils/hint_generator.dart';
 
 class GameScreen extends StatefulWidget {
   final Level level;
@@ -26,7 +29,7 @@ class _GameScreenState extends State<GameScreen> {
   final List<String> _foundAnswers = [];
   List<String> _availableAnswers = [];
   bool _debugAnswersRevealed = false;
-  Map<int, String> _revealedHints = {};
+  Map<int, int> _hintLevels = {};  // Niveau d'indice pour chaque question
 
   @override
   void initState() {
@@ -58,12 +61,21 @@ class _GameScreenState extends State<GameScreen> {
 
   Future<void> _loadSavedAnswers() async {
     final savedAnswers = await _gameService.getFoundAnswersForLevel(widget.level.id);
-    final savedHints = await _gameService.getRevealedHintsForLevel(widget.level.id);
+    
+    // Charger les niveaux d'indices pour chaque question
+    Map<int, int> loadedHintLevels = {};
+    for (int i = 0; i < widget.level.answers.length; i++) {
+      final hintLevel = await _gameService.getHintLevelForQuestion(widget.level.id, i);
+      if (hintLevel > 0) {
+        loadedHintLevels[i] = hintLevel;
+      }
+    }
+    
     setState(() {
       _foundAnswers.clear();
       _foundAnswers.addAll(savedAnswers);
       _availableAnswers = widget.level.answerNames.where((answer) => !savedAnswers.contains(answer)).toList();
-      _revealedHints = Map.from(savedHints);
+      _hintLevels = loadedHintLevels;
     });
   }
 
@@ -210,16 +222,19 @@ class _GameScreenState extends State<GameScreen> {
     );
   }
 
-  void _resetLevel() {
-    _gameService.clearFoundAnswersForLevel(widget.level.id);
-    _gameService.clearRevealedHintsForLevel(widget.level.id);
+  Future<void> _resetLevel() async {
+    await _gameService.clearFoundAnswersForLevel(widget.level.id);
+    await _gameService.clearRevealedHintsForLevel(widget.level.id);
     setState(() {
       _foundAnswers.clear();
       _availableAnswers = List.from(widget.level.answerNames);
       _searchController.clear();
       _debugAnswersRevealed = false;
-      _revealedHints.clear();
+      _hintLevels.clear();
     });
+    
+    // Nettoyer les niveaux d'indices sauvegardés
+    await _gameService.clearHintLevelsForLevel(widget.level.id);
   }
 
   void _debugRevealAnswers() {
@@ -382,34 +397,90 @@ class _GameScreenState extends State<GameScreen> {
     }
   }
 
-  void _onHintRequested(int index) async {
+  Future<void> _onHintRequested(int index) async {
     final gameProvider = context.read<GameProvider>();
-    print('DEBUG: _onHintRequested called with index: $index');
-    print('DEBUG: hints available: ${gameProvider.gameState.hints}');
-    print('DEBUG: answers length: ${widget.level.answers.length}');
-    if (index < widget.level.answers.length) {
-      print('DEBUG: hint for index $index: "${widget.level.answers[index].hint}"');
+    
+    // Récupérer le niveau d'indice actuel pour cette question
+    final currentHintLevel = _hintLevels[index] ?? 0;
+    
+    // Vérifier si on peut encore débloquer des indices
+    if (currentHintLevel >= 3) {
+      print('DEBUG: All hints already revealed for index $index');
+      return;
     }
     
-    if (gameProvider.gameState.hints > 0 && 
-        index < widget.level.answers.length && 
-        widget.level.answers[index].hint.isNotEmpty) {
+    // Calculer le coût du prochain niveau
+    final nextLevel = currentHintLevel + 1;
+    final cost = HintConfig.getHintCost(nextLevel);
+    
+    // Vérifier que le joueur a assez de points
+    if (gameProvider.gameState.hintPoints < cost) {
+      print('DEBUG: Not enough hint points. Has ${gameProvider.gameState.hintPoints}, needs $cost');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Points insuffisants (besoin de $cost points)'),
+          duration: const Duration(seconds: 2),
+          action: SnackBarAction(
+            label: 'Voir une pub',
+            onPressed: () => _watchAdForHints(),
+          ),
+        ),
+      );
+      return;
+    }
+    
+    // Utiliser les points d'indices
+    final success = await gameProvider.useHintPoints(widget.level.id, index, nextLevel);
+    
+    if (success) {
+      print('DEBUG: Hint level $nextLevel unlocked for index $index');
       
-      print('DEBUG: Conditions met, using hint...');
-      // Consommer l'indice
-      await gameProvider.useHint();
-      
-      print('DEBUG: Hint used, new count: ${gameProvider.gameState.hints}');
-      
-      // Révéler l'indice pour cette position
+      // Mettre à jour le niveau d'indice localement
       setState(() {
-        _revealedHints[index] = widget.level.answers[index].hint;
+        _hintLevels[index] = nextLevel;
       });
-
-      // Sauvegarder les indices révélés
-      await _gameService.saveRevealedHintsForLevel(widget.level.id, _revealedHints);
+      
+      // Vibration de confirmation
+      HapticFeedback.lightImpact();
     } else {
-      print('DEBUG: Conditions not met for hint usage');
+      print('DEBUG: Failed to unlock hint');
+    }
+  }
+  
+  Future<void> _watchAdForHints() async {
+    final gameProvider = context.read<GameProvider>();
+    
+    if (!gameProvider.canWatchAdForHints()) {
+      final timeUntil = gameProvider.getFormattedTimeUntilNextHintAd();
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(timeUntil != null 
+            ? 'Prochaine pub disponible dans $timeUntil'
+            : 'Publicité non disponible pour le moment'),
+          duration: const Duration(seconds: 2),
+        ),
+      );
+      return;
+    }
+    
+    final success = await gameProvider.watchAdForHints();
+    
+    if (success) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('✨ +${HintConfig.pointsPerAd} points d\'indices gagnés !'),
+          backgroundColor: Colors.green,
+          duration: const Duration(seconds: 2),
+        ),
+      );
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Erreur lors de la visualisation de la publicité'),
+          backgroundColor: Colors.red,
+          duration: const Duration(seconds: 2),
+        ),
+      );
     }
   }
 
@@ -456,7 +527,7 @@ class _GameScreenState extends State<GameScreen> {
                     Icon(Icons.lightbulb, color: Colors.white, size: 18),
                     const SizedBox(width: 4),
                     Text(
-                      '${gameProvider.gameState.hints}',
+                      '${gameProvider.gameState.hintPoints}',
                       style: const TextStyle(
                         color: Colors.white,
                         fontSize: 14,
@@ -615,14 +686,20 @@ class _GameScreenState extends State<GameScreen> {
                               
                               return Consumer<GameProvider>(
                                 builder: (context, gameProvider, child) {
+                                  final hintLevel = _hintLevels[index] ?? 0;
+                                  final hintData = hintLevel > 0 && answerForPosition != null
+                                      ? HintGenerator.generateHint(answerForPosition, hintLevel)
+                                      : null;
+                                  
                                   return AnswerSlot(
                                     index: index + 1,
                                     answer: answerForPosition,
                                     isFound: isFound,
                                     debugRevealAnswer: _debugAnswersRevealed,
-                                    revealedHint: _revealedHints[index],
+                                    hintData: hintData,
+                                    hintLevel: hintLevel,
                                     onHintRequested: () => _onHintRequested(index),
-                                    canUseHint: gameProvider.gameState.hints > 0,
+                                    canUseHint: HintGenerator.canUseHint(hintLevel, gameProvider.gameState.hintPoints),
                                   );
                                 },
                               );

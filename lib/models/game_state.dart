@@ -1,63 +1,72 @@
 class GameState {
   final int currentLevel;
   final int lives;
-  final int hints;
+  final int hintPoints;  // Remplace hints - points d'indices disponibles
   final List<int> completedLevels;
   final DateTime lastPlayedDate;
   final bool dailyChallengeCompleted;
   final Map<int, List<String>> foundAnswersByLevel;
   final Map<int, Map<int, String>> revealedHintsByLevel;
+  final Map<int, Map<int, int>> hintLevelsByLevel;  // Nouveau: niveau d'indice atteint par question
   final DateTime? lastLifeLostTime;
   final int totalPoints;
   final List<int> unlockedTiers;
   final DateTime? lastAdWatchTime;
+  final DateTime? lastHintAdWatchTime;  // Nouveau: cooldown séparé pour les pubs d'indices
 
   static const int maxLives = 5;
   static const Duration lifeRecoveryDuration = Duration(minutes: 30);
   static const Duration adCooldownDuration = Duration(minutes: 2);
+  static const Duration hintAdCooldownDuration = Duration(minutes: 5);
 
   GameState({
     this.currentLevel = 1,
     this.lives = 5,
-    this.hints = 3,
+    this.hintPoints = 50,  // 50 points initiaux
     this.completedLevels = const [],
     DateTime? lastPlayedDate,
     this.dailyChallengeCompleted = false,
     this.foundAnswersByLevel = const {},
     this.revealedHintsByLevel = const {},
+    this.hintLevelsByLevel = const {},
     this.lastLifeLostTime,
     this.totalPoints = 0,
     this.unlockedTiers = const [1],
     this.lastAdWatchTime,
+    this.lastHintAdWatchTime,
   }) : lastPlayedDate = lastPlayedDate ?? DateTime.now();
 
   GameState copyWith({
     int? currentLevel,
     int? lives,
-    int? hints,
+    int? hintPoints,
     List<int>? completedLevels,
     DateTime? lastPlayedDate,
     bool? dailyChallengeCompleted,
     Map<int, List<String>>? foundAnswersByLevel,
     Map<int, Map<int, String>>? revealedHintsByLevel,
+    Map<int, Map<int, int>>? hintLevelsByLevel,
     DateTime? lastLifeLostTime,
     int? totalPoints,
     List<int>? unlockedTiers,
     DateTime? lastAdWatchTime,
+    DateTime? lastHintAdWatchTime,
   }) {
     return GameState(
       currentLevel: currentLevel ?? this.currentLevel,
       lives: lives ?? this.lives,
-      hints: hints ?? this.hints,
+      hintPoints: hintPoints ?? this.hintPoints,
       completedLevels: completedLevels ?? this.completedLevels,
       lastPlayedDate: lastPlayedDate ?? this.lastPlayedDate,
       dailyChallengeCompleted: dailyChallengeCompleted ?? this.dailyChallengeCompleted,
       foundAnswersByLevel: foundAnswersByLevel ?? this.foundAnswersByLevel,
       revealedHintsByLevel: revealedHintsByLevel ?? this.revealedHintsByLevel,
+      hintLevelsByLevel: hintLevelsByLevel ?? this.hintLevelsByLevel,
       lastLifeLostTime: lastLifeLostTime ?? this.lastLifeLostTime,
       totalPoints: totalPoints ?? this.totalPoints,
       unlockedTiers: unlockedTiers ?? this.unlockedTiers,
       lastAdWatchTime: lastAdWatchTime ?? this.lastAdWatchTime,
+      lastHintAdWatchTime: lastHintAdWatchTime ?? this.lastHintAdWatchTime,
     );
   }
 
@@ -65,17 +74,20 @@ class GameState {
     return {
       'currentLevel': currentLevel,
       'lives': lives,
-      'hints': hints,
+      'hintPoints': hintPoints,
       'completedLevels': completedLevels,
       'lastPlayedDate': lastPlayedDate.toIso8601String(),
       'dailyChallengeCompleted': dailyChallengeCompleted,
       'foundAnswersByLevel': foundAnswersByLevel.map((key, value) => MapEntry(key.toString(), value)),
       'revealedHintsByLevel': revealedHintsByLevel.map((levelKey, hintMap) => 
         MapEntry(levelKey.toString(), hintMap.map((indexKey, hint) => MapEntry(indexKey.toString(), hint)))),
+      'hintLevelsByLevel': hintLevelsByLevel.map((levelKey, hintMap) => 
+        MapEntry(levelKey.toString(), hintMap.map((indexKey, level) => MapEntry(indexKey.toString(), level)))),
       'lastLifeLostTime': lastLifeLostTime?.toIso8601String(),
       'totalPoints': totalPoints,
       'unlockedTiers': unlockedTiers,
       'lastAdWatchTime': lastAdWatchTime?.toIso8601String(),
+      'lastHintAdWatchTime': lastHintAdWatchTime?.toIso8601String(),
     };
   }
 
@@ -99,15 +111,31 @@ class GameState {
       });
     }
     
+    Map<int, Map<int, int>> hintLevelsByLevel = {};
+    if (json['hintLevelsByLevel'] != null) {
+      final Map<String, dynamic> hintLevelsMap = json['hintLevelsByLevel'];
+      hintLevelsByLevel = hintLevelsMap.map((levelKey, hintMapData) {
+        final Map<String, dynamic> hintMap = hintMapData as Map<String, dynamic>;
+        return MapEntry(
+          int.parse(levelKey), 
+          hintMap.map((indexKey, level) => MapEntry(int.parse(indexKey), int.parse(level.toString())))
+        );
+      });
+    }
+    
+    // Migration de l'ancien système hints vers hintPoints
+    int hintPoints = json['hintPoints'] ?? (json['hints'] != null ? json['hints'] * 3 : 50);
+    
     return GameState(
       currentLevel: json['currentLevel'] ?? 1,
       lives: json['lives'] ?? 5,
-      hints: json['hints'] ?? 3,
+      hintPoints: hintPoints,
       completedLevels: List<int>.from(json['completedLevels'] ?? []),
       lastPlayedDate: DateTime.parse(json['lastPlayedDate'] ?? DateTime.now().toIso8601String()),
       dailyChallengeCompleted: json['dailyChallengeCompleted'] ?? false,
       foundAnswersByLevel: foundAnswersByLevel,
       revealedHintsByLevel: revealedHintsByLevel,
+      hintLevelsByLevel: hintLevelsByLevel,
       lastLifeLostTime: json['lastLifeLostTime'] != null 
         ? DateTime.parse(json['lastLifeLostTime']) 
         : null,
@@ -115,6 +143,9 @@ class GameState {
       unlockedTiers: List<int>.from(json['unlockedTiers'] ?? [1]),
       lastAdWatchTime: json['lastAdWatchTime'] != null 
         ? DateTime.parse(json['lastAdWatchTime']) 
+        : null,
+      lastHintAdWatchTime: json['lastHintAdWatchTime'] != null 
+        ? DateTime.parse(json['lastHintAdWatchTime']) 
         : null,
     );
   }
@@ -167,6 +198,26 @@ class GameState {
     
     final now = DateTime.now();
     final nextAdTime = lastAdWatchTime!.add(adCooldownDuration);
+    final timeUntilNext = nextAdTime.difference(now);
+    
+    return timeUntilNext.isNegative ? null : timeUntilNext;
+  }
+  
+  /// Vérifie si le joueur peut regarder une pub pour gagner des points d'indices
+  bool canWatchAdForHints() {
+    if (lastHintAdWatchTime == null) return true;
+    
+    final now = DateTime.now();
+    final timeSinceLastAd = now.difference(lastHintAdWatchTime!);
+    return timeSinceLastAd >= hintAdCooldownDuration;
+  }
+  
+  /// Retourne le temps restant avant de pouvoir regarder une nouvelle pub pour indices
+  Duration? getTimeUntilNextHintAd() {
+    if (lastHintAdWatchTime == null) return null;
+    
+    final now = DateTime.now();
+    final nextAdTime = lastHintAdWatchTime!.add(hintAdCooldownDuration);
     final timeUntilNext = nextAdTime.difference(now);
     
     return timeUntilNext.isNegative ? null : timeUntilNext;

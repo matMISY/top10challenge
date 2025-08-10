@@ -72,7 +72,7 @@ class HomeScreen extends StatelessWidget {
                             ),
                             _buildStatCard(
                               icon: Icons.lightbulb,
-                              value: '${gameProvider.gameState.hints}',
+                              value: '${gameProvider.gameState.hintPoints}',
                               label: 'Indices',
                               color: Colors.blue,
                             ),
@@ -84,6 +84,9 @@ class HomeScreen extends StatelessWidget {
                           const SizedBox(height: 16),
                           _buildAdButton(context, gameProvider),
                         ],
+                        // Bouton publicité pour indices
+                        const SizedBox(height: 12),
+                        _buildHintAdButton(context, gameProvider),
                         const SizedBox(height: 40),
                         _buildMainButton(
                           context,
@@ -392,6 +395,125 @@ class HomeScreen extends StatelessWidget {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text('Erreur lors du chargement de la publicité.'),
+          backgroundColor: Colors.red,
+          duration: Duration(seconds: 3),
+        ),
+      );
+    }
+  }
+  
+  Widget _buildHintAdButton(BuildContext context, GameProvider gameProvider) {
+    final canWatchAd = gameProvider.canWatchAdForHints();
+    final isWatching = gameProvider.isWatchingAd;
+    final adCooldownTime = gameProvider.getFormattedTimeUntilNextHintAd();
+    
+    String buttonText;
+    IconData buttonIcon;
+    bool isEnabled;
+    
+    if (isWatching) {
+      buttonText = 'Chargement...';
+      buttonIcon = Icons.hourglass_empty;
+      isEnabled = false;
+    } else if (canWatchAd) {
+      buttonText = 'Pub pour +12 indices';
+      buttonIcon = Icons.lightbulb;
+      isEnabled = true;
+    } else if (adCooldownTime != null) {
+      buttonText = 'Prochaine pub dans $adCooldownTime';
+      buttonIcon = Icons.schedule;
+      isEnabled = false;
+    } else {
+      buttonText = 'Pub non disponible';
+      buttonIcon = Icons.not_interested;
+      isEnabled = false;
+    }
+
+    return SizedBox(
+      width: double.infinity,
+      height: 40,
+      child: ElevatedButton(
+        onPressed: isEnabled ? () => _watchAdForHints(context, gameProvider) : null,
+        style: ElevatedButton.styleFrom(
+          backgroundColor: isEnabled 
+              ? Colors.amber.withValues(alpha: 0.8)
+              : Colors.grey.withValues(alpha: 0.3),
+          foregroundColor: Colors.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          elevation: isEnabled ? 3 : 1,
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            if (isWatching) ...[
+              const SizedBox(
+                width: 16,
+                height: 16,
+                child: CircularProgressIndicator(
+                  strokeWidth: 2,
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+                ),
+              ),
+              const SizedBox(width: 8),
+            ] else ...[
+              Icon(buttonIcon, size: 18),
+              const SizedBox(width: 6),
+            ],
+            Flexible(
+              child: Text(
+                buttonText,
+                style: const TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.w600,
+                ),
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Future<void> _watchAdForHints(BuildContext context, GameProvider gameProvider) async {
+    try {
+      final success = await gameProvider.watchAdForHints();
+      
+      // Vérifier si le widget est toujours monté avant d'utiliser context
+      if (!context.mounted) return;
+      
+      if (success) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Row(
+              children: [
+                Icon(Icons.lightbulb, color: Colors.amber),
+                SizedBox(width: 8),
+                Text('Vous avez gagné 12 points d\'indices !'),
+              ],
+            ),
+            backgroundColor: Colors.green,
+            duration: Duration(seconds: 2),
+          ),
+        );
+      } else {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Erreur lors de la visualisation de la publicité'),
+            backgroundColor: Colors.red,
+            duration: Duration(seconds: 2),
+          ),
+        );
+      }
+    } catch (e) {
+      debugPrint('Error watching hint ad: $e');
+      if (!context.mounted) return;
+      
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Erreur lors du chargement de la publicité d\'indices.'),
           backgroundColor: Colors.red,
           duration: Duration(seconds: 3),
         ),

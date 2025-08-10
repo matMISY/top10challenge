@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/game_state.dart';
 import '../models/level.dart';
 import '../models/tier.dart';
+import '../config/hint_config.dart';
 import '../services/game_service.dart';
 import '../services/ads_service.dart';
 
@@ -123,13 +124,36 @@ class GameProvider with ChangeNotifier {
     }
   }
 
-  Future<void> useHint() async {
+  Future<bool> useHintPoints(int levelId, int questionIndex, int hintLevel) async {
     try {
-      await _gameService.useHint();
+      final success = await _gameService.useHintPoints(levelId, questionIndex, hintLevel);
+      if (success) {
+        _gameState = await _gameService.getGameState();
+        notifyListeners();
+      }
+      return success;
+    } catch (e) {
+      debugPrint('Error using hint points: $e');
+      return false;
+    }
+  }
+  
+  Future<int> getHintLevelForQuestion(int levelId, int questionIndex) async {
+    try {
+      return await _gameService.getHintLevelForQuestion(levelId, questionIndex);
+    } catch (e) {
+      debugPrint('Error getting hint level: $e');
+      return 0;
+    }
+  }
+  
+  Future<void> clearHintLevelsForLevel(int levelId) async {
+    try {
+      await _gameService.clearHintLevelsForLevel(levelId);
       _gameState = await _gameService.getGameState();
       notifyListeners();
     } catch (e) {
-      debugPrint('Error using hint: $e');
+      debugPrint('Error clearing hint levels: $e');
     }
   }
 
@@ -173,9 +197,9 @@ class GameProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> addHints(int count) async {
+  Future<void> addHintPoints(int points) async {
     _gameState = _gameState.copyWith(
-      hints: (_gameState.hints + count).clamp(0, 99),
+      hintPoints: (_gameState.hintPoints + points).clamp(0, 999),
     );
     await _gameService.saveGameState(_gameState);
     notifyListeners();
@@ -213,7 +237,7 @@ class GameProvider with ChangeNotifier {
       _gameState = _gameState.copyWith(
         dailyChallengeCompleted: false,
         lives: 5,
-        hints: (_gameState.hints + 2).clamp(0, 99), // +2 indices par jour
+        hintPoints: (_gameState.hintPoints + 10).clamp(0, 999), // +10 points d'indices par jour
         lastPlayedDate: now,
       );
       await _gameService.saveGameState(_gameState);
@@ -367,6 +391,83 @@ class GameProvider with ChangeNotifier {
   /// Retourne le temps formaté jusqu'à la prochaine pub
   String? getFormattedTimeUntilNextAd() {
     final timeUntilNext = _gameState.getTimeUntilNextAd();
+    if (timeUntilNext == null) return null;
+    
+    final minutes = timeUntilNext.inMinutes;
+    final seconds = timeUntilNext.inSeconds % 60;
+    
+    if (minutes > 0) {
+      return '${minutes}m ${seconds}s';
+    } else {
+      return '${seconds}s';
+    }
+  }
+  
+  // =============================================
+  // MÉTHODES POUR LES PUBLICITÉS D'INDICES
+  // =============================================
+  
+  /// Regarde une publicité pour gagner des points d'indices
+  Future<bool> watchAdForHints() async {
+    if (!_gameState.canWatchAdForHints() || _isWatchingAd) {
+      debugPrint('Cannot watch ad for hints: cooldown not ready or already watching');
+      return false;
+    }
+
+    _isWatchingAd = true;
+    notifyListeners();
+
+    try {
+      // Vérifier si une pub est disponible
+      if (!_adsService.isRewardedAdReady) {
+        debugPrint('No rewarded ad ready for hints, trying to preload...');
+        await _adsService.preloadRewardedAd();
+        
+        // Attendre un peu pour le chargement
+        await Future.delayed(const Duration(seconds: 2));
+        
+        if (!_adsService.isRewardedAdReady) {
+          debugPrint('Failed to load rewarded ad for hints');
+          return false;
+        }
+      }
+
+      // Afficher la pub
+      final bool rewardEarned = await _adsService.showRewardedAd();
+      
+      if (rewardEarned) {
+        // Récompenser le joueur avec des points d'indices
+        final now = DateTime.now();
+        _gameState = _gameState.copyWith(
+          hintPoints: (_gameState.hintPoints + HintConfig.pointsPerAd).clamp(0, 999),
+          lastHintAdWatchTime: now,
+        );
+        
+        await _gameService.saveGameState(_gameState);
+        debugPrint('✅ Player rewarded with ${HintConfig.pointsPerAd} hint points from ad');
+        
+        return true;
+      } else {
+        debugPrint('❌ No reward earned from hint ad');
+        return false;
+      }
+    } catch (e) {
+      debugPrint('❌ Error watching hint ad: $e');
+      return false;
+    } finally {
+      _isWatchingAd = false;
+      notifyListeners();
+    }
+  }
+
+  /// Vérifie si une pub peut être regardée pour gagner des points d'indices
+  bool canWatchAdForHints() {
+    return _gameState.canWatchAdForHints() && !_isWatchingAd && _adsService.isRewardedAdReady;
+  }
+
+  /// Retourne le temps formaté jusqu'à la prochaine pub pour indices
+  String? getFormattedTimeUntilNextHintAd() {
+    final timeUntilNext = _gameState.getTimeUntilNextHintAd();
     if (timeUntilNext == null) return null;
     
     final minutes = timeUntilNext.inMinutes;
