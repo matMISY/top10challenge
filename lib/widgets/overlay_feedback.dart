@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import '../config/feedback_config.dart';
 
 enum FeedbackType {
   success,
@@ -23,11 +22,11 @@ class OverlayFeedback extends StatefulWidget {
     super.key,
     required this.message,
     required this.type,
-    Duration? duration,
+    this.duration = const Duration(milliseconds: 1500),
     this.onComplete,
     this.onAction,
     this.actionLabel,
-  }) : duration = duration ?? FeedbackConfig.defaultDuration;
+  });
 
   @override
   State<OverlayFeedback> createState() => _OverlayFeedbackState();

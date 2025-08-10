@@ -24,7 +24,7 @@ class FeedbackService {
             child: OverlayFeedback(
               message: message,
               type: type,
-              duration: duration,
+              duration: duration ?? const Duration(milliseconds: 1500),
               onAction: onAction,
               actionLabel: actionLabel,
               onComplete: () {

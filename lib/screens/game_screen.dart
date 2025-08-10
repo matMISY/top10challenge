@@ -126,6 +126,12 @@ class _GameScreenState extends State<GameScreen> {
     _gameService.clearRevealedHintsForLevel(widget.level.id);
     context.read<GameProvider>().completeLevel(widget.level.id);
     
+    // Calculer les points gagnés
+    final hintPointsGained = HintConfig.getPointsForDifficulty(widget.level.difficulty);
+    final isBossLevel = widget.level.positionInTier == 5;
+    final bonusHintPoints = isBossLevel ? 5 : 0;
+    final levelPointsGained = widget.level.pointsReward + (isBossLevel ? 1 : 0);
+    
     showDialog(
       context: context,
       barrierDismissible: false,
@@ -137,7 +143,8 @@ class _GameScreenState extends State<GameScreen> {
             children: [
               const Text('Félicitations ! Vous avez trouvé tous les joueurs.'),
               const SizedBox(height: 16),
-              Text('Indices gagnés: +${widget.level.difficulty}'),
+              Text('Points d\'indice gagnés: +${hintPointsGained + bonusHintPoints}'),
+              Text('Points de niveau gagnés: +$levelPointsGained'),
             ],
           ),
           actions: [
