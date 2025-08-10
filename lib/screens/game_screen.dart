@@ -81,7 +81,7 @@ class _GameScreenState extends State<GameScreen> {
     super.dispose();
   }
 
-  void _onAnswerSubmitted(String answer) {
+  Future<void> _onAnswerSubmitted(String answer) async {
     final correctAnswer = _searchService.getCorrectAnswer(answer, _availableAnswers);
     
     if (correctAnswer != null) {
@@ -109,13 +109,13 @@ class _GameScreenState extends State<GameScreen> {
         _searchController.clear();
       } else {
         // Réponse incorrecte, enlever une vie
-        context.read<GameProvider>().loseLife();
+        await context.read<GameProvider>().loseLife();
         
-        if (context.read<GameProvider>().gameState.lives <= 0) {
+        final livesAfterLoss = context.read<GameProvider>().gameState.lives;
+        if (livesAfterLoss <= 0) {
           _onGameOver();
         } else {
-          final lives = context.read<GameProvider>().gameState.lives;
-          FeedbackService.showWrongAnswer(context, lives);
+          FeedbackService.showWrongAnswer(context, livesAfterLoss);
         }
       }
     }
@@ -168,26 +168,55 @@ class _GameScreenState extends State<GameScreen> {
       builder: (BuildContext context) {
         final gameProvider = context.read<GameProvider>();
         final canWatchAd = gameProvider.canWatchAdForLife();
+        final timeUntilNextLife = gameProvider.getFormattedTimeUntilNextLife();
         
         return AlertDialog(
-          title: const Text('💔 Game Over'),
+          title: const Center(
+            child: Text('Vous avez épuisé toutes vos vies 😔'),
+          ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Text('Vous avez fait trop d\'erreurs.'),
-              if (canWatchAd) ...[
+              if (timeUntilNextLife != null) ...[
+                Center(
+                  child: Text(
+                    'Prochaine vie dans : $timeUntilNextLife',
+                    textAlign: TextAlign.center,
+                  ),
+                ),
                 const SizedBox(height: 16),
-                const Row(
-                  children: [
-                    Icon(Icons.play_circle_filled, color: Colors.purple),
-                    SizedBox(width: 8),
-                    Expanded(
-                      child: Text(
-                        'Regardez une pub pour gagner une vie et continuer !',
-                        style: TextStyle(fontSize: 14),
+              ],
+              if (canWatchAd) ...[
+                Container(
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: Colors.purple.withValues(alpha: 0.1),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: const Row(
+                    children: [
+                      Icon(Icons.play_circle_filled, color: Colors.purple, size: 28),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Regardez une publicité',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 14,
+                              ),
+                            ),
+                            Text(
+                              'pour gagner des vies et continuer !',
+                              style: TextStyle(fontSize: 13),
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ],
@@ -201,28 +230,17 @@ class _GameScreenState extends State<GameScreen> {
               child: const Text('Retour'),
             ),
             if (canWatchAd) ...[
-              TextButton(
+              ElevatedButton.icon(
                 onPressed: () => _watchAdAndContinue(context, gameProvider),
-                style: TextButton.styleFrom(
-                  backgroundColor: Colors.purple.withValues(alpha: 0.1),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.purple,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 ),
-                child: const Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Icon(Icons.play_circle_filled, size: 16, color: Colors.purple),
-                    SizedBox(width: 4),
-                    Text('Pub + 1 vie', style: TextStyle(color: Colors.purple)),
-                  ],
-                ),
+                icon: const Icon(Icons.play_circle_filled, size: 20),
+                label: const Text('Regarder une pub'),
               ),
             ],
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-                _resetLevel();
-              },
-              child: const Text('Recommencer'),
-            ),
           ],
         );
       },

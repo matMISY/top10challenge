@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../providers/game_provider.dart';
 import '../models/tier.dart';
 import '../models/level.dart';
+import '../models/game_state.dart';
 import 'game_screen.dart';
 
 class TierLevelsScreen extends StatelessWidget {
@@ -375,6 +376,7 @@ class _LevelCard extends StatelessWidget {
 
   void _showNoLivesDialog(BuildContext context, GameProvider gameProvider) {
     final timeUntilNext = gameProvider.gameState.getTimeUntilNextLife();
+    final canWatchAd = gameProvider.canWatchAdForLife();
     
     showDialog(
       context: context,
@@ -389,32 +391,111 @@ class _LevelCard extends StatelessWidget {
           ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('Vous n\'avez plus de vies pour jouer.'),
+              const Center(
+                child: Text(
+                  'Vous n\'avez plus de vies pour jouer.',
+                  textAlign: TextAlign.center,
+                ),
+              ),
               const SizedBox(height: 16),
               if (timeUntilNext != null) ...[
-                const Text('Prochaine vie dans :'),
+                const Center(
+                  child: Text(
+                    'Prochaine vie dans :',
+                    textAlign: TextAlign.center,
+                  ),
+                ),
                 const SizedBox(height: 8),
-                Text(
-                  _formatDuration(timeUntilNext),
-                  style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.blue,
+                Center(
+                  child: Text(
+                    _formatDuration(timeUntilNext),
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.blue,
+                    ),
+                    textAlign: TextAlign.center,
                   ),
                 ),
               ] else ...[
-                const Text('Les vies se récupèrent automatiquement !'),
-                const Text('1 vie toutes les 30 minutes.'),
+                const Center(
+                  child: Text(
+                    'Les vies se récupèrent automatiquement !',
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Center(
+                  child: Text(
+                    '1 vie toutes les ${GameState.lifeRecoveryDuration.inMinutes} minutes.',
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
+              if (canWatchAd) ...[
+                const SizedBox(height: 16),
+                Container(
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: Colors.purple.withValues(alpha: 0.1),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: const Row(
+                    children: [
+                      Icon(Icons.play_circle_filled, color: Colors.purple, size: 28),
+                      SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Regardez une publicité',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 14,
+                              ),
+                            ),
+                            Text(
+                              'pour gagner des vies !',
+                              style: TextStyle(fontSize: 13),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ],
           ),
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(),
-              child: const Text('OK'),
+              child: const Text('Fermer'),
             ),
+            if (canWatchAd) ...[
+              ElevatedButton.icon(
+                onPressed: () async {
+                  Navigator.of(context).pop();
+                  final success = await gameProvider.watchAdForLife();
+                  if (success && context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('Vies ajoutées ! Bon jeu !'),
+                        backgroundColor: Colors.green,
+                      ),
+                    );
+                  }
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.purple,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                ),
+                icon: const Icon(Icons.play_circle_filled, size: 20),
+                label: const Text('Regarder une pub'),
+              ),
+            ],
           ],
         );
       },

@@ -15,7 +15,7 @@ class GameState {
   final DateTime? lastHintAdWatchTime;  // Nouveau: cooldown séparé pour les pubs d'indices
 
   static const int maxLives = 5;
-  static const Duration lifeRecoveryDuration = Duration(minutes: 30);
+  static const Duration lifeRecoveryDuration = Duration(minutes: 5);
   static const Duration adCooldownDuration = Duration(minutes: 2);
   static const Duration hintAdCooldownDuration = Duration(minutes: 5);
 
