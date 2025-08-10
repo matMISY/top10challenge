@@ -317,12 +317,21 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
       width: double.infinity,
       height: 55,
       decoration: BoxDecoration(
-        color: Colors.grey.withValues(alpha: 0.3),
+        // Fond plus visible mais toujours discret
+        color: Colors.grey.shade200.withValues(alpha: 0.8),
         borderRadius: BorderRadius.circular(27),
         border: Border.all(
-          color: Colors.grey.withValues(alpha: 0.4),
-          width: 1,
+          color: Colors.grey.shade400,
+          width: 1.5,
         ),
+        // Ajout d'une ombre très subtile pour plus de profondeur
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.05),
+            blurRadius: 4,
+            offset: const Offset(0, 2),
+          ),
+        ],
       ),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -332,12 +341,14 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
             Container(
               padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
-                color: Colors.grey.withValues(alpha: 0.2),
+                // Fond de l'icône plus visible
+                color: Colors.grey.shade300.withValues(alpha: 0.7),
                 shape: BoxShape.circle,
               ),
               child: Icon(
                 Icons.schedule,
-                color: Colors.grey.shade600,
+                // Couleur d'icône beaucoup plus foncée pour meilleur contraste
+                color: Colors.grey.shade700,
                 size: 20,
               ),
             ),
@@ -350,7 +361,8 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                   Text(
                     'Money Time',
                     style: GoogleFonts.baloo2(
-                      color: Colors.grey.shade600,
+                      // Texte principal beaucoup plus foncé pour meilleure lisibilité
+                      color: Colors.grey.shade800,
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
                     ),
@@ -359,7 +371,8 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                   Text(
                     'Disponible dans $formattedCooldown',
                     style: GoogleFonts.baloo2(
-                      color: Colors.grey.shade500,
+                      // Texte secondaire plus foncé mais toujours distinguable
+                      color: Colors.grey.shade700,
                       fontSize: 12,
                       fontWeight: FontWeight.w500,
                     ),
@@ -370,15 +383,22 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
               decoration: BoxDecoration(
-                color: Colors.grey.withValues(alpha: 0.2),
+                // Fond du timer plus contrasté
+                color: Colors.grey.shade300.withValues(alpha: 0.8),
                 borderRadius: BorderRadius.circular(12),
+                // Bordure subtile pour délimiter la zone du timer
+                border: Border.all(
+                  color: Colors.grey.shade400,
+                  width: 0.5,
+                ),
               ),
               child: Text(
                 formattedCooldown,
                 style: GoogleFonts.robotoMono(
-                  color: Colors.grey.shade600,
+                  // Timer en couleur foncée pour excellente lisibilité
+                  color: Colors.grey.shade800,
                   fontSize: 11,
-                  fontWeight: FontWeight.w600,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
