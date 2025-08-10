@@ -63,20 +63,22 @@ class _TierLevelsContentState extends State<_TierLevelsContent> {
   
   void _updateTierLevels() {
     if (_gameProvider != null) {
-      _cachedTierLevels = _gameProvider!.levels
+      final newTierLevels = _gameProvider!.levels
           .where((level) => widget.tier.levelIds.contains(level.id))
           .toList()
         ..sort((a, b) => a.positionInTier.compareTo(b.positionInTier));
+      
+      // Mettre à jour le cache même si la référence des objets a changé
+      _cachedTierLevels = newTierLevels;
     }
   }
   
   @override
   Widget build(BuildContext context) {
-    return Selector<GameProvider, int>(
-      selector: (context, gameProvider) => gameProvider.gameState.lives,
-      shouldRebuild: (previous, next) => previous != next,
-      builder: (context, currentLives, child) {
-        final gameProvider = Provider.of<GameProvider>(context, listen: false);
+    return Consumer<GameProvider>(
+      builder: (context, gameProvider, child) {
+        // Mettre à jour le cache à chaque rebuild pour refléter les changements d'état des niveaux
+        _updateTierLevels();
         
         return Column(
           children: [
@@ -94,7 +96,7 @@ class _TierLevelsContentState extends State<_TierLevelsContent> {
                 itemBuilder: (context, index) {
                   final level = _cachedTierLevels[index];
                   return _LevelCard(
-                    key: ValueKey('level_${level.id}_${currentLives}'),
+                    key: ValueKey('level_${level.id}_${level.isCompleted}_${gameProvider.gameState.lives}'),
                     level: level,
                     gameProvider: gameProvider,
                     isBoss: index == 4,
