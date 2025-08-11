@@ -116,6 +116,12 @@ git push origin "v$NEW_VERSION_NAME"
 echo -e "${YELLOW}🧹 Nettoyage des builds précédents...${NC}"
 flutter clean
 
+# Sauvegarder et désactiver les options de debug pour la release
+echo -e "${YELLOW}🔒 Désactivation des options de debug pour la release...${NC}"
+DEBUG_CONFIG_FILE="lib/utils/debug_config.dart"
+cp "$DEBUG_CONFIG_FILE" "${DEBUG_CONFIG_FILE}.backup"
+sed -i 's/static const bool enableDebugFeatures = true;/static const bool enableDebugFeatures = false;/' "$DEBUG_CONFIG_FILE"
+
 # Récupérer les dépendances
 echo -e "${YELLOW}📦 Installation des dépendances...${NC}"
 flutter pub get
@@ -123,6 +129,10 @@ flutter pub get
 # Construire l'APK release
 echo -e "${YELLOW}🏗️  Construction de l'APK release...${NC}"
 flutter build apk --release
+
+# Restaurer les options de debug après le build
+echo -e "${YELLOW}🔓 Restauration des options de debug...${NC}"
+mv "${DEBUG_CONFIG_FILE}.backup" "$DEBUG_CONFIG_FILE"
 
 # Vérifier que l'APK a été créé
 APK_PATH="build/app/outputs/flutter-apk/app-release.apk"
