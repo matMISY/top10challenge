@@ -16,6 +16,7 @@ import '../services/feedback_service.dart';
 import '../config/feedback_config.dart';
 import '../widgets/money_time_indicator.dart';
 import '../widgets/money_time_shield_effect.dart';
+import '../widgets/hint_explanation_dialog.dart';
 
 class GameScreen extends StatefulWidget {
   final Level level;
@@ -429,10 +430,22 @@ class _GameScreenState extends State<GameScreen> {
     final success = await gameProvider.watchAdForHints();
     
     if (success) {
-      FeedbackService.showPointsGained(context, HintConfig.pointsPerAd);
+      final actualPointsGained = HintConfig.getPointsToGain(gameProvider.gameState.hintPoints, HintConfig.pointsPerAd);
+      FeedbackService.showPointsGained(context, actualPointsGained);
     } else {
       FeedbackService.showError(context, 'Erreur lors de la\nvisualisation de\nla publicité');
     }
+  }
+
+  void _showHintExplanation(BuildContext context, int currentHintPoints) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return HintExplanationDialog(
+          currentHintPoints: currentHintPoints,
+        );
+      },
+    );
   }
 
   @override
@@ -465,27 +478,30 @@ class _GameScreenState extends State<GameScreen> {
         actions: [
           Consumer<GameProvider>(
             builder: (context, gameProvider, child) {
-              return Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                margin: const EdgeInsets.only(right: 8),
-                decoration: BoxDecoration(
-                  color: Colors.amber.shade700.withValues(alpha: 0.8),
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Icon(Icons.lightbulb, color: Colors.white, size: 18),
-                    const SizedBox(width: 4),
-                    Text(
-                      '${gameProvider.gameState.hintPoints}',
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 14,
-                        fontWeight: FontWeight.bold,
+              return GestureDetector(
+                onTap: () => _showHintExplanation(context, gameProvider.gameState.hintPoints),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  margin: const EdgeInsets.only(right: 8),
+                  decoration: BoxDecoration(
+                    color: Colors.amber.shade700.withValues(alpha: 0.8),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.lightbulb, color: Colors.white, size: 18),
+                      const SizedBox(width: 4),
+                      Text(
+                        '${gameProvider.gameState.hintPoints}/${HintConfig.maxHintPoints}',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               );
             },

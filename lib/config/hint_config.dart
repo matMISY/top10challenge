@@ -2,6 +2,9 @@ class HintConfig {
   // Points initiaux donnés au joueur lors de la première connexion
   static const int initialHintPoints = 50;
   
+  // Limite maximale de points d'indice
+  static const int maxHintPoints = 50;
+  
   // Points gagnés par publicité récompensée
   static const int pointsPerAd = 12;
   
@@ -49,5 +52,16 @@ class HintConfig {
   // Helper pour formater le message de pub
   static String getAdRewardMessage() {
     return 'Regarder une pub pour +$pointsPerAd points d\'indices';
+  }
+  
+  // Helper pour vérifier si on peut gagner plus de points
+  static bool canGainMorePoints(int currentPoints) {
+    return currentPoints < maxHintPoints;
+  }
+  
+  // Helper pour calculer les points à gagner en respectant la limite
+  static int getPointsToGain(int currentPoints, int pointsToAdd) {
+    final maxPossible = maxHintPoints - currentPoints;
+    return maxPossible < pointsToAdd ? maxPossible : pointsToAdd;
   }
 }

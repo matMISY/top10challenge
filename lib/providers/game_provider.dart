@@ -258,8 +258,9 @@ class GameProvider with ChangeNotifier {
   }
 
   Future<void> addHintPoints(int points) async {
+    final actualPointsToAdd = HintConfig.getPointsToGain(_gameState.hintPoints, points);
     _gameState = _gameState.copyWith(
-      hintPoints: (_gameState.hintPoints + points).clamp(0, 999),
+      hintPoints: (_gameState.hintPoints + actualPointsToAdd).clamp(0, HintConfig.maxHintPoints),
     );
     await _gameService.saveGameState(_gameState);
     notifyListeners();
@@ -297,7 +298,7 @@ class GameProvider with ChangeNotifier {
       _gameState = _gameState.copyWith(
         dailyChallengeCompleted: false,
         lives: 5,
-        hintPoints: (_gameState.hintPoints + 10).clamp(0, 999), // +10 points d'indices par jour
+        hintPoints: (_gameState.hintPoints + HintConfig.getPointsToGain(_gameState.hintPoints, 10)).clamp(0, HintConfig.maxHintPoints), // +10 points d'indices par jour
         lastPlayedDate: now,
       );
       await _gameService.saveGameState(_gameState);
@@ -498,13 +499,14 @@ class GameProvider with ChangeNotifier {
       if (rewardEarned) {
         // Récompenser le joueur avec des points d'indices
         final now = DateTime.now();
+        final actualPointsToAdd = HintConfig.getPointsToGain(_gameState.hintPoints, HintConfig.pointsPerAd);
         _gameState = _gameState.copyWith(
-          hintPoints: (_gameState.hintPoints + HintConfig.pointsPerAd).clamp(0, 999),
+          hintPoints: (_gameState.hintPoints + actualPointsToAdd).clamp(0, HintConfig.maxHintPoints),
           lastHintAdWatchTime: now,
         );
         
         await _gameService.saveGameState(_gameState);
-        debugPrint('✅ Player rewarded with ${HintConfig.pointsPerAd} hint points from ad');
+        debugPrint('✅ Player rewarded with $actualPointsToAdd hint points from ad');
         
         return true;
       } else {

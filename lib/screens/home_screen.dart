@@ -6,6 +6,7 @@ import '../models/game_state.dart';
 import '../utils/debug_config.dart';
 import '../services/feedback_service.dart';
 import '../widgets/money_time_button.dart';
+import '../config/hint_config.dart';
 import 'tier_selection_screen.dart';
 import 'daily_challenge_screen.dart';
 
@@ -61,7 +62,7 @@ class HomeScreen extends StatelessWidget {
                           children: [
                             _buildStatCard(
                               icon: Icons.favorite,
-                              value: '${gameProvider.gameState.lives}',
+                              value: '${gameProvider.gameState.lives}/${GameState.maxLivesWithAds}',
                               label: 'Vies',
                               color: Colors.red,
                               gameProvider: gameProvider,
@@ -74,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                             ),
                             _buildStatCard(
                               icon: Icons.lightbulb,
-                              value: '${gameProvider.gameState.hintPoints}',
+                              value: '${gameProvider.gameState.hintPoints}/${HintConfig.maxHintPoints}',
                               label: 'Indices',
                               color: Colors.blue,
                             ),
