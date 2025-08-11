@@ -103,8 +103,8 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
         return Transform.scale(
           scale: _pulseAnimation.value,
           child: Container(
-            width: double.infinity,
-            height: 55,
+            width: MediaQuery.of(context).size.width * 0.75,
+            height: 45,
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
@@ -212,8 +212,8 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
         return Transform.scale(
           scale: _scaleAnimation.value,
           child: Container(
-            width: double.infinity,
-            height: 55,
+            width: MediaQuery.of(context).size.width * 0.75,
+            height: 45,
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
@@ -338,8 +338,8 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
         return Transform.scale(
           scale: _scaleAnimation.value,
           child: Container(
-            width: double.infinity,
-            height: 55,
+            width: MediaQuery.of(context).size.width * 0.75,
+            height: 45,
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
@@ -443,8 +443,8 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
         : '';
 
     return Container(
-      width: double.infinity,
-      height: 55,
+      width: MediaQuery.of(context).size.width * 0.75,
+      height: 45,
       decoration: BoxDecoration(
         // Fond plus visible mais toujours discret
         color: Colors.grey.shade200.withValues(alpha: 0.8),

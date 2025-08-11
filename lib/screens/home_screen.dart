@@ -328,7 +328,7 @@ class HomeScreen extends StatelessWidget {
     }
 
     return SizedBox(
-      width: double.infinity,
+      width: MediaQuery.of(context).size.width * 0.75,
       height: 45,
       child: ElevatedButton(
         onPressed: isEnabled ? () => _watchAdForLife(context, gameProvider) : null,
@@ -422,8 +422,8 @@ class HomeScreen extends StatelessWidget {
     }
 
     return SizedBox(
-      width: double.infinity,
-      height: 40,
+      width: MediaQuery.of(context).size.width * 0.75,
+      height: 45,
       child: ElevatedButton(
         onPressed: isEnabled ? () => _watchAdForHints(context, gameProvider) : null,
         style: ElevatedButton.styleFrom(
