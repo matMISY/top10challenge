@@ -436,7 +436,13 @@
                         }
                     }
                     
-                    this.quizzes = loadedQuizzes;
+                    // Assign unique internal IDs to handle potential duplicates
+                    this.quizzes = loadedQuizzes.map((quiz, index) => ({
+                        ...quiz,
+                        internalId: `quiz_${index}`, // Unique ID for drag & drop
+                        originalId: quiz.id // Keep original ID for export
+                    }));
+                    
                     this.extractThemes();
                     this.renderQuizPool();
                     this.updateStats();
@@ -528,17 +534,17 @@
             getUnassignedQuizzes() {
                 const assignedIds = new Set();
                 this.tiers.forEach(tier => {
-                    tier.quizzes.forEach(quiz => assignedIds.add(quiz.id));
+                    tier.quizzes.forEach(quiz => assignedIds.add(quiz.internalId));
                 });
                 
-                return this.quizzes.filter(quiz => !assignedIds.has(quiz.id));
+                return this.quizzes.filter(quiz => !assignedIds.has(quiz.internalId));
             }
 
             createQuizCard(quiz) {
                 const card = document.createElement('div');
                 card.className = 'quiz-card';
                 card.draggable = true;
-                card.dataset.quizId = quiz.id;
+                card.dataset.quizId = quiz.internalId;
 
                 const searchTerm = document.getElementById('searchBox').value.toLowerCase();
                 if (searchTerm && quiz.title.toLowerCase().includes(searchTerm)) {
@@ -607,7 +613,9 @@
             }
 
             handleDragStart(e) {
-                e.dataTransfer.setData('text/plain', e.target.dataset.quizId);
+                const quizId = e.target.dataset.quizId;
+                console.log('Dragging quiz with ID:', quizId); // Debug
+                e.dataTransfer.setData('text/plain', quizId);
                 e.target.classList.add('dragging');
             }
 
@@ -637,20 +645,24 @@
                 const tier = e.target.classList.contains('tier') ? e.target : e.target.closest('.tier');
                 tier.classList.remove('drop-zone');
 
-                const quizId = parseInt(e.dataTransfer.getData('text/plain'));
+                const quizId = e.dataTransfer.getData('text/plain'); // Don't parse as int since it's now a string
                 const tierId = parseInt(tier.dataset.tierId);
-
+                
+                console.log('Dropping quiz ID:', quizId, 'into tier:', tierId); // Debug
                 this.moveQuizToTier(quizId, tierId);
             }
 
             moveQuizToTier(quizId, tierId) {
+                console.log('moveQuizToTier called with:', quizId, tierId); // Debug
+                
                 // Remove quiz from current location
                 this.tiers.forEach(tier => {
-                    tier.quizzes = tier.quizzes.filter(quiz => quiz.id !== quizId);
+                    tier.quizzes = tier.quizzes.filter(quiz => quiz.internalId !== quizId);
                 });
 
-                // Find the quiz
-                const quiz = this.quizzes.find(q => q.id === quizId);
+                // Find the quiz using internalId
+                const quiz = this.quizzes.find(q => q.internalId === quizId);
+                console.log('Found quiz:', quiz ? quiz.title : 'NOT FOUND'); // Debug
                 if (!quiz) return;
 
                 // Add to new tier if not full
@@ -683,7 +695,7 @@
                 this.tiers.forEach((tier, tierIndex) => {
                     tier.quizzes.forEach((quiz, position) => {
                         quizOrder.push({
-                            quiz_id: quiz.id,
+                            quiz_id: quiz.originalId, // Use original ID for export
                             title: quiz.title,
                             tier: tierIndex + 1,
                             position: position + 1,
