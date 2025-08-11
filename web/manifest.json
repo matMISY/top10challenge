@@ -1,11 +1,11 @@
 {
-    "name": "top10_challenge",
-    "short_name": "top10_challenge",
+    "name": "LazyPanda Top 10 Challenge",
+    "short_name": "LazyPanda Top10",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "LazyPanda Top 10 Challenge - Test your football knowledge!",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

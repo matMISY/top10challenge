@@ -1,6 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.top10_challenge">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.lazypanda.top10_challenge">
     <application
-        android:label="top10_challenge"
+        android:label="Top10 Challenge"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
