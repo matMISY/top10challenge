@@ -1,7 +1,7 @@
 /// Configuration pour les fonctionnalités de debug
 class DebugConfig {
   /// Flag principal pour activer/désactiver toutes les fonctionnalités de debug
-  static const bool enableDebugFeatures = true; // Mettre à false pour la production
+  static const bool enableDebugFeatures = false; // Mettre à false pour la production
   
   /// Flag spécifique pour le bouton de révélation des réponses
   static const bool enableRevealAnswers = enableDebugFeatures && true;
