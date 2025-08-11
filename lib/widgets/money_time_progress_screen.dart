@@ -129,7 +129,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
           child: SafeArea(
             child: Consumer<GameProvider>(
               builder: (context, gameProvider, child) {
-                final currentAds = gameProvider.gameState.moneyTimeAdsWatched;
+                final currentAds = gameProvider.moneyTimeService.currentAdsWatched;
                 final progress = widget.targetAds > 0 ? currentAds / widget.targetAds : 0.0;
                 
                 // Update progress animation when ads count changes
