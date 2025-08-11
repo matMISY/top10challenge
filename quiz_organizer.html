@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Organizer Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .file-input-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .file-input-label {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .file-input-label:hover {
+            background: #2980b9;
+        }
+
+        .search-box {
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            width: 250px;
+            font-size: 14px;
+        }
+
+        .filter-select {
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            background: white;
+        }
+
+        .export-btn {
+            background: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .export-btn:hover {
+            background: #229954;
+        }
+
+        .stats {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .stats-row {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+        }
+
+        .main-content {
+            display: flex;
+            gap: 20px;
+        }
+
+        .quiz-pool {
+            width: 300px;
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .quiz-pool h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .tiers-container {
+            flex: 1;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .tiers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .tier {
+            border: 2px solid #ecf0f1;
+            border-radius: 8px;
+            padding: 10px;
+            background: #f8f9fa;
+            min-height: 200px;
+        }
+
+        .tier-header {
+            text-align: center;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            padding: 5px;
+            background: #ecf0f1;
+            border-radius: 5px;
+        }
+
+        .tier-slots {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-height: 160px;
+        }
+
+        .quiz-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 8px;
+            cursor: move;
+            transition: all 0.2s;
+            user-select: none;
+            position: relative;
+        }
+
+        .quiz-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .quiz-card.dragging {
+            opacity: 0.5;
+            transform: rotate(5deg);
+        }
+
+        .quiz-card.highlight {
+            border-color: #f39c12;
+            background-color: #fff3cd;
+        }
+
+        .quiz-title {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            line-height: 1.2;
+        }
+
+        .quiz-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 10px;
+            color: #666;
+        }
+
+        .difficulty-badge {
+            padding: 2px 6px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+        .difficulty-1 { background: #27ae60; }
+        .difficulty-2 { background: #2ecc71; }
+        .difficulty-3 { background: #f39c12; }
+        .difficulty-4 { background: #e67e22; }
+        .difficulty-5 { background: #e74c3c; }
+        .difficulty-6 { background: #9b59b6; }
+
+        .tier.drop-zone {
+            border-color: #3498db;
+            background-color: #ebf3fd;
+        }
+
+        .empty-slot {
+            height: 60px;
+            border: 2px dashed #bdc3c7;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #95a5a6;
+            font-size: 12px;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            background: #27ae60;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transform: translateX(100%);
+            transition: transform 0.3s;
+            z-index: 1000;
+        }
+
+        .notification.show {
+            transform: translateX(0);
+        }
+
+        .notification.error {
+            background: #e74c3c;
+        }
+
+        .clear-btn {
+            background: #e74c3c;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+
+        .clear-btn:hover {
+            background: #c0392b;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .quiz-pool {
+                width: 100%;
+                max-height: 300px;
+            }
+            
+            .controls {
+                justify-content: center;
+            }
+            
+            .search-box {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Quiz Organizer Tool</h1>
+            <div class="controls">
+                <div class="file-input-wrapper">
+                    <input type="file" id="fileInput" class="file-input" multiple accept=".json">
+                    <label for="fileInput" class="file-input-label">Load Quiz Files</label>
+                </div>
+                <input type="text" id="searchBox" class="search-box" placeholder="Search quizzes...">
+                <select id="difficultyFilter" class="filter-select">
+                    <option value="">All Difficulties</option>
+                    <option value="1">Difficulty 1</option>
+                    <option value="2">Difficulty 2</option>
+                    <option value="3">Difficulty 3</option>
+                    <option value="4">Difficulty 4</option>
+                    <option value="5">Difficulty 5</option>
+                    <option value="6">Difficulty 6</option>
+                </select>
+                <select id="themeFilter" class="filter-select">
+                    <option value="">All Themes</option>
+                </select>
+                <button id="exportBtn" class="export-btn">Export Configuration</button>
+                <button id="clearBtn" class="clear-btn">Clear All</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stats-row">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalQuizzes">0</div>
+                    <div class="stat-label">Total Quizzes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="assignedQuizzes">0</div>
+                    <div class="stat-label">Assigned</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="unassignedQuizzes">0</div>
+                    <div class="stat-label">Unassigned</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="filledTiers">0</div>
+                    <div class="stat-label">Filled Tiers</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">Loading quizzes...</div>
+
+        <div class="main-content">
+            <div class="quiz-pool">
+                <h3>Quiz Pool</h3>
+                <div id="quizPool"></div>
+            </div>
+
+            <div class="tiers-container">
+                <div class="tiers-grid" id="tiersGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification"></div>
+
+    <script>
+        class QuizOrganizer {
+            constructor() {
+                this.quizzes = [];
+                this.tiers = Array(96).fill().map((_, i) => ({
+                    id: i + 1,
+                    quizzes: []
+                }));
+                this.filteredQuizzes = [];
+                this.themes = new Set();
+                
+                this.initializeEventListeners();
+                this.renderTiers();
+            }
+
+            initializeEventListeners() {
+                document.getElementById('fileInput').addEventListener('change', this.handleFileLoad.bind(this));
+                document.getElementById('searchBox').addEventListener('input', this.handleSearch.bind(this));
+                document.getElementById('difficultyFilter').addEventListener('change', this.handleFilter.bind(this));
+                document.getElementById('themeFilter').addEventListener('change', this.handleFilter.bind(this));
+                document.getElementById('exportBtn').addEventListener('click', this.exportConfiguration.bind(this));
+                document.getElementById('clearBtn').addEventListener('click', this.clearAll.bind(this));
+            }
+
+            async handleFileLoad(event) {
+                const files = event.target.files;
+                if (files.length === 0) return;
+
+                document.getElementById('loading').style.display = 'block';
+                
+                try {
+                    const loadedQuizzes = [];
+                    
+                    for (const file of files) {
+                        const text = await this.readFile(file);
+                        const data = JSON.parse(text);
+                        if (data.quizzes && Array.isArray(data.quizzes)) {
+                            loadedQuizzes.push(...data.quizzes);
+                        }
+                    }
+                    
+                    this.quizzes = loadedQuizzes;
+                    this.extractThemes();
+                    this.renderQuizPool();
+                    this.updateStats();
+                    this.showNotification(`Loaded ${this.quizzes.length} quizzes from ${files.length} files`);
+                    
+                } catch (error) {
+                    this.showNotification('Error loading files: ' + error.message, true);
+                } finally {
+                    document.getElementById('loading').style.display = 'none';
+                }
+            }
+
+            readFile(file) {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = e => resolve(e.target.result);
+                    reader.onerror = e => reject(e);
+                    reader.readAsText(file);
+                });
+            }
+
+            extractThemes() {
+                this.themes = new Set(this.quizzes.map(quiz => quiz.theme).filter(Boolean));
+                this.renderThemeFilter();
+            }
+
+            renderThemeFilter() {
+                const themeFilter = document.getElementById('themeFilter');
+                themeFilter.innerHTML = '<option value="">All Themes</option>';
+                
+                Array.from(this.themes).sort().forEach(theme => {
+                    const option = document.createElement('option');
+                    option.value = theme;
+                    option.textContent = theme;
+                    themeFilter.appendChild(option);
+                });
+            }
+
+            handleSearch() {
+                this.applyFilters();
+            }
+
+            handleFilter() {
+                this.applyFilters();
+            }
+
+            applyFilters() {
+                const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+                const difficultyFilter = document.getElementById('difficultyFilter').value;
+                const themeFilter = document.getElementById('themeFilter').value;
+
+                this.filteredQuizzes = this.quizzes.filter(quiz => {
+                    const matchesSearch = !searchTerm || quiz.title.toLowerCase().includes(searchTerm);
+                    // Handle missing or invalid difficulty values
+                    const quizDifficulty = quiz.difficulty && !isNaN(quiz.difficulty) && quiz.difficulty >= 1 && quiz.difficulty <= 6 ? quiz.difficulty.toString() : '1';
+                    const matchesDifficulty = !difficultyFilter || quizDifficulty === difficultyFilter;
+                    const matchesTheme = !themeFilter || quiz.theme === themeFilter;
+                    
+                    return matchesSearch && matchesDifficulty && matchesTheme;
+                });
+
+                this.renderQuizPool();
+            }
+
+            renderQuizPool() {
+                const pool = document.getElementById('quizPool');
+                pool.innerHTML = '';
+
+                const unassignedQuizzes = this.getUnassignedQuizzes();
+                const quizzesToShow = this.filteredQuizzes.length > 0 ? this.filteredQuizzes.filter(quiz => 
+                    unassignedQuizzes.some(uq => uq.id === quiz.id)
+                ) : unassignedQuizzes;
+
+                quizzesToShow.forEach(quiz => {
+                    const card = this.createQuizCard(quiz);
+                    pool.appendChild(card);
+                });
+
+                if (quizzesToShow.length === 0) {
+                    const empty = document.createElement('div');
+                    empty.textContent = 'No quizzes found';
+                    empty.style.textAlign = 'center';
+                    empty.style.color = '#95a5a6';
+                    empty.style.padding = '20px';
+                    pool.appendChild(empty);
+                }
+            }
+
+            getUnassignedQuizzes() {
+                const assignedIds = new Set();
+                this.tiers.forEach(tier => {
+                    tier.quizzes.forEach(quiz => assignedIds.add(quiz.id));
+                });
+                
+                return this.quizzes.filter(quiz => !assignedIds.has(quiz.id));
+            }
+
+            createQuizCard(quiz) {
+                const card = document.createElement('div');
+                card.className = 'quiz-card';
+                card.draggable = true;
+                card.dataset.quizId = quiz.id;
+
+                const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+                if (searchTerm && quiz.title.toLowerCase().includes(searchTerm)) {
+                    card.classList.add('highlight');
+                }
+
+                // Ensure difficulty is a valid number between 1-6, default to 1 if missing
+                const difficulty = quiz.difficulty && !isNaN(quiz.difficulty) && quiz.difficulty >= 1 && quiz.difficulty <= 6 ? quiz.difficulty : 1;
+                
+                card.innerHTML = `
+                    <div class="quiz-title">${quiz.title}</div>
+                    <div class="quiz-meta">
+                        <span class="difficulty-badge difficulty-${difficulty}">${difficulty}</span>
+                        <span>${quiz.theme || 'No theme'}</span>
+                    </div>
+                `;
+
+                card.addEventListener('dragstart', this.handleDragStart.bind(this));
+                card.addEventListener('dragend', this.handleDragEnd.bind(this));
+
+                return card;
+            }
+
+            renderTiers() {
+                const tiersGrid = document.getElementById('tiersGrid');
+                tiersGrid.innerHTML = '';
+
+                this.tiers.forEach(tier => {
+                    const tierElement = document.createElement('div');
+                    tierElement.className = 'tier';
+                    tierElement.dataset.tierId = tier.id;
+
+                    const header = document.createElement('div');
+                    header.className = 'tier-header';
+                    header.textContent = `Tier ${tier.id}`;
+
+                    const slots = document.createElement('div');
+                    slots.className = 'tier-slots';
+
+                    // Add existing quizzes
+                    tier.quizzes.forEach(quiz => {
+                        const card = this.createQuizCard(quiz);
+                        slots.appendChild(card);
+                    });
+
+                    // Add empty slots
+                    const emptySlots = 5 - tier.quizzes.length;
+                    for (let i = 0; i < emptySlots; i++) {
+                        const emptySlot = document.createElement('div');
+                        emptySlot.className = 'empty-slot';
+                        emptySlot.textContent = 'Drop quiz here';
+                        slots.appendChild(emptySlot);
+                    }
+
+                    tierElement.appendChild(header);
+                    tierElement.appendChild(slots);
+
+                    // Add drop event listeners
+                    tierElement.addEventListener('dragover', this.handleDragOver.bind(this));
+                    tierElement.addEventListener('drop', this.handleDrop.bind(this));
+                    tierElement.addEventListener('dragenter', this.handleDragEnter.bind(this));
+                    tierElement.addEventListener('dragleave', this.handleDragLeave.bind(this));
+
+                    tiersGrid.appendChild(tierElement);
+                });
+            }
+
+            handleDragStart(e) {
+                e.dataTransfer.setData('text/plain', e.target.dataset.quizId);
+                e.target.classList.add('dragging');
+            }
+
+            handleDragEnd(e) {
+                e.target.classList.remove('dragging');
+            }
+
+            handleDragOver(e) {
+                e.preventDefault();
+            }
+
+            handleDragEnter(e) {
+                if (e.target.classList.contains('tier') || e.target.closest('.tier')) {
+                    const tier = e.target.classList.contains('tier') ? e.target : e.target.closest('.tier');
+                    tier.classList.add('drop-zone');
+                }
+            }
+
+            handleDragLeave(e) {
+                if (e.target.classList.contains('tier')) {
+                    e.target.classList.remove('drop-zone');
+                }
+            }
+
+            handleDrop(e) {
+                e.preventDefault();
+                const tier = e.target.classList.contains('tier') ? e.target : e.target.closest('.tier');
+                tier.classList.remove('drop-zone');
+
+                const quizId = parseInt(e.dataTransfer.getData('text/plain'));
+                const tierId = parseInt(tier.dataset.tierId);
+
+                this.moveQuizToTier(quizId, tierId);
+            }
+
+            moveQuizToTier(quizId, tierId) {
+                // Remove quiz from current location
+                this.tiers.forEach(tier => {
+                    tier.quizzes = tier.quizzes.filter(quiz => quiz.id !== quizId);
+                });
+
+                // Find the quiz
+                const quiz = this.quizzes.find(q => q.id === quizId);
+                if (!quiz) return;
+
+                // Add to new tier if not full
+                const targetTier = this.tiers[tierId - 1];
+                if (targetTier.quizzes.length < 5) {
+                    targetTier.quizzes.push(quiz);
+                    this.renderTiers();
+                    this.renderQuizPool();
+                    this.updateStats();
+                } else {
+                    this.showNotification('Tier is full (5 quizzes maximum)', true);
+                }
+            }
+
+            updateStats() {
+                const totalQuizzes = this.quizzes.length;
+                const assignedQuizzes = this.tiers.reduce((sum, tier) => sum + tier.quizzes.length, 0);
+                const unassignedQuizzes = totalQuizzes - assignedQuizzes;
+                const filledTiers = this.tiers.filter(tier => tier.quizzes.length === 5).length;
+
+                document.getElementById('totalQuizzes').textContent = totalQuizzes;
+                document.getElementById('assignedQuizzes').textContent = assignedQuizzes;
+                document.getElementById('unassignedQuizzes').textContent = unassignedQuizzes;
+                document.getElementById('filledTiers').textContent = filledTiers;
+            }
+
+            exportConfiguration() {
+                const quizOrder = [];
+                
+                this.tiers.forEach((tier, tierIndex) => {
+                    tier.quizzes.forEach((quiz, position) => {
+                        quizOrder.push({
+                            quiz_id: quiz.id,
+                            title: quiz.title,
+                            tier: tierIndex + 1,
+                            position: position + 1,
+                            original_difficulty: quiz.difficulty
+                        });
+                    });
+                });
+
+                const config = { quiz_order: quizOrder };
+                
+                // Download the file
+                const blob = new Blob([JSON.stringify(config, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'quiz_order_config.json';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                this.showNotification(`Exported configuration with ${quizOrder.length} quiz assignments`);
+            }
+
+            clearAll() {
+                if (confirm('Are you sure you want to clear all tier assignments?')) {
+                    this.tiers.forEach(tier => tier.quizzes = []);
+                    this.renderTiers();
+                    this.renderQuizPool();
+                    this.updateStats();
+                    this.showNotification('All assignments cleared');
+                }
+            }
+
+            showNotification(message, isError = false) {
+                const notification = document.getElementById('notification');
+                notification.textContent = message;
+                notification.className = `notification ${isError ? 'error' : ''} show`;
+                
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                }, 3000);
+            }
+        }
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', () => {
+            new QuizOrganizer();
+        });
+    </script>
+</body>
+</html>
