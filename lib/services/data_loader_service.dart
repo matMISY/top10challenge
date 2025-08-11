@@ -9,11 +9,61 @@ import '../models/tier.dart';
 class DataLoaderService {
   // Seed fixe pour garantir toujours le même ordre aléatoire
   static const int _shuffleSeed = 42;
+  
+  // Flag pour utiliser l'ordre personnalisé ou l'ordre déterministe original
+  static bool useCustomOrder = true;
 
   /// Charge tous les quiz de tous les fichiers et les mélange de façon déterministe
   /// (Version mise à jour avec support des paliers)
   static Future<List<Level>> loadAllQuizzes() async {
     return await loadAllQuizzesWithTiers();
+  }
+
+  /// Charge les quiz dans l'ordre personnalisé depuis le fichier de configuration
+  static Future<List<Level>> _loadCustomOrderedQuizzes() async {
+    try {
+      final String jsonString = await rootBundle.loadString('data/quiz_custom_order.json');
+      final Map<String, dynamic> data = jsonDecode(jsonString);
+      
+      if (!data.containsKey('custom_order_applied') || !data['custom_order_applied']) {
+        debugPrint('Warning: Custom order not applied to quiz data');
+      }
+      
+      final List<dynamic> quizzes = data['quizzes'] as List<dynamic>;
+      List<Level> levels = [];
+      
+      for (int i = 0; i < quizzes.length; i++) {
+        final quiz = quizzes[i] as Map<String, dynamic>;
+        
+        final List<dynamic> answersJson = quiz['answers'] as List<dynamic>;
+        final List<Answer> answers = answersJson
+            .map((answerJson) => Answer.fromJson(answerJson as Map<String, dynamic>))
+            .toList();
+        
+        final level = Level(
+          id: quiz['id'] as int? ?? (i + 1),
+          title: quiz['title'] as String,
+          hint: quiz['hint'] as String? ?? '',
+          category: (quiz['theme'] ?? quiz['category']) as String,
+          answers: answers,
+          difficulty: quiz['difficulty'] as int,
+          isUnlocked: false,
+          isCompleted: false,
+          tierId: quiz['tier_id'] as int,
+          positionInTier: quiz['position_in_tier'] as int,
+          pointsReward: quiz['difficulty'] as int,
+        );
+        
+        levels.add(level);
+      }
+      
+      debugPrint('Loaded ${levels.length} quizzes in custom order');
+      return levels;
+    } catch (e) {
+      debugPrint('Error loading custom ordered quizzes: $e');
+      // Fallback to original loading method
+      return [];
+    }
   }
   
 
@@ -151,19 +201,42 @@ class DataLoaderService {
   static Future<List<Level>> loadAllQuizzesWithTiers() async {
     final tiers = await loadTiers();
     
-    // Charger les niveaux par difficulté dans l'ordre
+    // Essayer de charger l'ordre personnalisé en premier
     List<Level> allLevels = [];
+    if (useCustomOrder) {
+      allLevels = await _loadCustomOrderedQuizzes();
+    }
     
-    // Charger par ordre de difficulté croissante
-    final difficultyFiles = await _loadLevelsByDifficulty();
-    
-    for (final difficultyGroup in difficultyFiles) {
-      allLevels.addAll(difficultyGroup);
+    // Si l'ordre personnalisé n'est pas disponible, utiliser la méthode originale
+    if (allLevels.isEmpty) {
+      debugPrint('Custom order not available, falling back to deterministic shuffle');
+      // Charger par ordre de difficulté croissante
+      final difficultyFiles = await _loadLevelsByDifficulty();
+      
+      for (final difficultyGroup in difficultyFiles) {
+        allLevels.addAll(difficultyGroup);
+      }
     }
     
     debugPrint('Chargé ${allLevels.length} niveaux au total');
     
-    // Assigner les niveaux aux paliers selon la configuration
+    // Si on utilise l'ordre personnalisé et qu'il a été chargé avec succès
+    if (useCustomOrder && allLevels.isNotEmpty && allLevels.any((level) => level.tierId > 1)) {
+      // Les niveaux ont déjà les bonnes assignations tier/position, juste mettre à jour les flags
+      List<Level> organizedLevels = [];
+      for (final level in allLevels) {
+        final tier = tiers.firstWhere((t) => t.id == level.tierId, orElse: () => tiers.first);
+        final organizedLevel = level.copyWith(
+          isUnlocked: tier.isUnlocked,
+          isCompleted: false,
+        );
+        organizedLevels.add(organizedLevel);
+      }
+      debugPrint('Using custom quiz order with ${organizedLevels.length} levels');
+      return organizedLevels;
+    }
+    
+    // Sinon, utiliser la méthode originale d'assignation
     List<Level> organizedLevels = [];
     int levelIndex = 0;
     
