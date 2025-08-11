@@ -661,6 +661,25 @@ class GameProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  /// Activate free Money Time for first-time users
+  Future<void> activateFreeMoneyTime(DateTime endTime) async {
+    _gameState = _gameState.copyWith(
+      moneyTimeEndTime: endTime,
+      hasUsedFreeMoneyTime: true,
+      selectedMoneyTimeDuration: 30,
+    );
+    
+    // Critical save - Free Money Time activation is a key state change
+    await forceSaveMoneyTimeState();
+    
+    // Show feedback if context is available
+    if (_context != null) {
+      FeedbackService.showMoneyTimeActivated(_context!, 30);
+    }
+    
+    notifyListeners();
+  }
+
   /// Show Money Time warning (1 minute before end)
   void showMoneyTimeWarning() {
     if (_context != null) {

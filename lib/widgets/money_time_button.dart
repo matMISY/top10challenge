@@ -76,9 +76,12 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
         final canActivate = gameProvider.gameState.canActivateMoneyTime();
         final isActive = gameProvider.gameState.isMoneyTimeActive();
         final timeUntilAvailable = gameProvider.gameState.getTimeUntilMoneyTimeAvailable();
+        final canActivateFree = gameProvider.gameState.canActivateFreeMoneyTime();
 
         if (isActive) {
           return _buildActiveButton(gameProvider);
+        } else if (canActivateFree) {
+          return _buildFreeMoneyTimeButton(context, gameProvider);
         } else if (canActivate) {
           return _buildAvailableButton(context, gameProvider);
         } else {
@@ -189,6 +192,132 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                             fontSize: 14,
                             fontWeight: FontWeight.bold,
                           ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildFreeMoneyTimeButton(BuildContext context, GameProvider gameProvider) {
+    return AnimatedBuilder(
+      animation: _scaleAnimation,
+      builder: (context, child) {
+        return Transform.scale(
+          scale: _scaleAnimation.value,
+          child: Container(
+            width: double.infinity,
+            height: 55,
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [
+                  Colors.green.shade500,
+                  Colors.teal.shade600,
+                ],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
+              borderRadius: BorderRadius.circular(27),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.green.withValues(alpha: 0.4),
+                  blurRadius: 12,
+                  spreadRadius: 2,
+                  offset: const Offset(0, 4),
+                ),
+                BoxShadow(
+                  color: Colors.teal.withValues(alpha: 0.3),
+                  blurRadius: 20,
+                  spreadRadius: 0,
+                  offset: const Offset(0, 8),
+                ),
+              ],
+            ),
+            child: Material(
+              color: Colors.transparent,
+              borderRadius: BorderRadius.circular(27),
+              child: InkWell(
+                borderRadius: BorderRadius.circular(27),
+                onTap: () => _activateFreeMoneyTime(context, gameProvider),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withValues(alpha: 0.2),
+                          shape: BoxShape.circle,
+                        ),
+                        child: const Icon(
+                          Icons.card_giftcard,
+                          color: Colors.white,
+                          size: 20,
+                        ),
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              children: [
+                                Text(
+                                  'Money Time Gratuit',
+                                  style: GoogleFonts.baloo2(
+                                    color: Colors.white,
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                                  decoration: BoxDecoration(
+                                    color: Colors.red.shade600,
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  child: Text(
+                                    'NOUVEAU',
+                                    style: GoogleFonts.baloo2(
+                                      color: Colors.white,
+                                      fontSize: 8,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 2),
+                            Text(
+                              '30 min sans pubs !',
+                              style: GoogleFonts.baloo2(
+                                color: Colors.white.withValues(alpha: 0.9),
+                                fontSize: 12,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.all(6),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withValues(alpha: 0.2),
+                          shape: BoxShape.circle,
+                        ),
+                        child: const Icon(
+                          Icons.play_arrow,
+                          color: Colors.white,
+                          size: 16,
                         ),
                       ),
                     ],
@@ -479,6 +608,159 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
       if (context.mounted && Navigator.of(context).canPop()) {
         Navigator.of(context).pop(false);
       }
+      
+      if (!context.mounted) return;
+      
+      FeedbackService.showError(
+        context,
+        'Une erreur s\'est produite.\n\nRéessayez plus tard.',
+      );
+    }
+  }
+
+  Future<void> _activateFreeMoneyTime(BuildContext context, GameProvider gameProvider) async {
+    try {
+      // Show confirmation dialog
+      final confirmed = await showDialog<bool>(
+        context: context,
+        barrierDismissible: false,
+        builder: (context) => AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          title: Row(
+            children: [
+              Icon(
+                Icons.card_giftcard,
+                color: Colors.green.shade600,
+                size: 28,
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  'Money Time Gratuit',
+                  style: GoogleFonts.baloo2(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.green.shade700,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Profitez de 30 minutes de Money Time gratuitement !',
+                style: GoogleFonts.baloo2(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+              const SizedBox(height: 12),
+              Container(
+                padding: const EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  color: Colors.green.shade50,
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(color: Colors.green.shade200),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '🛡️ Aucune perte de vie pendant 30 minutes',
+                      style: GoogleFonts.baloo2(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      '🎁 Offre de bienvenue unique',
+                      style: GoogleFonts.baloo2(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      '⚡ Activation immédiate, sans publicité',
+                      style: GoogleFonts.baloo2(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 16),
+              Text(
+                'Voulez-vous activer votre Money Time gratuit maintenant ?',
+                style: GoogleFonts.baloo2(
+                  fontSize: 15,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.grey.shade700,
+                ),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(false),
+              child: Text(
+                'Plus tard',
+                style: GoogleFonts.baloo2(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.grey.shade600,
+                ),
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).pop(true),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.green.shade600,
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+              ),
+              child: Text(
+                'Activer !',
+                style: GoogleFonts.baloo2(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        ),
+      );
+
+      if (confirmed == true && context.mounted) {
+        // Activate free Money Time
+        final success = await gameProvider.moneyTimeService.activateFreeMoneyTime();
+        
+        if (!context.mounted) return;
+        
+        if (success) {
+          FeedbackService.showSuccess(
+            context,
+            'Money Time Gratuit activé !\n\n🛡️ Vous ne perdrez pas de vies pendant 30 minutes.\n\nProfitez-en bien !',
+          );
+        } else {
+          FeedbackService.showError(
+            context,
+            'Impossible d\'activer le Money Time gratuit.\n\nVeuillez réessayer.',
+          );
+        }
+      }
+    } catch (e) {
+      debugPrint('Error activating free Money Time: $e');
       
       if (!context.mounted) return;
       

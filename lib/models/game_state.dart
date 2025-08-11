@@ -19,6 +19,7 @@ class GameState {
   final DateTime? lastMoneyTimeActivation;
   final int moneyTimeAdsWatched;  // Compteur temporaire (0-5)
   final int selectedMoneyTimeDuration;  // 15, 30 ou 60 minutes
+  final bool hasUsedFreeMoneyTime;  // Marque si le Money Time gratuit de premier lancement a été utilisé
 
   static const int maxLives = 5;
   static const int maxLivesWithAds = 10;  // Maximum absolu de vies avec publicités
@@ -47,6 +48,7 @@ class GameState {
     this.lastMoneyTimeActivation,
     this.moneyTimeAdsWatched = 0,
     this.selectedMoneyTimeDuration = 30,
+    this.hasUsedFreeMoneyTime = false,
   }) : lastPlayedDate = lastPlayedDate ?? DateTime.now();
 
   GameState copyWith({
@@ -68,6 +70,7 @@ class GameState {
     DateTime? lastMoneyTimeActivation,
     int? moneyTimeAdsWatched,
     int? selectedMoneyTimeDuration,
+    bool? hasUsedFreeMoneyTime,
   }) {
     return GameState(
       currentLevel: currentLevel ?? this.currentLevel,
@@ -88,6 +91,7 @@ class GameState {
       lastMoneyTimeActivation: lastMoneyTimeActivation ?? this.lastMoneyTimeActivation,
       moneyTimeAdsWatched: moneyTimeAdsWatched ?? this.moneyTimeAdsWatched,
       selectedMoneyTimeDuration: selectedMoneyTimeDuration ?? this.selectedMoneyTimeDuration,
+      hasUsedFreeMoneyTime: hasUsedFreeMoneyTime ?? this.hasUsedFreeMoneyTime,
     );
   }
 
@@ -113,6 +117,7 @@ class GameState {
       'lastMoneyTimeActivation': lastMoneyTimeActivation?.toIso8601String(),
       'moneyTimeAdsWatched': moneyTimeAdsWatched,
       'selectedMoneyTimeDuration': selectedMoneyTimeDuration,
+      'hasUsedFreeMoneyTime': hasUsedFreeMoneyTime,
     };
   }
 
@@ -180,6 +185,7 @@ class GameState {
         : null,
       moneyTimeAdsWatched: json['moneyTimeAdsWatched'] ?? 0,
       selectedMoneyTimeDuration: json['selectedMoneyTimeDuration'] ?? 30,
+      hasUsedFreeMoneyTime: json['hasUsedFreeMoneyTime'] ?? false,
     );
   }
 
@@ -280,5 +286,10 @@ class GameState {
     if (canActivateMoneyTime()) return null;
     final nextAvailable = lastMoneyTimeActivation!.add(moneyTimeCooldownDuration);
     return nextAvailable.difference(DateTime.now());
+  }
+  
+  /// Vérifie si l'utilisateur peut activer le Money Time gratuit de premier lancement
+  bool canActivateFreeMoneyTime() {
+    return !hasUsedFreeMoneyTime && !isMoneyTimeActive();
   }
 }

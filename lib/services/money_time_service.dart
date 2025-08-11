@@ -43,6 +43,31 @@ class MoneyTimeService {
   /// Get selected duration for current activation
   int get selectedDuration => _selectedDuration;
   
+  /// Activate free Money Time for first-time users
+  /// Returns true if successfully activated, false if not eligible or failed
+  Future<bool> activateFreeMoneyTime() async {
+    if (!_gameProvider.gameState.canActivateFreeMoneyTime()) {
+      debugPrint('❌ MoneyTimeService: Not eligible for free Money Time');
+      return false;
+    }
+    
+    debugPrint('🎁 MoneyTimeService: Activating free Money Time (30 minutes)');
+    
+    final endTime = DateTime.now().add(Duration(minutes: 30));
+    
+    // Mark the free Money Time as used and activate it
+    await _gameProvider.activateFreeMoneyTime(endTime);
+    
+    // Schedule timers for 30 minutes
+    _selectedDuration = 30;
+    _scheduleWarning();
+    _scheduleEnd();
+    _startCountdownTimer();
+    
+    debugPrint('✅ MoneyTimeService: Free Money Time activated successfully');
+    return true;
+  }
+
   /// Start the Money Time activation process
   /// Returns true if successfully activated, false if failed or cancelled
   Future<bool> startActivationProcess(int durationMinutes) async {
