@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../models/level.dart';
 import '../models/answer.dart';
 import '../providers/game_provider.dart';
@@ -97,7 +98,7 @@ class _GameScreenState extends State<GameScreen> {
       _gameService.saveFoundAnswersForLevel(widget.level.id, _foundAnswers);
 
       // Afficher feedback de bonne réponse
-      FeedbackService.showSuccess(context, 'Bonne réponse !\n$correctAnswer');
+      FeedbackService.showSuccess(context, AppLocalizations.of(context)!.correctAnswerWithName(correctAnswer));
 
       if (_foundAnswers.length == 10) {
         _onLevelCompleted();
@@ -140,14 +141,14 @@ class _GameScreenState extends State<GameScreen> {
       barrierDismissible: false,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text('🎉 Niveau terminé !'),
+          title: Text(AppLocalizations.of(context)!.levelCompleted),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Text('Félicitations ! Vous avez trouvé tous les joueurs.'),
+              Text(AppLocalizations.of(context)!.congratulations),
               const SizedBox(height: 16),
-              Text('Points d\'indice gagnés: +${hintPointsGained + bonusHintPoints}'),
-              Text('Points de niveau gagnés: +$levelPointsGained'),
+              Text(AppLocalizations.of(context)!.hintPointsGained(hintPointsGained + bonusHintPoints)),
+              Text(AppLocalizations.of(context)!.levelPointsGained(levelPointsGained)),
             ],
           ),
           actions: [
@@ -156,7 +157,7 @@ class _GameScreenState extends State<GameScreen> {
                 Navigator.of(context).pop();
                 Navigator.of(context).pop();
               },
-              child: const Text('Continuer'),
+              child: Text(AppLocalizations.of(context)!.continueButton),
             ),
           ],
         );
@@ -174,8 +175,8 @@ class _GameScreenState extends State<GameScreen> {
         final timeUntilNextLife = gameProvider.getFormattedTimeUntilNextLife();
         
         return AlertDialog(
-          title: const Center(
-            child: Text('Vous avez épuisé toutes vos vies 😔'),
+          title: Center(
+            child: Text(AppLocalizations.of(context)!.noLivesTitle),
           ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
@@ -183,7 +184,7 @@ class _GameScreenState extends State<GameScreen> {
               if (timeUntilNextLife != null) ...[
                 Center(
                   child: Text(
-                    'Prochaine vie dans : $timeUntilNextLife',
+                    AppLocalizations.of(context)!.nextLifeIn(timeUntilNextLife),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -196,24 +197,24 @@ class _GameScreenState extends State<GameScreen> {
                     color: Colors.purple.withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: const Row(
+                  child: Row(
                     children: [
-                      Icon(Icons.play_circle_filled, color: Colors.purple, size: 28),
-                      SizedBox(width: 12),
+                      const Icon(Icons.play_circle_filled, color: Colors.purple, size: 28),
+                      const SizedBox(width: 12),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Regardez une publicité',
-                              style: TextStyle(
+                              AppLocalizations.of(context)!.watchAdText,
+                              style: const TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              'pour gagner des vies et continuer !',
-                              style: TextStyle(fontSize: 13),
+                              AppLocalizations.of(context)!.watchAdSubtext,
+                              style: const TextStyle(fontSize: 13),
                             ),
                           ],
                         ),
@@ -230,7 +231,7 @@ class _GameScreenState extends State<GameScreen> {
                 Navigator.of(context).pop();
                 Navigator.of(context).pop();
               },
-              child: const Text('Retour'),
+              child: Text(AppLocalizations.of(context)!.back),
             ),
             if (canWatchAd) ...[
               ElevatedButton.icon(
@@ -241,7 +242,7 @@ class _GameScreenState extends State<GameScreen> {
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 ),
                 icon: const Icon(Icons.play_circle_filled, size: 20),
-                label: const Text('Regarder une pub'),
+                label: Text(AppLocalizations.of(context)!.watchAdButton),
               ),
             ],
           ],
@@ -275,8 +276,8 @@ class _GameScreenState extends State<GameScreen> {
     FeedbackService.showWarning(
       context,
       _debugAnswersRevealed 
-        ? '🐛 DEBUG: Réponses\nrévélées' 
-        : '🐛 DEBUG: Réponses\ncachées',
+        ? AppLocalizations.of(context)!.debugRevealAnswers
+        : AppLocalizations.of(context)!.debugHideAnswers,
       duration: FeedbackConfig.debugDuration,
     );
   }
@@ -291,7 +292,7 @@ class _GameScreenState extends State<GameScreen> {
       _availableAnswers.clear();
     });
     
-    FeedbackService.showSuccess(context, '🐛 DEBUG: Niveau\ncomplété automatiquement', duration: FeedbackConfig.debugDuration);
+    FeedbackService.showSuccess(context, AppLocalizations.of(context)!.debugLevelCompleted, duration: FeedbackConfig.debugDuration);
     
     // Déclencher la completion du niveau après un petit délai
     Future.delayed(const Duration(milliseconds: 500), () {
@@ -310,13 +311,13 @@ class _GameScreenState extends State<GameScreen> {
         context: context,
         barrierDismissible: false,
         builder: (BuildContext context) {
-          return const AlertDialog(
+          return AlertDialog(
             content: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                CircularProgressIndicator(),
-                SizedBox(height: 16),
-                Text('Chargement de la publicité...'),
+                const CircularProgressIndicator(),
+                const SizedBox(height: 16),
+                Text(AppLocalizations.of(context)!.loadingAd),
               ],
             ),
           );
@@ -341,22 +342,22 @@ class _GameScreenState extends State<GameScreen> {
           barrierDismissible: false,
           builder: (BuildContext context) {
             return AlertDialog(
-              title: const Text('❌ Publicité indisponible'),
-              content: const Text('Impossible de charger la publicité. Que voulez-vous faire ?'),
+              title: Text(AppLocalizations.of(context)!.adUnavailableTitle),
+              content: Text(AppLocalizations.of(context)!.adUnavailableContent),
               actions: [
                 TextButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     Navigator.of(context).pop();
                   },
-                  child: const Text('Retour'),
+                  child: Text(AppLocalizations.of(context)!.back),
                 ),
                 TextButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     _resetLevel();
                   },
-                  child: const Text('Recommencer'),
+                  child: Text(AppLocalizations.of(context)!.restart),
                 ),
               ],
             );
@@ -515,13 +516,13 @@ class _GameScreenState extends State<GameScreen> {
                   _debugAnswersRevealed ? Icons.visibility_off : Icons.visibility,
                   color: _debugAnswersRevealed ? Colors.orange : Colors.white,
                 ),
-                tooltip: _debugAnswersRevealed ? 'Cacher les réponses' : 'Révéler les réponses',
+                tooltip: _debugAnswersRevealed ? AppLocalizations.of(context)!.hideAnswers : AppLocalizations.of(context)!.revealAnswers,
               ),
             if (DebugConfig.enableSkipLevel)
               IconButton(
                 onPressed: _debugSkipLevel,
                 icon: const Icon(Icons.skip_next, color: Colors.green),
-                tooltip: 'Passer le niveau (DEBUG)',
+                tooltip: AppLocalizations.of(context)!.skipLevel,
               ),
           ],
         ],
@@ -594,7 +595,7 @@ class _GameScreenState extends State<GameScreen> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Trouvés: ${_foundAnswers.length}/10',
+                              AppLocalizations.of(context)!.found(_foundAnswers.length),
                               style: GoogleFonts.baloo2(
                                 color: Colors.white,
                                 fontSize: 18,

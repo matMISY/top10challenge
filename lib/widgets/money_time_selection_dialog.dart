@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../config/money_time_config.dart';
 
 class MoneyTimeSelectionDialog extends StatefulWidget {
@@ -136,7 +137,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
           ),
           const SizedBox(height: 8),
           Text(
-            'Jouez sans perdre de vies !',
+            AppLocalizations.of(context)!.playWithoutLosingLives,
             style: GoogleFonts.baloo2(
               color: Colors.white.withValues(alpha: 0.9),
               fontSize: 16,
@@ -156,7 +157,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Choisissez votre durée :',
+            AppLocalizations.of(context)!.chooseDuration,
             style: GoogleFonts.baloo2(
               fontSize: 18,
               fontWeight: FontWeight.w600,
@@ -257,7 +258,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Text(
-                            'Recommandé',
+                            AppLocalizations.of(context)!.recommendedLabel,
                             style: GoogleFonts.baloo2(
                               fontSize: 11,
                               fontWeight: FontWeight.w600,
@@ -270,7 +271,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    '$adsRequired publicité${adsRequired > 1 ? 's' : ''} à regarder',
+                    AppLocalizations.of(context)!.adsToWatch(adsRequired, adsRequired > 1 ? 's' : ''),
                     style: GoogleFonts.baloo2(
                       fontSize: 14,
                       fontWeight: FontWeight.w500,
@@ -319,7 +320,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Pendant Money Time :',
+                  AppLocalizations.of(context)!.duringMoneyTime,
                   style: GoogleFonts.baloo2(
                     fontSize: 14,
                     fontWeight: FontWeight.w600,
@@ -328,7 +329,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '• Vous ne perdez pas de vies\n• Vous pouvez continuer à jouer normalement\n• Les points et indices sont conservés',
+                  AppLocalizations.of(context)!.moneyTimeBenefits,
                   style: GoogleFonts.baloo2(
                     fontSize: 13,
                     fontWeight: FontWeight.w500,
@@ -407,7 +408,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
                             ),
                             const SizedBox(width: 12),
                             Text(
-                              'Lancement...',
+                              AppLocalizations.of(context)!.launching,
                               style: GoogleFonts.baloo2(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
@@ -417,7 +418,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
                             const Icon(Icons.play_circle_filled, size: 20),
                             const SizedBox(width: 8),
                             Text(
-                              'REGARDER LES PUBS',
+                              AppLocalizations.of(context)!.watchAdsButton,
                               style: GoogleFonts.baloo2(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -439,7 +440,7 @@ class _MoneyTimeSelectionDialogState extends State<MoneyTimeSelectionDialog>
             child: TextButton(
               onPressed: _isActivating ? null : () => Navigator.of(context).pop(),
               child: Text(
-                'Annuler',
+                AppLocalizations.of(context)!.cancel,
                 style: GoogleFonts.baloo2(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/game_provider.dart';
 import '../config/money_time_config.dart';
 import '../services/feedback_service.dart';
@@ -160,7 +161,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Money Time Actif',
+                              AppLocalizations.of(context)!.moneyTimeActive,
                               style: GoogleFonts.baloo2(
                                 color: Colors.white,
                                 fontSize: 16,
@@ -169,7 +170,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                             ),
                             const SizedBox(height: 2),
                             Text(
-                              'Temps restant: $formattedTime',
+                              AppLocalizations.of(context)!.timeRemaining(formattedTime),
                               style: GoogleFonts.baloo2(
                                 color: Colors.white.withValues(alpha: 0.9),
                                 fontSize: 12,
@@ -271,7 +272,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                             Row(
                               children: [
                                 Text(
-                                  'Money Time Gratuit',
+                                  AppLocalizations.of(context)!.freeMoneyTime,
                                   style: GoogleFonts.baloo2(
                                     color: Colors.white,
                                     fontSize: 16,
@@ -286,7 +287,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                                     borderRadius: BorderRadius.circular(10),
                                   ),
                                   child: Text(
-                                    'NOUVEAU',
+                                    AppLocalizations.of(context)!.newLabel,
                                     style: GoogleFonts.baloo2(
                                       color: Colors.white,
                                       fontSize: 8,
@@ -298,7 +299,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                             ),
                             const SizedBox(height: 2),
                             Text(
-                              '30 min sans pubs !',
+                              AppLocalizations.of(context)!.thirtyMinWithoutAds,
                               style: GoogleFonts.baloo2(
                                 color: Colors.white.withValues(alpha: 0.9),
                                 fontSize: 12,
@@ -598,7 +599,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
       } else {
         FeedbackService.showError(
           context,
-          'Impossible d\'activer Money Time.\n\nVérifiez votre connexion et réessayez.',
+          AppLocalizations.of(context)!.errorActivatingMoneyTime,
         );
       }
     } catch (e) {
@@ -613,7 +614,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
       
       FeedbackService.showError(
         context,
-        'Une erreur s\'est produite.\n\nRéessayez plus tard.',
+        AppLocalizations.of(context)!.errorOccurred,
       );
     }
   }
@@ -653,7 +654,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Profitez de 30 minutes de Money Time gratuitement !',
+                AppLocalizations.of(context)!.enjoy30MinFree,
                 style: GoogleFonts.baloo2(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
@@ -671,7 +672,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      '🛡️ Aucune perte de vie pendant 30 minutes',
+                      AppLocalizations.of(context)!.noLifeLossFor30Min,
                       style: GoogleFonts.baloo2(
                         fontSize: 14,
                         fontWeight: FontWeight.w500,
@@ -679,7 +680,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      '🎁 Offre de bienvenue unique',
+                      AppLocalizations.of(context)!.uniqueWelcomeOffer,
                       style: GoogleFonts.baloo2(
                         fontSize: 14,
                         fontWeight: FontWeight.w500,
@@ -687,7 +688,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      '⚡ Activation immédiate, sans publicité',
+                      AppLocalizations.of(context)!.immediateActivation,
                       style: GoogleFonts.baloo2(
                         fontSize: 14,
                         fontWeight: FontWeight.w500,
@@ -698,7 +699,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
               ),
               const SizedBox(height: 16),
               Text(
-                'Voulez-vous activer votre Money Time gratuit maintenant ?',
+                AppLocalizations.of(context)!.activateNowQuestion,
                 style: GoogleFonts.baloo2(
                   fontSize: 15,
                   fontWeight: FontWeight.w600,
@@ -711,7 +712,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
             TextButton(
               onPressed: () => Navigator.of(context).pop(false),
               child: Text(
-                'Plus tard',
+                AppLocalizations.of(context)!.later,
                 style: GoogleFonts.baloo2(
                   fontSize: 14,
                   fontWeight: FontWeight.w500,
@@ -730,7 +731,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
                 padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               ),
               child: Text(
-                'Activer !',
+                AppLocalizations.of(context)!.activate,
                 style: GoogleFonts.baloo2(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
@@ -750,12 +751,12 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
         if (success) {
           FeedbackService.showSuccess(
             context,
-            'Money Time Gratuit activé !\n\n🛡️ Vous ne perdrez pas de vies pendant 30 minutes.\n\nProfitez-en bien !',
+            AppLocalizations.of(context)!.freeMoneyTimeActivated,
           );
         } else {
           FeedbackService.showError(
             context,
-            'Impossible d\'activer le Money Time gratuit.\n\nVeuillez réessayer.',
+            AppLocalizations.of(context)!.cannotActivateFreeMoneyTime,
           );
         }
       }
@@ -766,7 +767,7 @@ class _MoneyTimeButtonState extends State<MoneyTimeButton>
       
       FeedbackService.showError(
         context,
-        'Une erreur s\'est produite.\n\nRéessayez plus tard.',
+        AppLocalizations.of(context)!.errorOccurred,
       );
     }
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../config/hint_config.dart';
 
 class HintExplanationDialog extends StatelessWidget {
@@ -31,7 +32,7 @@ class HintExplanationDialog extends StatelessWidget {
           const SizedBox(width: 12),
           Expanded(
             child: Text(
-              'Points d\'indice',
+              AppLocalizations.of(context)!.hintPoints,
               style: GoogleFonts.baloo2(
                 color: Colors.white,
                 fontSize: 22,
@@ -70,7 +71,7 @@ class HintExplanationDialog extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Vos points actuels',
+                          AppLocalizations.of(context)!.yourCurrentPoints,
                           style: GoogleFonts.baloo2(
                             color: Colors.amber.shade100,
                             fontSize: 14,
@@ -95,7 +96,7 @@ class HintExplanationDialog extends StatelessWidget {
             
             // Comment utiliser
             Text(
-              '💡 Comment utiliser ?',
+              AppLocalizations.of(context)!.howToUse,
               style: GoogleFonts.baloo2(
                 color: Colors.white,
                 fontSize: 16,
@@ -104,7 +105,7 @@ class HintExplanationDialog extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              'Restez appuyé sur une case vide pour débloquer un indice avec vos points.',
+              AppLocalizations.of(context)!.howToUseDescription,
               style: GoogleFonts.baloo2(
                 color: Colors.white70,
                 fontSize: 14,
@@ -115,7 +116,7 @@ class HintExplanationDialog extends StatelessWidget {
             
             // Coûts des indices
             Text(
-              '💰 Coût des indices',
+              AppLocalizations.of(context)!.hintCosts,
               style: GoogleFonts.baloo2(
                 color: Colors.white,
                 fontSize: 16,
@@ -128,7 +129,7 @@ class HintExplanationDialog extends StatelessWidget {
               context,
               level: 1,
               cost: HintConfig.hintLevel1Cost,
-              description: 'Indice descriptif',
+              description: AppLocalizations.of(context)!.descriptiveHint,
               icon: Icons.help_outline,
             ),
             const SizedBox(height: 8),
@@ -136,7 +137,7 @@ class HintExplanationDialog extends StatelessWidget {
               context,
               level: 2,
               cost: HintConfig.hintLevel2Cost,
-              description: 'Structure du nom',
+              description: AppLocalizations.of(context)!.nameStructure,
               icon: Icons.text_fields,
             ),
             const SizedBox(height: 8),
@@ -144,14 +145,14 @@ class HintExplanationDialog extends StatelessWidget {
               context,
               level: 3,
               cost: HintConfig.hintLevel3Cost,
-              description: 'Lettres partielles',
+              description: AppLocalizations.of(context)!.partialLetters,
               icon: Icons.font_download,
             ),
             const SizedBox(height: 16),
             
             // Comment obtenir plus de points
             Text(
-              '🎯 Obtenir plus de points',
+              AppLocalizations.of(context)!.getMorePoints,
               style: GoogleFonts.baloo2(
                 color: Colors.white,
                 fontSize: 16,
@@ -164,7 +165,7 @@ class HintExplanationDialog extends StatelessWidget {
               context,
               icon: Icons.play_circle_filled,
               iconColor: Colors.purple,
-              title: 'Publicité récompensée',
+              title: AppLocalizations.of(context)!.rewardedAd,
               points: HintConfig.pointsPerAd,
             ),
             const SizedBox(height: 8),
@@ -172,9 +173,9 @@ class HintExplanationDialog extends StatelessWidget {
               context,
               icon: Icons.emoji_events,
               iconColor: Colors.green,
-              title: 'Compléter un niveau',
+              title: AppLocalizations.of(context)!.completeLevel,
               points: '6-12',
-              subtitle: 'selon la difficulté',
+              subtitle: AppLocalizations.of(context)!.accordingToDifficulty,
             ),
           ],
         ),
@@ -187,7 +188,7 @@ class HintExplanationDialog extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
           ),
           child: Text(
-            'Compris !',
+            AppLocalizations.of(context)!.understood,
             style: GoogleFonts.baloo2(
               fontSize: 16,
               fontWeight: FontWeight.w600,

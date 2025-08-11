@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../services/search_service.dart';
 
 class SearchInput extends StatefulWidget {
@@ -87,7 +88,7 @@ class _SearchInputState extends State<SearchInput> {
             controller: widget.controller,
             onSubmitted: _onSubmitted,
             decoration: InputDecoration(
-              hintText: 'Tapez le nom d\'un joueur...',
+              hintText: AppLocalizations.of(context)!.typePlayerName,
               hintStyle: TextStyle(color: Colors.grey.shade500),
               prefixIcon: const Icon(Icons.search, color: Colors.grey),
               suffixIcon: widget.controller.text.isNotEmpty

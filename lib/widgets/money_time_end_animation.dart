@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../utils/my_colors.dart';
 
 /// Animation widget displayed when Money Time ends
@@ -161,7 +162,7 @@ class _MoneyTimeEndAnimationState extends State<MoneyTimeEndAnimation>
                           ),
                           const SizedBox(height: 8),
                           Text(
-                            'TERMINÉ',
+                            AppLocalizations.of(context)!.moneyTimeFinished,
                             style: GoogleFonts.poppins(
                               fontSize: 24,
                               fontWeight: FontWeight.w600,
@@ -219,7 +220,7 @@ class _MoneyTimeEndAnimationState extends State<MoneyTimeEndAnimation>
                     child: Opacity(
                       opacity: 1.0 - _textSlideAnimation.value,
                       child: Text(
-                        'Prochain Money Time\ndisponible dans 4h',
+                        AppLocalizations.of(context)!.nextMoneyTimeIn,
                         textAlign: TextAlign.center,
                         style: GoogleFonts.poppins(
                           fontSize: 16,

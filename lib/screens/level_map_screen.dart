@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/game_provider.dart';
 import '../models/level.dart';
 import '../models/game_state.dart';
@@ -12,7 +13,7 @@ class LevelMapScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Niveaux'),
+        title: Text(AppLocalizations.of(context)!.levels),
         backgroundColor: const Color(0xFF6B73FF),
         foregroundColor: Colors.white,
         elevation: 0,
@@ -127,7 +128,7 @@ class LevelMapScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8),
                         ),
                         child: Text(
-                          _getDifficultyText(level.difficulty),
+                          _getDifficultyText(level.difficulty, context),
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 10,
@@ -162,16 +163,16 @@ class LevelMapScreen extends StatelessWidget {
     );
   }
 
-  String _getDifficultyText(int difficulty) {
+  String _getDifficultyText(int difficulty, BuildContext context) {
     switch (difficulty) {
       case 1:
-        return 'Facile';
+        return AppLocalizations.of(context)!.difficultyEasy;
       case 2:
-        return 'Moyen';
+        return AppLocalizations.of(context)!.difficultyMedium;
       case 3:
-        return 'Difficile';
+        return AppLocalizations.of(context)!.difficultyHard;
       default:
-        return 'Expert';
+        return AppLocalizations.of(context)!.difficultyExpert;
     }
   }
 
@@ -183,52 +184,40 @@ class LevelMapScreen extends StatelessWidget {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Row(
+          title: Row(
             children: [
-              Icon(Icons.favorite, color: Colors.red),
-              SizedBox(width: 8),
-              Text('Plus de vies !'),
+              const Icon(Icons.favorite, color: Colors.red),
+              const SizedBox(width: 8),
+              Text(AppLocalizations.of(context)!.noMoreLives),
             ],
           ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Center(
+              Center(
                 child: Text(
-                  'Vous n\'avez plus de vies pour jouer.',
+                  AppLocalizations.of(context)!.noMoreLivesToPlay,
                   textAlign: TextAlign.center,
                 ),
               ),
               const SizedBox(height: 16),
               if (timeUntilNext != null) ...[
-                const Center(
-                  child: Text(
-                    'Prochaine vie dans :',
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-                const SizedBox(height: 8),
                 Center(
                   child: Text(
-                    _formatDuration(timeUntilNext),
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.blue,
-                    ),
+                    AppLocalizations.of(context)!.nextLifeIn(_formatDuration(timeUntilNext)),
                     textAlign: TextAlign.center,
                   ),
                 ),
               ] else ...[
-                const Center(
+                Center(
                   child: Text(
-                    'Les vies se récupèrent automatiquement !',
+                    AppLocalizations.of(context)!.livesRecoverAutomatically,
                     textAlign: TextAlign.center,
                   ),
                 ),
                 Center(
                   child: Text(
-                    '1 vie toutes les ${GameState.lifeRecoveryDuration.inMinutes} minutes.',
+                    AppLocalizations.of(context)!.oneLifeEveryMinutes(GameState.lifeRecoveryDuration.inMinutes),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -241,24 +230,24 @@ class LevelMapScreen extends StatelessWidget {
                     color: Colors.purple.withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: const Row(
+                  child: Row(
                     children: [
-                      Icon(Icons.play_circle_filled, color: Colors.purple, size: 28),
-                      SizedBox(width: 12),
+                      const Icon(Icons.play_circle_filled, color: Colors.purple, size: 28),
+                      const SizedBox(width: 12),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Regardez une publicité',
-                              style: TextStyle(
+                              AppLocalizations.of(context)!.watchAnAd,
+                              style: const TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              'pour gagner des vies !',
-                              style: TextStyle(fontSize: 13),
+                              AppLocalizations.of(context)!.toGetLives,
+                              style: const TextStyle(fontSize: 13),
                             ),
                           ],
                         ),
@@ -272,7 +261,7 @@ class LevelMapScreen extends StatelessWidget {
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(),
-              child: const Text('Fermer'),
+              child: Text(AppLocalizations.of(context)!.close),
             ),
             if (canWatchAd) ...[
               ElevatedButton.icon(
@@ -281,8 +270,8 @@ class LevelMapScreen extends StatelessWidget {
                   final success = await gameProvider.watchAdForLife();
                   if (success && context.mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('Vies ajoutées ! Bon jeu !'),
+                      SnackBar(
+                        content: Text(AppLocalizations.of(context)!.livesAdded),
                         backgroundColor: Colors.green,
                       ),
                     );
@@ -294,7 +283,7 @@ class LevelMapScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 ),
                 icon: const Icon(Icons.play_circle_filled, size: 20),
-                label: const Text('Regarder une pub'),
+                label: Text(AppLocalizations.of(context)!.watchAnAdButton),
               ),
             ],
           ],

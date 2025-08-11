@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/game_provider.dart';
 import '../models/game_state.dart';
 import '../utils/debug_config.dart';
@@ -31,7 +32,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 const Spacer(),
                 Text(
-                  'TOP10',
+                  AppLocalizations.of(context)!.appTitle,
                   style: GoogleFonts.bangers(
                     fontSize: 72,
                     color: Colors.white,
@@ -45,7 +46,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'CHALLENGE',
+                  AppLocalizations.of(context)!.challengeSubtitle,
                   style: GoogleFonts.bangers(
                     fontSize: 28,
                     color: Colors.amber.shade300,
@@ -61,22 +62,25 @@ class HomeScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             _buildStatCard(
+                              context: context,
                               icon: Icons.favorite,
                               value: '${gameProvider.gameState.lives}/${GameState.maxLivesWithAds}',
-                              label: 'Vies',
+                              label: AppLocalizations.of(context)!.lives,
                               color: Colors.red,
                               gameProvider: gameProvider,
                             ),
                             _buildStatCard(
+                              context: context,
                               icon: Icons.star,
                               value: '${gameProvider.gameState.totalPoints}',
-                              label: 'Points',
+                              label: AppLocalizations.of(context)!.points,
                               color: Colors.amber,
                             ),
                             _buildStatCard(
+                              context: context,
                               icon: Icons.lightbulb,
                               value: '${gameProvider.gameState.hintPoints}/${HintConfig.maxHintPoints}',
-                              label: 'Indices',
+                              label: AppLocalizations.of(context)!.hints,
                               color: Colors.blue,
                             ),
                           ],
@@ -97,7 +101,7 @@ class HomeScreen extends StatelessWidget {
                         const SizedBox(height: 40),
                         _buildMainButton(
                           context,
-                          'JOUER',
+                          AppLocalizations.of(context)!.play,
                           Icons.play_arrow,
                           () => Navigator.push(
                             context,
@@ -110,7 +114,7 @@ class HomeScreen extends StatelessWidget {
                           const SizedBox(height: 20),
                           _buildSecondaryButton(
                             context,
-                            'Défi Quotidien',
+                            AppLocalizations.of(context)!.dailyChallenge,
                             Icons.calendar_today,
                             gameProvider.gameState.dailyChallengeCompleted
                                 ? null
@@ -129,7 +133,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const Spacer(),
                 Text(
-                  'Niveau ${context.watch<GameProvider>().gameState.currentLevel}',
+                  AppLocalizations.of(context)!.level(context.watch<GameProvider>().gameState.currentLevel),
                   style: GoogleFonts.baloo2(
                     color: Colors.white70,
                     fontSize: 16,
@@ -144,6 +148,7 @@ class HomeScreen extends StatelessWidget {
   }
 
   Widget _buildStatCard({
+    required BuildContext context,
     required IconData icon,
     required String value,
     required String label,
@@ -187,7 +192,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 16, // Hauteur fixe réservée au timer
               child: gameProvider != null && gameProvider.shouldShowLifeTimer()
-                  ? _buildNextLifeCountdown(gameProvider)
+                  ? _buildNextLifeCountdown(context, gameProvider)
                   : null, // Zone vide mais même hauteur pour les autres cases
             ),
           ],
@@ -264,7 +269,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(width: 8),
             Text(
-              isCompleted ? 'Déjà complété' : text,
+              isCompleted ? AppLocalizations.of(context)!.alreadyCompleted : text,
               style: GoogleFonts.baloo2(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,
@@ -276,12 +281,12 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildNextLifeCountdown(GameProvider gameProvider) {
+  Widget _buildNextLifeCountdown(BuildContext context, GameProvider gameProvider) {
     final formattedTime = gameProvider.getFormattedTimeUntilNextLife();
     
     if (formattedTime == null) {
       return Text(
-        'Bientôt !',
+        AppLocalizations.of(context)!.comingSoon,
         style: GoogleFonts.baloo2(
           color: Colors.amber,
           fontSize: 10,
@@ -310,19 +315,19 @@ class HomeScreen extends StatelessWidget {
     bool isEnabled;
     
     if (isWatching) {
-      buttonText = 'Chargement...';
+      buttonText = AppLocalizations.of(context)!.loading;
       buttonIcon = Icons.hourglass_empty;
       isEnabled = false;
     } else if (canWatchAd) {
-      buttonText = 'Pub pour +${GameState.livesPerAd} vies';
+      buttonText = AppLocalizations.of(context)!.adForLives(GameState.livesPerAd);
       buttonIcon = Icons.play_circle_filled;
       isEnabled = true;
     } else if (adCooldownTime != null) {
-      buttonText = 'Prochaine pub dans $adCooldownTime';
+      buttonText = AppLocalizations.of(context)!.nextAdIn(adCooldownTime);
       buttonIcon = Icons.timer;
       isEnabled = false;
     } else {
-      buttonText = 'Pub non disponible';
+      buttonText = AppLocalizations.of(context)!.adNotAvailable;
       buttonIcon = Icons.tv_off;
       isEnabled = false;
     }
@@ -382,9 +387,9 @@ class HomeScreen extends StatelessWidget {
       if (!context.mounted) return;
       
       if (success) {
-        FeedbackService.showLives(context, 'Vous avez gagné\n${GameState.livesPerAd} vies !');
+        FeedbackService.showLives(context, AppLocalizations.of(context)!.livesGained(GameState.livesPerAd));
       } else {
-        FeedbackService.showWarning(context, 'Publicité non\ndisponible.\nRéessayez plus tard.');
+        FeedbackService.showWarning(context, AppLocalizations.of(context)!.adNotAvailableTryLater);
       }
     } catch (e) {
       // Vérifier si le widget est toujours monté avant d'utiliser context
@@ -404,19 +409,19 @@ class HomeScreen extends StatelessWidget {
     bool isEnabled;
     
     if (isWatching) {
-      buttonText = 'Chargement...';
+      buttonText = AppLocalizations.of(context)!.loading;
       buttonIcon = Icons.hourglass_empty;
       isEnabled = false;
     } else if (canWatchAd) {
-      buttonText = 'Pub pour +12 indices';
+      buttonText = AppLocalizations.of(context)!.adForHints;
       buttonIcon = Icons.lightbulb;
       isEnabled = true;
     } else if (adCooldownTime != null) {
-      buttonText = 'Prochaine pub dans $adCooldownTime';
+      buttonText = AppLocalizations.of(context)!.nextAdIn(adCooldownTime);
       buttonIcon = Icons.schedule;
       isEnabled = false;
     } else {
-      buttonText = 'Pub non disponible';
+      buttonText = AppLocalizations.of(context)!.adNotAvailable;
       buttonIcon = Icons.not_interested;
       isEnabled = false;
     }
@@ -479,13 +484,13 @@ class HomeScreen extends StatelessWidget {
       if (success) {
         FeedbackService.showPointsGained(context, 12);
       } else {
-        FeedbackService.showError(context, 'Erreur lors de la\nvisualisation de\nla publicité');
+        FeedbackService.showError(context, AppLocalizations.of(context)!.adError);
       }
     } catch (e) {
       debugPrint('Error watching hint ad: $e');
       if (!context.mounted) return;
       
-      FeedbackService.showError(context, 'Erreur lors du\nchargement de la\npublicité d\'indices.');
+      FeedbackService.showError(context, AppLocalizations.of(context)!.hintsAdError);
     }
   }
 }

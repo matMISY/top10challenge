@@ -1,0 +1,300 @@
+{
+  "appTitle": "TOP10",
+  "challengeSubtitle": "CHALLENGE",
+  "lives": "Lives",
+  "points": "Points", 
+  "hints": "Hints",
+  "play": "PLAY",
+  "dailyChallenge": "Daily Challenge",
+  "level": "Level {level}",
+  "@level": {
+    "description": "Current level number",
+    "placeholders": {
+      "level": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "watchAdForLives": "Watch ad for lives",
+  "watchAdForHints": "Watch ad for hints",
+  "moneyTime": "Money Time",
+  "completed": "Completed",
+  "gameOver": "Game Over",
+  "victory": "Victory!",
+  "nextLevel": "Next Level",
+  "retry": "Retry",
+  "back": "Back",
+  "settings": "Settings",
+  "help": "Help",
+  "about": "About",
+  "tiers": "Tiers",
+  "error": "Error: {error}",
+  "@error": {
+    "description": "Error message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "correctAnswer": "Correct answer!",
+  "correctAnswerWithName": "Correct answer!\n{name}",
+  "@correctAnswerWithName": {
+    "description": "Correct answer feedback with player name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "levelCompleted": "🎉 Level completed!",
+  "congratulations": "Congratulations! You found all the players.",
+  "hintPointsGained": "Hint points earned: +{points}",
+  "@hintPointsGained": {
+    "description": "Hint points earned message",
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "levelPointsGained": "Level points earned: +{points}",
+  "@levelPointsGained": {
+    "description": "Level points earned message",
+    "placeholders": {
+      "points": {
+        "type": "int"
+      }
+    }
+  },
+  "continueButton": "Continue",
+  "noLivesTitle": "You have exhausted all your lives 😔",
+  "nextLifeIn": "Next life in: {time}",
+  "@nextLifeIn": {
+    "description": "Time until next life",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "watchAdText": "Watch an ad",
+  "watchAdSubtext": "to get lives and continue!",
+  "watchAdButton": "Watch ad",
+  "debugRevealAnswers": "🐛 DEBUG: Answers\nrevealed",
+  "debugHideAnswers": "🐛 DEBUG: Answers\nhidden",
+  "debugLevelCompleted": "🐛 DEBUG: Level\ncompleted automatically",
+  "loadingAd": "Loading ad...",
+  "adUnavailableTitle": "❌ Ad unavailable",
+  "adUnavailableContent": "Cannot load ad. What do you want to do?",
+  "restart": "Restart",
+  "hideAnswers": "Hide answers",
+  "revealAnswers": "Reveal answers",
+  "skipLevel": "Skip level (DEBUG)",
+  "found": "Found: {found}/10",
+  "@found": {
+    "description": "Found answers count",
+    "placeholders": {
+      "found": {
+        "type": "int"
+      }
+    }
+  },
+  "alreadyCompleted": "Already completed",
+  "comingSoon": "Coming soon!",
+  "loading": "Loading...",
+  "adForLives": "Ad for +{count} lives",
+  "@adForLives": {
+    "description": "Ad button text for lives",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nextAdIn": "Next ad in {time}",
+  "@nextAdIn": {
+    "description": "Ad cooldown time",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "adNotAvailable": "Ad not available",
+  "livesGained": "You earned\n{count} lives!",
+  "@livesGained": {
+    "description": "Lives gained message",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "adNotAvailableTryLater": "Ad not available.\nTry again later.",
+  "adForHints": "Ad for +12 hints",
+  "adError": "Error viewing ad",
+  "hintsAdError": "Error loading\nhint ad.",
+  "dailyChallengeTitle": "Daily Challenge",
+  "comeTomorrowForNewChallenge": "Come back tomorrow for a new challenge!",
+  "levels": "Levels",
+  "progress": "Progress: {completed}/{total} levels",
+  "@progress": {
+    "description": "Progress indicator",
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "levelPosition": "Level {position}",
+  "@levelPosition": {
+    "description": "Level position in tier",
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "levelId": "ID: {id}",
+  "@levelId": {
+    "description": "Level identifier",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "difficultyVeryEasy": "Very Easy",
+  "difficultyEasy": "Easy",
+  "difficultyMedium": "Medium",
+  "difficultyHard": "Hard",
+  "difficultyVeryHard": "Very Hard",
+  "difficultyExpert": "Expert",
+  "difficultyMaster": "Master",
+  "difficultyLegend": "Legend",
+  "difficultyMythic": "Mythic",
+  "difficultyDivine": "Divine",
+  "noMoreLives": "No more lives!",
+  "noMoreLivesToPlay": "You have no more lives to play.",
+  "nextLifeIn": "Next life in:",
+  "livesRecoverAutomatically": "Lives recover automatically!",
+  "oneLifeEveryMinutes": "1 life every {minutes} minutes.",
+  "@oneLifeEveryMinutes": {
+    "description": "Life recovery time",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "watchAnAd": "Watch an ad",
+  "toGetLives": "to get lives!",
+  "close": "Close",
+  "livesAdded": "Lives added! Good game!",
+  "watchAnAdButton": "Watch an ad",
+  "typePlayerName": "Type a player's name...",
+  "hintPoints": "Hint Points",
+  "yourCurrentPoints": "Your current points",
+  "howToUse": "💡 How to use?",
+  "howToUseDescription": "Hold down on an empty slot to unlock a hint with your points.",
+  "hintCosts": "💰 Hint costs",
+  "descriptiveHint": "Descriptive hint",
+  "nameStructure": "Name structure",
+  "partialLetters": "Partial letters",
+  "getMorePoints": "🎯 Get more points",
+  "rewardedAd": "Rewarded ad",
+  "completeLevel": "Complete a level",
+  "accordingToDifficulty": "according to difficulty",
+  "understood": "Got it!",
+  "activationInProgress": "ACTIVATION IN PROGRESS",
+  "moneyTimeMinutes": "Money Time {duration} minutes",
+  "@moneyTimeMinutes": {
+    "description": "Money Time duration",
+    "placeholders": {
+      "duration": {
+        "type": "int"
+      }
+    }
+  },
+  "advertisement": "Advertisement",
+  "adsCompleted": "{current} of {total}",
+  "@adsCompleted": {
+    "description": "Ads completion status",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "completed": "completed",
+  "preparingFirstAd": "Preparing first ad...",
+  "loadingNextAd": "Loading next ad...",
+  "activatingMoneyTime": "Activating Money Time...",
+  "doNotLeaveScreen": "Do not leave the screen during activation!",
+  "stayOnPage": "Stay on this page while we prepare your Money Time",
+  "securedByMoneyTime": "Secured by Money Time",
+  "chooseDuration": "Choose your duration:",
+  "recommendedLabel": "Recommended",
+  "adsToWatch": "{count} ad{plural} to watch",
+  "@adsToWatch": {
+    "description": "Number of ads to watch",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "plural": {
+        "type": "String"
+      }
+    }
+  },
+  "duringMoneyTime": "During Money Time:",
+  "moneyTimeBenefits": "• You don't lose lives\n• You can continue playing normally\n• Points and hints are preserved",
+  "watchAdsButton": "WATCH THE ADS",
+  "launching": "Launching...",
+  "cancel": "Cancel",
+  "moneyTimeActive": "Money Time Active",
+  "timeRemaining": "Time remaining: {time}",
+  "@timeRemaining": {
+    "description": "Remaining time display",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "freeMoneyTime": "Free Money Time",
+  "newLabel": "NEW",
+  "thirtyMinWithoutAds": "30 min without ads!",
+  "playWithoutLosingLives": "Play without losing lives!",
+  "availableIn": "Available in {time}",
+  "@availableIn": {
+    "description": "Availability countdown",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "freeMoneyTimeTitle": "Free Money Time",
+  "enjoy30MinFree": "Enjoy 30 minutes of Money Time for free!",
+  "noLifeLossFor30Min": "🛡️ No life loss for 30 minutes",
+  "uniqueWelcomeOffer": "🎁 Unique welcome offer",
+  "immediateActivation": "⚡ Immediate activation, no ads",
+  "activateNowQuestion": "Do you want to activate your free Money Time now?",
+  "later": "Later",
+  "activate": "Activate!",
+  "freeMoneyTimeActivated": "Free Money Time activated!\n\n🛡️ You won't lose lives for 30 minutes.\n\nEnjoy!",
+  "cannotActivateFreeMoneyTime": "Cannot activate free Money Time.\n\nPlease try again.",
+  "errorActivatingMoneyTime": "Cannot activate Money Time.\n\nCheck your connection and try again.",
+  "errorOccurred": "An error occurred.\n\nTry again later.",
+  "moneyTimeFinished": "FINISHED",
+  "nextMoneyTimeIn": "Next Money Time\navailable in 4h"
+}

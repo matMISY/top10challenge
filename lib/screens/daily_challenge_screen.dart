@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class DailyChallengeScreen extends StatelessWidget {
   const DailyChallengeScreen({super.key});
@@ -7,7 +8,7 @@ class DailyChallengeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Défi Quotidien'),
+        title: Text(AppLocalizations.of(context)!.dailyChallengeTitle),
         backgroundColor: const Color(0xFF6B73FF),
         foregroundColor: Colors.white,
         elevation: 0,
@@ -23,30 +24,30 @@ class DailyChallengeScreen extends StatelessWidget {
             ],
           ),
         ),
-        child: const Center(
+        child: Center(
           child: Padding(
-            padding: EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(
+                const Icon(
                   Icons.calendar_today,
                   size: 80,
                   color: Colors.white70,
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Text(
-                  'Défi Quotidien',
-                  style: TextStyle(
+                  AppLocalizations.of(context)!.dailyChallengeTitle,
+                  style: const TextStyle(
                     color: Colors.white,
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                SizedBox(height: 16),
+                const SizedBox(height: 16),
                 Text(
-                  'Revenez demain pour un nouveau défi !',
-                  style: TextStyle(
+                  AppLocalizations.of(context)!.comeTomorrowForNewChallenge,
+                  style: const TextStyle(
                     color: Colors.white70,
                     fontSize: 16,
                   ),

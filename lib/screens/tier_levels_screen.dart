@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/game_provider.dart';
 import '../models/tier.dart';
 import '../models/level.dart';
@@ -149,7 +150,7 @@ class _TierLevelsContentState extends State<_TierLevelsContent> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Progression: $completedCount/$totalCount niveaux',
+                      AppLocalizations.of(context)!.progress(completedCount, totalCount),
                       style: const TextStyle(
                         fontSize: 14,
                         color: Colors.grey,
@@ -267,7 +268,7 @@ class _LevelCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Niveau ${level.positionInTier}',
+                      AppLocalizations.of(context)!.levelPosition(level.positionInTier),
                       style: const TextStyle(
                         color: Colors.white,
                         fontSize: 16,
@@ -276,7 +277,7 @@ class _LevelCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      'ID: ${level.id}',
+                      AppLocalizations.of(context)!.levelId(level.id.toString()),
                       style: TextStyle(
                         color: Colors.white.withValues(alpha: 0.8),
                         fontSize: 12,
@@ -291,7 +292,7 @@ class _LevelCard extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8),
                         ),
                         child: Text(
-                          _getDifficultyText(level.difficulty),
+                          _getDifficultyText(level.difficulty, context),
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 11,
@@ -347,30 +348,30 @@ class _LevelCard extends StatelessWidget {
     );
   }
 
-  String _getDifficultyText(int difficulty) {
+  String _getDifficultyText(int difficulty, BuildContext context) {
     switch (difficulty) {
       case 1:
-        return 'Très Facile';
+        return AppLocalizations.of(context)!.difficultyVeryEasy;
       case 2:
-        return 'Facile';
+        return AppLocalizations.of(context)!.difficultyEasy;
       case 3:
-        return 'Moyen';
+        return AppLocalizations.of(context)!.difficultyMedium;
       case 4:
-        return 'Difficile';
+        return AppLocalizations.of(context)!.difficultyHard;
       case 5:
-        return 'Très Difficile';
+        return AppLocalizations.of(context)!.difficultyVeryHard;
       case 6:
-        return 'Expert';
+        return AppLocalizations.of(context)!.difficultyExpert;
       case 7:
-        return 'Maître';
+        return AppLocalizations.of(context)!.difficultyMaster;
       case 8:
-        return 'Légende';
+        return AppLocalizations.of(context)!.difficultyLegend;
       case 9:
-        return 'Mythique';
+        return AppLocalizations.of(context)!.difficultyMythic;
       case 10:
-        return 'Divin';
+        return AppLocalizations.of(context)!.difficultyDivine;
       default:
-        return 'Expert';
+        return AppLocalizations.of(context)!.difficultyExpert;
     }
   }
 
@@ -382,27 +383,27 @@ class _LevelCard extends StatelessWidget {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Row(
+          title: Row(
             children: [
-              Icon(Icons.favorite, color: Colors.red),
-              SizedBox(width: 8),
-              Text('Plus de vies !'),
+              const Icon(Icons.favorite, color: Colors.red),
+              const SizedBox(width: 8),
+              Text(AppLocalizations.of(context)!.noMoreLives),
             ],
           ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Center(
+              Center(
                 child: Text(
-                  'Vous n\'avez plus de vies pour jouer.',
+                  AppLocalizations.of(context)!.noMoreLivesToPlay,
                   textAlign: TextAlign.center,
                 ),
               ),
               const SizedBox(height: 16),
               if (timeUntilNext != null) ...[
-                const Center(
+                Center(
                   child: Text(
-                    'Prochaine vie dans :',
+                    AppLocalizations.of(context)!.nextLifeIn(_formatDuration(timeUntilNext)),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -419,15 +420,15 @@ class _LevelCard extends StatelessWidget {
                   ),
                 ),
               ] else ...[
-                const Center(
+                Center(
                   child: Text(
-                    'Les vies se récupèrent automatiquement !',
+                    AppLocalizations.of(context)!.livesRecoverAutomatically,
                     textAlign: TextAlign.center,
                   ),
                 ),
                 Center(
                   child: Text(
-                    '1 vie toutes les ${GameState.lifeRecoveryDuration.inMinutes} minutes.',
+                    AppLocalizations.of(context)!.oneLifeEveryMinutes(GameState.lifeRecoveryDuration.inMinutes),
                     textAlign: TextAlign.center,
                   ),
                 ),
@@ -440,24 +441,24 @@ class _LevelCard extends StatelessWidget {
                     color: Colors.purple.withValues(alpha: 0.1),
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: const Row(
+                  child: Row(
                     children: [
-                      Icon(Icons.play_circle_filled, color: Colors.purple, size: 28),
-                      SizedBox(width: 12),
+                      const Icon(Icons.play_circle_filled, color: Colors.purple, size: 28),
+                      const SizedBox(width: 12),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Regardez une publicité',
-                              style: TextStyle(
+                              AppLocalizations.of(context)!.watchAnAd,
+                              style: const TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              'pour gagner des vies !',
-                              style: TextStyle(fontSize: 13),
+                              AppLocalizations.of(context)!.toGetLives,
+                              style: const TextStyle(fontSize: 13),
                             ),
                           ],
                         ),
@@ -471,7 +472,7 @@ class _LevelCard extends StatelessWidget {
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(),
-              child: const Text('Fermer'),
+              child: Text(AppLocalizations.of(context)!.close),
             ),
             if (canWatchAd) ...[
               ElevatedButton.icon(
@@ -480,8 +481,8 @@ class _LevelCard extends StatelessWidget {
                   final success = await gameProvider.watchAdForLife();
                   if (success && context.mounted) {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('Vies ajoutées ! Bon jeu !'),
+                      SnackBar(
+                        content: Text(AppLocalizations.of(context)!.livesAdded),
                         backgroundColor: Colors.green,
                       ),
                     );
@@ -493,7 +494,7 @@ class _LevelCard extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 ),
                 icon: const Icon(Icons.play_circle_filled, size: 20),
-                label: const Text('Regarder une pub'),
+                label: Text(AppLocalizations.of(context)!.watchAnAdButton),
               ),
             ],
           ],

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/game_provider.dart';
 
 class MoneyTimeProgressScreen extends StatefulWidget {
@@ -192,7 +193,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
               ),
               const SizedBox(height: 24),
               Text(
-                'ACTIVATION EN COURS',
+                AppLocalizations.of(context)!.activationInProgress,
                 style: GoogleFonts.bangers(
                   color: Colors.white,
                   fontSize: 28,
@@ -208,7 +209,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
               ),
               const SizedBox(height: 8),
               Text(
-                'Money Time ${widget.selectedDuration} minutes',
+                AppLocalizations.of(context)!.moneyTimeMinutes(widget.selectedDuration),
                 style: GoogleFonts.baloo2(
                   color: Colors.white.withValues(alpha: 0.9),
                   fontSize: 18,
@@ -277,7 +278,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'Publicité',
+                      AppLocalizations.of(context)!.advertisement,
                       style: GoogleFonts.baloo2(
                         color: Colors.white,
                         fontSize: 18,
@@ -286,7 +287,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '$currentAds sur ${widget.targetAds}',
+                      AppLocalizations.of(context)!.adsCompleted(currentAds, widget.targetAds),
                       style: GoogleFonts.robotoMono(
                         color: Colors.white,
                         fontSize: 32,
@@ -295,7 +296,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'terminée${currentAds > 1 ? 's' : ''}',
+                      AppLocalizations.of(context)!.completed(currentAds > 1 ? 's' : ''),
                       style: GoogleFonts.baloo2(
                         color: Colors.white.withValues(alpha: 0.8),
                         fontSize: 16,
@@ -428,7 +429,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
           const SizedBox(width: 12),
           Expanded(
             child: Text(
-              'Ne quittez pas l\'écran pendant l\'activation !',
+              AppLocalizations.of(context)!.doNotLeaveScreen,
               style: GoogleFonts.baloo2(
                 color: Colors.orange.shade200,
                 fontSize: 14,
@@ -445,7 +446,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
     return Column(
       children: [
         Text(
-          'Restez sur cette page pendant que nous préparons votre Money Time',
+          AppLocalizations.of(context)!.stayOnPage,
           style: GoogleFonts.baloo2(
             color: Colors.white.withValues(alpha: 0.7),
             fontSize: 14,
@@ -464,7 +465,7 @@ class _MoneyTimeProgressScreenState extends State<MoneyTimeProgressScreen>
             ),
             const SizedBox(width: 6),
             Text(
-              'Sécurisé par Money Time',
+              AppLocalizations.of(context)!.securedByMoneyTime,
               style: GoogleFonts.baloo2(
                 color: Colors.white.withValues(alpha: 0.5),
                 fontSize: 12,

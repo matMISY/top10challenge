@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/game_provider.dart';
 import '../models/tier.dart';
 import '../models/game_state.dart';
@@ -12,7 +13,7 @@ class TierSelectionScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Paliers'),
+        title: Text(AppLocalizations.of(context)!.tiers),
         backgroundColor: const Color(0xFF6B73FF),
         foregroundColor: Colors.white,
         elevation: 0,
@@ -45,7 +46,7 @@ class TierSelectionScreen extends StatelessWidget {
                 
                 if (snapshot.hasError) {
                   return Center(
-                    child: Text('Erreur: ${snapshot.error}'),
+                    child: Text(AppLocalizations.of(context)!.error(snapshot.error.toString())),
                   );
                 }
                 
