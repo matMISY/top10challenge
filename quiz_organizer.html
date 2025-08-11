@@ -68,6 +68,20 @@
             background: #2980b9;
         }
 
+        .config-input-label {
+            background: #9b59b6;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-size: 14px;
+        }
+
+        .config-input-label:hover {
+            background: #8e44ad;
+        }
+
         .search-box {
             padding: 10px;
             border: 2px solid #ddd;
@@ -97,6 +111,21 @@
 
         .export-btn:hover {
             background: #229954;
+        }
+
+        .auto-fill-btn {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .auto-fill-btn:hover {
+            background: #2980b9;
         }
 
         .stats {
@@ -208,6 +237,37 @@
         .quiz-card:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .quiz-card.in-tier {
+            position: relative;
+        }
+
+        .remove-btn {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+
+        .quiz-card.in-tier:hover .remove-btn {
+            display: flex;
+        }
+
+        .remove-btn:hover {
+            background: #c0392b;
         }
 
         .quiz-card.dragging {
@@ -340,6 +400,10 @@
                     <input type="file" id="fileInput" class="file-input" multiple accept=".json">
                     <label for="fileInput" class="file-input-label">Load Quiz Files</label>
                 </div>
+                <div class="file-input-wrapper">
+                    <input type="file" id="configInput" class="file-input" accept=".json">
+                    <label for="configInput" class="config-input-label">Load Config</label>
+                </div>
                 <input type="text" id="searchBox" class="search-box" placeholder="Search quizzes...">
                 <select id="difficultyFilter" class="filter-select">
                     <option value="">All Difficulties</option>
@@ -354,6 +418,7 @@
                     <option value="">All Themes</option>
                 </select>
                 <button id="exportBtn" class="export-btn">Export Configuration</button>
+                <button id="autoFillBtn" class="auto-fill-btn">Auto-Fill</button>
                 <button id="clearBtn" class="clear-btn">Clear All</button>
             </div>
         </div>
@@ -412,10 +477,12 @@
 
             initializeEventListeners() {
                 document.getElementById('fileInput').addEventListener('change', this.handleFileLoad.bind(this));
+                document.getElementById('configInput').addEventListener('change', this.handleConfigLoad.bind(this));
                 document.getElementById('searchBox').addEventListener('input', this.handleSearch.bind(this));
                 document.getElementById('difficultyFilter').addEventListener('change', this.handleFilter.bind(this));
                 document.getElementById('themeFilter').addEventListener('change', this.handleFilter.bind(this));
                 document.getElementById('exportBtn').addEventListener('click', this.exportConfiguration.bind(this));
+                document.getElementById('autoFillBtn').addEventListener('click', this.autoFill.bind(this));
                 document.getElementById('clearBtn').addEventListener('click', this.clearAll.bind(this));
             }
 
@@ -440,10 +507,12 @@
                     this.quizzes = loadedQuizzes.map((quiz, index) => ({
                         ...quiz,
                         internalId: `quiz_${index}`, // Unique ID for drag & drop
-                        originalId: quiz.id // Keep original ID for export
+                        originalId: quiz.id, // Keep original ID for export
+                        uniqueId: `${quiz.id}_${index}` // Unique ID based on ID + index position
                     }));
                     
                     this.extractThemes();
+                    this.applyFilters(); // Initialize filteredQuizzes
                     this.renderQuizPool();
                     this.updateStats();
                     this.showNotification(`Loaded ${this.quizzes.length} quizzes from ${files.length} files`);
@@ -452,6 +521,109 @@
                     this.showNotification('Error loading files: ' + error.message, true);
                 } finally {
                     document.getElementById('loading').style.display = 'none';
+                }
+            }
+
+            async handleConfigLoad(event) {
+                const file = event.target.files[0];
+                if (!file) return;
+
+                if (this.quizzes.length === 0) {
+                    this.showNotification('Please load quiz files first before loading configuration', true);
+                    event.target.value = '';
+                    return;
+                }
+
+                try {
+                    const text = await this.readFile(file);
+                    const config = JSON.parse(text);
+                    
+                    if (!config.quiz_order || !Array.isArray(config.quiz_order)) {
+                        throw new Error('Invalid configuration format. Expected quiz_order array.');
+                    }
+
+                    await this.applyConfiguration(config);
+                    this.showNotification(`Loaded configuration with ${config.quiz_order.length} quiz assignments`);
+                    
+                } catch (error) {
+                    this.showNotification('Error loading configuration: ' + error.message, true);
+                } finally {
+                    event.target.value = '';
+                }
+            }
+
+            async applyConfiguration(config) {
+                // Clear existing assignments
+                this.tiers.forEach(tier => tier.quizzes = []);
+                
+                // Debug: Check what IDs we have
+                console.log('Quiz unique IDs available:', this.quizzes.map(q => q.uniqueId));
+                console.log('Config wants:', config.quiz_order.map(c => c.quiz_id));
+                
+                // Create a map of unique quiz IDs to quiz objects
+                const quizMap = new Map();
+                this.quizzes.forEach(quiz => {
+                    quizMap.set(quiz.uniqueId, quiz);
+                });
+                
+                console.log('Quiz map size:', quizMap.size, 'vs quizzes length:', this.quizzes.length);
+                
+                // Group assignments by tier
+                const tierAssignments = new Map();
+                let foundCount = 0;
+                let notFoundCount = 0;
+                
+                config.quiz_order.forEach(assignment => {
+                    const quiz = quizMap.get(assignment.quiz_id);
+                    if (quiz) {
+                        foundCount++;
+                        if (!tierAssignments.has(assignment.tier)) {
+                            tierAssignments.set(assignment.tier, []);
+                        }
+                        tierAssignments.get(assignment.tier).push({
+                            quiz: quiz,
+                            position: assignment.position
+                        });
+                    } else {
+                        notFoundCount++;
+                        console.warn(`Quiz with ID ${assignment.quiz_id} not found in loaded quizzes`);
+                    }
+                });
+                
+                console.log(`Config matching: ${foundCount} found, ${notFoundCount} not found`);
+                
+                // Apply assignments to tiers
+                tierAssignments.forEach((assignments, tierId) => {
+                    // Sort by position
+                    assignments.sort((a, b) => a.position - b.position);
+                    
+                    if (tierId > 0 && tierId <= this.tiers.length) {
+                        const tier = this.tiers[tierId - 1];
+                        tier.quizzes = assignments.map(assignment => assignment.quiz);
+                        
+                        // Limit to 5 quizzes per tier
+                        if (tier.quizzes.length > 5) {
+                            tier.quizzes = tier.quizzes.slice(0, 5);
+                            console.warn(`Tier ${tierId} had more than 5 quizzes, limited to first 5`);
+                        }
+                    }
+                });
+                
+                // Update UI
+                this.applyFilters(); // Reset filters and update filteredQuizzes
+                this.renderTiers();
+                this.renderQuizPool();
+                this.updateStats();
+                
+                // Show statistics
+                const totalAssigned = config.quiz_order.length;
+                const matchedQuizzes = Array.from(tierAssignments.values()).flat().length;
+                
+                if (matchedQuizzes < totalAssigned) {
+                    this.showNotification(
+                        `Configuration applied: ${matchedQuizzes}/${totalAssigned} quizzes matched`,
+                        matchedQuizzes === 0
+                    );
                 }
             }
 
@@ -512,9 +684,17 @@
                 pool.innerHTML = '';
 
                 const unassignedQuizzes = this.getUnassignedQuizzes();
-                const quizzesToShow = this.filteredQuizzes.length > 0 ? this.filteredQuizzes.filter(quiz => 
-                    unassignedQuizzes.some(uq => uq.id === quiz.id)
-                ) : unassignedQuizzes;
+                
+                // Check if any filters are active
+                const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+                const difficultyFilter = document.getElementById('difficultyFilter').value;
+                const themeFilter = document.getElementById('themeFilter').value;
+                const hasActiveFilters = searchTerm || difficultyFilter || themeFilter;
+                
+                // If filters are active, show filtered unassigned quizzes, otherwise show all unassigned
+                const quizzesToShow = hasActiveFilters ? 
+                    this.filteredQuizzes.filter(quiz => unassignedQuizzes.some(uq => uq.internalId === quiz.internalId)) :
+                    unassignedQuizzes;
 
                 quizzesToShow.forEach(quiz => {
                     const card = this.createQuizCard(quiz);
@@ -568,6 +748,37 @@
                 return card;
             }
 
+            createTierQuizCard(quiz, tierId, position) {
+                const card = document.createElement('div');
+                card.className = 'quiz-card in-tier';
+                card.draggable = true;
+                card.dataset.quizId = quiz.internalId;
+                card.dataset.tierId = tierId;
+                card.dataset.position = position;
+
+                const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+                if (searchTerm && quiz.title.toLowerCase().includes(searchTerm)) {
+                    card.classList.add('highlight');
+                }
+
+                // Ensure difficulty is a valid number between 1-6, default to 1 if missing
+                const difficulty = quiz.difficulty && !isNaN(quiz.difficulty) && quiz.difficulty >= 1 && quiz.difficulty <= 6 ? quiz.difficulty : 1;
+                
+                card.innerHTML = `
+                    <div class="quiz-title">${quiz.title}</div>
+                    <div class="quiz-meta">
+                        <span class="difficulty-badge difficulty-${difficulty}">${difficulty}</span>
+                        <span>${quiz.theme || 'No theme'}</span>
+                    </div>
+                    <button class="remove-btn" onclick="event.preventDefault(); event.stopPropagation(); quizOrganizer.removeQuizFromTier('${quiz.internalId}', ${tierId})">×</button>
+                `;
+
+                card.addEventListener('dragstart', this.handleTierDragStart.bind(this));
+                card.addEventListener('dragend', this.handleDragEnd.bind(this));
+
+                return card;
+            }
+
             renderTiers() {
                 const tiersGrid = document.getElementById('tiersGrid');
                 tiersGrid.innerHTML = '';
@@ -585,19 +796,38 @@
                     slots.className = 'tier-slots';
 
                     // Add existing quizzes
-                    tier.quizzes.forEach(quiz => {
-                        const card = this.createQuizCard(quiz);
+                    tier.quizzes.forEach((quiz, index) => {
+                        const card = this.createTierQuizCard(quiz, tier.id, index);
                         slots.appendChild(card);
                     });
 
-                    // Add empty slots
+                    // Add empty slots with drop functionality
                     const emptySlots = 5 - tier.quizzes.length;
                     for (let i = 0; i < emptySlots; i++) {
                         const emptySlot = document.createElement('div');
                         emptySlot.className = 'empty-slot';
                         emptySlot.textContent = 'Drop quiz here';
+                        emptySlot.dataset.tierId = tier.id;
+                        emptySlot.dataset.position = tier.quizzes.length + i;
+                        
+                        // Add drop event listeners to empty slots
+                        emptySlot.addEventListener('dragover', this.handleDragOver.bind(this));
+                        emptySlot.addEventListener('drop', this.handleSlotDrop.bind(this));
+                        emptySlot.addEventListener('dragenter', (e) => {
+                            e.preventDefault();
+                            emptySlot.style.backgroundColor = '#ebf3fd';
+                        });
+                        emptySlot.addEventListener('dragleave', (e) => {
+                            e.preventDefault();
+                            emptySlot.style.backgroundColor = '';
+                        });
+                        
                         slots.appendChild(emptySlot);
                     }
+
+                    // Add drop listeners to the slots container for internal reordering
+                    slots.addEventListener('dragover', this.handleDragOver.bind(this));
+                    slots.addEventListener('drop', this.handleInternalDrop.bind(this));
 
                     tierElement.appendChild(header);
                     tierElement.appendChild(slots);
@@ -614,13 +844,80 @@
 
             handleDragStart(e) {
                 const quizId = e.target.dataset.quizId;
-                console.log('Dragging quiz with ID:', quizId); // Debug
                 e.dataTransfer.setData('text/plain', quizId);
                 e.target.classList.add('dragging');
             }
 
             handleDragEnd(e) {
                 e.target.classList.remove('dragging');
+            }
+
+            handleTierDragStart(e) {
+                const quizId = e.target.dataset.quizId;
+                const tierId = e.target.dataset.tierId;
+                const position = e.target.dataset.position;
+                
+                e.dataTransfer.setData('text/plain', JSON.stringify({
+                    quizId: quizId,
+                    sourceTierId: tierId,
+                    sourcePosition: position,
+                    type: 'tier-quiz'
+                }));
+                e.target.classList.add('dragging');
+            }
+
+            handleSlotDrop(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const targetTierId = parseInt(e.target.dataset.tierId);
+                const targetPosition = parseInt(e.target.dataset.position);
+                
+                try {
+                    const dragData = JSON.parse(e.dataTransfer.getData('text/plain'));
+                    
+                    if (dragData.type === 'tier-quiz') {
+                        // Moving within or between tiers
+                        this.moveQuizInTier(dragData.quizId, dragData.sourceTierId, targetTierId, targetPosition);
+                    } else {
+                        // Regular drop from pool
+                        const quizId = e.dataTransfer.getData('text/plain');
+                        this.moveQuizToTier(quizId, targetTierId);
+                    }
+                } catch (error) {
+                    // Fallback for regular drops
+                    const quizId = e.dataTransfer.getData('text/plain');
+                    this.moveQuizToTier(quizId, targetTierId);
+                }
+                
+                e.target.style.backgroundColor = '';
+            }
+
+            handleInternalDrop(e) {
+                e.preventDefault();
+                
+                // Find the target quiz card or slot
+                const target = e.target.closest('.quiz-card.in-tier') || e.target.closest('.empty-slot');
+                if (!target) return;
+                
+                const targetTierId = parseInt(target.dataset.tierId);
+                let targetPosition;
+                
+                if (target.classList.contains('quiz-card')) {
+                    targetPosition = parseInt(target.dataset.position);
+                } else {
+                    targetPosition = parseInt(target.dataset.position);
+                }
+                
+                try {
+                    const dragData = JSON.parse(e.dataTransfer.getData('text/plain'));
+                    
+                    if (dragData.type === 'tier-quiz') {
+                        this.moveQuizInTier(dragData.quizId, dragData.sourceTierId, targetTierId, targetPosition);
+                    }
+                } catch (error) {
+                    // Ignore non-tier drags
+                }
             }
 
             handleDragOver(e) {
@@ -645,16 +942,13 @@
                 const tier = e.target.classList.contains('tier') ? e.target : e.target.closest('.tier');
                 tier.classList.remove('drop-zone');
 
-                const quizId = e.dataTransfer.getData('text/plain'); // Don't parse as int since it's now a string
+                const quizId = e.dataTransfer.getData('text/plain');
                 const tierId = parseInt(tier.dataset.tierId);
                 
-                console.log('Dropping quiz ID:', quizId, 'into tier:', tierId); // Debug
                 this.moveQuizToTier(quizId, tierId);
             }
 
             moveQuizToTier(quizId, tierId) {
-                console.log('moveQuizToTier called with:', quizId, tierId); // Debug
-                
                 // Remove quiz from current location
                 this.tiers.forEach(tier => {
                     tier.quizzes = tier.quizzes.filter(quiz => quiz.internalId !== quizId);
@@ -662,7 +956,6 @@
 
                 // Find the quiz using internalId
                 const quiz = this.quizzes.find(q => q.internalId === quizId);
-                console.log('Found quiz:', quiz ? quiz.title : 'NOT FOUND'); // Debug
                 if (!quiz) return;
 
                 // Add to new tier if not full
@@ -674,6 +967,56 @@
                     this.updateStats();
                 } else {
                     this.showNotification('Tier is full (5 quizzes maximum)', true);
+                }
+            }
+
+            moveQuizInTier(quizId, sourceTierId, targetTierId, targetPosition) {
+                const sourceQuiz = this.findQuizInTiers(quizId);
+                if (!sourceQuiz) return;
+
+                // Remove from source tier
+                this.tiers.forEach(tier => {
+                    tier.quizzes = tier.quizzes.filter(quiz => quiz.internalId !== quizId);
+                });
+
+                // Add to target tier at specific position
+                const targetTier = this.tiers[targetTierId - 1];
+                if (targetTier) {
+                    // Insert at specific position, or at end if position is beyond array
+                    if (targetPosition < targetTier.quizzes.length) {
+                        targetTier.quizzes.splice(targetPosition, 0, sourceQuiz);
+                    } else {
+                        targetTier.quizzes.push(sourceQuiz);
+                    }
+                    
+                    // Ensure we don't exceed 5 quizzes per tier
+                    if (targetTier.quizzes.length > 5) {
+                        targetTier.quizzes = targetTier.quizzes.slice(0, 5);
+                        this.showNotification('Tier is limited to 5 quizzes maximum', true);
+                    }
+                }
+
+                this.renderTiers();
+                this.renderQuizPool();
+                this.updateStats();
+            }
+
+            findQuizInTiers(quizId) {
+                for (const tier of this.tiers) {
+                    const quiz = tier.quizzes.find(q => q.internalId === quizId);
+                    if (quiz) return quiz;
+                }
+                return null;
+            }
+
+            removeQuizFromTier(quizId, tierId) {
+                const tier = this.tiers[tierId - 1];
+                if (tier) {
+                    tier.quizzes = tier.quizzes.filter(quiz => quiz.internalId !== quizId);
+                    this.renderTiers();
+                    this.renderQuizPool();
+                    this.updateStats();
+                    this.showNotification('Quiz removed from tier');
                 }
             }
 
@@ -695,7 +1038,8 @@
                 this.tiers.forEach((tier, tierIndex) => {
                     tier.quizzes.forEach((quiz, position) => {
                         quizOrder.push({
-                            quiz_id: quiz.originalId, // Use original ID for export
+                            quiz_id: quiz.uniqueId, // Use unique ID to handle duplicates
+                            original_id: quiz.originalId, // Keep original ID for reference
                             title: quiz.title,
                             tier: tierIndex + 1,
                             position: position + 1,
@@ -720,6 +1064,133 @@
                 this.showNotification(`Exported configuration with ${quizOrder.length} quiz assignments`);
             }
 
+            autoFill() {
+                if (this.quizzes.length === 0) {
+                    this.showNotification('Please load quiz files first', true);
+                    return;
+                }
+
+                if (confirm('Auto-fill all tiers with intelligent difficulty distribution?\nThis will clear existing assignments.')) {
+                    // Clear existing assignments
+                    this.tiers.forEach(tier => tier.quizzes = []);
+                    
+                    // Get all available quizzes
+                    const availableQuizzes = [...this.quizzes];
+                    
+                    // Sort quizzes by difficulty (easier first) for initial distribution
+                    availableQuizzes.sort((a, b) => (a.difficulty || 1) - (b.difficulty || 1));
+                    
+                    // Fill each tier
+                    for (let tierIndex = 0; tierIndex < this.tiers.length; tierIndex++) {
+                        if (availableQuizzes.length === 0) break;
+                        
+                        const tier = this.tiers[tierIndex];
+                        const tierQuizzes = this.selectQuizzesForTier(availableQuizzes, tierIndex, 5);
+                        
+                        // Remove selected quizzes from available pool
+                        tierQuizzes.forEach(selectedQuiz => {
+                            const index = availableQuizzes.findIndex(q => q.internalId === selectedQuiz.internalId);
+                            if (index !== -1) availableQuizzes.splice(index, 1);
+                        });
+                        
+                        tier.quizzes = tierQuizzes;
+                    }
+                    
+                    this.renderTiers();
+                    this.renderQuizPool();
+                    this.updateStats();
+                    this.showNotification(`Auto-filled ${this.tiers.length} tiers with smart difficulty distribution`);
+                }
+            }
+
+            selectQuizzesForTier(availableQuizzes, tierIndex, count) {
+                if (availableQuizzes.length === 0) return [];
+                
+                // Calculate tier difficulty progression (1-6 scale)
+                const totalTiers = 96;
+                const progressRatio = tierIndex / totalTiers;
+                
+                // Define difficulty ranges based on tier progression
+                let preferredDifficulties, maxDifficultyForTier;
+                if (progressRatio <= 0.2) {
+                    // First 20% of tiers (1-19): prefer difficulty 1-2
+                    preferredDifficulties = [1, 2];
+                    maxDifficultyForTier = 2;
+                } else if (progressRatio <= 0.4) {
+                    // Next 20% (20-38): prefer difficulty 2-3
+                    preferredDifficulties = [2, 3];
+                    maxDifficultyForTier = 3;
+                } else if (progressRatio <= 0.6) {
+                    // Next 20% (39-57): prefer difficulty 3-4
+                    preferredDifficulties = [3, 4];
+                    maxDifficultyForTier = 4;
+                } else if (progressRatio <= 0.8) {
+                    // Next 20% (58-76): prefer difficulty 4-5
+                    preferredDifficulties = [4, 5];
+                    maxDifficultyForTier = 5;
+                } else {
+                    // Last 20% (77-96): prefer difficulty 5-6
+                    preferredDifficulties = [5, 6];
+                    maxDifficultyForTier = 6;
+                }
+                
+                const selectedQuizzes = [];
+                const remainingQuizzes = [...availableQuizzes];
+                
+                // First, select 4 quizzes preferring easier difficulties
+                for (let i = 0; i < Math.min(count - 1, remainingQuizzes.length); i++) {
+                    let selectedQuiz = null;
+                    
+                    // Try to find a quiz with preferred difficulty
+                    const preferredQuizzes = remainingQuizzes.filter(q => 
+                        preferredDifficulties.includes(q.difficulty || 1)
+                    );
+                    
+                    if (preferredQuizzes.length > 0) {
+                        // Randomly select from preferred quizzes
+                        const randomIndex = Math.floor(Math.random() * preferredQuizzes.length);
+                        selectedQuiz = preferredQuizzes[randomIndex];
+                    } else {
+                        // If no preferred quizzes available, pick any available quiz
+                        const randomIndex = Math.floor(Math.random() * remainingQuizzes.length);
+                        selectedQuiz = remainingQuizzes[randomIndex];
+                    }
+                    
+                    if (selectedQuiz) {
+                        selectedQuizzes.push(selectedQuiz);
+                        const index = remainingQuizzes.findIndex(q => q.internalId === selectedQuiz.internalId);
+                        remainingQuizzes.splice(index, 1);
+                    }
+                }
+                
+                // For the 5th quiz (boss level), ensure it has appropriate difficulty
+                if (remainingQuizzes.length > 0 && selectedQuizzes.length < count) {
+                    // Find quizzes with difficulty >= maxDifficultyForTier for the boss position
+                    const bossQuizzes = remainingQuizzes.filter(q => 
+                        (q.difficulty || 1) >= maxDifficultyForTier
+                    );
+                    
+                    let bossQuiz = null;
+                    if (bossQuizzes.length > 0) {
+                        // Randomly select from appropriate boss quizzes
+                        const randomIndex = Math.floor(Math.random() * bossQuizzes.length);
+                        bossQuiz = bossQuizzes[randomIndex];
+                    } else {
+                        // If no appropriate boss quiz, pick the hardest available
+                        const sortedByDifficulty = remainingQuizzes.sort((a, b) => 
+                            (b.difficulty || 1) - (a.difficulty || 1)
+                        );
+                        bossQuiz = sortedByDifficulty[0];
+                    }
+                    
+                    if (bossQuiz) {
+                        selectedQuizzes.push(bossQuiz);
+                    }
+                }
+                
+                return selectedQuizzes;
+            }
+
             clearAll() {
                 if (confirm('Are you sure you want to clear all tier assignments?')) {
                     this.tiers.forEach(tier => tier.quizzes = []);
@@ -742,8 +1213,9 @@
         }
 
         // Initialize the application
+        let quizOrganizer;
         document.addEventListener('DOMContentLoaded', () => {
-            new QuizOrganizer();
+            quizOrganizer = new QuizOrganizer();
         });
     </script>
 </body>
