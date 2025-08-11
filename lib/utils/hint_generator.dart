@@ -7,19 +7,19 @@ class HintGenerator {
       case 1:
         return HintData(
           level: 1,
-          hint: answer.hint.isEmpty ? null : answer.hint,
+          hint: answer.hint.isEmpty ? _generateInitials(answer.name) : answer.hint,
           structure: null,
         );
       case 2:
         return HintData(
           level: 2,
-          hint: answer.hint.isEmpty ? null : answer.hint,
+          hint: answer.hint.isEmpty ? _generateInitials(answer.name) : answer.hint,
           structure: _generateNameStructure(answer.name),
         );
       case 3:
         return HintData(
           level: 3,
-          hint: answer.hint.isEmpty ? null : answer.hint,
+          hint: answer.hint.isEmpty ? _generateInitials(answer.name) : answer.hint,
           structure: _generatePartialLetters(answer.name),
         );
       default:
@@ -29,6 +29,15 @@ class HintGenerator {
           structure: null,
         );
     }
+  }
+  
+  /// Génère les initiales d'un nom (ex: "Kylian Mbappé" -> "K.M.")
+  static String _generateInitials(String name) {
+    return name
+        .split(' ')
+        .where((word) => word.isNotEmpty)
+        .map((word) => word[0].toUpperCase())
+        .join('.');
   }
   
   /// Génère la structure du nom (underscores, plus compact)

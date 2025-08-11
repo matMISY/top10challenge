@@ -548,14 +548,14 @@ class _GameScreenState extends State<GameScreen> {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              const SizedBox(height: 8),
-                              Text(
-                                widget.level.hint,
-                                style: GoogleFonts.baloo2(
-                                  color: Colors.white70,
-                                  fontSize: 17,
-                                ),
-                              ),
+                              // const SizedBox(height: 8),
+                              // Text(
+                              //   widget.level.hint,
+                              //   style: GoogleFonts.baloo2(
+                              //     color: Colors.white70,
+                              //     fontSize: 17,
+                              //   ),
+                              // ),
                             ],
                           ),
                         ),
