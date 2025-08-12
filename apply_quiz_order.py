@@ -164,27 +164,37 @@ class QuizOrderApplicator:
                           original_quizzes: Dict[int, Dict[str, Any]]) -> Tuple[bool, List[str]]:
         """Validate that the quiz order configuration is complete and correct."""
         errors = []
+        warnings = []
         
-        # Check for missing quizzes in configuration
-        # Use original_id to match with source files
-        configured_ids = {quiz['original_id'] for quiz in quiz_order if 'original_id' in quiz}
+        # Check that all configured quizzes reference valid original IDs
+        configured_original_ids = {quiz['original_id'] for quiz in quiz_order if 'original_id' in quiz}
         original_ids = set(original_quizzes.keys())
         
-        missing_in_config = original_ids - configured_ids
-        extra_in_config = configured_ids - original_ids
+        # Find any original IDs that are referenced but don't exist in source files
+        missing_originals = configured_original_ids - original_ids
+        if missing_originals:
+            errors.append(f"Configuration references non-existent original IDs: {sorted(missing_originals)}")
         
-        if missing_in_config:
-            errors.append(f"Missing quiz IDs in configuration: {sorted(missing_in_config)}")
-            
-        if extra_in_config:
-            errors.append(f"Extra quiz IDs in configuration (not found in original files): {sorted(extra_in_config)}")
+        # Check if we have 480 quizzes total (expected for 96 tiers × 5 quizzes each)
+        expected_total = 480
+        actual_total = len(quiz_order)
+        if actual_total != expected_total:
+            warnings.append(f"Expected {expected_total} quizzes but got {actual_total}")
         
-        # Check for duplicate quiz IDs in configuration
-        quiz_ids = [quiz['quiz_id'] for quiz in quiz_order]
-        id_counts = Counter(quiz_ids)
-        duplicates = {quiz_id: count for quiz_id, count in id_counts.items() if count > 1}
-        if duplicates:
-            errors.append(f"Duplicate quiz IDs in configuration: {duplicates}")
+        # Check for tier completeness (should have 96 tiers with 5 quizzes each)
+        tier_counts = defaultdict(int)
+        for quiz in quiz_order:
+            tier_counts[quiz['tier']] += 1
+        
+        expected_tiers = 96
+        actual_tiers = len(tier_counts)
+        if actual_tiers != expected_tiers:
+            warnings.append(f"Expected {expected_tiers} tiers but got {actual_tiers}")
+        
+        # Check that each tier has exactly 5 quizzes
+        incomplete_tiers = [(tier, count) for tier, count in tier_counts.items() if count != 5]
+        if incomplete_tiers:
+            warnings.append(f"Tiers without exactly 5 quizzes: {incomplete_tiers[:10]}...")  # Show first 10
         
         # Check for missing required fields
         required_fields = ['title', 'tier', 'position']
@@ -197,6 +207,10 @@ class QuizOrderApplicator:
             if missing_fields:
                 errors.append(f"Quiz at index {i} missing required fields: {missing_fields}")
         
+        # Print warnings (but don't treat as errors)
+        for warning in warnings:
+            print(f"⚠️  Warning: {warning}")
+        
         return len(errors) == 0, errors
     
     def create_ordered_quiz_data(self, quiz_order: List[Dict[str, Any]], 
@@ -204,20 +218,27 @@ class QuizOrderApplicator:
         """Create the final ordered quiz data structure."""
         
         ordered_quizzes = []
-        seen_ids = set()  # Track IDs we've already processed
         
-        for config_quiz in quiz_order:
+        for i, config_quiz in enumerate(quiz_order):
             original_id = config_quiz['original_id']
             
-            # Skip duplicates - only take the first occurrence of each original ID
-            if original_id in seen_ids:
+            # Get the original quiz data
+            if original_id not in original_quizzes:
+                print(f"⚠️  Warning: Quiz with original_id {original_id} not found in source files")
                 continue
-            seen_ids.add(original_id)
-            
+                
             original_quiz = original_quizzes[original_id]
             
             # Create the ordered quiz, preserving all original data
             ordered_quiz = original_quiz.copy()
+            
+            # Use the configured quiz_id (which includes the unique identifier)
+            # or generate a new sequential ID
+            if 'quiz_id' in config_quiz and isinstance(config_quiz['quiz_id'], str):
+                # Extract numeric part from quiz_id like "1_343" -> use position index instead
+                ordered_quiz['id'] = i + 1  # Sequential ID starting from 1
+            else:
+                ordered_quiz['id'] = config_quiz.get('quiz_id', i + 1)
             
             # Update with tier and position information from configuration
             ordered_quiz.update({
