@@ -162,6 +162,12 @@ class DataLoaderService {
 
   /// Charge la configuration des paliers
   static Future<List<Tier>> loadTiers() async {
+    // Si l'ordre personnalisé est activé, générer les tiers dynamiquement
+    if (useCustomOrder) {
+      return await _loadCustomTiers();
+    }
+    
+    // Sinon, utiliser la configuration statique des paliers
     try {
       final String jsonString = await rootBundle.loadString('assets/data/tiers_config.json');
       final Map<String, dynamic> data = jsonDecode(jsonString);
@@ -175,6 +181,10 @@ class DataLoaderService {
         final minLevel = (tierId - 1) * 5 + 1;
         final maxLevel = tierId * 5;
         
+        // Calculer le coût de déblocage basé sur les difficultés
+        final List<int> difficulties = List<int>.from(tierConfig['difficulties']);
+        final int calculatedUnlockCost = calculateTierUnlockCost(tierId, difficulties);
+
         final tier = Tier(
           id: tierId,
           name: tierConfig['name'],
@@ -184,7 +194,7 @@ class DataLoaderService {
           isCompleted: false,
           minLevel: minLevel,
           maxLevel: maxLevel,
-          unlockCost: tierConfig['unlockCost'],
+          unlockCost: calculatedUnlockCost, // Utiliser le coût calculé dynamiquement
         );
         
         tiers.add(tier);
@@ -197,8 +207,97 @@ class DataLoaderService {
     }
   }
 
+  /// Charge les tiers dynamiquement pour l'ordre personnalisé
+  static Future<List<Tier>> _loadCustomTiers() async {
+    try {
+      final String jsonString = await rootBundle.loadString('data/quiz_custom_order.json');
+      final Map<String, dynamic> data = jsonDecode(jsonString);
+      
+      if (!data.containsKey('custom_order_applied') || !data['custom_order_applied']) {
+        debugPrint('Custom order not applied, falling back to static tiers');
+        return _getDefaultTiers();
+      }
+      
+      final List<dynamic> quizzes = data['quizzes'] as List<dynamic>;
+      
+      // Calculer les difficultés par tier à partir des quiz
+      Map<int, List<int>> tierDifficulties = {};
+      for (final quiz in quizzes) {
+        final tierId = quiz['tier_id'] as int;
+        final difficulty = quiz['difficulty'] as int;
+        
+        if (!tierDifficulties.containsKey(tierId)) {
+          tierDifficulties[tierId] = [];
+        }
+        tierDifficulties[tierId]!.add(difficulty);
+      }
+      
+      // Créer les tiers dynamiquement
+      // D'abord, récupérer les IDs de niveaux par tier
+      Map<int, List<int>> tierLevelIds = {};
+      for (final quiz in quizzes) {
+        final tierId = quiz['tier_id'] as int;
+        final quizId = quiz['id'] as int;
+        
+        if (!tierLevelIds.containsKey(tierId)) {
+          tierLevelIds[tierId] = [];
+        }
+        tierLevelIds[tierId]!.add(quizId);
+      }
+      
+      List<Tier> tiers = [];
+      final sortedTierIds = tierDifficulties.keys.toList()..sort();
+      
+      for (final tierId in sortedTierIds) {
+        final difficulties = tierDifficulties[tierId]!;
+        final int calculatedUnlockCost = calculateTierUnlockCost(tierId, difficulties);
+        final levelIds = tierLevelIds[tierId] ?? [];
+        
+        final tier = Tier(
+          id: tierId,
+          name: 'Palier $tierId',
+          description: _getCustomTierDescription(tierId, difficulties),
+          levelIds: levelIds, // Utiliser les vrais IDs des niveaux
+          isUnlocked: tierId == 1,
+          isCompleted: false,
+          minLevel: (tierId - 1) * 5 + 1,
+          maxLevel: tierId * 5,
+          unlockCost: calculatedUnlockCost,
+        );
+        
+        tiers.add(tier);
+      }
+      
+      debugPrint('Generated ${tiers.length} dynamic tiers for custom order');
+      return tiers;
+    } catch (e) {
+      debugPrint('Error loading custom tiers: $e');
+      return _getDefaultTiers();
+    }
+  }
+
+  /// Génère une description pour un tier personnalisé
+  static String _getCustomTierDescription(int tierId, List<int> difficulties) {
+    final avgDifficulty = difficulties.fold(0, (sum, diff) => sum + diff) / difficulties.length;
+    if (avgDifficulty <= 1.5) {
+      return 'Niveaux faciles';
+    } else if (avgDifficulty <= 2.5) {
+      return 'Niveaux moyens';
+    } else if (avgDifficulty <= 3.5) {
+      return 'Niveaux difficiles';
+    } else {
+      return 'Niveaux très difficiles';
+    }
+  }
+
   /// Charge tous les quiz et les organise en paliers selon la difficulté
   static Future<List<Level>> loadAllQuizzesWithTiers() async {
+    final result = await loadAllQuizzesWithTiersAndUpdate();
+    return result['levels'] as List<Level>;
+  }
+
+  /// Charge tous les quiz et retourne à la fois les niveaux et les tiers mis à jour
+  static Future<Map<String, dynamic>> loadAllQuizzesWithTiersAndUpdate() async {
     final tiers = await loadTiers();
     
     // Essayer de charger l'ordre personnalisé en premier
@@ -222,8 +321,10 @@ class DataLoaderService {
     
     // Si on utilise l'ordre personnalisé et qu'il a été chargé avec succès
     if (useCustomOrder && allLevels.isNotEmpty && allLevels.any((level) => level.tierId > 1)) {
-      // Les niveaux ont déjà les bonnes assignations tier/position, juste mettre à jour les flags
+      // Mettre à jour les levelIds dans les tiers et organiser les niveaux
       List<Level> organizedLevels = [];
+      Map<int, List<int>> tierLevelIds = {};
+      
       for (final level in allLevels) {
         final tier = tiers.firstWhere((t) => t.id == level.tierId, orElse: () => tiers.first);
         final organizedLevel = level.copyWith(
@@ -231,9 +332,26 @@ class DataLoaderService {
           isCompleted: false,
         );
         organizedLevels.add(organizedLevel);
+        
+        // Collecter les IDs de niveau par tier
+        if (!tierLevelIds.containsKey(level.tierId)) {
+          tierLevelIds[level.tierId] = [];
+        }
+        tierLevelIds[level.tierId]!.add(level.id);
       }
-      debugPrint('Using custom quiz order with ${organizedLevels.length} levels');
-      return organizedLevels;
+      
+      // Mettre à jour les tiers avec les vrais levelIds
+      List<Tier> updatedTiers = [];
+      for (final tier in tiers) {
+        final levelIds = tierLevelIds[tier.id] ?? [];
+        updatedTiers.add(tier.copyWith(levelIds: levelIds));
+      }
+      
+      debugPrint('Using custom quiz order with ${organizedLevels.length} levels in ${updatedTiers.length} tiers');
+      return {
+        'levels': organizedLevels,
+        'tiers': updatedTiers,
+      };
     }
     
     // Sinon, utiliser la méthode originale d'assignation
@@ -264,7 +382,10 @@ class DataLoaderService {
       }
     }
     
-    return organizedLevels;
+    return {
+      'levels': organizedLevels,
+      'tiers': tiers,
+    };
   }
 
   /// Charge les niveaux organisés par difficulté
@@ -340,19 +461,29 @@ class DataLoaderService {
     return difficulty; // Points = difficulté
   }
 
-  /// Calcule le coût de déblocage d'un palier
-  static int calculateTierUnlockCost(int tierId) {
-    const Map<int, int> tierCosts = {
-      1: 0,
-      2: 5,
-      3: 15,
-      4: 30,
-      5: 50,
-      6: 75,
-      7: 105,
-      8: 140,
-    };
-    return tierCosts[tierId] ?? 0;
+  /// Calcule le coût de déblocage d'un palier basé sur la difficulté
+  static int calculateTierUnlockCost(int tierId, List<int> difficulties) {
+    if (tierId == 1) return 0; // Le premier palier est toujours gratuit
+    
+    // Calcul des points totaux disponibles dans ce palier
+    int totalPoints = difficulties.fold(0, (sum, difficulty) => sum + difficulty);
+    
+    // Système d'écart progressif pour encourager la progression
+    int allowedGap = _getAllowedGapForTier(tierId);
+    
+    // Coût = points max possibles - écart autorisé
+    return totalPoints - allowedGap;
+  }
+  
+  /// Détermine l'écart de points autorisé selon le palier
+  static int _getAllowedGapForTier(int tierId) {
+    if (tierId <= 5) {
+      return 2; // Encourager progression rapide pour les premiers paliers
+    } else if (tierId <= 15) {
+      return 1; // Progression normale
+    } else {
+      return 0; // Complétion obligatoire pour les paliers avancés
+    }
   }
 
   /// Méthode privée pour obtenir la configuration d'un palier

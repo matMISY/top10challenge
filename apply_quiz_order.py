@@ -166,7 +166,8 @@ class QuizOrderApplicator:
         errors = []
         
         # Check for missing quizzes in configuration
-        configured_ids = {quiz['quiz_id'] for quiz in quiz_order}
+        # Use original_id to match with source files
+        configured_ids = {quiz['original_id'] for quiz in quiz_order if 'original_id' in quiz}
         original_ids = set(original_quizzes.keys())
         
         missing_in_config = original_ids - configured_ids
@@ -179,14 +180,19 @@ class QuizOrderApplicator:
             errors.append(f"Extra quiz IDs in configuration (not found in original files): {sorted(extra_in_config)}")
         
         # Check for duplicate quiz IDs in configuration
-        id_counts = Counter(quiz['quiz_id'] for quiz in quiz_order)
+        quiz_ids = [quiz['quiz_id'] for quiz in quiz_order]
+        id_counts = Counter(quiz_ids)
         duplicates = {quiz_id: count for quiz_id, count in id_counts.items() if count > 1}
         if duplicates:
             errors.append(f"Duplicate quiz IDs in configuration: {duplicates}")
         
         # Check for missing required fields
-        required_fields = ['quiz_id', 'title', 'tier', 'position']
+        required_fields = ['title', 'tier', 'position']
         for i, quiz in enumerate(quiz_order):
+            # Check if either quiz_id or original_id is present
+            if 'quiz_id' not in quiz and 'original_id' not in quiz:
+                errors.append(f"Quiz at index {i} missing both 'quiz_id' and 'original_id' fields")
+            
             missing_fields = [field for field in required_fields if field not in quiz]
             if missing_fields:
                 errors.append(f"Quiz at index {i} missing required fields: {missing_fields}")
@@ -198,10 +204,17 @@ class QuizOrderApplicator:
         """Create the final ordered quiz data structure."""
         
         ordered_quizzes = []
+        seen_ids = set()  # Track IDs we've already processed
         
         for config_quiz in quiz_order:
-            quiz_id = config_quiz['quiz_id']
-            original_quiz = original_quizzes[quiz_id]
+            original_id = config_quiz['original_id']
+            
+            # Skip duplicates - only take the first occurrence of each original ID
+            if original_id in seen_ids:
+                continue
+            seen_ids.add(original_id)
+            
+            original_quiz = original_quizzes[original_id]
             
             # Create the ordered quiz, preserving all original data
             ordered_quiz = original_quiz.copy()
@@ -259,8 +272,8 @@ class QuizOrderApplicator:
             tier_counts[config_quiz['tier']] += 1
             
             # Get original difficulty
-            quiz_id = config_quiz['quiz_id']
-            original_quiz = original_quizzes[quiz_id]
+            original_id = config_quiz['original_id']
+            original_quiz = original_quizzes[original_id]
             difficulty = original_quiz.get('difficulty', 'unknown')
             difficulty_counts[difficulty] += 1
         
@@ -278,8 +291,8 @@ class QuizOrderApplicator:
         # Theme distribution (if available)
         theme_counts = defaultdict(int)
         for config_quiz in quiz_order:
-            quiz_id = config_quiz['quiz_id']
-            original_quiz = original_quizzes[quiz_id]
+            original_id = config_quiz['original_id']
+            original_quiz = original_quizzes[original_id]
             theme = original_quiz.get('theme', original_quiz.get('category', 'unknown'))
             theme_counts[theme] += 1
         

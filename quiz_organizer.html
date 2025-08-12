@@ -128,6 +128,21 @@
             background: #2980b9;
         }
 
+        .auto-complete-btn {
+            background: #17a2b8;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .auto-complete-btn:hover {
+            background: #138496;
+        }
+
         .stats {
             background: white;
             padding: 15px;
@@ -310,6 +325,24 @@
         .difficulty-5 { background: #e74c3c; }
         .difficulty-6 { background: #9b59b6; }
 
+        .theme-text {
+            font-weight: 500;
+            font-size: 10px;
+        }
+
+        .theme-buteurs { color: #e74c3c; }
+        .theme-passeurs { color: #3498db; }
+        .theme-transferts { color: #f39c12; }
+        .theme-competitions { color: #9b59b6; }
+        .theme-clubs { color: #27ae60; }
+        .theme-records { color: #e67e22; }
+        .theme-histoire { color: #34495e; }
+        .theme-nations { color: #1abc9c; }
+        .theme-divers { color: #95a5a6; }
+        .theme-entraineurs { color: #8e44ad; }
+        .theme-joueurs { color: #2ecc71; }
+        .theme-stades { color: #d35400; }
+
         .tier.drop-zone {
             border-color: #3498db;
             background-color: #ebf3fd;
@@ -419,6 +452,7 @@
                 </select>
                 <button id="exportBtn" class="export-btn">Export Configuration</button>
                 <button id="autoFillBtn" class="auto-fill-btn">Auto-Fill</button>
+                <button id="autoCompleteBtn" class="auto-complete-btn">Auto-Complete</button>
                 <button id="clearBtn" class="clear-btn">Clear All</button>
             </div>
         </div>
@@ -483,6 +517,7 @@
                 document.getElementById('themeFilter').addEventListener('change', this.handleFilter.bind(this));
                 document.getElementById('exportBtn').addEventListener('click', this.exportConfiguration.bind(this));
                 document.getElementById('autoFillBtn').addEventListener('click', this.autoFill.bind(this));
+                document.getElementById('autoCompleteBtn').addEventListener('click', this.autoComplete.bind(this));
                 document.getElementById('clearBtn').addEventListener('click', this.clearAll.bind(this));
             }
 
@@ -720,6 +755,24 @@
                 return this.quizzes.filter(quiz => !assignedIds.has(quiz.internalId));
             }
 
+            getThemeClass(theme) {
+                if (!theme) return '';
+                
+                // Normalize theme name to match CSS classes
+                const normalizedTheme = theme.toLowerCase()
+                    .replace(/[àáâãäå]/g, 'a')
+                    .replace(/[èéêë]/g, 'e')
+                    .replace(/[ìíîï]/g, 'i')
+                    .replace(/[òóôõö]/g, 'o')
+                    .replace(/[ùúûü]/g, 'u')
+                    .replace(/[ýÿ]/g, 'y')
+                    .replace(/[ç]/g, 'c')
+                    .replace(/[ñ]/g, 'n')
+                    .replace(/[^a-z0-9]/g, '');
+                
+                return `theme-${normalizedTheme}`;
+            }
+
             createQuizCard(quiz) {
                 const card = document.createElement('div');
                 card.className = 'quiz-card';
@@ -733,12 +786,13 @@
 
                 // Ensure difficulty is a valid number between 1-6, default to 1 if missing
                 const difficulty = quiz.difficulty && !isNaN(quiz.difficulty) && quiz.difficulty >= 1 && quiz.difficulty <= 6 ? quiz.difficulty : 1;
+                const themeClass = this.getThemeClass(quiz.theme);
                 
                 card.innerHTML = `
                     <div class="quiz-title">${quiz.title}</div>
                     <div class="quiz-meta">
                         <span class="difficulty-badge difficulty-${difficulty}">${difficulty}</span>
-                        <span>${quiz.theme || 'No theme'}</span>
+                        <span class="theme-text ${themeClass}">${quiz.theme || 'No theme'}</span>
                     </div>
                 `;
 
@@ -763,12 +817,13 @@
 
                 // Ensure difficulty is a valid number between 1-6, default to 1 if missing
                 const difficulty = quiz.difficulty && !isNaN(quiz.difficulty) && quiz.difficulty >= 1 && quiz.difficulty <= 6 ? quiz.difficulty : 1;
+                const themeClass = this.getThemeClass(quiz.theme);
                 
                 card.innerHTML = `
                     <div class="quiz-title">${quiz.title}</div>
                     <div class="quiz-meta">
                         <span class="difficulty-badge difficulty-${difficulty}">${difficulty}</span>
-                        <span>${quiz.theme || 'No theme'}</span>
+                        <span class="theme-text ${themeClass}">${quiz.theme || 'No theme'}</span>
                     </div>
                     <button class="remove-btn" onclick="event.preventDefault(); event.stopPropagation(); quizOrganizer.removeQuizFromTier('${quiz.internalId}', ${tierId})">×</button>
                 `;
@@ -1100,6 +1155,73 @@
                     this.renderQuizPool();
                     this.updateStats();
                     this.showNotification(`Auto-filled ${this.tiers.length} tiers with smart difficulty distribution`);
+                }
+            }
+
+            autoComplete() {
+                if (this.quizzes.length === 0) {
+                    this.showNotification('Please load quiz files first', true);
+                    return;
+                }
+
+                // Count empty slots
+                let totalEmptySlots = 0;
+                this.tiers.forEach(tier => {
+                    totalEmptySlots += Math.max(0, 5 - tier.quizzes.length);
+                });
+
+                if (totalEmptySlots === 0) {
+                    this.showNotification('All tiers are already complete!');
+                    return;
+                }
+
+                if (confirm(`Auto-complete ${totalEmptySlots} empty slots while keeping existing assignments?\nThis will preserve your current quiz placements.`)) {
+                    // Get currently assigned quizzes
+                    const assignedIds = new Set();
+                    this.tiers.forEach(tier => {
+                        tier.quizzes.forEach(quiz => assignedIds.add(quiz.internalId));
+                    });
+                    
+                    // Get available quizzes (excluding already assigned ones)
+                    const availableQuizzes = this.quizzes.filter(quiz => !assignedIds.has(quiz.internalId));
+                    
+                    if (availableQuizzes.length === 0) {
+                        this.showNotification('No unassigned quizzes available to complete tiers', true);
+                        return;
+                    }
+
+                    // Sort available quizzes by difficulty for better distribution
+                    availableQuizzes.sort((a, b) => (a.difficulty || 1) - (b.difficulty || 1));
+                    
+                    let slotsCompleted = 0;
+                    const remainingQuizzes = [...availableQuizzes];
+                    
+                    // Complete each tier that has empty slots
+                    for (let tierIndex = 0; tierIndex < this.tiers.length; tierIndex++) {
+                        const tier = this.tiers[tierIndex];
+                        const emptySlots = Math.max(0, 5 - tier.quizzes.length);
+                        
+                        if (emptySlots > 0 && remainingQuizzes.length > 0) {
+                            const quizzesToAdd = this.selectQuizzesForTier(remainingQuizzes, tierIndex, emptySlots);
+                            
+                            // Remove selected quizzes from remaining pool
+                            quizzesToAdd.forEach(selectedQuiz => {
+                                const index = remainingQuizzes.findIndex(q => q.internalId === selectedQuiz.internalId);
+                                if (index !== -1) remainingQuizzes.splice(index, 1);
+                            });
+                            
+                            // Add to tier
+                            tier.quizzes.push(...quizzesToAdd);
+                            slotsCompleted += quizzesToAdd.length;
+                        }
+                        
+                        if (remainingQuizzes.length === 0) break;
+                    }
+                    
+                    this.renderTiers();
+                    this.renderQuizPool();
+                    this.updateStats();
+                    this.showNotification(`Auto-completed ${slotsCompleted} slots while preserving existing assignments`);
                 }
             }
 

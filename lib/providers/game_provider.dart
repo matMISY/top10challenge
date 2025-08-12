@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../models/game_state.dart';
 import '../models/level.dart';
@@ -72,6 +71,8 @@ class GameProvider with ChangeNotifier {
       }
       
       debugPrint('📊 Loading game data...');
+      // Forcer une synchronisation complète pour s'assurer que les levelIds sont remplis
+      await _gameService.loadLevelsAndTiersSync();
       await loadGameData();
       debugPrint('✅ Game data loaded');
       
@@ -122,14 +123,17 @@ class GameProvider with ChangeNotifier {
     _levels = await _gameService.getLevels();
     _tiers = await _gameService.getTiers();
     
-    if (_levels.isEmpty) {
-      _levels = await _gameService.getLevels();
-      await _gameService.saveLevels(_levels);
-    }
+    // Vérifier si les tiers ont leurs levelIds (nécessaire pour l'affichage)
+    bool needsSync = _levels.isEmpty || _tiers.isEmpty || 
+                     _tiers.any((tier) => tier.levelIds.isEmpty && _levels.any((level) => level.tierId == tier.id));
     
-    if (_tiers.isEmpty) {
+    if (needsSync) {
+      debugPrint('GameProvider: Synchronizing levels and tiers...');
+      // Charger et synchroniser les niveaux et tiers
+      await _gameService.loadLevelsAndTiersSync();
+      _levels = await _gameService.getLevels();
       _tiers = await _gameService.getTiers();
-      await _gameService.saveTiers(_tiers);
+      debugPrint('GameProvider: Loaded ${_levels.length} levels in ${_tiers.length} tiers');
     }
   }
 

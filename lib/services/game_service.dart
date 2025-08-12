@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/game_state.dart';
 import '../models/level.dart';
@@ -277,6 +278,18 @@ class GameService {
 
   Future<List<Tier>> _getDefaultTiers() async {
     return await DataLoaderService.loadTiers();
+  }
+
+  /// Charge les niveaux et tiers de manière synchronisée
+  Future<void> loadLevelsAndTiersSync() async {
+    final result = await DataLoaderService.loadAllQuizzesWithTiersAndUpdate();
+    final levels = result['levels'] as List<Level>;
+    final tiers = result['tiers'] as List<Tier>;
+    
+    await saveLevels(levels);
+    await saveTiers(tiers);
+    
+    debugPrint('Synchronized ${levels.length} levels and ${tiers.length} tiers');
   }
 
   Future<void> unlockTier(int tierId) async {

@@ -51,7 +51,7 @@ class _TierLevelsContent extends StatefulWidget {
 class _TierLevelsContentState extends State<_TierLevelsContent> {
   List<Level> _cachedTierLevels = [];
   GameProvider? _gameProvider;
-  int _lastLivesCount = -1;
+  final int _lastLivesCount = -1;
   
   @override
   void didChangeDependencies() {

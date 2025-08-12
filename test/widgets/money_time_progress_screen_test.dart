@@ -262,8 +262,8 @@ void main() {
 
       for (final testCase in testCases) {
         await tester.pumpWidget(createTestWidget(
-          targetAds: testCase['targetAds']! as int,
-          selectedDuration: testCase['duration']! as int,
+          targetAds: testCase['targetAds']!,
+          selectedDuration: testCase['duration']!,
         ));
 
         // Verify correct information is displayed

@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/game_provider.dart';
 import '../models/tier.dart';
-import '../models/game_state.dart';
 import 'tier_levels_screen.dart';
 
 class TierSelectionScreen extends StatelessWidget {
