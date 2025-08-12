@@ -270,6 +270,15 @@ class GameService {
       tiers = await _getDefaultTiers();
     }
     
+    // DIAGNOSTIC: Afficher les détails des tiers chargés
+    debugPrint('🔍 [DIAGNOSTIC] Tiers chargés depuis le stockage:');
+    for (final tier in tiers) {
+      debugPrint('  - Tier ${tier.id}: "${tier.name}"');
+      debugPrint('    * Coût: ${tier.unlockCost}');
+      debugPrint('    * Niveaux: ${tier.levelIds}');
+      debugPrint('    * Nombre de niveaux: ${tier.levelIds.length}');
+      debugPrint('    * Débloqué: ${tier.isUnlocked}');
+    }
     
     return tiers;
   }
@@ -346,14 +355,19 @@ class GameService {
     // Trier les tiers par ID pour s'assurer de l'ordre correct
     final sortedTiers = allTiers.toList()..sort((a, b) => a.id.compareTo(b.id));
     
+    debugPrint('🔍 [DIAGNOSTIC GAME] Calcul coût cumulatif pour Tier $targetTierId:');
+    
     // Additionner les coûts de tous les tiers jusqu'au tier cible (inclus)
     for (final tier in sortedTiers) {
       if (tier.id <= targetTierId) {
+        debugPrint('  - Tier ${tier.id}: coût individuel ${tier.unlockCost}, niveaux: ${tier.levelIds.length}');
         cumulativeCost += tier.unlockCost;
       } else {
         break; // Arrêter une fois qu'on dépasse le tier cible
       }
     }
+    
+    debugPrint('  - Coût cumulatif total: $cumulativeCost');
     return cumulativeCost;
   }
 
@@ -378,9 +392,13 @@ class GameService {
     final tiers = await getTiers();
     
     for (final tier in tiers) {
-      if (!gameState.unlockedTiers.contains(tier.id) && 
-          gameState.totalPoints >= tier.unlockCost) {
-        await unlockTier(tier.id);
+      if (!gameState.unlockedTiers.contains(tier.id)) {
+        // Utiliser le coût cumulatif au lieu du coût individuel
+        final cumulativeCost = _calculateCumulativeCost(tier.id, tiers);
+        if (gameState.totalPoints >= cumulativeCost) {
+          debugPrint('🔓 Déblocage automatique du Tier ${tier.id} - Points: ${gameState.totalPoints} >= Coût cumulatif: $cumulativeCost');
+          await unlockTier(tier.id);
+        }
       }
     }
   }
