@@ -43,3 +43,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Data backups
+data/backup_*/
+
+# Release APK files
+release/*.apk
