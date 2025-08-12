@@ -339,14 +339,22 @@ class TierSelectionScreen extends StatelessWidget {
     // Trier les tiers par ID pour s'assurer de l'ordre correct
     final sortedTiers = allTiers.toList()..sort((a, b) => a.id.compareTo(b.id));
     
+    debugPrint('🔍 [DIAGNOSTIC UI] Calcul coût cumulatif pour Tier ${targetTier.id}:');
+    debugPrint('  - Nombre de tiers disponibles: ${allTiers.length}');
+    debugPrint('  - Coût individuel du tier ${targetTier.id}: ${targetTier.unlockCost}');
+    debugPrint('  - Nombre de niveaux dans le tier: ${targetTier.levelIds.length}');
+    
     // Additionner les coûts de tous les tiers jusqu'au tier cible (inclus)
     for (final tier in sortedTiers) {
       if (tier.id <= targetTier.id) {
+        debugPrint('  - Ajout Tier ${tier.id}: ${tier.unlockCost} points (${tier.levelIds.length} niveaux)');
         cumulativeCost += tier.unlockCost;
       } else {
         break; // Arrêter une fois qu'on dépasse le tier cible
       }
     }
+    
+    debugPrint('  - Coût cumulatif final: $cumulativeCost');
     return cumulativeCost;
   }
 }

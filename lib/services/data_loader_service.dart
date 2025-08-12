@@ -248,9 +248,19 @@ class DataLoaderService {
       List<Tier> tiers = [];
       final sortedTierIds = tierDifficulties.keys.toList()..sort();
       
+      debugPrint('🔍 [DIAGNOSTIC] Création des tiers dynamiques:');
+      debugPrint('  - Nombre total de tiers: ${sortedTierIds.length}');
+      debugPrint('  - IDs des tiers: $sortedTierIds');
+      
       for (final tierId in sortedTierIds) {
         final difficulties = tierDifficulties[tierId]!;
         final levelIds = tierLevelIds[tierId] ?? [];
+        
+        debugPrint('🔍 [DIAGNOSTIC] Tier $tierId:');
+        debugPrint('  - Nombre de niveaux: ${levelIds.length}');
+        debugPrint('  - IDs des niveaux: $levelIds');
+        debugPrint('  - Difficultés: $difficulties');
+        
         final int calculatedUnlockCost = calculateTierUnlockCost(tierId, difficulties);
         
         final tier = Tier(
@@ -265,6 +275,7 @@ class DataLoaderService {
           unlockCost: calculatedUnlockCost,
         );
         
+        debugPrint('  - Coût final du tier: $calculatedUnlockCost');
         tiers.add(tier);
       }
       
@@ -473,6 +484,13 @@ class DataLoaderService {
     
     // Coût = points max possibles - écart autorisé
     int cost = totalPoints - allowedGap;
+    
+    // DIAGNOSTIC: Log des détails du calcul
+    debugPrint('🔍 [DIAGNOSTIC] Tier $tierId - Calcul du coût:');
+    debugPrint('  - Difficultés: $difficulties');
+    debugPrint('  - Total points: $totalPoints');
+    debugPrint('  - Écart autorisé: $allowedGap');
+    debugPrint('  - Coût calculé: $cost');
     
     // Validation du coût minimum
     if (cost < 0) cost = 0;

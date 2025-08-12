@@ -1,0 +1,3844 @@
+{
+  "quiz_order": [
+    {
+      "quiz_id": "1_343",
+      "original_id": 1,
+      "title": "TOP 10 du Ballon d'Or 2024",
+      "tier": 1,
+      "position": 1,
+      "original_difficulty": 1
+    },
+    {
+      "quiz_id": "37_379",
+      "original_id": 37,
+      "title": "TOP 10 des buteurs de Liga en 2023",
+      "tier": 1,
+      "position": 2,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "4_346",
+      "original_id": 4,
+      "title": "TOP 10 des buteurs france dans les grands clubs européens en 2020-2024",
+      "tier": 1,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "7_349",
+      "original_id": 7,
+      "title": "TOP 10 des joueurs portugal les plus prolifiques (buts+passes) en 2020-2024",
+      "tier": 1,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "46_262",
+      "original_id": 46,
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2010",
+      "tier": 1,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "2_344",
+      "original_id": 2,
+      "title": "TOP 10 du Ballon d'Or 2023",
+      "tier": 2,
+      "position": 1,
+      "original_difficulty": 1
+    },
+    {
+      "quiz_id": "34_376",
+      "original_id": 34,
+      "title": "TOP 10 des buteurs de Premier League en 2024",
+      "tier": 2,
+      "position": 2,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "5_347",
+      "original_id": 5,
+      "title": "TOP 10 des buteurs portugal dans les grands clubs européens en 2020-2024",
+      "tier": 2,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "127_469",
+      "original_id": 127,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2020-2024 (Ligue 1)",
+      "tier": 2,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "80_422",
+      "original_id": 80,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal en 2024",
+      "tier": 2,
+      "position": 5,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "3_345",
+      "original_id": 3,
+      "title": "TOP 10 du Ballon d'Or 2022",
+      "tier": 3,
+      "position": 1,
+      "original_difficulty": 1
+    },
+    {
+      "quiz_id": "6_348",
+      "original_id": 6,
+      "title": "TOP 10 des joueurs france les plus prolifiques (buts+passes) en 2020-2024",
+      "tier": 3,
+      "position": 2,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "16_358",
+      "original_id": 16,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Premier League)",
+      "tier": 3,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "48_390",
+      "original_id": 48,
+      "title": "TOP 10 des buteurs france dans les grands clubs européens en 2015-2020",
+      "tier": 3,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "96_438",
+      "original_id": 96,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG en 2024",
+      "tier": 3,
+      "position": 5,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "35_377",
+      "original_id": 35,
+      "title": "TOP 10 des buteurs de Premier League en 2023",
+      "tier": 4,
+      "position": 1,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "49_391",
+      "original_id": 49,
+      "title": "TOP 10 des buteurs portugal dans les grands clubs européens en 2015-2020",
+      "tier": 4,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "83_191",
+      "original_id": 83,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leipzig en 2024",
+      "tier": 4,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "8_350",
+      "original_id": 8,
+      "title": "TOP 10 des passeurs de Premier League en 2024",
+      "tier": 4,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "100_99",
+      "original_id": 100,
+      "title": "TOP 10 du Ballon d'Or 1990",
+      "tier": 4,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "36_378",
+      "original_id": 36,
+      "title": "TOP 10 des buteurs de Liga en 2024",
+      "tier": 5,
+      "position": 1,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "50_392",
+      "original_id": 50,
+      "title": "TOP 10 des joueurs france les plus prolifiques (buts+passes) en 2015-2020",
+      "tier": 5,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "14_356",
+      "original_id": 14,
+      "title": "TOP 10 du Ballon d'Or 2021",
+      "tier": 5,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "10_352",
+      "original_id": 10,
+      "title": "TOP 10 des passeurs de Liga en 2024",
+      "tier": 5,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "47_263",
+      "original_id": 47,
+      "title": "TOP 10 des buteurs de la Euro 2012",
+      "tier": 5,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "51_393",
+      "original_id": 51,
+      "title": "TOP 10 des joueurs portugal les plus prolifiques (buts+passes) en 2015-2020",
+      "tier": 6,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "26_368",
+      "original_id": 26,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Liga)",
+      "tier": 6,
+      "position": 2,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "12_354",
+      "original_id": 12,
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2022",
+      "tier": 6,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "29_371",
+      "original_id": 29,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2015-2020 (Liga)",
+      "tier": 6,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "81_80",
+      "original_id": 81,
+      "title": "TOP 10 du Ballon d'Or 2009",
+      "tier": 6,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "28_370",
+      "original_id": 28,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2020-2024 (Liga)",
+      "tier": 7,
+      "position": 1,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "14_122",
+      "original_id": 14,
+      "title": "TOP 10 des passeurs de Dortmund en 2020-2024",
+      "tier": 7,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "124_340",
+      "original_id": 124,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2015-2020",
+      "tier": 7,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "98_314",
+      "original_id": 98,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool en 2020-2024",
+      "tier": 7,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "113_329",
+      "original_id": 113,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 en 2020-2024",
+      "tier": 7,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "13_355",
+      "original_id": 13,
+      "title": "TOP 10 des buteurs de la Euro 2024",
+      "tier": 8,
+      "position": 1,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "17_359",
+      "original_id": 17,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Premier League)",
+      "tier": 8,
+      "position": 2,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "108_450",
+      "original_id": 108,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2010-2015 (Serie A)",
+      "tier": 8,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "85_301",
+      "original_id": 85,
+      "title": "TOP 10 des buteurs de Napoli en 2015-2020",
+      "tier": 8,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "12_120",
+      "original_id": 12,
+      "title": "TOP 10 des passeurs de Atalanta en 2020-2024",
+      "tier": 8,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "9_351",
+      "original_id": 9,
+      "title": "TOP 10 des passeurs de Premier League en 2023",
+      "tier": 9,
+      "position": 1,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "31_373",
+      "original_id": 31,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2020-2024 (Liga)",
+      "tier": 9,
+      "position": 2,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "18_126",
+      "original_id": 18,
+      "title": "TOP 10 des passeurs de Leverkusen en 2020-2024",
+      "tier": 9,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "75_291",
+      "original_id": 75,
+      "title": "TOP 10 des buteurs de Real Madrid en 2005-2010",
+      "tier": 9,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "36_252",
+      "original_id": 36,
+      "title": "TOP 10 des passeurs de Liga en 2005-2010",
+      "tier": 9,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "22_364",
+      "original_id": 22,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2020-2024 (Premier League)",
+      "tier": 10,
+      "position": 1,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "33_375",
+      "original_id": 33,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2010-2015 (Liga)",
+      "tier": 10,
+      "position": 2,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "11_353",
+      "original_id": 11,
+      "title": "TOP 10 des passeurs de Liga en 2023",
+      "tier": 10,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "96_95",
+      "original_id": 96,
+      "title": "TOP 10 du Ballon d'Or 1994",
+      "tier": 10,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "106_105",
+      "original_id": 106,
+      "title": "TOP 10 des buteurs de Bundesliga en 2010-2015",
+      "tier": 10,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "15_357",
+      "original_id": 15,
+      "title": "TOP 10 du Ballon d'Or 2019",
+      "tier": 11,
+      "position": 1,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "14_230",
+      "original_id": 14,
+      "title": "TOP 10 des passeurs de Man City en 2005-2010",
+      "tier": 11,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "20_362",
+      "original_id": 20,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2015-2020 (Premier League)",
+      "tier": 11,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "46_154",
+      "original_id": 46,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga en 2023",
+      "tier": 11,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "121_337",
+      "original_id": 121,
+      "title": "TOP 10 des buteurs de Bundesliga en 2015-2020",
+      "tier": 11,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "89_431",
+      "original_id": 89,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan en 2023",
+      "tier": 12,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "29_137",
+      "original_id": 29,
+      "title": "TOP 10 des passeurs de Serie A en 2020-2024",
+      "tier": 12,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "120_462",
+      "original_id": 120,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2010-2015 (Bundesliga)",
+      "tier": 12,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "18_360",
+      "original_id": 18,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Premier League)",
+      "tier": 12,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "54_270",
+      "original_id": 54,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 en 2020-2024",
+      "tier": 12,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "66_282",
+      "original_id": 66,
+      "title": "TOP 10 des buteurs de Liverpool en 2010-2015",
+      "tier": 13,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "94_202",
+      "original_id": 94,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Villarreal en 2023",
+      "tier": 13,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "19_361",
+      "original_id": 19,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2020-2024 (Premier League)",
+      "tier": 13,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "53_269",
+      "original_id": 53,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga en 2015-2020",
+      "tier": 13,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "28_27",
+      "original_id": 28,
+      "title": "TOP 10 des passeurs de Bundesliga en 2005-2010",
+      "tier": 13,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "123_465",
+      "original_id": 123,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Ligue 1)",
+      "tier": 14,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "84_300",
+      "original_id": 84,
+      "title": "TOP 10 des buteurs de Milan en 2015-2020",
+      "tier": 14,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "26_25",
+      "original_id": 26,
+      "title": "TOP 10 des passeurs de Serie A en 2005-2010",
+      "tier": 14,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "23_365",
+      "original_id": 23,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2015-2020 (Premier League)",
+      "tier": 14,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "104_103",
+      "original_id": 104,
+      "title": "TOP 10 des buteurs de Serie A en 2010-2015",
+      "tier": 14,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "88_430",
+      "original_id": 88,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan en 2024",
+      "tier": 15,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "69_285",
+      "original_id": 69,
+      "title": "TOP 10 des buteurs de Man City en 2005-2010",
+      "tier": 15,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "118_460",
+      "original_id": 118,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2020-2024 (Bundesliga)",
+      "tier": 15,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "3_2",
+      "original_id": 3,
+      "title": "TOP 10 des passeurs de Atalanta en 2010-2015",
+      "tier": 15,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "89_88",
+      "original_id": 89,
+      "title": "TOP 10 du Ballon d'Or 2001",
+      "tier": 15,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "76_292",
+      "original_id": 76,
+      "title": "TOP 10 des buteurs de Aston Villa en 2015-2020",
+      "tier": 16,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "103_319",
+      "original_id": 103,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd en 2015-2020",
+      "tier": 16,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "125_341",
+      "original_id": 125,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2019",
+      "tier": 16,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "32_374",
+      "original_id": 32,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2015-2020 (Liga)",
+      "tier": 16,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "51_267",
+      "original_id": 51,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A en 2015-2020",
+      "tier": 16,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "27_135",
+      "original_id": 27,
+      "title": "TOP 10 des passeurs de Liga en 2019",
+      "tier": 17,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "6_5",
+      "original_id": 6,
+      "title": "TOP 10 des passeurs de Atletico Madrid en 2005-2010",
+      "tier": 17,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "85_84",
+      "original_id": 85,
+      "title": "TOP 10 du Ballon d'Or 2005",
+      "tier": 17,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "61_60",
+      "original_id": 61,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atletico Madrid en 2020-2024",
+      "tier": 17,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "118_334",
+      "original_id": 118,
+      "title": "TOP 10 des buteurs de Serie A en 2015-2020",
+      "tier": 17,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "68_67",
+      "original_id": 68,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Lazio en 2015-2020",
+      "tier": 18,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "22_238",
+      "original_id": 22,
+      "title": "TOP 10 des passeurs de Atalanta en 2015-2020",
+      "tier": 18,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "87_303",
+      "original_id": 87,
+      "title": "TOP 10 des buteurs de Villarreal en 2015-2020",
+      "tier": 18,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "105_447",
+      "original_id": 105,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Serie A)",
+      "tier": 18,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "91_199",
+      "original_id": 91,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Roma en 2024",
+      "tier": 18,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "77_76",
+      "original_id": 77,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Roma en 2020-2024",
+      "tier": 19,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "64_63",
+      "original_id": 64,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Dortmund en 2015-2020",
+      "tier": 19,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "13_121",
+      "original_id": 13,
+      "title": "TOP 10 des passeurs de Atletico Madrid en 2020-2024",
+      "tier": 19,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "35_143",
+      "original_id": 35,
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2014",
+      "tier": 19,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "111_453",
+      "original_id": 111,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2010-2015 (Serie A)",
+      "tier": 19,
+      "position": 5,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "97_439",
+      "original_id": 97,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG en 2023",
+      "tier": 20,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "49_48",
+      "original_id": 49,
+      "title": "TOP 10 des buteurs de Milan en 2010-2015",
+      "tier": 20,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "36_144",
+      "original_id": 36,
+      "title": "TOP 10 des buteurs de la Euro 2016",
+      "tier": 20,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "1_109",
+      "original_id": 1,
+      "title": "TOP 10 des passeurs de Arsenal en 2015-2020",
+      "tier": 20,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "25_24",
+      "original_id": 25,
+      "title": "TOP 10 des passeurs de Serie A en 2010-2015",
+      "tier": 20,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "91_433",
+      "original_id": 91,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool en 2023",
+      "tier": 21,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "101_443",
+      "original_id": 101,
+      "title": "TOP 10 du Ballon d'Or 2017",
+      "tier": 21,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "65_407",
+      "original_id": 65,
+      "title": "TOP 10 des buteurs de la CAN 2023",
+      "tier": 21,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "104_446",
+      "original_id": 104,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Serie A)",
+      "tier": 21,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "12_228",
+      "original_id": 12,
+      "title": "TOP 10 des passeurs de Liverpool en 2005-2010",
+      "tier": 21,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "100_442",
+      "original_id": 100,
+      "title": "TOP 10 du Ballon d'Or 2018",
+      "tier": 22,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "55_397",
+      "original_id": 55,
+      "title": "TOP 10 des passeurs de Liga en 2022",
+      "tier": 22,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "124_466",
+      "original_id": 124,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2020-2024 (Ligue 1)",
+      "tier": 22,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "66_408",
+      "original_id": 66,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Premier League en 2024",
+      "tier": 22,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "104_212",
+      "original_id": 104,
+      "title": "TOP 10 des buteurs de Serie A en 2022",
+      "tier": 22,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "76_418",
+      "original_id": 76,
+      "title": "TOP 10 des buteurs de Man City en 2020-2024",
+      "tier": 23,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "99_441",
+      "original_id": 99,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid en 2023",
+      "tier": 23,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "131_473",
+      "original_id": 131,
+      "title": "TOP 10 des buteurs de Premier League en 2022",
+      "tier": 23,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "128_470",
+      "original_id": 128,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2015-2020 (Ligue 1)",
+      "tier": 23,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "62_170",
+      "original_id": 62,
+      "title": "TOP 10 des buteurs de Dortmund en 2020-2024",
+      "tier": 23,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "107_449",
+      "original_id": 107,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2015-2020 (Serie A)",
+      "tier": 24,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "116_458",
+      "original_id": 116,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2015-2020 (Bundesliga)",
+      "tier": 24,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "53_395",
+      "original_id": 53,
+      "title": "TOP 10 des passeurs de Premier League en 2022",
+      "tier": 24,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "138_480",
+      "original_id": 138,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2024",
+      "tier": 24,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "86_302",
+      "original_id": 86,
+      "title": "TOP 10 des buteurs de Roma en 2015-2020",
+      "tier": 24,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "58_400",
+      "original_id": 58,
+      "title": "TOP 10 des passeurs de Bundesliga en 2024",
+      "tier": 25,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "98_440",
+      "original_id": 98,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid en 2024",
+      "tier": 25,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "114_456",
+      "original_id": 114,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Bundesliga)",
+      "tier": 25,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "52_394",
+      "original_id": 52,
+      "title": "TOP 10 des passeurs de Premier League en 2020-2024",
+      "tier": 25,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "115_331",
+      "original_id": 115,
+      "title": "TOP 10 des buteurs de Premier League en 2005-2010",
+      "tier": 25,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "135_477",
+      "original_id": 135,
+      "title": "TOP 10 des buteurs de Serie A en 2023",
+      "tier": 26,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "77_419",
+      "original_id": 77,
+      "title": "TOP 10 des buteurs de Man Utd en 2020-2024",
+      "tier": 26,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "59_401",
+      "original_id": 59,
+      "title": "TOP 10 des passeurs de Bundesliga en 2023",
+      "tier": 26,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "79_421",
+      "original_id": 79,
+      "title": "TOP 10 des buteurs de Real Madrid en 2020-2024",
+      "tier": 26,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "5_4",
+      "original_id": 5,
+      "title": "TOP 10 des passeurs de Atletico Madrid en 2010-2015",
+      "tier": 26,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "73_415",
+      "original_id": 73,
+      "title": "TOP 10 des buteurs de Chelsea en 2020-2024",
+      "tier": 27,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "93_435",
+      "original_id": 93,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City en 2023",
+      "tier": 27,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "121_463",
+      "original_id": 121,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Ligue 1)",
+      "tier": 27,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "40_382",
+      "original_id": 40,
+      "title": "TOP 10 des passeurs de Bayern Munich en 2020-2024",
+      "tier": 27,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "139_481",
+      "original_id": 139,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2023",
+      "tier": 27,
+      "position": 5,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "122_464",
+      "original_id": 122,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Ligue 1)",
+      "tier": 28,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "70_412",
+      "original_id": 70,
+      "title": "TOP 10 des buteurs de Arsenal en 2020-2024",
+      "tier": 28,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "83_425",
+      "original_id": 83,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona en 2023",
+      "tier": 28,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "45_387",
+      "original_id": 45,
+      "title": "TOP 10 des passeurs de Man Utd en 2020-2024",
+      "tier": 28,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "97_96",
+      "original_id": 97,
+      "title": "TOP 10 du Ballon d'Or 1993",
+      "tier": 28,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "90_432",
+      "original_id": 90,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool en 2024",
+      "tier": 29,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "92_434",
+      "original_id": 92,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City en 2024",
+      "tier": 29,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "113_455",
+      "original_id": 113,
+      "title": "TOP 10 des transferts les plus coûteux en 2023 (Bundesliga)",
+      "tier": 29,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "84_426",
+      "original_id": 84,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich en 2024",
+      "tier": 29,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "56_55",
+      "original_id": 56,
+      "title": "TOP 10 des buteurs de Villarreal en 2005-2010",
+      "tier": 29,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "109_451",
+      "original_id": 109,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2020-2024 (Serie A)",
+      "tier": 30,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "47_389",
+      "original_id": 47,
+      "title": "TOP 10 des passeurs de Real Madrid en 2020-2024",
+      "tier": 30,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "38_380",
+      "original_id": 38,
+      "title": "TOP 10 des passeurs de Arsenal en 2020-2024",
+      "tier": 30,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "95_437",
+      "original_id": 95,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd en 2023",
+      "tier": 30,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "13_12",
+      "original_id": 13,
+      "title": "TOP 10 des passeurs de Leipzig en 2010-2015",
+      "tier": 30,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "126_468",
+      "original_id": 126,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2010-2015 (Ligue 1)",
+      "tier": 31,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "132_474",
+      "original_id": 132,
+      "title": "TOP 10 des buteurs de Liga en 2020-2024",
+      "tier": 31,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "87_429",
+      "original_id": 87,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea en 2023",
+      "tier": 31,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "57_399",
+      "original_id": 57,
+      "title": "TOP 10 des passeurs de Serie A en 2023",
+      "tier": 31,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "111_327",
+      "original_id": 111,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A en 2020-2024",
+      "tier": 31,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "44_386",
+      "original_id": 44,
+      "title": "TOP 10 des passeurs de Man City en 2020-2024",
+      "tier": 32,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "117_459",
+      "original_id": 117,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2010-2015 (Bundesliga)",
+      "tier": 32,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "106_448",
+      "original_id": 106,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2020-2024 (Serie A)",
+      "tier": 32,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "86_428",
+      "original_id": 86,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea en 2024",
+      "tier": 32,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "94_436",
+      "original_id": 94,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd en 2024",
+      "tier": 32,
+      "position": 5,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "125_467",
+      "original_id": 125,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2015-2020 (Ligue 1)",
+      "tier": 33,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "74_416",
+      "original_id": 74,
+      "title": "TOP 10 des buteurs de Inter Milan en 2020-2024",
+      "tier": 33,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "85_427",
+      "original_id": 85,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich en 2023",
+      "tier": 33,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "69_411",
+      "original_id": 69,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Liga en 2023",
+      "tier": 33,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "81_189",
+      "original_id": 81,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Lazio en 2024",
+      "tier": 33,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "43_385",
+      "original_id": 43,
+      "title": "TOP 10 des passeurs de Liverpool en 2020-2024",
+      "tier": 34,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "60_402",
+      "original_id": 60,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2024",
+      "tier": 34,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "137_479",
+      "original_id": 137,
+      "title": "TOP 10 des buteurs de Bundesliga en 2023",
+      "tier": 34,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "63_405",
+      "original_id": 63,
+      "title": "TOP 10 des buteurs de la Euro 2021",
+      "tier": 34,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "37_36",
+      "original_id": 37,
+      "title": "TOP 10 des buteurs de Atletico Madrid en 2010-2015",
+      "tier": 34,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "75_417",
+      "original_id": 75,
+      "title": "TOP 10 des buteurs de Liverpool en 2020-2024",
+      "tier": 35,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "61_403",
+      "original_id": 61,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2023",
+      "tier": 35,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "130_472",
+      "original_id": 130,
+      "title": "TOP 10 des buteurs de Premier League en 2020-2024",
+      "tier": 35,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "62_404",
+      "original_id": 62,
+      "title": "TOP 10 des buteurs de la Coupe du Monde 2018",
+      "tier": 35,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "38_37",
+      "original_id": 38,
+      "title": "TOP 10 des buteurs de Atletico Madrid en 2005-2010",
+      "tier": 35,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "134_476",
+      "original_id": 134,
+      "title": "TOP 10 des buteurs de Serie A en 2024",
+      "tier": 36,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "112_454",
+      "original_id": 112,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Bundesliga)",
+      "tier": 36,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "64_406",
+      "original_id": 64,
+      "title": "TOP 10 des buteurs de la Copa América 2024",
+      "tier": 36,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "115_457",
+      "original_id": 115,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2020-2024 (Bundesliga)",
+      "tier": 36,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "55_163",
+      "original_id": 55,
+      "title": "TOP 10 des buteurs de Man City en 2015-2020",
+      "tier": 36,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "81_423",
+      "original_id": 81,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal en 2023",
+      "tier": 37,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "133_475",
+      "original_id": 133,
+      "title": "TOP 10 des buteurs de Liga en 2022",
+      "tier": 37,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "102_444",
+      "original_id": 102,
+      "title": "TOP 10 du Ballon d'Or 2016",
+      "tier": 37,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "119_461",
+      "original_id": 119,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2015-2020 (Bundesliga)",
+      "tier": 37,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "19_127",
+      "original_id": 19,
+      "title": "TOP 10 des passeurs de Milan en 2020-2024",
+      "tier": 37,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "39_381",
+      "original_id": 39,
+      "title": "TOP 10 des passeurs de Barcelona en 2020-2024",
+      "tier": 38,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "42_384",
+      "original_id": 42,
+      "title": "TOP 10 des passeurs de Inter Milan en 2020-2024",
+      "tier": 38,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "103_445",
+      "original_id": 103,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Serie A)",
+      "tier": 38,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "41_383",
+      "original_id": 41,
+      "title": "TOP 10 des passeurs de Chelsea en 2020-2024",
+      "tier": 38,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "13_229",
+      "original_id": 13,
+      "title": "TOP 10 des passeurs de Man City en 2010-2015",
+      "tier": 38,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "110_452",
+      "original_id": 110,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2015-2020 (Serie A)",
+      "tier": 39,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "136_478",
+      "original_id": 136,
+      "title": "TOP 10 des buteurs de Bundesliga en 2024",
+      "tier": 39,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "129_471",
+      "original_id": 129,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2010-2015 (Ligue 1)",
+      "tier": 39,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "82_424",
+      "original_id": 82,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona en 2024",
+      "tier": 39,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "16_15",
+      "original_id": 16,
+      "title": "TOP 10 des passeurs de Leverkusen en 2005-2010",
+      "tier": 39,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "66_174",
+      "original_id": 66,
+      "title": "TOP 10 des buteurs de Leverkusen en 2020-2024",
+      "tier": 40,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "75_183",
+      "original_id": 75,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atletico Madrid en 2024",
+      "tier": 40,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "80_188",
+      "original_id": 80,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Juventus en 2023",
+      "tier": 40,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "57_165",
+      "original_id": 57,
+      "title": "TOP 10 des buteurs de PSG en 2015-2020",
+      "tier": 40,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "4_112",
+      "original_id": 4,
+      "title": "TOP 10 des passeurs de Chelsea en 2015-2020",
+      "tier": 40,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "46_388",
+      "original_id": 46,
+      "title": "TOP 10 des passeurs de PSG en 2020-2024",
+      "tier": 41,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "61_169",
+      "original_id": 61,
+      "title": "TOP 10 des buteurs de Atletico Madrid en 2020-2024",
+      "tier": 41,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "3_111",
+      "original_id": 3,
+      "title": "TOP 10 des passeurs de Bayern Munich en 2015-2020",
+      "tier": 41,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "101_209",
+      "original_id": 101,
+      "title": "TOP 10 des buteurs de Liga en 2019",
+      "tier": 41,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "72_288",
+      "original_id": 72,
+      "title": "TOP 10 des buteurs de PSG en 2010-2015",
+      "tier": 41,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "48_156",
+      "original_id": 48,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 en 2023",
+      "tier": 42,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "97_205",
+      "original_id": 97,
+      "title": "TOP 10 des buteurs de Premier League en 2015-2020",
+      "tier": 42,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "28_136",
+      "original_id": 28,
+      "title": "TOP 10 des passeurs de Liga en 2018",
+      "tier": 42,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "38_146",
+      "original_id": 38,
+      "title": "TOP 10 des buteurs de la CAN 2021",
+      "tier": 42,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "59_58",
+      "original_id": 59,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atalanta en 2020-2024",
+      "tier": 42,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "42_150",
+      "original_id": 42,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Liga en 2015-2020",
+      "tier": 43,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "78_420",
+      "original_id": 78,
+      "title": "TOP 10 des buteurs de PSG en 2020-2024",
+      "tier": 43,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "41_149",
+      "original_id": 41,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Liga en 2020-2024",
+      "tier": 43,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "60_168",
+      "original_id": 60,
+      "title": "TOP 10 des buteurs de Atalanta en 2020-2024",
+      "tier": 43,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "102_101",
+      "original_id": 102,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga en 2015-2020",
+      "tier": 43,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "37_145",
+      "original_id": 37,
+      "title": "TOP 10 des buteurs de la Copa América 2021",
+      "tier": 44,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "23_131",
+      "original_id": 23,
+      "title": "TOP 10 des passeurs de Premier League en 2015-2020",
+      "tier": 44,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "74_182",
+      "original_id": 74,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atalanta en 2023",
+      "tier": 44,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "108_216",
+      "original_id": 108,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2022",
+      "tier": 44,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "107_323",
+      "original_id": 107,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid en 2015-2020",
+      "tier": 44,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "100_208",
+      "original_id": 100,
+      "title": "TOP 10 des buteurs de Liga en 2015-2020",
+      "tier": 45,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "107_215",
+      "original_id": 107,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2020-2024",
+      "tier": 45,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "2_110",
+      "original_id": 2,
+      "title": "TOP 10 des passeurs de Barcelona en 2015-2020",
+      "tier": 45,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "98_206",
+      "original_id": 98,
+      "title": "TOP 10 des buteurs de Premier League en 2019",
+      "tier": 45,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "39_255",
+      "original_id": 39,
+      "title": "TOP 10 des passeurs de Serie A en 2018",
+      "tier": 45,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "99_207",
+      "original_id": 99,
+      "title": "TOP 10 des buteurs de Premier League en 2018",
+      "tier": 46,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "72_180",
+      "original_id": 72,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Aston Villa en 2023",
+      "tier": 46,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "63_171",
+      "original_id": 63,
+      "title": "TOP 10 des buteurs de Juventus en 2020-2024",
+      "tier": 46,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "30_138",
+      "original_id": 30,
+      "title": "TOP 10 des passeurs de Serie A en 2022",
+      "tier": 46,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "96_312",
+      "original_id": 96,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan en 2020-2024",
+      "tier": 46,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "68_176",
+      "original_id": 68,
+      "title": "TOP 10 des buteurs de Napoli en 2020-2024",
+      "tier": 47,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "44_152",
+      "original_id": 44,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A en 2023",
+      "tier": 47,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "67_175",
+      "original_id": 67,
+      "title": "TOP 10 des buteurs de Milan en 2020-2024",
+      "tier": 47,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "54_396",
+      "original_id": 54,
+      "title": "TOP 10 des passeurs de Liga en 2020-2024",
+      "tier": 47,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "87_195",
+      "original_id": 87,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Milan en 2024",
+      "tier": 47,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "67_409",
+      "original_id": 67,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Premier League en 2023",
+      "tier": 48,
+      "position": 1,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "43_151",
+      "original_id": 43,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A en 2024",
+      "tier": 48,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "31_139",
+      "original_id": 31,
+      "title": "TOP 10 des passeurs de Bundesliga en 2020-2024",
+      "tier": 48,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "25_241",
+      "original_id": 25,
+      "title": "TOP 10 des passeurs de Juventus en 2015-2020",
+      "tier": 48,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "114_330",
+      "original_id": 114,
+      "title": "TOP 10 des buteurs de Premier League en 2010-2015",
+      "tier": 48,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "15_123",
+      "original_id": 15,
+      "title": "TOP 10 des passeurs de Juventus en 2020-2024",
+      "tier": 49,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "103_211",
+      "original_id": 103,
+      "title": "TOP 10 des buteurs de Serie A en 2020-2024",
+      "tier": 49,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "6_114",
+      "original_id": 6,
+      "title": "TOP 10 des passeurs de Liverpool en 2015-2020",
+      "tier": 49,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "77_185",
+      "original_id": 77,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Dortmund en 2024",
+      "tier": 49,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "45_153",
+      "original_id": 45,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga en 2024",
+      "tier": 49,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "58_166",
+      "original_id": 58,
+      "title": "TOP 10 des buteurs de Real Madrid en 2015-2020",
+      "tier": 50,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "8_116",
+      "original_id": 8,
+      "title": "TOP 10 des passeurs de Man Utd en 2015-2020",
+      "tier": 50,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "39_147",
+      "original_id": 39,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Premier League en 2020-2024",
+      "tier": 50,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "33_141",
+      "original_id": 33,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2020-2024",
+      "tier": 50,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "62_278",
+      "original_id": 62,
+      "title": "TOP 10 des buteurs de Chelsea en 2010-2015",
+      "tier": 50,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "54_162",
+      "original_id": 54,
+      "title": "TOP 10 des buteurs de Liverpool en 2015-2020",
+      "tier": 51,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "20_128",
+      "original_id": 20,
+      "title": "TOP 10 des passeurs de Napoli en 2020-2024",
+      "tier": 51,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "47_155",
+      "original_id": 47,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 en 2024",
+      "tier": 51,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "25_133",
+      "original_id": 25,
+      "title": "TOP 10 des passeurs de Premier League en 2018",
+      "tier": 51,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "83_299",
+      "original_id": 83,
+      "title": "TOP 10 des buteurs de Leverkusen en 2015-2020",
+      "tier": 51,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "40_148",
+      "original_id": 40,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Premier League en 2015-2020",
+      "tier": 52,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "56_398",
+      "original_id": 56,
+      "title": "TOP 10 des passeurs de Serie A en 2024",
+      "tier": 52,
+      "position": 2,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "73_181",
+      "original_id": 73,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atalanta en 2024",
+      "tier": 52,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "105_213",
+      "original_id": 105,
+      "title": "TOP 10 des buteurs de Bundesliga en 2020-2024",
+      "tier": 52,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "67_66",
+      "original_id": 67,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Lazio en 2020-2024",
+      "tier": 52,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "88_196",
+      "original_id": 88,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Milan en 2023",
+      "tier": 53,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "5_113",
+      "original_id": 5,
+      "title": "TOP 10 des passeurs de Inter Milan en 2015-2020",
+      "tier": 53,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "32_140",
+      "original_id": 32,
+      "title": "TOP 10 des passeurs de Bundesliga en 2022",
+      "tier": 53,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "71_413",
+      "original_id": 71,
+      "title": "TOP 10 des buteurs de Barcelona en 2020-2024",
+      "tier": 53,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "72_71",
+      "original_id": 72,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leverkusen en 2015-2020",
+      "tier": 53,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "7_115",
+      "original_id": 7,
+      "title": "TOP 10 des passeurs de Man City en 2015-2020",
+      "tier": 54,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "82_190",
+      "original_id": 82,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Lazio en 2023",
+      "tier": 54,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "16_124",
+      "original_id": 16,
+      "title": "TOP 10 des passeurs de Lazio en 2020-2024",
+      "tier": 54,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "53_161",
+      "original_id": 53,
+      "title": "TOP 10 des buteurs de Inter Milan en 2015-2020",
+      "tier": 54,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "87_86",
+      "original_id": 87,
+      "title": "TOP 10 du Ballon d'Or 2003",
+      "tier": 54,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "9_117",
+      "original_id": 9,
+      "title": "TOP 10 des passeurs de PSG en 2015-2020",
+      "tier": 55,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "26_134",
+      "original_id": 26,
+      "title": "TOP 10 des passeurs de Liga en 2015-2020",
+      "tier": 55,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "52_160",
+      "original_id": 52,
+      "title": "TOP 10 des buteurs de Chelsea en 2015-2020",
+      "tier": 55,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "49_157",
+      "original_id": 49,
+      "title": "TOP 10 des buteurs de Arsenal en 2015-2020",
+      "tier": 55,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "34_142",
+      "original_id": 34,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2022",
+      "tier": 55,
+      "position": 5,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "17_125",
+      "original_id": 17,
+      "title": "TOP 10 des passeurs de Leipzig en 2020-2024",
+      "tier": 56,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "85_193",
+      "original_id": 85,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leverkusen en 2024",
+      "tier": 56,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "64_172",
+      "original_id": 64,
+      "title": "TOP 10 des buteurs de Lazio en 2020-2024",
+      "tier": 56,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "11_119",
+      "original_id": 11,
+      "title": "TOP 10 des passeurs de Aston Villa en 2020-2024",
+      "tier": 56,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "15_231",
+      "original_id": 15,
+      "title": "TOP 10 des passeurs de Man Utd en 2010-2015",
+      "tier": 56,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "96_204",
+      "original_id": 96,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga en 2020-2024",
+      "tier": 57,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "71_179",
+      "original_id": 71,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Aston Villa en 2024",
+      "tier": 57,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "68_410",
+      "original_id": 68,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Liga en 2024",
+      "tier": 57,
+      "position": 3,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "93_201",
+      "original_id": 93,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Villarreal en 2024",
+      "tier": 57,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "44_260",
+      "original_id": 44,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2019",
+      "tier": 57,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "78_186",
+      "original_id": 78,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Dortmund en 2023",
+      "tier": 58,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "59_167",
+      "original_id": 59,
+      "title": "TOP 10 des buteurs de Aston Villa en 2020-2024",
+      "tier": 58,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "70_178",
+      "original_id": 70,
+      "title": "TOP 10 des buteurs de Villarreal en 2020-2024",
+      "tier": 58,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "86_194",
+      "original_id": 86,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leverkusen en 2023",
+      "tier": 58,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "35_251",
+      "original_id": 35,
+      "title": "TOP 10 des passeurs de Liga en 2010-2015",
+      "tier": 58,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "126_342",
+      "original_id": 126,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2018",
+      "tier": 59,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "51_159",
+      "original_id": 51,
+      "title": "TOP 10 des buteurs de Bayern Munich en 2015-2020",
+      "tier": 59,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "100_316",
+      "original_id": 100,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City en 2020-2024",
+      "tier": 59,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "106_214",
+      "original_id": 106,
+      "title": "TOP 10 des buteurs de Bundesliga en 2022",
+      "tier": 59,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "32_31",
+      "original_id": 32,
+      "title": "TOP 10 des buteurs de la CAN 2017",
+      "tier": 59,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "64_280",
+      "original_id": 64,
+      "title": "TOP 10 des buteurs de Inter Milan en 2010-2015",
+      "tier": 60,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "28_244",
+      "original_id": 28,
+      "title": "TOP 10 des passeurs de Leverkusen en 2015-2020",
+      "tier": 60,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "112_328",
+      "original_id": 112,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Bundesliga en 2020-2024",
+      "tier": 60,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "41_257",
+      "original_id": 41,
+      "title": "TOP 10 des passeurs de Bundesliga en 2019",
+      "tier": 60,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "71_70",
+      "original_id": 71,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leverkusen en 2020-2024",
+      "tier": 60,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "89_197",
+      "original_id": 89,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Napoli en 2024",
+      "tier": 61,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "50_158",
+      "original_id": 50,
+      "title": "TOP 10 des buteurs de Barcelona en 2015-2020",
+      "tier": 61,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "21_237",
+      "original_id": 21,
+      "title": "TOP 10 des passeurs de Aston Villa en 2015-2020",
+      "tier": 61,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "30_372",
+      "original_id": 30,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2010-2015 (Liga)",
+      "tier": 61,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "109_325",
+      "original_id": 109,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League en 2015-2020",
+      "tier": 61,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "25_367",
+      "original_id": 25,
+      "title": "TOP 10 des transferts les plus coûteux en 2024 (Liga)",
+      "tier": 62,
+      "position": 1,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "79_187",
+      "original_id": 79,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Juventus en 2024",
+      "tier": 62,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "73_289",
+      "original_id": 73,
+      "title": "TOP 10 des buteurs de PSG en 2005-2010",
+      "tier": 62,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "34_250",
+      "original_id": 34,
+      "title": "TOP 10 des passeurs de Premier League en 2005-2010",
+      "tier": 62,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "26_242",
+      "original_id": 26,
+      "title": "TOP 10 des passeurs de Lazio en 2015-2020",
+      "tier": 62,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "10_226",
+      "original_id": 10,
+      "title": "TOP 10 des passeurs de Inter Milan en 2005-2010",
+      "tier": 63,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "24_132",
+      "original_id": 24,
+      "title": "TOP 10 des passeurs de Premier League en 2019",
+      "tier": 63,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "117_333",
+      "original_id": 117,
+      "title": "TOP 10 des buteurs de Liga en 2005-2010",
+      "tier": 63,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "49_265",
+      "original_id": 49,
+      "title": "TOP 10 des buteurs de la CAN 2019",
+      "tier": 63,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "41_40",
+      "original_id": 41,
+      "title": "TOP 10 des buteurs de Juventus en 2010-2015",
+      "tier": 63,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "92_308",
+      "original_id": 92,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich en 2020-2024",
+      "tier": 64,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "65_281",
+      "original_id": 65,
+      "title": "TOP 10 des buteurs de Inter Milan en 2005-2010",
+      "tier": 64,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "21_363",
+      "original_id": 21,
+      "title": "TOP 10 des transferts les plus coûteux sortants en 2010-2015 (Premier League)",
+      "tier": 64,
+      "position": 3,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "22_130",
+      "original_id": 22,
+      "title": "TOP 10 des passeurs de Villarreal en 2020-2024",
+      "tier": 64,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "120_336",
+      "original_id": 120,
+      "title": "TOP 10 des buteurs de Serie A en 2018",
+      "tier": 64,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "33_249",
+      "original_id": 33,
+      "title": "TOP 10 des passeurs de Premier League en 2010-2015",
+      "tier": 65,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "104_320",
+      "original_id": 104,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG en 2020-2024",
+      "tier": 65,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "1_217",
+      "original_id": 1,
+      "title": "TOP 10 des passeurs de Arsenal en 2010-2015",
+      "tier": 65,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "123_339",
+      "original_id": 123,
+      "title": "TOP 10 des buteurs de Bundesliga en 2018",
+      "tier": 65,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "101_100",
+      "original_id": 101,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Serie A en 2015-2020",
+      "tier": 65,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "110_326",
+      "original_id": 110,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Liga en 2015-2020",
+      "tier": 66,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "102_210",
+      "original_id": 102,
+      "title": "TOP 10 des buteurs de Liga en 2018",
+      "tier": 66,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "95_311",
+      "original_id": 95,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea en 2015-2020",
+      "tier": 66,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "45_261",
+      "original_id": 45,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2018",
+      "tier": 66,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "18_234",
+      "original_id": 18,
+      "title": "TOP 10 des passeurs de PSG en 2005-2010",
+      "tier": 66,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "3_219",
+      "original_id": 3,
+      "title": "TOP 10 des passeurs de Barcelona en 2010-2015",
+      "tier": 67,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "79_295",
+      "original_id": 79,
+      "title": "TOP 10 des buteurs de Dortmund en 2015-2020",
+      "tier": 67,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "6_222",
+      "original_id": 6,
+      "title": "TOP 10 des passeurs de Bayern Munich en 2005-2010",
+      "tier": 67,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "11_227",
+      "original_id": 11,
+      "title": "TOP 10 des passeurs de Liverpool en 2010-2015",
+      "tier": 67,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "91_307",
+      "original_id": 91,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona en 2015-2020",
+      "tier": 67,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "90_198",
+      "original_id": 90,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Napoli en 2023",
+      "tier": 68,
+      "position": 1,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "92_200",
+      "original_id": 92,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Roma en 2023",
+      "tier": 68,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "16_232",
+      "original_id": 16,
+      "title": "TOP 10 des passeurs de Man Utd en 2005-2010",
+      "tier": 68,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "2_218",
+      "original_id": 2,
+      "title": "TOP 10 des passeurs de Arsenal en 2005-2010",
+      "tier": 68,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "79_78",
+      "original_id": 79,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Villarreal en 2020-2024",
+      "tier": 68,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "32_248",
+      "original_id": 32,
+      "title": "TOP 10 des passeurs de Villarreal en 2015-2020",
+      "tier": 69,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "19_235",
+      "original_id": 19,
+      "title": "TOP 10 des passeurs de Real Madrid en 2010-2015",
+      "tier": 69,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "63_279",
+      "original_id": 63,
+      "title": "TOP 10 des buteurs de Chelsea en 2005-2010",
+      "tier": 69,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "95_203",
+      "original_id": 95,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Premier League en 2020-2024",
+      "tier": 69,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "83_82",
+      "original_id": 83,
+      "title": "TOP 10 du Ballon d'Or 2007",
+      "tier": 69,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "71_287",
+      "original_id": 71,
+      "title": "TOP 10 des buteurs de Man Utd en 2005-2010",
+      "tier": 70,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "99_315",
+      "original_id": 99,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Liverpool en 2015-2020",
+      "tier": 70,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "7_223",
+      "original_id": 7,
+      "title": "TOP 10 des passeurs de Chelsea en 2010-2015",
+      "tier": 70,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "74_290",
+      "original_id": 74,
+      "title": "TOP 10 des buteurs de Real Madrid en 2010-2015",
+      "tier": 70,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "73_72",
+      "original_id": 73,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Milan en 2020-2024",
+      "tier": 70,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "42_258",
+      "original_id": 42,
+      "title": "TOP 10 des passeurs de Bundesliga en 2018",
+      "tier": 71,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "61_277",
+      "original_id": 61,
+      "title": "TOP 10 des buteurs de Bayern Munich en 2005-2010",
+      "tier": 71,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "84_192",
+      "original_id": 84,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leipzig en 2023",
+      "tier": 71,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "119_335",
+      "original_id": 119,
+      "title": "TOP 10 des buteurs de Serie A en 2019",
+      "tier": 71,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "108_324",
+      "original_id": 108,
+      "title": "TOP 10 du Ballon d'Or 2010",
+      "tier": 71,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "50_266",
+      "original_id": 50,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Serie A en 2020-2024",
+      "tier": 72,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "23_239",
+      "original_id": 23,
+      "title": "TOP 10 des passeurs de Atletico Madrid en 2015-2020",
+      "tier": 72,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "31_247",
+      "original_id": 31,
+      "title": "TOP 10 des passeurs de Roma en 2015-2020",
+      "tier": 72,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "88_304",
+      "original_id": 88,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal en 2020-2024",
+      "tier": 72,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "56_272",
+      "original_id": 56,
+      "title": "TOP 10 des buteurs de Arsenal en 2010-2015",
+      "tier": 72,
+      "position": 5,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "52_268",
+      "original_id": 52,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Bundesliga en 2020-2024",
+      "tier": 73,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "90_306",
+      "original_id": 90,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Barcelona en 2020-2024",
+      "tier": 73,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "38_254",
+      "original_id": 38,
+      "title": "TOP 10 des passeurs de Serie A en 2019",
+      "tier": 73,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "24_366",
+      "original_id": 24,
+      "title": "TOP 10 des transferts les plus coûteux entrants en 2010-2015 (Premier League)",
+      "tier": 73,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "27_26",
+      "original_id": 27,
+      "title": "TOP 10 des passeurs de Bundesliga en 2010-2015",
+      "tier": 73,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "8_224",
+      "original_id": 8,
+      "title": "TOP 10 des passeurs de Chelsea en 2005-2010",
+      "tier": 74,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "30_246",
+      "original_id": 30,
+      "title": "TOP 10 des passeurs de Napoli en 2015-2020",
+      "tier": 74,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "80_296",
+      "original_id": 80,
+      "title": "TOP 10 des buteurs de Juventus en 2015-2020",
+      "tier": 74,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "27_369",
+      "original_id": 27,
+      "title": "TOP 10 des transferts les plus coûteux en 2022 (Liga)",
+      "tier": 74,
+      "position": 4,
+      "original_difficulty": 2
+    },
+    {
+      "quiz_id": "54_53",
+      "original_id": 54,
+      "title": "TOP 10 des buteurs de Roma en 2005-2010",
+      "tier": 74,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "67_283",
+      "original_id": 67,
+      "title": "TOP 10 des buteurs de Liverpool en 2005-2010",
+      "tier": 75,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "17_233",
+      "original_id": 17,
+      "title": "TOP 10 des passeurs de PSG en 2010-2015",
+      "tier": 75,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "97_313",
+      "original_id": 97,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Inter Milan en 2015-2020",
+      "tier": 75,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "72_414",
+      "original_id": 72,
+      "title": "TOP 10 des buteurs de Bayern Munich en 2020-2024",
+      "tier": 75,
+      "position": 4,
+      "original_difficulty": 3
+    },
+    {
+      "quiz_id": "70_69",
+      "original_id": 70,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leipzig en 2015-2020",
+      "tier": 75,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "122_338",
+      "original_id": 122,
+      "title": "TOP 10 des buteurs de Bundesliga en 2019",
+      "tier": 76,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "69_177",
+      "original_id": 69,
+      "title": "TOP 10 des buteurs de Roma en 2020-2024",
+      "tier": 76,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "101_317",
+      "original_id": 101,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man City en 2015-2020",
+      "tier": 76,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "58_274",
+      "original_id": 58,
+      "title": "TOP 10 des buteurs de Barcelona en 2010-2015",
+      "tier": 76,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "60_59",
+      "original_id": 60,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atalanta en 2015-2020",
+      "tier": 76,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "77_293",
+      "original_id": 77,
+      "title": "TOP 10 des buteurs de Atalanta en 2015-2020",
+      "tier": 77,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "70_286",
+      "original_id": 70,
+      "title": "TOP 10 des buteurs de Man Utd en 2010-2015",
+      "tier": 77,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "4_220",
+      "original_id": 4,
+      "title": "TOP 10 des passeurs de Barcelona en 2005-2010",
+      "tier": 77,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "75_74",
+      "original_id": 75,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Napoli en 2020-2024",
+      "tier": 77,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "76_75",
+      "original_id": 76,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Napoli en 2015-2020",
+      "tier": 77,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "7_6",
+      "original_id": 7,
+      "title": "TOP 10 des passeurs de Dortmund en 2010-2015",
+      "tier": 78,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "2_1",
+      "original_id": 2,
+      "title": "TOP 10 des passeurs de Aston Villa en 2005-2010",
+      "tier": 78,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "90_89",
+      "original_id": 90,
+      "title": "TOP 10 du Ballon d'Or 2000",
+      "tier": 78,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "40_256",
+      "original_id": 40,
+      "title": "TOP 10 des passeurs de Bundesliga en 2015-2020",
+      "tier": 78,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "55_54",
+      "original_id": 55,
+      "title": "TOP 10 des buteurs de Villarreal en 2010-2015",
+      "tier": 78,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "69_68",
+      "original_id": 69,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Leipzig en 2020-2024",
+      "tier": 79,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "17_16",
+      "original_id": 17,
+      "title": "TOP 10 des passeurs de Milan en 2010-2015",
+      "tier": 79,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "39_38",
+      "original_id": 39,
+      "title": "TOP 10 des buteurs de Dortmund en 2010-2015",
+      "tier": 79,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "62_61",
+      "original_id": 62,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Atletico Madrid en 2015-2020",
+      "tier": 79,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "53_52",
+      "original_id": 53,
+      "title": "TOP 10 des buteurs de Roma en 2010-2015",
+      "tier": 79,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "9_8",
+      "original_id": 9,
+      "title": "TOP 10 des passeurs de Juventus en 2010-2015",
+      "tier": 80,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "12_11",
+      "original_id": 12,
+      "title": "TOP 10 des passeurs de Lazio en 2005-2010",
+      "tier": 80,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "42_41",
+      "original_id": 42,
+      "title": "TOP 10 des buteurs de Juventus en 2005-2010",
+      "tier": 80,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "80_79",
+      "original_id": 80,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Villarreal en 2015-2020",
+      "tier": 80,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "15_14",
+      "original_id": 15,
+      "title": "TOP 10 des passeurs de Leverkusen en 2010-2015",
+      "tier": 80,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "8_7",
+      "original_id": 8,
+      "title": "TOP 10 des passeurs de Dortmund en 2005-2010",
+      "tier": 81,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "48_47",
+      "original_id": 48,
+      "title": "TOP 10 des buteurs de Leverkusen en 2005-2010",
+      "tier": 81,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "45_44",
+      "original_id": 45,
+      "title": "TOP 10 des buteurs de Leipzig en 2010-2015",
+      "tier": 81,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "21_129",
+      "original_id": 21,
+      "title": "TOP 10 des passeurs de Roma en 2020-2024",
+      "tier": 81,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "34_33",
+      "original_id": 34,
+      "title": "TOP 10 des buteurs de Aston Villa en 2005-2010",
+      "tier": 81,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "107_106",
+      "original_id": 107,
+      "title": "TOP 10 des buteurs de Bundesliga en 2005-2010",
+      "tier": 82,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "24_23",
+      "original_id": 24,
+      "title": "TOP 10 des passeurs de Villarreal en 2005-2010",
+      "tier": 82,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "91_90",
+      "original_id": 91,
+      "title": "TOP 10 du Ballon d'Or 1999",
+      "tier": 82,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "109_108",
+      "original_id": 109,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2005-2010",
+      "tier": 82,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "47_46",
+      "original_id": 47,
+      "title": "TOP 10 des buteurs de Leverkusen en 2010-2015",
+      "tier": 82,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "19_18",
+      "original_id": 19,
+      "title": "TOP 10 des passeurs de Napoli en 2010-2015",
+      "tier": 83,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "48_264",
+      "original_id": 48,
+      "title": "TOP 10 des buteurs de la Copa América 2019",
+      "tier": 83,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "24_240",
+      "original_id": 24,
+      "title": "TOP 10 des passeurs de Dortmund en 2015-2020",
+      "tier": 83,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "82_81",
+      "original_id": 82,
+      "title": "TOP 10 du Ballon d'Or 2008",
+      "tier": 83,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "98_97",
+      "original_id": 98,
+      "title": "TOP 10 du Ballon d'Or 1992",
+      "tier": 83,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "43_42",
+      "original_id": 43,
+      "title": "TOP 10 des buteurs de Lazio en 2010-2015",
+      "tier": 84,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "22_21",
+      "original_id": 22,
+      "title": "TOP 10 des passeurs de Roma en 2005-2010",
+      "tier": 84,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "102_318",
+      "original_id": 102,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Man Utd en 2020-2024",
+      "tier": 84,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "43_259",
+      "original_id": 43,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2015-2020",
+      "tier": 84,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "40_39",
+      "original_id": 40,
+      "title": "TOP 10 des buteurs de Dortmund en 2005-2010",
+      "tier": 84,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "57_56",
+      "original_id": 57,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Aston Villa en 2020-2024",
+      "tier": 85,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "84_83",
+      "original_id": 84,
+      "title": "TOP 10 du Ballon d'Or 2006",
+      "tier": 85,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "9_225",
+      "original_id": 9,
+      "title": "TOP 10 des passeurs de Inter Milan en 2010-2015",
+      "tier": 85,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "74_73",
+      "original_id": 74,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Milan en 2015-2020",
+      "tier": 85,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "93_92",
+      "original_id": 93,
+      "title": "TOP 10 du Ballon d'Or 1997",
+      "tier": 85,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "105_104",
+      "original_id": 105,
+      "title": "TOP 10 des buteurs de Serie A en 2005-2010",
+      "tier": 86,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "11_10",
+      "original_id": 11,
+      "title": "TOP 10 des passeurs de Lazio en 2010-2015",
+      "tier": 86,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "86_85",
+      "original_id": 86,
+      "title": "TOP 10 du Ballon d'Or 2004",
+      "tier": 86,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "78_77",
+      "original_id": 78,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Roma en 2015-2020",
+      "tier": 86,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "99_98",
+      "original_id": 99,
+      "title": "TOP 10 du Ballon d'Or 1991",
+      "tier": 86,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "51_50",
+      "original_id": 51,
+      "title": "TOP 10 des buteurs de Napoli en 2010-2015",
+      "tier": 87,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "60_276",
+      "original_id": 60,
+      "title": "TOP 10 des buteurs de Bayern Munich en 2010-2015",
+      "tier": 87,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "4_3",
+      "original_id": 4,
+      "title": "TOP 10 des passeurs de Atalanta en 2005-2010",
+      "tier": 87,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "5_221",
+      "original_id": 5,
+      "title": "TOP 10 des passeurs de Bayern Munich en 2010-2015",
+      "tier": 87,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "20_19",
+      "original_id": 20,
+      "title": "TOP 10 des passeurs de Napoli en 2005-2010",
+      "tier": 87,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "94_93",
+      "original_id": 94,
+      "title": "TOP 10 du Ballon d'Or 1996",
+      "tier": 88,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "23_22",
+      "original_id": 23,
+      "title": "TOP 10 des passeurs de Villarreal en 2010-2015",
+      "tier": 88,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "33_32",
+      "original_id": 33,
+      "title": "TOP 10 des buteurs de Aston Villa en 2010-2015",
+      "tier": 88,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "106_322",
+      "original_id": 106,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Real Madrid en 2020-2024",
+      "tier": 88,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "18_17",
+      "original_id": 18,
+      "title": "TOP 10 des passeurs de Milan en 2005-2010",
+      "tier": 88,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "57_273",
+      "original_id": 57,
+      "title": "TOP 10 des buteurs de Arsenal en 2005-2010",
+      "tier": 89,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "103_102",
+      "original_id": 103,
+      "title": "TOP 10 des milieux de terrain avec le plus de passes décisives de Ligue 1 en 2015-2020",
+      "tier": 89,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "68_284",
+      "original_id": 68,
+      "title": "TOP 10 des buteurs de Man City en 2010-2015",
+      "tier": 89,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "29_28",
+      "original_id": 29,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2010-2015",
+      "tier": 89,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "1_0",
+      "original_id": 1,
+      "title": "TOP 10 des passeurs de Aston Villa en 2010-2015",
+      "tier": 89,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "36_35",
+      "original_id": 36,
+      "title": "TOP 10 des buteurs de Atalanta en 2005-2010",
+      "tier": 90,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "52_51",
+      "original_id": 52,
+      "title": "TOP 10 des buteurs de Napoli en 2005-2010",
+      "tier": 90,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "35_34",
+      "original_id": 35,
+      "title": "TOP 10 des buteurs de Atalanta en 2010-2015",
+      "tier": 90,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "95_94",
+      "original_id": 95,
+      "title": "TOP 10 du Ballon d'Or 1995",
+      "tier": 90,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "58_57",
+      "original_id": 58,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Aston Villa en 2015-2020",
+      "tier": 90,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "31_30",
+      "original_id": 31,
+      "title": "TOP 10 des buteurs de la Copa América 2016",
+      "tier": 91,
+      "position": 1,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "116_332",
+      "original_id": 116,
+      "title": "TOP 10 des buteurs de Liga en 2010-2015",
+      "tier": 91,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "46_45",
+      "original_id": 46,
+      "title": "TOP 10 des buteurs de Leipzig en 2005-2010",
+      "tier": 91,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "14_13",
+      "original_id": 14,
+      "title": "TOP 10 des passeurs de Leipzig en 2005-2010",
+      "tier": 91,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "88_87",
+      "original_id": 88,
+      "title": "TOP 10 du Ballon d'Or 2002",
+      "tier": 91,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "78_294",
+      "original_id": 78,
+      "title": "TOP 10 des buteurs de Atletico Madrid en 2015-2020",
+      "tier": 92,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "65_64",
+      "original_id": 65,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Juventus en 2020-2024",
+      "tier": 92,
+      "position": 2,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "63_62",
+      "original_id": 63,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Dortmund en 2020-2024",
+      "tier": 92,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "81_297",
+      "original_id": 81,
+      "title": "TOP 10 des buteurs de Lazio en 2015-2020",
+      "tier": 92,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "66_65",
+      "original_id": 66,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Juventus en 2015-2020",
+      "tier": 92,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "89_305",
+      "original_id": 89,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Arsenal en 2015-2020",
+      "tier": 93,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "93_309",
+      "original_id": 93,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Bayern Munich en 2015-2020",
+      "tier": 93,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "92_91",
+      "original_id": 92,
+      "title": "TOP 10 du Ballon d'Or 1998",
+      "tier": 93,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "108_107",
+      "original_id": 108,
+      "title": "TOP 10 des buteurs de Ligue 1 en 2010-2015",
+      "tier": 93,
+      "position": 4,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "21_20",
+      "original_id": 21,
+      "title": "TOP 10 des passeurs de Roma en 2010-2015",
+      "tier": 93,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "20_236",
+      "original_id": 20,
+      "title": "TOP 10 des passeurs de Real Madrid en 2005-2010",
+      "tier": 94,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "55_271",
+      "original_id": 55,
+      "title": "TOP 10 des joueurs avec le meilleur ratio buts/minutes de Ligue 1 en 2015-2020",
+      "tier": 94,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "10_9",
+      "original_id": 10,
+      "title": "TOP 10 des passeurs de Juventus en 2005-2010",
+      "tier": 94,
+      "position": 3,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "105_321",
+      "original_id": 105,
+      "title": "TOP 10 des joueurs avec le plus de minutes de PSG en 2015-2020",
+      "tier": 94,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "30_29",
+      "original_id": 30,
+      "title": "TOP 10 des passeurs de Ligue 1 en 2005-2010",
+      "tier": 94,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "29_245",
+      "original_id": 29,
+      "title": "TOP 10 des passeurs de Milan en 2015-2020",
+      "tier": 95,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "59_275",
+      "original_id": 59,
+      "title": "TOP 10 des buteurs de Barcelona en 2005-2010",
+      "tier": 95,
+      "position": 2,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "82_298",
+      "original_id": 82,
+      "title": "TOP 10 des buteurs de Leipzig en 2015-2020",
+      "tier": 95,
+      "position": 3,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "94_310",
+      "original_id": 94,
+      "title": "TOP 10 des joueurs avec le plus de minutes de Chelsea en 2020-2024",
+      "tier": 95,
+      "position": 4,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "50_49",
+      "original_id": 50,
+      "title": "TOP 10 des buteurs de Milan en 2005-2010",
+      "tier": 95,
+      "position": 5,
+      "original_difficulty": 6
+    },
+    {
+      "quiz_id": "27_243",
+      "original_id": 27,
+      "title": "TOP 10 des passeurs de Leipzig en 2015-2020",
+      "tier": 96,
+      "position": 1,
+      "original_difficulty": 5
+    },
+    {
+      "quiz_id": "56_164",
+      "original_id": 56,
+      "title": "TOP 10 des buteurs de Man Utd en 2015-2020",
+      "tier": 96,
+      "position": 2,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "65_173",
+      "original_id": 65,
+      "title": "TOP 10 des buteurs de Leipzig en 2020-2024",
+      "tier": 96,
+      "position": 3,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "10_118",
+      "original_id": 10,
+      "title": "TOP 10 des passeurs de Real Madrid en 2015-2020",
+      "tier": 96,
+      "position": 4,
+      "original_difficulty": 4
+    },
+    {
+      "quiz_id": "44_43",
+      "original_id": 44,
+      "title": "TOP 10 des buteurs de Lazio en 2005-2010",
+      "tier": 96,
+      "position": 5,
+      "original_difficulty": 6
+    }
+  ]
+}
