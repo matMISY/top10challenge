@@ -250,8 +250,8 @@ class DataLoaderService {
       
       for (final tierId in sortedTierIds) {
         final difficulties = tierDifficulties[tierId]!;
-        final int calculatedUnlockCost = calculateTierUnlockCost(tierId, difficulties);
         final levelIds = tierLevelIds[tierId] ?? [];
+        final int calculatedUnlockCost = calculateTierUnlockCost(tierId, difficulties);
         
         final tier = Tier(
           id: tierId,
@@ -472,7 +472,12 @@ class DataLoaderService {
     int allowedGap = _getAllowedGapForTier(tierId);
     
     // Coût = points max possibles - écart autorisé
-    return totalPoints - allowedGap;
+    int cost = totalPoints - allowedGap;
+    
+    // Validation du coût minimum
+    if (cost < 0) cost = 0;
+    
+    return cost;
   }
   
   /// Détermine l'écart de points autorisé selon le palier

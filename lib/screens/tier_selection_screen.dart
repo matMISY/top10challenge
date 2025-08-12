@@ -347,7 +347,6 @@ class TierSelectionScreen extends StatelessWidget {
         break; // Arrêter une fois qu'on dépasse le tier cible
       }
     }
-    
     return cumulativeCost;
   }
 }

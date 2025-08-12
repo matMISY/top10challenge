@@ -262,12 +262,16 @@ class GameService {
     final prefs = await SharedPreferences.getInstance();
     final tiersJson = prefs.getString(_tiersKey);
     
+    List<Tier> tiers;
     if (tiersJson != null) {
       final List<dynamic> tiersList = jsonDecode(tiersJson);
-      return tiersList.map((json) => Tier.fromJson(json)).toList();
+      tiers = tiersList.map((json) => Tier.fromJson(json)).toList();
+    } else {
+      tiers = await _getDefaultTiers();
     }
     
-    return await _getDefaultTiers();
+    
+    return tiers;
   }
 
   Future<void> saveTiers(List<Tier> tiers) async {
@@ -350,7 +354,6 @@ class GameService {
         break; // Arrêter une fois qu'on dépasse le tier cible
       }
     }
-    
     return cumulativeCost;
   }
 
