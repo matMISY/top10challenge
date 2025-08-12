@@ -331,8 +331,27 @@ class GameService {
     final gameState = await getGameState();
     final tiers = await getTiers();
     
-    final tier = tiers.firstWhere((t) => t.id == tierId, orElse: () => tiers.first);
-    return gameState.totalPoints >= tier.unlockCost;
+    final cumulativeCost = _calculateCumulativeCost(tierId, tiers);
+    return gameState.totalPoints >= cumulativeCost;
+  }
+
+  /// Calcule le coût cumulatif pour débloquer un tier
+  int _calculateCumulativeCost(int targetTierId, List<Tier> allTiers) {
+    int cumulativeCost = 0;
+    
+    // Trier les tiers par ID pour s'assurer de l'ordre correct
+    final sortedTiers = allTiers.toList()..sort((a, b) => a.id.compareTo(b.id));
+    
+    // Additionner les coûts de tous les tiers jusqu'au tier cible (inclus)
+    for (final tier in sortedTiers) {
+      if (tier.id <= targetTierId) {
+        cumulativeCost += tier.unlockCost;
+      } else {
+        break; // Arrêter une fois qu'on dépasse le tier cible
+      }
+    }
+    
+    return cumulativeCost;
   }
 
   Future<bool> isTierUnlocked(int tierId) async {

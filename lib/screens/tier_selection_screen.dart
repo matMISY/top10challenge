@@ -113,7 +113,11 @@ class TierSelectionScreen extends StatelessWidget {
 
   Widget _buildTierCard(BuildContext context, Tier tier, ({int totalPoints, List<int> unlockedTiers, List<int> completedLevels}) gameState, GameProvider gameProvider) {
     final isUnlocked = gameState.unlockedTiers.contains(tier.id);
-    final canUnlock = gameState.totalPoints >= tier.unlockCost;
+    
+    // Calculer le coût cumulatif (somme des coûts de tous les tiers précédents + actuel)
+    final cumulativeCost = _calculateCumulativeCost(tier, gameProvider.tiers);
+    final canUnlock = gameState.totalPoints >= cumulativeCost;
+    
     final completedLevels = tier.getCompletedLevelsCount(gameState.completedLevels);
     final totalLevels = tier.levelIds.length;
     final progress = totalLevels > 0 ? completedLevels / totalLevels : 0.0;
@@ -129,7 +133,7 @@ class TierSelectionScreen extends StatelessWidget {
                   ),
                 )
             : canUnlock
-                ? () => _showUnlockDialog(context, tier, gameState.totalPoints, gameProvider)
+                ? () => _showUnlockDialog(context, tier, gameState.totalPoints, gameProvider, cumulativeCost)
                 : null,
         child: Container(
           padding: const EdgeInsets.all(20),
@@ -206,7 +210,7 @@ class TierSelectionScreen extends StatelessWidget {
                           ),
                           const SizedBox(width: 4),
                           Text(
-                            '${tier.unlockCost}',
+                            '$cumulativeCost',
                             style: const TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -265,7 +269,7 @@ class TierSelectionScreen extends StatelessWidget {
     );
   }
 
-  void _showUnlockDialog(BuildContext context, Tier tier, int totalPoints, GameProvider gameProvider) {
+  void _showUnlockDialog(BuildContext context, Tier tier, int totalPoints, GameProvider gameProvider, int cumulativeCost) {
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -288,7 +292,7 @@ class TierSelectionScreen extends StatelessWidget {
                   const Icon(Icons.star, color: Colors.amber),
                   const SizedBox(width: 8),
                   Text(
-                    'Coût: ${tier.unlockCost} points',
+                    'Coût: $cumulativeCost points',
                     style: const TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ],
@@ -325,5 +329,25 @@ class TierSelectionScreen extends StatelessWidget {
         );
       },
     );
+  }
+
+  /// Calcule le coût cumulatif pour débloquer un tier
+  /// (somme de tous les coûts des tiers précédents + coût du tier actuel)
+  int _calculateCumulativeCost(Tier targetTier, List<Tier> allTiers) {
+    int cumulativeCost = 0;
+    
+    // Trier les tiers par ID pour s'assurer de l'ordre correct
+    final sortedTiers = allTiers.toList()..sort((a, b) => a.id.compareTo(b.id));
+    
+    // Additionner les coûts de tous les tiers jusqu'au tier cible (inclus)
+    for (final tier in sortedTiers) {
+      if (tier.id <= targetTier.id) {
+        cumulativeCost += tier.unlockCost;
+      } else {
+        break; // Arrêter une fois qu'on dépasse le tier cible
+      }
+    }
+    
+    return cumulativeCost;
   }
 }
