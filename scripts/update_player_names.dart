@@ -28,13 +28,27 @@ Future<void> updatePlayerNames() async {
     print('📄 Création d\'un nouveau fichier all_player_names.json');
   }
   
-  // Lire tous les fichiers de quiz dans le dossier data
+  // Lire tous les fichiers de quiz dans le dossier data et data/v3
   final dataDir = Directory('data');
-  final quizFiles = await dataDir
-      .list()
-      .where((entity) => entity is File && entity.path.endsWith('.json'))
-      .cast<File>()
-      .toList();
+  final v3Dir = Directory('data/v3');
+  
+  final quizFiles = <File>[];
+  
+  // Fichiers dans data/
+  await for (final entity in dataDir.list()) {
+    if (entity is File && entity.path.endsWith('.json')) {
+      quizFiles.add(entity);
+    }
+  }
+  
+  // Fichiers dans data/v3/ si le dossier existe
+  if (await v3Dir.exists()) {
+    await for (final entity in v3Dir.list()) {
+      if (entity is File && entity.path.endsWith('.json')) {
+        quizFiles.add(entity);
+      }
+    }
+  }
   
   Set<String> newPlayers = <String>{};
   int totalQuizzes = 0;
@@ -45,8 +59,15 @@ Future<void> updatePlayerNames() async {
       final content = await file.readAsString();
       final quizData = json.decode(content);
       
-      if (quizData['data'] != null) {
-        final quizzes = quizData['data'] as List;
+      // Support des deux formats : data/quizzes (v3) et data/data (ancien)
+      List<dynamic>? quizzes;
+      if (quizData['quizzes'] != null) {
+        quizzes = quizData['quizzes'] as List;  // Format v3
+      } else if (quizData['data'] != null) {
+        quizzes = quizData['data'] as List;     // Format ancien
+      }
+      
+      if (quizzes != null) {
         totalQuizzes += quizzes.length;
         
         for (final quiz in quizzes) {
