@@ -51,30 +51,52 @@ class GameProvider with ChangeNotifier {
     super.dispose();
   }
 
+  /// Initialise AdMob en arrière-plan sans bloquer l'interface
+  void _initializeAdsInBackground() {
+    Future.microtask(() async {
+      try {
+        final adsStopwatch = Stopwatch()..start();
+        await _adsService.initialize();
+        adsStopwatch.stop();
+        debugPrint('✅ Ads service initialized in background (${adsStopwatch.elapsedMilliseconds}ms)');
+      } catch (adsError) {
+        debugPrint('❌ Ads service failed to initialize in background: $adsError');
+      }
+    });
+  }
+
   Future<void> _initialize() async {
     try {
+      final stopwatch = Stopwatch()..start();
       debugPrint('🚀 Starting GameProvider initialization...');
       
-      // Initialiser avec migration automatique
-      debugPrint('📂 Initializing game service...');
+      // Initialiser seulement les services critiques
+      debugPrint('📂 Initializing critical services...');
+      
+      // Game service (critique pour l'affichage)
       await _gameService.initializeWithMigration();
       debugPrint('✅ Game service initialized');
       
-      // Initialiser le service de publicités avec gestion d'erreur
-      try {
-        debugPrint('📺 Initializing ads service...');
-        await _adsService.initialize();
-        debugPrint('✅ Ads service initialized');
-      } catch (adsError) {
-        debugPrint('❌ Ads service failed to initialize: $adsError');
-        // Continue without ads
-      }
+      // Initialiser AdMob en arrière-plan (non bloquant)
+      debugPrint('📺 Starting AdMob initialization in background...');
+      _initializeAdsInBackground();
       
       debugPrint('📊 Loading game data...');
+      final dataStopwatch = Stopwatch()..start();
+      
       // Forcer une synchronisation complète pour s'assurer que les levelIds sont remplis
+      final syncStopwatch = Stopwatch()..start();
       await _gameService.loadLevelsAndTiersSync();
+      syncStopwatch.stop();
+      debugPrint('⏱️ loadLevelsAndTiersSync took ${syncStopwatch.elapsedMilliseconds}ms');
+      
+      final loadStopwatch = Stopwatch()..start();
       await loadGameData();
-      debugPrint('✅ Game data loaded');
+      loadStopwatch.stop();
+      debugPrint('⏱️ loadGameData took ${loadStopwatch.elapsedMilliseconds}ms');
+      
+      dataStopwatch.stop();
+      debugPrint('✅ Game data loaded in ${dataStopwatch.elapsedMilliseconds}ms');
       
       // Récupérer les vies automatiquement au démarrage
       debugPrint('❤️ Recovering lives...');
@@ -108,7 +130,9 @@ class GameProvider with ChangeNotifier {
       
       _isLoading = false;
       notifyListeners();
-      debugPrint('🎉 GameProvider initialization complete!');
+      
+      stopwatch.stop();
+      debugPrint('🎉 GameProvider initialization complete in ${stopwatch.elapsedMilliseconds}ms!');
     } catch (e) {
       debugPrint('❌ Error initializing GameProvider: $e');
       debugPrint('📋 Stack trace: ${StackTrace.current}');

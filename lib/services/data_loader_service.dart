@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../models/level.dart';
 import '../models/answer.dart';
 import '../models/tier.dart';
@@ -12,6 +13,12 @@ class DataLoaderService {
   
   // Flag pour utiliser l'ordre personnalisé ou l'ordre déterministe original
   static bool useCustomOrder = true;
+  
+  // Clés pour le cache SharedPreferences
+  static const String _cachedLevelsKey = 'cached_static_levels';
+  static const String _cachedTiersKey = 'cached_static_tiers';
+  static const String _cacheVersionKey = 'cache_version';
+  static const String _currentCacheVersion = '3.2.0'; // Incrémenter si structure change
 
   /// Charge tous les quiz de tous les fichiers et les mélange de façon déterministe
   /// (Version mise à jour avec support des paliers)
@@ -309,12 +316,30 @@ class DataLoaderService {
 
   /// Charge tous les quiz et retourne à la fois les niveaux et les tiers mis à jour
   static Future<Map<String, dynamic>> loadAllQuizzesWithTiersAndUpdate() async {
+    final totalStopwatch = Stopwatch()..start();
+    debugPrint('🔧 Starting loadAllQuizzesWithTiersAndUpdate...');
+    
+    // D'abord, essayer de charger depuis le cache
+    final cacheResult = await _loadFromCache();
+    if (cacheResult != null) {
+      totalStopwatch.stop();
+      debugPrint('🚀 Cache hit! Loaded in ${totalStopwatch.elapsedMilliseconds}ms');
+      return cacheResult;
+    }
+    
+    debugPrint('💾 Cache miss, loading from files...');
+    final tiersStopwatch = Stopwatch()..start();
     final tiers = await loadTiers();
+    tiersStopwatch.stop();
+    debugPrint('⏱️ loadTiers took ${tiersStopwatch.elapsedMilliseconds}ms');
     
     // Essayer de charger l'ordre personnalisé en premier
     List<Level> allLevels = [];
     if (useCustomOrder) {
+      final customStopwatch = Stopwatch()..start();
       allLevels = await _loadCustomOrderedQuizzes();
+      customStopwatch.stop();
+      debugPrint('⏱️ _loadCustomOrderedQuizzes took ${customStopwatch.elapsedMilliseconds}ms');
     }
     
     // Si l'ordre personnalisé n'est pas disponible, utiliser la méthode originale
@@ -359,10 +384,17 @@ class DataLoaderService {
       }
       
       debugPrint('Using custom quiz order with ${organizedLevels.length} levels in ${updatedTiers.length} tiers');
-      return {
+      
+      // Sauvegarder en cache pour les prochaines fois
+      final result = {
         'levels': organizedLevels,
         'tiers': updatedTiers,
       };
+      await _saveToCache(result);
+      
+      totalStopwatch.stop();
+      debugPrint('⏱️ loadAllQuizzesWithTiersAndUpdate completed in ${totalStopwatch.elapsedMilliseconds}ms');
+      return result;
     }
     
     // Sinon, utiliser la méthode originale d'assignation
@@ -534,6 +566,81 @@ class DataLoaderService {
       'difficulties': [1, 1, 2, 2, 3],
       'pointsRewards': [1, 1, 2, 2, 3],
     };
+  }
+
+  /// Charge les données depuis le cache SharedPreferences
+  static Future<Map<String, dynamic>?> _loadFromCache() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      
+      // Vérifier la version du cache
+      final cachedVersion = prefs.getString(_cacheVersionKey);
+      if (cachedVersion != _currentCacheVersion) {
+        debugPrint('💾 Cache version mismatch, invalidating cache');
+        return null;
+      }
+      
+      final cachedLevelsJson = prefs.getString(_cachedLevelsKey);
+      final cachedTiersJson = prefs.getString(_cachedTiersKey);
+      
+      if (cachedLevelsJson == null || cachedTiersJson == null) {
+        debugPrint('💾 Cache incomplete');
+        return null;
+      }
+      
+      final List<dynamic> levelsJsonList = jsonDecode(cachedLevelsJson);
+      final List<dynamic> tiersJsonList = jsonDecode(cachedTiersJson);
+      
+      final levels = levelsJsonList.map((json) => Level.fromJson(json)).toList();
+      final tiers = tiersJsonList.map((json) => Tier.fromJson(json)).toList();
+      
+      debugPrint('💾 Cache loaded: ${levels.length} levels, ${tiers.length} tiers');
+      return {
+        'levels': levels,
+        'tiers': tiers,
+      };
+    } catch (e) {
+      debugPrint('❌ Error loading from cache: $e');
+      return null;
+    }
+  }
+  
+  /// Sauvegarde les données dans le cache SharedPreferences
+  static Future<void> _saveToCache(Map<String, dynamic> data) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      
+      final levels = data['levels'] as List<Level>;
+      final tiers = data['tiers'] as List<Tier>;
+      
+      final levelsJson = jsonEncode(levels.map((level) => level.toJson()).toList());
+      final tiersJson = jsonEncode(tiers.map((tier) => tier.toJson()).toList());
+      
+      await Future.wait([
+        prefs.setString(_cachedLevelsKey, levelsJson),
+        prefs.setString(_cachedTiersKey, tiersJson),
+        prefs.setString(_cacheVersionKey, _currentCacheVersion),
+      ]);
+      
+      debugPrint('💾 Data cached successfully: ${levels.length} levels, ${tiers.length} tiers');
+    } catch (e) {
+      debugPrint('❌ Error saving to cache: $e');
+    }
+  }
+  
+  /// Efface le cache (utile pour les tests ou mises à jour)
+  static Future<void> clearCache() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await Future.wait([
+        prefs.remove(_cachedLevelsKey),
+        prefs.remove(_cachedTiersKey),
+        prefs.remove(_cacheVersionKey),
+      ]);
+      debugPrint('💾 Cache cleared successfully');
+    } catch (e) {
+      debugPrint('❌ Error clearing cache: $e');
+    }
   }
 
   /// Paliers par défaut en cas d'erreur
