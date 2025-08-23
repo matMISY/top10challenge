@@ -18,7 +18,7 @@ class DataLoaderService {
   static const String _cachedLevelsKey = 'cached_static_levels';
   static const String _cachedTiersKey = 'cached_static_tiers';
   static const String _cacheVersionKey = 'cache_version';
-  static const String _currentCacheVersion = '3.2.0'; // Incrémenter si structure change
+  static const String _currentCacheVersion = '3.2.1'; // Incrémenter si structure change
 
   /// Charge tous les quiz de tous les fichiers et les mélange de façon déterministe
   /// (Version mise à jour avec support des paliers)
