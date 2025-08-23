@@ -20,6 +20,36 @@ class DataLoaderService {
   static const String _cacheVersionKey = 'cache_version';
   static const String _currentCacheVersion = '3.2.1'; // Incrémenter si structure change
 
+  /// Génère une clé de traduction à partir d'un titre français
+  static String _generateTitleKey(String frenchTitle) {
+    // Supprimer les accents et caractères spéciaux
+    String key = frenchTitle
+        .toLowerCase()
+        .replaceAll(RegExp(r'[àáâãäå]'), 'a')
+        .replaceAll(RegExp(r'[èéêë]'), 'e')
+        .replaceAll(RegExp(r'[ìíîï]'), 'i')
+        .replaceAll(RegExp(r'[òóôõö]'), 'o')
+        .replaceAll(RegExp(r'[ùúûü]'), 'u')
+        .replaceAll(RegExp(r'[ç]'), 'c')
+        .replaceAll(RegExp(r'[ñ]'), 'n')
+        .replaceAll(RegExp(r'[^a-z0-9\s]'), '') // Supprimer tout sauf lettres, chiffres et espaces
+        .replaceAll(RegExp(r'\s+'), '_') // Remplacer espaces par underscore
+        .replaceAll(RegExp(r'^top_10_des?_'), 'quiz_') // Raccourcir
+        .replaceAll(RegExp(r'^top_10_du_'), 'quiz_')
+        .replaceAll('ballon_d_or', 'ballondor')
+        .replaceAll('dans_les_grands_clubs_europeens', 'bigclubs')
+        .replaceAll('les_plus_couteux', 'expensive')
+        .replaceAll('les_plus_prolifiques', 'prolific');
+    
+    // Limiter la longueur en gardant les parties importantes
+    List<String> parts = key.split('_');
+    if (parts.length > 8) {
+      key = parts.take(8).join('_');
+    }
+    
+    return 'quizTitle_$key';
+  }
+
   /// Charge tous les quiz de tous les fichiers et les mélange de façon déterministe
   /// (Version mise à jour avec support des paliers)
   static Future<List<Level>> loadAllQuizzes() async {
@@ -47,9 +77,13 @@ class DataLoaderService {
             .map((answerJson) => Answer.fromJson(answerJson as Map<String, dynamic>))
             .toList();
         
+        final String title = quiz['title'] as String;
+        final String? titleKey = quiz['titleKey'] as String? ?? _generateTitleKey(title);
+        
         final level = Level(
           id: quiz['id'] as int? ?? (i + 1),
-          title: quiz['title'] as String,
+          title: title,
+          titleKey: titleKey,
           hint: quiz['hint'] as String? ?? '',
           category: (quiz['theme'] ?? quiz['category']) as String,
           answers: answers,
@@ -112,9 +146,13 @@ class DataLoaderService {
           difficulty = _calculateDifficulty(i, quizzes.length);
         }
 
+        final String title = quiz['title'] as String;
+        final String? titleKey = quiz['titleKey'] as String? ?? _generateTitleKey(title);
+        
         final level = Level(
           id: quiz['id'] as int? ?? (i + 1), // Utiliser l'ID existant ou générer
-          title: quiz['title'] as String,
+          title: title,
+          titleKey: titleKey,
           hint: quiz['hint'] as String? ?? '', // Champ hint optionnel
           category: (quiz['theme'] ?? quiz['category']) as String,
           answers: answers,

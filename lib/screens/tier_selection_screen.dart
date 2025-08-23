@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/game_provider.dart';
 import '../models/tier.dart';
+import '../extensions/tier_extensions.dart';
 import 'tier_levels_screen.dart';
 
 class TierSelectionScreen extends StatelessWidget {
@@ -176,7 +177,7 @@ class TierSelectionScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          tier.name,
+                          tier.getLocalizedName(context),
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 20,
@@ -184,7 +185,7 @@ class TierSelectionScreen extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          tier.description,
+                          tier.getLocalizedDescription(context),
                           style: TextStyle(
                             color: Colors.white.withValues(alpha: 0.8),
                             fontSize: 14,
@@ -230,7 +231,7 @@ class TierSelectionScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Progression: $completedLevels/$totalLevels niveaux',
+                            AppLocalizations.of(context)!.progress(completedLevels, totalLevels),
                             style: TextStyle(
                               color: Colors.white.withValues(alpha: 0.9),
                               fontSize: 14,
@@ -278,14 +279,14 @@ class TierSelectionScreen extends StatelessWidget {
             children: [
               const Icon(Icons.lock_open, color: Colors.blue),
               const SizedBox(width: 8),
-              Text('Débloquer ${tier.name}'),
+              Text('Débloquer ${tier.getLocalizedName(context)}'),
             ],
           ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(tier.description),
+              Text(tier.getLocalizedDescription(context)),
               const SizedBox(height: 16),
               Row(
                 children: [

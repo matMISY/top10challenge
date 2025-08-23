@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flag/flag.dart';
 import '../providers/game_provider.dart';
+import '../providers/locale_provider.dart';
 import '../models/game_state.dart';
 import '../utils/debug_config.dart';
 import '../services/feedback_service.dart';
@@ -25,11 +27,20 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
         child: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
+          child: Stack(
+            children: [
+              // Bouton de langue en haut à droite
+              Positioned(
+                top: 20,
+                right: 20,
+                child: _buildLanguageButton(context),
+              ),
+              // Contenu principal
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
                 const Spacer(),
                 Text(
                   AppLocalizations.of(context)!.appTitle,
@@ -131,16 +142,18 @@ class HomeScreen extends StatelessWidget {
                     );
                   },
                 ),
-                const Spacer(),
-                Text(
-                  AppLocalizations.of(context)!.level(context.watch<GameProvider>().gameState.currentLevel),
-                  style: GoogleFonts.baloo2(
-                    color: Colors.white70,
-                    fontSize: 16,
-                  ),
+                    const Spacer(),
+                    Text(
+                      AppLocalizations.of(context)!.level(context.watch<GameProvider>().gameState.currentLevel),
+                      style: GoogleFonts.baloo2(
+                        color: Colors.white70,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ],
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),
@@ -492,5 +505,48 @@ class HomeScreen extends StatelessWidget {
       
       FeedbackService.showError(context, AppLocalizations.of(context)!.hintsAdError);
     }
+  }
+  
+  Widget _buildLanguageButton(BuildContext context) {
+    return Consumer<LocaleProvider>(
+      builder: (context, localeProvider, child) {
+        return Container(
+          decoration: BoxDecoration(
+            color: Colors.white.withValues(alpha: 0.2),
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Material(
+            color: Colors.transparent,
+            child: InkWell(
+              borderRadius: BorderRadius.circular(20),
+              onTap: () => localeProvider.toggleLocale(),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Flag.fromCode(
+                      localeProvider.isFrench ? FlagsCode.FR : FlagsCode.GB,
+                      height: 20,
+                      width: 30,
+                      fit: BoxFit.cover,
+                    ),
+                    const SizedBox(width: 6),
+                    Text(
+                      localeProvider.isFrench ? 'FR' : 'EN',
+                      style: GoogleFonts.baloo2(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        );
+      },
+    );
   }
 }

@@ -69,7 +69,8 @@
       ],
       "tier_id": 1,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_0"
     },
     {
       "id": 2,
@@ -130,7 +131,8 @@
       ],
       "tier_id": 1,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_1"
     },
     {
       "id": 3,
@@ -191,7 +193,8 @@
       ],
       "tier_id": 1,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_france_dans_les_grands_clubs_eu"
     },
     {
       "id": 4,
@@ -252,7 +255,8 @@
       ],
       "tier_id": 1,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_portugal_les_plus_prolifiques_b"
     },
     {
       "id": 5,
@@ -313,7 +317,8 @@
       ],
       "tier_id": 1,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_4"
     },
     {
       "id": 6,
@@ -374,7 +379,8 @@
       ],
       "tier_id": 2,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_5"
     },
     {
       "id": 7,
@@ -435,7 +441,8 @@
       ],
       "tier_id": 2,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_6"
     },
     {
       "id": 8,
@@ -496,7 +503,8 @@
       ],
       "tier_id": 2,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_portugal_dans_les_grands_clubs"
     },
     {
       "id": 9,
@@ -557,7 +565,8 @@
       ],
       "tier_id": 2,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_8"
     },
     {
       "id": 10,
@@ -618,7 +627,8 @@
       ],
       "tier_id": 2,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_9"
     },
     {
       "id": 11,
@@ -679,7 +689,8 @@
       ],
       "tier_id": 3,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_10"
     },
     {
       "id": 12,
@@ -740,7 +751,8 @@
       ],
       "tier_id": 3,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_france_les_plus_prolifiques_but"
     },
     {
       "id": 13,
@@ -802,7 +814,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 3,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_pre"
     },
     {
       "id": 14,
@@ -863,7 +876,8 @@
       ],
       "tier_id": 3,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_france_dans_les_grands_clubs_eu"
     },
     {
       "id": 15,
@@ -924,7 +938,8 @@
       ],
       "tier_id": 3,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_14"
     },
     {
       "id": 16,
@@ -985,7 +1000,8 @@
       ],
       "tier_id": 4,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_15"
     },
     {
       "id": 17,
@@ -1046,7 +1062,8 @@
       ],
       "tier_id": 4,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_portugal_dans_les_grands_clubs"
     },
     {
       "id": 18,
@@ -1107,7 +1124,8 @@
       ],
       "tier_id": 4,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_17"
     },
     {
       "id": 19,
@@ -1168,7 +1186,8 @@
       ],
       "tier_id": 4,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2024_18"
     },
     {
       "id": 20,
@@ -1229,7 +1248,8 @@
       ],
       "tier_id": 4,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_19"
     },
     {
       "id": 21,
@@ -1290,7 +1310,8 @@
       ],
       "tier_id": 5,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_20"
     },
     {
       "id": 22,
@@ -1351,7 +1372,8 @@
       ],
       "tier_id": 5,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_france_les_plus_prolifiques_but"
     },
     {
       "id": 23,
@@ -1412,7 +1434,8 @@
       ],
       "tier_id": 5,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_22"
     },
     {
       "id": 24,
@@ -1473,7 +1496,8 @@
       ],
       "tier_id": 5,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2024_23"
     },
     {
       "id": 25,
@@ -1534,7 +1558,8 @@
       ],
       "tier_id": 5,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_24"
     },
     {
       "id": 26,
@@ -1595,7 +1620,8 @@
       ],
       "tier_id": 6,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_portugal_les_plus_prolifiques_b"
     },
     {
       "id": 27,
@@ -1656,7 +1682,8 @@
       ],
       "tier_id": 6,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_lig"
     },
     {
       "id": 28,
@@ -1717,7 +1744,8 @@
       ],
       "tier_id": 6,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_coupe_du_monde_2022_27"
     },
     {
       "id": 29,
@@ -1778,7 +1806,8 @@
       ],
       "tier_id": 6,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_28"
     },
     {
       "id": 30,
@@ -1839,7 +1868,8 @@
       ],
       "tier_id": 6,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_29"
     },
     {
       "id": 31,
@@ -1900,7 +1930,8 @@
       ],
       "tier_id": 7,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_30"
     },
     {
       "id": 32,
@@ -1961,7 +1992,8 @@
       ],
       "tier_id": 7,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_31"
     },
     {
       "id": 33,
@@ -2022,7 +2054,8 @@
       ],
       "tier_id": 7,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_32"
     },
     {
       "id": 34,
@@ -2083,7 +2116,8 @@
       ],
       "tier_id": 7,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_33"
     },
     {
       "id": 35,
@@ -2144,7 +2178,8 @@
       ],
       "tier_id": 7,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_bun"
     },
     {
       "id": 36,
@@ -2205,7 +2240,8 @@
       ],
       "tier_id": 8,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_euro_2024_35"
     },
     {
       "id": 37,
@@ -2267,7 +2303,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 8,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_pre"
     },
     {
       "id": 38,
@@ -2328,7 +2365,8 @@
       ],
       "tier_id": 8,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_37"
     },
     {
       "id": 39,
@@ -2389,7 +2427,8 @@
       ],
       "tier_id": 8,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_38"
     },
     {
       "id": 40,
@@ -2450,7 +2489,8 @@
       ],
       "tier_id": 8,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_coupe_du_monde_2022_39"
     },
     {
       "id": 41,
@@ -2511,7 +2551,8 @@
       ],
       "tier_id": 9,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2023_40"
     },
     {
       "id": 42,
@@ -2572,7 +2613,8 @@
       ],
       "tier_id": 9,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_41"
     },
     {
       "id": 43,
@@ -2634,7 +2676,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 9,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_pre"
     },
     {
       "id": 44,
@@ -2695,7 +2738,8 @@
       ],
       "tier_id": 9,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_43"
     },
     {
       "id": 45,
@@ -2756,7 +2800,8 @@
       ],
       "tier_id": 9,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_44"
     },
     {
       "id": 46,
@@ -2817,7 +2862,8 @@
       ],
       "tier_id": 10,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_45"
     },
     {
       "id": 47,
@@ -2878,7 +2924,8 @@
       ],
       "tier_id": 10,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_46"
     },
     {
       "id": 48,
@@ -2939,7 +2986,8 @@
       ],
       "tier_id": 10,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2023_47"
     },
     {
       "id": 49,
@@ -3000,7 +3048,8 @@
       ],
       "tier_id": 10,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_48"
     },
     {
       "id": 50,
@@ -3061,7 +3110,8 @@
       ],
       "tier_id": 10,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_49"
     },
     {
       "id": 51,
@@ -3122,7 +3172,8 @@
       ],
       "tier_id": 11,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_50"
     },
     {
       "id": 52,
@@ -3183,7 +3234,8 @@
       ],
       "tier_id": 11,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_51"
     },
     {
       "id": 53,
@@ -3245,7 +3297,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 11,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_52"
     },
     {
       "id": 54,
@@ -3306,7 +3359,8 @@
       ],
       "tier_id": 11,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_53"
     },
     {
       "id": 55,
@@ -3368,7 +3422,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 11,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_lig"
     },
     {
       "id": 56,
@@ -3429,7 +3484,8 @@
       ],
       "tier_id": 12,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_55"
     },
     {
       "id": 57,
@@ -3490,7 +3546,8 @@
       ],
       "tier_id": 12,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_56"
     },
     {
       "id": 58,
@@ -3551,7 +3608,8 @@
       ],
       "tier_id": 12,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_57"
     },
     {
       "id": 59,
@@ -3613,7 +3671,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 12,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_pre"
     },
     {
       "id": 60,
@@ -3674,7 +3733,8 @@
       ],
       "tier_id": 12,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_59"
     },
     {
       "id": 61,
@@ -3735,7 +3795,8 @@
       ],
       "tier_id": 13,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 62,
@@ -3796,7 +3857,8 @@
       ],
       "tier_id": 13,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_61"
     },
     {
       "id": 63,
@@ -3857,7 +3919,8 @@
       ],
       "tier_id": 13,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_62"
     },
     {
       "id": 64,
@@ -3918,7 +3981,8 @@
       ],
       "tier_id": 13,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2022_63"
     },
     {
       "id": 65,
@@ -3979,7 +4043,8 @@
       ],
       "tier_id": 13,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_64"
     },
     {
       "id": 66,
@@ -4041,7 +4106,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 14,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_lig"
     },
     {
       "id": 67,
@@ -4102,7 +4168,8 @@
       ],
       "tier_id": 14,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_66"
     },
     {
       "id": 68,
@@ -4163,7 +4230,8 @@
       ],
       "tier_id": 14,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_lig"
     },
     {
       "id": 69,
@@ -4224,7 +4292,8 @@
       ],
       "tier_id": 14,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_68"
     },
     {
       "id": 70,
@@ -4286,7 +4355,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 14,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_ser"
     },
     {
       "id": 71,
@@ -4347,7 +4417,8 @@
       ],
       "tier_id": 15,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_70"
     },
     {
       "id": 72,
@@ -4408,7 +4479,8 @@
       ],
       "tier_id": 15,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 73,
@@ -4469,7 +4541,8 @@
       ],
       "tier_id": 15,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_72"
     },
     {
       "id": 74,
@@ -4530,7 +4603,8 @@
       ],
       "tier_id": 15,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_73"
     },
     {
       "id": 75,
@@ -4591,7 +4665,8 @@
       ],
       "tier_id": 15,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_74"
     },
     {
       "id": 76,
@@ -4652,7 +4727,8 @@
       ],
       "tier_id": 16,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_75"
     },
     {
       "id": 77,
@@ -4714,7 +4790,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 16,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_ser"
     },
     {
       "id": 78,
@@ -4775,7 +4852,8 @@
       ],
       "tier_id": 16,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_77"
     },
     {
       "id": 79,
@@ -4836,7 +4914,8 @@
       ],
       "tier_id": 16,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_78"
     },
     {
       "id": 80,
@@ -4897,7 +4976,8 @@
       ],
       "tier_id": 16,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_portugal_les_plus_prolifiques_b"
     },
     {
       "id": 81,
@@ -4959,7 +5039,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 17,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_lig"
     },
     {
       "id": 82,
@@ -5020,7 +5101,8 @@
       ],
       "tier_id": 17,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_france_les_plus_prolifiques_but"
     },
     {
       "id": 83,
@@ -5081,7 +5163,8 @@
       ],
       "tier_id": 17,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_82"
     },
     {
       "id": 84,
@@ -5142,7 +5225,8 @@
       ],
       "tier_id": 17,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_ligue_1_en_2023_83"
     },
     {
       "id": 85,
@@ -5203,7 +5287,8 @@
       ],
       "tier_id": 17,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_84"
     },
     {
       "id": 86,
@@ -5264,7 +5349,8 @@
       ],
       "tier_id": 18,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 87,
@@ -5325,7 +5411,8 @@
       ],
       "tier_id": 18,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_86"
     },
     {
       "id": 88,
@@ -5386,7 +5473,8 @@
       ],
       "tier_id": 18,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_87"
     },
     {
       "id": 89,
@@ -5448,7 +5536,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 18,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_ser"
     },
     {
       "id": 90,
@@ -5509,7 +5598,8 @@
       ],
       "tier_id": 18,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_89"
     },
     {
       "id": 91,
@@ -5570,7 +5660,8 @@
       ],
       "tier_id": 19,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_90"
     },
     {
       "id": 92,
@@ -5631,7 +5722,8 @@
       ],
       "tier_id": 19,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_copa_america_2024_91"
     },
     {
       "id": 93,
@@ -5692,7 +5784,8 @@
       ],
       "tier_id": 19,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_euro_2024_92"
     },
     {
       "id": 94,
@@ -5753,7 +5846,8 @@
       ],
       "tier_id": 19,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_93"
     },
     {
       "id": 95,
@@ -5814,7 +5908,8 @@
       ],
       "tier_id": 19,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_94"
     },
     {
       "id": 96,
@@ -5875,7 +5970,8 @@
       ],
       "tier_id": 20,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_95"
     },
     {
       "id": 97,
@@ -5936,7 +6032,8 @@
       ],
       "tier_id": 20,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_portugal_dans_les_grands_clubs"
     },
     {
       "id": 98,
@@ -5997,7 +6094,8 @@
       ],
       "tier_id": 20,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_97"
     },
     {
       "id": 99,
@@ -6058,7 +6156,8 @@
       ],
       "tier_id": 20,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_98"
     },
     {
       "id": 100,
@@ -6120,7 +6219,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 20,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_lig"
     },
     {
       "id": 101,
@@ -6181,7 +6281,8 @@
       ],
       "tier_id": 21,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_100"
     },
     {
       "id": 102,
@@ -6242,7 +6343,8 @@
       ],
       "tier_id": 21,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_101"
     },
     {
       "id": 103,
@@ -6303,7 +6405,8 @@
       ],
       "tier_id": 21,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_can_2023_102"
     },
     {
       "id": 104,
@@ -6365,7 +6468,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 21,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_ser"
     },
     {
       "id": 105,
@@ -6426,7 +6530,8 @@
       ],
       "tier_id": 21,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_coupe_du_monde_2022_104"
     },
     {
       "id": 106,
@@ -6487,7 +6592,8 @@
       ],
       "tier_id": 22,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_105"
     },
     {
       "id": 107,
@@ -6548,7 +6654,8 @@
       ],
       "tier_id": 22,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2022_106"
     },
     {
       "id": 108,
@@ -6609,7 +6716,8 @@
       ],
       "tier_id": 22,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_107"
     },
     {
       "id": 109,
@@ -6670,7 +6778,8 @@
       ],
       "tier_id": 22,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 110,
@@ -6732,7 +6841,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 22,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_ser"
     },
     {
       "id": 111,
@@ -6793,7 +6903,8 @@
       ],
       "tier_id": 23,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_110"
     },
     {
       "id": 112,
@@ -6854,7 +6965,8 @@
       ],
       "tier_id": 23,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_111"
     },
     {
       "id": 113,
@@ -6915,7 +7027,8 @@
       ],
       "tier_id": 23,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_112"
     },
     {
       "id": 114,
@@ -6976,7 +7089,8 @@
       ],
       "tier_id": 23,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_113"
     },
     {
       "id": 115,
@@ -7037,7 +7151,8 @@
       ],
       "tier_id": 23,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_coupe_du_monde_2018_114"
     },
     {
       "id": 116,
@@ -7098,7 +7213,8 @@
       ],
       "tier_id": 24,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_115"
     },
     {
       "id": 117,
@@ -7159,7 +7275,8 @@
       ],
       "tier_id": 24,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_116"
     },
     {
       "id": 118,
@@ -7220,7 +7337,8 @@
       ],
       "tier_id": 24,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2022_117"
     },
     {
       "id": 119,
@@ -7281,7 +7399,8 @@
       ],
       "tier_id": 24,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_118"
     },
     {
       "id": 120,
@@ -7342,7 +7461,8 @@
       ],
       "tier_id": 24,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_119"
     },
     {
       "id": 121,
@@ -7403,7 +7523,8 @@
       ],
       "tier_id": 25,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_bundesliga_en_2024_120"
     },
     {
       "id": 122,
@@ -7464,7 +7585,8 @@
       ],
       "tier_id": 25,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_121"
     },
     {
       "id": 123,
@@ -7526,7 +7648,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 25,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_bun"
     },
     {
       "id": 124,
@@ -7587,7 +7710,8 @@
       ],
       "tier_id": 25,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_123"
     },
     {
       "id": 125,
@@ -7648,7 +7772,8 @@
       ],
       "tier_id": 25,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_124"
     },
     {
       "id": 126,
@@ -7709,7 +7834,8 @@
       ],
       "tier_id": 26,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_125"
     },
     {
       "id": 127,
@@ -7770,7 +7896,8 @@
       ],
       "tier_id": 26,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_126"
     },
     {
       "id": 128,
@@ -7831,7 +7958,8 @@
       ],
       "tier_id": 26,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_bundesliga_en_2023_127"
     },
     {
       "id": 129,
@@ -7892,7 +8020,8 @@
       ],
       "tier_id": 26,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_128"
     },
     {
       "id": 130,
@@ -7953,7 +8082,8 @@
       ],
       "tier_id": 26,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_portugal_dans_les_grands_clubs"
     },
     {
       "id": 131,
@@ -8014,7 +8144,8 @@
       ],
       "tier_id": 27,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_130"
     },
     {
       "id": 132,
@@ -8075,7 +8206,8 @@
       ],
       "tier_id": 27,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_131"
     },
     {
       "id": 133,
@@ -8137,7 +8269,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 27,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_lig"
     },
     {
       "id": 134,
@@ -8198,7 +8331,8 @@
       ],
       "tier_id": 27,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_133"
     },
     {
       "id": 135,
@@ -8259,7 +8393,8 @@
       ],
       "tier_id": 27,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_134"
     },
     {
       "id": 136,
@@ -8320,7 +8455,8 @@
       ],
       "tier_id": 28,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_lig"
     },
     {
       "id": 137,
@@ -8381,7 +8517,8 @@
       ],
       "tier_id": 28,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_136"
     },
     {
       "id": 138,
@@ -8442,7 +8579,8 @@
       ],
       "tier_id": 28,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_137"
     },
     {
       "id": 139,
@@ -8503,7 +8641,8 @@
       ],
       "tier_id": 28,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_138"
     },
     {
       "id": 140,
@@ -8564,7 +8703,8 @@
       ],
       "tier_id": 28,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_139"
     },
     {
       "id": 141,
@@ -8625,7 +8765,8 @@
       ],
       "tier_id": 29,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_140"
     },
     {
       "id": 142,
@@ -8686,7 +8827,8 @@
       ],
       "tier_id": 29,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_141"
     },
     {
       "id": 143,
@@ -8747,7 +8889,8 @@
       ],
       "tier_id": 29,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_bun"
     },
     {
       "id": 144,
@@ -8808,7 +8951,8 @@
       ],
       "tier_id": 29,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_143"
     },
     {
       "id": 145,
@@ -8869,7 +9013,8 @@
       ],
       "tier_id": 29,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_serie_a_en_2024_144"
     },
     {
       "id": 146,
@@ -8930,7 +9075,8 @@
       ],
       "tier_id": 30,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_145"
     },
     {
       "id": 147,
@@ -8991,7 +9137,8 @@
       ],
       "tier_id": 30,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_146"
     },
     {
       "id": 148,
@@ -9052,7 +9199,8 @@
       ],
       "tier_id": 30,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_147"
     },
     {
       "id": 149,
@@ -9113,7 +9261,8 @@
       ],
       "tier_id": 30,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_148"
     },
     {
       "id": 150,
@@ -9174,7 +9323,8 @@
       ],
       "tier_id": 30,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_euro_2024_149"
     },
     {
       "id": 151,
@@ -9235,7 +9385,8 @@
       ],
       "tier_id": 31,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_150"
     },
     {
       "id": 152,
@@ -9296,7 +9447,8 @@
       ],
       "tier_id": 31,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_151"
     },
     {
       "id": 153,
@@ -9357,7 +9509,8 @@
       ],
       "tier_id": 31,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_152"
     },
     {
       "id": 154,
@@ -9418,7 +9571,8 @@
       ],
       "tier_id": 31,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_serie_a_en_2023_153"
     },
     {
       "id": 155,
@@ -9479,7 +9633,8 @@
       ],
       "tier_id": 31,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_154"
     },
     {
       "id": 156,
@@ -9540,7 +9695,8 @@
       ],
       "tier_id": 32,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_155"
     },
     {
       "id": 157,
@@ -9601,7 +9757,8 @@
       ],
       "tier_id": 32,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_156"
     },
     {
       "id": 158,
@@ -9662,7 +9819,8 @@
       ],
       "tier_id": 32,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_157"
     },
     {
       "id": 159,
@@ -9723,7 +9881,8 @@
       ],
       "tier_id": 32,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_158"
     },
     {
       "id": 160,
@@ -9784,7 +9943,8 @@
       ],
       "tier_id": 32,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_159"
     },
     {
       "id": 161,
@@ -9845,7 +10005,8 @@
       ],
       "tier_id": 33,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_160"
     },
     {
       "id": 162,
@@ -9906,7 +10067,8 @@
       ],
       "tier_id": 33,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_161"
     },
     {
       "id": 163,
@@ -9967,7 +10129,8 @@
       ],
       "tier_id": 33,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_162"
     },
     {
       "id": 164,
@@ -10028,7 +10191,8 @@
       ],
       "tier_id": 33,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 165,
@@ -10089,7 +10253,8 @@
       ],
       "tier_id": 33,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_164"
     },
     {
       "id": 166,
@@ -10150,7 +10315,8 @@
       ],
       "tier_id": 34,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_165"
     },
     {
       "id": 167,
@@ -10211,7 +10377,8 @@
       ],
       "tier_id": 34,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_ligue_1_en_2024_166"
     },
     {
       "id": 168,
@@ -10272,7 +10439,8 @@
       ],
       "tier_id": 34,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_167"
     },
     {
       "id": 169,
@@ -10333,7 +10501,8 @@
       ],
       "tier_id": 34,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_euro_2021_168"
     },
     {
       "id": 170,
@@ -10394,7 +10563,8 @@
       ],
       "tier_id": 34,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_169"
     },
     {
       "id": 171,
@@ -10455,7 +10625,8 @@
       ],
       "tier_id": 35,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_170"
     },
     {
       "id": 172,
@@ -10516,7 +10687,8 @@
       ],
       "tier_id": 35,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_ligue_1_en_2023_171"
     },
     {
       "id": 173,
@@ -10577,7 +10749,8 @@
       ],
       "tier_id": 35,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_172"
     },
     {
       "id": 174,
@@ -10638,7 +10811,8 @@
       ],
       "tier_id": 35,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_coupe_du_monde_2018_173"
     },
     {
       "id": 175,
@@ -10699,7 +10873,8 @@
       ],
       "tier_id": 35,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_174"
     },
     {
       "id": 176,
@@ -10760,7 +10935,8 @@
       ],
       "tier_id": 36,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_175"
     },
     {
       "id": 177,
@@ -10821,7 +10997,8 @@
       ],
       "tier_id": 36,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_bun"
     },
     {
       "id": 178,
@@ -10882,7 +11059,8 @@
       ],
       "tier_id": 36,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_copa_america_2024_177"
     },
     {
       "id": 179,
@@ -10943,7 +11121,8 @@
       ],
       "tier_id": 36,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_178"
     },
     {
       "id": 180,
@@ -11004,7 +11183,8 @@
       ],
       "tier_id": 36,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2022_179"
     },
     {
       "id": 181,
@@ -11065,7 +11245,8 @@
       ],
       "tier_id": 37,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_180"
     },
     {
       "id": 182,
@@ -11126,7 +11307,8 @@
       ],
       "tier_id": 37,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_181"
     },
     {
       "id": 183,
@@ -11187,7 +11369,8 @@
       ],
       "tier_id": 37,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_182"
     },
     {
       "id": 184,
@@ -11248,7 +11431,8 @@
       ],
       "tier_id": 37,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_183"
     },
     {
       "id": 185,
@@ -11309,7 +11493,8 @@
       ],
       "tier_id": 37,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_184"
     },
     {
       "id": 186,
@@ -11370,7 +11555,8 @@
       ],
       "tier_id": 38,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_185"
     },
     {
       "id": 187,
@@ -11431,7 +11617,8 @@
       ],
       "tier_id": 38,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_186"
     },
     {
       "id": 188,
@@ -11493,7 +11680,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 38,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_ser"
     },
     {
       "id": 189,
@@ -11554,7 +11742,8 @@
       ],
       "tier_id": 38,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_188"
     },
     {
       "id": 190,
@@ -11615,7 +11804,8 @@
       ],
       "tier_id": 38,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_euro_2024_189"
     },
     {
       "id": 191,
@@ -11676,7 +11866,8 @@
       ],
       "tier_id": 39,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_190"
     },
     {
       "id": 192,
@@ -11737,7 +11928,8 @@
       ],
       "tier_id": 39,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_191"
     },
     {
       "id": 193,
@@ -11798,7 +11990,8 @@
       ],
       "tier_id": 39,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_192"
     },
     {
       "id": 194,
@@ -11859,7 +12052,8 @@
       ],
       "tier_id": 39,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_193"
     },
     {
       "id": 195,
@@ -11921,7 +12115,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 39,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_pre"
     },
     {
       "id": 196,
@@ -11982,7 +12177,8 @@
       ],
       "tier_id": 40,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 197,
@@ -12043,7 +12239,8 @@
       ],
       "tier_id": 40,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_196"
     },
     {
       "id": 198,
@@ -12104,7 +12301,8 @@
       ],
       "tier_id": 40,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_197"
     },
     {
       "id": 199,
@@ -12165,7 +12363,8 @@
       ],
       "tier_id": 40,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_serie_a_en_2023_198"
     },
     {
       "id": 200,
@@ -12226,7 +12425,8 @@
       ],
       "tier_id": 40,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_france_dans_les_grands_clubs_eu"
     },
     {
       "id": 201,
@@ -12287,7 +12487,8 @@
       ],
       "tier_id": 41,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_200"
     },
     {
       "id": 202,
@@ -12348,7 +12549,8 @@
       ],
       "tier_id": 41,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_ligue_1_en_2023_201"
     },
     {
       "id": 203,
@@ -12409,7 +12611,8 @@
       ],
       "tier_id": 41,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_202"
     },
     {
       "id": 204,
@@ -12470,7 +12673,8 @@
       ],
       "tier_id": 41,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_203"
     },
     {
       "id": 205,
@@ -12531,7 +12735,8 @@
       ],
       "tier_id": 41,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_204"
     },
     {
       "id": 206,
@@ -12592,7 +12797,8 @@
       ],
       "tier_id": 42,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_france_dans_les_grands_clubs_eu"
     },
     {
       "id": 207,
@@ -12653,7 +12859,8 @@
       ],
       "tier_id": 42,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_206"
     },
     {
       "id": 208,
@@ -12714,7 +12921,8 @@
       ],
       "tier_id": 42,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_207"
     },
     {
       "id": 209,
@@ -12775,7 +12983,8 @@
       ],
       "tier_id": 42,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_208"
     },
     {
       "id": 210,
@@ -12836,7 +13045,8 @@
       ],
       "tier_id": 42,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_bundesliga_en_2023_209"
     },
     {
       "id": 211,
@@ -12897,7 +13107,8 @@
       ],
       "tier_id": 43,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_210"
     },
     {
       "id": 212,
@@ -12958,7 +13169,8 @@
       ],
       "tier_id": 43,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_211"
     },
     {
       "id": 213,
@@ -13019,7 +13231,8 @@
       ],
       "tier_id": 43,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_212"
     },
     {
       "id": 214,
@@ -13080,7 +13293,8 @@
       ],
       "tier_id": 43,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_ligue_1_en_2024_213"
     },
     {
       "id": 215,
@@ -13141,7 +13355,8 @@
       ],
       "tier_id": 43,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_214"
     },
     {
       "id": 216,
@@ -13202,7 +13417,8 @@
       ],
       "tier_id": 44,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_215"
     },
     {
       "id": 217,
@@ -13263,7 +13479,8 @@
       ],
       "tier_id": 44,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_216"
     },
     {
       "id": 218,
@@ -13324,7 +13541,8 @@
       ],
       "tier_id": 44,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_217"
     },
     {
       "id": 219,
@@ -13385,7 +13603,8 @@
       ],
       "tier_id": 44,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_218"
     },
     {
       "id": 220,
@@ -13446,7 +13665,8 @@
       ],
       "tier_id": 44,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_219"
     },
     {
       "id": 221,
@@ -13507,7 +13727,8 @@
       ],
       "tier_id": 45,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_220"
     },
     {
       "id": 222,
@@ -13568,7 +13789,8 @@
       ],
       "tier_id": 45,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_221"
     },
     {
       "id": 223,
@@ -13629,7 +13851,8 @@
       ],
       "tier_id": 45,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_222"
     },
     {
       "id": 224,
@@ -13690,7 +13913,8 @@
       ],
       "tier_id": 45,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_223"
     },
     {
       "id": 225,
@@ -13751,7 +13975,8 @@
       ],
       "tier_id": 45,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_224"
     },
     {
       "id": 226,
@@ -13812,7 +14037,8 @@
       ],
       "tier_id": 46,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_225"
     },
     {
       "id": 227,
@@ -13873,7 +14099,8 @@
       ],
       "tier_id": 46,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_226"
     },
     {
       "id": 228,
@@ -13934,7 +14161,8 @@
       ],
       "tier_id": 46,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_euro_2021_227"
     },
     {
       "id": 229,
@@ -13995,7 +14223,8 @@
       ],
       "tier_id": 46,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_228"
     },
     {
       "id": 230,
@@ -14056,7 +14285,8 @@
       ],
       "tier_id": 46,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_229"
     },
     {
       "id": 231,
@@ -14117,7 +14347,8 @@
       ],
       "tier_id": 47,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 232,
@@ -14178,7 +14409,8 @@
       ],
       "tier_id": 47,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_231"
     },
     {
       "id": 233,
@@ -14239,7 +14471,8 @@
       ],
       "tier_id": 47,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 234,
@@ -14300,7 +14533,8 @@
       ],
       "tier_id": 47,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_233"
     },
     {
       "id": 235,
@@ -14361,7 +14595,8 @@
       ],
       "tier_id": 47,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_234"
     },
     {
       "id": 236,
@@ -14422,7 +14657,8 @@
       ],
       "tier_id": 48,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 237,
@@ -14483,7 +14719,8 @@
       ],
       "tier_id": 48,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_236"
     },
     {
       "id": 238,
@@ -14544,7 +14781,8 @@
       ],
       "tier_id": 48,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_237"
     },
     {
       "id": 239,
@@ -14606,7 +14844,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 48,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_lig"
     },
     {
       "id": 240,
@@ -14668,7 +14907,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 48,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_bun"
     },
     {
       "id": 241,
@@ -14729,7 +14969,8 @@
       ],
       "tier_id": 49,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_240"
     },
     {
       "id": 242,
@@ -14791,7 +15032,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 49,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_ser"
     },
     {
       "id": 243,
@@ -14852,7 +15094,8 @@
       ],
       "tier_id": 49,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_france_les_plus_prolifiques_but"
     },
     {
       "id": 244,
@@ -14913,7 +15156,8 @@
       ],
       "tier_id": 49,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_243"
     },
     {
       "id": 245,
@@ -14974,7 +15218,8 @@
       ],
       "tier_id": 49,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_244"
     },
     {
       "id": 246,
@@ -15035,7 +15280,8 @@
       ],
       "tier_id": 50,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_bundesliga_en_2024_245"
     },
     {
       "id": 247,
@@ -15096,7 +15342,8 @@
       ],
       "tier_id": 50,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2024_246"
     },
     {
       "id": 248,
@@ -15157,7 +15404,8 @@
       ],
       "tier_id": 50,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_247"
     },
     {
       "id": 249,
@@ -15218,7 +15466,8 @@
       ],
       "tier_id": 50,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_248"
     },
     {
       "id": 250,
@@ -15279,7 +15528,8 @@
       ],
       "tier_id": 50,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_coupe_du_monde_2018_249"
     },
     {
       "id": 251,
@@ -15340,7 +15590,8 @@
       ],
       "tier_id": 51,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_250"
     },
     {
       "id": 252,
@@ -15402,7 +15653,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 51,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_251"
     },
     {
       "id": 253,
@@ -15463,7 +15715,8 @@
       ],
       "tier_id": 51,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_252"
     },
     {
       "id": 254,
@@ -15525,7 +15778,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 51,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_lig"
     },
     {
       "id": 255,
@@ -15586,7 +15840,8 @@
       ],
       "tier_id": 51,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_254"
     },
     {
       "id": 256,
@@ -15647,7 +15902,8 @@
       ],
       "tier_id": 52,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_255"
     },
     {
       "id": 257,
@@ -15708,7 +15964,8 @@
       ],
       "tier_id": 52,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_serie_a_en_2024_256"
     },
     {
       "id": 258,
@@ -15769,7 +16026,8 @@
       ],
       "tier_id": 52,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_257"
     },
     {
       "id": 259,
@@ -15831,7 +16089,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 52,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_ser"
     },
     {
       "id": 260,
@@ -15892,7 +16151,8 @@
       ],
       "tier_id": 52,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 261,
@@ -15953,7 +16213,8 @@
       ],
       "tier_id": 53,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_260"
     },
     {
       "id": 262,
@@ -16014,7 +16275,8 @@
       ],
       "tier_id": 53,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_portugal_dans_les_grands_clubs"
     },
     {
       "id": 263,
@@ -16075,7 +16337,8 @@
       ],
       "tier_id": 53,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_262"
     },
     {
       "id": 264,
@@ -16136,7 +16399,8 @@
       ],
       "tier_id": 53,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_263"
     },
     {
       "id": 265,
@@ -16197,7 +16461,8 @@
       ],
       "tier_id": 53,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_264"
     },
     {
       "id": 266,
@@ -16258,7 +16523,8 @@
       ],
       "tier_id": 54,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_portugal_les_plus_prolifiques_b"
     },
     {
       "id": 267,
@@ -16319,7 +16585,8 @@
       ],
       "tier_id": 54,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_266"
     },
     {
       "id": 268,
@@ -16381,7 +16648,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 54,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_pre"
     },
     {
       "id": 269,
@@ -16442,7 +16710,8 @@
       ],
       "tier_id": 54,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2022_268"
     },
     {
       "id": 270,
@@ -16503,7 +16772,8 @@
       ],
       "tier_id": 54,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_269"
     },
     {
       "id": 271,
@@ -16564,7 +16834,8 @@
       ],
       "tier_id": 55,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2023_270"
     },
     {
       "id": 272,
@@ -16625,7 +16896,8 @@
       ],
       "tier_id": 55,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_lig"
     },
     {
       "id": 273,
@@ -16686,7 +16958,8 @@
       ],
       "tier_id": 55,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_272"
     },
     {
       "id": 274,
@@ -16747,7 +17020,8 @@
       ],
       "tier_id": 55,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_portugal_dans_les_grands_clubs"
     },
     {
       "id": 275,
@@ -16808,7 +17082,8 @@
       ],
       "tier_id": 55,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_274"
     },
     {
       "id": 276,
@@ -16870,7 +17145,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 56,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_pre"
     },
     {
       "id": 277,
@@ -16931,7 +17207,8 @@
       ],
       "tier_id": 56,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_276"
     },
     {
       "id": 278,
@@ -16992,7 +17269,8 @@
       ],
       "tier_id": 56,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_copa_america_2024_277"
     },
     {
       "id": 279,
@@ -17053,7 +17331,8 @@
       ],
       "tier_id": 56,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2023_278"
     },
     {
       "id": 280,
@@ -17114,7 +17393,8 @@
       ],
       "tier_id": 56,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_279"
     },
     {
       "id": 281,
@@ -17175,7 +17455,8 @@
       ],
       "tier_id": 57,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_280"
     },
     {
       "id": 282,
@@ -17236,7 +17517,8 @@
       ],
       "tier_id": 57,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_281"
     },
     {
       "id": 283,
@@ -17297,7 +17579,8 @@
       ],
       "tier_id": 57,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 284,
@@ -17358,7 +17641,8 @@
       ],
       "tier_id": 57,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_283"
     },
     {
       "id": 285,
@@ -17419,7 +17703,8 @@
       ],
       "tier_id": 57,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_284"
     },
     {
       "id": 286,
@@ -17480,7 +17765,8 @@
       ],
       "tier_id": 58,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_285"
     },
     {
       "id": 287,
@@ -17541,7 +17827,8 @@
       ],
       "tier_id": 58,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_bundesliga_en_2023_286"
     },
     {
       "id": 288,
@@ -17602,7 +17889,8 @@
       ],
       "tier_id": 58,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_287"
     },
     {
       "id": 289,
@@ -17663,7 +17951,8 @@
       ],
       "tier_id": 58,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_288"
     },
     {
       "id": 290,
@@ -17724,7 +18013,8 @@
       ],
       "tier_id": 58,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_289"
     },
     {
       "id": 291,
@@ -17785,7 +18075,8 @@
       ],
       "tier_id": 59,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_290"
     },
     {
       "id": 292,
@@ -17846,7 +18137,8 @@
       ],
       "tier_id": 59,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_portugal_les_plus_prolifiques_b"
     },
     {
       "id": 293,
@@ -17907,7 +18199,8 @@
       ],
       "tier_id": 59,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_292"
     },
     {
       "id": 294,
@@ -17968,7 +18261,8 @@
       ],
       "tier_id": 59,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_293"
     },
     {
       "id": 295,
@@ -18029,7 +18323,8 @@
       ],
       "tier_id": 59,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_294"
     },
     {
       "id": 296,
@@ -18090,7 +18385,8 @@
       ],
       "tier_id": 60,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_copa_america_2024_295"
     },
     {
       "id": 297,
@@ -18151,7 +18447,8 @@
       ],
       "tier_id": 60,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_296"
     },
     {
       "id": 298,
@@ -18212,7 +18509,8 @@
       ],
       "tier_id": 60,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_bun"
     },
     {
       "id": 299,
@@ -18273,7 +18571,8 @@
       ],
       "tier_id": 60,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_298"
     },
     {
       "id": 300,
@@ -18334,7 +18633,8 @@
       ],
       "tier_id": 60,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_299"
     },
     {
       "id": 301,
@@ -18395,7 +18695,8 @@
       ],
       "tier_id": 61,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_300"
     },
     {
       "id": 302,
@@ -18456,7 +18757,8 @@
       ],
       "tier_id": 61,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_france_les_plus_prolifiques_but"
     },
     {
       "id": 303,
@@ -18517,7 +18819,8 @@
       ],
       "tier_id": 61,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_302"
     },
     {
       "id": 304,
@@ -18578,7 +18881,8 @@
       ],
       "tier_id": 61,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_303"
     },
     {
       "id": 305,
@@ -18639,7 +18943,8 @@
       ],
       "tier_id": 61,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_304"
     },
     {
       "id": 306,
@@ -18701,7 +19006,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 62,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_lig"
     },
     {
       "id": 307,
@@ -18762,7 +19068,8 @@
       ],
       "tier_id": 62,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_306"
     },
     {
       "id": 308,
@@ -18823,7 +19130,8 @@
       ],
       "tier_id": 62,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_307"
     },
     {
       "id": 309,
@@ -18884,7 +19192,8 @@
       ],
       "tier_id": 62,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_308"
     },
     {
       "id": 310,
@@ -18945,7 +19254,8 @@
       ],
       "tier_id": 62,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_lig"
     },
     {
       "id": 311,
@@ -19006,7 +19316,8 @@
       ],
       "tier_id": 63,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2024_310"
     },
     {
       "id": 312,
@@ -19067,7 +19378,8 @@
       ],
       "tier_id": 63,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_311"
     },
     {
       "id": 313,
@@ -19128,7 +19440,8 @@
       ],
       "tier_id": 63,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_312"
     },
     {
       "id": 314,
@@ -19189,7 +19502,8 @@
       ],
       "tier_id": 63,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_portugal_dans_les_grands_clubs"
     },
     {
       "id": 315,
@@ -19250,7 +19564,8 @@
       ],
       "tier_id": 63,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_314"
     },
     {
       "id": 316,
@@ -19311,7 +19626,8 @@
       ],
       "tier_id": 64,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_315"
     },
     {
       "id": 317,
@@ -19372,7 +19688,8 @@
       ],
       "tier_id": 64,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_can_2023_316"
     },
     {
       "id": 318,
@@ -19433,7 +19750,8 @@
       ],
       "tier_id": 64,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_317"
     },
     {
       "id": 319,
@@ -19494,7 +19812,8 @@
       ],
       "tier_id": 64,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_318"
     },
     {
       "id": 320,
@@ -19555,7 +19874,8 @@
       ],
       "tier_id": 64,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_319"
     },
     {
       "id": 321,
@@ -19616,7 +19936,8 @@
       ],
       "tier_id": 65,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_320"
     },
     {
       "id": 322,
@@ -19678,7 +19999,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 65,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_ser"
     },
     {
       "id": 323,
@@ -19739,7 +20061,8 @@
       ],
       "tier_id": 65,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_322"
     },
     {
       "id": 324,
@@ -19801,7 +20124,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 65,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_lig"
     },
     {
       "id": 325,
@@ -19862,7 +20186,8 @@
       ],
       "tier_id": 65,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_324"
     },
     {
       "id": 326,
@@ -19923,7 +20248,8 @@
       ],
       "tier_id": 66,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_325"
     },
     {
       "id": 327,
@@ -19984,7 +20310,8 @@
       ],
       "tier_id": 66,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_326"
     },
     {
       "id": 328,
@@ -20045,7 +20372,8 @@
       ],
       "tier_id": 66,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_327"
     },
     {
       "id": 329,
@@ -20106,7 +20434,8 @@
       ],
       "tier_id": 66,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_328"
     },
     {
       "id": 330,
@@ -20168,7 +20497,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 66,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_pre"
     },
     {
       "id": 331,
@@ -20229,7 +20559,8 @@
       ],
       "tier_id": 67,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_330"
     },
     {
       "id": 332,
@@ -20290,7 +20621,8 @@
       ],
       "tier_id": 67,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_331"
     },
     {
       "id": 333,
@@ -20351,7 +20683,8 @@
       ],
       "tier_id": 67,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_france_les_plus_prolifiques_but"
     },
     {
       "id": 334,
@@ -20412,7 +20745,8 @@
       ],
       "tier_id": 67,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2023_333"
     },
     {
       "id": 335,
@@ -20473,7 +20807,8 @@
       ],
       "tier_id": 67,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_334"
     },
     {
       "id": 336,
@@ -20534,7 +20869,8 @@
       ],
       "tier_id": 68,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_335"
     },
     {
       "id": 337,
@@ -20595,7 +20931,8 @@
       ],
       "tier_id": 68,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_336"
     },
     {
       "id": 338,
@@ -20657,7 +20994,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 68,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_pre"
     },
     {
       "id": 339,
@@ -20718,7 +21056,8 @@
       ],
       "tier_id": 68,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_338"
     },
     {
       "id": 340,
@@ -20779,7 +21118,8 @@
       ],
       "tier_id": 68,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_339"
     },
     {
       "id": 341,
@@ -20840,7 +21180,8 @@
       ],
       "tier_id": 69,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_340"
     },
     {
       "id": 342,
@@ -20901,7 +21242,8 @@
       ],
       "tier_id": 69,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_341"
     },
     {
       "id": 343,
@@ -20962,7 +21304,8 @@
       ],
       "tier_id": 69,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_euro_2021_342"
     },
     {
       "id": 344,
@@ -21023,7 +21366,8 @@
       ],
       "tier_id": 69,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_343"
     },
     {
       "id": 345,
@@ -21084,7 +21428,8 @@
       ],
       "tier_id": 69,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_344"
     },
     {
       "id": 346,
@@ -21145,7 +21490,8 @@
       ],
       "tier_id": 70,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_345"
     },
     {
       "id": 347,
@@ -21206,7 +21552,8 @@
       ],
       "tier_id": 70,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_346"
     },
     {
       "id": 348,
@@ -21267,7 +21614,8 @@
       ],
       "tier_id": 70,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_portugal_les_plus_prolifiques_b"
     },
     {
       "id": 349,
@@ -21328,7 +21676,8 @@
       ],
       "tier_id": 70,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_348"
     },
     {
       "id": 350,
@@ -21389,7 +21738,8 @@
       ],
       "tier_id": 70,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_349"
     },
     {
       "id": 351,
@@ -21450,7 +21800,8 @@
       ],
       "tier_id": 71,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_350"
     },
     {
       "id": 352,
@@ -21511,7 +21862,8 @@
       ],
       "tier_id": 71,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_ligue_1_en_2023_351"
     },
     {
       "id": 353,
@@ -21572,7 +21924,8 @@
       ],
       "tier_id": 71,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_352"
     },
     {
       "id": 354,
@@ -21633,7 +21986,8 @@
       ],
       "tier_id": 71,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_353"
     },
     {
       "id": 355,
@@ -21694,7 +22048,8 @@
       ],
       "tier_id": 71,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_354"
     },
     {
       "id": 356,
@@ -21755,7 +22110,8 @@
       ],
       "tier_id": 72,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_france_les_plus_prolifiques_but"
     },
     {
       "id": 357,
@@ -21816,7 +22172,8 @@
       ],
       "tier_id": 72,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_356"
     },
     {
       "id": 358,
@@ -21877,7 +22234,8 @@
       ],
       "tier_id": 72,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_357"
     },
     {
       "id": 359,
@@ -21938,7 +22296,8 @@
       ],
       "tier_id": 72,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_358"
     },
     {
       "id": 360,
@@ -21999,7 +22358,8 @@
       ],
       "tier_id": 72,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_serie_a_en_2024_359"
     },
     {
       "id": 361,
@@ -22060,7 +22420,8 @@
       ],
       "tier_id": 73,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_360"
     },
     {
       "id": 362,
@@ -22121,7 +22482,8 @@
       ],
       "tier_id": 73,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_361"
     },
     {
       "id": 363,
@@ -22182,7 +22544,8 @@
       ],
       "tier_id": 73,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_362"
     },
     {
       "id": 364,
@@ -22243,7 +22606,8 @@
       ],
       "tier_id": 73,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_363"
     },
     {
       "id": 365,
@@ -22305,7 +22669,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 73,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_lig"
     },
     {
       "id": 366,
@@ -22366,7 +22731,8 @@
       ],
       "tier_id": 74,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2024_365"
     },
     {
       "id": 367,
@@ -22427,7 +22793,8 @@
       ],
       "tier_id": 74,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_366"
     },
     {
       "id": 368,
@@ -22488,7 +22855,8 @@
       ],
       "tier_id": 74,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_367"
     },
     {
       "id": 369,
@@ -22550,7 +22918,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 74,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_lig"
     },
     {
       "id": 370,
@@ -22611,7 +22980,8 @@
       ],
       "tier_id": 74,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_369"
     },
     {
       "id": 371,
@@ -22672,7 +23042,8 @@
       ],
       "tier_id": 75,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 372,
@@ -22734,7 +23105,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 75,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_pre"
     },
     {
       "id": 373,
@@ -22795,7 +23167,8 @@
       ],
       "tier_id": 75,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_372"
     },
     {
       "id": 374,
@@ -22856,7 +23229,8 @@
       ],
       "tier_id": 75,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_373"
     },
     {
       "id": 375,
@@ -22917,7 +23291,8 @@
       ],
       "tier_id": 75,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_374"
     },
     {
       "id": 376,
@@ -22978,7 +23353,8 @@
       ],
       "tier_id": 76,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_lig"
     },
     {
       "id": 377,
@@ -23039,7 +23415,8 @@
       ],
       "tier_id": 76,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 378,
@@ -23100,7 +23477,8 @@
       ],
       "tier_id": 76,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_377"
     },
     {
       "id": 379,
@@ -23161,7 +23539,8 @@
       ],
       "tier_id": 76,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_bundesliga_en_2024_378"
     },
     {
       "id": 380,
@@ -23222,7 +23601,8 @@
       ],
       "tier_id": 76,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_ligue_1_en_2024_379"
     },
     {
       "id": 381,
@@ -23283,7 +23663,8 @@
       ],
       "tier_id": 77,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_380"
     },
     {
       "id": 382,
@@ -23344,7 +23725,8 @@
       ],
       "tier_id": 77,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_381"
     },
     {
       "id": 383,
@@ -23405,7 +23787,8 @@
       ],
       "tier_id": 77,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_france_dans_les_grands_clubs_eu"
     },
     {
       "id": 384,
@@ -23466,7 +23849,8 @@
       ],
       "tier_id": 77,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_383"
     },
     {
       "id": 385,
@@ -23527,7 +23911,8 @@
       ],
       "tier_id": 77,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_384"
     },
     {
       "id": 386,
@@ -23588,7 +23973,8 @@
       ],
       "tier_id": 78,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_portugal_les_plus_prolifiques_b"
     },
     {
       "id": 387,
@@ -23649,7 +24035,8 @@
       ],
       "tier_id": 78,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_386"
     },
     {
       "id": 388,
@@ -23710,7 +24097,8 @@
       ],
       "tier_id": 78,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_387"
     },
     {
       "id": 389,
@@ -23771,7 +24159,8 @@
       ],
       "tier_id": 78,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_388"
     },
     {
       "id": 390,
@@ -23832,7 +24221,8 @@
       ],
       "tier_id": 78,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2022_389"
     },
     {
       "id": 391,
@@ -23893,7 +24283,8 @@
       ],
       "tier_id": 79,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 392,
@@ -23955,7 +24346,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 79,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2023_pre"
     },
     {
       "id": 393,
@@ -24016,7 +24408,8 @@
       ],
       "tier_id": 79,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_392"
     },
     {
       "id": 394,
@@ -24077,7 +24470,8 @@
       ],
       "tier_id": 79,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_coupe_du_monde_2018_393"
     },
     {
       "id": 395,
@@ -24138,7 +24532,8 @@
       ],
       "tier_id": 79,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2022_394"
     },
     {
       "id": 396,
@@ -24199,7 +24594,8 @@
       ],
       "tier_id": 80,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2023_395"
     },
     {
       "id": 397,
@@ -24260,7 +24656,8 @@
       ],
       "tier_id": 80,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_coupe_du_monde_2022_396"
     },
     {
       "id": 398,
@@ -24321,7 +24718,8 @@
       ],
       "tier_id": 80,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_397"
     },
     {
       "id": 399,
@@ -24382,7 +24780,8 @@
       ],
       "tier_id": 80,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_398"
     },
     {
       "id": 400,
@@ -24443,7 +24842,8 @@
       ],
       "tier_id": 80,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_399"
     },
     {
       "id": 401,
@@ -24504,7 +24904,8 @@
       ],
       "tier_id": 81,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2024_400"
     },
     {
       "id": 402,
@@ -24565,7 +24966,8 @@
       ],
       "tier_id": 81,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_france_dans_les_grands_clubs_eu"
     },
     {
       "id": 403,
@@ -24626,7 +25028,8 @@
       ],
       "tier_id": 81,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_402"
     },
     {
       "id": 404,
@@ -24687,7 +25090,8 @@
       ],
       "tier_id": 81,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_403"
     },
     {
       "id": 405,
@@ -24748,7 +25152,8 @@
       ],
       "tier_id": 81,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_404"
     },
     {
       "id": 406,
@@ -24809,7 +25214,8 @@
       ],
       "tier_id": 82,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_405"
     },
     {
       "id": 407,
@@ -24870,7 +25276,8 @@
       ],
       "tier_id": 82,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_406"
     },
     {
       "id": 408,
@@ -24931,7 +25338,8 @@
       ],
       "tier_id": 82,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_407"
     },
     {
       "id": 409,
@@ -24992,7 +25400,8 @@
       ],
       "tier_id": 82,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_408"
     },
     {
       "id": 410,
@@ -25053,7 +25462,8 @@
       ],
       "tier_id": 82,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_409"
     },
     {
       "id": 411,
@@ -25114,7 +25524,8 @@
       ],
       "tier_id": 83,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_410"
     },
     {
       "id": 412,
@@ -25175,7 +25586,8 @@
       ],
       "tier_id": 83,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_france_dans_les_grands_clubs_eu"
     },
     {
       "id": 413,
@@ -25236,7 +25648,8 @@
       ],
       "tier_id": 83,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_412"
     },
     {
       "id": 414,
@@ -25297,7 +25710,8 @@
       ],
       "tier_id": 83,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_413"
     },
     {
       "id": 415,
@@ -25358,7 +25772,8 @@
       ],
       "tier_id": 83,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_414"
     },
     {
       "id": 416,
@@ -25419,7 +25834,8 @@
       ],
       "tier_id": 84,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_415"
     },
     {
       "id": 417,
@@ -25480,7 +25896,8 @@
       ],
       "tier_id": 84,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_416"
     },
     {
       "id": 418,
@@ -25541,7 +25958,8 @@
       ],
       "tier_id": 84,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_417"
     },
     {
       "id": 419,
@@ -25602,7 +26020,8 @@
       ],
       "tier_id": 84,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_418"
     },
     {
       "id": 420,
@@ -25663,7 +26082,8 @@
       ],
       "tier_id": 84,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_419"
     },
     {
       "id": 421,
@@ -25724,7 +26144,8 @@
       ],
       "tier_id": 85,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_serie_a_en_2023_420"
     },
     {
       "id": 422,
@@ -25785,7 +26206,8 @@
       ],
       "tier_id": 85,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_421"
     },
     {
       "id": 423,
@@ -25846,7 +26268,8 @@
       ],
       "tier_id": 85,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_premier_league_en_2023_422"
     },
     {
       "id": 424,
@@ -25907,7 +26330,8 @@
       ],
       "tier_id": 85,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_423"
     },
     {
       "id": 425,
@@ -25968,7 +26392,8 @@
       ],
       "tier_id": 85,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_424"
     },
     {
       "id": 426,
@@ -26030,7 +26455,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 86,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_ser"
     },
     {
       "id": 427,
@@ -26091,7 +26517,8 @@
       ],
       "tier_id": 86,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2023_426"
     },
     {
       "id": 428,
@@ -26152,7 +26579,8 @@
       ],
       "tier_id": 86,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_427"
     },
     {
       "id": 429,
@@ -26213,7 +26641,8 @@
       ],
       "tier_id": 86,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_428"
     },
     {
       "id": 430,
@@ -26274,7 +26703,8 @@
       ],
       "tier_id": 86,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_429"
     },
     {
       "id": 431,
@@ -26335,7 +26765,8 @@
       ],
       "tier_id": 87,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_portugal_les_plus_prolifiques_b"
     },
     {
       "id": 432,
@@ -26396,7 +26827,8 @@
       ],
       "tier_id": 87,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_ligue_1_en_2024_431"
     },
     {
       "id": 433,
@@ -26457,7 +26889,8 @@
       ],
       "tier_id": 87,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_france_dans_les_grands_clubs_eu"
     },
     {
       "id": 434,
@@ -26518,7 +26951,8 @@
       ],
       "tier_id": 87,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_portugal_dans_les_grands_clubs"
     },
     {
       "id": 435,
@@ -26580,7 +27014,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 87,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_434"
     },
     {
       "id": 436,
@@ -26641,7 +27076,8 @@
       ],
       "tier_id": 88,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_435"
     },
     {
       "id": 437,
@@ -26702,7 +27138,8 @@
       ],
       "tier_id": 88,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_436"
     },
     {
       "id": 438,
@@ -26763,7 +27200,8 @@
       ],
       "tier_id": 88,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_437"
     },
     {
       "id": 439,
@@ -26824,7 +27262,8 @@
       ],
       "tier_id": 88,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_438"
     },
     {
       "id": 440,
@@ -26886,7 +27325,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 88,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_pre"
     },
     {
       "id": 441,
@@ -26947,7 +27387,8 @@
       ],
       "tier_id": 89,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_serie_a_en_2023_440"
     },
     {
       "id": 442,
@@ -27009,7 +27450,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 89,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2024_ser"
     },
     {
       "id": 443,
@@ -27070,7 +27512,8 @@
       ],
       "tier_id": 89,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 444,
@@ -27131,7 +27574,8 @@
       ],
       "tier_id": 89,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_443"
     },
     {
       "id": 445,
@@ -27192,7 +27636,8 @@
       ],
       "tier_id": 89,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_444"
     },
     {
       "id": 446,
@@ -27253,7 +27698,8 @@
       ],
       "tier_id": 90,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_445"
     },
     {
       "id": 447,
@@ -27314,7 +27760,8 @@
       ],
       "tier_id": 90,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_446"
     },
     {
       "id": 448,
@@ -27375,7 +27822,8 @@
       ],
       "tier_id": 90,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_year_447"
     },
     {
       "id": 449,
@@ -27436,7 +27884,8 @@
       ],
       "tier_id": 90,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_448"
     },
     {
       "id": 450,
@@ -27497,7 +27946,8 @@
       ],
       "tier_id": 90,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_bundesliga_en_2024_449"
     },
     {
       "id": 451,
@@ -27558,7 +28008,8 @@
       ],
       "tier_id": 91,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_450"
     },
     {
       "id": 452,
@@ -27619,7 +28070,8 @@
       ],
       "tier_id": 91,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_451"
     },
     {
       "id": 453,
@@ -27680,7 +28132,8 @@
       ],
       "tier_id": 91,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_452"
     },
     {
       "id": 454,
@@ -27741,7 +28194,8 @@
       ],
       "tier_id": 91,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_ballon_dor_year_453"
     },
     {
       "id": 455,
@@ -27802,7 +28256,8 @@
       ],
       "tier_id": 91,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_454"
     },
     {
       "id": 456,
@@ -27863,7 +28318,8 @@
       ],
       "tier_id": 92,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_scorers_team_period_455"
     },
     {
       "id": 457,
@@ -27924,7 +28380,8 @@
       ],
       "tier_id": 92,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_can_2023_456"
     },
     {
       "id": 458,
@@ -27985,7 +28442,8 @@
       ],
       "tier_id": 92,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_euro_2021_457"
     },
     {
       "id": 459,
@@ -28046,7 +28504,8 @@
       ],
       "tier_id": 92,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_458"
     },
     {
       "id": 460,
@@ -28107,7 +28566,8 @@
       ],
       "tier_id": 92,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_avec_le_meilleur_ratio_butsminu"
     },
     {
       "id": 461,
@@ -28168,7 +28628,8 @@
       ],
       "tier_id": 93,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_460"
     },
     {
       "id": 462,
@@ -28229,7 +28690,8 @@
       ],
       "tier_id": 93,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_461"
     },
     {
       "id": 463,
@@ -28290,7 +28752,8 @@
       ],
       "tier_id": 93,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_462"
     },
     {
       "id": 464,
@@ -28351,7 +28814,8 @@
       ],
       "tier_id": 93,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_463"
     },
     {
       "id": 465,
@@ -28412,7 +28876,8 @@
       ],
       "tier_id": 93,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_464"
     },
     {
       "id": 466,
@@ -28474,7 +28939,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 94,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_465"
     },
     {
       "id": 467,
@@ -28535,7 +29001,8 @@
       ],
       "tier_id": 94,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2022_466"
     },
     {
       "id": 468,
@@ -28596,7 +29063,8 @@
       ],
       "tier_id": 94,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2024_467"
     },
     {
       "id": 469,
@@ -28658,7 +29126,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 94,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_ser"
     },
     {
       "id": 470,
@@ -28719,7 +29188,8 @@
       ],
       "tier_id": 94,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_469"
     },
     {
       "id": 471,
@@ -28780,7 +29250,8 @@
       ],
       "tier_id": 95,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_expensive_transfers_period_league_470"
     },
     {
       "id": 472,
@@ -28841,7 +29312,8 @@
       ],
       "tier_id": 95,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_bundesliga_en_2023_471"
     },
     {
       "id": 473,
@@ -28902,7 +29374,8 @@
       ],
       "tier_id": 95,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_472"
     },
     {
       "id": 474,
@@ -28963,7 +29436,8 @@
       ],
       "tier_id": 95,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_most_minutes_team_year_473"
     },
     {
       "id": 475,
@@ -29024,7 +29498,8 @@
       ],
       "tier_id": 95,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_joueurs_france_les_plus_prolifiques_but"
     },
     {
       "id": 476,
@@ -29086,7 +29561,8 @@
       "hint": "Pour chaque joueur, renseigner le club acheteur",
       "tier_id": 96,
       "position_in_tier": 1,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_transferts_les_plus_couteux_en_2022_lig"
     },
     {
       "id": 477,
@@ -29147,7 +29623,8 @@
       ],
       "tier_id": 96,
       "position_in_tier": 2,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_serie_a_en_2024_476"
     },
     {
       "id": 478,
@@ -29208,7 +29685,8 @@
       ],
       "tier_id": 96,
       "position_in_tier": 3,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_buteurs_de_la_can_2023_477"
     },
     {
       "id": 479,
@@ -29269,7 +29747,8 @@
       ],
       "tier_id": 96,
       "position_in_tier": 4,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_top_10_des_passeurs_de_liga_en_2024_478"
     },
     {
       "id": 480,
@@ -29330,7 +29809,8 @@
       ],
       "tier_id": 96,
       "position_in_tier": 5,
-      "custom_order": true
+      "custom_order": true,
+      "titleKey": "quizTitle_assists_team_period_479"
     }
   ]
 }

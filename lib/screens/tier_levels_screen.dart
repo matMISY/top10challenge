@@ -5,6 +5,7 @@ import '../providers/game_provider.dart';
 import '../models/tier.dart';
 import '../models/level.dart';
 import '../models/game_state.dart';
+import '../extensions/tier_extensions.dart';
 import 'game_screen.dart';
 
 class TierLevelsScreen extends StatelessWidget {
@@ -16,7 +17,7 @@ class TierLevelsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(tier.name),
+        title: Text(tier.getLocalizedName(context)),
         backgroundColor: const Color(0xFF6B73FF),
         foregroundColor: Colors.white,
         elevation: 0,
@@ -134,7 +135,7 @@ class _TierLevelsContentState extends State<_TierLevelsContent> {
       child: Column(
         children: [
           Text(
-            widget.tier.description,
+            widget.tier.getLocalizedDescription(context),
             style: const TextStyle(
               fontSize: 16,
               color: Color(0xFF6B73FF),
