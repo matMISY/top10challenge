@@ -18,6 +18,7 @@ import '../config/feedback_config.dart';
 import '../widgets/money_time_indicator.dart';
 import '../widgets/money_time_shield_effect.dart';
 import '../widgets/hint_explanation_dialog.dart';
+import '../extensions/level_extensions.dart';
 
 class GameScreen extends StatefulWidget {
   final Level level;
@@ -558,7 +559,7 @@ class _GameScreenState extends State<GameScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                widget.level.title,
+                                widget.level.getLocalizedTitle(context),
                                 style: GoogleFonts.baloo2(
                                   color: Colors.white,
                                   fontSize: 22,

@@ -3,6 +3,7 @@ import 'answer.dart';
 class Level {
   final int id;
   final String title;
+  final String? titleKey;
   final String hint;
   final String category;
   final List<Answer> answers;
@@ -16,6 +17,7 @@ class Level {
   Level({
     required this.id,
     required this.title,
+    this.titleKey,
     required this.hint,
     required this.category,
     required this.answers,
@@ -34,6 +36,7 @@ class Level {
   Level copyWith({
     int? id,
     String? title,
+    String? titleKey,
     String? hint,
     String? category,
     List<Answer>? answers,
@@ -47,6 +50,7 @@ class Level {
     return Level(
       id: id ?? this.id,
       title: title ?? this.title,
+      titleKey: titleKey ?? this.titleKey,
       hint: hint ?? this.hint,
       category: category ?? this.category,
       answers: answers ?? this.answers,
@@ -63,6 +67,7 @@ class Level {
     return {
       'id': id,
       'title': title,
+      'titleKey': titleKey,
       'hint': hint,
       'category': category,
       'answers': answers.map((answer) => answer.toJson()).toList(),
@@ -95,6 +100,7 @@ class Level {
     return Level(
       id: json['id'],
       title: json['title'],
+      titleKey: json['titleKey'],
       hint: json['hint'],
       category: json['category'],
       answers: parsedAnswers,
