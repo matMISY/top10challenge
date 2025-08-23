@@ -47,5 +47,15 @@ app.*.map.json
 # Data backups
 data/backup_*/
 
-# Release APK files
+# Release APK files and AAB files
 release/*.apk
+release/*.aab
+
+# Translation work files
+translations/
+
+# GitHub Pages ready files
+github-pages-ready/
+
+# ProGuard rules (generated)
+android/app/proguard-rules.pro
