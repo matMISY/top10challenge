@@ -96,7 +96,8 @@ class _GameScreenState extends State<GameScreen> {
         _searchController.clear();
       });
 
-      _gameService.saveFoundAnswersForLevel(widget.level.id, _foundAnswers);
+      // Sauvegarder les réponses et attendre que ce soit terminé avant de continuer
+      await _gameService.saveFoundAnswersForLevel(widget.level.id, _foundAnswers);
 
       // Afficher feedback de bonne réponse
       FeedbackService.showSuccess(context, AppLocalizations.of(context)!.correctAnswerWithName(correctAnswer));
