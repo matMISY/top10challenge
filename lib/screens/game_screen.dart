@@ -127,9 +127,12 @@ class _GameScreenState extends State<GameScreen> {
   }
 
   void _onLevelCompleted() {
+    // D'abord marquer le niveau comme complété pour éviter la perte de données
+    context.read<GameProvider>().completeLevel(widget.level.id);
+    
+    // Ensuite effacer les données temporaires du niveau
     _gameService.clearFoundAnswersForLevel(widget.level.id);
     _gameService.clearRevealedHintsForLevel(widget.level.id);
-    context.read<GameProvider>().completeLevel(widget.level.id);
     
     // Calculer les points gagnés
     final hintPointsGained = HintConfig.getPointsForDifficulty(widget.level.difficulty);
