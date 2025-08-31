@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:top10challenge/providers/game_provider.dart';
-import 'package:top10challenge/models/game_state.dart';
+import 'package:lazypanda_top10_challenge/providers/game_provider.dart';
+import 'package:lazypanda_top10_challenge/models/game_state.dart';
 
 class TestHelpers {
   /// Create a test app wrapper with necessary providers

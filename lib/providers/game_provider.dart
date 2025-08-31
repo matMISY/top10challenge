@@ -4,6 +4,7 @@ import '../models/game_state.dart';
 import '../models/level.dart';
 import '../models/tier.dart';
 import '../config/hint_config.dart';
+import '../utils/debug_config.dart';
 import '../services/game_service.dart';
 import '../services/ads_service.dart';
 import '../services/money_time_service.dart';
@@ -69,6 +70,9 @@ class GameProvider with ChangeNotifier {
     try {
       final stopwatch = Stopwatch()..start();
       debugPrint('🚀 Starting GameProvider initialization...');
+      
+      // Afficher les informations de build
+      DebugConfig.printBuildInfo();
       
       // Initialiser seulement les services critiques
       debugPrint('📂 Initializing critical services...');

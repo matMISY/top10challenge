@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
-import 'package:top10challenge/widgets/money_time_indicator.dart';
-import 'package:top10challenge/widgets/money_time_shield_effect.dart';
-import 'package:top10challenge/providers/game_provider.dart';
-import 'package:top10challenge/models/game_state.dart';
+import 'package:lazypanda_top10_challenge/widgets/money_time_indicator.dart';
+import 'package:lazypanda_top10_challenge/widgets/money_time_shield_effect.dart';
+import 'package:lazypanda_top10_challenge/providers/game_provider.dart';
+import 'package:lazypanda_top10_challenge/models/game_state.dart';
 
 import '../helpers/test_helpers.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:top10_challenge/models/game_state.dart';
+import 'package:lazypanda_top10_challenge/models/game_state.dart';
 
 void main() {
   group('GameState Money Time Tests', () {

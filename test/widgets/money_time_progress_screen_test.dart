@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
-import 'package:top10_challenge/providers/game_provider.dart';
-import 'package:top10_challenge/widgets/money_time_progress_screen.dart';
-import 'package:top10_challenge/models/game_state.dart';
+import 'package:lazypanda_top10_challenge/providers/game_provider.dart';
+import 'package:lazypanda_top10_challenge/widgets/money_time_progress_screen.dart';
+import 'package:lazypanda_top10_challenge/models/game_state.dart';
 
 class MockGameProvider extends ChangeNotifier implements GameProvider {
   GameState _gameState = GameState();

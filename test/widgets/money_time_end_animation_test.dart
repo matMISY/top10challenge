@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:top10challenge/widgets/money_time_end_animation.dart';
+import 'package:lazypanda_top10_challenge/widgets/money_time_end_animation.dart';
 
 import '../helpers/test_helpers.dart';
 

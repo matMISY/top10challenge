@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:top10_challenge/widgets/money_time_selection_dialog.dart';
-import 'package:top10_challenge/config/money_time_config.dart';
+import 'package:lazypanda_top10_challenge/widgets/money_time_selection_dialog.dart';
+import 'package:lazypanda_top10_challenge/config/money_time_config.dart';
 
 void main() {
   group('MoneyTimeSelectionDialog', () {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:top10_challenge/models/game_state.dart';
-import 'package:top10_challenge/providers/game_provider.dart';
-import 'package:top10_challenge/config/money_time_config.dart';
+import 'package:lazypanda_top10_challenge/models/game_state.dart';
+import 'package:lazypanda_top10_challenge/providers/game_provider.dart';
+import 'package:lazypanda_top10_challenge/config/money_time_config.dart';
 
 /// Integration tests for GameProvider Money Time functionality
 /// Tests the interaction between GameProvider and MoneyTimeService

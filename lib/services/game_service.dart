@@ -293,16 +293,54 @@ class GameService {
     return await DataLoaderService.loadTiers();
   }
 
-  /// Charge les niveaux et tiers de manière synchronisée
+  /// Charge les niveaux et tiers de manière synchronisée en préservant les états existants
   Future<void> loadLevelsAndTiersSync() async {
     final result = await DataLoaderService.loadAllQuizzesWithTiersAndUpdate();
-    final levels = result['levels'] as List<Level>;
-    final tiers = result['tiers'] as List<Tier>;
+    final newLevels = result['levels'] as List<Level>;
+    final newTiers = result['tiers'] as List<Tier>;
     
-    await saveLevels(levels);
-    await saveTiers(tiers);
+    // Récupérer les niveaux existants pour préserver les états isCompleted et isUnlocked
+    final existingLevels = await getLevels();
+    final existingTiers = await getTiers();
     
-    debugPrint('Synchronized ${levels.length} levels and ${tiers.length} tiers');
+    // Créer une map pour un accès rapide aux états existants
+    final Map<int, Level> existingLevelMap = {
+      for (final level in existingLevels) level.id: level
+    };
+    final Map<int, Tier> existingTierMap = {
+      for (final tier in existingTiers) tier.id: tier
+    };
+    
+    // Merger les nouveaux niveaux avec les états existants
+    final mergedLevels = newLevels.map((newLevel) {
+      final existingLevel = existingLevelMap[newLevel.id];
+      if (existingLevel != null) {
+        // Préserver isCompleted et isUnlocked de l'existant
+        return newLevel.copyWith(
+          isCompleted: existingLevel.isCompleted,
+          isUnlocked: existingLevel.isUnlocked,
+        );
+      }
+      return newLevel;
+    }).toList();
+    
+    // Merger les nouveaux tiers avec les états existants
+    final mergedTiers = newTiers.map((newTier) {
+      final existingTier = existingTierMap[newTier.id];
+      if (existingTier != null) {
+        // Préserver isCompleted et isUnlocked de l'existant
+        return newTier.copyWith(
+          isCompleted: existingTier.isCompleted,
+          isUnlocked: existingTier.isUnlocked,
+        );
+      }
+      return newTier;
+    }).toList();
+    
+    await saveLevels(mergedLevels);
+    await saveTiers(mergedTiers);
+    
+    debugPrint('Synchronized ${mergedLevels.length} levels and ${mergedTiers.length} tiers (states preserved)');
   }
 
   Future<void> unlockTier(int tierId) async {
