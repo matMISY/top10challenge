@@ -159,6 +159,13 @@ class GameProvider with ChangeNotifier {
       _tiers = await _gameService.getTiers();
       debugPrint('GameProvider: Loaded ${_levels.length} levels in ${_tiers.length} tiers');
     }
+    
+    // Synchroniser les niveaux débloqués avec les paliers débloqués
+    // Cette étape assure que les niveaux restent débloqués après redémarrage
+    await _gameService.syncUnlockedLevelsWithTiers();
+    
+    // Recharger les niveaux après la synchronisation pour refléter les changements
+    _levels = await _gameService.getLevels();
   }
 
   Future<void> completeLevel(int levelId) async {

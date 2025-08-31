@@ -426,4 +426,32 @@ class GameService {
       await saveTiers(updatedTiers);
     }
   }
+
+  /// Synchronise les niveaux débloqués avec les paliers débloqués
+  /// Cette méthode assure que tous les niveaux appartenant à des paliers débloqués
+  /// sont bien marqués comme isUnlocked = true
+  Future<void> syncUnlockedLevelsWithTiers() async {
+    final gameState = await getGameState();
+    final levels = await getLevels();
+    
+    debugPrint('🔄 Synchronisation des niveaux avec les paliers débloqués: ${gameState.unlockedTiers}');
+    
+    bool needsUpdate = false;
+    final updatedLevels = levels.map((level) {
+      // Si le palier du niveau est débloqué mais le niveau ne l'est pas
+      if (gameState.unlockedTiers.contains(level.tierId) && !level.isUnlocked) {
+        debugPrint('🔓 Débloquage du niveau ${level.id} (palier ${level.tierId} débloqué)');
+        needsUpdate = true;
+        return level.copyWith(isUnlocked: true);
+      }
+      return level;
+    }).toList();
+    
+    if (needsUpdate) {
+      await saveLevels(updatedLevels);
+      debugPrint('✅ Synchronisation des niveaux terminée');
+    } else {
+      debugPrint('✅ Synchronisation des niveaux: aucune mise à jour nécessaire');
+    }
+  }
 }
