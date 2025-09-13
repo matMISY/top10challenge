@@ -32,7 +32,7 @@ void main() {
         TestHelpers.createTestApp(
           child: ChangeNotifierProvider<GameProvider>.value(
             value: gameProvider,
-            child: const MoneyTimeShieldEffect(
+            child: MoneyTimeShieldEffect(
               child: childWidget,
             ),
           ),
@@ -59,7 +59,7 @@ void main() {
         TestHelpers.createTestApp(
           child: ChangeNotifierProvider<GameProvider>.value(
             value: gameProvider,
-            child: const MoneyTimeShieldEffect(
+            child: MoneyTimeShieldEffect(
               child: childWidget,
             ),
           ),
@@ -74,7 +74,7 @@ void main() {
 
     testWidgets('should have proper shield visual elements', (WidgetTester tester) async {
       // Arrange
-      const childWidget = Container(
+      final childWidget = Container(
         width: 50,
         height: 50,
         color: Colors.blue,
@@ -91,7 +91,7 @@ void main() {
         TestHelpers.createTestApp(
           child: ChangeNotifierProvider<GameProvider>.value(
             value: gameProvider,
-            child: const MoneyTimeShieldEffect(
+            child: MoneyTimeShieldEffect(
               child: childWidget,
             ),
           ),
@@ -123,7 +123,7 @@ void main() {
         TestHelpers.createTestApp(
           child: ChangeNotifierProvider<GameProvider>.value(
             value: gameProvider,
-            child: const MoneyTimeShieldEffect(
+            child: MoneyTimeShieldEffect(
               child: childWidget,
             ),
           ),
@@ -186,7 +186,7 @@ void main() {
         TestHelpers.createTestApp(
           child: ChangeNotifierProvider<GameProvider>.value(
             value: gameProvider,
-            child: const MoneyTimeShieldEffect(
+            child: MoneyTimeShieldEffect(
               child: childWidget,
             ),
           ),

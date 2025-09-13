@@ -4,6 +4,10 @@ import 'package:provider/provider.dart';
 import 'package:lazypanda_top10_challenge/providers/game_provider.dart';
 import 'package:lazypanda_top10_challenge/widgets/money_time_progress_screen.dart';
 import 'package:lazypanda_top10_challenge/models/game_state.dart';
+import 'package:lazypanda_top10_challenge/models/level.dart';
+import 'package:lazypanda_top10_challenge/models/tier.dart';
+import 'package:lazypanda_top10_challenge/services/game_service.dart';
+import 'package:lazypanda_top10_challenge/services/money_time_service.dart';
 
 class MockGameProvider extends ChangeNotifier implements GameProvider {
   GameState _gameState = GameState();
@@ -23,7 +27,7 @@ class MockGameProvider extends ChangeNotifier implements GameProvider {
   }
 
   @override
-  dynamic get moneyTimeService => MockMoneyTimeService(_isActivationInProgress);
+  MoneyTimeService get moneyTimeService => throw UnimplementedError();
 
   // Mock implementations of commonly used methods
   @override
@@ -33,13 +37,13 @@ class MockGameProvider extends ChangeNotifier implements GameProvider {
   bool get isWatchingAd => false;
 
   @override
-  List get levels => [];
+  List<Level> get levels => [];
 
   @override
-  List get tiers => [];
+  List<Tier> get tiers => [];
 
   @override
-  dynamic get gameService => null;
+  GameService get gameService => throw UnimplementedError();
 
   // Use noSuchMethod for all other methods to avoid implementing everything
   @override
